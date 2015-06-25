@@ -1,0 +1,965 @@
+#SYMBOLS
+Index	Identifier	Type	Flag	Data	Size	RefCount
+0	wdr	10	1	0	4	2
+1	prev_deg_a	6	1	4	4	2
+2	ewr_D	10	1	8	4	2
+3	errt	10	1	12	4	7
+4	acum_errt	10	1	16	4	2
+5	wr	10	1	20	4	2
+6	dr	10	1	24	4	5
+7	ewl_D	10	1	28	4	2
+8	dl	10	1	32	4	5
+9	__ws_7qG2_deg_a_7qG2_000	6	1	36	4	3
+10	wl	10	1	40	4	2
+11	wdl	10	1	44	4	2
+12	prev_deg_c	6	1	48	4	2
+13	prev_tick	6	1	52	4	2
+14	xc	10	1	56	4	2
+15	yc	10	1	60	4	2
+16	acum_erl	10	1	64	4	3
+17	dt	6	1	68	4	5
+18	tempo_inicial	6	1	72	4	2
+19	vd	10	1	76	4	3
+20	xr	10	1	80	4	3
+21	yr	10	1	84	4	3
+22	tetar	10	1	88	4	5
+23	wd	10	1	92	4	5
+24	wdi	10	1	96	4	2
+25	tetad	10	1	100	4	2
+26	__ws_7qG2_deg_c_7qG2_000	6	1	104	4	3
+27	__control_pos_7qG2_aux_7qG2_000	10	1	108	4	3
+28	__control_pos_7qG2_xd_7qG2_000	10	1	112	4	2
+29	__control_pos_7qG2_yd_7qG2_000	10	1	116	4	2
+30	__cos_7qG2_x_7qG2_000_inline_control_pos	10	1	120	4	6
+31	__sin_7qG2_x_7qG2_000_inline_control_pos	10	1	124	4	6
+32	__control_pos_7qG2_tempo_corrido_7qG2_000	6	1	128	4	2
+33	__control_pos_7qG2_errx_7qG2_000	10	1	132	4	3
+34	__constValf0P1	10	0	136	4	1
+35	__constValf0P5	10	0	140	4	1
+36	__constValf0P25	10	0	144	4	2
+37	__control_pos_7qG2_erry_7qG2_000	10	1	148	4	3
+38	__atan2_7qG2_y_7qG2_000_inline_control_pos	10	1	152	4	4
+39	__atan2_7qG2_x_7qG2_000_inline_control_pos	10	1	156	4	4
+40	__w_rodas_7qG2_periodo_7qG2_000	10	1	160	4	3
+41	__constValf6P283186	10	0	164	4	1
+42	__constValf0P15	10	0	168	4	3
+43	__constValf17P45	10	0	172	4	2
+44	__constValf3P141593	10	0	176	4	2
+45	__constValf0P0287	10	0	180	4	2
+46	__constValf0P105	10	0	184	4	3
+47	__control_motor_7qG2_cr_7qG2_000	10	1	188	4	6
+48	__constValf0P2	10	0	192	4	5
+49	__control_motor_7qG2_cl_7qG2_000	10	1	196	4	6
+50	__constValf0P0574	10	0	200	4	2
+51	__control_motor_7qG2_ewr_7qG2_000	10	1	204	4	7
+52	__control_motor_7qG2_ewl_7qG2_000	10	1	208	4	7
+53	acum_err	10	1	212	4	3
+54	__unsigned_stack_001control_pos	5	1	216	4	2
+55	__float_stack_002control_motor	10	1	220	4	16
+56	__float_stack_001control_pos	10	1	224	4	12
+57	__signed_stack_001main	6	1	228	4	2
+58	__float_stack_002control_pos	10	1	232	4	16
+59	__float_stack_001control_motor	10	1	236	4	24
+60	__D0main	6	1	240	4	9
+61	__DF0control_pos	10	1	244	4	26
+62	__DF0control_motor	10	1	248	4	32
+63	__DF0ws	10	1	252	4	4
+64	__DF0w_rodas	10	1	256	4	4
+65	__FOMutex	9	0	260	4	4
+66	__D0control_motor	6	1	264	4	5
+67	__float_stack_002ws	10	1	268	4	8
+68	T	10	0	272	4	2
+69	__FWriteMutex	9	0	276	4	4
+70	__float_stack_001w_rodas	10	1	280	4	8
+71	__unsigned_stack_001main	5	1	284	4	2
+72	__signed_stack_001ws	6	1	288	4	4
+73	__float_stack_001ws	10	1	292	4	8
+74	__signed_stack_002ws	6	1	296	4	4
+75	__constVal360	4	0	300	2	2
+76	__main_7qG2_t_7qG2_001	4	1	302	2	4
+77	t_amostral	4	0	304	2	1
+78	k	4	0	306	2	1
+79	__constVal6144	4	0	308	2	2
+80	__constVal96	2	0	310	1	2
+81	__constVal63	2	0	311	1	2
+82	__constVal1	2	0	312	1	7
+83	__constValNeg100	2	0	313	1	4
+84	__constVal100	2	0	314	1	4
+85	____initialize_global_data_return	1	1	315	1	3
+86	__control_pos_return	1	1	316	1	3
+87	__constVal5	2	0	317	1	1
+88	__constVal3	2	0	318	1	2
+89	__constVal0	2	1	319	1	9
+90	__constVal10	2	0	320	1	2
+91	__constVal32	2	0	321	1	6
+92	__constVal2	2	0	322	1	9
+93	__control_motor_return	1	1	323	1	3
+94	__ws_return	1	1	324	1	3
+95	__zfcontrol_motor	1	1	325	1	12
+96	__w_rodas_return	1	1	326	1	4
+97	fileHandle	1	1	327	1	3
+98	fileHandle2	1	1	328	1	3
+99	__zfmain	1	1	329	1	3
+100	__FDArgs	8	0	2	8	6
+101	__FDArgs.Result	3	1	332	2	6
+102	__FDArgs.Filename	7	0	334	4	6
+103	__FDArgs.Filename.Filename_type	1	0	0	1	0
+104	__FWriteArgs	8	0	4	12	11
+105	__FWriteArgs.Result	3	1	336	2	11
+106	__FWriteArgs.FileHandle	1	1	338	1	11
+107	__FWriteArgs.Buffer	7	0	340	4	11
+108	__FWriteArgs.Buffer.Buffer_type	1	0	0	1	0
+109	__FWriteArgs.Length	5	1	344	4	11
+110	__FOArgs	8	0	4	12	10
+111	__FOArgs.Result	3	1	348	2	10
+112	__FOArgs.FileHandle	1	1	350	1	10
+113	__FOArgs.Filename	7	0	352	4	10
+114	__FOArgs.Filename.Filename_type	1	0	0	1	0
+115	__FOArgs.Length	5	1	356	4	10
+116	__FCArgs	8	0	2	4	6
+117	__FCArgs.Result	3	1	360	2	6
+118	__FCArgs.FileHandle	1	1	362	1	6
+119	__control_pos_7qG2_write2_7qG2_000	7	0	364	4	2
+120	__control_pos_7qG2_write2_7qG2_000.__control_pos_7qG2_write2_7qG2_000_type	1	0	0	1	0
+121	__strretvalcontrol_pos	7	0	366	4	8
+122	__strretvalcontrol_pos.__strretvalcontrol_pos_type	1	0	0	1	0
+123	__strretvalcontrol_motor	7	0	368	4	6
+124	__strretvalcontrol_motor.__strretvalcontrol_motor_type	1	0	0	1	0
+125	__strbufcontrol_pos	7	0	370	4	12
+126	__strbufcontrol_pos.__strbufcontrol_pos_type	1	0	0	1	0
+127	__constStr0010	7	0	372	4	2
+128	__constStr0010.__constStr0010_type	1	1	0	1	0
+129	__ArrHelper__control_motor_244_1	7	0	374	4	2
+130	__ArrHelper__control_motor_244_1.__ArrHelper__control_motor_244_1_type	1	0	0	1	0
+131	__ArrHelper__control_motor_244_0	7	0	376	4	2
+132	__ArrHelper__control_motor_244_0.__ArrHelper__control_motor_244_0_type	1	0	0	1	0
+133	__ArrHelper__control_motor_244_2	7	0	378	4	2
+134	__ArrHelper__control_motor_244_2.__ArrHelper__control_motor_244_2_type	1	0	0	1	0
+135	__constStr0011	7	0	380	4	2
+136	__constStr0011.__constStr0011_type	1	1	0	1	0
+137	__strbufcontrol_motor	7	0	382	4	8
+138	__strbufcontrol_motor.__strbufcontrol_motor_type	1	0	0	1	0
+139	__ArrHelper__control_pos_244_3	7	0	384	4	2
+140	__ArrHelper__control_pos_244_3.__ArrHelper__control_pos_244_3_type	1	0	0	1	0
+141	__constStr0009	7	0	386	4	3
+142	__constStr0009.__constStr0009_type	1	1	0	1	0
+143	__FWriteFlattenBuf	7	0	388	4	4
+144	__FWriteFlattenBuf.__FWriteFlattenBuf_type	1	0	0	1	0
+145	__ArrHelper__control_pos_244_2	7	0	390	4	2
+146	__ArrHelper__control_pos_244_2.__ArrHelper__control_pos_244_2_type	1	0	0	1	0
+147	__control_motor_7qG2_write_7qG2_000	7	0	392	4	2
+148	__control_motor_7qG2_write_7qG2_000.__control_motor_7qG2_write_7qG2_000_type	1	0	0	1	0
+149	__ArrHelper__control_pos_244_0	7	0	394	4	2
+150	__ArrHelper__control_pos_244_0.__ArrHelper__control_pos_244_0_type	1	0	0	1	0
+151	__FWriteLn	7	0	396	4	2
+152	__FWriteLn.__FWriteLn_type	1	0	0	1	0
+153	__ArrHelper__control_pos_244_1	7	0	398	4	2
+154	__ArrHelper__control_pos_244_1.__ArrHelper__control_pos_244_1_type	1	0	0	1	0
+155	__ArrHelper__control_pos_244_4	7	0	400	4	2
+156	__ArrHelper__control_pos_244_4.__ArrHelper__control_pos_244_4_type	1	0	0	1	0
+#SOURCES
+Clump	Line	PC	Source
+0	221	0	#line 221 "C:\Users\mariana\AppData\Local\Temp\temp.nxc"
+0	222	0		subcall __initialize_global_data, ____initialize_global_data_return
+0	221	2	#line 221 "C:\Users\mariana\AppData\Local\Temp\temp.nxc"
+0	221	2	#line 221 "C:\Users\mariana\AppData\Local\Temp\temp.nxc"
+0	221	2	#line 221 "C:\Users\mariana\AppData\Local\Temp\temp.nxc"
+0	222	2		mov __w_rodas_7qG2_periodo_7qG2_000, __constVal5
+0	222	4	#line 222 "C:\Users\mariana\AppData\Local\Temp\temp.nxc"
+0	223	4		subcall w_rodas, __w_rodas_return
+0	222	6	#line 222 "C:\Users\mariana\AppData\Local\Temp\temp.nxc"
+0	223	6	#line 223 "C:\Users\mariana\AppData\Local\Temp\temp.nxc"
+0	224	6		mov wdi, wd
+0	223	8	#line 223 "C:\Users\mariana\AppData\Local\Temp\temp.nxc"
+0	223	8	#line 223 "C:\Users\mariana\AppData\Local\Temp\temp.nxc"
+0	224	8	#line 224 "C:\Users\mariana\AppData\Local\Temp\temp.nxc"
+0	224	8	#line 224 "C:\Users\mariana\AppData\Local\Temp\temp.nxc"
+0	224	8	#line 224 "C:\Users\mariana\AppData\Local\Temp\temp.nxc"
+0	225	8	#line 225 "C:\Users\mariana\AppData\Local\Temp\temp.nxc"
+0	225	8	#line 225 "C:\Users\mariana\AppData\Local\Temp\temp.nxc"
+0	225	8	#line 225 "C:\Users\mariana\AppData\Local\Temp\temp.nxc"
+0	226	8	#line 226 "C:\Users\mariana\AppData\Local\Temp\temp.nxc"
+0	226	8	#line 226 "C:\Users\mariana\AppData\Local\Temp\temp.nxc"
+0	226	8	#line 226 "C:\Users\mariana\AppData\Local\Temp\temp.nxc"
+0	226	8	#line 226 "C:\Users\mariana\AppData\Local\Temp\temp.nxc"
+0	227	8	#pragma macro 5
+0	227	8		mov __FDArgs.Filename, __constStr0010
+0	227	10		syscall 8, __FDArgs
+0	227	13		mov __D0main, __FDArgs.Result
+0	7637	15	#line 7637 "C:\Users\mariana\AppData\Local\Temp\temp.nxc"
+0	226	15	#line 226 "C:\Users\mariana\AppData\Local\Temp\temp.nxc"
+0	226	15	#line 226 "C:\Users\mariana\AppData\Local\Temp\temp.nxc"
+0	227	15	#line 227 "C:\Users\mariana\AppData\Local\Temp\temp.nxc"
+0	228	15	#pragma macro 7
+0	228	15		acquire __FOMutex
+0	228	16		mov __FOArgs.Filename, __constStr0010
+0	228	18		mov __FOArgs.Length, __constVal6144
+0	228	20		syscall 1, __FOArgs
+0	228	23		mov fileHandle, __FOArgs.FileHandle
+0	228	25		mov __D0main, __FOArgs.Result
+0	228	27		release __FOMutex
+0	7641	28	#line 7641 "C:\Users\mariana\AppData\Local\Temp\temp.nxc"
+0	227	28	#line 227 "C:\Users\mariana\AppData\Local\Temp\temp.nxc"
+0	227	28	#line 227 "C:\Users\mariana\AppData\Local\Temp\temp.nxc"
+0	228	28	#line 228 "C:\Users\mariana\AppData\Local\Temp\temp.nxc"
+0	229	28	#pragma macro 5
+0	229	28		mov __FDArgs.Filename, __constStr0011
+0	229	30		syscall 8, __FDArgs
+0	229	33		mov __D0main, __FDArgs.Result
+0	7645	35	#line 7645 "C:\Users\mariana\AppData\Local\Temp\temp.nxc"
+0	228	35	#line 228 "C:\Users\mariana\AppData\Local\Temp\temp.nxc"
+0	228	35	#line 228 "C:\Users\mariana\AppData\Local\Temp\temp.nxc"
+0	229	35	#line 229 "C:\Users\mariana\AppData\Local\Temp\temp.nxc"
+0	230	35	#pragma macro 7
+0	230	35		acquire __FOMutex
+0	230	36		mov __FOArgs.Filename, __constStr0011
+0	230	38		mov __FOArgs.Length, __constVal6144
+0	230	40		syscall 1, __FOArgs
+0	230	43		mov fileHandle2, __FOArgs.FileHandle
+0	230	45		mov __D0main, __FOArgs.Result
+0	230	47		release __FOMutex
+0	7649	48	#line 7649 "C:\Users\mariana\AppData\Local\Temp\temp.nxc"
+0	229	48	#line 229 "C:\Users\mariana\AppData\Local\Temp\temp.nxc"
+0	229	48	#line 229 "C:\Users\mariana\AppData\Local\Temp\temp.nxc"
+0	230	48	#line 230 "C:\Users\mariana\AppData\Local\Temp\temp.nxc"
+0	231	48		gettick tempo_inicial
+0	230	50	#line 230 "C:\Users\mariana\AppData\Local\Temp\temp.nxc"
+0	230	50	#line 230 "C:\Users\mariana\AppData\Local\Temp\temp.nxc"
+0	230	50	#line 230 "C:\Users\mariana\AppData\Local\Temp\temp.nxc"
+0	232	50	#line 232 "C:\Users\mariana\AppData\Local\Temp\temp.nxc"
+0	233	50		mov xc, __constValf0P25
+0	232	52	#line 232 "C:\Users\mariana\AppData\Local\Temp\temp.nxc"
+0	232	52	#line 232 "C:\Users\mariana\AppData\Local\Temp\temp.nxc"
+0	234	52	#line 234 "C:\Users\mariana\AppData\Local\Temp\temp.nxc"
+0	235	52		mov yc, __constValf0P25
+0	234	54	#line 234 "C:\Users\mariana\AppData\Local\Temp\temp.nxc"
+0	234	54	#line 234 "C:\Users\mariana\AppData\Local\Temp\temp.nxc"
+0	234	54	#line 234 "C:\Users\mariana\AppData\Local\Temp\temp.nxc"
+0	235	54		set __main_7qG2_t_7qG2_001, 0
+0	234	57	#line 234 "C:\Users\mariana\AppData\Local\Temp\temp.nxc"
+0	234	57	#line 234 "C:\Users\mariana\AppData\Local\Temp\temp.nxc"
+0	235	57		mov __signed_stack_001main, __main_7qG2_t_7qG2_001
+0	234	59	#line 234 "C:\Users\mariana\AppData\Local\Temp\temp.nxc"
+0	234	59	#line 234 "C:\Users\mariana\AppData\Local\Temp\temp.nxc"
+0	235	59		mov __D0main, k
+0	234	61	#line 234 "C:\Users\mariana\AppData\Local\Temp\temp.nxc"
+0	235	61		cmp 0, __zfmain, __signed_stack_001main, __D0main
+0	234	65	#line 234 "C:\Users\mariana\AppData\Local\Temp\temp.nxc"
+0	235	65		mov __D0main, __zfmain
+0	234	67	#line 234 "C:\Users\mariana\AppData\Local\Temp\temp.nxc"
+0	235	67		brtst 4, __NXC_Label_767, __zfmain
+0	234	70	#line 234 "C:\Users\mariana\AppData\Local\Temp\temp.nxc"
+0	235	70		jmp __NXC_Label_768
+0	234	72	#line 234 "C:\Users\mariana\AppData\Local\Temp\temp.nxc"
+0	235	72		add __main_7qG2_t_7qG2_001, __main_7qG2_t_7qG2_001, __constVal1
+0	235	76	#line 235 "C:\Users\mariana\AppData\Local\Temp\temp.nxc"
+0	236	76		jmp __NXC_Label_766
+0	235	78	#line 235 "C:\Users\mariana\AppData\Local\Temp\temp.nxc"
+0	236	78		gettick prev_tick
+0	235	80	#line 235 "C:\Users\mariana\AppData\Local\Temp\temp.nxc"
+0	235	80	#line 235 "C:\Users\mariana\AppData\Local\Temp\temp.nxc"
+0	235	80	#line 235 "C:\Users\mariana\AppData\Local\Temp\temp.nxc"
+0	237	80	#line 237 "C:\Users\mariana\AppData\Local\Temp\temp.nxc"
+0	238	80		subcall control_pos, __control_pos_return
+0	237	82	#line 237 "C:\Users\mariana\AppData\Local\Temp\temp.nxc"
+0	238	82	#line 238 "C:\Users\mariana\AppData\Local\Temp\temp.nxc"
+0	239	82		subcall control_motor, __control_motor_return
+0	238	84	#line 238 "C:\Users\mariana\AppData\Local\Temp\temp.nxc"
+0	238	84	#line 238 "C:\Users\mariana\AppData\Local\Temp\temp.nxc"
+0	238	84	#line 238 "C:\Users\mariana\AppData\Local\Temp\temp.nxc"
+0	7921	84	#line 7921 "NXCDefs.h"
+0	7922	84		waitv t_amostral
+0	7921	86	#line 7921 "NXCDefs.h"
+0	239	86	#line 239 "C:\Users\mariana\AppData\Local\Temp\temp.nxc"
+0	239	86	#line 239 "C:\Users\mariana\AppData\Local\Temp\temp.nxc"
+0	240	86		gettick __unsigned_stack_001main
+0	239	88	#line 239 "C:\Users\mariana\AppData\Local\Temp\temp.nxc"
+0	240	88	#line 240 "C:\Users\mariana\AppData\Local\Temp\temp.nxc"
+0	240	88	#line 240 "C:\Users\mariana\AppData\Local\Temp\temp.nxc"
+0	241	88		sub dt, __unsigned_stack_001main, prev_tick
+0	240	92	#line 240 "C:\Users\mariana\AppData\Local\Temp\temp.nxc"
+0	240	92	#line 240 "C:\Users\mariana\AppData\Local\Temp\temp.nxc"
+0	240	92	#line 240 "C:\Users\mariana\AppData\Local\Temp\temp.nxc"
+0	241	92	#line 241 "C:\Users\mariana\AppData\Local\Temp\temp.nxc"
+0	242	92		jmp __NXC_Label_769
+0	241	94	#line 241 "C:\Users\mariana\AppData\Local\Temp\temp.nxc"
+0	241	94	#line 241 "C:\Users\mariana\AppData\Local\Temp\temp.nxc"
+0	242	94	#pragma macro 5
+0	242	94		mov __FCArgs.FileHandle, fileHandle
+0	242	96		syscall 5, __FCArgs
+0	242	99		mov __D0main, __FCArgs.Result
+0	7754	101	#line 7754 "C:\Users\mariana\AppData\Local\Temp\temp.nxc"
+0	241	101	#line 241 "C:\Users\mariana\AppData\Local\Temp\temp.nxc"
+0	241	101	#line 241 "C:\Users\mariana\AppData\Local\Temp\temp.nxc"
+0	242	101	#line 242 "C:\Users\mariana\AppData\Local\Temp\temp.nxc"
+0	243	101	#pragma macro 5
+0	243	101		mov __FCArgs.FileHandle, fileHandle2
+0	243	103		syscall 5, __FCArgs
+0	243	106		mov __D0main, __FCArgs.Result
+0	7758	108	#line 7758 "C:\Users\mariana\AppData\Local\Temp\temp.nxc"
+0	242	108	#line 242 "C:\Users\mariana\AppData\Local\Temp\temp.nxc"
+0	242	108	#line 242 "C:\Users\mariana\AppData\Local\Temp\temp.nxc"
+0	243	108		exit -1, -1
+1	119	0	#line 119 "C:\Users\mariana\AppData\Local\Temp\temp.nxc"
+1	120	0		getout __signed_stack_001ws, __constVal0, 14
+1	119	4	#line 119 "C:\Users\mariana\AppData\Local\Temp\temp.nxc"
+1	120	4	#line 120 "C:\Users\mariana\AppData\Local\Temp\temp.nxc"
+1	120	4	#line 120 "C:\Users\mariana\AppData\Local\Temp\temp.nxc"
+1	121	4		sub __ws_7qG2_deg_a_7qG2_000, __signed_stack_001ws, prev_deg_a
+1	120	8	#line 120 "C:\Users\mariana\AppData\Local\Temp\temp.nxc"
+1	120	8	#line 120 "C:\Users\mariana\AppData\Local\Temp\temp.nxc"
+1	121	8		getout __signed_stack_001ws, __constVal2, 14
+1	120	12	#line 120 "C:\Users\mariana\AppData\Local\Temp\temp.nxc"
+1	121	12	#line 121 "C:\Users\mariana\AppData\Local\Temp\temp.nxc"
+1	121	12	#line 121 "C:\Users\mariana\AppData\Local\Temp\temp.nxc"
+1	122	12		sub __ws_7qG2_deg_c_7qG2_000, __signed_stack_001ws, prev_deg_c
+1	121	16	#line 121 "C:\Users\mariana\AppData\Local\Temp\temp.nxc"
+1	121	16	#line 121 "C:\Users\mariana\AppData\Local\Temp\temp.nxc"
+1	121	16	#line 121 "C:\Users\mariana\AppData\Local\Temp\temp.nxc"
+1	121	16	#line 121 "C:\Users\mariana\AppData\Local\Temp\temp.nxc"
+1	121	16	#line 121 "C:\Users\mariana\AppData\Local\Temp\temp.nxc"
+1	122	16		mul __float_stack_001ws, __ws_7qG2_deg_a_7qG2_000, __constValf17P45
+1	121	20	#line 121 "C:\Users\mariana\AppData\Local\Temp\temp.nxc"
+1	122	20	#line 122 "C:\Users\mariana\AppData\Local\Temp\temp.nxc"
+1	122	20	#line 122 "C:\Users\mariana\AppData\Local\Temp\temp.nxc"
+1	123	20		div wr, __float_stack_001ws, dt
+1	122	24	#line 122 "C:\Users\mariana\AppData\Local\Temp\temp.nxc"
+1	122	24	#line 122 "C:\Users\mariana\AppData\Local\Temp\temp.nxc"
+1	122	24	#line 122 "C:\Users\mariana\AppData\Local\Temp\temp.nxc"
+1	123	24		mov __float_stack_001ws, dr
+1	122	26	#line 122 "C:\Users\mariana\AppData\Local\Temp\temp.nxc"
+1	122	26	#line 122 "C:\Users\mariana\AppData\Local\Temp\temp.nxc"
+1	122	26	#line 122 "C:\Users\mariana\AppData\Local\Temp\temp.nxc"
+1	122	26	#line 122 "C:\Users\mariana\AppData\Local\Temp\temp.nxc"
+1	122	26	#line 122 "C:\Users\mariana\AppData\Local\Temp\temp.nxc"
+1	123	26		mul __signed_stack_002ws, __ws_7qG2_deg_a_7qG2_000, __constVal2
+1	122	30	#line 122 "C:\Users\mariana\AppData\Local\Temp\temp.nxc"
+1	122	30	#line 122 "C:\Users\mariana\AppData\Local\Temp\temp.nxc"
+1	122	30	#line 122 "C:\Users\mariana\AppData\Local\Temp\temp.nxc"
+1	123	30		mul __float_stack_002ws, __signed_stack_002ws, __constValf3P141593
+1	122	34	#line 122 "C:\Users\mariana\AppData\Local\Temp\temp.nxc"
+1	122	34	#line 122 "C:\Users\mariana\AppData\Local\Temp\temp.nxc"
+1	122	34	#line 122 "C:\Users\mariana\AppData\Local\Temp\temp.nxc"
+1	123	34		mul __float_stack_002ws, __float_stack_002ws, __constValf0P0287
+1	122	38	#line 122 "C:\Users\mariana\AppData\Local\Temp\temp.nxc"
+1	123	38	#line 123 "C:\Users\mariana\AppData\Local\Temp\temp.nxc"
+1	123	38	#line 123 "C:\Users\mariana\AppData\Local\Temp\temp.nxc"
+1	124	38		div __DF0ws, __float_stack_002ws, __constVal360
+1	123	42	#line 123 "C:\Users\mariana\AppData\Local\Temp\temp.nxc"
+1	124	42		add dr, __float_stack_001ws, __DF0ws
+1	123	46	#line 123 "C:\Users\mariana\AppData\Local\Temp\temp.nxc"
+1	123	46	#line 123 "C:\Users\mariana\AppData\Local\Temp\temp.nxc"
+1	123	46	#line 123 "C:\Users\mariana\AppData\Local\Temp\temp.nxc"
+1	123	46	#line 123 "C:\Users\mariana\AppData\Local\Temp\temp.nxc"
+1	123	46	#line 123 "C:\Users\mariana\AppData\Local\Temp\temp.nxc"
+1	123	46	#line 123 "C:\Users\mariana\AppData\Local\Temp\temp.nxc"
+1	124	46		mul __float_stack_001ws, __ws_7qG2_deg_c_7qG2_000, __constValf17P45
+1	123	50	#line 123 "C:\Users\mariana\AppData\Local\Temp\temp.nxc"
+1	124	50	#line 124 "C:\Users\mariana\AppData\Local\Temp\temp.nxc"
+1	124	50	#line 124 "C:\Users\mariana\AppData\Local\Temp\temp.nxc"
+1	125	50		div wl, __float_stack_001ws, dt
+1	124	54	#line 124 "C:\Users\mariana\AppData\Local\Temp\temp.nxc"
+1	124	54	#line 124 "C:\Users\mariana\AppData\Local\Temp\temp.nxc"
+1	124	54	#line 124 "C:\Users\mariana\AppData\Local\Temp\temp.nxc"
+1	125	54		mov __float_stack_001ws, dl
+1	124	56	#line 124 "C:\Users\mariana\AppData\Local\Temp\temp.nxc"
+1	124	56	#line 124 "C:\Users\mariana\AppData\Local\Temp\temp.nxc"
+1	124	56	#line 124 "C:\Users\mariana\AppData\Local\Temp\temp.nxc"
+1	124	56	#line 124 "C:\Users\mariana\AppData\Local\Temp\temp.nxc"
+1	124	56	#line 124 "C:\Users\mariana\AppData\Local\Temp\temp.nxc"
+1	125	56		mul __signed_stack_002ws, __ws_7qG2_deg_c_7qG2_000, __constVal2
+1	124	60	#line 124 "C:\Users\mariana\AppData\Local\Temp\temp.nxc"
+1	124	60	#line 124 "C:\Users\mariana\AppData\Local\Temp\temp.nxc"
+1	124	60	#line 124 "C:\Users\mariana\AppData\Local\Temp\temp.nxc"
+1	125	60		mul __float_stack_002ws, __signed_stack_002ws, __constValf3P141593
+1	124	64	#line 124 "C:\Users\mariana\AppData\Local\Temp\temp.nxc"
+1	124	64	#line 124 "C:\Users\mariana\AppData\Local\Temp\temp.nxc"
+1	124	64	#line 124 "C:\Users\mariana\AppData\Local\Temp\temp.nxc"
+1	125	64		mul __float_stack_002ws, __float_stack_002ws, __constValf0P0287
+1	124	68	#line 124 "C:\Users\mariana\AppData\Local\Temp\temp.nxc"
+1	125	68	#line 125 "C:\Users\mariana\AppData\Local\Temp\temp.nxc"
+1	125	68	#line 125 "C:\Users\mariana\AppData\Local\Temp\temp.nxc"
+1	126	68		div __DF0ws, __float_stack_002ws, __constVal360
+1	125	72	#line 125 "C:\Users\mariana\AppData\Local\Temp\temp.nxc"
+1	126	72		add dl, __float_stack_001ws, __DF0ws
+1	125	76	#line 125 "C:\Users\mariana\AppData\Local\Temp\temp.nxc"
+1	125	76	#line 125 "C:\Users\mariana\AppData\Local\Temp\temp.nxc"
+1	126	76	#line 126 "C:\Users\mariana\AppData\Local\Temp\temp.nxc"
+1	127	76		getout prev_deg_a, __constVal0, 14
+1	126	80	#line 126 "C:\Users\mariana\AppData\Local\Temp\temp.nxc"
+1	126	80	#line 126 "C:\Users\mariana\AppData\Local\Temp\temp.nxc"
+1	127	80	#line 127 "C:\Users\mariana\AppData\Local\Temp\temp.nxc"
+1	128	80		getout prev_deg_c, __constVal2, 14
+1	127	84	#line 127 "C:\Users\mariana\AppData\Local\Temp\temp.nxc"
+1	127	84	#line 127 "C:\Users\mariana\AppData\Local\Temp\temp.nxc"
+1	129	84	#line 129 "C:\Users\mariana\AppData\Local\Temp\temp.nxc"
+1	130	84		subret __ws_return
+2	130	0	#line 130 "C:\Users\mariana\AppData\Local\Temp\temp.nxc"
+2	130	0	#line 130 "C:\Users\mariana\AppData\Local\Temp\temp.nxc"
+2	131	0	#line 131 "C:\Users\mariana\AppData\Local\Temp\temp.nxc"
+2	131	0	#line 131 "C:\Users\mariana\AppData\Local\Temp\temp.nxc"
+2	132	0		div wd, __constValf6P283186, __w_rodas_7qG2_periodo_7qG2_000
+2	131	4	#line 131 "C:\Users\mariana\AppData\Local\Temp\temp.nxc"
+2	131	4	#line 131 "C:\Users\mariana\AppData\Local\Temp\temp.nxc"
+2	131	4	#line 131 "C:\Users\mariana\AppData\Local\Temp\temp.nxc"
+2	131	4	#line 131 "C:\Users\mariana\AppData\Local\Temp\temp.nxc"
+2	132	4	#line 132 "C:\Users\mariana\AppData\Local\Temp\temp.nxc"
+2	132	4	#line 132 "C:\Users\mariana\AppData\Local\Temp\temp.nxc"
+2	133	4		mul vd, wd, __constValf0P15
+2	132	8	#line 132 "C:\Users\mariana\AppData\Local\Temp\temp.nxc"
+2	132	8	#line 132 "C:\Users\mariana\AppData\Local\Temp\temp.nxc"
+2	132	8	#line 132 "C:\Users\mariana\AppData\Local\Temp\temp.nxc"
+2	132	8	#line 132 "C:\Users\mariana\AppData\Local\Temp\temp.nxc"
+2	132	8	#line 132 "C:\Users\mariana\AppData\Local\Temp\temp.nxc"
+2	132	8	#line 132 "C:\Users\mariana\AppData\Local\Temp\temp.nxc"
+2	133	8		mul __float_stack_001w_rodas, __constVal2, vd
+2	132	12	#line 132 "C:\Users\mariana\AppData\Local\Temp\temp.nxc"
+2	132	12	#line 132 "C:\Users\mariana\AppData\Local\Temp\temp.nxc"
+2	132	12	#line 132 "C:\Users\mariana\AppData\Local\Temp\temp.nxc"
+2	132	12	#line 132 "C:\Users\mariana\AppData\Local\Temp\temp.nxc"
+2	132	12	#line 132 "C:\Users\mariana\AppData\Local\Temp\temp.nxc"
+2	133	12		mul __DF0w_rodas, wd, __constValf0P105
+2	132	16	#line 132 "C:\Users\mariana\AppData\Local\Temp\temp.nxc"
+2	133	16		add __float_stack_001w_rodas, __float_stack_001w_rodas, __DF0w_rodas
+2	132	20	#line 132 "C:\Users\mariana\AppData\Local\Temp\temp.nxc"
+2	132	20	#line 132 "C:\Users\mariana\AppData\Local\Temp\temp.nxc"
+2	133	20	#line 133 "C:\Users\mariana\AppData\Local\Temp\temp.nxc"
+2	134	20		div wdr, __float_stack_001w_rodas, __constValf0P0574
+2	133	24	#line 133 "C:\Users\mariana\AppData\Local\Temp\temp.nxc"
+2	133	24	#line 133 "C:\Users\mariana\AppData\Local\Temp\temp.nxc"
+2	133	24	#line 133 "C:\Users\mariana\AppData\Local\Temp\temp.nxc"
+2	133	24	#line 133 "C:\Users\mariana\AppData\Local\Temp\temp.nxc"
+2	133	24	#line 133 "C:\Users\mariana\AppData\Local\Temp\temp.nxc"
+2	133	24	#line 133 "C:\Users\mariana\AppData\Local\Temp\temp.nxc"
+2	134	24		mul __float_stack_001w_rodas, __constVal2, vd
+2	133	28	#line 133 "C:\Users\mariana\AppData\Local\Temp\temp.nxc"
+2	133	28	#line 133 "C:\Users\mariana\AppData\Local\Temp\temp.nxc"
+2	133	28	#line 133 "C:\Users\mariana\AppData\Local\Temp\temp.nxc"
+2	133	28	#line 133 "C:\Users\mariana\AppData\Local\Temp\temp.nxc"
+2	133	28	#line 133 "C:\Users\mariana\AppData\Local\Temp\temp.nxc"
+2	134	28		mul __DF0w_rodas, wd, __constValf0P105
+2	133	32	#line 133 "C:\Users\mariana\AppData\Local\Temp\temp.nxc"
+2	134	32		sub __float_stack_001w_rodas, __float_stack_001w_rodas, __DF0w_rodas
+2	133	36	#line 133 "C:\Users\mariana\AppData\Local\Temp\temp.nxc"
+2	133	36	#line 133 "C:\Users\mariana\AppData\Local\Temp\temp.nxc"
+2	134	36	#line 134 "C:\Users\mariana\AppData\Local\Temp\temp.nxc"
+2	135	36		div wdl, __float_stack_001w_rodas, __constValf0P0574
+2	134	40	#line 134 "C:\Users\mariana\AppData\Local\Temp\temp.nxc"
+2	134	40	#line 134 "C:\Users\mariana\AppData\Local\Temp\temp.nxc"
+2	136	40	#line 136 "C:\Users\mariana\AppData\Local\Temp\temp.nxc"
+2	137	40		subret __w_rodas_return
+3	139	0	#line 139 "C:\Users\mariana\AppData\Local\Temp\temp.nxc"
+3	140	0		mov __w_rodas_7qG2_periodo_7qG2_000, T
+3	139	2	#line 139 "C:\Users\mariana\AppData\Local\Temp\temp.nxc"
+3	141	2	#line 141 "C:\Users\mariana\AppData\Local\Temp\temp.nxc"
+3	142	2		subcall w_rodas, __w_rodas_return
+3	141	4	#line 141 "C:\Users\mariana\AppData\Local\Temp\temp.nxc"
+3	143	4	#line 143 "C:\Users\mariana\AppData\Local\Temp\temp.nxc"
+3	144	4		subcall ws, __ws_return
+3	143	6	#line 143 "C:\Users\mariana\AppData\Local\Temp\temp.nxc"
+3	143	6	#line 143 "C:\Users\mariana\AppData\Local\Temp\temp.nxc"
+3	143	6	#line 143 "C:\Users\mariana\AppData\Local\Temp\temp.nxc"
+3	144	6	#line 144 "C:\Users\mariana\AppData\Local\Temp\temp.nxc"
+3	144	6	#line 144 "C:\Users\mariana\AppData\Local\Temp\temp.nxc"
+3	145	6		sub __control_motor_7qG2_ewr_7qG2_000, wdr, wr
+3	144	10	#line 144 "C:\Users\mariana\AppData\Local\Temp\temp.nxc"
+3	144	10	#line 144 "C:\Users\mariana\AppData\Local\Temp\temp.nxc"
+3	144	10	#line 144 "C:\Users\mariana\AppData\Local\Temp\temp.nxc"
+3	147	10	#line 147 "C:\Users\mariana\AppData\Local\Temp\temp.nxc"
+3	147	10	#line 147 "C:\Users\mariana\AppData\Local\Temp\temp.nxc"
+3	148	10		sub __control_motor_7qG2_ewl_7qG2_000, wdl, wl
+3	147	14	#line 147 "C:\Users\mariana\AppData\Local\Temp\temp.nxc"
+3	147	14	#line 147 "C:\Users\mariana\AppData\Local\Temp\temp.nxc"
+3	147	14	#line 147 "C:\Users\mariana\AppData\Local\Temp\temp.nxc"
+3	147	14	#line 147 "C:\Users\mariana\AppData\Local\Temp\temp.nxc"
+3	147	14	#line 147 "C:\Users\mariana\AppData\Local\Temp\temp.nxc"
+3	148	14		mul __float_stack_001control_motor, __constVal10, __control_motor_7qG2_ewr_7qG2_000
+3	147	18	#line 147 "C:\Users\mariana\AppData\Local\Temp\temp.nxc"
+3	147	18	#line 147 "C:\Users\mariana\AppData\Local\Temp\temp.nxc"
+3	147	18	#line 147 "C:\Users\mariana\AppData\Local\Temp\temp.nxc"
+3	148	18		add __float_stack_001control_motor, __float_stack_001control_motor, acum_err
+3	147	22	#line 147 "C:\Users\mariana\AppData\Local\Temp\temp.nxc"
+3	147	22	#line 147 "C:\Users\mariana\AppData\Local\Temp\temp.nxc"
+3	147	22	#line 147 "C:\Users\mariana\AppData\Local\Temp\temp.nxc"
+3	147	22	#line 147 "C:\Users\mariana\AppData\Local\Temp\temp.nxc"
+3	147	22	#line 147 "C:\Users\mariana\AppData\Local\Temp\temp.nxc"
+3	148	22		mul __float_stack_002control_motor, __constVal1, __constValf0P2
+3	147	26	#line 147 "C:\Users\mariana\AppData\Local\Temp\temp.nxc"
+3	147	26	#line 147 "C:\Users\mariana\AppData\Local\Temp\temp.nxc"
+3	147	26	#line 147 "C:\Users\mariana\AppData\Local\Temp\temp.nxc"
+3	148	26		mul __DF0control_motor, __float_stack_002control_motor, __control_motor_7qG2_ewr_7qG2_000
+3	147	30	#line 147 "C:\Users\mariana\AppData\Local\Temp\temp.nxc"
+3	148	30		add __float_stack_001control_motor, __float_stack_001control_motor, __DF0control_motor
+3	147	34	#line 147 "C:\Users\mariana\AppData\Local\Temp\temp.nxc"
+3	147	34	#line 147 "C:\Users\mariana\AppData\Local\Temp\temp.nxc"
+3	148	34		mov __float_stack_002control_motor, __constVal1
+3	147	36	#line 147 "C:\Users\mariana\AppData\Local\Temp\temp.nxc"
+3	147	36	#line 147 "C:\Users\mariana\AppData\Local\Temp\temp.nxc"
+3	147	36	#line 147 "C:\Users\mariana\AppData\Local\Temp\temp.nxc"
+3	147	36	#line 147 "C:\Users\mariana\AppData\Local\Temp\temp.nxc"
+3	147	36	#line 147 "C:\Users\mariana\AppData\Local\Temp\temp.nxc"
+3	148	36		sub __DF0control_motor, __control_motor_7qG2_ewr_7qG2_000, ewr_D
+3	147	40	#line 147 "C:\Users\mariana\AppData\Local\Temp\temp.nxc"
+3	148	40		mul __float_stack_002control_motor, __float_stack_002control_motor, __DF0control_motor
+3	147	44	#line 147 "C:\Users\mariana\AppData\Local\Temp\temp.nxc"
+3	148	44	#line 148 "C:\Users\mariana\AppData\Local\Temp\temp.nxc"
+3	148	44	#line 148 "C:\Users\mariana\AppData\Local\Temp\temp.nxc"
+3	149	44		div __DF0control_motor, __float_stack_002control_motor, dt
+3	148	48	#line 148 "C:\Users\mariana\AppData\Local\Temp\temp.nxc"
+3	149	48		add __control_motor_7qG2_cr_7qG2_000, __float_stack_001control_motor, __DF0control_motor
+3	148	52	#line 148 "C:\Users\mariana\AppData\Local\Temp\temp.nxc"
+3	148	52	#line 148 "C:\Users\mariana\AppData\Local\Temp\temp.nxc"
+3	148	52	#line 148 "C:\Users\mariana\AppData\Local\Temp\temp.nxc"
+3	148	52	#line 148 "C:\Users\mariana\AppData\Local\Temp\temp.nxc"
+3	148	52	#line 148 "C:\Users\mariana\AppData\Local\Temp\temp.nxc"
+3	149	52		mul __float_stack_001control_motor, __constVal10, __control_motor_7qG2_ewl_7qG2_000
+3	148	56	#line 148 "C:\Users\mariana\AppData\Local\Temp\temp.nxc"
+3	148	56	#line 148 "C:\Users\mariana\AppData\Local\Temp\temp.nxc"
+3	148	56	#line 148 "C:\Users\mariana\AppData\Local\Temp\temp.nxc"
+3	149	56		add __float_stack_001control_motor, __float_stack_001control_motor, acum_erl
+3	148	60	#line 148 "C:\Users\mariana\AppData\Local\Temp\temp.nxc"
+3	148	60	#line 148 "C:\Users\mariana\AppData\Local\Temp\temp.nxc"
+3	148	60	#line 148 "C:\Users\mariana\AppData\Local\Temp\temp.nxc"
+3	148	60	#line 148 "C:\Users\mariana\AppData\Local\Temp\temp.nxc"
+3	148	60	#line 148 "C:\Users\mariana\AppData\Local\Temp\temp.nxc"
+3	149	60		mul __float_stack_002control_motor, __constVal1, __constValf0P2
+3	148	64	#line 148 "C:\Users\mariana\AppData\Local\Temp\temp.nxc"
+3	148	64	#line 148 "C:\Users\mariana\AppData\Local\Temp\temp.nxc"
+3	148	64	#line 148 "C:\Users\mariana\AppData\Local\Temp\temp.nxc"
+3	149	64		mul __DF0control_motor, __float_stack_002control_motor, __control_motor_7qG2_ewl_7qG2_000
+3	148	68	#line 148 "C:\Users\mariana\AppData\Local\Temp\temp.nxc"
+3	149	68		add __float_stack_001control_motor, __float_stack_001control_motor, __DF0control_motor
+3	148	72	#line 148 "C:\Users\mariana\AppData\Local\Temp\temp.nxc"
+3	148	72	#line 148 "C:\Users\mariana\AppData\Local\Temp\temp.nxc"
+3	149	72		mov __float_stack_002control_motor, __constVal1
+3	148	74	#line 148 "C:\Users\mariana\AppData\Local\Temp\temp.nxc"
+3	148	74	#line 148 "C:\Users\mariana\AppData\Local\Temp\temp.nxc"
+3	148	74	#line 148 "C:\Users\mariana\AppData\Local\Temp\temp.nxc"
+3	148	74	#line 148 "C:\Users\mariana\AppData\Local\Temp\temp.nxc"
+3	148	74	#line 148 "C:\Users\mariana\AppData\Local\Temp\temp.nxc"
+3	149	74		sub __DF0control_motor, __control_motor_7qG2_ewl_7qG2_000, ewl_D
+3	148	78	#line 148 "C:\Users\mariana\AppData\Local\Temp\temp.nxc"
+3	149	78		mul __float_stack_002control_motor, __float_stack_002control_motor, __DF0control_motor
+3	148	82	#line 148 "C:\Users\mariana\AppData\Local\Temp\temp.nxc"
+3	149	82	#line 149 "C:\Users\mariana\AppData\Local\Temp\temp.nxc"
+3	149	82	#line 149 "C:\Users\mariana\AppData\Local\Temp\temp.nxc"
+3	150	82		div __DF0control_motor, __float_stack_002control_motor, dt
+3	149	86	#line 149 "C:\Users\mariana\AppData\Local\Temp\temp.nxc"
+3	150	86		add __control_motor_7qG2_cl_7qG2_000, __float_stack_001control_motor, __DF0control_motor
+3	149	90	#line 149 "C:\Users\mariana\AppData\Local\Temp\temp.nxc"
+3	150	90	#line 150 "C:\Users\mariana\AppData\Local\Temp\temp.nxc"
+3	151	90		mov ewr_D, __control_motor_7qG2_ewr_7qG2_000
+3	150	92	#line 150 "C:\Users\mariana\AppData\Local\Temp\temp.nxc"
+3	150	92	#line 150 "C:\Users\mariana\AppData\Local\Temp\temp.nxc"
+3	154	92	#line 154 "C:\Users\mariana\AppData\Local\Temp\temp.nxc"
+3	155	92		mov ewl_D, __control_motor_7qG2_ewl_7qG2_000
+3	154	94	#line 154 "C:\Users\mariana\AppData\Local\Temp\temp.nxc"
+3	154	94	#line 154 "C:\Users\mariana\AppData\Local\Temp\temp.nxc"
+3	154	94	#line 154 "C:\Users\mariana\AppData\Local\Temp\temp.nxc"
+3	155	94		mov __float_stack_001control_motor, acum_err
+3	154	96	#line 154 "C:\Users\mariana\AppData\Local\Temp\temp.nxc"
+3	154	96	#line 154 "C:\Users\mariana\AppData\Local\Temp\temp.nxc"
+3	154	96	#line 154 "C:\Users\mariana\AppData\Local\Temp\temp.nxc"
+3	154	96	#line 154 "C:\Users\mariana\AppData\Local\Temp\temp.nxc"
+3	154	96	#line 154 "C:\Users\mariana\AppData\Local\Temp\temp.nxc"
+3	155	96		mul __float_stack_002control_motor, __constVal1, __constValf0P2
+3	154	100	#line 154 "C:\Users\mariana\AppData\Local\Temp\temp.nxc"
+3	155	100	#line 155 "C:\Users\mariana\AppData\Local\Temp\temp.nxc"
+3	155	100	#line 155 "C:\Users\mariana\AppData\Local\Temp\temp.nxc"
+3	156	100		mul __DF0control_motor, __float_stack_002control_motor, __control_motor_7qG2_ewr_7qG2_000
+3	155	104	#line 155 "C:\Users\mariana\AppData\Local\Temp\temp.nxc"
+3	156	104		add acum_err, __float_stack_001control_motor, __DF0control_motor
+3	155	108	#line 155 "C:\Users\mariana\AppData\Local\Temp\temp.nxc"
+3	155	108	#line 155 "C:\Users\mariana\AppData\Local\Temp\temp.nxc"
+3	155	108	#line 155 "C:\Users\mariana\AppData\Local\Temp\temp.nxc"
+3	156	108		mov __float_stack_001control_motor, acum_erl
+3	155	110	#line 155 "C:\Users\mariana\AppData\Local\Temp\temp.nxc"
+3	155	110	#line 155 "C:\Users\mariana\AppData\Local\Temp\temp.nxc"
+3	155	110	#line 155 "C:\Users\mariana\AppData\Local\Temp\temp.nxc"
+3	155	110	#line 155 "C:\Users\mariana\AppData\Local\Temp\temp.nxc"
+3	155	110	#line 155 "C:\Users\mariana\AppData\Local\Temp\temp.nxc"
+3	156	110		mul __float_stack_002control_motor, __constVal1, __constValf0P2
+3	155	114	#line 155 "C:\Users\mariana\AppData\Local\Temp\temp.nxc"
+3	156	114	#line 156 "C:\Users\mariana\AppData\Local\Temp\temp.nxc"
+3	156	114	#line 156 "C:\Users\mariana\AppData\Local\Temp\temp.nxc"
+3	157	114		mul __DF0control_motor, __float_stack_002control_motor, __control_motor_7qG2_ewl_7qG2_000
+3	156	118	#line 156 "C:\Users\mariana\AppData\Local\Temp\temp.nxc"
+3	157	118		add acum_erl, __float_stack_001control_motor, __DF0control_motor
+3	156	122	#line 156 "C:\Users\mariana\AppData\Local\Temp\temp.nxc"
+3	156	122	#line 156 "C:\Users\mariana\AppData\Local\Temp\temp.nxc"
+3	156	122	#line 156 "C:\Users\mariana\AppData\Local\Temp\temp.nxc"
+3	157	122		mov __float_stack_001control_motor, __control_motor_7qG2_cr_7qG2_000
+3	156	124	#line 156 "C:\Users\mariana\AppData\Local\Temp\temp.nxc"
+3	156	124	#line 156 "C:\Users\mariana\AppData\Local\Temp\temp.nxc"
+3	157	124		mov __DF0control_motor, __constVal100
+3	156	126	#line 156 "C:\Users\mariana\AppData\Local\Temp\temp.nxc"
+3	157	126		cmp 1, __zfcontrol_motor, __float_stack_001control_motor, __DF0control_motor
+3	156	130	#line 156 "C:\Users\mariana\AppData\Local\Temp\temp.nxc"
+3	157	130		mov __D0control_motor, __zfcontrol_motor
+3	157	132	#line 157 "C:\Users\mariana\AppData\Local\Temp\temp.nxc"
+3	158	132		brtst 4, __NXC_Label_662, __zfcontrol_motor
+3	158	135	#line 158 "C:\Users\mariana\AppData\Local\Temp\temp.nxc"
+3	158	135	#line 158 "C:\Users\mariana\AppData\Local\Temp\temp.nxc"
+3	159	135		mov __control_motor_7qG2_cr_7qG2_000, __constVal100
+3	158	137	#line 158 "C:\Users\mariana\AppData\Local\Temp\temp.nxc"
+3	159	137	#line 159 "C:\Users\mariana\AppData\Local\Temp\temp.nxc"
+3	159	137	#line 159 "C:\Users\mariana\AppData\Local\Temp\temp.nxc"
+3	160	137		mov __float_stack_001control_motor, __control_motor_7qG2_cr_7qG2_000
+3	159	139	#line 159 "C:\Users\mariana\AppData\Local\Temp\temp.nxc"
+3	159	139	#line 159 "C:\Users\mariana\AppData\Local\Temp\temp.nxc"
+3	160	139		mov __DF0control_motor, __constValNeg100
+3	159	141	#line 159 "C:\Users\mariana\AppData\Local\Temp\temp.nxc"
+3	160	141		cmp 0, __zfcontrol_motor, __float_stack_001control_motor, __DF0control_motor
+3	159	145	#line 159 "C:\Users\mariana\AppData\Local\Temp\temp.nxc"
+3	160	145		mov __D0control_motor, __zfcontrol_motor
+3	160	147	#line 160 "C:\Users\mariana\AppData\Local\Temp\temp.nxc"
+3	161	147		brtst 4, __NXC_Label_667, __zfcontrol_motor
+3	161	150	#line 161 "C:\Users\mariana\AppData\Local\Temp\temp.nxc"
+3	161	150	#line 161 "C:\Users\mariana\AppData\Local\Temp\temp.nxc"
+3	162	150		mov __control_motor_7qG2_cr_7qG2_000, __constValNeg100
+3	161	152	#line 161 "C:\Users\mariana\AppData\Local\Temp\temp.nxc"
+3	162	152	#line 162 "C:\Users\mariana\AppData\Local\Temp\temp.nxc"
+3	162	152	#line 162 "C:\Users\mariana\AppData\Local\Temp\temp.nxc"
+3	163	152		mov __float_stack_001control_motor, __control_motor_7qG2_cl_7qG2_000
+3	162	154	#line 162 "C:\Users\mariana\AppData\Local\Temp\temp.nxc"
+3	162	154	#line 162 "C:\Users\mariana\AppData\Local\Temp\temp.nxc"
+3	163	154		mov __DF0control_motor, __constVal100
+3	162	156	#line 162 "C:\Users\mariana\AppData\Local\Temp\temp.nxc"
+3	163	156		cmp 1, __zfcontrol_motor, __float_stack_001control_motor, __DF0control_motor
+3	162	160	#line 162 "C:\Users\mariana\AppData\Local\Temp\temp.nxc"
+3	163	160		mov __D0control_motor, __zfcontrol_motor
+3	163	162	#line 163 "C:\Users\mariana\AppData\Local\Temp\temp.nxc"
+3	164	162		brtst 4, __NXC_Label_672, __zfcontrol_motor
+3	164	165	#line 164 "C:\Users\mariana\AppData\Local\Temp\temp.nxc"
+3	164	165	#line 164 "C:\Users\mariana\AppData\Local\Temp\temp.nxc"
+3	165	165		mov __control_motor_7qG2_cl_7qG2_000, __constVal100
+3	164	167	#line 164 "C:\Users\mariana\AppData\Local\Temp\temp.nxc"
+3	165	167	#line 165 "C:\Users\mariana\AppData\Local\Temp\temp.nxc"
+3	165	167	#line 165 "C:\Users\mariana\AppData\Local\Temp\temp.nxc"
+3	166	167		mov __float_stack_001control_motor, __control_motor_7qG2_cl_7qG2_000
+3	165	169	#line 165 "C:\Users\mariana\AppData\Local\Temp\temp.nxc"
+3	165	169	#line 165 "C:\Users\mariana\AppData\Local\Temp\temp.nxc"
+3	166	169		mov __DF0control_motor, __constValNeg100
+3	165	171	#line 165 "C:\Users\mariana\AppData\Local\Temp\temp.nxc"
+3	166	171		cmp 0, __zfcontrol_motor, __float_stack_001control_motor, __DF0control_motor
+3	165	175	#line 165 "C:\Users\mariana\AppData\Local\Temp\temp.nxc"
+3	166	175		mov __D0control_motor, __zfcontrol_motor
+3	166	177	#line 166 "C:\Users\mariana\AppData\Local\Temp\temp.nxc"
+3	167	177		brtst 4, __NXC_Label_677, __zfcontrol_motor
+3	167	180	#line 167 "C:\Users\mariana\AppData\Local\Temp\temp.nxc"
+3	167	180	#line 167 "C:\Users\mariana\AppData\Local\Temp\temp.nxc"
+3	168	180		mov __control_motor_7qG2_cl_7qG2_000, __constValNeg100
+3	167	182	#line 167 "C:\Users\mariana\AppData\Local\Temp\temp.nxc"
+3	169	182	#line 169 "C:\Users\mariana\AppData\Local\Temp\temp.nxc"
+3	169	182	#line 169 "C:\Users\mariana\AppData\Local\Temp\temp.nxc"
+3	170	182		mov __DF0control_motor, __control_motor_7qG2_cr_7qG2_000
+3	170	184	#line 170 "C:\Users\mariana\AppData\Local\Temp\temp.nxc"
+3	171	184	#pragma macro 7
+3	171	184		setout __constVal0, 2, __DF0control_motor, 1, __constVal3, 8, __constVal0, 6, __constVal32, 7, __constVal0, 5, __constVal0, 10, __constVal96, 11, __constVal32, 12, __constVal32, 0, __constVal63
+3	7102	207	#line 7102 "C:\Users\mariana\AppData\Local\Temp\temp.nxc"
+3	170	207	#line 170 "C:\Users\mariana\AppData\Local\Temp\temp.nxc"
+3	170	207	#line 170 "C:\Users\mariana\AppData\Local\Temp\temp.nxc"
+3	171	207		mov __DF0control_motor, __control_motor_7qG2_cl_7qG2_000
+3	172	209	#line 172 "C:\Users\mariana\AppData\Local\Temp\temp.nxc"
+3	173	209	#pragma macro 7
+3	173	209		setout __constVal2, 2, __DF0control_motor, 1, __constVal3, 8, __constVal0, 6, __constVal32, 7, __constVal0, 5, __constVal0, 10, __constVal96, 11, __constVal32, 12, __constVal32, 0, __constVal63
+3	7109	232	#line 7109 "C:\Users\mariana\AppData\Local\Temp\temp.nxc"
+3	172	232	#line 172 "C:\Users\mariana\AppData\Local\Temp\temp.nxc"
+3	172	232	#line 172 "C:\Users\mariana\AppData\Local\Temp\temp.nxc"
+3	173	232		mov __DF0control_motor, __control_motor_7qG2_ewr_7qG2_000
+3	172	234	#line 172 "C:\Users\mariana\AppData\Local\Temp\temp.nxc"
+3	173	234		numtostr __strretvalcontrol_motor, __DF0control_motor
+3	172	237	#line 172 "C:\Users\mariana\AppData\Local\Temp\temp.nxc"
+3	173	237		strcat __strbufcontrol_motor, __strretvalcontrol_motor
+3	172	241	#line 172 "C:\Users\mariana\AppData\Local\Temp\temp.nxc"
+3	173	241		mov __ArrHelper__control_motor_244_0, __strbufcontrol_motor
+3	172	243	#line 172 "C:\Users\mariana\AppData\Local\Temp\temp.nxc"
+3	173	243		strcat __strbufcontrol_motor, __constStr0009
+3	172	247	#line 172 "C:\Users\mariana\AppData\Local\Temp\temp.nxc"
+3	173	247		mov __ArrHelper__control_motor_244_1, __strbufcontrol_motor
+3	172	249	#line 172 "C:\Users\mariana\AppData\Local\Temp\temp.nxc"
+3	173	249		mov __DF0control_motor, __control_motor_7qG2_ewl_7qG2_000
+3	172	251	#line 172 "C:\Users\mariana\AppData\Local\Temp\temp.nxc"
+3	173	251		numtostr __strretvalcontrol_motor, __DF0control_motor
+3	172	254	#line 172 "C:\Users\mariana\AppData\Local\Temp\temp.nxc"
+3	173	254		strcat __strbufcontrol_motor, __strretvalcontrol_motor
+3	172	258	#line 172 "C:\Users\mariana\AppData\Local\Temp\temp.nxc"
+3	173	258		mov __ArrHelper__control_motor_244_2, __strbufcontrol_motor
+3	173	260	#line 173 "C:\Users\mariana\AppData\Local\Temp\temp.nxc"
+3	174	260		strcat __strretvalcontrol_motor, __ArrHelper__control_motor_244_0, __ArrHelper__control_motor_244_1, __ArrHelper__control_motor_244_2
+3	173	266	#line 173 "C:\Users\mariana\AppData\Local\Temp\temp.nxc"
+3	174	266		strcat __strbufcontrol_motor, __strretvalcontrol_motor
+3	173	270	#line 173 "C:\Users\mariana\AppData\Local\Temp\temp.nxc"
+3	174	270		mov __control_motor_7qG2_write_7qG2_000, __strbufcontrol_motor
+3	174	272	#line 174 "C:\Users\mariana\AppData\Local\Temp\temp.nxc"
+3	175	272	#pragma macro 9
+3	175	272		acquire __FWriteMutex
+3	175	273		mov __FWriteArgs.FileHandle, fileHandle
+3	175	275		strtoarr __FWriteFlattenBuf, __control_motor_7qG2_write_7qG2_000
+3	175	278		arrbuild __FWriteArgs.Buffer, __FWriteFlattenBuf, __FWriteLn
+3	175	283		arrsize __FWriteArgs.Length, __FWriteArgs.Buffer
+3	175	286		syscall 4, __FWriteArgs
+3	175	289		mov __D0control_motor, __FWriteArgs.Result
+3	175	291		release __FWriteMutex
+3	7150	292	#line 7150 "C:\Users\mariana\AppData\Local\Temp\temp.nxc"
+3	174	292	#line 174 "C:\Users\mariana\AppData\Local\Temp\temp.nxc"
+3	174	292	#line 174 "C:\Users\mariana\AppData\Local\Temp\temp.nxc"
+3	177	292	#line 177 "C:\Users\mariana\AppData\Local\Temp\temp.nxc"
+3	178	292		subret __control_motor_return
+4	180	0	#line 180 "C:\Users\mariana\AppData\Local\Temp\temp.nxc"
+4	181	0		mov __float_stack_001control_pos, xr
+4	180	2	#line 180 "C:\Users\mariana\AppData\Local\Temp\temp.nxc"
+4	180	2	#line 180 "C:\Users\mariana\AppData\Local\Temp\temp.nxc"
+4	180	2	#line 180 "C:\Users\mariana\AppData\Local\Temp\temp.nxc"
+4	180	2	#line 180 "C:\Users\mariana\AppData\Local\Temp\temp.nxc"
+4	180	2	#line 180 "C:\Users\mariana\AppData\Local\Temp\temp.nxc"
+4	181	2		add __float_stack_002control_pos, dr, dl
+4	180	6	#line 180 "C:\Users\mariana\AppData\Local\Temp\temp.nxc"
+4	180	6	#line 180 "C:\Users\mariana\AppData\Local\Temp\temp.nxc"
+4	181	6		mov __cos_7qG2_x_7qG2_000_inline_control_pos, tetar
+4	180	8	#line 180 "C:\Users\mariana\AppData\Local\Temp\temp.nxc"
+4	17165	8	#line 17165 "NXCDefs.h"
+4	17166	8		cos __DF0control_pos, __cos_7qG2_x_7qG2_000_inline_control_pos
+4	17165	11	#line 17165 "NXCDefs.h"
+4	180	11	#line 180 "C:\Users\mariana\AppData\Local\Temp\temp.nxc"
+4	180	11	#line 180 "C:\Users\mariana\AppData\Local\Temp\temp.nxc"
+4	181	11		mul __float_stack_002control_pos, __float_stack_002control_pos, __DF0control_pos
+4	180	15	#line 180 "C:\Users\mariana\AppData\Local\Temp\temp.nxc"
+4	181	15	#line 181 "C:\Users\mariana\AppData\Local\Temp\temp.nxc"
+4	181	15	#line 181 "C:\Users\mariana\AppData\Local\Temp\temp.nxc"
+4	182	15		div __DF0control_pos, __float_stack_002control_pos, __constVal2
+4	181	19	#line 181 "C:\Users\mariana\AppData\Local\Temp\temp.nxc"
+4	182	19		add xr, __float_stack_001control_pos, __DF0control_pos
+4	181	23	#line 181 "C:\Users\mariana\AppData\Local\Temp\temp.nxc"
+4	181	23	#line 181 "C:\Users\mariana\AppData\Local\Temp\temp.nxc"
+4	181	23	#line 181 "C:\Users\mariana\AppData\Local\Temp\temp.nxc"
+4	182	23		mov __float_stack_001control_pos, yr
+4	181	25	#line 181 "C:\Users\mariana\AppData\Local\Temp\temp.nxc"
+4	181	25	#line 181 "C:\Users\mariana\AppData\Local\Temp\temp.nxc"
+4	181	25	#line 181 "C:\Users\mariana\AppData\Local\Temp\temp.nxc"
+4	181	25	#line 181 "C:\Users\mariana\AppData\Local\Temp\temp.nxc"
+4	181	25	#line 181 "C:\Users\mariana\AppData\Local\Temp\temp.nxc"
+4	182	25		add __float_stack_002control_pos, dr, dl
+4	181	29	#line 181 "C:\Users\mariana\AppData\Local\Temp\temp.nxc"
+4	181	29	#line 181 "C:\Users\mariana\AppData\Local\Temp\temp.nxc"
+4	182	29		mov __sin_7qG2_x_7qG2_000_inline_control_pos, tetar
+4	181	31	#line 181 "C:\Users\mariana\AppData\Local\Temp\temp.nxc"
+4	17176	31	#line 17176 "NXCDefs.h"
+4	17177	31		sin __DF0control_pos, __sin_7qG2_x_7qG2_000_inline_control_pos
+4	17176	34	#line 17176 "NXCDefs.h"
+4	181	34	#line 181 "C:\Users\mariana\AppData\Local\Temp\temp.nxc"
+4	181	34	#line 181 "C:\Users\mariana\AppData\Local\Temp\temp.nxc"
+4	182	34		mul __float_stack_002control_pos, __float_stack_002control_pos, __DF0control_pos
+4	181	38	#line 181 "C:\Users\mariana\AppData\Local\Temp\temp.nxc"
+4	182	38	#line 182 "C:\Users\mariana\AppData\Local\Temp\temp.nxc"
+4	182	38	#line 182 "C:\Users\mariana\AppData\Local\Temp\temp.nxc"
+4	183	38		div __DF0control_pos, __float_stack_002control_pos, __constVal2
+4	182	42	#line 182 "C:\Users\mariana\AppData\Local\Temp\temp.nxc"
+4	183	42		add yr, __float_stack_001control_pos, __DF0control_pos
+4	182	46	#line 182 "C:\Users\mariana\AppData\Local\Temp\temp.nxc"
+4	182	46	#line 182 "C:\Users\mariana\AppData\Local\Temp\temp.nxc"
+4	182	46	#line 182 "C:\Users\mariana\AppData\Local\Temp\temp.nxc"
+4	183	46		mov __float_stack_001control_pos, tetar
+4	182	48	#line 182 "C:\Users\mariana\AppData\Local\Temp\temp.nxc"
+4	182	48	#line 182 "C:\Users\mariana\AppData\Local\Temp\temp.nxc"
+4	182	48	#line 182 "C:\Users\mariana\AppData\Local\Temp\temp.nxc"
+4	182	48	#line 182 "C:\Users\mariana\AppData\Local\Temp\temp.nxc"
+4	182	48	#line 182 "C:\Users\mariana\AppData\Local\Temp\temp.nxc"
+4	183	48		sub __float_stack_002control_pos, dr, dl
+4	182	52	#line 182 "C:\Users\mariana\AppData\Local\Temp\temp.nxc"
+4	185	52	#line 185 "C:\Users\mariana\AppData\Local\Temp\temp.nxc"
+4	185	52	#line 185 "C:\Users\mariana\AppData\Local\Temp\temp.nxc"
+4	186	52		div __DF0control_pos, __float_stack_002control_pos, __constValf0P105
+4	185	56	#line 185 "C:\Users\mariana\AppData\Local\Temp\temp.nxc"
+4	186	56		add tetar, __float_stack_001control_pos, __DF0control_pos
+4	185	60	#line 185 "C:\Users\mariana\AppData\Local\Temp\temp.nxc"
+4	185	60	#line 185 "C:\Users\mariana\AppData\Local\Temp\temp.nxc"
+4	185	60	#line 185 "C:\Users\mariana\AppData\Local\Temp\temp.nxc"
+4	186	60		gettick __unsigned_stack_001control_pos
+4	185	62	#line 185 "C:\Users\mariana\AppData\Local\Temp\temp.nxc"
+4	186	62	#line 186 "C:\Users\mariana\AppData\Local\Temp\temp.nxc"
+4	186	62	#line 186 "C:\Users\mariana\AppData\Local\Temp\temp.nxc"
+4	187	62		sub __control_pos_7qG2_tempo_corrido_7qG2_000, __unsigned_stack_001control_pos, tempo_inicial
+4	186	66	#line 186 "C:\Users\mariana\AppData\Local\Temp\temp.nxc"
+4	186	66	#line 186 "C:\Users\mariana\AppData\Local\Temp\temp.nxc"
+4	186	66	#line 186 "C:\Users\mariana\AppData\Local\Temp\temp.nxc"
+4	187	66	#line 187 "C:\Users\mariana\AppData\Local\Temp\temp.nxc"
+4	187	66	#line 187 "C:\Users\mariana\AppData\Local\Temp\temp.nxc"
+4	188	66		mul __control_pos_7qG2_aux_7qG2_000, wdi, __control_pos_7qG2_tempo_corrido_7qG2_000
+4	187	70	#line 187 "C:\Users\mariana\AppData\Local\Temp\temp.nxc"
+4	187	70	#line 187 "C:\Users\mariana\AppData\Local\Temp\temp.nxc"
+4	188	70		mov __float_stack_001control_pos, xc
+4	187	72	#line 187 "C:\Users\mariana\AppData\Local\Temp\temp.nxc"
+4	187	72	#line 187 "C:\Users\mariana\AppData\Local\Temp\temp.nxc"
+4	188	72		mov __float_stack_002control_pos, __constValf0P15
+4	187	74	#line 187 "C:\Users\mariana\AppData\Local\Temp\temp.nxc"
+4	187	74	#line 187 "C:\Users\mariana\AppData\Local\Temp\temp.nxc"
+4	188	74		mov __cos_7qG2_x_7qG2_000_inline_control_pos, __control_pos_7qG2_aux_7qG2_000
+4	187	76	#line 187 "C:\Users\mariana\AppData\Local\Temp\temp.nxc"
+4	17165	76	#line 17165 "NXCDefs.h"
+4	17166	76		cos __DF0control_pos, __cos_7qG2_x_7qG2_000_inline_control_pos
+4	17165	79	#line 17165 "NXCDefs.h"
+4	188	79	#line 188 "C:\Users\mariana\AppData\Local\Temp\temp.nxc"
+4	188	79	#line 188 "C:\Users\mariana\AppData\Local\Temp\temp.nxc"
+4	189	79		mul __DF0control_pos, __float_stack_002control_pos, __DF0control_pos
+4	188	83	#line 188 "C:\Users\mariana\AppData\Local\Temp\temp.nxc"
+4	189	83		add __control_pos_7qG2_xd_7qG2_000, __float_stack_001control_pos, __DF0control_pos
+4	188	87	#line 188 "C:\Users\mariana\AppData\Local\Temp\temp.nxc"
+4	188	87	#line 188 "C:\Users\mariana\AppData\Local\Temp\temp.nxc"
+4	189	87		mov __float_stack_001control_pos, yc
+4	188	89	#line 188 "C:\Users\mariana\AppData\Local\Temp\temp.nxc"
+4	188	89	#line 188 "C:\Users\mariana\AppData\Local\Temp\temp.nxc"
+4	189	89		mov __float_stack_002control_pos, __constValf0P15
+4	188	91	#line 188 "C:\Users\mariana\AppData\Local\Temp\temp.nxc"
+4	188	91	#line 188 "C:\Users\mariana\AppData\Local\Temp\temp.nxc"
+4	189	91		mov __sin_7qG2_x_7qG2_000_inline_control_pos, __control_pos_7qG2_aux_7qG2_000
+4	188	93	#line 188 "C:\Users\mariana\AppData\Local\Temp\temp.nxc"
+4	17176	93	#line 17176 "NXCDefs.h"
+4	17177	93		sin __DF0control_pos, __sin_7qG2_x_7qG2_000_inline_control_pos
+4	17176	96	#line 17176 "NXCDefs.h"
+4	189	96	#line 189 "C:\Users\mariana\AppData\Local\Temp\temp.nxc"
+4	189	96	#line 189 "C:\Users\mariana\AppData\Local\Temp\temp.nxc"
+4	190	96		mul __DF0control_pos, __float_stack_002control_pos, __DF0control_pos
+4	189	100	#line 189 "C:\Users\mariana\AppData\Local\Temp\temp.nxc"
+4	190	100		add __control_pos_7qG2_yd_7qG2_000, __float_stack_001control_pos, __DF0control_pos
+4	189	104	#line 189 "C:\Users\mariana\AppData\Local\Temp\temp.nxc"
+4	189	104	#line 189 "C:\Users\mariana\AppData\Local\Temp\temp.nxc"
+4	189	104	#line 189 "C:\Users\mariana\AppData\Local\Temp\temp.nxc"
+4	190	104	#line 190 "C:\Users\mariana\AppData\Local\Temp\temp.nxc"
+4	190	104	#line 190 "C:\Users\mariana\AppData\Local\Temp\temp.nxc"
+4	191	104		sub __control_pos_7qG2_errx_7qG2_000, __control_pos_7qG2_xd_7qG2_000, xr
+4	190	108	#line 190 "C:\Users\mariana\AppData\Local\Temp\temp.nxc"
+4	190	108	#line 190 "C:\Users\mariana\AppData\Local\Temp\temp.nxc"
+4	190	108	#line 190 "C:\Users\mariana\AppData\Local\Temp\temp.nxc"
+4	192	108	#line 192 "C:\Users\mariana\AppData\Local\Temp\temp.nxc"
+4	192	108	#line 192 "C:\Users\mariana\AppData\Local\Temp\temp.nxc"
+4	193	108		sub __control_pos_7qG2_erry_7qG2_000, __control_pos_7qG2_yd_7qG2_000, yr
+4	192	112	#line 192 "C:\Users\mariana\AppData\Local\Temp\temp.nxc"
+4	192	112	#line 192 "C:\Users\mariana\AppData\Local\Temp\temp.nxc"
+4	193	112		mov __atan2_7qG2_y_7qG2_000_inline_control_pos, __control_pos_7qG2_erry_7qG2_000
+4	192	114	#line 192 "C:\Users\mariana\AppData\Local\Temp\temp.nxc"
+4	192	114	#line 192 "C:\Users\mariana\AppData\Local\Temp\temp.nxc"
+4	193	114		mov __atan2_7qG2_x_7qG2_000_inline_control_pos, __control_pos_7qG2_errx_7qG2_000
+4	192	116	#line 192 "C:\Users\mariana\AppData\Local\Temp\temp.nxc"
+4	17242	116	#line 17242 "NXCDefs.h"
+4	17243	116		atan2 tetad, __atan2_7qG2_y_7qG2_000_inline_control_pos, __atan2_7qG2_x_7qG2_000_inline_control_pos
+4	17242	120	#line 17242 "NXCDefs.h"
+4	194	120	#line 194 "C:\Users\mariana\AppData\Local\Temp\temp.nxc"
+4	194	120	#line 194 "C:\Users\mariana\AppData\Local\Temp\temp.nxc"
+4	194	120	#line 194 "C:\Users\mariana\AppData\Local\Temp\temp.nxc"
+4	196	120	#line 196 "C:\Users\mariana\AppData\Local\Temp\temp.nxc"
+4	196	120	#line 196 "C:\Users\mariana\AppData\Local\Temp\temp.nxc"
+4	196	120	#line 196 "C:\Users\mariana\AppData\Local\Temp\temp.nxc"
+4	196	120	#line 196 "C:\Users\mariana\AppData\Local\Temp\temp.nxc"
+4	197	120	#line 197 "C:\Users\mariana\AppData\Local\Temp\temp.nxc"
+4	197	120	#line 197 "C:\Users\mariana\AppData\Local\Temp\temp.nxc"
+4	198	120		sub errt, tetad, tetar
+4	197	124	#line 197 "C:\Users\mariana\AppData\Local\Temp\temp.nxc"
+4	197	124	#line 197 "C:\Users\mariana\AppData\Local\Temp\temp.nxc"
+4	197	124	#line 197 "C:\Users\mariana\AppData\Local\Temp\temp.nxc"
+4	198	124		mov __sin_7qG2_x_7qG2_000_inline_control_pos, errt
+4	197	126	#line 197 "C:\Users\mariana\AppData\Local\Temp\temp.nxc"
+4	17176	126	#line 17176 "NXCDefs.h"
+4	17177	126		sin __atan2_7qG2_y_7qG2_000_inline_control_pos, __sin_7qG2_x_7qG2_000_inline_control_pos
+4	17176	129	#line 17176 "NXCDefs.h"
+4	197	129	#line 197 "C:\Users\mariana\AppData\Local\Temp\temp.nxc"
+4	197	129	#line 197 "C:\Users\mariana\AppData\Local\Temp\temp.nxc"
+4	197	129	#line 197 "C:\Users\mariana\AppData\Local\Temp\temp.nxc"
+4	198	129		mov __cos_7qG2_x_7qG2_000_inline_control_pos, errt
+4	197	131	#line 197 "C:\Users\mariana\AppData\Local\Temp\temp.nxc"
+4	17165	131	#line 17165 "NXCDefs.h"
+4	17166	131		cos __atan2_7qG2_x_7qG2_000_inline_control_pos, __cos_7qG2_x_7qG2_000_inline_control_pos
+4	17165	134	#line 17165 "NXCDefs.h"
+4	197	134	#line 197 "C:\Users\mariana\AppData\Local\Temp\temp.nxc"
+4	197	134	#line 197 "C:\Users\mariana\AppData\Local\Temp\temp.nxc"
+4	17242	134	#line 17242 "NXCDefs.h"
+4	17243	134		atan2 errt, __atan2_7qG2_y_7qG2_000_inline_control_pos, __atan2_7qG2_x_7qG2_000_inline_control_pos
+4	17242	138	#line 17242 "NXCDefs.h"
+4	200	138	#line 200 "C:\Users\mariana\AppData\Local\Temp\temp.nxc"
+4	200	138	#line 200 "C:\Users\mariana\AppData\Local\Temp\temp.nxc"
+4	200	138	#line 200 "C:\Users\mariana\AppData\Local\Temp\temp.nxc"
+4	200	138	#line 200 "C:\Users\mariana\AppData\Local\Temp\temp.nxc"
+4	200	138	#line 200 "C:\Users\mariana\AppData\Local\Temp\temp.nxc"
+4	209	138	#line 209 "C:\Users\mariana\AppData\Local\Temp\temp.nxc"
+4	209	138	#line 209 "C:\Users\mariana\AppData\Local\Temp\temp.nxc"
+4	210	138		mul T, __constValf0P1, errt
+4	209	142	#line 209 "C:\Users\mariana\AppData\Local\Temp\temp.nxc"
+4	209	142	#line 209 "C:\Users\mariana\AppData\Local\Temp\temp.nxc"
+4	209	142	#line 209 "C:\Users\mariana\AppData\Local\Temp\temp.nxc"
+4	210	142		mov __float_stack_001control_pos, acum_errt
+4	209	144	#line 209 "C:\Users\mariana\AppData\Local\Temp\temp.nxc"
+4	209	144	#line 209 "C:\Users\mariana\AppData\Local\Temp\temp.nxc"
+4	209	144	#line 209 "C:\Users\mariana\AppData\Local\Temp\temp.nxc"
+4	209	144	#line 209 "C:\Users\mariana\AppData\Local\Temp\temp.nxc"
+4	209	144	#line 209 "C:\Users\mariana\AppData\Local\Temp\temp.nxc"
+4	210	144		mul __float_stack_002control_pos, __constValf0P5, __constValf0P2
+4	209	148	#line 209 "C:\Users\mariana\AppData\Local\Temp\temp.nxc"
+4	212	148	#line 212 "C:\Users\mariana\AppData\Local\Temp\temp.nxc"
+4	212	148	#line 212 "C:\Users\mariana\AppData\Local\Temp\temp.nxc"
+4	213	148		mul __DF0control_pos, __float_stack_002control_pos, errt
+4	212	152	#line 212 "C:\Users\mariana\AppData\Local\Temp\temp.nxc"
+4	213	152		add acum_errt, __float_stack_001control_pos, __DF0control_pos
+4	212	156	#line 212 "C:\Users\mariana\AppData\Local\Temp\temp.nxc"
+4	212	156	#line 212 "C:\Users\mariana\AppData\Local\Temp\temp.nxc"
+4	213	156	#line 213 "C:\Users\mariana\AppData\Local\Temp\temp.nxc"
+4	214	156		mov __DF0control_pos, __control_pos_7qG2_errx_7qG2_000
+4	213	158	#line 213 "C:\Users\mariana\AppData\Local\Temp\temp.nxc"
+4	214	158		numtostr __strretvalcontrol_pos, __DF0control_pos
+4	213	161	#line 213 "C:\Users\mariana\AppData\Local\Temp\temp.nxc"
+4	214	161		strcat __strbufcontrol_pos, __strretvalcontrol_pos
+4	213	165	#line 213 "C:\Users\mariana\AppData\Local\Temp\temp.nxc"
+4	214	165		mov __ArrHelper__control_pos_244_0, __strbufcontrol_pos
+4	213	167	#line 213 "C:\Users\mariana\AppData\Local\Temp\temp.nxc"
+4	214	167		strcat __strbufcontrol_pos, __constStr0009
+4	213	171	#line 213 "C:\Users\mariana\AppData\Local\Temp\temp.nxc"
+4	214	171		mov __ArrHelper__control_pos_244_1, __strbufcontrol_pos
+4	213	173	#line 213 "C:\Users\mariana\AppData\Local\Temp\temp.nxc"
+4	214	173		mov __DF0control_pos, __control_pos_7qG2_erry_7qG2_000
+4	213	175	#line 213 "C:\Users\mariana\AppData\Local\Temp\temp.nxc"
+4	214	175		numtostr __strretvalcontrol_pos, __DF0control_pos
+4	213	178	#line 213 "C:\Users\mariana\AppData\Local\Temp\temp.nxc"
+4	214	178		strcat __strbufcontrol_pos, __strretvalcontrol_pos
+4	213	182	#line 213 "C:\Users\mariana\AppData\Local\Temp\temp.nxc"
+4	214	182		mov __ArrHelper__control_pos_244_2, __strbufcontrol_pos
+4	213	184	#line 213 "C:\Users\mariana\AppData\Local\Temp\temp.nxc"
+4	214	184		strcat __strbufcontrol_pos, __constStr0009
+4	213	188	#line 213 "C:\Users\mariana\AppData\Local\Temp\temp.nxc"
+4	214	188		mov __ArrHelper__control_pos_244_3, __strbufcontrol_pos
+4	213	190	#line 213 "C:\Users\mariana\AppData\Local\Temp\temp.nxc"
+4	214	190		mov __DF0control_pos, errt
+4	213	192	#line 213 "C:\Users\mariana\AppData\Local\Temp\temp.nxc"
+4	214	192		numtostr __strretvalcontrol_pos, __DF0control_pos
+4	213	195	#line 213 "C:\Users\mariana\AppData\Local\Temp\temp.nxc"
+4	214	195		strcat __strbufcontrol_pos, __strretvalcontrol_pos
+4	213	199	#line 213 "C:\Users\mariana\AppData\Local\Temp\temp.nxc"
+4	214	199		mov __ArrHelper__control_pos_244_4, __strbufcontrol_pos
+4	214	201	#line 214 "C:\Users\mariana\AppData\Local\Temp\temp.nxc"
+4	215	201		strcat __strretvalcontrol_pos, __ArrHelper__control_pos_244_0, __ArrHelper__control_pos_244_1, __ArrHelper__control_pos_244_2, __ArrHelper__control_pos_244_3, __ArrHelper__control_pos_244_4
+4	214	209	#line 214 "C:\Users\mariana\AppData\Local\Temp\temp.nxc"
+4	215	209		strcat __strbufcontrol_pos, __strretvalcontrol_pos
+4	214	213	#line 214 "C:\Users\mariana\AppData\Local\Temp\temp.nxc"
+4	215	213		mov __control_pos_7qG2_write2_7qG2_000, __strbufcontrol_pos
+4	214	215	#line 214 "C:\Users\mariana\AppData\Local\Temp\temp.nxc"
+4	215	215	#pragma macro 9
+4	215	215		acquire __FWriteMutex
+4	215	216		mov __FWriteArgs.FileHandle, fileHandle2
+4	215	218		strtoarr __FWriteFlattenBuf, __control_pos_7qG2_write2_7qG2_000
+4	215	221		arrbuild __FWriteArgs.Buffer, __FWriteFlattenBuf, __FWriteLn
+4	215	226		arrsize __FWriteArgs.Length, __FWriteArgs.Buffer
+4	215	229		syscall 4, __FWriteArgs
+4	215	232		release __FWriteMutex
+4	7587	233	#line 7587 "C:\Users\mariana\AppData\Local\Temp\temp.nxc"
+4	214	233	#line 214 "C:\Users\mariana\AppData\Local\Temp\temp.nxc"
+4	214	233	#line 214 "C:\Users\mariana\AppData\Local\Temp\temp.nxc"
+4	219	233	#line 219 "C:\Users\mariana\AppData\Local\Temp\temp.nxc"
+4	220	233		subret __control_pos_return
+5	246	0	#line 246 "C:\Users\mariana\AppData\Local\Temp\temp.nxc"
+5	247	0		subret ____initialize_global_data_return
+#CLUMPS
+Clump	Name	Offset	File
+0	main	0	C:\Users\mariana\AppData\Local\Temp\temp.nxc
+1	ws	111	C:\Users\mariana\AppData\Local\Temp\temp.nxc
+2	w_rodas	197	C:\Users\mariana\AppData\Local\Temp\temp.nxc
+3	control_motor	239	C:\Users\mariana\AppData\Local\Temp\temp.nxc
+4	control_pos	533	C:\Users\mariana\AppData\Local\Temp\temp.nxc
+5	__initialize_global_data	768	C:\Users\mariana\AppData\Local\Temp\temp.nxc

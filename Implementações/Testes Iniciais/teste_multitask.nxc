@@ -1,0 +1,43 @@
+#define DELIMITADOR 45
+#define VELOC 50
+#define T 20
+#define DIST 20
+mutex moveMutex;
+
+task segue_linha(){
+     while(true){
+
+                 if(Sensor(IN_3)<=DELIMITADOR){
+                     Acquire(moveMutex);
+                     OnFwd(OUT_AC,VELOC);
+                     Release(moveMutex);
+                 }else{
+                     Acquire(moveMutex);
+                     OnRev(OUT_C, VELOC-25);
+                     Release(moveMutex);
+                 }
+                 Wait(T);
+     }
+}
+
+task desvia_obst(){
+     while(true){
+                 if((SensorUS(IN_1) < DIST)||(SensorUS(IN_4) < DIST)){
+                      Acquire(moveMutex);
+                      OnFwd(OUT_AC,0);
+                      while((SensorUS(IN_1) < DIST)||(SensorUS(IN_4) < DIST)){
+                      OnFwd(OUT_AC,0);
+                      Wait(2*T);
+                      }
+                      Release(moveMutex);
+                 }
+                 Wait(T);
+     }
+}
+
+task main(){
+     SetSensorLight(IN_3,SENSOR_LIGHT);
+     SetSensorLowspeed(IN_1);
+     SetSensorLowspeed(IN_4);
+     Precedes(segue_linha,desvia_obst);
+}

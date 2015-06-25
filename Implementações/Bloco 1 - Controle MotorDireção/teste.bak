@@ -1,0 +1,14 @@
+sub calcula_soma(float a ,float b,float &result){
+    result = a+b;
+}
+
+
+task main()
+{
+while(true){
+ float result;
+ result = result + 1;
+ calcula_soma(5,2,result);
+ TextOut(0,LCD_LINE1,NumToStr(result));
+}
+}

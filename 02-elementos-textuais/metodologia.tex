@@ -1,0 +1,99 @@
+%
+% Documento: Metodologia
+%
+
+\chapter{Metodologia}
+
+Para a realização deste trabalho, pretende-se primeiramente estudar estratégias de controle de formação de robôs móveis, as possibilidades %viabilidade 
+de implementação dessas estratégias na plataforma a ser utilizada (no caso, o \emph{LEGO Mindstorms}), a viabilidade de modelar e implementar o sistema como um sistema distribuído descentralizado e uma montagem do problema que viabilize a correção de erros de sensoriamento que se acumulam a cada iteração. 
+
+Após realizados os estudos, deve-se fazer uma modelagem matemática do problema, na qual serão definidas as restrições da modelagem, bem como as limitações da plataforma, tendo em vista um levantamento das dificuldades que certamente surgirão somente na implementação do sistema no mundo real. 
+
+Em seguida, serão realizadas diversas simulações via \emph{software} (provavelmente será utilizado o \emph{software MATLAB} para a realização das simulações) e então será realizada a implementação do sistema na plataforma de baixo custo disponível, o \emph{LEGO Mindstorms}, para que se possa analisar a viabilidade de implementação dessas estratégias no meio acadêmico e se realizar um estudo comparativo das estratégias utilizadas. 
+%Desnecessário (??)
+%\begin{enumerate}
+%	\item
+%	Estudos das estratégias
+%	\item
+%	Modelagem matemática
+%	\item
+%	Simulações computacionais
+%	\item
+%	Implementação na plataforma experimental
+%	Análise de resultados
+%	\item
+%	Conclusão do trabalho
+%	\item
+%	Apresentação
+
+%\end{enumerate}
+
+\section{Revisão Bibliográfica}
+
+Será feito um levantamento das diversas estratégias de controle de formação, e das diversas formas de se planejar a rede. Será analisada a viabilidade de implementação dessas estratégias na plataforma \emph{LEGO Mindstorms}, visto que esta se trata de uma ferramenta de baixo custo usada para fins didáticos, por isso, apresenta muitas limitações. 
+\section{Modelagem matemática}
+
+De acordo com a abordagem escolhida na etapa anterior será feita a modelagem matemática do problema, onde serão considerados, dentre outros fatores: as variáveis existentes no mundo real e principalmente as restrições do problema. 
+
+Na modelagem matemática será definida a abordagem do problema, se a estrutura da rede será centralizada ou não, como será implementado o \emph{feedback} (realimentação) para correção de erros que ocorrerão devido à imprecisão dos encoders óticos acoplados aos motores do kit \emph{LEGO Mindstorms}, que é da ordem de $\pm$ 1 grau por rotação. %Citar manual do lego aki
+É nesta etapa que também será definido o melhor formato de posicionamento dos robôs e se será possível implementar mais de um formato. 
+
+Outro fator importante desta etapa é que o sistema será modelado de acordo com os devidos parâmetros, para que o mesmo seja tolerante a falhas e para que sua estrutura varie, otimizando a resolução do problema, de acordo com as falhas que possam vir a surgir em um ou mais pontos da rede.
+
+\section{Simulações computacionais}
+
+Antes de se implementar o sistema na plataforma, serão realizadas simulações para validar a eficácia da estratégia de controle escolhida. Para tanto, deverá ser utilizada a ferramenta de \emph{software MATLAB}.
+
+\section{Implementação na plataforma experimental}
+
+Após a obtenção dos resultados de simulação em ambiente virtual controlado com uma estratégia de controle que atenda às condições do problema, inicia-se a fase de implementação não só da estrutura dos robôs, como também da estrutura do ambiente real e o desenvolvimento do código-fonte do sistema multiagente. 
+
+\section{Análise de Resultados}
+
+Nas etapas de simulação e implementação do sistema, após ele ser validado e testado, será feita a coleta dos dados que serão submetidos a análise.
+
+\section{Conclusão do trabalho}
+
+Pretende-se nesta etapa, a partir da análise de dados feita na etapa anterior, comparar as estratégias utilizadas e contextualizar os resultados obtidos em um problema real.
+
+\chapter{Cronograma}
+
+Para execução do trabalho as seguintes etapas serão seguidas:
+
+\begin{enumerate}
+	\item Revisão bibliográfica das estratégias de controle e tecnologias 
+	necessárias para elaboração deste trabalho.
+	\item Modelagem Matemática.
+	\item Simulações Computacionais.
+	\item Escrita do TCC I.
+	\item Implementação na plataforma experimental.
+	\item Análise de resultados.
+	\item Conclusão do trabalho.
+	\item Escrita do TCC II.
+	\item Apresentação do trabalho.
+\end{enumerate}
+
+\begin{quadro}[!htb]
+	\centering
+	\caption{Cronograma de Desenvolvimento do Projeto\label{qua:cronograma}}
+	\begin{tabular}{|c|cccccccccc|}
+		\hline
+		\multicolumn{11}{|c|}{\textbf{Cronograma}} \\
+		\hline
+		%1 & 2 & 3 & 4 & 5 & 6 & 7 & 8 & 9 & 10 \\
+		\multirow{2}{*}{Tarefa} & \multicolumn{9}{c|}{Mês} \\ \cline{2-10}
+		& MAR & ABR & MAI & JUN & JUL & AGO & SET & OUT & NOV & DEZ \\
+		\hline
+		1 & X & X &&&&&&&& \\
+		2 & & X & X &&&&&&& \\
+		3 & X & X & X & X &&&&&& \\
+		4 & & X & X & X & X &&&&& \\
+		5 & & & X & X & X & X &&&& \\
+		6 & & & & & & X & X &&& \\
+		7 & & & & & & & X & X && \\
+		8 & & & & & & X & X & X & X & \\
+		9 &&&&&&&&&& X \\
+		\hline
+	\end{tabular}
+\end{quadro}
+

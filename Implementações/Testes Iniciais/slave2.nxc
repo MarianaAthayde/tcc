@@ -1,0 +1,91 @@
+//SLAVE 2
+#define DELIMITADOR 45
+#define VELOC 50
+#define T 100
+#define DIST 20
+#define BT_CONN 1
+#define INBOX 5
+//#define INBOX2 7
+mutex moveMutex;
+int sensor_l,sensor_d,sensor_e;
+
+sub BTCheck(int conn){
+    if (!BluetoothStatus(conn)==NO_ERR){
+    TextOut(5,LCD_LINE2,"Error");
+    Wait(1000);
+    Stop(true);
+    }
+}
+
+sub Msg(string in){
+       int i = 0;
+       string s;
+       for(i = 0; i < 3; i++){
+             if(i!=2){
+                  int index = Pos("|",in);
+                  s = Copy(in,0,index);
+                  in = Copy(in,index+1,StrLen(in)-index+1);
+            }else{
+                  s = in;
+            }
+            if(i==0){
+                sensor_l = StrToNum(s);
+                TextOut(0,LCD_LINE2,s);
+            }
+            if(i==1){
+                sensor_d = StrToNum(s);
+                TextOut(0,LCD_LINE3,s);
+            }
+            if(i==2){
+                sensor_e = StrToNum(s);
+                TextOut(0,LCD_LINE4,s);
+            }
+       }
+}
+
+task recebe_msg(){
+     BTCheck(0); //checa a conexão com o master
+     while(true){
+                 ClearScreen();
+                 string entrada;
+                 ReceiveRemoteString(INBOX,true,entrada);
+                 TextOut(0,LCD_LINE1,entrada);
+                 Msg(entrada);
+                 Wait(T);
+     }
+}
+
+task segue_linha(){
+     while(true){
+
+                 if(sensor_l<=DELIMITADOR){
+                     Acquire(moveMutex);
+                     OnFwd(OUT_AC,VELOC);
+                     Release(moveMutex);
+                 }else{
+                     Acquire(moveMutex);
+                     OnRev(OUT_C, VELOC-25);
+                     Release(moveMutex);
+                 }
+                 Wait(T);
+     }
+}
+
+task desvia_obst(){
+     while(true){
+                 if((sensor_d < DIST)||(sensor_e < DIST)){
+                      Acquire(moveMutex);
+                      OnFwd(OUT_AC,0);
+                      if((sensor_d < DIST)||(sensor_e < DIST)){
+                      OnFwd(OUT_AC,0);
+                      Wait(2*T);
+                      }
+                      Release(moveMutex);
+                 }
+                 Wait(T);
+     }
+}
+
+task main(){
+     Precedes(segue_linha,desvia_obst,recebe_msg);
+}

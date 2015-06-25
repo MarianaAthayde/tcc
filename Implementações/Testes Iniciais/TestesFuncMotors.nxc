@@ -1,0 +1,29 @@
+#define MOTOR OUT_A
+#define FULL_SPEED 100
+#define DEG_TO_RPM 166.6667 // converts degrees per millisecond to RPM
+#define DEG_TO_RPS 2.7778 //converts degrees per mellisecond to RPS
+long prev_tick;
+long prev_deg = 0;
+string rpm_msg()
+{
+   long dt = CurrentTick() - prev_tick;
+   long deg = MotorRotationCount(MOTOR) - prev_deg;
+   float rpm = deg * DEG_TO_RPM / dt;
+   prev_deg = MotorRotationCount(MOTOR);
+   prev_tick = CurrentTick();
+   //return FormatNum("RPM: %5.1f", rpm);
+   return StrCat("Rpm: ",NumToStr(rpm));
+}
+task main()
+{
+   prev_tick = CurrentTick();
+   OnFwd(MOTOR, 10);
+   while (true)
+   {
+      //Wait(MS_500); // update display every 0.5 seconds
+      TextOut(0, LCD_LINE4, StrCat("Dist: ",NumToStr(MotorTachoCount(MOTOR))), false);
+      TextOut(0, LCD_LINE2, rpm_msg(), false);
+      TextOut(0, LCD_LINE3, StrCat("Voltas: ", NumToStr(MotorRotationCount(MOTOR))), false);
+      Wait(500);
+   }
+}

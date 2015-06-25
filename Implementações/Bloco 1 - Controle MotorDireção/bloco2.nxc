@@ -1,0 +1,179 @@
+/********************************
+*  Parâmetros do robô (metros)  *
+*********************************
+* L  = Distância entre os eixos *
+* RP = Raio do pneu             *
+*********************************/
+#define L 0.105
+#define RP 0.0287
+//Parâmetro da formação
+#define R 0.15
+//Periodo em segundos
+#define Tinicial 5
+//Converte rotações por milissegundos para rads
+#define TORADS 17.45
+
+/*******************************
+*            Variáveis         *
+********************************/
+//Tempo de Amostragem
+int t_amostral = 200;
+
+//Número de amostras
+int k = 100;
+
+//Tempo de inicio, tempo trancorrido (k-1), periodo e tempo de variação (deve ser na média 200 ms)
+long tempo_inicial = 0;
+long tempo transcorrido = 0;
+float T = 0;
+float dt = 0;
+
+//Auxiliar para gravar no arquivo txt
+string write;
+short bytesWritten;
+byte fileHandle;
+
+/*******************************
+*              Robô            *
+********************************/
+//velocidade linear e angular desejada do robo
+float vd,wd;
+float xr = 0;
+float yr = 0;
+float tr = 0;
+/*******************************
+*         Roda Direita         *
+********************************/
+//velocidade angular real e desejada do robo
+float wr,wdr;
+//Contagem de rotações da roda no tempo t-1
+long prev_deg_a = 0;
+//Potência de atuação do motor direito
+int pwr;
+
+/*******************************
+*         Roda Esquerda        *
+********************************/
+//velocidade angular real e desejada do robo
+float wl,wdl;
+//Contagem de rotações da roda no tempo t-1
+long prev_deg_c = 0;
+//Potência de atuação do motor direito
+int pwl;
+
+sub ws(){
+   //Calculando as velocidades angular da amostra w(k) de cada roda
+   dt = CurrentTick() - prev_tick;
+   //Graus por milissegundos
+   long deg_a = MotorRotationCount(OUT_A) - prev_deg_a;
+   long deg_c = MotorRotationCount(OUT_C) - prev_deg_c;
+   wr = deg_a * TORADS / dt;
+   wl = deg_c * TORADS / dt;
+   prev_deg_a = MotorRotationCount(OUT_A);
+   prev_deg_c = MotorRotationCount(OUT_C);
+   prev_tick = CurrentTick();
+}
+
+sub control_motor(){
+    //Ação de Controle
+    //Obtendo as velocidades angular de cada roda
+    ws();
+    //Erro de cada roda
+    float ewr = wdr - wr;
+    float ewl = wdl - wl;
+    //Ações de controle
+    if(ewr > 0){
+        pwr = pwr + peso_controle;
+        OnFwd(OUT_A,pwr);
+    }else{
+        pwr = pwr - peso_controle;
+        OnFwd(OUT_A,pwr);
+    }
+    if(ewl > 0){
+        pwl = pwl + peso_controle;
+        OnFwd(OUT_C,pwl);
+    }else{
+        pwl = pwl - peso_controle;
+        OnFwd(OUT_C,pwl);
+    }
+    //Salvando erros em arquivo
+    write = StrCat(NumToStr(ewr),"|",NumToStr(ewl));
+    WriteLnString(fileHandle,write, bytesWritten);
+}
+//recebe os valores do alvo no espaço x,y
+sub control_pos(float alvox,float alvoy){
+    //Controle de malha fechada de posição
+    //Tempo do sistema rodando
+    float t = CurrentTick() - tick_inicial;
+
+    //Calculando os valores reais
+    //Roda Direita
+    dtetar = wr*dt;
+    dr = dtetar*RP;
+    //Roda Esquerda
+    dtetal = wl*dt;
+    dl = dtetal*RP;
+    xr = xr + (dr + dl)*(cos(tetar)/2;
+    yr = yr + (dr + dl)*(cos(tetal)/2;
+    tr = tr +  (dr + dl)/L;
+
+    //Calculando os valores desejados
+    float xd = alvox + R*cos(wd*t);
+    float yd = alvoy + R*sin(wd*t);
+    //Calculando erro de posição
+    ex = xd - xr;
+    ey = yd - yr;
+    
+    //Verifica se já chegou ao raio
+    //Distância do alvo
+    //VERIFICAR SE DEVERIA SER O X e Y DESEJADOS OU REAIS
+    float dist_alvo = sqrt(pow(xr - alvox)+pow(yr - alvoy),2);
+    if(dist_alvo <= R){
+    //teta desejado para circular o alvo
+         float dtetad = 2*PI*dt/T;
+         tetad = tetad + dtetad;
+    }else{
+          tetad = atan2(ey/ex);
+    }
+    //FALTANDO AJUSTAR O TETA ENTRE OS INTERVALOS DE -PI e PI
+    
+    //CONTROLADOR PID PARA CONTROLE DE POSIÇÃO
+    //Como será feito o atuador?
+    //Alterará w desejado ou seja T
+    
+    
+    wd = (2*PI)/T;
+    vd = wd*R;
+    wdr = (2*vd + wd*L)/(2*RP);
+    wdl = (2*vd - wd*L)/(2*RP);
+}
+
+task main(){
+    //Inicializando o sistema
+    T = Tinicial;
+    wd = (2*PI)/T;
+    vd = wd*R;
+    wdr = (2*vd + wd*L)/(2*RP);
+    wdl = (2*vd - wd*L)/(2*RP);
+    pwr = 30;
+    pwl = 30;
+    DeleteFile("Err_Bloco1.txt");
+    CreateFile("Err_Bloco1.txt",2048, fileHandle);
+    tick_inicial = CurrentTick();
+    prev_tick = CurrentTick();
+    //Sentido inicial
+    tetad = 0;
+    xr = 0;
+    yr = 0;
+    
+    //Definindo alvo
+    float alvox = 0;
+    float alvoy = 0;
+
+    for(int t = 0; t < k;t++){
+        control_motor();
+        control_pos(alvox,alvoy);
+        Wait(t_amostral);
+    }
+    CloseFile(fileHandle);
+}

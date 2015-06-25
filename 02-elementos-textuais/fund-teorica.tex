@@ -1,0 +1,51 @@
+%
+% Documento: Fundamentação Teórica
+%
+
+\chapter{Fundamentação Teórica}
+\label{chap:fundamentacaoTeorica}
+%Para que se possa desenvolver e compreender tal trabalho é importante, primeiramente, conhecer alguns conceitos. Para tanto, faz-se neste capítulo uma breve contextualização teórica para auxiliar o leitor ao longo deste trabalho
+Para que se possa %desenvolver e 
+compreender tal trabalho é importante, primeiramente, conhecer alguns conceitos. Para tanto, faz-se neste capítulo uma breve contextualização teórica para auxiliar o leitor ao longo deste trabalho. 
+
+\section{Modelos Matemáticos: Sistemas Não Holonômicos}
+\label{sec:modeloMatematicoNHolonomico}
+Os robôs utilizados neste trabalho são considerados modelos não holonômicos e para entender o que é um modelo matemático não holonômico é necessário entender o que é o grau de liberdade de um sistema. Como é visto na literatura \cite{TJRD13}, o grau de liberdade de um sistema é igual ao "número de coordenadas que podem variar independentemente em um pequeno deslocamento". Dito isto pode-se dizer que um sistema holonômico é um sistema onde o número de coordenadas utilizadas para descrever as configurações do sistema é igual ao grau de liberdade do sistema \cite{TJRD13}. Ou seja, o sistema pode se movimentar livre e independentemente em qualquer um dos seu eixos (os eixos referentes à configuração do sistema).
+
+Sendo assim, os sistemas não-holonômicos são sistemas em que pode-se chegar à qualquer outro ponto do espaço, entretanto, com restrições. Visto que as variáveis não podem se mover independentemente. Como exemplo de um sistema não-holonômico podemos citar um veículo, que pode alcançar qualquer ponto do espaço bidimensional, entretanto, para alcançar um ponto qualquer deslocado apenas em seu eixo x é necessário um movimento não só ao longo do seu eixo x mas, também do seu eixo y. Já que, um veículo não pode se mover lateralmente \cite{GJA11}.
+
+\section{Controle de Formação}
+\label{sec:controleFormacao}
+Com o crescente avanço da robótica, começou-se o interesse por sistemas robóticos cooperativos, onde muitos robôs agem em conjunto para alcançar o mesmo objetivo. Para que um sistema multiagente possa executar uma tarefa em conjunto é preciso que cada robô esteja na posição correta, para tal, é necessário o controle de formação. O controle de formação é essencial para sistemas robóticos multiagentes pois permite que cada robô esteja em seu devido lugar no momento certo. Existem diversos tipos de estruturas de formação, dentre elas: formação em linha 
+
+\section{Plataformas}
+\label{sec:plataformas}
+Para o desenvolvimento deste trabalho foram consideradas diversas plataformas de desenvolvimento e gerênciamento de robôs móveis que são compatíveis com \emph{Lego MindStorms}. Abaixo serão citados algumas dessas plataformas com suas características.
+
+\subsection{ROS}
+\label{subsec:ROS}
+\emph{ROS}(\emph{Robotic Operating System}) é um sistema operacional robótico opensource que dispões de ferramentas e bibliotecas desenvolvidas para criar aplicações robóticas.%citar o site 
+Ele permite a comunicação entre o computador e o \emph{lego}, permite a implementação de uma rede centralizada de até quatro robôs, embora, possua funções específicas para área de robótica esse sistema ainda não dispõe de muitos materiais para pesquisa, por isso, optou-se por não  utilizá-lo.
+
+\subsection{NXT-G}
+\label{subsec:nxtg}
+É uma plataforma gráfica que vem com o próprio kit \emph{Lego Mindstorms}, até mesmo pela sua natureza gráfica, ela é muito simples. Entretanto, não permite a comunicação com o computador em tempo de execução. Devido a sua limitação e simplicidade, optou-se por não utilizá-lo.
+
+\subsection{Simulink}
+\label{subsec:simulink}
+O \emph{Simulink} possui um pacote compatível com o \emph{Lego Mindstorms} que permite desenvolver e simular algoritmos para plataformas robóticas. Entretanto, só é permitido a comunicação via \emph{bluetooth} entre dois robôs, portanto não atende às demandas requeridas por este trabalho.  
+
+\subsection{LABView}
+\label{subsec:labview}
+O \emph{LABVIEW} possui um módulo para programar e controlar robôs \emph{Lego Mindstorms}. É uma ferramenta que permite a comunicação entre o robô e o computador e entre os robôs. Entretanto, é necessário possuir uma licença para utilizar desta ferramenta, por isso, a ferramenta não será utilizada neste trabalho.
+
+%\subsection{RobotC}
+
+\subsection{RWTH Aachen MINDSTORMS NXT Toolbox}
+\label{subsec:rwth}
+O \emph{MATLAB} possui uma ferramenta opensource desenvolvida para controlar robôs \emph{Lego Mindstorms NXT}, conhecida como: \emph{RWTH Aachen NXT Toolbox}. Permite a comunicação entre robô e o computador ou entre um conjunto de até 4 robôs, no modelo de comunicação mestre/escravo. 
+
+\subsection{BRICX Command center}
+\label{subsec:Bricx}
+O ambiente de desenvolvimento integrado conhecido como \emph{BRICX Command Center} é utilizado para o desenvolvimento de aplicações para todas as versões do \emph{Lego MindStorms}, do \emph{RCX} ao \emph{EV3}, incluindo o modelo utilizado neste trabalho que é o \emph{NXT}. Suporta diversas linguagens como: \emph{Not eXactly C} (NXC), \emph{Next Byte Codes} (NBC) e permite o desenvolvimento em \emph{java}, usando o \emph{firmware LeJos}. %citar o site
+

@@ -1,0 +1,69 @@
+\providecommand{\abntreprintinfo}[1]{%
+ \citeonline{#1}}
+\setlength{\labelsep}{0pt}\begin{thebibliography}{}
+\providecommand{\abntrefinfo}[3]{}
+\providecommand{\abntbstabout}[1]{}
+\abntbstabout{v-1.9.3 }
+
+\bibitem[CARLES e HERMOSILLA 2008]{CMHL08}
+\abntrefinfo{CARLES e HERMOSILLA}{CARLES; HERMOSILLA}{2008}
+{CARLES, M.; HERMOSILLA, L. O futuro da medicina: nanomedicina.
+\textbf{Revista Cient{\'\i}fica Eletr{\^o}nica de Medicina Veterin{\'a}ria},
+  v.~6, n.~10, p.~1--7, 2008.}
+
+\bibitem[Chen et al. 2002]{HCWSNX02}
+\abntrefinfo{Chen et al.}{CHEN et al.}{2002}
+{CHEN, H.; SHENG, W.; XI, N.; SONG, M.; CHEN, Y. Automated robot trajectory
+  planning for spray painting of free-form surfaces in automotive
+  manufacturing. In:  \textbf{Robotics and Automation, 2002. Proceedings. ICRA
+  '02. IEEE International Conference on}. [S.l.: s.n.], 2002. v.~1, p. 450--455
+  vol.1.}
+
+\bibitem[Corr{\^e}a e J{\'u}nior 2008]{CMAJJBC08}
+\abntrefinfo{Corr{\^e}a e J{\'u}nior}{CORR{\^E}A; J{\'U}NIOR}{2008}
+{CORR{\^E}A, M.~A.; J{\'U}NIOR, J. B.~C. \textbf{Estudos de ve{\'\i}culos
+  a{\'e}reos n{\~a}o tripulados baseado em sistemas multi-agentes e sua
+  intera{\c{c}}{\~a}o no espa{\c{c}}o a{\'e}reo controlado}. [S.l.]: Sitraer,
+  2008.}
+
+\bibitem[Girard et al. 2004]{GARHAS04}
+\abntrefinfo{Girard et al.}{GIRARD et al.}{2004}
+{GIRARD, A.~R.; HOWELL, A.~S.; HEDRICK, J.~K. Border patrol and surveillance
+  missions using multiple unmanned air vehicles. In:  IEEE. \textbf{Decision
+  and Control, 2004. CDC. 43rd IEEE Conference on}. [S.l.], 2004. v.~1, p.
+  620--625.}
+
+\bibitem[Jesus 2013]{JTA13}
+\abntrefinfo{Jesus}{JESUS}{2013}
+{JESUS, T.~A.
+\textbf{Estrat{\'e}gias de Guiagem e Coopera{\c{c}}{\~a}o de Rob{\^o}s
+  A{\'e}reos Sujeitos a Restri{\c{c}}{\~o}es nas Entradas e/ou nos Estados}.
+Tese (Doutorado) --- Universidade Federal de Minas Gerais, 2013.}
+
+\bibitem[Marjovi et al. 2009]{MANJ09}
+\abntrefinfo{Marjovi et al.}{MARJOVI et al.}{2009}
+{MARJOVI, A.; NUNES, J.~G.; MARQUES, L.; ALMEIDA, A. de. Multi-robot
+  exploration and fire searching. In:  IEEE. \textbf{Intelligent Robots and
+  Systems, 2009. IROS 2009. IEEE/RSJ International Conference on}. [S.l.],
+  2009. p. 1929--1934.}
+
+\bibitem[Ramchurn et al. 2004]{RSDH2004}
+\abntrefinfo{Ramchurn et al.}{RAMCHURN et al.}{2004}
+{RAMCHURN, S.~D.; HUYNH, D.; JENNINGS, N.~R. Trust in multi-agent systems.
+\textbf{Knowl. Eng. Rev.}, Cambridge University Press, New York, NY, USA,
+  v.~19, n.~1, p. 1--25, mar. 2004.
+ISSN 0269-8889.
+Dispon{\'\i}vel em: \url{http://dx.doi.org/10.1017/S0269888904000116}.}
+
+\bibitem[Secchi 2008]{SHA08}
+\abntrefinfo{Secchi}{SECCHI}{2008}
+{SECCHI, H. \textbf{Uma Introdu{\c{c}}{\~a}o a Rob{\^o}s M{\'o}veis}. [S.l.]:
+  Argentina, 2008.}
+
+\bibitem[SOURCEFORGE 2001]{sorceforge2001}
+\abntrefinfo{SOURCEFORGE}{SOURCEFORGE}{2001}
+{SOURCEFORGE. \textbf{Bricx Command Center}. 2001.
+Dispon{\'\i}vel em: \url{http://bricxcc.sourceforge.net/}. Acesso em: 30 de
+  março de 2009.}
+
+\end{thebibliography}

@@ -1,0 +1,118 @@
+/********************************
+*  Parâmetros do robô (metros)  *
+*********************************
+* L  = Distância entre os eixos *
+* RP = Raio do pneu             *
+*********************************/
+#define L 0.105
+#define RP 0.0287
+//Parâmetro da formação
+#define R 0.3
+//Periodo em segundos
+#define T 10
+//Converte rotações por milissegundos para rads
+#define TORADS 17.45
+
+/*******************************
+*            Variáveis         *
+********************************/
+//Tempo de Amostragem
+int t_amostral = 200;
+
+//Número de amostras
+int k = 100;
+
+//Peso de atuação
+int peso_controle = 1;
+
+//recebera o tempo
+long prev_tick;
+
+//Auxiliar para gravar no arquivo txt
+string write;
+short bytesWritten;
+byte fileHandle;
+
+/*******************************
+*              Robô            *
+********************************/
+//velocidade linear e angular desejada do robo
+float vd,wd;
+/*******************************
+*         Roda Direita         *
+********************************/
+//velocidade angular real e desejada do robo
+float wr,wdr;
+//Contagem de rotações da roda no tempo t-1
+long prev_deg_a = 0;
+//Potência de atuação do motor direito
+int pwr;
+
+/*******************************
+*         Roda Esquerda        *
+********************************/
+//velocidade angular real e desejada do robo
+float wl,wdl;
+//Contagem de rotações da roda no tempo t-1
+long prev_deg_c = 0;
+//Potência de atuação do motor direito
+int pwl;
+
+sub ws(){
+   //Calculando as velocidades angulares da amostra w(k) de cada roda
+   long dt = CurrentTick() - prev_tick;
+   //Graus por milissegundos
+   long deg_a = MotorRotationCount(OUT_A) - prev_deg_a;
+   long deg_c = MotorRotationCount(OUT_C) - prev_deg_c;
+   wr = deg_a * TORADS / dt;
+   wl = deg_c * TORADS / dt;
+   prev_deg_a = MotorRotationCount(OUT_A);
+   prev_deg_c = MotorRotationCount(OUT_C);
+   prev_tick = CurrentTick();
+}
+
+sub control_motor(){
+    //Ação de Controle
+    //Obtendo as velocidades angular de cada roda
+    ws();
+    //Erro de cada roda
+    float ewr = wdr - wr;
+    float ewl = wdl - wl;
+    //Ações de controle
+    if(ewr > 0){
+        pwr = pwr + peso_controle;
+        OnFwd(OUT_A,pwr);
+    }else{
+        pwr = pwr - peso_controle;
+        OnFwd(OUT_A,pwr);
+    }
+    if(ewl > 0){
+        pwl = pwl + peso_controle;
+        OnFwd(OUT_C,pwl);
+    }else{
+        pwl = pwl - peso_controle;
+        OnFwd(OUT_C,pwl);
+    }
+    //Salvando erros em arquivo
+    write = StrCat(NumToStr(ewr),"|",NumToStr(ewl));
+    WriteLnString(fileHandle,write, bytesWritten);
+}
+
+task main(){
+    //Inicializando o sistema
+    wd = (2*PI)/T;
+    vd = wd*R;
+    wdr = (2*vd + wd*L)/(2*RP);
+    wdl = (2*vd - wd*L)/(2*RP);
+    pwr = 30;
+    pwl = 30;
+    DeleteFile("Err_Bloco1.txt");
+    CreateFile("Err_Bloco1.txt",2048, fileHandle);
+    prev_tick = CurrentTick();
+
+    for(int t = 0; t < k;t++){
+        control_motor();
+        Wait(t_amostral);
+    }
+    CloseFile(fileHandle);
+}
