@@ -4,33 +4,21 @@
 
 \chapter{Metodologia}
 
-Para a realização deste trabalho, pretende-se primeiramente estudar estratégias de controle de formação de robôs móveis, as possibilidades %viabilidade 
-de implementação dessas estratégias na plataforma a ser utilizada (no caso, o \emph{LEGO Mindstorms}), a viabilidade de modelar e implementar o sistema como um sistema distribuído descentralizado e uma montagem do problema que viabilize a correção de erros de sensoriamento que se acumulam a cada iteração. 
+Para a realização deste trabalho, primeiramente será realizado um estudo das estratégias de controle de formação de robôs móveis, das possibilidades %viabilidade 
+de implementação dessas estratégias na plataforma a ser utilizada (no caso, o \emph{LEGO Mindstorms}) e da viabilidade de modelar e implementar o sistema como um sistema distribuído descentralizado. 
 
-Após realizados os estudos, deve-se fazer uma modelagem matemática do problema, na qual serão definidas as restrições da modelagem, bem como as limitações da plataforma, tendo em vista um levantamento das dificuldades que certamente surgirão somente na implementação do sistema no mundo real. 
+Após realizados os estudos, será demostrado uma modelagem matemática do problema, na qual serão definidas as restrições da modelagem, bem como as limitações da plataforma, tendo em vista um levantamento das dificuldades que certamente surgirão somente na implementação do sistema no mundo real. A solução para o problema será modelada de forma a viabilizar a correção de erros de sensoriamento que se acumulam a cada iteração.
 
-Em seguida, serão realizadas diversas simulações via \emph{software} (provavelmente será utilizado o \emph{software MATLAB} para a realização das simulações) e então será realizada a implementação do sistema na plataforma de baixo custo disponível, o \emph{LEGO Mindstorms}, para que se possa analisar a viabilidade de implementação dessas estratégias no meio acadêmico e se realizar um estudo comparativo das estratégias utilizadas. 
-%Desnecessário (??)
-%\begin{enumerate}
-%	\item
-%	Estudos das estratégias
-%	\item
-%	Modelagem matemática
-%	\item
-%	Simulações computacionais
-%	\item
-%	Implementação na plataforma experimental
-%	Análise de resultados
-%	\item
-%	Conclusão do trabalho
-%	\item
-%	Apresentação
+Para facilitar a implementação, a modelagem será implementada em módulos de controle, com o intuito de simplificar o entendimento e a validação do sistema. A implementação será feita da malha mais interna à malha mais externa, sendo testado e validado módulo à modulo de controle, bem como suas integrações. 
 
-%\end{enumerate}
+Posteriormente, serão realizadas simulações, através da ferramenta \emph{MATLAB}, à fim de comparar o modelo real com o modelo idealizado do sistema.
 
-\section{Revisão Bibliográfica}
+\section{Fundamentação Teórica}
 
-Será feito um levantamento das diversas estratégias de controle de formação, e das diversas formas de se planejar a rede. Será analisada a viabilidade de implementação dessas estratégias na plataforma \emph{LEGO Mindstorms}, visto que esta se trata de uma ferramenta de baixo custo usada para fins didáticos, por isso, apresenta muitas limitações. 
+Será feito nesse capítulo, um levantamento das diversas estratégias de controle de formação, e das diversas formas de se planejar a rede. Será analisada a viabilidade de implementação dessas estratégias na plataforma \emph{LEGO Mindstorms}, visto que esta se trata de uma ferramenta de baixo custo usada para fins didáticos, por isso, apresenta muitas limitações.
+
+Além disso, apresenta-se no mesmo, outros conceitos que acredita-se essencial para a inserção do leitor no entendimento do texto, tais como: o que é um modelo matemático não holonômico, o que é controle de formação e faz-se um pequeno levantamento de \emph{softwares} disponíveis para implementação do modelo pretendido. 
+
 \section{Modelagem matemática}
 
 De acordo com a abordagem escolhida na etapa anterior será feita a modelagem matemática do problema, onde serão considerados, dentre outros fatores: as variáveis existentes no mundo real e principalmente as restrições do problema. 
@@ -40,17 +28,18 @@ Na modelagem matemática será definida a abordagem do problema, se a estrutura 
 
 Outro fator importante desta etapa é que o sistema será modelado de acordo com os devidos parâmetros, para que o mesmo seja tolerante a falhas e para que sua estrutura varie, otimizando a resolução do problema, de acordo com as falhas que possam vir a surgir em um ou mais pontos da rede.
 
+\section{Implementação na plataforma experimental}
+Durante a pesquisa, inicia-se a fase de implementação não só da estrutura dos robôs, como também da estrutura do ambiente real e o desenvolvimento do código-fonte do sistema multiagente. 
+
+Conforme o problema vai sendo modelado, será implementado na plataforma, a fim de se obter dados que indiquem se a modelagem escolhida, juntamente com os artifícios utilizados, foram suficientes como solução para o problema. Outros métodos serão estudados quando os resultados não forem satisfatórios ou quando a melhoria dos resultados apresentar um custo/benefício razoável, e então será realizado uma análise comparativa para se escolher o método mais adequado.
+
 \section{Simulações computacionais}
 
-Antes de se implementar o sistema na plataforma, serão realizadas simulações para validar a eficácia da estratégia de controle escolhida. Para tanto, deverá ser utilizada a ferramenta de \emph{software MATLAB}.
-
-\section{Implementação na plataforma experimental}
-
-Após a obtenção dos resultados de simulação em ambiente virtual controlado com uma estratégia de controle que atenda às condições do problema, inicia-se a fase de implementação não só da estrutura dos robôs, como também da estrutura do ambiente real e o desenvolvimento do código-fonte do sistema multiagente. 
+Após a implementação do sistema serão feitas simulações em ambiente virtual controlado com as mesmas estratégias de controle implementadas na plataforma, com o intuito de se realizar uma comparação entre ambas. Para tanto, será utilizada como ferramental o \emph{software MATLAB}.
 
 \section{Análise de Resultados}
 
-Nas etapas de simulação e implementação do sistema, após ele ser validado e testado, será feita a coleta dos dados que serão submetidos a análise.
+Nas etapas de simulação e implementação do sistema, após ele ser validado e testado, será feita a coleta dos dados que serão submetidos a análise. Para comparar ambos os resultados será coletado em tempo de execução os dados necessários para descrever a trajetória do(s) robô(s) e os mesmos serão plotados no \emph{MATLAB}.
 
 \section{Conclusão do trabalho}
 
@@ -64,9 +53,9 @@ Para execução do trabalho as seguintes etapas serão seguidas:
 	\item Revisão bibliográfica das estratégias de controle e tecnologias 
 	necessárias para elaboração deste trabalho.
 	\item Modelagem Matemática.
-	\item Simulações Computacionais.
-	\item Escrita do TCC I.
 	\item Implementação na plataforma experimental.
+	\item Escrita do TCC I.
+	\item Simulações Computacionais.
 	\item Análise de resultados.
 	\item Conclusão do trabalho.
 	\item Escrita do TCC II.
@@ -81,14 +70,14 @@ Para execução do trabalho as seguintes etapas serão seguidas:
 		\multicolumn{11}{|c|}{\textbf{Cronograma}} \\
 		\hline
 		%1 & 2 & 3 & 4 & 5 & 6 & 7 & 8 & 9 & 10 \\
-		\multirow{2}{*}{Tarefa} & \multicolumn{9}{c|}{Mês} \\ \cline{2-10}
+		\multirow{2}{*}{Tarefa} & \multicolumn{10}{c|}{Mês} \\ \cline{2-11}
 		& MAR & ABR & MAI & JUN & JUL & AGO & SET & OUT & NOV & DEZ \\
 		\hline
-		1 & X & X &&&&&&&& \\
-		2 & & X & X &&&&&&& \\
-		3 & X & X & X & X &&&&&& \\
+		1 & X & X & X & X & X & X & X &&& \\
+		2 & & X & X & X & X &&&&& \\
+		3 &&& X & X & X & X & X &&& \\
 		4 & & X & X & X & X &&&&& \\
-		5 & & & X & X & X & X &&&& \\
+		5 & & & & & X & X &&&& \\
 		6 & & & & & & X & X &&& \\
 		7 & & & & & & & X & X && \\
 		8 & & & & & & X & X & X & X & \\

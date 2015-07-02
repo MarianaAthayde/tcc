@@ -10,13 +10,38 @@ compreender tal trabalho é importante, primeiramente, conhecer alguns conceitos
 
 \section{Modelos Matemáticos: Sistemas Não Holonômicos}
 \label{sec:modeloMatematicoNHolonomico}
+%rever
 Os robôs utilizados neste trabalho são considerados modelos não holonômicos e para entender o que é um modelo matemático não holonômico é necessário entender o que é o grau de liberdade de um sistema. Como é visto na literatura \cite{TJRD13}, o grau de liberdade de um sistema é igual ao "número de coordenadas que podem variar independentemente em um pequeno deslocamento". Dito isto pode-se dizer que um sistema holonômico é um sistema onde o número de coordenadas utilizadas para descrever as configurações do sistema é igual ao grau de liberdade do sistema \cite{TJRD13}. Ou seja, o sistema pode se movimentar livre e independentemente em qualquer um dos seu eixos (os eixos referentes à configuração do sistema).
 
 Sendo assim, os sistemas não-holonômicos são sistemas em que pode-se chegar à qualquer outro ponto do espaço, entretanto, com restrições. Visto que as variáveis não podem se mover independentemente. Como exemplo de um sistema não-holonômico podemos citar um veículo, que pode alcançar qualquer ponto do espaço bidimensional, entretanto, para alcançar um ponto qualquer deslocado apenas em seu eixo x é necessário um movimento não só ao longo do seu eixo x mas, também do seu eixo y. Já que, um veículo não pode se mover lateralmente \cite{GJA11}.
 
 \section{Controle de Formação}
 \label{sec:controleFormacao}
-Com o crescente avanço da robótica, começou-se o interesse por sistemas robóticos cooperativos, onde muitos robôs agem em conjunto para alcançar o mesmo objetivo. Para que um sistema multiagente possa executar uma tarefa em conjunto é preciso que cada robô esteja na posição correta, para tal, é necessário o controle de formação. O controle de formação é essencial para sistemas robóticos multiagentes pois permite que cada robô esteja em seu devido lugar no momento certo. Existem diversos tipos de estruturas de formação, dentre elas: formação em linha 
+Com o crescente avanço da robótica, começou-se o interesse por sistemas robóticos cooperativos, onde muitos robôs agem em conjunto para alcançar o mesmo objetivo. Para que um sistema multiagente possa executar uma tarefa em conjunto é preciso que cada robô esteja na posição correta, para tal, é necessário o controle de formação. O controle de formação é essencial para sistemas robóticos multiagentes pois permite que cada robô esteja em seu devido lugar no momento certo. Existem diversos tipos de estruturas de formação, tanto no que diz respeito a formação física da rede, como do ponto de vista lógico da rede. Como é visto na literatura \cite{leal2009reconfigurable}, pode-se classificar uma rede de multiagentes de diversas formas: Homogênea ou não, no que diz respeito aos tipos de unidades, no que diz respeito à estrutura da rede como indivíduo, se a rede é formada por indivíduos independentes ou se é o mesmo robô, quanto à estrutura organizacional, dentre outros. 
+
+Do ponto de vista físico podemos citar alguns tipos de estruturas de formação, como referenciado em \citeonline{balch1998behavior}, tais como, estrutura em\emph{line}, \emph{column}, \emph{diamond} e \emph{wedge}. A primeira delas consiste em uma formação em linha horizontal (\emph{line})como, o próprio nome revela. A segunda, em uma linha vertical (\emph{column}), a terceira \emph{diamond}, que consiste em uma rede em formato de um losango e a quarta, \emph{wedge} em formato de \emph{'V'}, o que se parece com a estrutura de um \emph{flock}. 
+
+\begin{figure}[!htb]
+	\centering
+	\caption{Controle de Formação: classificação quanto à estrutura física}
+	\includegraphics[width=10cm]{./04-figuras/Estruturasfísica}
+	\legend{(a) \emph{Line},(b) \emph{Column},(c) \emph{Diamond} e (d) \emph{Wedge}}
+	\fonte{\citeonline{balch1998behavior}}
+	\label{fig:est_fis}
+\end{figure}
+
+Além disso tem a classificação quanto a estrutura da rede lógica, centralizada, descentralizada e híbrida e quanto a seu grupo de arquitetura, no caso deste trabalho, a classificação seria móvel.\cite{leal2009reconfigurable}. Outras classificações interessantes que serão abordadas posteriormente são, as técnicas de referência para controle de formação.
+
+\section{Controle Proporcional Integral Derivativo e a Técnica de Controle em Cascata}
+\label{sec:pid}
+O controlador Proporcional Integral Derivativo, ou simplesmente, \emph{PID} consiste em uma técnica com ações proporcionais, integrais e derivativas. A ação proporcional (\emph{P}), consiste em minimizar o erro, enquanto a ação integral (\emph{I}) tende a zerar este erro e a ação derivativa (\emph{D}) tende à reduzir o tempo de resposta. A equação que o modela está indicada pela \autoref{eq:pid}. Ou seja, a ação proporcional consiste em multiplicar o erro pelo ganho, minimizando o erro, a ação integral consiste em multiplicar pelo ganho a soma dos erros durante a execução do sistema e por fim, a ação derivativa que consiste em multiplicar o ganho pela derivada do erro, tentando assim, antecipar a resposta do sistema. 
+
+\begin{equation}
+c{t} = k_{p}e(t) + k_{i}\int_0^t e(t) dt + k_{d}\dfrac{de(t)}{dt}
+\label{eq:pid}
+\end{equation}
+
+Uma técnica de controle importante que também foi utilizada neste trabalho, foi a técnica conhecida como controle em cascata, esta técnica consiste em passar como referência para o controlador interno, a saída do controlador mais externo, que possui uma referência independente, e a saída do sistema como um todo, é a saída do controlador mais interno. Como será visto mais a frente, é o caso deste trabalho.
 
 \section{Plataformas}
 \label{sec:plataformas}

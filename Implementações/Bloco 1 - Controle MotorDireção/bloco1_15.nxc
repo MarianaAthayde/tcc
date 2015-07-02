@@ -20,7 +20,7 @@
 int t_amostral = 200;
 
 //Número de amostras
-int k = 100;
+int k = 200;
 
 //Peso de atuação
 int peso_controle = 1;
@@ -81,16 +81,28 @@ sub control_motor(){
     //Ações de controle
     if(ewr > 0){
         pwr = pwr + peso_controle;
+        if(pwr > 100){
+        pwr = 100;
+        }
         OnFwd(OUT_A,pwr);
     }else{
         pwr = pwr - peso_controle;
+        if(pwr > 100){
+        pwr = 100;
+        }
         OnFwd(OUT_A,pwr);
     }
     if(ewl > 0){
         pwl = pwl + peso_controle;
+        if(pwl > 100){
+        pwl = 100;
+        }
         OnFwd(OUT_C,pwl);
     }else{
         pwl = pwl - peso_controle;
+        if(pwl > 100){
+        pwl = 100;
+        }
         OnFwd(OUT_C,pwl);
     }
     //Salvando erros em arquivo
@@ -104,10 +116,10 @@ task main(){
     vd = wd*R;
     wdr = (2*vd + wd*L)/(2*RP);
     wdl = (2*vd - wd*L)/(2*RP);
-    pwr = 30;
-    pwl = 30;
-    DeleteFile("Err_Bloco1.txt");
-    CreateFile("Err_Bloco1.txt",2048, fileHandle);
+    pwr = 20;
+    pwl = 20;
+    DeleteFile("Err_B1_15_c.txt");
+    CreateFile("Err_B1_15_c.txt",2*2048, fileHandle);
     prev_tick = CurrentTick();
     
     for(int t = 0; t < k;t++){

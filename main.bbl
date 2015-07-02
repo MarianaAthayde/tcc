@@ -5,11 +5,30 @@
 \providecommand{\abntbstabout}[1]{}
 \abntbstabout{v-1.9.3 }
 
+\bibitem[Balch e Arkin 1998]{balch1998behavior}
+\abntrefinfo{Balch e Arkin}{BALCH; ARKIN}{1998}
+{BALCH, T.; ARKIN, R.~C. Behavior-based formation control for multirobot teams.
+\textbf{Robotics and Automation, IEEE Transactions on}, IEEE, v.~14, n.~6, p.
+  926--939, 1998.}
+
+\bibitem[Benedettelli et al. 2009]{BDCMGA09}
+\abntrefinfo{Benedettelli et al.}{BENEDETTELLI et al.}{2009}
+{BENEDETTELLI, D.; CASINI, M.; GARULLI, A.; GIANNITRAPANI, A.; VICINO, A. A
+  lego mindstorms experimental setup for multi-agent systems. In:
+  \textbf{Control Applications, (CCA) Intelligent Control, (ISIC), 2009 IEEE}.
+  [S.l.: s.n.], 2009. p. 1230--1235.}
+
 \bibitem[CARLES e HERMOSILLA 2008]{CMHL08}
 \abntrefinfo{CARLES e HERMOSILLA}{CARLES; HERMOSILLA}{2008}
 {CARLES, M.; HERMOSILLA, L. O futuro da medicina: nanomedicina.
 \textbf{Revista Cient{\'\i}fica Eletr{\^o}nica de Medicina Veterin{\'a}ria},
   v.~6, n.~10, p.~1--7, 2008.}
+
+\bibitem[Casini et al. 2011]{casini2011lego}
+\abntrefinfo{Casini et al.}{CASINI et al.}{2011}
+{CASINI, M.; GARULLI, A.; GIANNITRAPANI, A.; VICINO, A. A lego mindstorms
+  multi-robot setup in the automatic control telelab. In:  \textbf{Proceedings
+  of 18th IFAC World Congress, Milano, Italy}. [S.l.: s.n.], 2011. v.~28.}
 
 \bibitem[Chen et al. 2002]{HCWSNX02}
 \abntrefinfo{Chen et al.}{CHEN et al.}{2002}
@@ -33,6 +52,13 @@
   and Control, 2004. CDC. 43rd IEEE Conference on}. [S.l.], 2004. v.~1, p.
   620--625.}
 
+\bibitem[Gouv{\^e}a 2011]{GJA11}
+\abntrefinfo{Gouv{\^e}a}{GOUV{\^E}A}{2011}
+{GOUV{\^E}A, J.~A.
+\textbf{CONTROLE DE FORMA{\c{C}}{\~A}O DE ROB{\^O}S N{\~A}O-HOLON{\^O}MICOS COM
+  RESTRI{\c{C}}{\~A}O DE CURVATURA UTILIZANDO FUN{\c{C}}{\~A}O POTENCIAL}.
+Tese (Doutorado) --- Universidade Federal do Rio de Janeiro, 2011.}
+
 \bibitem[Jesus 2013]{JTA13}
 \abntrefinfo{Jesus}{JESUS}{2013}
 {JESUS, T.~A.
@@ -46,6 +72,12 @@ Tese (Doutorado) --- Universidade Federal de Minas Gerais, 2013.}
   exploration and fire searching. In:  IEEE. \textbf{Intelligent Robots and
   Systems, 2009. IROS 2009. IEEE/RSJ International Conference on}. [S.l.],
   2009. p. 1929--1934.}
+
+\bibitem[Martinez et al. 2009]{leal2009reconfigurable}
+\abntrefinfo{Martinez et al.}{MARTINEZ et al.}{2009}
+{MARTINEZ, D. L. et al. Reconfigurable multi robot society based on lego
+  mindstorms.
+Helsinki University of Technology, 2009.}
 
 \bibitem[Ramchurn et al. 2004]{RSDH2004}
 \abntrefinfo{Ramchurn et al.}{RAMCHURN et al.}{2004}
@@ -65,5 +97,12 @@ Dispon{\'\i}vel em: \url{http://dx.doi.org/10.1017/S0269888904000116}.}
 {SOURCEFORGE. \textbf{Bricx Command Center}. 2001.
 Dispon{\'\i}vel em: \url{http://bricxcc.sourceforge.net/}. Acesso em: 30 de
   março de 2009.}
+
+\bibitem[Taylor et al. 2013]{TJRD13}
+\abntrefinfo{Taylor et al.}{TAYLOR et al.}{2013}
+{TAYLOR, J.; D{\'I}AZ, J.; GRAU, A. \textbf{Mec{\'a}nica cl{\'a}sica}.
+  Revert{\'e}, 2013.
+ISBN 9788429143126. Dispon{\'\i}vel em:
+  \url{http://books.google.com.br/books?id=6QJjngEACAAJ}.}
 
 \end{thebibliography}

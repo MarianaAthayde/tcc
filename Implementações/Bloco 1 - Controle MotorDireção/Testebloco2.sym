@@ -1,26 +1,26 @@
 #SYMBOLS
 Index	Identifier	Type	Flag	Data	Size	RefCount
-0	__float_stack_001ws	10	1	0	4	8
-1	__float_stack_002ws	10	1	4	4	8
-2	__signed_stack_001ws	6	1	8	4	4
-3	__signed_stack_002ws	6	1	12	4	4
-4	acum_err	10	1	16	4	3
-5	prev_tick	6	1	20	4	2
+0	acum_err	10	1	0	4	3
+1	acum_erl	10	1	4	4	3
+2	__float_stack_001ws	10	1	8	4	8
+3	__float_stack_002ws	10	1	12	4	8
+4	dt	6	1	16	4	3
+5	__ws_7qG2_deg_a_7qG2_000	6	1	20	4	3
 6	xc	10	1	24	4	2
-7	acum_erl	10	1	28	4	3
-8	dt	6	1	32	4	3
-9	__float_stack_001control_motor	10	1	36	4	20
-10	__float_stack_002control_motor	10	1	40	4	8
-11	__DF0wd_rodas	10	1	44	4	4
-12	__DF0ws	10	1	48	4	4
-13	__float_stack_001control_pos	10	1	52	4	18
-14	__unsigned_stack_001main	5	1	56	4	2
-15	__float_stack_001wd_rodas	10	1	60	4	8
-16	__float_stack_002control_pos	10	1	64	4	18
-17	__signed_stack_001main	6	1	68	4	2
+7	prev_tick	6	1	28	4	2
+8	__ws_7qG2_deg_c_7qG2_000	6	1	32	4	3
+9	__float_stack_001control_pos	10	1	36	4	14
+10	__float_stack_002control_pos	10	1	40	4	16
+11	__float_stack_001control_motor	10	1	44	4	20
+12	__float_stack_002control_motor	10	1	48	4	8
+13	__signed_stack_001main	6	1	52	4	2
+14	__signed_stack_001ws	6	1	56	4	4
+15	__signed_stack_002ws	6	1	60	4	4
+16	__unsigned_stack_001main	5	1	64	4	2
+17	__float_stack_001wd_rodas	10	1	68	4	8
 18	wdr	10	1	72	4	2
 19	prev_deg_a	6	1	76	4	2
-20	acum_errt	10	1	80	4	3
+20	acum_errt	10	1	80	4	2
 21	wr	10	1	84	4	2
 22	dr	10	1	88	4	5
 23	prev_deg_c	6	1	92	4	2
@@ -33,149 +33,149 @@ Index	Identifier	Type	Flag	Data	Size	RefCount
 30	vd	10	0	120	4	2
 31	tetad	10	1	124	4	2
 32	tetar	10	0	128	4	5
-33	errt	10	1	132	4	8
+33	errt	10	1	132	4	7
 34	xr	10	0	136	4	3
 35	yr	10	1	140	4	3
-36	__atan2_7qG2_x_7qG2_000_inline_control_pos	10	1	144	4	4
-37	__control_motor_7qG2_cl_7qG2_000	10	1	148	4	6
-38	__control_pos_7qG2_erry_7qG2_000	10	1	152	4	3
-39	__atan2_7qG2_y_7qG2_000_inline_control_pos	10	1	156	4	4
-40	__control_motor_7qG2_cr_7qG2_000	10	1	160	4	6
-41	__control_motor_7qG2_ewl_7qG2_000	10	1	164	4	5
-42	__constValf0P5	10	0	168	4	2
-43	__constValf0P2	10	0	172	4	9
-44	__control_pos_7qG2_yd_7qG2_000	10	1	176	4	2
-45	__control_pos_7qG2_xd_7qG2_000	10	1	180	4	2
-46	__FOMutex	9	0	184	4	4
-47	__control_pos_7qG2_errx_7qG2_000	10	1	188	4	3
-48	__cos_7qG2_x_7qG2_000_inline_control_pos	10	1	192	4	6
-49	__FWriteMutex	9	0	196	4	4
+36	__DF0ws	10	1	144	4	4
+37	__cos_7qG2_x_7qG2_000_inline_control_pos	10	1	148	4	6
+38	__constValf0P1	10	0	152	4	1
+39	__FWriteMutex	9	0	156	4	4
+40	__sin_7qG2_x_7qG2_000_inline_control_pos	10	1	160	4	6
+41	__constValf0P2	10	0	164	4	8
+42	__control_motor_7qG2_cr_7qG2_000	10	1	168	4	6
+43	__constValf0P5	10	0	172	4	1
+44	__control_motor_7qG2_cl_7qG2_000	10	1	176	4	6
+45	__atan2_7qG2_y_7qG2_000_inline_control_pos	10	1	180	4	4
+46	__control_pos_7qG2_erry_7qG2_000	10	1	184	4	3
+47	__atan2_7qG2_x_7qG2_000_inline_control_pos	10	1	188	4	4
+48	__FOMutex	9	0	192	4	4
+49	__control_pos_7qG2_xd_7qG2_000	10	1	196	4	2
 50	__control_pos_7qG2_aux_7qG2_000	10	1	200	4	3
-51	__sin_7qG2_x_7qG2_000_inline_control_pos	10	1	204	4	6
-52	__constValf17P45	10	0	208	4	2
-53	__D0control_motor	6	1	212	4	5
-54	__constValf0P105	10	0	216	4	3
-55	__constValf3P141593	10	0	220	4	2
-56	__constValf0P0287	10	0	224	4	2
-57	__DF0control_motor	10	1	228	4	24
-58	__D0main	6	1	232	4	9
-59	__ws_7qG2_deg_a_7qG2_000	6	1	236	4	3
-60	__control_motor_7qG2_ewr_7qG2_000	10	1	240	4	5
+51	__control_pos_7qG2_errx_7qG2_000	10	1	204	4	3
+52	__control_pos_7qG2_yd_7qG2_000	10	1	208	4	2
+53	__constValf0P0287	10	0	212	4	2
+54	__constValf3P141593	10	0	216	4	2
+55	__constValf0P105	10	0	220	4	3
+56	__DF0control_motor	10	1	224	4	24
+57	__constValf17P45	10	0	228	4	2
+58	__DF0wd_rodas	10	1	232	4	4
+59	__DF0control_pos	10	1	236	4	26
+60	__D0main	6	1	240	4	9
 61	__constValf0P0574	10	0	244	4	2
-62	__ws_7qG2_deg_c_7qG2_000	6	1	248	4	3
-63	__DF0control_pos	10	1	252	4	28
-64	t_amostral	4	0	256	2	1
-65	k	4	0	258	2	1
-66	t	4	1	260	2	5
-67	__constVal6144	4	0	262	2	2
-68	__constVal360	4	0	264	2	2
-69	____initialize_global_data_return	1	1	266	1	3
-70	__ws_return	1	1	267	1	3
-71	__control_motor_return	1	1	268	1	3
-72	__wd_rodas_return	1	1	269	1	4
-73	__control_pos_return	1	1	270	1	3
-74	__constVal63	2	0	271	1	2
-75	__constVal96	2	0	272	1	2
-76	__constVal10	2	0	273	1	2
-77	__constVal2	2	0	274	1	9
-78	__constValNeg100	2	0	275	1	4
-79	__constVal100	2	0	276	1	4
-80	__constVal5	2	0	277	1	1
-81	__constVal1	2	0	278	1	5
-82	__constVal32	2	0	279	1	6
-83	__constVal3	2	0	280	1	2
-84	__constVal0	2	1	281	1	11
-85	__zfmain	1	1	282	1	3
-86	__zfcontrol_motor	1	1	283	1	12
-87	fileHandle2	1	1	284	1	3
-88	fileHandle	1	1	285	1	3
-89	__FWriteArgs	8	0	4	12	11
-90	__FWriteArgs.Result	3	1	288	2	11
-91	__FWriteArgs.FileHandle	1	1	290	1	11
-92	__FWriteArgs.Buffer	7	0	292	4	11
-93	__FWriteArgs.Buffer.Buffer_type	1	0	0	1	0
-94	__FWriteArgs.Length	5	1	296	4	11
-95	__FDArgs	8	0	2	8	6
-96	__FDArgs.Result	3	1	300	2	6
-97	__FDArgs.Filename	7	0	302	4	6
-98	__FDArgs.Filename.Filename_type	1	0	0	1	0
+62	__D0control_motor	6	1	248	4	5
+63	__control_motor_7qG2_ewr_7qG2_000	10	1	252	4	5
+64	__control_motor_7qG2_ewl_7qG2_000	10	1	256	4	5
+65	__constVal6144	4	0	260	2	2
+66	k	4	0	262	2	1
+67	t	4	1	264	2	5
+68	__constVal360	4	0	266	2	2
+69	t_amostral	4	0	268	2	1
+70	____initialize_global_data_return	1	1	270	1	3
+71	__control_motor_return	1	1	271	1	3
+72	__wd_rodas_return	1	1	272	1	4
+73	__constVal96	2	0	273	1	2
+74	__control_pos_return	1	1	274	1	3
+75	__constVal63	2	0	275	1	2
+76	__ws_return	1	1	276	1	3
+77	__constVal3	2	0	277	1	2
+78	__constVal0	2	1	278	1	11
+79	__zfcontrol_motor	1	1	279	1	12
+80	__constVal2	2	0	280	1	9
+81	__constVal100	2	0	281	1	4
+82	__constValNeg100	2	0	282	1	4
+83	__constVal10	2	0	283	1	2
+84	__constVal32	2	0	284	1	6
+85	__zfmain	1	1	285	1	3
+86	fileHandle	1	1	286	1	3
+87	__constVal1	2	0	287	1	5
+88	fileHandle2	1	1	288	1	3
+89	__FDArgs	8	0	2	8	6
+90	__FDArgs.Result	3	1	292	2	6
+91	__FDArgs.Filename	7	0	294	4	6
+92	__FDArgs.Filename.Filename_type	1	0	0	1	0
+93	__FWriteArgs	8	0	4	12	11
+94	__FWriteArgs.Result	3	1	296	2	11
+95	__FWriteArgs.FileHandle	1	1	298	1	11
+96	__FWriteArgs.Buffer	7	0	300	4	11
+97	__FWriteArgs.Buffer.Buffer_type	1	0	0	1	0
+98	__FWriteArgs.Length	5	1	304	4	11
 99	__FOArgs	8	0	4	12	10
-100	__FOArgs.Result	3	1	304	2	10
-101	__FOArgs.FileHandle	1	1	306	1	10
-102	__FOArgs.Filename	7	0	308	4	10
+100	__FOArgs.Result	3	1	308	2	10
+101	__FOArgs.FileHandle	1	1	310	1	10
+102	__FOArgs.Filename	7	0	312	4	10
 103	__FOArgs.Filename.Filename_type	1	0	0	1	0
-104	__FOArgs.Length	5	1	312	4	10
+104	__FOArgs.Length	5	1	316	4	10
 105	__FCArgs	8	0	2	4	6
-106	__FCArgs.Result	3	1	316	2	6
-107	__FCArgs.FileHandle	1	1	318	1	6
-108	__strretvalcontrol_pos	7	0	320	4	8
-109	__strretvalcontrol_pos.__strretvalcontrol_pos_type	1	0	0	1	0
-110	__ArrHelper__control_pos_244_1	7	0	322	4	2
-111	__ArrHelper__control_pos_244_1.__ArrHelper__control_pos_244_1_type	1	0	0	1	0
-112	__strretvalcontrol_motor	7	0	324	4	6
-113	__strretvalcontrol_motor.__strretvalcontrol_motor_type	1	0	0	1	0
-114	__strbufcontrol_pos	7	0	326	4	12
-115	__strbufcontrol_pos.__strbufcontrol_pos_type	1	0	0	1	0
-116	__control_pos_7qG2_write2_7qG2_000	7	0	328	4	2
-117	__control_pos_7qG2_write2_7qG2_000.__control_pos_7qG2_write2_7qG2_000_type	1	0	0	1	0
-118	__ArrHelper__control_pos_244_3	7	0	330	4	2
-119	__ArrHelper__control_pos_244_3.__ArrHelper__control_pos_244_3_type	1	0	0	1	0
-120	__constStr0011	7	0	332	4	2
-121	__constStr0011.__constStr0011_type	1	1	0	1	0
-122	__ArrHelper__control_pos_244_2	7	0	334	4	2
+106	__FCArgs.Result	3	1	320	2	6
+107	__FCArgs.FileHandle	1	1	322	1	6
+108	__constStr0010	7	0	324	4	2
+109	__constStr0010.__constStr0010_type	1	1	0	1	0
+110	__control_pos_7qG2_write2_7qG2_000	7	0	326	4	2
+111	__control_pos_7qG2_write2_7qG2_000.__control_pos_7qG2_write2_7qG2_000_type	1	0	0	1	0
+112	__constStr0011	7	0	328	4	2
+113	__constStr0011.__constStr0011_type	1	1	0	1	0
+114	__FWriteFlattenBuf	7	0	330	4	4
+115	__FWriteFlattenBuf.__FWriteFlattenBuf_type	1	0	0	1	0
+116	__FWriteLn	7	0	332	4	2
+117	__FWriteLn.__FWriteLn_type	1	0	0	1	0
+118	__ArrHelper__control_pos_244_4	7	0	334	4	2
+119	__ArrHelper__control_pos_244_4.__ArrHelper__control_pos_244_4_type	1	0	0	1	0
+120	__ArrHelper__control_pos_244_3	7	0	336	4	2
+121	__ArrHelper__control_pos_244_3.__ArrHelper__control_pos_244_3_type	1	0	0	1	0
+122	__ArrHelper__control_pos_244_2	7	0	338	4	2
 123	__ArrHelper__control_pos_244_2.__ArrHelper__control_pos_244_2_type	1	0	0	1	0
-124	__constStr0010	7	0	336	4	2
-125	__constStr0010.__constStr0010_type	1	1	0	1	0
-126	__ArrHelper__control_pos_244_0	7	0	338	4	2
-127	__ArrHelper__control_pos_244_0.__ArrHelper__control_pos_244_0_type	1	0	0	1	0
-128	__constStr0009	7	0	340	4	3
-129	__constStr0009.__constStr0009_type	1	1	0	1	0
-130	__FWriteLn	7	0	342	4	2
-131	__FWriteLn.__FWriteLn_type	1	0	0	1	0
-132	__ArrHelper__control_pos_244_4	7	0	344	4	2
-133	__ArrHelper__control_pos_244_4.__ArrHelper__control_pos_244_4_type	1	0	0	1	0
-134	__control_motor_7qG2_write_7qG2_000	7	0	346	4	2
+124	__strbufcontrol_motor	7	0	340	4	8
+125	__strbufcontrol_motor.__strbufcontrol_motor_type	1	0	0	1	0
+126	__strretvalcontrol_pos	7	0	342	4	8
+127	__strretvalcontrol_pos.__strretvalcontrol_pos_type	1	0	0	1	0
+128	__strbufcontrol_pos	7	0	344	4	12
+129	__strbufcontrol_pos.__strbufcontrol_pos_type	1	0	0	1	0
+130	__strretvalcontrol_motor	7	0	346	4	6
+131	__strretvalcontrol_motor.__strretvalcontrol_motor_type	1	0	0	1	0
+132	__ArrHelper__control_motor_244_0	7	0	348	4	2
+133	__ArrHelper__control_motor_244_0.__ArrHelper__control_motor_244_0_type	1	0	0	1	0
+134	__control_motor_7qG2_write_7qG2_000	7	0	350	4	2
 135	__control_motor_7qG2_write_7qG2_000.__control_motor_7qG2_write_7qG2_000_type	1	0	0	1	0
-136	__FWriteFlattenBuf	7	0	348	4	4
-137	__FWriteFlattenBuf.__FWriteFlattenBuf_type	1	0	0	1	0
-138	__ArrHelper__control_motor_244_1	7	0	350	4	2
+136	__constStr0009	7	0	352	4	3
+137	__constStr0009.__constStr0009_type	1	1	0	1	0
+138	__ArrHelper__control_motor_244_1	7	0	354	4	2
 139	__ArrHelper__control_motor_244_1.__ArrHelper__control_motor_244_1_type	1	0	0	1	0
-140	__ArrHelper__control_motor_244_2	7	0	352	4	2
-141	__ArrHelper__control_motor_244_2.__ArrHelper__control_motor_244_2_type	1	0	0	1	0
-142	__ArrHelper__control_motor_244_0	7	0	354	4	2
-143	__ArrHelper__control_motor_244_0.__ArrHelper__control_motor_244_0_type	1	0	0	1	0
-144	__strbufcontrol_motor	7	0	356	4	8
-145	__strbufcontrol_motor.__strbufcontrol_motor_type	1	0	0	1	0
+140	__ArrHelper__control_pos_244_1	7	0	356	4	2
+141	__ArrHelper__control_pos_244_1.__ArrHelper__control_pos_244_1_type	1	0	0	1	0
+142	__ArrHelper__control_pos_244_0	7	0	358	4	2
+143	__ArrHelper__control_pos_244_0.__ArrHelper__control_pos_244_0_type	1	0	0	1	0
+144	__ArrHelper__control_motor_244_2	7	0	360	4	2
+145	__ArrHelper__control_motor_244_2.__ArrHelper__control_motor_244_2_type	1	0	0	1	0
 #SOURCES
 Clump	Line	PC	Source
-0	225	0	#line 225 "C:\Users\mariana\Dropbox\TCC\Implementações\Bloco 1 - Controle MotorDireção\Testebloco2.nxc"
+0	225	0	#line 225 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\Bloco 1 - Controle MotorDireção\Testebloco2.nxc"
 0	226	0		subcall __initialize_global_data, ____initialize_global_data_return
-0	225	2	#line 225 "C:\Users\mariana\Dropbox\TCC\Implementações\Bloco 1 - Controle MotorDireção\Testebloco2.nxc"
-0	226	2	#line 226 "C:\Users\mariana\Dropbox\TCC\Implementações\Bloco 1 - Controle MotorDireção\Testebloco2.nxc"
+0	225	2	#line 225 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\Bloco 1 - Controle MotorDireção\Testebloco2.nxc"
+0	226	2	#line 226 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\Bloco 1 - Controle MotorDireção\Testebloco2.nxc"
 0	227	2		subcall wd_rodas, __wd_rodas_return
-0	226	4	#line 226 "C:\Users\mariana\Dropbox\TCC\Implementações\Bloco 1 - Controle MotorDireção\Testebloco2.nxc"
-0	227	4	#line 227 "C:\Users\mariana\Dropbox\TCC\Implementações\Bloco 1 - Controle MotorDireção\Testebloco2.nxc"
+0	226	4	#line 226 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\Bloco 1 - Controle MotorDireção\Testebloco2.nxc"
+0	227	4	#line 227 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\Bloco 1 - Controle MotorDireção\Testebloco2.nxc"
 0	228	4		mov wdi, wd
-0	227	6	#line 227 "C:\Users\mariana\Dropbox\TCC\Implementações\Bloco 1 - Controle MotorDireção\Testebloco2.nxc"
-0	227	6	#line 227 "C:\Users\mariana\Dropbox\TCC\Implementações\Bloco 1 - Controle MotorDireção\Testebloco2.nxc"
-0	228	6	#line 228 "C:\Users\mariana\Dropbox\TCC\Implementações\Bloco 1 - Controle MotorDireção\Testebloco2.nxc"
-0	228	6	#line 228 "C:\Users\mariana\Dropbox\TCC\Implementações\Bloco 1 - Controle MotorDireção\Testebloco2.nxc"
-0	228	6	#line 228 "C:\Users\mariana\Dropbox\TCC\Implementações\Bloco 1 - Controle MotorDireção\Testebloco2.nxc"
-0	229	6	#line 229 "C:\Users\mariana\Dropbox\TCC\Implementações\Bloco 1 - Controle MotorDireção\Testebloco2.nxc"
-0	229	6	#line 229 "C:\Users\mariana\Dropbox\TCC\Implementações\Bloco 1 - Controle MotorDireção\Testebloco2.nxc"
-0	229	6	#line 229 "C:\Users\mariana\Dropbox\TCC\Implementações\Bloco 1 - Controle MotorDireção\Testebloco2.nxc"
-0	230	6	#line 230 "C:\Users\mariana\Dropbox\TCC\Implementações\Bloco 1 - Controle MotorDireção\Testebloco2.nxc"
-0	230	6	#line 230 "C:\Users\mariana\Dropbox\TCC\Implementações\Bloco 1 - Controle MotorDireção\Testebloco2.nxc"
-0	230	6	#line 230 "C:\Users\mariana\Dropbox\TCC\Implementações\Bloco 1 - Controle MotorDireção\Testebloco2.nxc"
-0	230	6	#line 230 "C:\Users\mariana\Dropbox\TCC\Implementações\Bloco 1 - Controle MotorDireção\Testebloco2.nxc"
+0	227	6	#line 227 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\Bloco 1 - Controle MotorDireção\Testebloco2.nxc"
+0	227	6	#line 227 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\Bloco 1 - Controle MotorDireção\Testebloco2.nxc"
+0	228	6	#line 228 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\Bloco 1 - Controle MotorDireção\Testebloco2.nxc"
+0	228	6	#line 228 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\Bloco 1 - Controle MotorDireção\Testebloco2.nxc"
+0	228	6	#line 228 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\Bloco 1 - Controle MotorDireção\Testebloco2.nxc"
+0	229	6	#line 229 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\Bloco 1 - Controle MotorDireção\Testebloco2.nxc"
+0	229	6	#line 229 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\Bloco 1 - Controle MotorDireção\Testebloco2.nxc"
+0	229	6	#line 229 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\Bloco 1 - Controle MotorDireção\Testebloco2.nxc"
+0	230	6	#line 230 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\Bloco 1 - Controle MotorDireção\Testebloco2.nxc"
+0	230	6	#line 230 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\Bloco 1 - Controle MotorDireção\Testebloco2.nxc"
+0	230	6	#line 230 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\Bloco 1 - Controle MotorDireção\Testebloco2.nxc"
+0	230	6	#line 230 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\Bloco 1 - Controle MotorDireção\Testebloco2.nxc"
 0	231	6	#pragma macro 5
 0	231	6		mov __FDArgs.Filename, __constStr0010
 0	231	8		syscall 8, __FDArgs
 0	231	11		mov __D0main, __FDArgs.Result
-0	7559	13	#line 7559 "C:\Users\mariana\Dropbox\TCC\Implementações\Bloco 1 - Controle MotorDireção\Testebloco2.nxc"
-0	230	13	#line 230 "C:\Users\mariana\Dropbox\TCC\Implementações\Bloco 1 - Controle MotorDireção\Testebloco2.nxc"
-0	230	13	#line 230 "C:\Users\mariana\Dropbox\TCC\Implementações\Bloco 1 - Controle MotorDireção\Testebloco2.nxc"
-0	231	13	#line 231 "C:\Users\mariana\Dropbox\TCC\Implementações\Bloco 1 - Controle MotorDireção\Testebloco2.nxc"
+0	7535	13	#line 7535 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\Bloco 1 - Controle MotorDireção\Testebloco2.nxc"
+0	230	13	#line 230 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\Bloco 1 - Controle MotorDireção\Testebloco2.nxc"
+0	230	13	#line 230 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\Bloco 1 - Controle MotorDireção\Testebloco2.nxc"
+0	231	13	#line 231 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\Bloco 1 - Controle MotorDireção\Testebloco2.nxc"
 0	232	13	#pragma macro 7
 0	232	13		acquire __FOMutex
 0	232	14		mov __FOArgs.Filename, __constStr0010
@@ -184,18 +184,18 @@ Clump	Line	PC	Source
 0	232	21		mov fileHandle, __FOArgs.FileHandle
 0	232	23		mov __D0main, __FOArgs.Result
 0	232	25		release __FOMutex
-0	7563	26	#line 7563 "C:\Users\mariana\Dropbox\TCC\Implementações\Bloco 1 - Controle MotorDireção\Testebloco2.nxc"
-0	231	26	#line 231 "C:\Users\mariana\Dropbox\TCC\Implementações\Bloco 1 - Controle MotorDireção\Testebloco2.nxc"
-0	231	26	#line 231 "C:\Users\mariana\Dropbox\TCC\Implementações\Bloco 1 - Controle MotorDireção\Testebloco2.nxc"
-0	232	26	#line 232 "C:\Users\mariana\Dropbox\TCC\Implementações\Bloco 1 - Controle MotorDireção\Testebloco2.nxc"
+0	7539	26	#line 7539 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\Bloco 1 - Controle MotorDireção\Testebloco2.nxc"
+0	231	26	#line 231 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\Bloco 1 - Controle MotorDireção\Testebloco2.nxc"
+0	231	26	#line 231 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\Bloco 1 - Controle MotorDireção\Testebloco2.nxc"
+0	232	26	#line 232 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\Bloco 1 - Controle MotorDireção\Testebloco2.nxc"
 0	233	26	#pragma macro 5
 0	233	26		mov __FDArgs.Filename, __constStr0011
 0	233	28		syscall 8, __FDArgs
 0	233	31		mov __D0main, __FDArgs.Result
-0	7567	33	#line 7567 "C:\Users\mariana\Dropbox\TCC\Implementações\Bloco 1 - Controle MotorDireção\Testebloco2.nxc"
-0	232	33	#line 232 "C:\Users\mariana\Dropbox\TCC\Implementações\Bloco 1 - Controle MotorDireção\Testebloco2.nxc"
-0	232	33	#line 232 "C:\Users\mariana\Dropbox\TCC\Implementações\Bloco 1 - Controle MotorDireção\Testebloco2.nxc"
-0	233	33	#line 233 "C:\Users\mariana\Dropbox\TCC\Implementações\Bloco 1 - Controle MotorDireção\Testebloco2.nxc"
+0	7543	33	#line 7543 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\Bloco 1 - Controle MotorDireção\Testebloco2.nxc"
+0	232	33	#line 232 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\Bloco 1 - Controle MotorDireção\Testebloco2.nxc"
+0	232	33	#line 232 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\Bloco 1 - Controle MotorDireção\Testebloco2.nxc"
+0	233	33	#line 233 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\Bloco 1 - Controle MotorDireção\Testebloco2.nxc"
 0	234	33	#pragma macro 7
 0	234	33		acquire __FOMutex
 0	234	34		mov __FOArgs.Filename, __constStr0011
@@ -204,426 +204,426 @@ Clump	Line	PC	Source
 0	234	41		mov fileHandle2, __FOArgs.FileHandle
 0	234	43		mov __D0main, __FOArgs.Result
 0	234	45		release __FOMutex
-0	7571	46	#line 7571 "C:\Users\mariana\Dropbox\TCC\Implementações\Bloco 1 - Controle MotorDireção\Testebloco2.nxc"
-0	233	46	#line 233 "C:\Users\mariana\Dropbox\TCC\Implementações\Bloco 1 - Controle MotorDireção\Testebloco2.nxc"
-0	233	46	#line 233 "C:\Users\mariana\Dropbox\TCC\Implementações\Bloco 1 - Controle MotorDireção\Testebloco2.nxc"
-0	234	46	#line 234 "C:\Users\mariana\Dropbox\TCC\Implementações\Bloco 1 - Controle MotorDireção\Testebloco2.nxc"
-0	234	46	#line 234 "C:\Users\mariana\Dropbox\TCC\Implementações\Bloco 1 - Controle MotorDireção\Testebloco2.nxc"
-0	234	46	#line 234 "C:\Users\mariana\Dropbox\TCC\Implementações\Bloco 1 - Controle MotorDireção\Testebloco2.nxc"
-0	234	46	#line 234 "C:\Users\mariana\Dropbox\TCC\Implementações\Bloco 1 - Controle MotorDireção\Testebloco2.nxc"
-0	236	46	#line 236 "C:\Users\mariana\Dropbox\TCC\Implementações\Bloco 1 - Controle MotorDireção\Testebloco2.nxc"
+0	7547	46	#line 7547 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\Bloco 1 - Controle MotorDireção\Testebloco2.nxc"
+0	233	46	#line 233 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\Bloco 1 - Controle MotorDireção\Testebloco2.nxc"
+0	233	46	#line 233 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\Bloco 1 - Controle MotorDireção\Testebloco2.nxc"
+0	234	46	#line 234 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\Bloco 1 - Controle MotorDireção\Testebloco2.nxc"
+0	234	46	#line 234 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\Bloco 1 - Controle MotorDireção\Testebloco2.nxc"
+0	234	46	#line 234 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\Bloco 1 - Controle MotorDireção\Testebloco2.nxc"
+0	234	46	#line 234 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\Bloco 1 - Controle MotorDireção\Testebloco2.nxc"
+0	236	46	#line 236 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\Bloco 1 - Controle MotorDireção\Testebloco2.nxc"
 0	237	46		mov xc, __constVal0
-0	236	48	#line 236 "C:\Users\mariana\Dropbox\TCC\Implementações\Bloco 1 - Controle MotorDireção\Testebloco2.nxc"
-0	236	48	#line 236 "C:\Users\mariana\Dropbox\TCC\Implementações\Bloco 1 - Controle MotorDireção\Testebloco2.nxc"
-0	238	48	#line 238 "C:\Users\mariana\Dropbox\TCC\Implementações\Bloco 1 - Controle MotorDireção\Testebloco2.nxc"
+0	236	48	#line 236 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\Bloco 1 - Controle MotorDireção\Testebloco2.nxc"
+0	236	48	#line 236 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\Bloco 1 - Controle MotorDireção\Testebloco2.nxc"
+0	238	48	#line 238 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\Bloco 1 - Controle MotorDireção\Testebloco2.nxc"
 0	239	48		mov yc, __constVal0
-0	238	50	#line 238 "C:\Users\mariana\Dropbox\TCC\Implementações\Bloco 1 - Controle MotorDireção\Testebloco2.nxc"
-0	238	50	#line 238 "C:\Users\mariana\Dropbox\TCC\Implementações\Bloco 1 - Controle MotorDireção\Testebloco2.nxc"
-0	238	50	#line 238 "C:\Users\mariana\Dropbox\TCC\Implementações\Bloco 1 - Controle MotorDireção\Testebloco2.nxc"
+0	238	50	#line 238 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\Bloco 1 - Controle MotorDireção\Testebloco2.nxc"
+0	238	50	#line 238 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\Bloco 1 - Controle MotorDireção\Testebloco2.nxc"
+0	238	50	#line 238 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\Bloco 1 - Controle MotorDireção\Testebloco2.nxc"
 0	239	50		set t, 0
-0	238	53	#line 238 "C:\Users\mariana\Dropbox\TCC\Implementações\Bloco 1 - Controle MotorDireção\Testebloco2.nxc"
-0	238	53	#line 238 "C:\Users\mariana\Dropbox\TCC\Implementações\Bloco 1 - Controle MotorDireção\Testebloco2.nxc"
+0	238	53	#line 238 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\Bloco 1 - Controle MotorDireção\Testebloco2.nxc"
+0	238	53	#line 238 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\Bloco 1 - Controle MotorDireção\Testebloco2.nxc"
 0	239	53		mov __signed_stack_001main, t
-0	238	55	#line 238 "C:\Users\mariana\Dropbox\TCC\Implementações\Bloco 1 - Controle MotorDireção\Testebloco2.nxc"
-0	238	55	#line 238 "C:\Users\mariana\Dropbox\TCC\Implementações\Bloco 1 - Controle MotorDireção\Testebloco2.nxc"
+0	238	55	#line 238 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\Bloco 1 - Controle MotorDireção\Testebloco2.nxc"
+0	238	55	#line 238 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\Bloco 1 - Controle MotorDireção\Testebloco2.nxc"
 0	239	55		mov __D0main, k
-0	238	57	#line 238 "C:\Users\mariana\Dropbox\TCC\Implementações\Bloco 1 - Controle MotorDireção\Testebloco2.nxc"
+0	238	57	#line 238 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\Bloco 1 - Controle MotorDireção\Testebloco2.nxc"
 0	239	57		cmp 0, __zfmain, __signed_stack_001main, __D0main
-0	238	61	#line 238 "C:\Users\mariana\Dropbox\TCC\Implementações\Bloco 1 - Controle MotorDireção\Testebloco2.nxc"
+0	238	61	#line 238 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\Bloco 1 - Controle MotorDireção\Testebloco2.nxc"
 0	239	61		mov __D0main, __zfmain
-0	238	63	#line 238 "C:\Users\mariana\Dropbox\TCC\Implementações\Bloco 1 - Controle MotorDireção\Testebloco2.nxc"
+0	238	63	#line 238 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\Bloco 1 - Controle MotorDireção\Testebloco2.nxc"
 0	239	63		brtst 4, __NXC_Label_751, __zfmain
-0	238	66	#line 238 "C:\Users\mariana\Dropbox\TCC\Implementações\Bloco 1 - Controle MotorDireção\Testebloco2.nxc"
+0	238	66	#line 238 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\Bloco 1 - Controle MotorDireção\Testebloco2.nxc"
 0	239	66		jmp __NXC_Label_752
-0	238	68	#line 238 "C:\Users\mariana\Dropbox\TCC\Implementações\Bloco 1 - Controle MotorDireção\Testebloco2.nxc"
+0	238	68	#line 238 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\Bloco 1 - Controle MotorDireção\Testebloco2.nxc"
 0	239	68		add t, t, __constVal1
-0	239	72	#line 239 "C:\Users\mariana\Dropbox\TCC\Implementações\Bloco 1 - Controle MotorDireção\Testebloco2.nxc"
+0	239	72	#line 239 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\Bloco 1 - Controle MotorDireção\Testebloco2.nxc"
 0	240	72		jmp __NXC_Label_750
-0	239	74	#line 239 "C:\Users\mariana\Dropbox\TCC\Implementações\Bloco 1 - Controle MotorDireção\Testebloco2.nxc"
+0	239	74	#line 239 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\Bloco 1 - Controle MotorDireção\Testebloco2.nxc"
 0	240	74		gettick prev_tick
-0	239	76	#line 239 "C:\Users\mariana\Dropbox\TCC\Implementações\Bloco 1 - Controle MotorDireção\Testebloco2.nxc"
-0	239	76	#line 239 "C:\Users\mariana\Dropbox\TCC\Implementações\Bloco 1 - Controle MotorDireção\Testebloco2.nxc"
-0	239	76	#line 239 "C:\Users\mariana\Dropbox\TCC\Implementações\Bloco 1 - Controle MotorDireção\Testebloco2.nxc"
-0	241	76	#line 241 "C:\Users\mariana\Dropbox\TCC\Implementações\Bloco 1 - Controle MotorDireção\Testebloco2.nxc"
+0	239	76	#line 239 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\Bloco 1 - Controle MotorDireção\Testebloco2.nxc"
+0	239	76	#line 239 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\Bloco 1 - Controle MotorDireção\Testebloco2.nxc"
+0	239	76	#line 239 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\Bloco 1 - Controle MotorDireção\Testebloco2.nxc"
+0	241	76	#line 241 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\Bloco 1 - Controle MotorDireção\Testebloco2.nxc"
 0	242	76		subcall control_pos, __control_pos_return
-0	241	78	#line 241 "C:\Users\mariana\Dropbox\TCC\Implementações\Bloco 1 - Controle MotorDireção\Testebloco2.nxc"
-0	242	78	#line 242 "C:\Users\mariana\Dropbox\TCC\Implementações\Bloco 1 - Controle MotorDireção\Testebloco2.nxc"
+0	241	78	#line 241 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\Bloco 1 - Controle MotorDireção\Testebloco2.nxc"
+0	242	78	#line 242 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\Bloco 1 - Controle MotorDireção\Testebloco2.nxc"
 0	243	78		subcall control_motor, __control_motor_return
-0	242	80	#line 242 "C:\Users\mariana\Dropbox\TCC\Implementações\Bloco 1 - Controle MotorDireção\Testebloco2.nxc"
-0	242	80	#line 242 "C:\Users\mariana\Dropbox\TCC\Implementações\Bloco 1 - Controle MotorDireção\Testebloco2.nxc"
-0	242	80	#line 242 "C:\Users\mariana\Dropbox\TCC\Implementações\Bloco 1 - Controle MotorDireção\Testebloco2.nxc"
+0	242	80	#line 242 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\Bloco 1 - Controle MotorDireção\Testebloco2.nxc"
+0	242	80	#line 242 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\Bloco 1 - Controle MotorDireção\Testebloco2.nxc"
+0	242	80	#line 242 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\Bloco 1 - Controle MotorDireção\Testebloco2.nxc"
 0	7921	80	#line 7921 "NXCDefs.h"
 0	7922	80		waitv t_amostral
 0	7921	82	#line 7921 "NXCDefs.h"
-0	243	82	#line 243 "C:\Users\mariana\Dropbox\TCC\Implementações\Bloco 1 - Controle MotorDireção\Testebloco2.nxc"
-0	243	82	#line 243 "C:\Users\mariana\Dropbox\TCC\Implementações\Bloco 1 - Controle MotorDireção\Testebloco2.nxc"
+0	243	82	#line 243 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\Bloco 1 - Controle MotorDireção\Testebloco2.nxc"
+0	243	82	#line 243 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\Bloco 1 - Controle MotorDireção\Testebloco2.nxc"
 0	244	82		gettick __unsigned_stack_001main
-0	243	84	#line 243 "C:\Users\mariana\Dropbox\TCC\Implementações\Bloco 1 - Controle MotorDireção\Testebloco2.nxc"
-0	244	84	#line 244 "C:\Users\mariana\Dropbox\TCC\Implementações\Bloco 1 - Controle MotorDireção\Testebloco2.nxc"
-0	244	84	#line 244 "C:\Users\mariana\Dropbox\TCC\Implementações\Bloco 1 - Controle MotorDireção\Testebloco2.nxc"
+0	243	84	#line 243 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\Bloco 1 - Controle MotorDireção\Testebloco2.nxc"
+0	244	84	#line 244 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\Bloco 1 - Controle MotorDireção\Testebloco2.nxc"
+0	244	84	#line 244 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\Bloco 1 - Controle MotorDireção\Testebloco2.nxc"
 0	245	84		sub dt, __unsigned_stack_001main, prev_tick
-0	244	88	#line 244 "C:\Users\mariana\Dropbox\TCC\Implementações\Bloco 1 - Controle MotorDireção\Testebloco2.nxc"
-0	244	88	#line 244 "C:\Users\mariana\Dropbox\TCC\Implementações\Bloco 1 - Controle MotorDireção\Testebloco2.nxc"
-0	244	88	#line 244 "C:\Users\mariana\Dropbox\TCC\Implementações\Bloco 1 - Controle MotorDireção\Testebloco2.nxc"
-0	245	88	#line 245 "C:\Users\mariana\Dropbox\TCC\Implementações\Bloco 1 - Controle MotorDireção\Testebloco2.nxc"
+0	244	88	#line 244 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\Bloco 1 - Controle MotorDireção\Testebloco2.nxc"
+0	244	88	#line 244 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\Bloco 1 - Controle MotorDireção\Testebloco2.nxc"
+0	244	88	#line 244 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\Bloco 1 - Controle MotorDireção\Testebloco2.nxc"
+0	245	88	#line 245 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\Bloco 1 - Controle MotorDireção\Testebloco2.nxc"
 0	246	88		jmp __NXC_Label_753
-0	245	90	#line 245 "C:\Users\mariana\Dropbox\TCC\Implementações\Bloco 1 - Controle MotorDireção\Testebloco2.nxc"
-0	245	90	#line 245 "C:\Users\mariana\Dropbox\TCC\Implementações\Bloco 1 - Controle MotorDireção\Testebloco2.nxc"
+0	245	90	#line 245 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\Bloco 1 - Controle MotorDireção\Testebloco2.nxc"
+0	245	90	#line 245 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\Bloco 1 - Controle MotorDireção\Testebloco2.nxc"
 0	246	90	#pragma macro 5
 0	246	90		mov __FCArgs.FileHandle, fileHandle
 0	246	92		syscall 5, __FCArgs
 0	246	95		mov __D0main, __FCArgs.Result
-0	7672	97	#line 7672 "C:\Users\mariana\Dropbox\TCC\Implementações\Bloco 1 - Controle MotorDireção\Testebloco2.nxc"
-0	245	97	#line 245 "C:\Users\mariana\Dropbox\TCC\Implementações\Bloco 1 - Controle MotorDireção\Testebloco2.nxc"
-0	245	97	#line 245 "C:\Users\mariana\Dropbox\TCC\Implementações\Bloco 1 - Controle MotorDireção\Testebloco2.nxc"
-0	246	97	#line 246 "C:\Users\mariana\Dropbox\TCC\Implementações\Bloco 1 - Controle MotorDireção\Testebloco2.nxc"
+0	7648	97	#line 7648 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\Bloco 1 - Controle MotorDireção\Testebloco2.nxc"
+0	245	97	#line 245 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\Bloco 1 - Controle MotorDireção\Testebloco2.nxc"
+0	245	97	#line 245 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\Bloco 1 - Controle MotorDireção\Testebloco2.nxc"
+0	246	97	#line 246 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\Bloco 1 - Controle MotorDireção\Testebloco2.nxc"
 0	247	97	#pragma macro 5
 0	247	97		mov __FCArgs.FileHandle, fileHandle2
 0	247	99		syscall 5, __FCArgs
 0	247	102		mov __D0main, __FCArgs.Result
-0	7676	104	#line 7676 "C:\Users\mariana\Dropbox\TCC\Implementações\Bloco 1 - Controle MotorDireção\Testebloco2.nxc"
-0	246	104	#line 246 "C:\Users\mariana\Dropbox\TCC\Implementações\Bloco 1 - Controle MotorDireção\Testebloco2.nxc"
-0	246	104	#line 246 "C:\Users\mariana\Dropbox\TCC\Implementações\Bloco 1 - Controle MotorDireção\Testebloco2.nxc"
+0	7652	104	#line 7652 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\Bloco 1 - Controle MotorDireção\Testebloco2.nxc"
+0	246	104	#line 246 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\Bloco 1 - Controle MotorDireção\Testebloco2.nxc"
+0	246	104	#line 246 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\Bloco 1 - Controle MotorDireção\Testebloco2.nxc"
 0	247	104		exit -1, -1
-1	122	0	#line 122 "C:\Users\mariana\Dropbox\TCC\Implementações\Bloco 1 - Controle MotorDireção\Testebloco2.nxc"
+1	122	0	#line 122 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\Bloco 1 - Controle MotorDireção\Testebloco2.nxc"
 1	123	0		getout __signed_stack_001ws, __constVal0, 14
-1	122	4	#line 122 "C:\Users\mariana\Dropbox\TCC\Implementações\Bloco 1 - Controle MotorDireção\Testebloco2.nxc"
-1	123	4	#line 123 "C:\Users\mariana\Dropbox\TCC\Implementações\Bloco 1 - Controle MotorDireção\Testebloco2.nxc"
-1	123	4	#line 123 "C:\Users\mariana\Dropbox\TCC\Implementações\Bloco 1 - Controle MotorDireção\Testebloco2.nxc"
+1	122	4	#line 122 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\Bloco 1 - Controle MotorDireção\Testebloco2.nxc"
+1	123	4	#line 123 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\Bloco 1 - Controle MotorDireção\Testebloco2.nxc"
+1	123	4	#line 123 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\Bloco 1 - Controle MotorDireção\Testebloco2.nxc"
 1	124	4		sub __ws_7qG2_deg_a_7qG2_000, __signed_stack_001ws, prev_deg_a
-1	123	8	#line 123 "C:\Users\mariana\Dropbox\TCC\Implementações\Bloco 1 - Controle MotorDireção\Testebloco2.nxc"
-1	123	8	#line 123 "C:\Users\mariana\Dropbox\TCC\Implementações\Bloco 1 - Controle MotorDireção\Testebloco2.nxc"
+1	123	8	#line 123 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\Bloco 1 - Controle MotorDireção\Testebloco2.nxc"
+1	123	8	#line 123 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\Bloco 1 - Controle MotorDireção\Testebloco2.nxc"
 1	124	8		getout __signed_stack_001ws, __constVal2, 14
-1	123	12	#line 123 "C:\Users\mariana\Dropbox\TCC\Implementações\Bloco 1 - Controle MotorDireção\Testebloco2.nxc"
-1	124	12	#line 124 "C:\Users\mariana\Dropbox\TCC\Implementações\Bloco 1 - Controle MotorDireção\Testebloco2.nxc"
-1	124	12	#line 124 "C:\Users\mariana\Dropbox\TCC\Implementações\Bloco 1 - Controle MotorDireção\Testebloco2.nxc"
+1	123	12	#line 123 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\Bloco 1 - Controle MotorDireção\Testebloco2.nxc"
+1	124	12	#line 124 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\Bloco 1 - Controle MotorDireção\Testebloco2.nxc"
+1	124	12	#line 124 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\Bloco 1 - Controle MotorDireção\Testebloco2.nxc"
 1	125	12		sub __ws_7qG2_deg_c_7qG2_000, __signed_stack_001ws, prev_deg_c
-1	124	16	#line 124 "C:\Users\mariana\Dropbox\TCC\Implementações\Bloco 1 - Controle MotorDireção\Testebloco2.nxc"
-1	124	16	#line 124 "C:\Users\mariana\Dropbox\TCC\Implementações\Bloco 1 - Controle MotorDireção\Testebloco2.nxc"
-1	124	16	#line 124 "C:\Users\mariana\Dropbox\TCC\Implementações\Bloco 1 - Controle MotorDireção\Testebloco2.nxc"
-1	124	16	#line 124 "C:\Users\mariana\Dropbox\TCC\Implementações\Bloco 1 - Controle MotorDireção\Testebloco2.nxc"
-1	124	16	#line 124 "C:\Users\mariana\Dropbox\TCC\Implementações\Bloco 1 - Controle MotorDireção\Testebloco2.nxc"
+1	124	16	#line 124 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\Bloco 1 - Controle MotorDireção\Testebloco2.nxc"
+1	124	16	#line 124 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\Bloco 1 - Controle MotorDireção\Testebloco2.nxc"
+1	124	16	#line 124 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\Bloco 1 - Controle MotorDireção\Testebloco2.nxc"
+1	124	16	#line 124 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\Bloco 1 - Controle MotorDireção\Testebloco2.nxc"
+1	124	16	#line 124 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\Bloco 1 - Controle MotorDireção\Testebloco2.nxc"
 1	125	16		mul __float_stack_001ws, __ws_7qG2_deg_a_7qG2_000, __constValf17P45
-1	124	20	#line 124 "C:\Users\mariana\Dropbox\TCC\Implementações\Bloco 1 - Controle MotorDireção\Testebloco2.nxc"
-1	125	20	#line 125 "C:\Users\mariana\Dropbox\TCC\Implementações\Bloco 1 - Controle MotorDireção\Testebloco2.nxc"
-1	125	20	#line 125 "C:\Users\mariana\Dropbox\TCC\Implementações\Bloco 1 - Controle MotorDireção\Testebloco2.nxc"
+1	124	20	#line 124 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\Bloco 1 - Controle MotorDireção\Testebloco2.nxc"
+1	125	20	#line 125 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\Bloco 1 - Controle MotorDireção\Testebloco2.nxc"
+1	125	20	#line 125 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\Bloco 1 - Controle MotorDireção\Testebloco2.nxc"
 1	126	20		div wr, __float_stack_001ws, dt
-1	125	24	#line 125 "C:\Users\mariana\Dropbox\TCC\Implementações\Bloco 1 - Controle MotorDireção\Testebloco2.nxc"
-1	125	24	#line 125 "C:\Users\mariana\Dropbox\TCC\Implementações\Bloco 1 - Controle MotorDireção\Testebloco2.nxc"
-1	125	24	#line 125 "C:\Users\mariana\Dropbox\TCC\Implementações\Bloco 1 - Controle MotorDireção\Testebloco2.nxc"
+1	125	24	#line 125 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\Bloco 1 - Controle MotorDireção\Testebloco2.nxc"
+1	125	24	#line 125 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\Bloco 1 - Controle MotorDireção\Testebloco2.nxc"
+1	125	24	#line 125 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\Bloco 1 - Controle MotorDireção\Testebloco2.nxc"
 1	126	24		mov __float_stack_001ws, dr
-1	125	26	#line 125 "C:\Users\mariana\Dropbox\TCC\Implementações\Bloco 1 - Controle MotorDireção\Testebloco2.nxc"
-1	125	26	#line 125 "C:\Users\mariana\Dropbox\TCC\Implementações\Bloco 1 - Controle MotorDireção\Testebloco2.nxc"
-1	125	26	#line 125 "C:\Users\mariana\Dropbox\TCC\Implementações\Bloco 1 - Controle MotorDireção\Testebloco2.nxc"
-1	125	26	#line 125 "C:\Users\mariana\Dropbox\TCC\Implementações\Bloco 1 - Controle MotorDireção\Testebloco2.nxc"
-1	125	26	#line 125 "C:\Users\mariana\Dropbox\TCC\Implementações\Bloco 1 - Controle MotorDireção\Testebloco2.nxc"
+1	125	26	#line 125 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\Bloco 1 - Controle MotorDireção\Testebloco2.nxc"
+1	125	26	#line 125 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\Bloco 1 - Controle MotorDireção\Testebloco2.nxc"
+1	125	26	#line 125 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\Bloco 1 - Controle MotorDireção\Testebloco2.nxc"
+1	125	26	#line 125 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\Bloco 1 - Controle MotorDireção\Testebloco2.nxc"
+1	125	26	#line 125 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\Bloco 1 - Controle MotorDireção\Testebloco2.nxc"
 1	126	26		mul __signed_stack_002ws, __ws_7qG2_deg_a_7qG2_000, __constVal2
-1	125	30	#line 125 "C:\Users\mariana\Dropbox\TCC\Implementações\Bloco 1 - Controle MotorDireção\Testebloco2.nxc"
-1	125	30	#line 125 "C:\Users\mariana\Dropbox\TCC\Implementações\Bloco 1 - Controle MotorDireção\Testebloco2.nxc"
-1	125	30	#line 125 "C:\Users\mariana\Dropbox\TCC\Implementações\Bloco 1 - Controle MotorDireção\Testebloco2.nxc"
+1	125	30	#line 125 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\Bloco 1 - Controle MotorDireção\Testebloco2.nxc"
+1	125	30	#line 125 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\Bloco 1 - Controle MotorDireção\Testebloco2.nxc"
+1	125	30	#line 125 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\Bloco 1 - Controle MotorDireção\Testebloco2.nxc"
 1	126	30		mul __float_stack_002ws, __signed_stack_002ws, __constValf3P141593
-1	125	34	#line 125 "C:\Users\mariana\Dropbox\TCC\Implementações\Bloco 1 - Controle MotorDireção\Testebloco2.nxc"
-1	125	34	#line 125 "C:\Users\mariana\Dropbox\TCC\Implementações\Bloco 1 - Controle MotorDireção\Testebloco2.nxc"
-1	125	34	#line 125 "C:\Users\mariana\Dropbox\TCC\Implementações\Bloco 1 - Controle MotorDireção\Testebloco2.nxc"
+1	125	34	#line 125 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\Bloco 1 - Controle MotorDireção\Testebloco2.nxc"
+1	125	34	#line 125 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\Bloco 1 - Controle MotorDireção\Testebloco2.nxc"
+1	125	34	#line 125 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\Bloco 1 - Controle MotorDireção\Testebloco2.nxc"
 1	126	34		mul __float_stack_002ws, __float_stack_002ws, __constValf0P0287
-1	125	38	#line 125 "C:\Users\mariana\Dropbox\TCC\Implementações\Bloco 1 - Controle MotorDireção\Testebloco2.nxc"
-1	126	38	#line 126 "C:\Users\mariana\Dropbox\TCC\Implementações\Bloco 1 - Controle MotorDireção\Testebloco2.nxc"
-1	126	38	#line 126 "C:\Users\mariana\Dropbox\TCC\Implementações\Bloco 1 - Controle MotorDireção\Testebloco2.nxc"
+1	125	38	#line 125 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\Bloco 1 - Controle MotorDireção\Testebloco2.nxc"
+1	126	38	#line 126 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\Bloco 1 - Controle MotorDireção\Testebloco2.nxc"
+1	126	38	#line 126 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\Bloco 1 - Controle MotorDireção\Testebloco2.nxc"
 1	127	38		div __DF0ws, __float_stack_002ws, __constVal360
-1	126	42	#line 126 "C:\Users\mariana\Dropbox\TCC\Implementações\Bloco 1 - Controle MotorDireção\Testebloco2.nxc"
+1	126	42	#line 126 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\Bloco 1 - Controle MotorDireção\Testebloco2.nxc"
 1	127	42		add dr, __float_stack_001ws, __DF0ws
-1	126	46	#line 126 "C:\Users\mariana\Dropbox\TCC\Implementações\Bloco 1 - Controle MotorDireção\Testebloco2.nxc"
-1	126	46	#line 126 "C:\Users\mariana\Dropbox\TCC\Implementações\Bloco 1 - Controle MotorDireção\Testebloco2.nxc"
-1	126	46	#line 126 "C:\Users\mariana\Dropbox\TCC\Implementações\Bloco 1 - Controle MotorDireção\Testebloco2.nxc"
-1	126	46	#line 126 "C:\Users\mariana\Dropbox\TCC\Implementações\Bloco 1 - Controle MotorDireção\Testebloco2.nxc"
-1	126	46	#line 126 "C:\Users\mariana\Dropbox\TCC\Implementações\Bloco 1 - Controle MotorDireção\Testebloco2.nxc"
-1	126	46	#line 126 "C:\Users\mariana\Dropbox\TCC\Implementações\Bloco 1 - Controle MotorDireção\Testebloco2.nxc"
+1	126	46	#line 126 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\Bloco 1 - Controle MotorDireção\Testebloco2.nxc"
+1	126	46	#line 126 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\Bloco 1 - Controle MotorDireção\Testebloco2.nxc"
+1	126	46	#line 126 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\Bloco 1 - Controle MotorDireção\Testebloco2.nxc"
+1	126	46	#line 126 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\Bloco 1 - Controle MotorDireção\Testebloco2.nxc"
+1	126	46	#line 126 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\Bloco 1 - Controle MotorDireção\Testebloco2.nxc"
+1	126	46	#line 126 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\Bloco 1 - Controle MotorDireção\Testebloco2.nxc"
 1	127	46		mul __float_stack_001ws, __ws_7qG2_deg_c_7qG2_000, __constValf17P45
-1	126	50	#line 126 "C:\Users\mariana\Dropbox\TCC\Implementações\Bloco 1 - Controle MotorDireção\Testebloco2.nxc"
-1	127	50	#line 127 "C:\Users\mariana\Dropbox\TCC\Implementações\Bloco 1 - Controle MotorDireção\Testebloco2.nxc"
-1	127	50	#line 127 "C:\Users\mariana\Dropbox\TCC\Implementações\Bloco 1 - Controle MotorDireção\Testebloco2.nxc"
+1	126	50	#line 126 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\Bloco 1 - Controle MotorDireção\Testebloco2.nxc"
+1	127	50	#line 127 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\Bloco 1 - Controle MotorDireção\Testebloco2.nxc"
+1	127	50	#line 127 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\Bloco 1 - Controle MotorDireção\Testebloco2.nxc"
 1	128	50		div wl, __float_stack_001ws, dt
-1	127	54	#line 127 "C:\Users\mariana\Dropbox\TCC\Implementações\Bloco 1 - Controle MotorDireção\Testebloco2.nxc"
-1	127	54	#line 127 "C:\Users\mariana\Dropbox\TCC\Implementações\Bloco 1 - Controle MotorDireção\Testebloco2.nxc"
-1	127	54	#line 127 "C:\Users\mariana\Dropbox\TCC\Implementações\Bloco 1 - Controle MotorDireção\Testebloco2.nxc"
+1	127	54	#line 127 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\Bloco 1 - Controle MotorDireção\Testebloco2.nxc"
+1	127	54	#line 127 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\Bloco 1 - Controle MotorDireção\Testebloco2.nxc"
+1	127	54	#line 127 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\Bloco 1 - Controle MotorDireção\Testebloco2.nxc"
 1	128	54		mov __float_stack_001ws, dl
-1	127	56	#line 127 "C:\Users\mariana\Dropbox\TCC\Implementações\Bloco 1 - Controle MotorDireção\Testebloco2.nxc"
-1	127	56	#line 127 "C:\Users\mariana\Dropbox\TCC\Implementações\Bloco 1 - Controle MotorDireção\Testebloco2.nxc"
-1	127	56	#line 127 "C:\Users\mariana\Dropbox\TCC\Implementações\Bloco 1 - Controle MotorDireção\Testebloco2.nxc"
-1	127	56	#line 127 "C:\Users\mariana\Dropbox\TCC\Implementações\Bloco 1 - Controle MotorDireção\Testebloco2.nxc"
-1	127	56	#line 127 "C:\Users\mariana\Dropbox\TCC\Implementações\Bloco 1 - Controle MotorDireção\Testebloco2.nxc"
+1	127	56	#line 127 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\Bloco 1 - Controle MotorDireção\Testebloco2.nxc"
+1	127	56	#line 127 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\Bloco 1 - Controle MotorDireção\Testebloco2.nxc"
+1	127	56	#line 127 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\Bloco 1 - Controle MotorDireção\Testebloco2.nxc"
+1	127	56	#line 127 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\Bloco 1 - Controle MotorDireção\Testebloco2.nxc"
+1	127	56	#line 127 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\Bloco 1 - Controle MotorDireção\Testebloco2.nxc"
 1	128	56		mul __signed_stack_002ws, __ws_7qG2_deg_c_7qG2_000, __constVal2
-1	127	60	#line 127 "C:\Users\mariana\Dropbox\TCC\Implementações\Bloco 1 - Controle MotorDireção\Testebloco2.nxc"
-1	127	60	#line 127 "C:\Users\mariana\Dropbox\TCC\Implementações\Bloco 1 - Controle MotorDireção\Testebloco2.nxc"
-1	127	60	#line 127 "C:\Users\mariana\Dropbox\TCC\Implementações\Bloco 1 - Controle MotorDireção\Testebloco2.nxc"
+1	127	60	#line 127 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\Bloco 1 - Controle MotorDireção\Testebloco2.nxc"
+1	127	60	#line 127 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\Bloco 1 - Controle MotorDireção\Testebloco2.nxc"
+1	127	60	#line 127 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\Bloco 1 - Controle MotorDireção\Testebloco2.nxc"
 1	128	60		mul __float_stack_002ws, __signed_stack_002ws, __constValf3P141593
-1	127	64	#line 127 "C:\Users\mariana\Dropbox\TCC\Implementações\Bloco 1 - Controle MotorDireção\Testebloco2.nxc"
-1	127	64	#line 127 "C:\Users\mariana\Dropbox\TCC\Implementações\Bloco 1 - Controle MotorDireção\Testebloco2.nxc"
-1	127	64	#line 127 "C:\Users\mariana\Dropbox\TCC\Implementações\Bloco 1 - Controle MotorDireção\Testebloco2.nxc"
+1	127	64	#line 127 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\Bloco 1 - Controle MotorDireção\Testebloco2.nxc"
+1	127	64	#line 127 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\Bloco 1 - Controle MotorDireção\Testebloco2.nxc"
+1	127	64	#line 127 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\Bloco 1 - Controle MotorDireção\Testebloco2.nxc"
 1	128	64		mul __float_stack_002ws, __float_stack_002ws, __constValf0P0287
-1	127	68	#line 127 "C:\Users\mariana\Dropbox\TCC\Implementações\Bloco 1 - Controle MotorDireção\Testebloco2.nxc"
-1	128	68	#line 128 "C:\Users\mariana\Dropbox\TCC\Implementações\Bloco 1 - Controle MotorDireção\Testebloco2.nxc"
-1	128	68	#line 128 "C:\Users\mariana\Dropbox\TCC\Implementações\Bloco 1 - Controle MotorDireção\Testebloco2.nxc"
+1	127	68	#line 127 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\Bloco 1 - Controle MotorDireção\Testebloco2.nxc"
+1	128	68	#line 128 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\Bloco 1 - Controle MotorDireção\Testebloco2.nxc"
+1	128	68	#line 128 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\Bloco 1 - Controle MotorDireção\Testebloco2.nxc"
 1	129	68		div __DF0ws, __float_stack_002ws, __constVal360
-1	128	72	#line 128 "C:\Users\mariana\Dropbox\TCC\Implementações\Bloco 1 - Controle MotorDireção\Testebloco2.nxc"
+1	128	72	#line 128 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\Bloco 1 - Controle MotorDireção\Testebloco2.nxc"
 1	129	72		add dl, __float_stack_001ws, __DF0ws
-1	128	76	#line 128 "C:\Users\mariana\Dropbox\TCC\Implementações\Bloco 1 - Controle MotorDireção\Testebloco2.nxc"
-1	128	76	#line 128 "C:\Users\mariana\Dropbox\TCC\Implementações\Bloco 1 - Controle MotorDireção\Testebloco2.nxc"
-1	129	76	#line 129 "C:\Users\mariana\Dropbox\TCC\Implementações\Bloco 1 - Controle MotorDireção\Testebloco2.nxc"
+1	128	76	#line 128 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\Bloco 1 - Controle MotorDireção\Testebloco2.nxc"
+1	128	76	#line 128 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\Bloco 1 - Controle MotorDireção\Testebloco2.nxc"
+1	129	76	#line 129 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\Bloco 1 - Controle MotorDireção\Testebloco2.nxc"
 1	130	76		getout prev_deg_a, __constVal0, 14
-1	129	80	#line 129 "C:\Users\mariana\Dropbox\TCC\Implementações\Bloco 1 - Controle MotorDireção\Testebloco2.nxc"
-1	129	80	#line 129 "C:\Users\mariana\Dropbox\TCC\Implementações\Bloco 1 - Controle MotorDireção\Testebloco2.nxc"
-1	130	80	#line 130 "C:\Users\mariana\Dropbox\TCC\Implementações\Bloco 1 - Controle MotorDireção\Testebloco2.nxc"
+1	129	80	#line 129 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\Bloco 1 - Controle MotorDireção\Testebloco2.nxc"
+1	129	80	#line 129 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\Bloco 1 - Controle MotorDireção\Testebloco2.nxc"
+1	130	80	#line 130 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\Bloco 1 - Controle MotorDireção\Testebloco2.nxc"
 1	131	80		getout prev_deg_c, __constVal2, 14
-1	130	84	#line 130 "C:\Users\mariana\Dropbox\TCC\Implementações\Bloco 1 - Controle MotorDireção\Testebloco2.nxc"
-1	130	84	#line 130 "C:\Users\mariana\Dropbox\TCC\Implementações\Bloco 1 - Controle MotorDireção\Testebloco2.nxc"
-1	132	84	#line 132 "C:\Users\mariana\Dropbox\TCC\Implementações\Bloco 1 - Controle MotorDireção\Testebloco2.nxc"
+1	130	84	#line 130 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\Bloco 1 - Controle MotorDireção\Testebloco2.nxc"
+1	130	84	#line 130 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\Bloco 1 - Controle MotorDireção\Testebloco2.nxc"
+1	132	84	#line 132 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\Bloco 1 - Controle MotorDireção\Testebloco2.nxc"
 1	133	84		subret __ws_return
-2	133	0	#line 133 "C:\Users\mariana\Dropbox\TCC\Implementações\Bloco 1 - Controle MotorDireção\Testebloco2.nxc"
-2	133	0	#line 133 "C:\Users\mariana\Dropbox\TCC\Implementações\Bloco 1 - Controle MotorDireção\Testebloco2.nxc"
-2	133	0	#line 133 "C:\Users\mariana\Dropbox\TCC\Implementações\Bloco 1 - Controle MotorDireção\Testebloco2.nxc"
-2	133	0	#line 133 "C:\Users\mariana\Dropbox\TCC\Implementações\Bloco 1 - Controle MotorDireção\Testebloco2.nxc"
+2	133	0	#line 133 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\Bloco 1 - Controle MotorDireção\Testebloco2.nxc"
+2	133	0	#line 133 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\Bloco 1 - Controle MotorDireção\Testebloco2.nxc"
+2	133	0	#line 133 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\Bloco 1 - Controle MotorDireção\Testebloco2.nxc"
+2	133	0	#line 133 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\Bloco 1 - Controle MotorDireção\Testebloco2.nxc"
 2	134	0		mul __float_stack_001wd_rodas, __constVal2, vd
-2	133	4	#line 133 "C:\Users\mariana\Dropbox\TCC\Implementações\Bloco 1 - Controle MotorDireção\Testebloco2.nxc"
-2	133	4	#line 133 "C:\Users\mariana\Dropbox\TCC\Implementações\Bloco 1 - Controle MotorDireção\Testebloco2.nxc"
-2	133	4	#line 133 "C:\Users\mariana\Dropbox\TCC\Implementações\Bloco 1 - Controle MotorDireção\Testebloco2.nxc"
-2	133	4	#line 133 "C:\Users\mariana\Dropbox\TCC\Implementações\Bloco 1 - Controle MotorDireção\Testebloco2.nxc"
-2	133	4	#line 133 "C:\Users\mariana\Dropbox\TCC\Implementações\Bloco 1 - Controle MotorDireção\Testebloco2.nxc"
+2	133	4	#line 133 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\Bloco 1 - Controle MotorDireção\Testebloco2.nxc"
+2	133	4	#line 133 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\Bloco 1 - Controle MotorDireção\Testebloco2.nxc"
+2	133	4	#line 133 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\Bloco 1 - Controle MotorDireção\Testebloco2.nxc"
+2	133	4	#line 133 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\Bloco 1 - Controle MotorDireção\Testebloco2.nxc"
+2	133	4	#line 133 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\Bloco 1 - Controle MotorDireção\Testebloco2.nxc"
 2	134	4		mul __DF0wd_rodas, wd, __constValf0P105
-2	133	8	#line 133 "C:\Users\mariana\Dropbox\TCC\Implementações\Bloco 1 - Controle MotorDireção\Testebloco2.nxc"
+2	133	8	#line 133 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\Bloco 1 - Controle MotorDireção\Testebloco2.nxc"
 2	134	8		add __float_stack_001wd_rodas, __float_stack_001wd_rodas, __DF0wd_rodas
-2	133	12	#line 133 "C:\Users\mariana\Dropbox\TCC\Implementações\Bloco 1 - Controle MotorDireção\Testebloco2.nxc"
-2	133	12	#line 133 "C:\Users\mariana\Dropbox\TCC\Implementações\Bloco 1 - Controle MotorDireção\Testebloco2.nxc"
-2	134	12	#line 134 "C:\Users\mariana\Dropbox\TCC\Implementações\Bloco 1 - Controle MotorDireção\Testebloco2.nxc"
+2	133	12	#line 133 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\Bloco 1 - Controle MotorDireção\Testebloco2.nxc"
+2	133	12	#line 133 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\Bloco 1 - Controle MotorDireção\Testebloco2.nxc"
+2	134	12	#line 134 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\Bloco 1 - Controle MotorDireção\Testebloco2.nxc"
 2	135	12		div wdr, __float_stack_001wd_rodas, __constValf0P0574
-2	134	16	#line 134 "C:\Users\mariana\Dropbox\TCC\Implementações\Bloco 1 - Controle MotorDireção\Testebloco2.nxc"
-2	134	16	#line 134 "C:\Users\mariana\Dropbox\TCC\Implementações\Bloco 1 - Controle MotorDireção\Testebloco2.nxc"
-2	134	16	#line 134 "C:\Users\mariana\Dropbox\TCC\Implementações\Bloco 1 - Controle MotorDireção\Testebloco2.nxc"
-2	134	16	#line 134 "C:\Users\mariana\Dropbox\TCC\Implementações\Bloco 1 - Controle MotorDireção\Testebloco2.nxc"
-2	134	16	#line 134 "C:\Users\mariana\Dropbox\TCC\Implementações\Bloco 1 - Controle MotorDireção\Testebloco2.nxc"
-2	134	16	#line 134 "C:\Users\mariana\Dropbox\TCC\Implementações\Bloco 1 - Controle MotorDireção\Testebloco2.nxc"
+2	134	16	#line 134 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\Bloco 1 - Controle MotorDireção\Testebloco2.nxc"
+2	134	16	#line 134 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\Bloco 1 - Controle MotorDireção\Testebloco2.nxc"
+2	134	16	#line 134 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\Bloco 1 - Controle MotorDireção\Testebloco2.nxc"
+2	134	16	#line 134 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\Bloco 1 - Controle MotorDireção\Testebloco2.nxc"
+2	134	16	#line 134 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\Bloco 1 - Controle MotorDireção\Testebloco2.nxc"
+2	134	16	#line 134 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\Bloco 1 - Controle MotorDireção\Testebloco2.nxc"
 2	135	16		mul __float_stack_001wd_rodas, __constVal2, vd
-2	134	20	#line 134 "C:\Users\mariana\Dropbox\TCC\Implementações\Bloco 1 - Controle MotorDireção\Testebloco2.nxc"
-2	134	20	#line 134 "C:\Users\mariana\Dropbox\TCC\Implementações\Bloco 1 - Controle MotorDireção\Testebloco2.nxc"
-2	134	20	#line 134 "C:\Users\mariana\Dropbox\TCC\Implementações\Bloco 1 - Controle MotorDireção\Testebloco2.nxc"
-2	134	20	#line 134 "C:\Users\mariana\Dropbox\TCC\Implementações\Bloco 1 - Controle MotorDireção\Testebloco2.nxc"
-2	134	20	#line 134 "C:\Users\mariana\Dropbox\TCC\Implementações\Bloco 1 - Controle MotorDireção\Testebloco2.nxc"
+2	134	20	#line 134 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\Bloco 1 - Controle MotorDireção\Testebloco2.nxc"
+2	134	20	#line 134 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\Bloco 1 - Controle MotorDireção\Testebloco2.nxc"
+2	134	20	#line 134 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\Bloco 1 - Controle MotorDireção\Testebloco2.nxc"
+2	134	20	#line 134 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\Bloco 1 - Controle MotorDireção\Testebloco2.nxc"
+2	134	20	#line 134 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\Bloco 1 - Controle MotorDireção\Testebloco2.nxc"
 2	135	20		mul __DF0wd_rodas, wd, __constValf0P105
-2	134	24	#line 134 "C:\Users\mariana\Dropbox\TCC\Implementações\Bloco 1 - Controle MotorDireção\Testebloco2.nxc"
+2	134	24	#line 134 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\Bloco 1 - Controle MotorDireção\Testebloco2.nxc"
 2	135	24		sub __float_stack_001wd_rodas, __float_stack_001wd_rodas, __DF0wd_rodas
-2	134	28	#line 134 "C:\Users\mariana\Dropbox\TCC\Implementações\Bloco 1 - Controle MotorDireção\Testebloco2.nxc"
-2	134	28	#line 134 "C:\Users\mariana\Dropbox\TCC\Implementações\Bloco 1 - Controle MotorDireção\Testebloco2.nxc"
-2	135	28	#line 135 "C:\Users\mariana\Dropbox\TCC\Implementações\Bloco 1 - Controle MotorDireção\Testebloco2.nxc"
+2	134	28	#line 134 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\Bloco 1 - Controle MotorDireção\Testebloco2.nxc"
+2	134	28	#line 134 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\Bloco 1 - Controle MotorDireção\Testebloco2.nxc"
+2	135	28	#line 135 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\Bloco 1 - Controle MotorDireção\Testebloco2.nxc"
 2	136	28		div wdl, __float_stack_001wd_rodas, __constValf0P0574
-2	135	32	#line 135 "C:\Users\mariana\Dropbox\TCC\Implementações\Bloco 1 - Controle MotorDireção\Testebloco2.nxc"
-2	135	32	#line 135 "C:\Users\mariana\Dropbox\TCC\Implementações\Bloco 1 - Controle MotorDireção\Testebloco2.nxc"
-2	137	32	#line 137 "C:\Users\mariana\Dropbox\TCC\Implementações\Bloco 1 - Controle MotorDireção\Testebloco2.nxc"
+2	135	32	#line 135 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\Bloco 1 - Controle MotorDireção\Testebloco2.nxc"
+2	135	32	#line 135 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\Bloco 1 - Controle MotorDireção\Testebloco2.nxc"
+2	137	32	#line 137 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\Bloco 1 - Controle MotorDireção\Testebloco2.nxc"
 2	138	32		subret __wd_rodas_return
-3	142	0	#line 142 "C:\Users\mariana\Dropbox\TCC\Implementações\Bloco 1 - Controle MotorDireção\Testebloco2.nxc"
+3	142	0	#line 142 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\Bloco 1 - Controle MotorDireção\Testebloco2.nxc"
 3	143	0		subcall wd_rodas, __wd_rodas_return
-3	142	2	#line 142 "C:\Users\mariana\Dropbox\TCC\Implementações\Bloco 1 - Controle MotorDireção\Testebloco2.nxc"
-3	144	2	#line 144 "C:\Users\mariana\Dropbox\TCC\Implementações\Bloco 1 - Controle MotorDireção\Testebloco2.nxc"
+3	142	2	#line 142 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\Bloco 1 - Controle MotorDireção\Testebloco2.nxc"
+3	144	2	#line 144 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\Bloco 1 - Controle MotorDireção\Testebloco2.nxc"
 3	145	2		subcall ws, __ws_return
-3	144	4	#line 144 "C:\Users\mariana\Dropbox\TCC\Implementações\Bloco 1 - Controle MotorDireção\Testebloco2.nxc"
-3	144	4	#line 144 "C:\Users\mariana\Dropbox\TCC\Implementações\Bloco 1 - Controle MotorDireção\Testebloco2.nxc"
-3	144	4	#line 144 "C:\Users\mariana\Dropbox\TCC\Implementações\Bloco 1 - Controle MotorDireção\Testebloco2.nxc"
-3	145	4	#line 145 "C:\Users\mariana\Dropbox\TCC\Implementações\Bloco 1 - Controle MotorDireção\Testebloco2.nxc"
-3	145	4	#line 145 "C:\Users\mariana\Dropbox\TCC\Implementações\Bloco 1 - Controle MotorDireção\Testebloco2.nxc"
+3	144	4	#line 144 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\Bloco 1 - Controle MotorDireção\Testebloco2.nxc"
+3	144	4	#line 144 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\Bloco 1 - Controle MotorDireção\Testebloco2.nxc"
+3	144	4	#line 144 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\Bloco 1 - Controle MotorDireção\Testebloco2.nxc"
+3	145	4	#line 145 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\Bloco 1 - Controle MotorDireção\Testebloco2.nxc"
+3	145	4	#line 145 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\Bloco 1 - Controle MotorDireção\Testebloco2.nxc"
 3	146	4		sub __control_motor_7qG2_ewr_7qG2_000, wdr, wr
-3	145	8	#line 145 "C:\Users\mariana\Dropbox\TCC\Implementações\Bloco 1 - Controle MotorDireção\Testebloco2.nxc"
-3	145	8	#line 145 "C:\Users\mariana\Dropbox\TCC\Implementações\Bloco 1 - Controle MotorDireção\Testebloco2.nxc"
-3	145	8	#line 145 "C:\Users\mariana\Dropbox\TCC\Implementações\Bloco 1 - Controle MotorDireção\Testebloco2.nxc"
-3	150	8	#line 150 "C:\Users\mariana\Dropbox\TCC\Implementações\Bloco 1 - Controle MotorDireção\Testebloco2.nxc"
-3	150	8	#line 150 "C:\Users\mariana\Dropbox\TCC\Implementações\Bloco 1 - Controle MotorDireção\Testebloco2.nxc"
+3	145	8	#line 145 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\Bloco 1 - Controle MotorDireção\Testebloco2.nxc"
+3	145	8	#line 145 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\Bloco 1 - Controle MotorDireção\Testebloco2.nxc"
+3	145	8	#line 145 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\Bloco 1 - Controle MotorDireção\Testebloco2.nxc"
+3	150	8	#line 150 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\Bloco 1 - Controle MotorDireção\Testebloco2.nxc"
+3	150	8	#line 150 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\Bloco 1 - Controle MotorDireção\Testebloco2.nxc"
 3	151	8		sub __control_motor_7qG2_ewl_7qG2_000, wdl, wl
-3	150	12	#line 150 "C:\Users\mariana\Dropbox\TCC\Implementações\Bloco 1 - Controle MotorDireção\Testebloco2.nxc"
-3	151	12	#line 151 "C:\Users\mariana\Dropbox\TCC\Implementações\Bloco 1 - Controle MotorDireção\Testebloco2.nxc"
-3	151	12	#line 151 "C:\Users\mariana\Dropbox\TCC\Implementações\Bloco 1 - Controle MotorDireção\Testebloco2.nxc"
-3	151	12	#line 151 "C:\Users\mariana\Dropbox\TCC\Implementações\Bloco 1 - Controle MotorDireção\Testebloco2.nxc"
-3	153	12	#line 153 "C:\Users\mariana\Dropbox\TCC\Implementações\Bloco 1 - Controle MotorDireção\Testebloco2.nxc"
-3	153	12	#line 153 "C:\Users\mariana\Dropbox\TCC\Implementações\Bloco 1 - Controle MotorDireção\Testebloco2.nxc"
-3	153	12	#line 153 "C:\Users\mariana\Dropbox\TCC\Implementações\Bloco 1 - Controle MotorDireção\Testebloco2.nxc"
-3	153	12	#line 153 "C:\Users\mariana\Dropbox\TCC\Implementações\Bloco 1 - Controle MotorDireção\Testebloco2.nxc"
-3	153	12	#line 153 "C:\Users\mariana\Dropbox\TCC\Implementações\Bloco 1 - Controle MotorDireção\Testebloco2.nxc"
-3	153	12	#line 153 "C:\Users\mariana\Dropbox\TCC\Implementações\Bloco 1 - Controle MotorDireção\Testebloco2.nxc"
-3	153	12	#line 153 "C:\Users\mariana\Dropbox\TCC\Implementações\Bloco 1 - Controle MotorDireção\Testebloco2.nxc"
+3	150	12	#line 150 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\Bloco 1 - Controle MotorDireção\Testebloco2.nxc"
+3	151	12	#line 151 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\Bloco 1 - Controle MotorDireção\Testebloco2.nxc"
+3	151	12	#line 151 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\Bloco 1 - Controle MotorDireção\Testebloco2.nxc"
+3	151	12	#line 151 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\Bloco 1 - Controle MotorDireção\Testebloco2.nxc"
+3	153	12	#line 153 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\Bloco 1 - Controle MotorDireção\Testebloco2.nxc"
+3	153	12	#line 153 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\Bloco 1 - Controle MotorDireção\Testebloco2.nxc"
+3	153	12	#line 153 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\Bloco 1 - Controle MotorDireção\Testebloco2.nxc"
+3	153	12	#line 153 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\Bloco 1 - Controle MotorDireção\Testebloco2.nxc"
+3	153	12	#line 153 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\Bloco 1 - Controle MotorDireção\Testebloco2.nxc"
+3	153	12	#line 153 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\Bloco 1 - Controle MotorDireção\Testebloco2.nxc"
+3	153	12	#line 153 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\Bloco 1 - Controle MotorDireção\Testebloco2.nxc"
 3	154	12		mul __float_stack_001control_motor, __constVal10, __control_motor_7qG2_ewr_7qG2_000
-3	153	16	#line 153 "C:\Users\mariana\Dropbox\TCC\Implementações\Bloco 1 - Controle MotorDireção\Testebloco2.nxc"
-3	153	16	#line 153 "C:\Users\mariana\Dropbox\TCC\Implementações\Bloco 1 - Controle MotorDireção\Testebloco2.nxc"
-3	153	16	#line 153 "C:\Users\mariana\Dropbox\TCC\Implementações\Bloco 1 - Controle MotorDireção\Testebloco2.nxc"
+3	153	16	#line 153 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\Bloco 1 - Controle MotorDireção\Testebloco2.nxc"
+3	153	16	#line 153 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\Bloco 1 - Controle MotorDireção\Testebloco2.nxc"
+3	153	16	#line 153 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\Bloco 1 - Controle MotorDireção\Testebloco2.nxc"
 3	154	16		add __float_stack_001control_motor, __float_stack_001control_motor, acum_err
-3	153	20	#line 153 "C:\Users\mariana\Dropbox\TCC\Implementações\Bloco 1 - Controle MotorDireção\Testebloco2.nxc"
-3	153	20	#line 153 "C:\Users\mariana\Dropbox\TCC\Implementações\Bloco 1 - Controle MotorDireção\Testebloco2.nxc"
-3	153	20	#line 153 "C:\Users\mariana\Dropbox\TCC\Implementações\Bloco 1 - Controle MotorDireção\Testebloco2.nxc"
-3	153	20	#line 153 "C:\Users\mariana\Dropbox\TCC\Implementações\Bloco 1 - Controle MotorDireção\Testebloco2.nxc"
-3	153	20	#line 153 "C:\Users\mariana\Dropbox\TCC\Implementações\Bloco 1 - Controle MotorDireção\Testebloco2.nxc"
+3	153	20	#line 153 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\Bloco 1 - Controle MotorDireção\Testebloco2.nxc"
+3	153	20	#line 153 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\Bloco 1 - Controle MotorDireção\Testebloco2.nxc"
+3	153	20	#line 153 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\Bloco 1 - Controle MotorDireção\Testebloco2.nxc"
+3	153	20	#line 153 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\Bloco 1 - Controle MotorDireção\Testebloco2.nxc"
+3	153	20	#line 153 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\Bloco 1 - Controle MotorDireção\Testebloco2.nxc"
 3	154	20		mul __float_stack_002control_motor, __constVal1, __constValf0P2
-3	153	24	#line 153 "C:\Users\mariana\Dropbox\TCC\Implementações\Bloco 1 - Controle MotorDireção\Testebloco2.nxc"
-3	154	24	#line 154 "C:\Users\mariana\Dropbox\TCC\Implementações\Bloco 1 - Controle MotorDireção\Testebloco2.nxc"
-3	154	24	#line 154 "C:\Users\mariana\Dropbox\TCC\Implementações\Bloco 1 - Controle MotorDireção\Testebloco2.nxc"
+3	153	24	#line 153 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\Bloco 1 - Controle MotorDireção\Testebloco2.nxc"
+3	154	24	#line 154 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\Bloco 1 - Controle MotorDireção\Testebloco2.nxc"
+3	154	24	#line 154 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\Bloco 1 - Controle MotorDireção\Testebloco2.nxc"
 3	155	24		mul __DF0control_motor, __float_stack_002control_motor, __control_motor_7qG2_ewr_7qG2_000
-3	154	28	#line 154 "C:\Users\mariana\Dropbox\TCC\Implementações\Bloco 1 - Controle MotorDireção\Testebloco2.nxc"
+3	154	28	#line 154 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\Bloco 1 - Controle MotorDireção\Testebloco2.nxc"
 3	155	28		add __control_motor_7qG2_cr_7qG2_000, __float_stack_001control_motor, __DF0control_motor
-3	154	32	#line 154 "C:\Users\mariana\Dropbox\TCC\Implementações\Bloco 1 - Controle MotorDireção\Testebloco2.nxc"
-3	154	32	#line 154 "C:\Users\mariana\Dropbox\TCC\Implementações\Bloco 1 - Controle MotorDireção\Testebloco2.nxc"
-3	154	32	#line 154 "C:\Users\mariana\Dropbox\TCC\Implementações\Bloco 1 - Controle MotorDireção\Testebloco2.nxc"
-3	154	32	#line 154 "C:\Users\mariana\Dropbox\TCC\Implementações\Bloco 1 - Controle MotorDireção\Testebloco2.nxc"
-3	154	32	#line 154 "C:\Users\mariana\Dropbox\TCC\Implementações\Bloco 1 - Controle MotorDireção\Testebloco2.nxc"
+3	154	32	#line 154 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\Bloco 1 - Controle MotorDireção\Testebloco2.nxc"
+3	154	32	#line 154 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\Bloco 1 - Controle MotorDireção\Testebloco2.nxc"
+3	154	32	#line 154 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\Bloco 1 - Controle MotorDireção\Testebloco2.nxc"
+3	154	32	#line 154 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\Bloco 1 - Controle MotorDireção\Testebloco2.nxc"
+3	154	32	#line 154 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\Bloco 1 - Controle MotorDireção\Testebloco2.nxc"
 3	155	32		mul __float_stack_001control_motor, __constVal10, __control_motor_7qG2_ewl_7qG2_000
-3	154	36	#line 154 "C:\Users\mariana\Dropbox\TCC\Implementações\Bloco 1 - Controle MotorDireção\Testebloco2.nxc"
-3	154	36	#line 154 "C:\Users\mariana\Dropbox\TCC\Implementações\Bloco 1 - Controle MotorDireção\Testebloco2.nxc"
-3	154	36	#line 154 "C:\Users\mariana\Dropbox\TCC\Implementações\Bloco 1 - Controle MotorDireção\Testebloco2.nxc"
+3	154	36	#line 154 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\Bloco 1 - Controle MotorDireção\Testebloco2.nxc"
+3	154	36	#line 154 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\Bloco 1 - Controle MotorDireção\Testebloco2.nxc"
+3	154	36	#line 154 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\Bloco 1 - Controle MotorDireção\Testebloco2.nxc"
 3	155	36		add __float_stack_001control_motor, __float_stack_001control_motor, acum_erl
-3	154	40	#line 154 "C:\Users\mariana\Dropbox\TCC\Implementações\Bloco 1 - Controle MotorDireção\Testebloco2.nxc"
-3	154	40	#line 154 "C:\Users\mariana\Dropbox\TCC\Implementações\Bloco 1 - Controle MotorDireção\Testebloco2.nxc"
-3	154	40	#line 154 "C:\Users\mariana\Dropbox\TCC\Implementações\Bloco 1 - Controle MotorDireção\Testebloco2.nxc"
-3	154	40	#line 154 "C:\Users\mariana\Dropbox\TCC\Implementações\Bloco 1 - Controle MotorDireção\Testebloco2.nxc"
-3	154	40	#line 154 "C:\Users\mariana\Dropbox\TCC\Implementações\Bloco 1 - Controle MotorDireção\Testebloco2.nxc"
+3	154	40	#line 154 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\Bloco 1 - Controle MotorDireção\Testebloco2.nxc"
+3	154	40	#line 154 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\Bloco 1 - Controle MotorDireção\Testebloco2.nxc"
+3	154	40	#line 154 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\Bloco 1 - Controle MotorDireção\Testebloco2.nxc"
+3	154	40	#line 154 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\Bloco 1 - Controle MotorDireção\Testebloco2.nxc"
+3	154	40	#line 154 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\Bloco 1 - Controle MotorDireção\Testebloco2.nxc"
 3	155	40		mul __float_stack_002control_motor, __constVal1, __constValf0P2
-3	154	44	#line 154 "C:\Users\mariana\Dropbox\TCC\Implementações\Bloco 1 - Controle MotorDireção\Testebloco2.nxc"
-3	156	44	#line 156 "C:\Users\mariana\Dropbox\TCC\Implementações\Bloco 1 - Controle MotorDireção\Testebloco2.nxc"
-3	156	44	#line 156 "C:\Users\mariana\Dropbox\TCC\Implementações\Bloco 1 - Controle MotorDireção\Testebloco2.nxc"
+3	154	44	#line 154 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\Bloco 1 - Controle MotorDireção\Testebloco2.nxc"
+3	156	44	#line 156 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\Bloco 1 - Controle MotorDireção\Testebloco2.nxc"
+3	156	44	#line 156 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\Bloco 1 - Controle MotorDireção\Testebloco2.nxc"
 3	157	44		mul __DF0control_motor, __float_stack_002control_motor, __control_motor_7qG2_ewl_7qG2_000
-3	156	48	#line 156 "C:\Users\mariana\Dropbox\TCC\Implementações\Bloco 1 - Controle MotorDireção\Testebloco2.nxc"
+3	156	48	#line 156 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\Bloco 1 - Controle MotorDireção\Testebloco2.nxc"
 3	157	48		add __control_motor_7qG2_cl_7qG2_000, __float_stack_001control_motor, __DF0control_motor
-3	156	52	#line 156 "C:\Users\mariana\Dropbox\TCC\Implementações\Bloco 1 - Controle MotorDireção\Testebloco2.nxc"
-3	156	52	#line 156 "C:\Users\mariana\Dropbox\TCC\Implementações\Bloco 1 - Controle MotorDireção\Testebloco2.nxc"
+3	156	52	#line 156 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\Bloco 1 - Controle MotorDireção\Testebloco2.nxc"
+3	156	52	#line 156 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\Bloco 1 - Controle MotorDireção\Testebloco2.nxc"
 3	157	52		mov __float_stack_001control_motor, acum_err
-3	156	54	#line 156 "C:\Users\mariana\Dropbox\TCC\Implementações\Bloco 1 - Controle MotorDireção\Testebloco2.nxc"
-3	156	54	#line 156 "C:\Users\mariana\Dropbox\TCC\Implementações\Bloco 1 - Controle MotorDireção\Testebloco2.nxc"
-3	156	54	#line 156 "C:\Users\mariana\Dropbox\TCC\Implementações\Bloco 1 - Controle MotorDireção\Testebloco2.nxc"
-3	156	54	#line 156 "C:\Users\mariana\Dropbox\TCC\Implementações\Bloco 1 - Controle MotorDireção\Testebloco2.nxc"
-3	156	54	#line 156 "C:\Users\mariana\Dropbox\TCC\Implementações\Bloco 1 - Controle MotorDireção\Testebloco2.nxc"
+3	156	54	#line 156 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\Bloco 1 - Controle MotorDireção\Testebloco2.nxc"
+3	156	54	#line 156 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\Bloco 1 - Controle MotorDireção\Testebloco2.nxc"
+3	156	54	#line 156 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\Bloco 1 - Controle MotorDireção\Testebloco2.nxc"
+3	156	54	#line 156 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\Bloco 1 - Controle MotorDireção\Testebloco2.nxc"
+3	156	54	#line 156 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\Bloco 1 - Controle MotorDireção\Testebloco2.nxc"
 3	157	54		mul __float_stack_002control_motor, __constVal1, __constValf0P2
-3	156	58	#line 156 "C:\Users\mariana\Dropbox\TCC\Implementações\Bloco 1 - Controle MotorDireção\Testebloco2.nxc"
-3	157	58	#line 157 "C:\Users\mariana\Dropbox\TCC\Implementações\Bloco 1 - Controle MotorDireção\Testebloco2.nxc"
-3	157	58	#line 157 "C:\Users\mariana\Dropbox\TCC\Implementações\Bloco 1 - Controle MotorDireção\Testebloco2.nxc"
+3	156	58	#line 156 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\Bloco 1 - Controle MotorDireção\Testebloco2.nxc"
+3	157	58	#line 157 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\Bloco 1 - Controle MotorDireção\Testebloco2.nxc"
+3	157	58	#line 157 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\Bloco 1 - Controle MotorDireção\Testebloco2.nxc"
 3	158	58		mul __DF0control_motor, __float_stack_002control_motor, __control_motor_7qG2_ewr_7qG2_000
-3	157	62	#line 157 "C:\Users\mariana\Dropbox\TCC\Implementações\Bloco 1 - Controle MotorDireção\Testebloco2.nxc"
+3	157	62	#line 157 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\Bloco 1 - Controle MotorDireção\Testebloco2.nxc"
 3	158	62		add acum_err, __float_stack_001control_motor, __DF0control_motor
-3	157	66	#line 157 "C:\Users\mariana\Dropbox\TCC\Implementações\Bloco 1 - Controle MotorDireção\Testebloco2.nxc"
-3	157	66	#line 157 "C:\Users\mariana\Dropbox\TCC\Implementações\Bloco 1 - Controle MotorDireção\Testebloco2.nxc"
-3	157	66	#line 157 "C:\Users\mariana\Dropbox\TCC\Implementações\Bloco 1 - Controle MotorDireção\Testebloco2.nxc"
+3	157	66	#line 157 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\Bloco 1 - Controle MotorDireção\Testebloco2.nxc"
+3	157	66	#line 157 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\Bloco 1 - Controle MotorDireção\Testebloco2.nxc"
+3	157	66	#line 157 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\Bloco 1 - Controle MotorDireção\Testebloco2.nxc"
 3	158	66		mov __float_stack_001control_motor, acum_erl
-3	157	68	#line 157 "C:\Users\mariana\Dropbox\TCC\Implementações\Bloco 1 - Controle MotorDireção\Testebloco2.nxc"
-3	157	68	#line 157 "C:\Users\mariana\Dropbox\TCC\Implementações\Bloco 1 - Controle MotorDireção\Testebloco2.nxc"
-3	157	68	#line 157 "C:\Users\mariana\Dropbox\TCC\Implementações\Bloco 1 - Controle MotorDireção\Testebloco2.nxc"
-3	157	68	#line 157 "C:\Users\mariana\Dropbox\TCC\Implementações\Bloco 1 - Controle MotorDireção\Testebloco2.nxc"
-3	157	68	#line 157 "C:\Users\mariana\Dropbox\TCC\Implementações\Bloco 1 - Controle MotorDireção\Testebloco2.nxc"
+3	157	68	#line 157 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\Bloco 1 - Controle MotorDireção\Testebloco2.nxc"
+3	157	68	#line 157 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\Bloco 1 - Controle MotorDireção\Testebloco2.nxc"
+3	157	68	#line 157 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\Bloco 1 - Controle MotorDireção\Testebloco2.nxc"
+3	157	68	#line 157 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\Bloco 1 - Controle MotorDireção\Testebloco2.nxc"
+3	157	68	#line 157 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\Bloco 1 - Controle MotorDireção\Testebloco2.nxc"
 3	158	68		mul __float_stack_002control_motor, __constVal1, __constValf0P2
-3	157	72	#line 157 "C:\Users\mariana\Dropbox\TCC\Implementações\Bloco 1 - Controle MotorDireção\Testebloco2.nxc"
-3	158	72	#line 158 "C:\Users\mariana\Dropbox\TCC\Implementações\Bloco 1 - Controle MotorDireção\Testebloco2.nxc"
-3	158	72	#line 158 "C:\Users\mariana\Dropbox\TCC\Implementações\Bloco 1 - Controle MotorDireção\Testebloco2.nxc"
+3	157	72	#line 157 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\Bloco 1 - Controle MotorDireção\Testebloco2.nxc"
+3	158	72	#line 158 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\Bloco 1 - Controle MotorDireção\Testebloco2.nxc"
+3	158	72	#line 158 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\Bloco 1 - Controle MotorDireção\Testebloco2.nxc"
 3	159	72		mul __DF0control_motor, __float_stack_002control_motor, __control_motor_7qG2_ewl_7qG2_000
-3	158	76	#line 158 "C:\Users\mariana\Dropbox\TCC\Implementações\Bloco 1 - Controle MotorDireção\Testebloco2.nxc"
+3	158	76	#line 158 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\Bloco 1 - Controle MotorDireção\Testebloco2.nxc"
 3	159	76		add acum_erl, __float_stack_001control_motor, __DF0control_motor
-3	158	80	#line 158 "C:\Users\mariana\Dropbox\TCC\Implementações\Bloco 1 - Controle MotorDireção\Testebloco2.nxc"
-3	158	80	#line 158 "C:\Users\mariana\Dropbox\TCC\Implementações\Bloco 1 - Controle MotorDireção\Testebloco2.nxc"
-3	158	80	#line 158 "C:\Users\mariana\Dropbox\TCC\Implementações\Bloco 1 - Controle MotorDireção\Testebloco2.nxc"
+3	158	80	#line 158 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\Bloco 1 - Controle MotorDireção\Testebloco2.nxc"
+3	158	80	#line 158 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\Bloco 1 - Controle MotorDireção\Testebloco2.nxc"
+3	158	80	#line 158 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\Bloco 1 - Controle MotorDireção\Testebloco2.nxc"
 3	159	80		mov __float_stack_001control_motor, __control_motor_7qG2_cr_7qG2_000
-3	158	82	#line 158 "C:\Users\mariana\Dropbox\TCC\Implementações\Bloco 1 - Controle MotorDireção\Testebloco2.nxc"
-3	158	82	#line 158 "C:\Users\mariana\Dropbox\TCC\Implementações\Bloco 1 - Controle MotorDireção\Testebloco2.nxc"
+3	158	82	#line 158 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\Bloco 1 - Controle MotorDireção\Testebloco2.nxc"
+3	158	82	#line 158 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\Bloco 1 - Controle MotorDireção\Testebloco2.nxc"
 3	159	82		mov __DF0control_motor, __constVal100
-3	158	84	#line 158 "C:\Users\mariana\Dropbox\TCC\Implementações\Bloco 1 - Controle MotorDireção\Testebloco2.nxc"
+3	158	84	#line 158 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\Bloco 1 - Controle MotorDireção\Testebloco2.nxc"
 3	159	84		cmp 1, __zfcontrol_motor, __float_stack_001control_motor, __DF0control_motor
-3	158	88	#line 158 "C:\Users\mariana\Dropbox\TCC\Implementações\Bloco 1 - Controle MotorDireção\Testebloco2.nxc"
+3	158	88	#line 158 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\Bloco 1 - Controle MotorDireção\Testebloco2.nxc"
 3	159	88		mov __D0control_motor, __zfcontrol_motor
-3	159	90	#line 159 "C:\Users\mariana\Dropbox\TCC\Implementações\Bloco 1 - Controle MotorDireção\Testebloco2.nxc"
+3	159	90	#line 159 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\Bloco 1 - Controle MotorDireção\Testebloco2.nxc"
 3	160	90		brtst 4, __NXC_Label_650, __zfcontrol_motor
-3	160	93	#line 160 "C:\Users\mariana\Dropbox\TCC\Implementações\Bloco 1 - Controle MotorDireção\Testebloco2.nxc"
-3	160	93	#line 160 "C:\Users\mariana\Dropbox\TCC\Implementações\Bloco 1 - Controle MotorDireção\Testebloco2.nxc"
+3	160	93	#line 160 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\Bloco 1 - Controle MotorDireção\Testebloco2.nxc"
+3	160	93	#line 160 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\Bloco 1 - Controle MotorDireção\Testebloco2.nxc"
 3	161	93		mov __control_motor_7qG2_cr_7qG2_000, __constVal100
-3	160	95	#line 160 "C:\Users\mariana\Dropbox\TCC\Implementações\Bloco 1 - Controle MotorDireção\Testebloco2.nxc"
-3	161	95	#line 161 "C:\Users\mariana\Dropbox\TCC\Implementações\Bloco 1 - Controle MotorDireção\Testebloco2.nxc"
-3	161	95	#line 161 "C:\Users\mariana\Dropbox\TCC\Implementações\Bloco 1 - Controle MotorDireção\Testebloco2.nxc"
+3	160	95	#line 160 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\Bloco 1 - Controle MotorDireção\Testebloco2.nxc"
+3	161	95	#line 161 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\Bloco 1 - Controle MotorDireção\Testebloco2.nxc"
+3	161	95	#line 161 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\Bloco 1 - Controle MotorDireção\Testebloco2.nxc"
 3	162	95		mov __float_stack_001control_motor, __control_motor_7qG2_cr_7qG2_000
-3	161	97	#line 161 "C:\Users\mariana\Dropbox\TCC\Implementações\Bloco 1 - Controle MotorDireção\Testebloco2.nxc"
-3	161	97	#line 161 "C:\Users\mariana\Dropbox\TCC\Implementações\Bloco 1 - Controle MotorDireção\Testebloco2.nxc"
+3	161	97	#line 161 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\Bloco 1 - Controle MotorDireção\Testebloco2.nxc"
+3	161	97	#line 161 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\Bloco 1 - Controle MotorDireção\Testebloco2.nxc"
 3	162	97		mov __DF0control_motor, __constValNeg100
-3	161	99	#line 161 "C:\Users\mariana\Dropbox\TCC\Implementações\Bloco 1 - Controle MotorDireção\Testebloco2.nxc"
+3	161	99	#line 161 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\Bloco 1 - Controle MotorDireção\Testebloco2.nxc"
 3	162	99		cmp 0, __zfcontrol_motor, __float_stack_001control_motor, __DF0control_motor
-3	161	103	#line 161 "C:\Users\mariana\Dropbox\TCC\Implementações\Bloco 1 - Controle MotorDireção\Testebloco2.nxc"
+3	161	103	#line 161 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\Bloco 1 - Controle MotorDireção\Testebloco2.nxc"
 3	162	103		mov __D0control_motor, __zfcontrol_motor
-3	162	105	#line 162 "C:\Users\mariana\Dropbox\TCC\Implementações\Bloco 1 - Controle MotorDireção\Testebloco2.nxc"
+3	162	105	#line 162 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\Bloco 1 - Controle MotorDireção\Testebloco2.nxc"
 3	163	105		brtst 4, __NXC_Label_655, __zfcontrol_motor
-3	163	108	#line 163 "C:\Users\mariana\Dropbox\TCC\Implementações\Bloco 1 - Controle MotorDireção\Testebloco2.nxc"
-3	163	108	#line 163 "C:\Users\mariana\Dropbox\TCC\Implementações\Bloco 1 - Controle MotorDireção\Testebloco2.nxc"
+3	163	108	#line 163 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\Bloco 1 - Controle MotorDireção\Testebloco2.nxc"
+3	163	108	#line 163 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\Bloco 1 - Controle MotorDireção\Testebloco2.nxc"
 3	164	108		mov __control_motor_7qG2_cr_7qG2_000, __constValNeg100
-3	163	110	#line 163 "C:\Users\mariana\Dropbox\TCC\Implementações\Bloco 1 - Controle MotorDireção\Testebloco2.nxc"
-3	164	110	#line 164 "C:\Users\mariana\Dropbox\TCC\Implementações\Bloco 1 - Controle MotorDireção\Testebloco2.nxc"
-3	164	110	#line 164 "C:\Users\mariana\Dropbox\TCC\Implementações\Bloco 1 - Controle MotorDireção\Testebloco2.nxc"
+3	163	110	#line 163 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\Bloco 1 - Controle MotorDireção\Testebloco2.nxc"
+3	164	110	#line 164 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\Bloco 1 - Controle MotorDireção\Testebloco2.nxc"
+3	164	110	#line 164 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\Bloco 1 - Controle MotorDireção\Testebloco2.nxc"
 3	165	110		mov __float_stack_001control_motor, __control_motor_7qG2_cl_7qG2_000
-3	164	112	#line 164 "C:\Users\mariana\Dropbox\TCC\Implementações\Bloco 1 - Controle MotorDireção\Testebloco2.nxc"
-3	164	112	#line 164 "C:\Users\mariana\Dropbox\TCC\Implementações\Bloco 1 - Controle MotorDireção\Testebloco2.nxc"
+3	164	112	#line 164 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\Bloco 1 - Controle MotorDireção\Testebloco2.nxc"
+3	164	112	#line 164 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\Bloco 1 - Controle MotorDireção\Testebloco2.nxc"
 3	165	112		mov __DF0control_motor, __constVal100
-3	164	114	#line 164 "C:\Users\mariana\Dropbox\TCC\Implementações\Bloco 1 - Controle MotorDireção\Testebloco2.nxc"
+3	164	114	#line 164 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\Bloco 1 - Controle MotorDireção\Testebloco2.nxc"
 3	165	114		cmp 1, __zfcontrol_motor, __float_stack_001control_motor, __DF0control_motor
-3	164	118	#line 164 "C:\Users\mariana\Dropbox\TCC\Implementações\Bloco 1 - Controle MotorDireção\Testebloco2.nxc"
+3	164	118	#line 164 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\Bloco 1 - Controle MotorDireção\Testebloco2.nxc"
 3	165	118		mov __D0control_motor, __zfcontrol_motor
-3	165	120	#line 165 "C:\Users\mariana\Dropbox\TCC\Implementações\Bloco 1 - Controle MotorDireção\Testebloco2.nxc"
+3	165	120	#line 165 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\Bloco 1 - Controle MotorDireção\Testebloco2.nxc"
 3	166	120		brtst 4, __NXC_Label_660, __zfcontrol_motor
-3	166	123	#line 166 "C:\Users\mariana\Dropbox\TCC\Implementações\Bloco 1 - Controle MotorDireção\Testebloco2.nxc"
-3	166	123	#line 166 "C:\Users\mariana\Dropbox\TCC\Implementações\Bloco 1 - Controle MotorDireção\Testebloco2.nxc"
+3	166	123	#line 166 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\Bloco 1 - Controle MotorDireção\Testebloco2.nxc"
+3	166	123	#line 166 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\Bloco 1 - Controle MotorDireção\Testebloco2.nxc"
 3	167	123		mov __control_motor_7qG2_cl_7qG2_000, __constVal100
-3	166	125	#line 166 "C:\Users\mariana\Dropbox\TCC\Implementações\Bloco 1 - Controle MotorDireção\Testebloco2.nxc"
-3	167	125	#line 167 "C:\Users\mariana\Dropbox\TCC\Implementações\Bloco 1 - Controle MotorDireção\Testebloco2.nxc"
-3	167	125	#line 167 "C:\Users\mariana\Dropbox\TCC\Implementações\Bloco 1 - Controle MotorDireção\Testebloco2.nxc"
+3	166	125	#line 166 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\Bloco 1 - Controle MotorDireção\Testebloco2.nxc"
+3	167	125	#line 167 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\Bloco 1 - Controle MotorDireção\Testebloco2.nxc"
+3	167	125	#line 167 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\Bloco 1 - Controle MotorDireção\Testebloco2.nxc"
 3	168	125		mov __float_stack_001control_motor, __control_motor_7qG2_cl_7qG2_000
-3	167	127	#line 167 "C:\Users\mariana\Dropbox\TCC\Implementações\Bloco 1 - Controle MotorDireção\Testebloco2.nxc"
-3	167	127	#line 167 "C:\Users\mariana\Dropbox\TCC\Implementações\Bloco 1 - Controle MotorDireção\Testebloco2.nxc"
+3	167	127	#line 167 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\Bloco 1 - Controle MotorDireção\Testebloco2.nxc"
+3	167	127	#line 167 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\Bloco 1 - Controle MotorDireção\Testebloco2.nxc"
 3	168	127		mov __DF0control_motor, __constValNeg100
-3	167	129	#line 167 "C:\Users\mariana\Dropbox\TCC\Implementações\Bloco 1 - Controle MotorDireção\Testebloco2.nxc"
+3	167	129	#line 167 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\Bloco 1 - Controle MotorDireção\Testebloco2.nxc"
 3	168	129		cmp 0, __zfcontrol_motor, __float_stack_001control_motor, __DF0control_motor
-3	167	133	#line 167 "C:\Users\mariana\Dropbox\TCC\Implementações\Bloco 1 - Controle MotorDireção\Testebloco2.nxc"
+3	167	133	#line 167 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\Bloco 1 - Controle MotorDireção\Testebloco2.nxc"
 3	168	133		mov __D0control_motor, __zfcontrol_motor
-3	168	135	#line 168 "C:\Users\mariana\Dropbox\TCC\Implementações\Bloco 1 - Controle MotorDireção\Testebloco2.nxc"
+3	168	135	#line 168 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\Bloco 1 - Controle MotorDireção\Testebloco2.nxc"
 3	169	135		brtst 4, __NXC_Label_665, __zfcontrol_motor
-3	169	138	#line 169 "C:\Users\mariana\Dropbox\TCC\Implementações\Bloco 1 - Controle MotorDireção\Testebloco2.nxc"
-3	169	138	#line 169 "C:\Users\mariana\Dropbox\TCC\Implementações\Bloco 1 - Controle MotorDireção\Testebloco2.nxc"
+3	169	138	#line 169 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\Bloco 1 - Controle MotorDireção\Testebloco2.nxc"
+3	169	138	#line 169 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\Bloco 1 - Controle MotorDireção\Testebloco2.nxc"
 3	170	138		mov __control_motor_7qG2_cl_7qG2_000, __constValNeg100
-3	169	140	#line 169 "C:\Users\mariana\Dropbox\TCC\Implementações\Bloco 1 - Controle MotorDireção\Testebloco2.nxc"
-3	171	140	#line 171 "C:\Users\mariana\Dropbox\TCC\Implementações\Bloco 1 - Controle MotorDireção\Testebloco2.nxc"
-3	171	140	#line 171 "C:\Users\mariana\Dropbox\TCC\Implementações\Bloco 1 - Controle MotorDireção\Testebloco2.nxc"
+3	169	140	#line 169 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\Bloco 1 - Controle MotorDireção\Testebloco2.nxc"
+3	171	140	#line 171 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\Bloco 1 - Controle MotorDireção\Testebloco2.nxc"
+3	171	140	#line 171 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\Bloco 1 - Controle MotorDireção\Testebloco2.nxc"
 3	172	140		mov __DF0control_motor, __control_motor_7qG2_cr_7qG2_000
-3	172	142	#line 172 "C:\Users\mariana\Dropbox\TCC\Implementações\Bloco 1 - Controle MotorDireção\Testebloco2.nxc"
+3	172	142	#line 172 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\Bloco 1 - Controle MotorDireção\Testebloco2.nxc"
 3	173	142	#pragma macro 7
 3	173	142		setout __constVal0, 2, __DF0control_motor, 1, __constVal3, 8, __constVal0, 6, __constVal32, 7, __constVal0, 5, __constVal0, 10, __constVal96, 11, __constVal32, 12, __constVal32, 0, __constVal63
-3	7016	165	#line 7016 "C:\Users\mariana\Dropbox\TCC\Implementações\Bloco 1 - Controle MotorDireção\Testebloco2.nxc"
-3	172	165	#line 172 "C:\Users\mariana\Dropbox\TCC\Implementações\Bloco 1 - Controle MotorDireção\Testebloco2.nxc"
-3	172	165	#line 172 "C:\Users\mariana\Dropbox\TCC\Implementações\Bloco 1 - Controle MotorDireção\Testebloco2.nxc"
+3	7016	165	#line 7016 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\Bloco 1 - Controle MotorDireção\Testebloco2.nxc"
+3	172	165	#line 172 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\Bloco 1 - Controle MotorDireção\Testebloco2.nxc"
+3	172	165	#line 172 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\Bloco 1 - Controle MotorDireção\Testebloco2.nxc"
 3	173	165		mov __DF0control_motor, __control_motor_7qG2_cl_7qG2_000
-3	174	167	#line 174 "C:\Users\mariana\Dropbox\TCC\Implementações\Bloco 1 - Controle MotorDireção\Testebloco2.nxc"
+3	174	167	#line 174 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\Bloco 1 - Controle MotorDireção\Testebloco2.nxc"
 3	175	167	#pragma macro 7
 3	175	167		setout __constVal2, 2, __DF0control_motor, 1, __constVal3, 8, __constVal0, 6, __constVal32, 7, __constVal0, 5, __constVal0, 10, __constVal96, 11, __constVal32, 12, __constVal32, 0, __constVal63
-3	7023	190	#line 7023 "C:\Users\mariana\Dropbox\TCC\Implementações\Bloco 1 - Controle MotorDireção\Testebloco2.nxc"
-3	174	190	#line 174 "C:\Users\mariana\Dropbox\TCC\Implementações\Bloco 1 - Controle MotorDireção\Testebloco2.nxc"
-3	174	190	#line 174 "C:\Users\mariana\Dropbox\TCC\Implementações\Bloco 1 - Controle MotorDireção\Testebloco2.nxc"
+3	7023	190	#line 7023 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\Bloco 1 - Controle MotorDireção\Testebloco2.nxc"
+3	174	190	#line 174 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\Bloco 1 - Controle MotorDireção\Testebloco2.nxc"
+3	174	190	#line 174 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\Bloco 1 - Controle MotorDireção\Testebloco2.nxc"
 3	175	190		mov __DF0control_motor, __control_motor_7qG2_ewr_7qG2_000
-3	174	192	#line 174 "C:\Users\mariana\Dropbox\TCC\Implementações\Bloco 1 - Controle MotorDireção\Testebloco2.nxc"
+3	174	192	#line 174 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\Bloco 1 - Controle MotorDireção\Testebloco2.nxc"
 3	175	192		numtostr __strretvalcontrol_motor, __DF0control_motor
-3	174	195	#line 174 "C:\Users\mariana\Dropbox\TCC\Implementações\Bloco 1 - Controle MotorDireção\Testebloco2.nxc"
+3	174	195	#line 174 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\Bloco 1 - Controle MotorDireção\Testebloco2.nxc"
 3	175	195		strcat __strbufcontrol_motor, __strretvalcontrol_motor
-3	174	199	#line 174 "C:\Users\mariana\Dropbox\TCC\Implementações\Bloco 1 - Controle MotorDireção\Testebloco2.nxc"
+3	174	199	#line 174 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\Bloco 1 - Controle MotorDireção\Testebloco2.nxc"
 3	175	199		mov __ArrHelper__control_motor_244_0, __strbufcontrol_motor
-3	174	201	#line 174 "C:\Users\mariana\Dropbox\TCC\Implementações\Bloco 1 - Controle MotorDireção\Testebloco2.nxc"
+3	174	201	#line 174 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\Bloco 1 - Controle MotorDireção\Testebloco2.nxc"
 3	175	201		strcat __strbufcontrol_motor, __constStr0009
-3	174	205	#line 174 "C:\Users\mariana\Dropbox\TCC\Implementações\Bloco 1 - Controle MotorDireção\Testebloco2.nxc"
+3	174	205	#line 174 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\Bloco 1 - Controle MotorDireção\Testebloco2.nxc"
 3	175	205		mov __ArrHelper__control_motor_244_1, __strbufcontrol_motor
-3	174	207	#line 174 "C:\Users\mariana\Dropbox\TCC\Implementações\Bloco 1 - Controle MotorDireção\Testebloco2.nxc"
+3	174	207	#line 174 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\Bloco 1 - Controle MotorDireção\Testebloco2.nxc"
 3	175	207		mov __DF0control_motor, __control_motor_7qG2_ewl_7qG2_000
-3	174	209	#line 174 "C:\Users\mariana\Dropbox\TCC\Implementações\Bloco 1 - Controle MotorDireção\Testebloco2.nxc"
+3	174	209	#line 174 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\Bloco 1 - Controle MotorDireção\Testebloco2.nxc"
 3	175	209		numtostr __strretvalcontrol_motor, __DF0control_motor
-3	174	212	#line 174 "C:\Users\mariana\Dropbox\TCC\Implementações\Bloco 1 - Controle MotorDireção\Testebloco2.nxc"
+3	174	212	#line 174 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\Bloco 1 - Controle MotorDireção\Testebloco2.nxc"
 3	175	212		strcat __strbufcontrol_motor, __strretvalcontrol_motor
-3	174	216	#line 174 "C:\Users\mariana\Dropbox\TCC\Implementações\Bloco 1 - Controle MotorDireção\Testebloco2.nxc"
+3	174	216	#line 174 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\Bloco 1 - Controle MotorDireção\Testebloco2.nxc"
 3	175	216		mov __ArrHelper__control_motor_244_2, __strbufcontrol_motor
-3	175	218	#line 175 "C:\Users\mariana\Dropbox\TCC\Implementações\Bloco 1 - Controle MotorDireção\Testebloco2.nxc"
+3	175	218	#line 175 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\Bloco 1 - Controle MotorDireção\Testebloco2.nxc"
 3	176	218		strcat __strretvalcontrol_motor, __ArrHelper__control_motor_244_0, __ArrHelper__control_motor_244_1, __ArrHelper__control_motor_244_2
-3	175	224	#line 175 "C:\Users\mariana\Dropbox\TCC\Implementações\Bloco 1 - Controle MotorDireção\Testebloco2.nxc"
+3	175	224	#line 175 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\Bloco 1 - Controle MotorDireção\Testebloco2.nxc"
 3	176	224		strcat __strbufcontrol_motor, __strretvalcontrol_motor
-3	175	228	#line 175 "C:\Users\mariana\Dropbox\TCC\Implementações\Bloco 1 - Controle MotorDireção\Testebloco2.nxc"
+3	175	228	#line 175 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\Bloco 1 - Controle MotorDireção\Testebloco2.nxc"
 3	176	228		mov __control_motor_7qG2_write_7qG2_000, __strbufcontrol_motor
-3	176	230	#line 176 "C:\Users\mariana\Dropbox\TCC\Implementações\Bloco 1 - Controle MotorDireção\Testebloco2.nxc"
+3	176	230	#line 176 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\Bloco 1 - Controle MotorDireção\Testebloco2.nxc"
 3	177	230	#pragma macro 9
 3	177	230		acquire __FWriteMutex
 3	177	231		mov __FWriteArgs.FileHandle, fileHandle
@@ -633,278 +633,262 @@ Clump	Line	PC	Source
 3	177	244		syscall 4, __FWriteArgs
 3	177	247		mov __D0control_motor, __FWriteArgs.Result
 3	177	249		release __FWriteMutex
-3	7064	250	#line 7064 "C:\Users\mariana\Dropbox\TCC\Implementações\Bloco 1 - Controle MotorDireção\Testebloco2.nxc"
-3	176	250	#line 176 "C:\Users\mariana\Dropbox\TCC\Implementações\Bloco 1 - Controle MotorDireção\Testebloco2.nxc"
-3	176	250	#line 176 "C:\Users\mariana\Dropbox\TCC\Implementações\Bloco 1 - Controle MotorDireção\Testebloco2.nxc"
-3	179	250	#line 179 "C:\Users\mariana\Dropbox\TCC\Implementações\Bloco 1 - Controle MotorDireção\Testebloco2.nxc"
+3	7064	250	#line 7064 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\Bloco 1 - Controle MotorDireção\Testebloco2.nxc"
+3	176	250	#line 176 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\Bloco 1 - Controle MotorDireção\Testebloco2.nxc"
+3	176	250	#line 176 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\Bloco 1 - Controle MotorDireção\Testebloco2.nxc"
+3	179	250	#line 179 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\Bloco 1 - Controle MotorDireção\Testebloco2.nxc"
 3	180	250		subret __control_motor_return
-4	182	0	#line 182 "C:\Users\mariana\Dropbox\TCC\Implementações\Bloco 1 - Controle MotorDireção\Testebloco2.nxc"
+4	182	0	#line 182 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\Bloco 1 - Controle MotorDireção\Testebloco2.nxc"
 4	183	0		mov __float_stack_001control_pos, xr
-4	182	2	#line 182 "C:\Users\mariana\Dropbox\TCC\Implementações\Bloco 1 - Controle MotorDireção\Testebloco2.nxc"
-4	182	2	#line 182 "C:\Users\mariana\Dropbox\TCC\Implementações\Bloco 1 - Controle MotorDireção\Testebloco2.nxc"
-4	182	2	#line 182 "C:\Users\mariana\Dropbox\TCC\Implementações\Bloco 1 - Controle MotorDireção\Testebloco2.nxc"
-4	182	2	#line 182 "C:\Users\mariana\Dropbox\TCC\Implementações\Bloco 1 - Controle MotorDireção\Testebloco2.nxc"
-4	182	2	#line 182 "C:\Users\mariana\Dropbox\TCC\Implementações\Bloco 1 - Controle MotorDireção\Testebloco2.nxc"
+4	182	2	#line 182 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\Bloco 1 - Controle MotorDireção\Testebloco2.nxc"
+4	182	2	#line 182 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\Bloco 1 - Controle MotorDireção\Testebloco2.nxc"
+4	182	2	#line 182 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\Bloco 1 - Controle MotorDireção\Testebloco2.nxc"
+4	182	2	#line 182 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\Bloco 1 - Controle MotorDireção\Testebloco2.nxc"
+4	182	2	#line 182 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\Bloco 1 - Controle MotorDireção\Testebloco2.nxc"
 4	183	2		add __float_stack_002control_pos, dr, dl
-4	182	6	#line 182 "C:\Users\mariana\Dropbox\TCC\Implementações\Bloco 1 - Controle MotorDireção\Testebloco2.nxc"
-4	182	6	#line 182 "C:\Users\mariana\Dropbox\TCC\Implementações\Bloco 1 - Controle MotorDireção\Testebloco2.nxc"
+4	182	6	#line 182 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\Bloco 1 - Controle MotorDireção\Testebloco2.nxc"
+4	182	6	#line 182 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\Bloco 1 - Controle MotorDireção\Testebloco2.nxc"
 4	183	6		mov __cos_7qG2_x_7qG2_000_inline_control_pos, tetar
-4	182	8	#line 182 "C:\Users\mariana\Dropbox\TCC\Implementações\Bloco 1 - Controle MotorDireção\Testebloco2.nxc"
+4	182	8	#line 182 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\Bloco 1 - Controle MotorDireção\Testebloco2.nxc"
 4	17165	8	#line 17165 "NXCDefs.h"
 4	17166	8		cos __DF0control_pos, __cos_7qG2_x_7qG2_000_inline_control_pos
 4	17165	11	#line 17165 "NXCDefs.h"
-4	182	11	#line 182 "C:\Users\mariana\Dropbox\TCC\Implementações\Bloco 1 - Controle MotorDireção\Testebloco2.nxc"
-4	182	11	#line 182 "C:\Users\mariana\Dropbox\TCC\Implementações\Bloco 1 - Controle MotorDireção\Testebloco2.nxc"
+4	182	11	#line 182 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\Bloco 1 - Controle MotorDireção\Testebloco2.nxc"
+4	182	11	#line 182 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\Bloco 1 - Controle MotorDireção\Testebloco2.nxc"
 4	183	11		mul __float_stack_002control_pos, __float_stack_002control_pos, __DF0control_pos
-4	182	15	#line 182 "C:\Users\mariana\Dropbox\TCC\Implementações\Bloco 1 - Controle MotorDireção\Testebloco2.nxc"
-4	183	15	#line 183 "C:\Users\mariana\Dropbox\TCC\Implementações\Bloco 1 - Controle MotorDireção\Testebloco2.nxc"
-4	183	15	#line 183 "C:\Users\mariana\Dropbox\TCC\Implementações\Bloco 1 - Controle MotorDireção\Testebloco2.nxc"
+4	182	15	#line 182 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\Bloco 1 - Controle MotorDireção\Testebloco2.nxc"
+4	183	15	#line 183 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\Bloco 1 - Controle MotorDireção\Testebloco2.nxc"
+4	183	15	#line 183 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\Bloco 1 - Controle MotorDireção\Testebloco2.nxc"
 4	184	15		div __DF0control_pos, __float_stack_002control_pos, __constVal2
-4	183	19	#line 183 "C:\Users\mariana\Dropbox\TCC\Implementações\Bloco 1 - Controle MotorDireção\Testebloco2.nxc"
+4	183	19	#line 183 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\Bloco 1 - Controle MotorDireção\Testebloco2.nxc"
 4	184	19		add xr, __float_stack_001control_pos, __DF0control_pos
-4	183	23	#line 183 "C:\Users\mariana\Dropbox\TCC\Implementações\Bloco 1 - Controle MotorDireção\Testebloco2.nxc"
-4	183	23	#line 183 "C:\Users\mariana\Dropbox\TCC\Implementações\Bloco 1 - Controle MotorDireção\Testebloco2.nxc"
-4	183	23	#line 183 "C:\Users\mariana\Dropbox\TCC\Implementações\Bloco 1 - Controle MotorDireção\Testebloco2.nxc"
+4	183	23	#line 183 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\Bloco 1 - Controle MotorDireção\Testebloco2.nxc"
+4	183	23	#line 183 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\Bloco 1 - Controle MotorDireção\Testebloco2.nxc"
+4	183	23	#line 183 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\Bloco 1 - Controle MotorDireção\Testebloco2.nxc"
 4	184	23		mov __float_stack_001control_pos, yr
-4	183	25	#line 183 "C:\Users\mariana\Dropbox\TCC\Implementações\Bloco 1 - Controle MotorDireção\Testebloco2.nxc"
-4	183	25	#line 183 "C:\Users\mariana\Dropbox\TCC\Implementações\Bloco 1 - Controle MotorDireção\Testebloco2.nxc"
-4	183	25	#line 183 "C:\Users\mariana\Dropbox\TCC\Implementações\Bloco 1 - Controle MotorDireção\Testebloco2.nxc"
-4	183	25	#line 183 "C:\Users\mariana\Dropbox\TCC\Implementações\Bloco 1 - Controle MotorDireção\Testebloco2.nxc"
-4	183	25	#line 183 "C:\Users\mariana\Dropbox\TCC\Implementações\Bloco 1 - Controle MotorDireção\Testebloco2.nxc"
+4	183	25	#line 183 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\Bloco 1 - Controle MotorDireção\Testebloco2.nxc"
+4	183	25	#line 183 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\Bloco 1 - Controle MotorDireção\Testebloco2.nxc"
+4	183	25	#line 183 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\Bloco 1 - Controle MotorDireção\Testebloco2.nxc"
+4	183	25	#line 183 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\Bloco 1 - Controle MotorDireção\Testebloco2.nxc"
+4	183	25	#line 183 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\Bloco 1 - Controle MotorDireção\Testebloco2.nxc"
 4	184	25		add __float_stack_002control_pos, dr, dl
-4	183	29	#line 183 "C:\Users\mariana\Dropbox\TCC\Implementações\Bloco 1 - Controle MotorDireção\Testebloco2.nxc"
-4	183	29	#line 183 "C:\Users\mariana\Dropbox\TCC\Implementações\Bloco 1 - Controle MotorDireção\Testebloco2.nxc"
+4	183	29	#line 183 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\Bloco 1 - Controle MotorDireção\Testebloco2.nxc"
+4	183	29	#line 183 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\Bloco 1 - Controle MotorDireção\Testebloco2.nxc"
 4	184	29		mov __sin_7qG2_x_7qG2_000_inline_control_pos, tetar
-4	183	31	#line 183 "C:\Users\mariana\Dropbox\TCC\Implementações\Bloco 1 - Controle MotorDireção\Testebloco2.nxc"
+4	183	31	#line 183 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\Bloco 1 - Controle MotorDireção\Testebloco2.nxc"
 4	17176	31	#line 17176 "NXCDefs.h"
 4	17177	31		sin __DF0control_pos, __sin_7qG2_x_7qG2_000_inline_control_pos
 4	17176	34	#line 17176 "NXCDefs.h"
-4	183	34	#line 183 "C:\Users\mariana\Dropbox\TCC\Implementações\Bloco 1 - Controle MotorDireção\Testebloco2.nxc"
-4	183	34	#line 183 "C:\Users\mariana\Dropbox\TCC\Implementações\Bloco 1 - Controle MotorDireção\Testebloco2.nxc"
+4	183	34	#line 183 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\Bloco 1 - Controle MotorDireção\Testebloco2.nxc"
+4	183	34	#line 183 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\Bloco 1 - Controle MotorDireção\Testebloco2.nxc"
 4	184	34		mul __float_stack_002control_pos, __float_stack_002control_pos, __DF0control_pos
-4	183	38	#line 183 "C:\Users\mariana\Dropbox\TCC\Implementações\Bloco 1 - Controle MotorDireção\Testebloco2.nxc"
-4	184	38	#line 184 "C:\Users\mariana\Dropbox\TCC\Implementações\Bloco 1 - Controle MotorDireção\Testebloco2.nxc"
-4	184	38	#line 184 "C:\Users\mariana\Dropbox\TCC\Implementações\Bloco 1 - Controle MotorDireção\Testebloco2.nxc"
+4	183	38	#line 183 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\Bloco 1 - Controle MotorDireção\Testebloco2.nxc"
+4	184	38	#line 184 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\Bloco 1 - Controle MotorDireção\Testebloco2.nxc"
+4	184	38	#line 184 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\Bloco 1 - Controle MotorDireção\Testebloco2.nxc"
 4	185	38		div __DF0control_pos, __float_stack_002control_pos, __constVal2
-4	184	42	#line 184 "C:\Users\mariana\Dropbox\TCC\Implementações\Bloco 1 - Controle MotorDireção\Testebloco2.nxc"
+4	184	42	#line 184 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\Bloco 1 - Controle MotorDireção\Testebloco2.nxc"
 4	185	42		add yr, __float_stack_001control_pos, __DF0control_pos
-4	184	46	#line 184 "C:\Users\mariana\Dropbox\TCC\Implementações\Bloco 1 - Controle MotorDireção\Testebloco2.nxc"
-4	184	46	#line 184 "C:\Users\mariana\Dropbox\TCC\Implementações\Bloco 1 - Controle MotorDireção\Testebloco2.nxc"
-4	184	46	#line 184 "C:\Users\mariana\Dropbox\TCC\Implementações\Bloco 1 - Controle MotorDireção\Testebloco2.nxc"
+4	184	46	#line 184 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\Bloco 1 - Controle MotorDireção\Testebloco2.nxc"
+4	184	46	#line 184 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\Bloco 1 - Controle MotorDireção\Testebloco2.nxc"
+4	184	46	#line 184 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\Bloco 1 - Controle MotorDireção\Testebloco2.nxc"
 4	185	46		mov __float_stack_001control_pos, tetar
-4	184	48	#line 184 "C:\Users\mariana\Dropbox\TCC\Implementações\Bloco 1 - Controle MotorDireção\Testebloco2.nxc"
-4	184	48	#line 184 "C:\Users\mariana\Dropbox\TCC\Implementações\Bloco 1 - Controle MotorDireção\Testebloco2.nxc"
-4	184	48	#line 184 "C:\Users\mariana\Dropbox\TCC\Implementações\Bloco 1 - Controle MotorDireção\Testebloco2.nxc"
-4	184	48	#line 184 "C:\Users\mariana\Dropbox\TCC\Implementações\Bloco 1 - Controle MotorDireção\Testebloco2.nxc"
-4	184	48	#line 184 "C:\Users\mariana\Dropbox\TCC\Implementações\Bloco 1 - Controle MotorDireção\Testebloco2.nxc"
+4	184	48	#line 184 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\Bloco 1 - Controle MotorDireção\Testebloco2.nxc"
+4	184	48	#line 184 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\Bloco 1 - Controle MotorDireção\Testebloco2.nxc"
+4	184	48	#line 184 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\Bloco 1 - Controle MotorDireção\Testebloco2.nxc"
+4	184	48	#line 184 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\Bloco 1 - Controle MotorDireção\Testebloco2.nxc"
+4	184	48	#line 184 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\Bloco 1 - Controle MotorDireção\Testebloco2.nxc"
 4	185	48		sub __float_stack_002control_pos, dr, dl
-4	184	52	#line 184 "C:\Users\mariana\Dropbox\TCC\Implementações\Bloco 1 - Controle MotorDireção\Testebloco2.nxc"
-4	189	52	#line 189 "C:\Users\mariana\Dropbox\TCC\Implementações\Bloco 1 - Controle MotorDireção\Testebloco2.nxc"
-4	189	52	#line 189 "C:\Users\mariana\Dropbox\TCC\Implementações\Bloco 1 - Controle MotorDireção\Testebloco2.nxc"
+4	184	52	#line 184 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\Bloco 1 - Controle MotorDireção\Testebloco2.nxc"
+4	189	52	#line 189 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\Bloco 1 - Controle MotorDireção\Testebloco2.nxc"
+4	189	52	#line 189 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\Bloco 1 - Controle MotorDireção\Testebloco2.nxc"
 4	190	52		div __DF0control_pos, __float_stack_002control_pos, __constValf0P105
-4	189	56	#line 189 "C:\Users\mariana\Dropbox\TCC\Implementações\Bloco 1 - Controle MotorDireção\Testebloco2.nxc"
+4	189	56	#line 189 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\Bloco 1 - Controle MotorDireção\Testebloco2.nxc"
 4	190	56		add tetar, __float_stack_001control_pos, __DF0control_pos
-4	189	60	#line 189 "C:\Users\mariana\Dropbox\TCC\Implementações\Bloco 1 - Controle MotorDireção\Testebloco2.nxc"
-4	189	60	#line 189 "C:\Users\mariana\Dropbox\TCC\Implementações\Bloco 1 - Controle MotorDireção\Testebloco2.nxc"
-4	189	60	#line 189 "C:\Users\mariana\Dropbox\TCC\Implementações\Bloco 1 - Controle MotorDireção\Testebloco2.nxc"
-4	189	60	#line 189 "C:\Users\mariana\Dropbox\TCC\Implementações\Bloco 1 - Controle MotorDireção\Testebloco2.nxc"
-4	189	60	#line 189 "C:\Users\mariana\Dropbox\TCC\Implementações\Bloco 1 - Controle MotorDireção\Testebloco2.nxc"
-4	189	60	#line 189 "C:\Users\mariana\Dropbox\TCC\Implementações\Bloco 1 - Controle MotorDireção\Testebloco2.nxc"
+4	189	60	#line 189 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\Bloco 1 - Controle MotorDireção\Testebloco2.nxc"
+4	189	60	#line 189 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\Bloco 1 - Controle MotorDireção\Testebloco2.nxc"
+4	189	60	#line 189 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\Bloco 1 - Controle MotorDireção\Testebloco2.nxc"
+4	189	60	#line 189 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\Bloco 1 - Controle MotorDireção\Testebloco2.nxc"
+4	189	60	#line 189 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\Bloco 1 - Controle MotorDireção\Testebloco2.nxc"
+4	189	60	#line 189 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\Bloco 1 - Controle MotorDireção\Testebloco2.nxc"
 4	190	60		mul __float_stack_001control_pos, wdi, t
-4	189	64	#line 189 "C:\Users\mariana\Dropbox\TCC\Implementações\Bloco 1 - Controle MotorDireção\Testebloco2.nxc"
-4	190	64	#line 190 "C:\Users\mariana\Dropbox\TCC\Implementações\Bloco 1 - Controle MotorDireção\Testebloco2.nxc"
-4	190	64	#line 190 "C:\Users\mariana\Dropbox\TCC\Implementações\Bloco 1 - Controle MotorDireção\Testebloco2.nxc"
+4	189	64	#line 189 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\Bloco 1 - Controle MotorDireção\Testebloco2.nxc"
+4	190	64	#line 190 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\Bloco 1 - Controle MotorDireção\Testebloco2.nxc"
+4	190	64	#line 190 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\Bloco 1 - Controle MotorDireção\Testebloco2.nxc"
 4	191	64		mul __control_pos_7qG2_aux_7qG2_000, __float_stack_001control_pos, __constValf0P2
-4	190	68	#line 190 "C:\Users\mariana\Dropbox\TCC\Implementações\Bloco 1 - Controle MotorDireção\Testebloco2.nxc"
-4	190	68	#line 190 "C:\Users\mariana\Dropbox\TCC\Implementações\Bloco 1 - Controle MotorDireção\Testebloco2.nxc"
+4	190	68	#line 190 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\Bloco 1 - Controle MotorDireção\Testebloco2.nxc"
+4	190	68	#line 190 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\Bloco 1 - Controle MotorDireção\Testebloco2.nxc"
 4	191	68		mov __float_stack_001control_pos, xc
-4	190	70	#line 190 "C:\Users\mariana\Dropbox\TCC\Implementações\Bloco 1 - Controle MotorDireção\Testebloco2.nxc"
-4	190	70	#line 190 "C:\Users\mariana\Dropbox\TCC\Implementações\Bloco 1 - Controle MotorDireção\Testebloco2.nxc"
+4	190	70	#line 190 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\Bloco 1 - Controle MotorDireção\Testebloco2.nxc"
+4	190	70	#line 190 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\Bloco 1 - Controle MotorDireção\Testebloco2.nxc"
 4	191	70		mov __float_stack_002control_pos, __constValf0P2
-4	190	72	#line 190 "C:\Users\mariana\Dropbox\TCC\Implementações\Bloco 1 - Controle MotorDireção\Testebloco2.nxc"
-4	190	72	#line 190 "C:\Users\mariana\Dropbox\TCC\Implementações\Bloco 1 - Controle MotorDireção\Testebloco2.nxc"
+4	190	72	#line 190 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\Bloco 1 - Controle MotorDireção\Testebloco2.nxc"
+4	190	72	#line 190 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\Bloco 1 - Controle MotorDireção\Testebloco2.nxc"
 4	191	72		mov __cos_7qG2_x_7qG2_000_inline_control_pos, __control_pos_7qG2_aux_7qG2_000
-4	190	74	#line 190 "C:\Users\mariana\Dropbox\TCC\Implementações\Bloco 1 - Controle MotorDireção\Testebloco2.nxc"
+4	190	74	#line 190 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\Bloco 1 - Controle MotorDireção\Testebloco2.nxc"
 4	17165	74	#line 17165 "NXCDefs.h"
 4	17166	74		cos __DF0control_pos, __cos_7qG2_x_7qG2_000_inline_control_pos
 4	17165	77	#line 17165 "NXCDefs.h"
-4	191	77	#line 191 "C:\Users\mariana\Dropbox\TCC\Implementações\Bloco 1 - Controle MotorDireção\Testebloco2.nxc"
-4	191	77	#line 191 "C:\Users\mariana\Dropbox\TCC\Implementações\Bloco 1 - Controle MotorDireção\Testebloco2.nxc"
+4	191	77	#line 191 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\Bloco 1 - Controle MotorDireção\Testebloco2.nxc"
+4	191	77	#line 191 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\Bloco 1 - Controle MotorDireção\Testebloco2.nxc"
 4	192	77		mul __DF0control_pos, __float_stack_002control_pos, __DF0control_pos
-4	191	81	#line 191 "C:\Users\mariana\Dropbox\TCC\Implementações\Bloco 1 - Controle MotorDireção\Testebloco2.nxc"
+4	191	81	#line 191 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\Bloco 1 - Controle MotorDireção\Testebloco2.nxc"
 4	192	81		add __control_pos_7qG2_xd_7qG2_000, __float_stack_001control_pos, __DF0control_pos
-4	191	85	#line 191 "C:\Users\mariana\Dropbox\TCC\Implementações\Bloco 1 - Controle MotorDireção\Testebloco2.nxc"
-4	191	85	#line 191 "C:\Users\mariana\Dropbox\TCC\Implementações\Bloco 1 - Controle MotorDireção\Testebloco2.nxc"
+4	191	85	#line 191 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\Bloco 1 - Controle MotorDireção\Testebloco2.nxc"
+4	191	85	#line 191 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\Bloco 1 - Controle MotorDireção\Testebloco2.nxc"
 4	192	85		mov __float_stack_001control_pos, yc
-4	191	87	#line 191 "C:\Users\mariana\Dropbox\TCC\Implementações\Bloco 1 - Controle MotorDireção\Testebloco2.nxc"
-4	191	87	#line 191 "C:\Users\mariana\Dropbox\TCC\Implementações\Bloco 1 - Controle MotorDireção\Testebloco2.nxc"
+4	191	87	#line 191 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\Bloco 1 - Controle MotorDireção\Testebloco2.nxc"
+4	191	87	#line 191 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\Bloco 1 - Controle MotorDireção\Testebloco2.nxc"
 4	192	87		mov __float_stack_002control_pos, __constValf0P2
-4	191	89	#line 191 "C:\Users\mariana\Dropbox\TCC\Implementações\Bloco 1 - Controle MotorDireção\Testebloco2.nxc"
-4	191	89	#line 191 "C:\Users\mariana\Dropbox\TCC\Implementações\Bloco 1 - Controle MotorDireção\Testebloco2.nxc"
+4	191	89	#line 191 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\Bloco 1 - Controle MotorDireção\Testebloco2.nxc"
+4	191	89	#line 191 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\Bloco 1 - Controle MotorDireção\Testebloco2.nxc"
 4	192	89		mov __sin_7qG2_x_7qG2_000_inline_control_pos, __control_pos_7qG2_aux_7qG2_000
-4	191	91	#line 191 "C:\Users\mariana\Dropbox\TCC\Implementações\Bloco 1 - Controle MotorDireção\Testebloco2.nxc"
+4	191	91	#line 191 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\Bloco 1 - Controle MotorDireção\Testebloco2.nxc"
 4	17176	91	#line 17176 "NXCDefs.h"
 4	17177	91		sin __DF0control_pos, __sin_7qG2_x_7qG2_000_inline_control_pos
 4	17176	94	#line 17176 "NXCDefs.h"
-4	192	94	#line 192 "C:\Users\mariana\Dropbox\TCC\Implementações\Bloco 1 - Controle MotorDireção\Testebloco2.nxc"
-4	192	94	#line 192 "C:\Users\mariana\Dropbox\TCC\Implementações\Bloco 1 - Controle MotorDireção\Testebloco2.nxc"
+4	192	94	#line 192 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\Bloco 1 - Controle MotorDireção\Testebloco2.nxc"
+4	192	94	#line 192 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\Bloco 1 - Controle MotorDireção\Testebloco2.nxc"
 4	193	94		mul __DF0control_pos, __float_stack_002control_pos, __DF0control_pos
-4	192	98	#line 192 "C:\Users\mariana\Dropbox\TCC\Implementações\Bloco 1 - Controle MotorDireção\Testebloco2.nxc"
+4	192	98	#line 192 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\Bloco 1 - Controle MotorDireção\Testebloco2.nxc"
 4	193	98		add __control_pos_7qG2_yd_7qG2_000, __float_stack_001control_pos, __DF0control_pos
-4	192	102	#line 192 "C:\Users\mariana\Dropbox\TCC\Implementações\Bloco 1 - Controle MotorDireção\Testebloco2.nxc"
-4	192	102	#line 192 "C:\Users\mariana\Dropbox\TCC\Implementações\Bloco 1 - Controle MotorDireção\Testebloco2.nxc"
-4	192	102	#line 192 "C:\Users\mariana\Dropbox\TCC\Implementações\Bloco 1 - Controle MotorDireção\Testebloco2.nxc"
-4	193	102	#line 193 "C:\Users\mariana\Dropbox\TCC\Implementações\Bloco 1 - Controle MotorDireção\Testebloco2.nxc"
-4	193	102	#line 193 "C:\Users\mariana\Dropbox\TCC\Implementações\Bloco 1 - Controle MotorDireção\Testebloco2.nxc"
+4	192	102	#line 192 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\Bloco 1 - Controle MotorDireção\Testebloco2.nxc"
+4	192	102	#line 192 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\Bloco 1 - Controle MotorDireção\Testebloco2.nxc"
+4	192	102	#line 192 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\Bloco 1 - Controle MotorDireção\Testebloco2.nxc"
+4	193	102	#line 193 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\Bloco 1 - Controle MotorDireção\Testebloco2.nxc"
+4	193	102	#line 193 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\Bloco 1 - Controle MotorDireção\Testebloco2.nxc"
 4	194	102		sub __control_pos_7qG2_errx_7qG2_000, __control_pos_7qG2_xd_7qG2_000, xr
-4	193	106	#line 193 "C:\Users\mariana\Dropbox\TCC\Implementações\Bloco 1 - Controle MotorDireção\Testebloco2.nxc"
-4	193	106	#line 193 "C:\Users\mariana\Dropbox\TCC\Implementações\Bloco 1 - Controle MotorDireção\Testebloco2.nxc"
-4	193	106	#line 193 "C:\Users\mariana\Dropbox\TCC\Implementações\Bloco 1 - Controle MotorDireção\Testebloco2.nxc"
-4	195	106	#line 195 "C:\Users\mariana\Dropbox\TCC\Implementações\Bloco 1 - Controle MotorDireção\Testebloco2.nxc"
-4	195	106	#line 195 "C:\Users\mariana\Dropbox\TCC\Implementações\Bloco 1 - Controle MotorDireção\Testebloco2.nxc"
+4	193	106	#line 193 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\Bloco 1 - Controle MotorDireção\Testebloco2.nxc"
+4	193	106	#line 193 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\Bloco 1 - Controle MotorDireção\Testebloco2.nxc"
+4	193	106	#line 193 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\Bloco 1 - Controle MotorDireção\Testebloco2.nxc"
+4	195	106	#line 195 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\Bloco 1 - Controle MotorDireção\Testebloco2.nxc"
+4	195	106	#line 195 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\Bloco 1 - Controle MotorDireção\Testebloco2.nxc"
 4	196	106		sub __control_pos_7qG2_erry_7qG2_000, __control_pos_7qG2_yd_7qG2_000, yr
-4	195	110	#line 195 "C:\Users\mariana\Dropbox\TCC\Implementações\Bloco 1 - Controle MotorDireção\Testebloco2.nxc"
-4	195	110	#line 195 "C:\Users\mariana\Dropbox\TCC\Implementações\Bloco 1 - Controle MotorDireção\Testebloco2.nxc"
+4	195	110	#line 195 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\Bloco 1 - Controle MotorDireção\Testebloco2.nxc"
+4	195	110	#line 195 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\Bloco 1 - Controle MotorDireção\Testebloco2.nxc"
 4	196	110		mov __atan2_7qG2_y_7qG2_000_inline_control_pos, __control_pos_7qG2_erry_7qG2_000
-4	195	112	#line 195 "C:\Users\mariana\Dropbox\TCC\Implementações\Bloco 1 - Controle MotorDireção\Testebloco2.nxc"
-4	195	112	#line 195 "C:\Users\mariana\Dropbox\TCC\Implementações\Bloco 1 - Controle MotorDireção\Testebloco2.nxc"
+4	195	112	#line 195 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\Bloco 1 - Controle MotorDireção\Testebloco2.nxc"
+4	195	112	#line 195 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\Bloco 1 - Controle MotorDireção\Testebloco2.nxc"
 4	196	112		mov __atan2_7qG2_x_7qG2_000_inline_control_pos, __control_pos_7qG2_errx_7qG2_000
-4	195	114	#line 195 "C:\Users\mariana\Dropbox\TCC\Implementações\Bloco 1 - Controle MotorDireção\Testebloco2.nxc"
+4	195	114	#line 195 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\Bloco 1 - Controle MotorDireção\Testebloco2.nxc"
 4	17242	114	#line 17242 "NXCDefs.h"
 4	17243	114		atan2 tetad, __atan2_7qG2_y_7qG2_000_inline_control_pos, __atan2_7qG2_x_7qG2_000_inline_control_pos
 4	17242	118	#line 17242 "NXCDefs.h"
-4	197	118	#line 197 "C:\Users\mariana\Dropbox\TCC\Implementações\Bloco 1 - Controle MotorDireção\Testebloco2.nxc"
-4	197	118	#line 197 "C:\Users\mariana\Dropbox\TCC\Implementações\Bloco 1 - Controle MotorDireção\Testebloco2.nxc"
-4	197	118	#line 197 "C:\Users\mariana\Dropbox\TCC\Implementações\Bloco 1 - Controle MotorDireção\Testebloco2.nxc"
-4	199	118	#line 199 "C:\Users\mariana\Dropbox\TCC\Implementações\Bloco 1 - Controle MotorDireção\Testebloco2.nxc"
-4	199	118	#line 199 "C:\Users\mariana\Dropbox\TCC\Implementações\Bloco 1 - Controle MotorDireção\Testebloco2.nxc"
-4	199	118	#line 199 "C:\Users\mariana\Dropbox\TCC\Implementações\Bloco 1 - Controle MotorDireção\Testebloco2.nxc"
-4	199	118	#line 199 "C:\Users\mariana\Dropbox\TCC\Implementações\Bloco 1 - Controle MotorDireção\Testebloco2.nxc"
-4	200	118	#line 200 "C:\Users\mariana\Dropbox\TCC\Implementações\Bloco 1 - Controle MotorDireção\Testebloco2.nxc"
-4	200	118	#line 200 "C:\Users\mariana\Dropbox\TCC\Implementações\Bloco 1 - Controle MotorDireção\Testebloco2.nxc"
+4	197	118	#line 197 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\Bloco 1 - Controle MotorDireção\Testebloco2.nxc"
+4	197	118	#line 197 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\Bloco 1 - Controle MotorDireção\Testebloco2.nxc"
+4	197	118	#line 197 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\Bloco 1 - Controle MotorDireção\Testebloco2.nxc"
+4	199	118	#line 199 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\Bloco 1 - Controle MotorDireção\Testebloco2.nxc"
+4	199	118	#line 199 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\Bloco 1 - Controle MotorDireção\Testebloco2.nxc"
+4	199	118	#line 199 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\Bloco 1 - Controle MotorDireção\Testebloco2.nxc"
+4	199	118	#line 199 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\Bloco 1 - Controle MotorDireção\Testebloco2.nxc"
+4	200	118	#line 200 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\Bloco 1 - Controle MotorDireção\Testebloco2.nxc"
+4	200	118	#line 200 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\Bloco 1 - Controle MotorDireção\Testebloco2.nxc"
 4	201	118		sub errt, tetad, tetar
-4	200	122	#line 200 "C:\Users\mariana\Dropbox\TCC\Implementações\Bloco 1 - Controle MotorDireção\Testebloco2.nxc"
-4	200	122	#line 200 "C:\Users\mariana\Dropbox\TCC\Implementações\Bloco 1 - Controle MotorDireção\Testebloco2.nxc"
-4	200	122	#line 200 "C:\Users\mariana\Dropbox\TCC\Implementações\Bloco 1 - Controle MotorDireção\Testebloco2.nxc"
+4	200	122	#line 200 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\Bloco 1 - Controle MotorDireção\Testebloco2.nxc"
+4	200	122	#line 200 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\Bloco 1 - Controle MotorDireção\Testebloco2.nxc"
+4	200	122	#line 200 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\Bloco 1 - Controle MotorDireção\Testebloco2.nxc"
 4	201	122		mov __sin_7qG2_x_7qG2_000_inline_control_pos, errt
-4	200	124	#line 200 "C:\Users\mariana\Dropbox\TCC\Implementações\Bloco 1 - Controle MotorDireção\Testebloco2.nxc"
+4	200	124	#line 200 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\Bloco 1 - Controle MotorDireção\Testebloco2.nxc"
 4	17176	124	#line 17176 "NXCDefs.h"
 4	17177	124		sin __atan2_7qG2_y_7qG2_000_inline_control_pos, __sin_7qG2_x_7qG2_000_inline_control_pos
 4	17176	127	#line 17176 "NXCDefs.h"
-4	200	127	#line 200 "C:\Users\mariana\Dropbox\TCC\Implementações\Bloco 1 - Controle MotorDireção\Testebloco2.nxc"
-4	200	127	#line 200 "C:\Users\mariana\Dropbox\TCC\Implementações\Bloco 1 - Controle MotorDireção\Testebloco2.nxc"
-4	200	127	#line 200 "C:\Users\mariana\Dropbox\TCC\Implementações\Bloco 1 - Controle MotorDireção\Testebloco2.nxc"
+4	200	127	#line 200 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\Bloco 1 - Controle MotorDireção\Testebloco2.nxc"
+4	200	127	#line 200 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\Bloco 1 - Controle MotorDireção\Testebloco2.nxc"
+4	200	127	#line 200 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\Bloco 1 - Controle MotorDireção\Testebloco2.nxc"
 4	201	127		mov __cos_7qG2_x_7qG2_000_inline_control_pos, errt
-4	200	129	#line 200 "C:\Users\mariana\Dropbox\TCC\Implementações\Bloco 1 - Controle MotorDireção\Testebloco2.nxc"
+4	200	129	#line 200 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\Bloco 1 - Controle MotorDireção\Testebloco2.nxc"
 4	17165	129	#line 17165 "NXCDefs.h"
 4	17166	129		cos __atan2_7qG2_x_7qG2_000_inline_control_pos, __cos_7qG2_x_7qG2_000_inline_control_pos
 4	17165	132	#line 17165 "NXCDefs.h"
-4	200	132	#line 200 "C:\Users\mariana\Dropbox\TCC\Implementações\Bloco 1 - Controle MotorDireção\Testebloco2.nxc"
-4	200	132	#line 200 "C:\Users\mariana\Dropbox\TCC\Implementações\Bloco 1 - Controle MotorDireção\Testebloco2.nxc"
+4	200	132	#line 200 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\Bloco 1 - Controle MotorDireção\Testebloco2.nxc"
+4	200	132	#line 200 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\Bloco 1 - Controle MotorDireção\Testebloco2.nxc"
 4	17242	132	#line 17242 "NXCDefs.h"
 4	17243	132		atan2 errt, __atan2_7qG2_y_7qG2_000_inline_control_pos, __atan2_7qG2_x_7qG2_000_inline_control_pos
 4	17242	136	#line 17242 "NXCDefs.h"
-4	207	136	#line 207 "C:\Users\mariana\Dropbox\TCC\Implementações\Bloco 1 - Controle MotorDireção\Testebloco2.nxc"
-4	207	136	#line 207 "C:\Users\mariana\Dropbox\TCC\Implementações\Bloco 1 - Controle MotorDireção\Testebloco2.nxc"
-4	207	136	#line 207 "C:\Users\mariana\Dropbox\TCC\Implementações\Bloco 1 - Controle MotorDireção\Testebloco2.nxc"
-4	207	136	#line 207 "C:\Users\mariana\Dropbox\TCC\Implementações\Bloco 1 - Controle MotorDireção\Testebloco2.nxc"
-4	207	136	#line 207 "C:\Users\mariana\Dropbox\TCC\Implementações\Bloco 1 - Controle MotorDireção\Testebloco2.nxc"
-4	207	136	#line 207 "C:\Users\mariana\Dropbox\TCC\Implementações\Bloco 1 - Controle MotorDireção\Testebloco2.nxc"
-4	207	136	#line 207 "C:\Users\mariana\Dropbox\TCC\Implementações\Bloco 1 - Controle MotorDireção\Testebloco2.nxc"
-4	208	136		mul __float_stack_001control_pos, __constVal5, errt
-4	207	140	#line 207 "C:\Users\mariana\Dropbox\TCC\Implementações\Bloco 1 - Controle MotorDireção\Testebloco2.nxc"
-4	207	140	#line 207 "C:\Users\mariana\Dropbox\TCC\Implementações\Bloco 1 - Controle MotorDireção\Testebloco2.nxc"
-4	207	140	#line 207 "C:\Users\mariana\Dropbox\TCC\Implementações\Bloco 1 - Controle MotorDireção\Testebloco2.nxc"
-4	208	140		add __float_stack_001control_pos, __float_stack_001control_pos, acum_errt
-4	207	144	#line 207 "C:\Users\mariana\Dropbox\TCC\Implementações\Bloco 1 - Controle MotorDireção\Testebloco2.nxc"
-4	207	144	#line 207 "C:\Users\mariana\Dropbox\TCC\Implementações\Bloco 1 - Controle MotorDireção\Testebloco2.nxc"
-4	207	144	#line 207 "C:\Users\mariana\Dropbox\TCC\Implementações\Bloco 1 - Controle MotorDireção\Testebloco2.nxc"
-4	207	144	#line 207 "C:\Users\mariana\Dropbox\TCC\Implementações\Bloco 1 - Controle MotorDireção\Testebloco2.nxc"
-4	207	144	#line 207 "C:\Users\mariana\Dropbox\TCC\Implementações\Bloco 1 - Controle MotorDireção\Testebloco2.nxc"
-4	208	144		mul __float_stack_002control_pos, __constValf0P5, __constValf0P2
-4	207	148	#line 207 "C:\Users\mariana\Dropbox\TCC\Implementações\Bloco 1 - Controle MotorDireção\Testebloco2.nxc"
-4	213	148	#line 213 "C:\Users\mariana\Dropbox\TCC\Implementações\Bloco 1 - Controle MotorDireção\Testebloco2.nxc"
-4	213	148	#line 213 "C:\Users\mariana\Dropbox\TCC\Implementações\Bloco 1 - Controle MotorDireção\Testebloco2.nxc"
-4	214	148		mul __DF0control_pos, __float_stack_002control_pos, errt
-4	213	152	#line 213 "C:\Users\mariana\Dropbox\TCC\Implementações\Bloco 1 - Controle MotorDireção\Testebloco2.nxc"
-4	214	152		add wd, __float_stack_001control_pos, __DF0control_pos
-4	213	156	#line 213 "C:\Users\mariana\Dropbox\TCC\Implementações\Bloco 1 - Controle MotorDireção\Testebloco2.nxc"
-4	213	156	#line 213 "C:\Users\mariana\Dropbox\TCC\Implementações\Bloco 1 - Controle MotorDireção\Testebloco2.nxc"
-4	213	156	#line 213 "C:\Users\mariana\Dropbox\TCC\Implementações\Bloco 1 - Controle MotorDireção\Testebloco2.nxc"
-4	214	156		mov __float_stack_001control_pos, acum_errt
-4	213	158	#line 213 "C:\Users\mariana\Dropbox\TCC\Implementações\Bloco 1 - Controle MotorDireção\Testebloco2.nxc"
-4	213	158	#line 213 "C:\Users\mariana\Dropbox\TCC\Implementações\Bloco 1 - Controle MotorDireção\Testebloco2.nxc"
-4	213	158	#line 213 "C:\Users\mariana\Dropbox\TCC\Implementações\Bloco 1 - Controle MotorDireção\Testebloco2.nxc"
-4	213	158	#line 213 "C:\Users\mariana\Dropbox\TCC\Implementações\Bloco 1 - Controle MotorDireção\Testebloco2.nxc"
-4	213	158	#line 213 "C:\Users\mariana\Dropbox\TCC\Implementações\Bloco 1 - Controle MotorDireção\Testebloco2.nxc"
-4	214	158		mul __float_stack_002control_pos, __constValf0P5, __constValf0P2
-4	213	162	#line 213 "C:\Users\mariana\Dropbox\TCC\Implementações\Bloco 1 - Controle MotorDireção\Testebloco2.nxc"
-4	216	162	#line 216 "C:\Users\mariana\Dropbox\TCC\Implementações\Bloco 1 - Controle MotorDireção\Testebloco2.nxc"
-4	216	162	#line 216 "C:\Users\mariana\Dropbox\TCC\Implementações\Bloco 1 - Controle MotorDireção\Testebloco2.nxc"
-4	217	162		mul __DF0control_pos, __float_stack_002control_pos, errt
-4	216	166	#line 216 "C:\Users\mariana\Dropbox\TCC\Implementações\Bloco 1 - Controle MotorDireção\Testebloco2.nxc"
-4	217	166		add acum_errt, __float_stack_001control_pos, __DF0control_pos
-4	216	170	#line 216 "C:\Users\mariana\Dropbox\TCC\Implementações\Bloco 1 - Controle MotorDireção\Testebloco2.nxc"
-4	216	170	#line 216 "C:\Users\mariana\Dropbox\TCC\Implementações\Bloco 1 - Controle MotorDireção\Testebloco2.nxc"
-4	217	170	#line 217 "C:\Users\mariana\Dropbox\TCC\Implementações\Bloco 1 - Controle MotorDireção\Testebloco2.nxc"
-4	218	170		mov __DF0control_pos, __control_pos_7qG2_errx_7qG2_000
-4	217	172	#line 217 "C:\Users\mariana\Dropbox\TCC\Implementações\Bloco 1 - Controle MotorDireção\Testebloco2.nxc"
-4	218	172		numtostr __strretvalcontrol_pos, __DF0control_pos
-4	217	175	#line 217 "C:\Users\mariana\Dropbox\TCC\Implementações\Bloco 1 - Controle MotorDireção\Testebloco2.nxc"
-4	218	175		strcat __strbufcontrol_pos, __strretvalcontrol_pos
-4	217	179	#line 217 "C:\Users\mariana\Dropbox\TCC\Implementações\Bloco 1 - Controle MotorDireção\Testebloco2.nxc"
-4	218	179		mov __ArrHelper__control_pos_244_0, __strbufcontrol_pos
-4	217	181	#line 217 "C:\Users\mariana\Dropbox\TCC\Implementações\Bloco 1 - Controle MotorDireção\Testebloco2.nxc"
-4	218	181		strcat __strbufcontrol_pos, __constStr0009
-4	217	185	#line 217 "C:\Users\mariana\Dropbox\TCC\Implementações\Bloco 1 - Controle MotorDireção\Testebloco2.nxc"
-4	218	185		mov __ArrHelper__control_pos_244_1, __strbufcontrol_pos
-4	217	187	#line 217 "C:\Users\mariana\Dropbox\TCC\Implementações\Bloco 1 - Controle MotorDireção\Testebloco2.nxc"
-4	218	187		mov __DF0control_pos, __control_pos_7qG2_erry_7qG2_000
-4	217	189	#line 217 "C:\Users\mariana\Dropbox\TCC\Implementações\Bloco 1 - Controle MotorDireção\Testebloco2.nxc"
-4	218	189		numtostr __strretvalcontrol_pos, __DF0control_pos
-4	217	192	#line 217 "C:\Users\mariana\Dropbox\TCC\Implementações\Bloco 1 - Controle MotorDireção\Testebloco2.nxc"
-4	218	192		strcat __strbufcontrol_pos, __strretvalcontrol_pos
-4	217	196	#line 217 "C:\Users\mariana\Dropbox\TCC\Implementações\Bloco 1 - Controle MotorDireção\Testebloco2.nxc"
-4	218	196		mov __ArrHelper__control_pos_244_2, __strbufcontrol_pos
-4	217	198	#line 217 "C:\Users\mariana\Dropbox\TCC\Implementações\Bloco 1 - Controle MotorDireção\Testebloco2.nxc"
-4	218	198		strcat __strbufcontrol_pos, __constStr0009
-4	217	202	#line 217 "C:\Users\mariana\Dropbox\TCC\Implementações\Bloco 1 - Controle MotorDireção\Testebloco2.nxc"
-4	218	202		mov __ArrHelper__control_pos_244_3, __strbufcontrol_pos
-4	217	204	#line 217 "C:\Users\mariana\Dropbox\TCC\Implementações\Bloco 1 - Controle MotorDireção\Testebloco2.nxc"
-4	218	204		mov __DF0control_pos, errt
-4	217	206	#line 217 "C:\Users\mariana\Dropbox\TCC\Implementações\Bloco 1 - Controle MotorDireção\Testebloco2.nxc"
-4	218	206		numtostr __strretvalcontrol_pos, __DF0control_pos
-4	217	209	#line 217 "C:\Users\mariana\Dropbox\TCC\Implementações\Bloco 1 - Controle MotorDireção\Testebloco2.nxc"
-4	218	209		strcat __strbufcontrol_pos, __strretvalcontrol_pos
-4	217	213	#line 217 "C:\Users\mariana\Dropbox\TCC\Implementações\Bloco 1 - Controle MotorDireção\Testebloco2.nxc"
-4	218	213		mov __ArrHelper__control_pos_244_4, __strbufcontrol_pos
-4	218	215	#line 218 "C:\Users\mariana\Dropbox\TCC\Implementações\Bloco 1 - Controle MotorDireção\Testebloco2.nxc"
-4	219	215		strcat __strretvalcontrol_pos, __ArrHelper__control_pos_244_0, __ArrHelper__control_pos_244_1, __ArrHelper__control_pos_244_2, __ArrHelper__control_pos_244_3, __ArrHelper__control_pos_244_4
-4	218	223	#line 218 "C:\Users\mariana\Dropbox\TCC\Implementações\Bloco 1 - Controle MotorDireção\Testebloco2.nxc"
-4	219	223		strcat __strbufcontrol_pos, __strretvalcontrol_pos
-4	218	227	#line 218 "C:\Users\mariana\Dropbox\TCC\Implementações\Bloco 1 - Controle MotorDireção\Testebloco2.nxc"
-4	219	227		mov __control_pos_7qG2_write2_7qG2_000, __strbufcontrol_pos
-4	218	229	#line 218 "C:\Users\mariana\Dropbox\TCC\Implementações\Bloco 1 - Controle MotorDireção\Testebloco2.nxc"
-4	219	229	#pragma macro 9
-4	219	229		acquire __FWriteMutex
-4	219	230		mov __FWriteArgs.FileHandle, fileHandle2
-4	219	232		strtoarr __FWriteFlattenBuf, __control_pos_7qG2_write2_7qG2_000
-4	219	235		arrbuild __FWriteArgs.Buffer, __FWriteFlattenBuf, __FWriteLn
-4	219	240		arrsize __FWriteArgs.Length, __FWriteArgs.Buffer
-4	219	243		syscall 4, __FWriteArgs
-4	219	246		release __FWriteMutex
-4	7515	247	#line 7515 "C:\Users\mariana\Dropbox\TCC\Implementações\Bloco 1 - Controle MotorDireção\Testebloco2.nxc"
-4	218	247	#line 218 "C:\Users\mariana\Dropbox\TCC\Implementações\Bloco 1 - Controle MotorDireção\Testebloco2.nxc"
-4	218	247	#line 218 "C:\Users\mariana\Dropbox\TCC\Implementações\Bloco 1 - Controle MotorDireção\Testebloco2.nxc"
-4	223	247	#line 223 "C:\Users\mariana\Dropbox\TCC\Implementações\Bloco 1 - Controle MotorDireção\Testebloco2.nxc"
-4	224	247		subret __control_pos_return
-5	250	0	#line 250 "C:\Users\mariana\Dropbox\TCC\Implementações\Bloco 1 - Controle MotorDireção\Testebloco2.nxc"
+4	205	136	#line 205 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\Bloco 1 - Controle MotorDireção\Testebloco2.nxc"
+4	205	136	#line 205 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\Bloco 1 - Controle MotorDireção\Testebloco2.nxc"
+4	205	136	#line 205 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\Bloco 1 - Controle MotorDireção\Testebloco2.nxc"
+4	205	136	#line 205 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\Bloco 1 - Controle MotorDireção\Testebloco2.nxc"
+4	205	136	#line 205 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\Bloco 1 - Controle MotorDireção\Testebloco2.nxc"
+4	213	136	#line 213 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\Bloco 1 - Controle MotorDireção\Testebloco2.nxc"
+4	213	136	#line 213 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\Bloco 1 - Controle MotorDireção\Testebloco2.nxc"
+4	214	136		mul wd, __constValf0P1, errt
+4	213	140	#line 213 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\Bloco 1 - Controle MotorDireção\Testebloco2.nxc"
+4	213	140	#line 213 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\Bloco 1 - Controle MotorDireção\Testebloco2.nxc"
+4	213	140	#line 213 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\Bloco 1 - Controle MotorDireção\Testebloco2.nxc"
+4	214	140		mov __float_stack_001control_pos, acum_errt
+4	213	142	#line 213 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\Bloco 1 - Controle MotorDireção\Testebloco2.nxc"
+4	213	142	#line 213 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\Bloco 1 - Controle MotorDireção\Testebloco2.nxc"
+4	213	142	#line 213 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\Bloco 1 - Controle MotorDireção\Testebloco2.nxc"
+4	213	142	#line 213 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\Bloco 1 - Controle MotorDireção\Testebloco2.nxc"
+4	213	142	#line 213 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\Bloco 1 - Controle MotorDireção\Testebloco2.nxc"
+4	214	142		mul __float_stack_002control_pos, __constValf0P5, __constValf0P2
+4	213	146	#line 213 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\Bloco 1 - Controle MotorDireção\Testebloco2.nxc"
+4	216	146	#line 216 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\Bloco 1 - Controle MotorDireção\Testebloco2.nxc"
+4	216	146	#line 216 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\Bloco 1 - Controle MotorDireção\Testebloco2.nxc"
+4	217	146		mul __DF0control_pos, __float_stack_002control_pos, errt
+4	216	150	#line 216 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\Bloco 1 - Controle MotorDireção\Testebloco2.nxc"
+4	217	150		add acum_errt, __float_stack_001control_pos, __DF0control_pos
+4	216	154	#line 216 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\Bloco 1 - Controle MotorDireção\Testebloco2.nxc"
+4	216	154	#line 216 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\Bloco 1 - Controle MotorDireção\Testebloco2.nxc"
+4	217	154	#line 217 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\Bloco 1 - Controle MotorDireção\Testebloco2.nxc"
+4	218	154		mov __DF0control_pos, __control_pos_7qG2_errx_7qG2_000
+4	217	156	#line 217 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\Bloco 1 - Controle MotorDireção\Testebloco2.nxc"
+4	218	156		numtostr __strretvalcontrol_pos, __DF0control_pos
+4	217	159	#line 217 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\Bloco 1 - Controle MotorDireção\Testebloco2.nxc"
+4	218	159		strcat __strbufcontrol_pos, __strretvalcontrol_pos
+4	217	163	#line 217 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\Bloco 1 - Controle MotorDireção\Testebloco2.nxc"
+4	218	163		mov __ArrHelper__control_pos_244_0, __strbufcontrol_pos
+4	217	165	#line 217 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\Bloco 1 - Controle MotorDireção\Testebloco2.nxc"
+4	218	165		strcat __strbufcontrol_pos, __constStr0009
+4	217	169	#line 217 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\Bloco 1 - Controle MotorDireção\Testebloco2.nxc"
+4	218	169		mov __ArrHelper__control_pos_244_1, __strbufcontrol_pos
+4	217	171	#line 217 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\Bloco 1 - Controle MotorDireção\Testebloco2.nxc"
+4	218	171		mov __DF0control_pos, __control_pos_7qG2_erry_7qG2_000
+4	217	173	#line 217 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\Bloco 1 - Controle MotorDireção\Testebloco2.nxc"
+4	218	173		numtostr __strretvalcontrol_pos, __DF0control_pos
+4	217	176	#line 217 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\Bloco 1 - Controle MotorDireção\Testebloco2.nxc"
+4	218	176		strcat __strbufcontrol_pos, __strretvalcontrol_pos
+4	217	180	#line 217 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\Bloco 1 - Controle MotorDireção\Testebloco2.nxc"
+4	218	180		mov __ArrHelper__control_pos_244_2, __strbufcontrol_pos
+4	217	182	#line 217 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\Bloco 1 - Controle MotorDireção\Testebloco2.nxc"
+4	218	182		strcat __strbufcontrol_pos, __constStr0009
+4	217	186	#line 217 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\Bloco 1 - Controle MotorDireção\Testebloco2.nxc"
+4	218	186		mov __ArrHelper__control_pos_244_3, __strbufcontrol_pos
+4	217	188	#line 217 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\Bloco 1 - Controle MotorDireção\Testebloco2.nxc"
+4	218	188		mov __DF0control_pos, errt
+4	217	190	#line 217 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\Bloco 1 - Controle MotorDireção\Testebloco2.nxc"
+4	218	190		numtostr __strretvalcontrol_pos, __DF0control_pos
+4	217	193	#line 217 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\Bloco 1 - Controle MotorDireção\Testebloco2.nxc"
+4	218	193		strcat __strbufcontrol_pos, __strretvalcontrol_pos
+4	217	197	#line 217 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\Bloco 1 - Controle MotorDireção\Testebloco2.nxc"
+4	218	197		mov __ArrHelper__control_pos_244_4, __strbufcontrol_pos
+4	218	199	#line 218 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\Bloco 1 - Controle MotorDireção\Testebloco2.nxc"
+4	219	199		strcat __strretvalcontrol_pos, __ArrHelper__control_pos_244_0, __ArrHelper__control_pos_244_1, __ArrHelper__control_pos_244_2, __ArrHelper__control_pos_244_3, __ArrHelper__control_pos_244_4
+4	218	207	#line 218 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\Bloco 1 - Controle MotorDireção\Testebloco2.nxc"
+4	219	207		strcat __strbufcontrol_pos, __strretvalcontrol_pos
+4	218	211	#line 218 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\Bloco 1 - Controle MotorDireção\Testebloco2.nxc"
+4	219	211		mov __control_pos_7qG2_write2_7qG2_000, __strbufcontrol_pos
+4	218	213	#line 218 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\Bloco 1 - Controle MotorDireção\Testebloco2.nxc"
+4	219	213	#pragma macro 9
+4	219	213		acquire __FWriteMutex
+4	219	214		mov __FWriteArgs.FileHandle, fileHandle2
+4	219	216		strtoarr __FWriteFlattenBuf, __control_pos_7qG2_write2_7qG2_000
+4	219	219		arrbuild __FWriteArgs.Buffer, __FWriteFlattenBuf, __FWriteLn
+4	219	224		arrsize __FWriteArgs.Length, __FWriteArgs.Buffer
+4	219	227		syscall 4, __FWriteArgs
+4	219	230		release __FWriteMutex
+4	7491	231	#line 7491 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\Bloco 1 - Controle MotorDireção\Testebloco2.nxc"
+4	218	231	#line 218 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\Bloco 1 - Controle MotorDireção\Testebloco2.nxc"
+4	218	231	#line 218 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\Bloco 1 - Controle MotorDireção\Testebloco2.nxc"
+4	223	231	#line 223 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\Bloco 1 - Controle MotorDireção\Testebloco2.nxc"
+4	224	231		subret __control_pos_return
+5	250	0	#line 250 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\Bloco 1 - Controle MotorDireção\Testebloco2.nxc"
 5	251	0		subret ____initialize_global_data_return
 #CLUMPS
 Clump	Name	Offset	File
-0	main	0	C:\Users\mariana\Dropbox\TCC\Implementações\Bloco 1 - Controle MotorDireção\Testebloco2.nxc
-1	ws	107	C:\Users\mariana\Dropbox\TCC\Implementações\Bloco 1 - Controle MotorDireção\Testebloco2.nxc
-2	wd_rodas	193	C:\Users\mariana\Dropbox\TCC\Implementações\Bloco 1 - Controle MotorDireção\Testebloco2.nxc
-3	control_motor	227	C:\Users\mariana\Dropbox\TCC\Implementações\Bloco 1 - Controle MotorDireção\Testebloco2.nxc
-4	control_pos	479	C:\Users\mariana\Dropbox\TCC\Implementações\Bloco 1 - Controle MotorDireção\Testebloco2.nxc
-5	__initialize_global_data	728	C:\Users\mariana\Dropbox\TCC\Implementações\Bloco 1 - Controle MotorDireção\Testebloco2.nxc
+0	main	0	C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\Bloco 1 - Controle MotorDireção\Testebloco2.nxc
+1	ws	107	C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\Bloco 1 - Controle MotorDireção\Testebloco2.nxc
+2	wd_rodas	193	C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\Bloco 1 - Controle MotorDireção\Testebloco2.nxc
+3	control_motor	227	C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\Bloco 1 - Controle MotorDireção\Testebloco2.nxc
+4	control_pos	479	C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\Bloco 1 - Controle MotorDireção\Testebloco2.nxc
+5	__initialize_global_data	712	C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\Bloco 1 - Controle MotorDireção\Testebloco2.nxc

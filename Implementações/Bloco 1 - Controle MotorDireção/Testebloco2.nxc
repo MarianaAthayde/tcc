@@ -19,7 +19,7 @@
 #define kd 1
 
 //Ganhos de controlador PID de posição
-#define kp_pos 5
+#define kp_pos 0.1
 #define ki_pos 0.5
 #define kd_pos 1
 
@@ -203,9 +203,9 @@ errt = atan2(sin(errt),cos(errt));
 //Controle P
 //float h = kp_pos*errt;
 
-
+wd = kp_pos*errt;
 //Controle PI
-wd = kp_pos*errt + acum_errt + ki_pos*0.2*errt;
+//wd = kp_pos*errt + acum_errt + ki_pos*0.2*errt;
 //Controle PID
 //T = kp_pos*errt + acum_errt + ki_pos*0.2*errt + kd_pos * (errt - errt_past)/dt;
 
