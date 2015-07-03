@@ -1,0 +1,438 @@
+#SYMBOLS
+Index	Identifier	Type	Flag	Data	Size	RefCount
+0	prev_deg_a	6	1	0	4	2
+1	wdr	10	1	4	4	2
+2	wr	10	1	8	4	2
+3	prev_deg_c	6	1	12	4	2
+4	wdl	10	1	16	4	2
+5	wl	10	1	20	4	2
+6	wd	10	1	24	4	3
+7	prev_tick	6	1	28	4	3
+8	__float_stack_001ws	10	1	32	4	4
+9	__unsigned_stack_001ws	5	1	36	4	2
+10	vd	10	1	40	4	3
+11	acum_erl	10	1	44	4	3
+12	acum_err	10	1	48	4	3
+13	dt	6	1	52	4	3
+14	__constValf1P2566372	10	0	56	4	2
+15	__control_motor_7qG2_cl_7qG2_000	10	1	60	4	2
+16	__constValf0P2	10	0	64	4	4
+17	__constValf0P0574	10	0	68	4	2
+18	__constValf0P105	10	0	72	4	2
+19	__constValf0P15	10	0	76	4	1
+20	__constValf1P4	10	0	80	4	4
+21	__constValf17P45	10	0	84	4	2
+22	__ws_7qG2_deg_c_7qG2_000	6	1	88	4	2
+23	__ws_7qG2_deg_a_7qG2_000	6	1	92	4	2
+24	__control_motor_7qG2_cr_7qG2_000	10	1	96	4	2
+25	__control_motor_7qG2_ewl_7qG2_000	10	1	100	4	5
+26	__control_motor_7qG2_ewr_7qG2_000	10	1	104	4	5
+27	__float_stack_001control_motor	10	1	108	4	12
+28	__float_stack_002control_motor	10	1	112	4	8
+29	__DF0main	10	1	116	4	4
+30	__D0main	6	1	120	4	6
+31	__signed_stack_001main	6	1	124	4	2
+32	__float_stack_001main	10	1	128	4	8
+33	__signed_stack_001ws	6	1	132	4	4
+34	__DF0control_motor	10	1	136	4	16
+35	__FOMutex	9	0	140	4	2
+36	k	4	0	144	2	1
+37	t_amostral	4	0	146	2	1
+38	__main_7qG2_t_7qG2_001	4	1	148	2	4
+39	__constVal4096	4	0	150	2	1
+40	__constVal96	2	0	152	1	2
+41	__constVal63	2	0	153	1	2
+42	__control_motor_return	1	1	154	1	3
+43	__constVal2	2	0	155	1	5
+44	__constVal1	2	0	156	1	1
+45	__constVal32	2	0	157	1	6
+46	__constVal0	2	1	158	1	9
+47	____initialize_global_data_return	1	1	159	1	3
+48	__constVal3	2	0	160	1	2
+49	__constVal14	2	0	161	1	2
+50	fileHandle	1	1	162	1	3
+51	__zfmain	1	1	163	1	3
+52	__ws_return	1	1	164	1	3
+53	__FDArgs	8	0	2	8	3
+54	__FDArgs.Result	3	1	168	2	3
+55	__FDArgs.Filename	7	0	170	4	3
+56	__FDArgs.Filename.Filename_type	1	0	0	1	0
+57	__FWriteArgs	8	0	4	12	5
+58	__FWriteArgs.Result	3	1	172	2	5
+59	__FWriteArgs.FileHandle	1	1	174	1	5
+60	__FWriteArgs.Buffer	7	0	176	4	5
+61	__FWriteArgs.Buffer.Buffer_type	1	0	0	1	0
+62	__FWriteArgs.Length	5	1	180	4	5
+63	__FOArgs	8	0	4	12	5
+64	__FOArgs.Result	3	1	184	2	5
+65	__FOArgs.FileHandle	1	1	186	1	5
+66	__FOArgs.Filename	7	0	188	4	5
+67	__FOArgs.Filename.Filename_type	1	0	0	1	0
+68	__FOArgs.Length	5	1	192	4	5
+69	__FCArgs	8	0	2	4	3
+70	__FCArgs.Result	3	1	196	2	3
+71	__FCArgs.FileHandle	1	1	198	1	3
+72	__strretvalcontrol_motor	7	0	200	4	6
+73	__strretvalcontrol_motor.__strretvalcontrol_motor_type	1	0	0	1	0
+74	__strbufcontrol_motor	7	0	202	4	8
+75	__strbufcontrol_motor.__strbufcontrol_motor_type	1	0	0	1	0
+76	__constStr0010	7	0	204	4	2
+77	__constStr0010.__constStr0010_type	1	1	0	1	0
+78	write	7	0	206	4	2
+79	write.write_type	1	0	0	1	0
+80	__ArrHelper__control_motor_244_0	7	0	208	4	2
+81	__ArrHelper__control_motor_244_0.__ArrHelper__control_motor_244_0_type	1	0	0	1	0
+82	__FWriteLn	7	0	210	4	1
+83	__FWriteLn.__FWriteLn_type	1	0	0	1	0
+84	__FWriteFlattenBuf	7	0	212	4	2
+85	__FWriteFlattenBuf.__FWriteFlattenBuf_type	1	0	0	1	0
+86	__ArrHelper__control_motor_244_2	7	0	214	4	2
+87	__ArrHelper__control_motor_244_2.__ArrHelper__control_motor_244_2_type	1	0	0	1	0
+88	__ArrHelper__control_motor_244_1	7	0	216	4	2
+89	__ArrHelper__control_motor_244_1.__ArrHelper__control_motor_244_1_type	1	0	0	1	0
+90	__constStr0009	7	0	218	4	1
+91	__constStr0009.__constStr0009_type	1	1	0	1	0
+#SOURCES
+Clump	Line	PC	Source
+0	109	0	#line 109 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\Bloco 1 - Controle MotorDireção\bloco1_pi_15.nxc"
+0	110	0		subcall __initialize_global_data, ____initialize_global_data_return
+0	109	2	#line 109 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\Bloco 1 - Controle MotorDireção\bloco1_pi_15.nxc"
+0	110	2	#line 110 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\Bloco 1 - Controle MotorDireção\bloco1_pi_15.nxc"
+0	111	2		mov wd, __constValf1P2566372
+0	110	4	#line 110 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\Bloco 1 - Controle MotorDireção\bloco1_pi_15.nxc"
+0	110	4	#line 110 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\Bloco 1 - Controle MotorDireção\bloco1_pi_15.nxc"
+0	110	4	#line 110 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\Bloco 1 - Controle MotorDireção\bloco1_pi_15.nxc"
+0	110	4	#line 110 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\Bloco 1 - Controle MotorDireção\bloco1_pi_15.nxc"
+0	111	4	#line 111 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\Bloco 1 - Controle MotorDireção\bloco1_pi_15.nxc"
+0	111	4	#line 111 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\Bloco 1 - Controle MotorDireção\bloco1_pi_15.nxc"
+0	112	4		mul vd, __constValf1P2566372, __constValf0P15
+0	111	8	#line 111 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\Bloco 1 - Controle MotorDireção\bloco1_pi_15.nxc"
+0	111	8	#line 111 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\Bloco 1 - Controle MotorDireção\bloco1_pi_15.nxc"
+0	111	8	#line 111 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\Bloco 1 - Controle MotorDireção\bloco1_pi_15.nxc"
+0	111	8	#line 111 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\Bloco 1 - Controle MotorDireção\bloco1_pi_15.nxc"
+0	111	8	#line 111 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\Bloco 1 - Controle MotorDireção\bloco1_pi_15.nxc"
+0	111	8	#line 111 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\Bloco 1 - Controle MotorDireção\bloco1_pi_15.nxc"
+0	112	8		mul __float_stack_001main, __constVal2, vd
+0	111	12	#line 111 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\Bloco 1 - Controle MotorDireção\bloco1_pi_15.nxc"
+0	111	12	#line 111 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\Bloco 1 - Controle MotorDireção\bloco1_pi_15.nxc"
+0	111	12	#line 111 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\Bloco 1 - Controle MotorDireção\bloco1_pi_15.nxc"
+0	111	12	#line 111 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\Bloco 1 - Controle MotorDireção\bloco1_pi_15.nxc"
+0	111	12	#line 111 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\Bloco 1 - Controle MotorDireção\bloco1_pi_15.nxc"
+0	112	12		mul __DF0main, wd, __constValf0P105
+0	111	16	#line 111 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\Bloco 1 - Controle MotorDireção\bloco1_pi_15.nxc"
+0	112	16		add __float_stack_001main, __float_stack_001main, __DF0main
+0	111	20	#line 111 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\Bloco 1 - Controle MotorDireção\bloco1_pi_15.nxc"
+0	111	20	#line 111 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\Bloco 1 - Controle MotorDireção\bloco1_pi_15.nxc"
+0	112	20	#line 112 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\Bloco 1 - Controle MotorDireção\bloco1_pi_15.nxc"
+0	113	20		div wdr, __float_stack_001main, __constValf0P0574
+0	112	24	#line 112 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\Bloco 1 - Controle MotorDireção\bloco1_pi_15.nxc"
+0	112	24	#line 112 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\Bloco 1 - Controle MotorDireção\bloco1_pi_15.nxc"
+0	112	24	#line 112 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\Bloco 1 - Controle MotorDireção\bloco1_pi_15.nxc"
+0	112	24	#line 112 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\Bloco 1 - Controle MotorDireção\bloco1_pi_15.nxc"
+0	112	24	#line 112 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\Bloco 1 - Controle MotorDireção\bloco1_pi_15.nxc"
+0	112	24	#line 112 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\Bloco 1 - Controle MotorDireção\bloco1_pi_15.nxc"
+0	113	24		mul __float_stack_001main, __constVal2, vd
+0	112	28	#line 112 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\Bloco 1 - Controle MotorDireção\bloco1_pi_15.nxc"
+0	112	28	#line 112 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\Bloco 1 - Controle MotorDireção\bloco1_pi_15.nxc"
+0	112	28	#line 112 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\Bloco 1 - Controle MotorDireção\bloco1_pi_15.nxc"
+0	112	28	#line 112 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\Bloco 1 - Controle MotorDireção\bloco1_pi_15.nxc"
+0	112	28	#line 112 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\Bloco 1 - Controle MotorDireção\bloco1_pi_15.nxc"
+0	113	28		mul __DF0main, wd, __constValf0P105
+0	112	32	#line 112 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\Bloco 1 - Controle MotorDireção\bloco1_pi_15.nxc"
+0	113	32		sub __float_stack_001main, __float_stack_001main, __DF0main
+0	112	36	#line 112 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\Bloco 1 - Controle MotorDireção\bloco1_pi_15.nxc"
+0	112	36	#line 112 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\Bloco 1 - Controle MotorDireção\bloco1_pi_15.nxc"
+0	113	36	#line 113 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\Bloco 1 - Controle MotorDireção\bloco1_pi_15.nxc"
+0	114	36		div wdl, __float_stack_001main, __constValf0P0574
+0	113	40	#line 113 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\Bloco 1 - Controle MotorDireção\bloco1_pi_15.nxc"
+0	113	40	#line 113 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\Bloco 1 - Controle MotorDireção\bloco1_pi_15.nxc"
+0	114	40	#line 114 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\Bloco 1 - Controle MotorDireção\bloco1_pi_15.nxc"
+0	114	40	#line 114 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\Bloco 1 - Controle MotorDireção\bloco1_pi_15.nxc"
+0	114	40	#line 114 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\Bloco 1 - Controle MotorDireção\bloco1_pi_15.nxc"
+0	115	40	#line 115 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\Bloco 1 - Controle MotorDireção\bloco1_pi_15.nxc"
+0	115	40	#line 115 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\Bloco 1 - Controle MotorDireção\bloco1_pi_15.nxc"
+0	115	40	#line 115 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\Bloco 1 - Controle MotorDireção\bloco1_pi_15.nxc"
+0	115	40	#line 115 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\Bloco 1 - Controle MotorDireção\bloco1_pi_15.nxc"
+0	116	40	#pragma macro 5
+0	116	40		mov __FDArgs.Filename, __constStr0010
+0	116	42		syscall 8, __FDArgs
+0	116	45		mov __D0main, __FDArgs.Result
+0	6484	47	#line 6484 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\Bloco 1 - Controle MotorDireção\bloco1_pi_15.nxc"
+0	115	47	#line 115 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\Bloco 1 - Controle MotorDireção\bloco1_pi_15.nxc"
+0	115	47	#line 115 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\Bloco 1 - Controle MotorDireção\bloco1_pi_15.nxc"
+0	116	47	#line 116 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\Bloco 1 - Controle MotorDireção\bloco1_pi_15.nxc"
+0	117	47	#pragma macro 7
+0	117	47		acquire __FOMutex
+0	117	48		mov __FOArgs.Filename, __constStr0010
+0	117	50		mov __FOArgs.Length, __constVal4096
+0	117	52		syscall 1, __FOArgs
+0	117	55		mov fileHandle, __FOArgs.FileHandle
+0	117	57		mov __D0main, __FOArgs.Result
+0	117	59		release __FOMutex
+0	6488	60	#line 6488 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\Bloco 1 - Controle MotorDireção\bloco1_pi_15.nxc"
+0	116	60	#line 116 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\Bloco 1 - Controle MotorDireção\bloco1_pi_15.nxc"
+0	116	60	#line 116 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\Bloco 1 - Controle MotorDireção\bloco1_pi_15.nxc"
+0	117	60	#line 117 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\Bloco 1 - Controle MotorDireção\bloco1_pi_15.nxc"
+0	118	60		gettick prev_tick
+0	117	62	#line 117 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\Bloco 1 - Controle MotorDireção\bloco1_pi_15.nxc"
+0	117	62	#line 117 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\Bloco 1 - Controle MotorDireção\bloco1_pi_15.nxc"
+0	117	62	#line 117 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\Bloco 1 - Controle MotorDireção\bloco1_pi_15.nxc"
+0	119	62	#line 119 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\Bloco 1 - Controle MotorDireção\bloco1_pi_15.nxc"
+0	120	62		set __main_7qG2_t_7qG2_001, 0
+0	119	65	#line 119 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\Bloco 1 - Controle MotorDireção\bloco1_pi_15.nxc"
+0	119	65	#line 119 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\Bloco 1 - Controle MotorDireção\bloco1_pi_15.nxc"
+0	120	65		mov __signed_stack_001main, __main_7qG2_t_7qG2_001
+0	119	67	#line 119 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\Bloco 1 - Controle MotorDireção\bloco1_pi_15.nxc"
+0	119	67	#line 119 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\Bloco 1 - Controle MotorDireção\bloco1_pi_15.nxc"
+0	120	67		mov __D0main, k
+0	119	69	#line 119 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\Bloco 1 - Controle MotorDireção\bloco1_pi_15.nxc"
+0	120	69		cmp 0, __zfmain, __signed_stack_001main, __D0main
+0	119	73	#line 119 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\Bloco 1 - Controle MotorDireção\bloco1_pi_15.nxc"
+0	120	73		mov __D0main, __zfmain
+0	119	75	#line 119 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\Bloco 1 - Controle MotorDireção\bloco1_pi_15.nxc"
+0	120	75		brtst 4, __NXC_Label_669, __zfmain
+0	119	78	#line 119 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\Bloco 1 - Controle MotorDireção\bloco1_pi_15.nxc"
+0	120	78		jmp __NXC_Label_670
+0	119	80	#line 119 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\Bloco 1 - Controle MotorDireção\bloco1_pi_15.nxc"
+0	120	80		add __main_7qG2_t_7qG2_001, __main_7qG2_t_7qG2_001, __constVal1
+0	120	84	#line 120 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\Bloco 1 - Controle MotorDireção\bloco1_pi_15.nxc"
+0	121	84		jmp __NXC_Label_668
+0	121	86	#line 121 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\Bloco 1 - Controle MotorDireção\bloco1_pi_15.nxc"
+0	122	86		subcall control_motor, __control_motor_return
+0	121	88	#line 121 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\Bloco 1 - Controle MotorDireção\bloco1_pi_15.nxc"
+0	121	88	#line 121 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\Bloco 1 - Controle MotorDireção\bloco1_pi_15.nxc"
+0	121	88	#line 121 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\Bloco 1 - Controle MotorDireção\bloco1_pi_15.nxc"
+0	7921	88	#line 7921 "NXCDefs.h"
+0	7922	88		waitv t_amostral
+0	7921	90	#line 7921 "NXCDefs.h"
+0	122	90	#line 122 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\Bloco 1 - Controle MotorDireção\bloco1_pi_15.nxc"
+0	123	90	#line 123 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\Bloco 1 - Controle MotorDireção\bloco1_pi_15.nxc"
+0	124	90		jmp __NXC_Label_671
+0	123	92	#line 123 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\Bloco 1 - Controle MotorDireção\bloco1_pi_15.nxc"
+0	123	92	#line 123 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\Bloco 1 - Controle MotorDireção\bloco1_pi_15.nxc"
+0	124	92	#pragma macro 5
+0	124	92		mov __FCArgs.FileHandle, fileHandle
+0	124	94		syscall 5, __FCArgs
+0	124	97		mov __D0main, __FCArgs.Result
+0	6554	99	#line 6554 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\Bloco 1 - Controle MotorDireção\bloco1_pi_15.nxc"
+0	123	99	#line 123 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\Bloco 1 - Controle MotorDireção\bloco1_pi_15.nxc"
+0	123	99	#line 123 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\Bloco 1 - Controle MotorDireção\bloco1_pi_15.nxc"
+0	124	99		exit -1, -1
+1	71	0	#line 71 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\Bloco 1 - Controle MotorDireção\bloco1_pi_15.nxc"
+1	72	0		gettick __unsigned_stack_001ws
+1	71	2	#line 71 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\Bloco 1 - Controle MotorDireção\bloco1_pi_15.nxc"
+1	73	2	#line 73 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\Bloco 1 - Controle MotorDireção\bloco1_pi_15.nxc"
+1	73	2	#line 73 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\Bloco 1 - Controle MotorDireção\bloco1_pi_15.nxc"
+1	74	2		sub dt, __unsigned_stack_001ws, prev_tick
+1	73	6	#line 73 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\Bloco 1 - Controle MotorDireção\bloco1_pi_15.nxc"
+1	73	6	#line 73 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\Bloco 1 - Controle MotorDireção\bloco1_pi_15.nxc"
+1	73	6	#line 73 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\Bloco 1 - Controle MotorDireção\bloco1_pi_15.nxc"
+1	73	6	#line 73 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\Bloco 1 - Controle MotorDireção\bloco1_pi_15.nxc"
+1	74	6		getout __signed_stack_001ws, __constVal0, 14
+1	73	10	#line 73 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\Bloco 1 - Controle MotorDireção\bloco1_pi_15.nxc"
+1	74	10	#line 74 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\Bloco 1 - Controle MotorDireção\bloco1_pi_15.nxc"
+1	74	10	#line 74 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\Bloco 1 - Controle MotorDireção\bloco1_pi_15.nxc"
+1	75	10		sub __ws_7qG2_deg_a_7qG2_000, __signed_stack_001ws, prev_deg_a
+1	74	14	#line 74 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\Bloco 1 - Controle MotorDireção\bloco1_pi_15.nxc"
+1	74	14	#line 74 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\Bloco 1 - Controle MotorDireção\bloco1_pi_15.nxc"
+1	75	14		getout __signed_stack_001ws, __constVal2, 14
+1	74	18	#line 74 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\Bloco 1 - Controle MotorDireção\bloco1_pi_15.nxc"
+1	75	18	#line 75 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\Bloco 1 - Controle MotorDireção\bloco1_pi_15.nxc"
+1	75	18	#line 75 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\Bloco 1 - Controle MotorDireção\bloco1_pi_15.nxc"
+1	76	18		sub __ws_7qG2_deg_c_7qG2_000, __signed_stack_001ws, prev_deg_c
+1	75	22	#line 75 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\Bloco 1 - Controle MotorDireção\bloco1_pi_15.nxc"
+1	75	22	#line 75 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\Bloco 1 - Controle MotorDireção\bloco1_pi_15.nxc"
+1	75	22	#line 75 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\Bloco 1 - Controle MotorDireção\bloco1_pi_15.nxc"
+1	75	22	#line 75 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\Bloco 1 - Controle MotorDireção\bloco1_pi_15.nxc"
+1	75	22	#line 75 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\Bloco 1 - Controle MotorDireção\bloco1_pi_15.nxc"
+1	76	22		mul __float_stack_001ws, __ws_7qG2_deg_a_7qG2_000, __constValf17P45
+1	75	26	#line 75 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\Bloco 1 - Controle MotorDireção\bloco1_pi_15.nxc"
+1	76	26	#line 76 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\Bloco 1 - Controle MotorDireção\bloco1_pi_15.nxc"
+1	76	26	#line 76 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\Bloco 1 - Controle MotorDireção\bloco1_pi_15.nxc"
+1	77	26		div wr, __float_stack_001ws, dt
+1	76	30	#line 76 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\Bloco 1 - Controle MotorDireção\bloco1_pi_15.nxc"
+1	76	30	#line 76 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\Bloco 1 - Controle MotorDireção\bloco1_pi_15.nxc"
+1	76	30	#line 76 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\Bloco 1 - Controle MotorDireção\bloco1_pi_15.nxc"
+1	76	30	#line 76 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\Bloco 1 - Controle MotorDireção\bloco1_pi_15.nxc"
+1	76	30	#line 76 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\Bloco 1 - Controle MotorDireção\bloco1_pi_15.nxc"
+1	76	30	#line 76 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\Bloco 1 - Controle MotorDireção\bloco1_pi_15.nxc"
+1	77	30		mul __float_stack_001ws, __ws_7qG2_deg_c_7qG2_000, __constValf17P45
+1	76	34	#line 76 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\Bloco 1 - Controle MotorDireção\bloco1_pi_15.nxc"
+1	77	34	#line 77 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\Bloco 1 - Controle MotorDireção\bloco1_pi_15.nxc"
+1	77	34	#line 77 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\Bloco 1 - Controle MotorDireção\bloco1_pi_15.nxc"
+1	78	34		div wl, __float_stack_001ws, dt
+1	77	38	#line 77 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\Bloco 1 - Controle MotorDireção\bloco1_pi_15.nxc"
+1	77	38	#line 77 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\Bloco 1 - Controle MotorDireção\bloco1_pi_15.nxc"
+1	78	38	#line 78 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\Bloco 1 - Controle MotorDireção\bloco1_pi_15.nxc"
+1	79	38		getout prev_deg_a, __constVal0, 14
+1	78	42	#line 78 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\Bloco 1 - Controle MotorDireção\bloco1_pi_15.nxc"
+1	78	42	#line 78 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\Bloco 1 - Controle MotorDireção\bloco1_pi_15.nxc"
+1	79	42	#line 79 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\Bloco 1 - Controle MotorDireção\bloco1_pi_15.nxc"
+1	80	42		getout prev_deg_c, __constVal2, 14
+1	79	46	#line 79 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\Bloco 1 - Controle MotorDireção\bloco1_pi_15.nxc"
+1	79	46	#line 79 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\Bloco 1 - Controle MotorDireção\bloco1_pi_15.nxc"
+1	79	46	#line 79 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\Bloco 1 - Controle MotorDireção\bloco1_pi_15.nxc"
+1	80	46		gettick prev_tick
+1	79	48	#line 79 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\Bloco 1 - Controle MotorDireção\bloco1_pi_15.nxc"
+1	79	48	#line 79 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\Bloco 1 - Controle MotorDireção\bloco1_pi_15.nxc"
+1	79	48	#line 79 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\Bloco 1 - Controle MotorDireção\bloco1_pi_15.nxc"
+1	82	48	#line 82 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\Bloco 1 - Controle MotorDireção\bloco1_pi_15.nxc"
+1	83	48		subret __ws_return
+2	87	0	#line 87 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\Bloco 1 - Controle MotorDireção\bloco1_pi_15.nxc"
+2	88	0		subcall ws, __ws_return
+2	87	2	#line 87 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\Bloco 1 - Controle MotorDireção\bloco1_pi_15.nxc"
+2	87	2	#line 87 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\Bloco 1 - Controle MotorDireção\bloco1_pi_15.nxc"
+2	87	2	#line 87 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\Bloco 1 - Controle MotorDireção\bloco1_pi_15.nxc"
+2	88	2	#line 88 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\Bloco 1 - Controle MotorDireção\bloco1_pi_15.nxc"
+2	88	2	#line 88 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\Bloco 1 - Controle MotorDireção\bloco1_pi_15.nxc"
+2	89	2		sub __control_motor_7qG2_ewr_7qG2_000, wdr, wr
+2	88	6	#line 88 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\Bloco 1 - Controle MotorDireção\bloco1_pi_15.nxc"
+2	88	6	#line 88 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\Bloco 1 - Controle MotorDireção\bloco1_pi_15.nxc"
+2	88	6	#line 88 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\Bloco 1 - Controle MotorDireção\bloco1_pi_15.nxc"
+2	93	6	#line 93 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\Bloco 1 - Controle MotorDireção\bloco1_pi_15.nxc"
+2	93	6	#line 93 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\Bloco 1 - Controle MotorDireção\bloco1_pi_15.nxc"
+2	94	6		sub __control_motor_7qG2_ewl_7qG2_000, wdl, wl
+2	93	10	#line 93 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\Bloco 1 - Controle MotorDireção\bloco1_pi_15.nxc"
+2	94	10	#line 94 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\Bloco 1 - Controle MotorDireção\bloco1_pi_15.nxc"
+2	94	10	#line 94 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\Bloco 1 - Controle MotorDireção\bloco1_pi_15.nxc"
+2	94	10	#line 94 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\Bloco 1 - Controle MotorDireção\bloco1_pi_15.nxc"
+2	96	10	#line 96 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\Bloco 1 - Controle MotorDireção\bloco1_pi_15.nxc"
+2	96	10	#line 96 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\Bloco 1 - Controle MotorDireção\bloco1_pi_15.nxc"
+2	96	10	#line 96 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\Bloco 1 - Controle MotorDireção\bloco1_pi_15.nxc"
+2	96	10	#line 96 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\Bloco 1 - Controle MotorDireção\bloco1_pi_15.nxc"
+2	96	10	#line 96 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\Bloco 1 - Controle MotorDireção\bloco1_pi_15.nxc"
+2	96	10	#line 96 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\Bloco 1 - Controle MotorDireção\bloco1_pi_15.nxc"
+2	96	10	#line 96 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\Bloco 1 - Controle MotorDireção\bloco1_pi_15.nxc"
+2	97	10		mul __float_stack_001control_motor, __constVal14, __control_motor_7qG2_ewr_7qG2_000
+2	96	14	#line 96 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\Bloco 1 - Controle MotorDireção\bloco1_pi_15.nxc"
+2	96	14	#line 96 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\Bloco 1 - Controle MotorDireção\bloco1_pi_15.nxc"
+2	96	14	#line 96 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\Bloco 1 - Controle MotorDireção\bloco1_pi_15.nxc"
+2	97	14		add __float_stack_001control_motor, __float_stack_001control_motor, acum_err
+2	96	18	#line 96 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\Bloco 1 - Controle MotorDireção\bloco1_pi_15.nxc"
+2	96	18	#line 96 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\Bloco 1 - Controle MotorDireção\bloco1_pi_15.nxc"
+2	96	18	#line 96 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\Bloco 1 - Controle MotorDireção\bloco1_pi_15.nxc"
+2	96	18	#line 96 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\Bloco 1 - Controle MotorDireção\bloco1_pi_15.nxc"
+2	96	18	#line 96 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\Bloco 1 - Controle MotorDireção\bloco1_pi_15.nxc"
+2	97	18		mul __float_stack_002control_motor, __constValf1P4, __constValf0P2
+2	96	22	#line 96 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\Bloco 1 - Controle MotorDireção\bloco1_pi_15.nxc"
+2	97	22	#line 97 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\Bloco 1 - Controle MotorDireção\bloco1_pi_15.nxc"
+2	97	22	#line 97 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\Bloco 1 - Controle MotorDireção\bloco1_pi_15.nxc"
+2	98	22		mul __DF0control_motor, __float_stack_002control_motor, __control_motor_7qG2_ewr_7qG2_000
+2	97	26	#line 97 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\Bloco 1 - Controle MotorDireção\bloco1_pi_15.nxc"
+2	98	26		add __control_motor_7qG2_cr_7qG2_000, __float_stack_001control_motor, __DF0control_motor
+2	97	30	#line 97 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\Bloco 1 - Controle MotorDireção\bloco1_pi_15.nxc"
+2	97	30	#line 97 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\Bloco 1 - Controle MotorDireção\bloco1_pi_15.nxc"
+2	97	30	#line 97 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\Bloco 1 - Controle MotorDireção\bloco1_pi_15.nxc"
+2	97	30	#line 97 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\Bloco 1 - Controle MotorDireção\bloco1_pi_15.nxc"
+2	97	30	#line 97 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\Bloco 1 - Controle MotorDireção\bloco1_pi_15.nxc"
+2	98	30		mul __float_stack_001control_motor, __constVal14, __control_motor_7qG2_ewl_7qG2_000
+2	97	34	#line 97 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\Bloco 1 - Controle MotorDireção\bloco1_pi_15.nxc"
+2	97	34	#line 97 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\Bloco 1 - Controle MotorDireção\bloco1_pi_15.nxc"
+2	97	34	#line 97 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\Bloco 1 - Controle MotorDireção\bloco1_pi_15.nxc"
+2	98	34		add __float_stack_001control_motor, __float_stack_001control_motor, acum_erl
+2	97	38	#line 97 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\Bloco 1 - Controle MotorDireção\bloco1_pi_15.nxc"
+2	97	38	#line 97 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\Bloco 1 - Controle MotorDireção\bloco1_pi_15.nxc"
+2	97	38	#line 97 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\Bloco 1 - Controle MotorDireção\bloco1_pi_15.nxc"
+2	97	38	#line 97 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\Bloco 1 - Controle MotorDireção\bloco1_pi_15.nxc"
+2	97	38	#line 97 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\Bloco 1 - Controle MotorDireção\bloco1_pi_15.nxc"
+2	98	38		mul __float_stack_002control_motor, __constValf1P4, __constValf0P2
+2	97	42	#line 97 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\Bloco 1 - Controle MotorDireção\bloco1_pi_15.nxc"
+2	98	42	#line 98 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\Bloco 1 - Controle MotorDireção\bloco1_pi_15.nxc"
+2	98	42	#line 98 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\Bloco 1 - Controle MotorDireção\bloco1_pi_15.nxc"
+2	99	42		mul __DF0control_motor, __float_stack_002control_motor, __control_motor_7qG2_ewl_7qG2_000
+2	98	46	#line 98 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\Bloco 1 - Controle MotorDireção\bloco1_pi_15.nxc"
+2	99	46		add __control_motor_7qG2_cl_7qG2_000, __float_stack_001control_motor, __DF0control_motor
+2	98	50	#line 98 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\Bloco 1 - Controle MotorDireção\bloco1_pi_15.nxc"
+2	98	50	#line 98 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\Bloco 1 - Controle MotorDireção\bloco1_pi_15.nxc"
+2	99	50		mov __float_stack_001control_motor, acum_err
+2	98	52	#line 98 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\Bloco 1 - Controle MotorDireção\bloco1_pi_15.nxc"
+2	98	52	#line 98 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\Bloco 1 - Controle MotorDireção\bloco1_pi_15.nxc"
+2	98	52	#line 98 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\Bloco 1 - Controle MotorDireção\bloco1_pi_15.nxc"
+2	98	52	#line 98 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\Bloco 1 - Controle MotorDireção\bloco1_pi_15.nxc"
+2	98	52	#line 98 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\Bloco 1 - Controle MotorDireção\bloco1_pi_15.nxc"
+2	99	52		mul __float_stack_002control_motor, __constValf1P4, __constValf0P2
+2	98	56	#line 98 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\Bloco 1 - Controle MotorDireção\bloco1_pi_15.nxc"
+2	99	56	#line 99 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\Bloco 1 - Controle MotorDireção\bloco1_pi_15.nxc"
+2	99	56	#line 99 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\Bloco 1 - Controle MotorDireção\bloco1_pi_15.nxc"
+2	100	56		mul __DF0control_motor, __float_stack_002control_motor, __control_motor_7qG2_ewr_7qG2_000
+2	99	60	#line 99 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\Bloco 1 - Controle MotorDireção\bloco1_pi_15.nxc"
+2	100	60		add acum_err, __float_stack_001control_motor, __DF0control_motor
+2	99	64	#line 99 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\Bloco 1 - Controle MotorDireção\bloco1_pi_15.nxc"
+2	99	64	#line 99 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\Bloco 1 - Controle MotorDireção\bloco1_pi_15.nxc"
+2	99	64	#line 99 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\Bloco 1 - Controle MotorDireção\bloco1_pi_15.nxc"
+2	100	64		mov __float_stack_001control_motor, acum_erl
+2	99	66	#line 99 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\Bloco 1 - Controle MotorDireção\bloco1_pi_15.nxc"
+2	99	66	#line 99 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\Bloco 1 - Controle MotorDireção\bloco1_pi_15.nxc"
+2	99	66	#line 99 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\Bloco 1 - Controle MotorDireção\bloco1_pi_15.nxc"
+2	99	66	#line 99 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\Bloco 1 - Controle MotorDireção\bloco1_pi_15.nxc"
+2	99	66	#line 99 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\Bloco 1 - Controle MotorDireção\bloco1_pi_15.nxc"
+2	100	66		mul __float_stack_002control_motor, __constValf1P4, __constValf0P2
+2	99	70	#line 99 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\Bloco 1 - Controle MotorDireção\bloco1_pi_15.nxc"
+2	100	70	#line 100 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\Bloco 1 - Controle MotorDireção\bloco1_pi_15.nxc"
+2	100	70	#line 100 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\Bloco 1 - Controle MotorDireção\bloco1_pi_15.nxc"
+2	101	70		mul __DF0control_motor, __float_stack_002control_motor, __control_motor_7qG2_ewl_7qG2_000
+2	100	74	#line 100 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\Bloco 1 - Controle MotorDireção\bloco1_pi_15.nxc"
+2	101	74		add acum_erl, __float_stack_001control_motor, __DF0control_motor
+2	100	78	#line 100 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\Bloco 1 - Controle MotorDireção\bloco1_pi_15.nxc"
+2	100	78	#line 100 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\Bloco 1 - Controle MotorDireção\bloco1_pi_15.nxc"
+2	100	78	#line 100 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\Bloco 1 - Controle MotorDireção\bloco1_pi_15.nxc"
+2	101	78		mov __DF0control_motor, __control_motor_7qG2_cr_7qG2_000
+2	101	80	#line 101 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\Bloco 1 - Controle MotorDireção\bloco1_pi_15.nxc"
+2	102	80	#pragma macro 7
+2	102	80		setout __constVal0, 2, __DF0control_motor, 1, __constVal3, 8, __constVal0, 6, __constVal32, 7, __constVal0, 5, __constVal0, 10, __constVal96, 11, __constVal32, 12, __constVal32, 0, __constVal63
+2	6326	103	#line 6326 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\Bloco 1 - Controle MotorDireção\bloco1_pi_15.nxc"
+2	101	103	#line 101 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\Bloco 1 - Controle MotorDireção\bloco1_pi_15.nxc"
+2	101	103	#line 101 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\Bloco 1 - Controle MotorDireção\bloco1_pi_15.nxc"
+2	102	103		mov __DF0control_motor, __control_motor_7qG2_cl_7qG2_000
+2	103	105	#line 103 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\Bloco 1 - Controle MotorDireção\bloco1_pi_15.nxc"
+2	104	105	#pragma macro 7
+2	104	105		setout __constVal2, 2, __DF0control_motor, 1, __constVal3, 8, __constVal0, 6, __constVal32, 7, __constVal0, 5, __constVal0, 10, __constVal96, 11, __constVal32, 12, __constVal32, 0, __constVal63
+2	6333	128	#line 6333 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\Bloco 1 - Controle MotorDireção\bloco1_pi_15.nxc"
+2	103	128	#line 103 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\Bloco 1 - Controle MotorDireção\bloco1_pi_15.nxc"
+2	103	128	#line 103 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\Bloco 1 - Controle MotorDireção\bloco1_pi_15.nxc"
+2	104	128		mov __DF0control_motor, __control_motor_7qG2_ewr_7qG2_000
+2	103	130	#line 103 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\Bloco 1 - Controle MotorDireção\bloco1_pi_15.nxc"
+2	104	130		numtostr __strretvalcontrol_motor, __DF0control_motor
+2	103	133	#line 103 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\Bloco 1 - Controle MotorDireção\bloco1_pi_15.nxc"
+2	104	133		strcat __strbufcontrol_motor, __strretvalcontrol_motor
+2	103	137	#line 103 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\Bloco 1 - Controle MotorDireção\bloco1_pi_15.nxc"
+2	104	137		mov __ArrHelper__control_motor_244_0, __strbufcontrol_motor
+2	103	139	#line 103 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\Bloco 1 - Controle MotorDireção\bloco1_pi_15.nxc"
+2	104	139		strcat __strbufcontrol_motor, __constStr0009
+2	103	143	#line 103 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\Bloco 1 - Controle MotorDireção\bloco1_pi_15.nxc"
+2	104	143		mov __ArrHelper__control_motor_244_1, __strbufcontrol_motor
+2	103	145	#line 103 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\Bloco 1 - Controle MotorDireção\bloco1_pi_15.nxc"
+2	104	145		mov __DF0control_motor, __control_motor_7qG2_ewl_7qG2_000
+2	103	147	#line 103 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\Bloco 1 - Controle MotorDireção\bloco1_pi_15.nxc"
+2	104	147		numtostr __strretvalcontrol_motor, __DF0control_motor
+2	103	150	#line 103 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\Bloco 1 - Controle MotorDireção\bloco1_pi_15.nxc"
+2	104	150		strcat __strbufcontrol_motor, __strretvalcontrol_motor
+2	103	154	#line 103 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\Bloco 1 - Controle MotorDireção\bloco1_pi_15.nxc"
+2	104	154		mov __ArrHelper__control_motor_244_2, __strbufcontrol_motor
+2	104	156	#line 104 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\Bloco 1 - Controle MotorDireção\bloco1_pi_15.nxc"
+2	105	156		strcat __strretvalcontrol_motor, __ArrHelper__control_motor_244_0, __ArrHelper__control_motor_244_1, __ArrHelper__control_motor_244_2
+2	104	162	#line 104 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\Bloco 1 - Controle MotorDireção\bloco1_pi_15.nxc"
+2	105	162		strcat __strbufcontrol_motor, __strretvalcontrol_motor
+2	104	166	#line 104 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\Bloco 1 - Controle MotorDireção\bloco1_pi_15.nxc"
+2	105	166		mov write, __strbufcontrol_motor
+2	104	168	#line 104 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\Bloco 1 - Controle MotorDireção\bloco1_pi_15.nxc"
+2	104	168	#line 104 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\Bloco 1 - Controle MotorDireção\bloco1_pi_15.nxc"
+2	105	168	#pragma macro 9
+2	105	168		mov __FWriteArgs.FileHandle, fileHandle
+2	105	170		strtoarr __FWriteFlattenBuf, write
+2	105	173		arrbuild __FWriteArgs.Buffer, __FWriteFlattenBuf, __FWriteLn
+2	105	178		arrsize __FWriteArgs.Length, __FWriteArgs.Buffer
+2	105	181		syscall 4, __FWriteArgs
+2	6367	184	#line 6367 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\Bloco 1 - Controle MotorDireção\bloco1_pi_15.nxc"
+2	104	184	#line 104 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\Bloco 1 - Controle MotorDireção\bloco1_pi_15.nxc"
+2	104	184	#line 104 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\Bloco 1 - Controle MotorDireção\bloco1_pi_15.nxc"
+2	107	184	#line 107 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\Bloco 1 - Controle MotorDireção\bloco1_pi_15.nxc"
+2	108	184		subret __control_motor_return
+3	127	0	#line 127 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\Bloco 1 - Controle MotorDireção\bloco1_pi_15.nxc"
+3	128	0		subret ____initialize_global_data_return
+#CLUMPS
+Clump	Name	Offset	File
+0	main	0	C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\Bloco 1 - Controle MotorDireção\bloco1_pi_15.nxc
+1	ws	102	C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\Bloco 1 - Controle MotorDireção\bloco1_pi_15.nxc
+2	control_motor	152	C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\Bloco 1 - Controle MotorDireção\bloco1_pi_15.nxc
+3	__initialize_global_data	338	C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\Bloco 1 - Controle MotorDireção\bloco1_pi_15.nxc
