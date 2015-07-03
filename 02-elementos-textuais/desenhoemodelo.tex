@@ -12,8 +12,8 @@ Faz-se então neste capítulo, primeiramente, a modelagem do problema. Para que 
 
 \begin{figure}[!htb]
 	\centering
-	\caption{Modelo do Robô}
 	\includegraphics[width=10cm]{./04-figuras/robo}
+	\caption{Modelo do Robô}
 	\label{fig:robo}
 \end{figure}
  
@@ -24,8 +24,8 @@ Este trabalho tem como intuito modelar uma malha de controle que guie uma frota 
 
 \begin{figure}[!htb]
 	\centering
-	\caption{Modelagem do Sistema}
 	\includegraphics[width=1.0\textwidth]{./04-figuras/sistema}
+	\caption{Modelagem do Sistema}
 	\label{fig:sistema}
 \end{figure}
 
@@ -51,7 +51,7 @@ sendo:
 	\item $v$ e $\omega$ indicam a velocidade linear e angular do robô, respectivamente.	
 \end{itemize}
 
-Derivadas dessas equações, surgem as equações \ref*{eq:posiçãoxreal},\ref*{eq:posiçãoyreal} e \ref*{eq:posiçãothetareal} modeladas baseadas no robô real, que não é um elemento pontual no espaço e sim, um modelo não holonômico. Elas serão utilizadas a princípio para visualizar a trajetória do robô no ambiente \emph{MATLAB}.
+Derivadas dessas equações, surgem as equações \ref*{eq:posiçãoxreal},\ref*{eq:posiçãoyreal} e \ref*{eq:posiçãothetareal} modeladas baseadas no robô real, que não é um elemento pontual no espaço e sim, um modelo não holonômico. Elas serão utilizadas a princípio para visualizar a trajetória do robô no ambiente \emph{MATLAB\textregistered}.
 
 \begin{equation}
 x_{k+1} = x_{k} + \dfrac{D_{r} + D_{l}}{2}\cos(\theta_{k}) 
@@ -79,8 +79,8 @@ Considerando que à medida que o sistema se estabiliza, o robô tende entra em m
 
 \begin{figure}[!htb]
 	\centering
-	\caption{Representação do sistema estável}
 	\includegraphics[width=1.0\textwidth]{./04-figuras/sistEstavel2}
+	\caption{Representação do sistema estável}
 	\label{fig:sistEst}
 \end{figure}
 
@@ -92,13 +92,12 @@ Como pode ser visto na \autoref{fig:esq2}, o problema a ser solucionado pela seg
 	   
 \begin{figure}[!htb]
 	\centering
-	\caption{Esquema do Sistema do Ponto de Vista de Apenas Um Agente}
 	\includegraphics[width=1.0\textwidth]{./04-figuras/esqSistema}
-	\
+	\caption{Esquema do Sistema do Ponto de Vista de Apenas Um Agente}
 	\label{fig:esq2}
 \end{figure}
 
-Para tal, a malha 2 funciona da da seguinte maneira: Recebe da malha 3 os parâmetros necessários para o cálculo da posição desejada do robô (\emph{$x_{d},y_{d}$}), a partir daí é achado o erro de posição do robô (\emph{$e_{x},e_{y}$}), fazendo-se a diferença entre a posição desejada e a posição real do robô (\emph{$x_{r},y_{r}$}), que é obtida através dos \emph{encoders} do Lego, que se mostrou suficientemente precisos.
+Para tal, a malha 2 funciona da da seguinte maneira: Recebe da malha 3 os parâmetros necessários para o cálculo da posição desejada do robô (\emph{$x_{d},y_{d}$}), a partir daí é achado o erro de posição do robô (\emph{$e_{x},e_{y}$}), fazendo-se a diferença entre a posição desejada e a posição real do robô (\emph{$x_{r},y_{r}$}), que é obtida através dos \emph{encoders} do LEGO\textregistered, que se mostrou suficientemente precisos.
 
 \begin{equation}
 e_{r} = r_{d} - r_{r}
@@ -128,9 +127,8 @@ O erro de sentido (\emph{$e_{\theta}$}) é passado para o controlador que retorn
 
 \begin{figure}[!htb]
 	\centering
-	\caption{Segunda malha de Controle do Sistema - Controle de Posicionamento}
 	\includegraphics[width=1.0\textwidth]{./04-figuras/malha2}
-	\
+	\caption{Segunda malha de Controle do Sistema - Controle de Posicionamento}
 	\label{fig:malha2}
 \end{figure}
 
@@ -183,9 +181,8 @@ onde:
 
 \begin{figure}[!htb]
 	\centering
-	\caption{Primeira malha de Controle do Sistema - Controle da velocidade angular}
 	\includegraphics[width=1.0\textwidth]{./04-figuras/malha1}
-	\
+	\caption{Primeira malha de Controle do Sistema - Controle da velocidade angular}
 	\label{fig:malha1}
 \end{figure}
 

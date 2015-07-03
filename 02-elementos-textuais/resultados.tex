@@ -9,27 +9,25 @@ v = \omega R
 \label{eq:veloclinear}
 \end{equation}
 
-A partir destas definições foram utilizados os \emph{encoders} do próprio \emph{Lego Mindstorms} para obter a velocidade real ($\omega_{rr},\omega_{rl}$) de cada roda e as equações \ref{eq:velocangulardireita} e \ref{eq:velocangularesquerda}, para calcular a velocidade angular desejada de cada roda ($\omega_{dr},\omega_{dl}$), para que o robô entre em movimento circular uniforme. E assim, foram utilizadas as equações \ref*{eq:errVelAngDireita} e \ref*{eq:errVelAngEsquerda}, para o cálculo do erro da velocidade angular ($e_{wr},e_{wl}$). Este erro alimenta o controlador que retorna como saída, a potência ($pwm_{r}, pwm_{l}$) que será passada a cada motor.
+A partir destas definições foram utilizados os \emph{encoders} do próprio \emph{Lego Mindstorms\textregistered} para obter a velocidade real ($\omega_{rr},\omega_{rl}$) de cada roda e as equações \ref{eq:velocangulardireita} e \ref{eq:velocangularesquerda}, para calcular a velocidade angular desejada de cada roda ($\omega_{dr},\omega_{dl}$), para que o robô entre em movimento circular uniforme. E assim, foram utilizadas as equações \ref*{eq:errVelAngDireita} e \ref*{eq:errVelAngEsquerda}, para o cálculo do erro da velocidade angular ($e_{wr},e_{wl}$). Este erro alimenta o controlador que retorna como saída, a potência ($pwm_{r}, pwm_{l}$) que será passada a cada motor.
 
-Foram implementados três tipos de controladores diferentes, afim de comparar o desempenho dos mesmos para resolução do problema. Primeiro, implementou-se um controlador simples que acresce de uma unidade a potência do motor quando a um erro maior que zero, ou decresce, caso haja um erro menor que zero. É importante ressaltar que os motores do \emph{kit Lego Mindstorms} aceitam comandos de potência que variam de $-100$ a $100$. Logo, poderiam haver situações em que a potência passada aos motores excederia aos limites do motor, para evitar a saturação dos atuadores, foi definido um limite para a saída do controlador que respeite às limitações da plataforma.
+Foram implementados três tipos de controladores diferentes, afim de comparar o desempenho dos mesmos para resolução do problema. Primeiro, implementou-se um controlador simples que acresce de uma unidade a potência do motor quando a um erro maior que zero, ou decresce, caso haja um erro menor que zero. É importante ressaltar que os motores do \emph{kit Lego Mindstorms\textregistered} aceitam comandos de potência que variam de $-100$ a $100$. Logo, poderiam haver situações em que a potência passada aos motores excederia aos limites do motor, para evitar a saturação dos atuadores, foi definido um limite para a saída do controlador que respeite às limitações da plataforma.
 
-Ao utilizar a ferramenta \emph{MATLAB} para visualizar o erro de velocidade angular, percebe-se que ela converge para zero como esperado, como mostrado na \autoref{fig:ewdc}.
+Ao utilizar a ferramenta \emph{MATLAB\textregistered} para visualizar o erro de velocidade angular, percebe-se que ela converge para zero como esperado, como mostrado na \autoref{fig:ewdc}.
 
 \begin{figure}[!htb]
 	\centering
-	\caption{Erro de velocidade angular - Controle Simples}
 	\includegraphics[width=1.0\textwidth]{./04-figuras/Ewd_b1c}
-	\
+	\caption{Erro de velocidade angular - Controle Simples}
 	\label{fig:ewdc}
 \end{figure}
 
-Entretanto, ao observar a trajetória do robô no plano e ao plotar no \emph{MATLAB} a trajetória do mesmo,utilizando-se as equações \ref*{eq:posiçãoxreal}, \ref*{eq:posiçãoyreal} e \ref*{eq:posiçãothetareal}, percebe-se que ele demora um pouco para realizar o movimento circular, como demonstrado na \autoref{fig:trajc}.
+Entretanto, ao observar a trajetória do robô no plano e ao plotar no \emph{MATLAB\textregistered} a trajetória do mesmo,utilizando-se as equações \ref*{eq:posiçãoxreal}, \ref*{eq:posiçãoyreal} e \ref*{eq:posiçãothetareal}, percebe-se que ele demora um pouco para realizar o movimento circular, como demonstrado na \autoref{fig:trajc}.
 
 \begin{figure}[!htb]
 	\centering
+	\includegraphics[width=1.0\textwidth]{./04-figuras/trajetoria_b1_15c}
 	\caption{Trajetória do Robô (R: $15cm$) - Controle Simples}
-	\includegraphics[width=1.0\textwidth]{./04-figuras/trajetoria_b1_15_c}
-	\
 	\label{fig:trajc}
 \end{figure}
 
@@ -37,16 +35,15 @@ Feito isso, para fins de comparação, implementou-se um controlador PI, de ganh
 
 \begin{figure}[!htb]
 	\centering
-	\caption{Erro de velocidade angular - Controle PI: $k_{p}=10,k_{i}=1$ - Raio 15cm}
 	\includegraphics[width=1.0\textwidth]{./04-figuras/Ewd_b1_pi_15}
-	\
+	\caption{Erro de velocidade angular - Controle PI: $k_{p}=10,k_{i}=1$ - Raio 15cm}
 	\label{fig:ewd_pi_15}
 \end{figure}
 
 \begin{figure}[!htb]
 	\centering
-	\caption{Trajetória do Robô (R: $15cm$) - Controle PI: $k_{p}=10,k_{i}=1$}
 	\includegraphics[width=1.0\textwidth]{./04-figuras/trajetoria_b1_15_pi}
+	\caption{Trajetória do Robô (R: $15cm$) - Controle PI: $k_{p}=10,k_{i}=1$}
 	\label{fig:traj_pi_15}
 \end{figure}
 
@@ -54,40 +51,36 @@ Observando as figuras \ref{fig:ewdc} e \ref{fig:ewd_pi_15} é possível notar qu
 
 \begin{figure}[!htb]
 	\centering
-	\caption{Comparativo - Erro de velocidade angular - Controle PI e Controle Simples - Raio 15cm}
 	\includegraphics[width=1.0\textwidth]{./04-figuras/ew_comparativo1}
-	\
+	\caption{Comparativo - Erro de velocidade angular - Controle PI e Controle Simples - Raio 15cm}
 	\label{fig:err_comparativo1}
 \end{figure}
 
 \begin{figure}[!htb]
 	\centering
-	\caption{Comparativo da Trajetória do Robô (R: $15cm$) - Controle PI e Controle Simples}
 	\includegraphics[width=1.0\textwidth]{./04-figuras/traj_comparativo1}
+	\caption{Comparativo da Trajetória do Robô (R: $15cm$) - Controle PI e Controle Simples}
 	\label{fig:traj_comparativo1}
 \end{figure}
 
-Primeiro, fez-se testes variando o ganho proporcional ($k_{p}$). Notou-se, como comprovado pela \autoref{fig:pi_inst} que ao dobrar $k_{p}$, o sistema se tornava instável, como previsto na \autoref{sec:pid}, que indica que quanto maior o ganho, mais o sistema tende à se instabilizar. Depois, foi realizada uma comparação, alterando-se os parâmetros de $k_{p}$ e $k_{i}$, como mostrado na \autoref{fig:comparaivoPI}. E por fim, foram realizados experimentos variando o raio do perímetro ao redor do alvo, como exemplificado na \autoref{fig:traj_pid_30}, onde observa-se que a trajetória é suficientemente precisa, conforme o sistema se estabiliza. 
+Primeiro, fez-se testes variando o ganho proporcional ($k_{p}$). Notou-se, como comprovado pela \autoref{fig:pi_inst} que ao dobrar $k_{p}$, o sistema se tornava instável, como previsto na \autoref{sec:pid}, que indica que quanto maior o ganho, mais o sistema tende à se instabilizar. Depois, foi realizada uma comparação, alterando-se os parâmetros de $k_{p}$ e $k_{i}$, como mostrado na \autoref{fig:comp_pi}. E por fim, foram realizados experimentos variando o raio do perímetro ao redor do alvo, como exemplificado na \autoref{fig:traj_pid_30}, onde observa-se que a trajetória é suficientemente precisa, conforme o sistema se estabiliza. 
 \begin{figure}[!htb]
 	\centering
-	\caption{Erro de velocidade angular - Controle PI: Sistema Instável - Raio 15cm}
 	\includegraphics[width=1.0\textwidth]{./04-figuras/pi_inst}
-	\
+	\caption{Erro de velocidade angular - Controle PI: Sistema Instável - Raio 15cm}
 	\label{fig:pi_inst}
 \end{figure}
 \begin{figure}[!htb]
 	\centering
-	\caption{Comparativo: Erro de velocidade angular - Controladores PI}
 	\includegraphics[width=1.0\textwidth]{./04-figuras/comparativoPI}
-	\
-	\label{fig:pi_inst}
+	\caption{Comparativo: Erro de velocidade angular - Controladores PI}
+	\label{fig:comp_pi}
 \end{figure}
 
 \begin{figure}[!htb]
 	\centering
-	\caption{Trajetória do Controladores PID - Raio $30cm$}
 	\includegraphics[width=1.0\textwidth]{./04-figuras/trajetória_pid_30}
-	\
+	\caption{Trajetória do Controladores PID - Raio $30cm$}
 	\label{fig:traj_pid_30}
 	\end{figure}
 

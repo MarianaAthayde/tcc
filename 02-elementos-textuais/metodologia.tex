@@ -5,17 +5,17 @@
 \chapter{Metodologia}
 
 Para a realização deste trabalho, primeiramente será realizado um estudo das estratégias de controle de formação de robôs móveis, das possibilidades %viabilidade 
-de implementação dessas estratégias na plataforma a ser utilizada (no caso, o \emph{LEGO Mindstorms}) e da viabilidade de modelar e implementar o sistema como um sistema distribuído descentralizado. 
+de implementação dessas estratégias na plataforma a ser utilizada (no caso, o \emph{Lego Mindstorms\textregistered}) e da viabilidade de modelar e implementar o sistema como um sistema distribuído descentralizado. 
 
 Após realizados os estudos, será demostrado uma modelagem matemática do problema, na qual serão definidas as restrições da modelagem, bem como as limitações da plataforma, tendo em vista um levantamento das dificuldades que certamente surgirão somente na implementação do sistema no mundo real. A solução para o problema será modelada de forma a viabilizar a correção de erros de sensoriamento que se acumulam a cada iteração.
 
 Para facilitar a implementação, a modelagem será implementada em módulos de controle, com o intuito de simplificar o entendimento e a validação do sistema. A implementação será feita da malha mais interna à malha mais externa, sendo testado e validado módulo à modulo de controle, bem como suas integrações. 
 
-Posteriormente, serão realizadas simulações, através da ferramenta \emph{MATLAB}, à fim de comparar o modelo real com o modelo idealizado do sistema.
+Posteriormente, serão realizadas simulações, através da ferramenta \emph{MATLAB\textregistered}, à fim de comparar o modelo real com o modelo idealizado do sistema.
 
 \section{Fundamentação Teórica}
 
-Será feito nesse capítulo, um levantamento das diversas estratégias de controle de formação, e das diversas formas de se planejar a rede. Será analisada a viabilidade de implementação dessas estratégias na plataforma \emph{LEGO Mindstorms}, visto que esta se trata de uma ferramenta de baixo custo usada para fins didáticos, por isso, apresenta muitas limitações.
+Será feito nesse capítulo, um levantamento das diversas estratégias de controle de formação, e das diversas formas de se planejar a rede. Será analisada a viabilidade de implementação dessas estratégias na plataforma \emph{Lego Mindstorms\textregistered}, visto que trata-se de uma ferramenta de baixo custo usada para fins didáticos, por isso, apresenta muitas limitações.
 
 Além disso, apresenta-se no mesmo, outros conceitos que acredita-se essencial para a inserção do leitor no entendimento do texto, tais como: o que é um modelo matemático não holonômico, o que é controle de formação e faz-se um pequeno levantamento de \emph{softwares} disponíveis para implementação do modelo pretendido. 
 
@@ -23,7 +23,7 @@ Além disso, apresenta-se no mesmo, outros conceitos que acredita-se essencial p
 
 De acordo com a abordagem escolhida na etapa anterior será feita a modelagem matemática do problema, onde serão considerados, dentre outros fatores: as variáveis existentes no mundo real e principalmente as restrições do problema. 
 
-Na modelagem matemática será definida a abordagem do problema, se a estrutura da rede será centralizada ou não, como será implementado o \emph{feedback} (realimentação) para correção de erros que ocorrerão devido à imprecisão dos encoders óticos acoplados aos motores do kit \emph{LEGO Mindstorms}, que é da ordem de $\pm$ 1 grau por rotação. %Citar manual do lego aki
+Na modelagem matemática será definida a abordagem do problema, se a estrutura da rede será centralizada ou não, como será implementado o \emph{feedback} (realimentação) para correção de erros que ocorrerão devido à imprecisão dos encoders óticos acoplados aos motores do kit \emph{Lego Mindstorms\textregistered}, que é da ordem de $\pm$ 1 grau por rotação. %Citar manual do lego aki
 É nesta etapa que também será definido o melhor formato de posicionamento dos robôs e se será possível implementar mais de um formato. 
 
 Outro fator importante desta etapa é que o sistema será modelado de acordo com os devidos parâmetros, para que o mesmo seja tolerante a falhas e para que sua estrutura varie, otimizando a resolução do problema, de acordo com as falhas que possam vir a surgir em um ou mais pontos da rede.
@@ -35,15 +35,11 @@ Conforme o problema vai sendo modelado, será implementado na plataforma, a fim 
 
 \section{Simulações computacionais}
 
-Após a implementação do sistema serão feitas simulações em ambiente virtual controlado com as mesmas estratégias de controle implementadas na plataforma, com o intuito de se realizar uma comparação entre ambas. Para tanto, será utilizada como ferramental o \emph{software MATLAB}.
+Após a implementação do sistema serão feitas simulações em ambiente virtual controlado com as mesmas estratégias de controle implementadas na plataforma, com o intuito de se realizar uma comparação entre ambas. Para tanto, será utilizada como ferramental o \emph{software MATLAB\textregistered}.
 
 \section{Análise de Resultados}
 
-Nas etapas de simulação e implementação do sistema, após ele ser validado e testado, será feita a coleta dos dados que serão submetidos a análise. Para comparar ambos os resultados será coletado em tempo de execução os dados necessários para descrever a trajetória do(s) robô(s) e os mesmos serão plotados no \emph{MATLAB}.
-
-\section{Conclusão do trabalho}
-
-Pretende-se nesta etapa, a partir da análise de dados feita na etapa anterior, comparar as estratégias utilizadas e contextualizar os resultados obtidos em um problema real.
+Nas etapas de simulação e implementação do sistema, após ele ser validado e testado, será feita a coleta dos dados que serão submetidos a análise. Para comparar ambos os resultados será coletado em tempo de execução os dados necessários para descrever a trajetória do(s) robô(s) e os mesmos serão plotados no \emph{MATLAB\textregistered}.
 
 \chapter{Cronograma}
 

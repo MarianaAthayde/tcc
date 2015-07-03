@@ -1,17 +1,17 @@
 \select@language {brazil}
-\contentsline {figure}{\numberline {1}{\ignorespaces Controle de Forma\IeC {\c c}\IeC {\~a}o: classifica\IeC {\c c}\IeC {\~a}o quanto \IeC {\`a} estrutura f\IeC {\'\i }sica}}{11}{figure.5.1}
-\contentsline {figure}{\numberline {2}{\ignorespaces Modelo do Rob\IeC {\^o}}}{14}{figure.6.2}
-\contentsline {figure}{\numberline {3}{\ignorespaces Modelagem do Sistema}}{15}{figure.6.3}
-\contentsline {figure}{\numberline {4}{\ignorespaces Representa\IeC {\c c}\IeC {\~a}o do sistema est\IeC {\'a}vel}}{17}{figure.6.4}
-\contentsline {figure}{\numberline {5}{\ignorespaces Esquema do Sistema do Ponto de Vista de Apenas Um Agente}}{18}{figure.6.5}
-\contentsline {figure}{\numberline {6}{\ignorespaces Segunda malha de Controle do Sistema - Controle de Posicionamento}}{19}{figure.6.6}
-\contentsline {figure}{\numberline {7}{\ignorespaces Primeira malha de Controle do Sistema - Controle da velocidade angular}}{21}{figure.6.7}
-\contentsline {figure}{\numberline {8}{\ignorespaces Erro de velocidade angular - Controle Simples}}{23}{figure.7.8}
-\contentsline {figure}{\numberline {9}{\ignorespaces Trajet\IeC {\'o}ria do Rob\IeC {\^o} (R: $15cm$) - Controle Simples}}{23}{figure.7.9}
-\contentsline {figure}{\numberline {10}{\ignorespaces Erro de velocidade angular - Controle PI: $k_{p}=10,k_{i}=1$ - Raio 15cm}}{24}{figure.7.10}
-\contentsline {figure}{\numberline {11}{\ignorespaces Trajet\IeC {\'o}ria do Rob\IeC {\^o} (R: $15cm$) - Controle PI: $k_{p}=10,k_{i}=1$}}{24}{figure.7.11}
-\contentsline {figure}{\numberline {12}{\ignorespaces Comparativo - Erro de velocidade angular - Controle PI e Controle Simples - Raio 15cm}}{25}{figure.7.12}
-\contentsline {figure}{\numberline {13}{\ignorespaces Comparativo da Trajet\IeC {\'o}ria do Rob\IeC {\^o} (R: $15cm$) - Controle PI e Controle Simples}}{25}{figure.7.13}
-\contentsline {figure}{\numberline {14}{\ignorespaces Erro de velocidade angular - Controle PI: Sistema Inst\IeC {\'a}vel - Raio 15cm}}{26}{figure.7.14}
-\contentsline {figure}{\numberline {15}{\ignorespaces Comparativo: Erro de velocidade angular - Controladores PI}}{26}{figure.7.15}
-\contentsline {figure}{\numberline {16}{\ignorespaces Trajet\IeC {\'o}ria do Controladores PID - Raio $30cm$}}{26}{figure.7.16}
+\contentsline {figure}{\numberline {1}{\ignorespaces Controle de Forma\IeC {\c c}\IeC {\~a}o: classifica\IeC {\c c}\IeC {\~a}o quanto \IeC {\`a} estrutura f\IeC {\'\i }sica}}{7}{figure.3.1}
+\contentsline {figure}{\numberline {2}{\ignorespaces Modelo do Rob\IeC {\^o}}}{13}{figure.6.2}
+\contentsline {figure}{\numberline {3}{\ignorespaces Modelagem do Sistema}}{14}{figure.6.3}
+\contentsline {figure}{\numberline {4}{\ignorespaces Representa\IeC {\c c}\IeC {\~a}o do sistema est\IeC {\'a}vel}}{16}{figure.6.4}
+\contentsline {figure}{\numberline {5}{\ignorespaces Esquema do Sistema do Ponto de Vista de Apenas Um Agente}}{17}{figure.6.5}
+\contentsline {figure}{\numberline {6}{\ignorespaces Segunda malha de Controle do Sistema - Controle de Posicionamento}}{18}{figure.6.6}
+\contentsline {figure}{\numberline {7}{\ignorespaces Primeira malha de Controle do Sistema - Controle da velocidade angular}}{20}{figure.6.7}
+\contentsline {figure}{\numberline {8}{\ignorespaces Erro de velocidade angular - Controle Simples}}{22}{figure.7.8}
+\contentsline {figure}{\numberline {9}{\ignorespaces Trajet\IeC {\'o}ria do Rob\IeC {\^o} (R: $15cm$) - Controle Simples}}{22}{figure.7.9}
+\contentsline {figure}{\numberline {10}{\ignorespaces Erro de velocidade angular - Controle PI: $k_{p}=10,k_{i}=1$ - Raio 15cm}}{22}{figure.7.10}
+\contentsline {figure}{\numberline {11}{\ignorespaces Trajet\IeC {\'o}ria do Rob\IeC {\^o} (R: $15cm$) - Controle PI: $k_{p}=10,k_{i}=1$}}{23}{figure.7.11}
+\contentsline {figure}{\numberline {12}{\ignorespaces Comparativo - Erro de velocidade angular - Controle PI e Controle Simples - Raio 15cm}}{23}{figure.7.12}
+\contentsline {figure}{\numberline {13}{\ignorespaces Comparativo da Trajet\IeC {\'o}ria do Rob\IeC {\^o} (R: $15cm$) - Controle PI e Controle Simples}}{24}{figure.7.13}
+\contentsline {figure}{\numberline {14}{\ignorespaces Erro de velocidade angular - Controle PI: Sistema Inst\IeC {\'a}vel - Raio 15cm}}{24}{figure.7.14}
+\contentsline {figure}{\numberline {15}{\ignorespaces Comparativo: Erro de velocidade angular - Controladores PI}}{25}{figure.7.15}
+\contentsline {figure}{\numberline {16}{\ignorespaces Trajet\IeC {\'o}ria do Controladores PID - Raio $30cm$}}{25}{figure.7.16}
