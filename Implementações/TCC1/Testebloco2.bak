@@ -10,7 +10,7 @@
 //R = raio de distância do alvo: metros;
 #define R 0.2
 //Periodo de rotação em torno do alvo: segundos
-#define Ti 5
+#define Ti 10
 //Converte rotações por milissegundos para rads
 #define TORADS 17.45
 //Ganhos do controlador PID do motor
@@ -19,7 +19,7 @@
 #define kd 1
 
 //Ganhos de controlador PID de posição
-#define kp_pos 0.1
+#define kp_pos 0.01
 #define ki_pos 0.5
 #define kd_pos 1
 
@@ -156,17 +156,38 @@ sub control_motor(){
 
     acum_err = acum_err + ki*0.2*ewr;
     acum_erl = acum_erl + ki*0.2*ewl;
-    if(cr > 100){
-       cr = 100;
+    
+     //Colocando os motores  dentro dos padrões aplicáveis (-100,100)
+    float abs_cr = 0;
+    float abs_cl = 0;
+    if(cr < 0){
+          abs_cr = -cr;
+    }else{
+          abs_cr = cr;
     }
-    if(cr < -100){
-       cr = -100;
+    if(cl < 0){
+          abs_cl = -cl;
+    }else{
+          abs_cl = cl;
     }
-    if(cl > 100){
-       cl = 100;
-    }
-    if(cl < -100){
-       cl = -100;
+    if(abs_cr > 100 || abs_cl > 100){
+          if(abs_cr > abs_cl){
+                float p = cr/cl;
+                if(cr < 0){
+                     cr = -100;
+                }else{
+                      cr = 100;
+                }
+                cl = cr/p;
+          }else{
+               float p = cl/cr;
+                if(cl < 0){
+                     cl = -100;
+                }else{
+                      cl = 100;
+                }
+                cr = cl/p;
+          }
     }
 
     OnFwd(OUT_A,cr);

@@ -1,0 +1,1002 @@
+#SYMBOLS
+Index	Identifier	Type	Flag	Data	Size	RefCount
+0	wr	10	1	0	4	2
+1	wdr	10	1	4	4	2
+2	prev_deg_a	6	1	8	4	2
+3	tetar	10	0	12	4	5
+4	errt	10	1	16	4	7
+5	acum_errt	10	1	20	4	2
+6	prev_deg_c	6	1	24	4	2
+7	dl	10	1	28	4	5
+8	__ws_7qG2_deg_a_7qG2_000	6	1	32	4	3
+9	dr	10	1	36	4	5
+10	wl	10	1	40	4	2
+11	wdl	10	1	44	4	2
+12	prev_tick	6	1	48	4	2
+13	xc	10	1	52	4	2
+14	yc	10	1	56	4	2
+15	acum_err	10	1	60	4	3
+16	acum_erl	10	1	64	4	3
+17	dt	6	1	68	4	3
+18	tetad	10	1	72	4	2
+19	xr	10	0	76	4	3
+20	yr	10	1	80	4	3
+21	vd	10	0	84	4	2
+22	wd	10	1	88	4	4
+23	wdi	10	1	92	4	2
+24	__ws_7qG2_deg_c_7qG2_000	6	1	96	4	3
+25	__control_pos_7qG2_aux_7qG2_000	10	1	100	4	3
+26	__control_pos_7qG2_xd_7qG2_000	10	1	104	4	2
+27	__control_pos_7qG2_yd_7qG2_000	10	1	108	4	2
+28	__control_motor_7qG2_p_7qG2_002	10	1	112	4	4
+29	__cos_7qG2_x_7qG2_000_inline_control_pos	10	1	116	4	6
+30	__sin_7qG2_x_7qG2_000_inline_control_pos	10	1	120	4	6
+31	__atan2_7qG2_x_7qG2_000_inline_control_pos	10	1	124	4	4
+32	__constValf0P01	10	0	128	4	1
+33	__constValf0P5	10	0	132	4	1
+34	__control_pos_7qG2_errx_7qG2_000	10	1	136	4	3
+35	__control_pos_7qG2_erry_7qG2_000	10	1	140	4	3
+36	__atan2_7qG2_y_7qG2_000_inline_control_pos	10	1	144	4	4
+37	__constValf0P105	10	0	148	4	3
+38	__constValf0P0574	10	0	152	4	2
+39	__control_motor_7qG2_ewr_7qG2_000	10	1	156	4	5
+40	__constValf17P45	10	0	160	4	2
+41	__constValf3P141593	10	0	164	4	2
+42	__constValf0P0287	10	0	168	4	2
+43	__control_motor_7qG2_cl_7qG2_000	10	1	172	4	12
+44	__control_motor_7qG2_abs_cr_7qG2_000	10	1	176	4	5
+45	__control_motor_7qG2_abs_cl_7qG2_000	10	1	180	4	5
+46	__control_motor_7qG2_ewl_7qG2_000	10	1	184	4	5
+47	__control_motor_7qG2_cr_7qG2_000	10	1	188	4	12
+48	__constValf0P2	10	0	192	4	8
+49	__signed_stack_001control_motor	6	1	196	4	2
+50	__DF0ws	10	1	200	4	4
+51	__DF0wd_rodas	10	1	204	4	4
+52	__float_stack_001control_pos	10	1	208	4	14
+53	__float_stack_002control_motor	10	1	212	4	10
+54	__float_stack_001control_motor	10	1	216	4	24
+55	__FWriteMutex	9	0	220	4	4
+56	__D0control_motor	6	1	224	4	10
+57	__FOMutex	9	0	228	4	4
+58	__D0main	6	1	232	4	9
+59	__DF0control_pos	10	1	236	4	26
+60	__DF0control_motor	10	1	240	4	30
+61	__float_stack_002ws	10	1	244	4	8
+62	__float_stack_001ws	10	1	248	4	8
+63	__signed_stack_002ws	6	1	252	4	4
+64	__signed_stack_001ws	6	1	256	4	4
+65	__float_stack_002control_pos	10	1	260	4	16
+66	__signed_stack_001main	6	1	264	4	2
+67	__float_stack_001wd_rodas	10	1	268	4	8
+68	__unsigned_stack_001main	5	1	272	4	2
+69	__constVal360	4	0	276	2	2
+70	t_amostral	4	0	278	2	1
+71	k	4	0	280	2	1
+72	t	4	1	282	2	5
+73	__constVal6144	4	0	284	2	2
+74	__control_motor_return	1	1	286	1	3
+75	__constVal10	2	0	287	1	2
+76	__constVal3	2	0	288	1	2
+77	__constVal2	2	0	289	1	9
+78	__control_pos_return	1	1	290	1	3
+79	__constVal100	2	0	291	1	4
+80	__constVal96	2	0	292	1	2
+81	__constValNeg100	2	0	293	1	2
+82	__constVal63	2	0	294	1	2
+83	__wd_rodas_return	1	1	295	1	4
+84	____initialize_global_data_return	1	1	296	1	3
+85	__zfcontrol_motor	1	1	297	1	22
+86	__zfmain	1	1	298	1	3
+87	fileHandle	1	1	299	1	3
+88	fileHandle2	1	1	300	1	3
+89	__ws_return	1	1	301	1	3
+90	__constVal1	2	0	302	1	5
+91	__constVal32	2	0	303	1	6
+92	__constVal0	2	1	304	1	19
+93	__FWriteArgs	8	0	4	12	11
+94	__FWriteArgs.Result	3	1	308	2	11
+95	__FWriteArgs.FileHandle	1	1	310	1	11
+96	__FWriteArgs.Buffer	7	0	312	4	11
+97	__FWriteArgs.Buffer.Buffer_type	1	0	0	1	0
+98	__FWriteArgs.Length	5	1	316	4	11
+99	__FDArgs	8	0	2	8	6
+100	__FDArgs.Result	3	1	320	2	6
+101	__FDArgs.Filename	7	0	322	4	6
+102	__FDArgs.Filename.Filename_type	1	0	0	1	0
+103	__FCArgs	8	0	2	4	6
+104	__FCArgs.Result	3	1	324	2	6
+105	__FCArgs.FileHandle	1	1	326	1	6
+106	__FOArgs	8	0	4	12	10
+107	__FOArgs.Result	3	1	328	2	10
+108	__FOArgs.FileHandle	1	1	330	1	10
+109	__FOArgs.Filename	7	0	332	4	10
+110	__FOArgs.Filename.Filename_type	1	0	0	1	0
+111	__FOArgs.Length	5	1	336	4	10
+112	__constStr0011	7	0	340	4	2
+113	__constStr0011.__constStr0011_type	1	1	0	1	0
+114	__control_pos_7qG2_write2_7qG2_000	7	0	342	4	2
+115	__control_pos_7qG2_write2_7qG2_000.__control_pos_7qG2_write2_7qG2_000_type	1	0	0	1	0
+116	__constStr0010	7	0	344	4	2
+117	__constStr0010.__constStr0010_type	1	1	0	1	0
+118	__ArrHelper__control_pos_244_3	7	0	346	4	2
+119	__ArrHelper__control_pos_244_3.__ArrHelper__control_pos_244_3_type	1	0	0	1	0
+120	__ArrHelper__control_pos_244_4	7	0	348	4	2
+121	__ArrHelper__control_pos_244_4.__ArrHelper__control_pos_244_4_type	1	0	0	1	0
+122	__ArrHelper__control_pos_244_1	7	0	350	4	2
+123	__ArrHelper__control_pos_244_1.__ArrHelper__control_pos_244_1_type	1	0	0	1	0
+124	__ArrHelper__control_pos_244_2	7	0	352	4	2
+125	__ArrHelper__control_pos_244_2.__ArrHelper__control_pos_244_2_type	1	0	0	1	0
+126	__strbufcontrol_pos	7	0	354	4	12
+127	__strbufcontrol_pos.__strbufcontrol_pos_type	1	0	0	1	0
+128	__strretvalcontrol_pos	7	0	356	4	8
+129	__strretvalcontrol_pos.__strretvalcontrol_pos_type	1	0	0	1	0
+130	__strbufcontrol_motor	7	0	358	4	8
+131	__strbufcontrol_motor.__strbufcontrol_motor_type	1	0	0	1	0
+132	__strretvalcontrol_motor	7	0	360	4	6
+133	__strretvalcontrol_motor.__strretvalcontrol_motor_type	1	0	0	1	0
+134	__FWriteFlattenBuf	7	0	362	4	4
+135	__FWriteFlattenBuf.__FWriteFlattenBuf_type	1	0	0	1	0
+136	__FWriteLn	7	0	364	4	2
+137	__FWriteLn.__FWriteLn_type	1	0	0	1	0
+138	__constStr0009	7	0	366	4	3
+139	__constStr0009.__constStr0009_type	1	1	0	1	0
+140	__control_motor_7qG2_write_7qG2_000	7	0	368	4	2
+141	__control_motor_7qG2_write_7qG2_000.__control_motor_7qG2_write_7qG2_000_type	1	0	0	1	0
+142	__ArrHelper__control_motor_244_2	7	0	370	4	2
+143	__ArrHelper__control_motor_244_2.__ArrHelper__control_motor_244_2_type	1	0	0	1	0
+144	__ArrHelper__control_pos_244_0	7	0	372	4	2
+145	__ArrHelper__control_pos_244_0.__ArrHelper__control_pos_244_0_type	1	0	0	1	0
+146	__ArrHelper__control_motor_244_0	7	0	374	4	2
+147	__ArrHelper__control_motor_244_0.__ArrHelper__control_motor_244_0_type	1	0	0	1	0
+148	__ArrHelper__control_motor_244_1	7	0	376	4	2
+149	__ArrHelper__control_motor_244_1.__ArrHelper__control_motor_244_1_type	1	0	0	1	0
+#SOURCES
+Clump	Line	PC	Source
+0	246	0	#line 246 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC1\Testebloco2.nxc"
+0	247	0		subcall __initialize_global_data, ____initialize_global_data_return
+0	246	2	#line 246 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC1\Testebloco2.nxc"
+0	247	2	#line 247 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC1\Testebloco2.nxc"
+0	248	2		subcall wd_rodas, __wd_rodas_return
+0	247	4	#line 247 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC1\Testebloco2.nxc"
+0	248	4	#line 248 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC1\Testebloco2.nxc"
+0	249	4		mov wdi, wd
+0	248	6	#line 248 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC1\Testebloco2.nxc"
+0	248	6	#line 248 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC1\Testebloco2.nxc"
+0	249	6	#line 249 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC1\Testebloco2.nxc"
+0	249	6	#line 249 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC1\Testebloco2.nxc"
+0	249	6	#line 249 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC1\Testebloco2.nxc"
+0	250	6	#line 250 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC1\Testebloco2.nxc"
+0	250	6	#line 250 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC1\Testebloco2.nxc"
+0	250	6	#line 250 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC1\Testebloco2.nxc"
+0	251	6	#line 251 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC1\Testebloco2.nxc"
+0	251	6	#line 251 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC1\Testebloco2.nxc"
+0	251	6	#line 251 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC1\Testebloco2.nxc"
+0	251	6	#line 251 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC1\Testebloco2.nxc"
+0	252	6	#pragma macro 5
+0	252	6		mov __FDArgs.Filename, __constStr0010
+0	252	8		syscall 8, __FDArgs
+0	252	11		mov __D0main, __FDArgs.Result
+0	7715	13	#line 7715 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC1\Testebloco2.nxc"
+0	251	13	#line 251 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC1\Testebloco2.nxc"
+0	251	13	#line 251 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC1\Testebloco2.nxc"
+0	252	13	#line 252 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC1\Testebloco2.nxc"
+0	253	13	#pragma macro 7
+0	253	13		acquire __FOMutex
+0	253	14		mov __FOArgs.Filename, __constStr0010
+0	253	16		mov __FOArgs.Length, __constVal6144
+0	253	18		syscall 1, __FOArgs
+0	253	21		mov fileHandle, __FOArgs.FileHandle
+0	253	23		mov __D0main, __FOArgs.Result
+0	253	25		release __FOMutex
+0	7719	26	#line 7719 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC1\Testebloco2.nxc"
+0	252	26	#line 252 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC1\Testebloco2.nxc"
+0	252	26	#line 252 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC1\Testebloco2.nxc"
+0	253	26	#line 253 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC1\Testebloco2.nxc"
+0	254	26	#pragma macro 5
+0	254	26		mov __FDArgs.Filename, __constStr0011
+0	254	28		syscall 8, __FDArgs
+0	254	31		mov __D0main, __FDArgs.Result
+0	7723	33	#line 7723 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC1\Testebloco2.nxc"
+0	253	33	#line 253 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC1\Testebloco2.nxc"
+0	253	33	#line 253 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC1\Testebloco2.nxc"
+0	254	33	#line 254 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC1\Testebloco2.nxc"
+0	255	33	#pragma macro 7
+0	255	33		acquire __FOMutex
+0	255	34		mov __FOArgs.Filename, __constStr0011
+0	255	36		mov __FOArgs.Length, __constVal6144
+0	255	38		syscall 1, __FOArgs
+0	255	41		mov fileHandle2, __FOArgs.FileHandle
+0	255	43		mov __D0main, __FOArgs.Result
+0	255	45		release __FOMutex
+0	7727	46	#line 7727 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC1\Testebloco2.nxc"
+0	254	46	#line 254 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC1\Testebloco2.nxc"
+0	254	46	#line 254 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC1\Testebloco2.nxc"
+0	255	46	#line 255 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC1\Testebloco2.nxc"
+0	255	46	#line 255 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC1\Testebloco2.nxc"
+0	255	46	#line 255 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC1\Testebloco2.nxc"
+0	255	46	#line 255 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC1\Testebloco2.nxc"
+0	257	46	#line 257 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC1\Testebloco2.nxc"
+0	258	46		mov xc, __constVal0
+0	257	48	#line 257 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC1\Testebloco2.nxc"
+0	257	48	#line 257 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC1\Testebloco2.nxc"
+0	259	48	#line 259 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC1\Testebloco2.nxc"
+0	260	48		mov yc, __constVal0
+0	259	50	#line 259 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC1\Testebloco2.nxc"
+0	259	50	#line 259 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC1\Testebloco2.nxc"
+0	259	50	#line 259 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC1\Testebloco2.nxc"
+0	260	50		set t, 0
+0	259	53	#line 259 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC1\Testebloco2.nxc"
+0	259	53	#line 259 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC1\Testebloco2.nxc"
+0	260	53		mov __signed_stack_001main, t
+0	259	55	#line 259 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC1\Testebloco2.nxc"
+0	259	55	#line 259 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC1\Testebloco2.nxc"
+0	260	55		mov __D0main, k
+0	259	57	#line 259 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC1\Testebloco2.nxc"
+0	260	57		cmp 0, __zfmain, __signed_stack_001main, __D0main
+0	259	61	#line 259 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC1\Testebloco2.nxc"
+0	260	61		mov __D0main, __zfmain
+0	259	63	#line 259 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC1\Testebloco2.nxc"
+0	260	63		brtst 4, __NXC_Label_783, __zfmain
+0	259	66	#line 259 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC1\Testebloco2.nxc"
+0	260	66		jmp __NXC_Label_784
+0	259	68	#line 259 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC1\Testebloco2.nxc"
+0	260	68		add t, t, __constVal1
+0	260	72	#line 260 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC1\Testebloco2.nxc"
+0	261	72		jmp __NXC_Label_782
+0	260	74	#line 260 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC1\Testebloco2.nxc"
+0	261	74		gettick prev_tick
+0	260	76	#line 260 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC1\Testebloco2.nxc"
+0	260	76	#line 260 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC1\Testebloco2.nxc"
+0	260	76	#line 260 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC1\Testebloco2.nxc"
+0	262	76	#line 262 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC1\Testebloco2.nxc"
+0	263	76		subcall control_pos, __control_pos_return
+0	262	78	#line 262 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC1\Testebloco2.nxc"
+0	263	78	#line 263 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC1\Testebloco2.nxc"
+0	264	78		subcall control_motor, __control_motor_return
+0	263	80	#line 263 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC1\Testebloco2.nxc"
+0	263	80	#line 263 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC1\Testebloco2.nxc"
+0	263	80	#line 263 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC1\Testebloco2.nxc"
+0	7921	80	#line 7921 "NXCDefs.h"
+0	7922	80		waitv t_amostral
+0	7921	82	#line 7921 "NXCDefs.h"
+0	264	82	#line 264 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC1\Testebloco2.nxc"
+0	264	82	#line 264 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC1\Testebloco2.nxc"
+0	265	82		gettick __unsigned_stack_001main
+0	264	84	#line 264 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC1\Testebloco2.nxc"
+0	265	84	#line 265 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC1\Testebloco2.nxc"
+0	265	84	#line 265 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC1\Testebloco2.nxc"
+0	266	84		sub dt, __unsigned_stack_001main, prev_tick
+0	265	88	#line 265 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC1\Testebloco2.nxc"
+0	265	88	#line 265 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC1\Testebloco2.nxc"
+0	265	88	#line 265 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC1\Testebloco2.nxc"
+0	266	88	#line 266 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC1\Testebloco2.nxc"
+0	267	88		jmp __NXC_Label_785
+0	266	90	#line 266 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC1\Testebloco2.nxc"
+0	266	90	#line 266 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC1\Testebloco2.nxc"
+0	267	90	#pragma macro 5
+0	267	90		mov __FCArgs.FileHandle, fileHandle
+0	267	92		syscall 5, __FCArgs
+0	267	95		mov __D0main, __FCArgs.Result
+0	7828	97	#line 7828 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC1\Testebloco2.nxc"
+0	266	97	#line 266 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC1\Testebloco2.nxc"
+0	266	97	#line 266 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC1\Testebloco2.nxc"
+0	267	97	#line 267 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC1\Testebloco2.nxc"
+0	268	97	#pragma macro 5
+0	268	97		mov __FCArgs.FileHandle, fileHandle2
+0	268	99		syscall 5, __FCArgs
+0	268	102		mov __D0main, __FCArgs.Result
+0	7832	104	#line 7832 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC1\Testebloco2.nxc"
+0	267	104	#line 267 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC1\Testebloco2.nxc"
+0	267	104	#line 267 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC1\Testebloco2.nxc"
+0	268	104		exit -1, -1
+1	122	0	#line 122 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC1\Testebloco2.nxc"
+1	123	0		getout __signed_stack_001ws, __constVal0, 14
+1	122	4	#line 122 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC1\Testebloco2.nxc"
+1	123	4	#line 123 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC1\Testebloco2.nxc"
+1	123	4	#line 123 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC1\Testebloco2.nxc"
+1	124	4		sub __ws_7qG2_deg_a_7qG2_000, __signed_stack_001ws, prev_deg_a
+1	123	8	#line 123 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC1\Testebloco2.nxc"
+1	123	8	#line 123 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC1\Testebloco2.nxc"
+1	124	8		getout __signed_stack_001ws, __constVal2, 14
+1	123	12	#line 123 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC1\Testebloco2.nxc"
+1	124	12	#line 124 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC1\Testebloco2.nxc"
+1	124	12	#line 124 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC1\Testebloco2.nxc"
+1	125	12		sub __ws_7qG2_deg_c_7qG2_000, __signed_stack_001ws, prev_deg_c
+1	124	16	#line 124 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC1\Testebloco2.nxc"
+1	124	16	#line 124 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC1\Testebloco2.nxc"
+1	124	16	#line 124 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC1\Testebloco2.nxc"
+1	124	16	#line 124 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC1\Testebloco2.nxc"
+1	124	16	#line 124 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC1\Testebloco2.nxc"
+1	125	16		mul __float_stack_001ws, __ws_7qG2_deg_a_7qG2_000, __constValf17P45
+1	124	20	#line 124 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC1\Testebloco2.nxc"
+1	125	20	#line 125 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC1\Testebloco2.nxc"
+1	125	20	#line 125 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC1\Testebloco2.nxc"
+1	126	20		div wr, __float_stack_001ws, dt
+1	125	24	#line 125 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC1\Testebloco2.nxc"
+1	125	24	#line 125 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC1\Testebloco2.nxc"
+1	125	24	#line 125 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC1\Testebloco2.nxc"
+1	126	24		mov __float_stack_001ws, dr
+1	125	26	#line 125 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC1\Testebloco2.nxc"
+1	125	26	#line 125 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC1\Testebloco2.nxc"
+1	125	26	#line 125 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC1\Testebloco2.nxc"
+1	125	26	#line 125 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC1\Testebloco2.nxc"
+1	125	26	#line 125 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC1\Testebloco2.nxc"
+1	126	26		mul __signed_stack_002ws, __ws_7qG2_deg_a_7qG2_000, __constVal2
+1	125	30	#line 125 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC1\Testebloco2.nxc"
+1	125	30	#line 125 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC1\Testebloco2.nxc"
+1	125	30	#line 125 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC1\Testebloco2.nxc"
+1	126	30		mul __float_stack_002ws, __signed_stack_002ws, __constValf3P141593
+1	125	34	#line 125 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC1\Testebloco2.nxc"
+1	125	34	#line 125 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC1\Testebloco2.nxc"
+1	125	34	#line 125 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC1\Testebloco2.nxc"
+1	126	34		mul __float_stack_002ws, __float_stack_002ws, __constValf0P0287
+1	125	38	#line 125 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC1\Testebloco2.nxc"
+1	126	38	#line 126 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC1\Testebloco2.nxc"
+1	126	38	#line 126 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC1\Testebloco2.nxc"
+1	127	38		div __DF0ws, __float_stack_002ws, __constVal360
+1	126	42	#line 126 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC1\Testebloco2.nxc"
+1	127	42		add dr, __float_stack_001ws, __DF0ws
+1	126	46	#line 126 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC1\Testebloco2.nxc"
+1	126	46	#line 126 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC1\Testebloco2.nxc"
+1	126	46	#line 126 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC1\Testebloco2.nxc"
+1	126	46	#line 126 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC1\Testebloco2.nxc"
+1	126	46	#line 126 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC1\Testebloco2.nxc"
+1	126	46	#line 126 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC1\Testebloco2.nxc"
+1	127	46		mul __float_stack_001ws, __ws_7qG2_deg_c_7qG2_000, __constValf17P45
+1	126	50	#line 126 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC1\Testebloco2.nxc"
+1	127	50	#line 127 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC1\Testebloco2.nxc"
+1	127	50	#line 127 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC1\Testebloco2.nxc"
+1	128	50		div wl, __float_stack_001ws, dt
+1	127	54	#line 127 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC1\Testebloco2.nxc"
+1	127	54	#line 127 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC1\Testebloco2.nxc"
+1	127	54	#line 127 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC1\Testebloco2.nxc"
+1	128	54		mov __float_stack_001ws, dl
+1	127	56	#line 127 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC1\Testebloco2.nxc"
+1	127	56	#line 127 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC1\Testebloco2.nxc"
+1	127	56	#line 127 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC1\Testebloco2.nxc"
+1	127	56	#line 127 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC1\Testebloco2.nxc"
+1	127	56	#line 127 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC1\Testebloco2.nxc"
+1	128	56		mul __signed_stack_002ws, __ws_7qG2_deg_c_7qG2_000, __constVal2
+1	127	60	#line 127 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC1\Testebloco2.nxc"
+1	127	60	#line 127 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC1\Testebloco2.nxc"
+1	127	60	#line 127 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC1\Testebloco2.nxc"
+1	128	60		mul __float_stack_002ws, __signed_stack_002ws, __constValf3P141593
+1	127	64	#line 127 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC1\Testebloco2.nxc"
+1	127	64	#line 127 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC1\Testebloco2.nxc"
+1	127	64	#line 127 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC1\Testebloco2.nxc"
+1	128	64		mul __float_stack_002ws, __float_stack_002ws, __constValf0P0287
+1	127	68	#line 127 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC1\Testebloco2.nxc"
+1	128	68	#line 128 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC1\Testebloco2.nxc"
+1	128	68	#line 128 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC1\Testebloco2.nxc"
+1	129	68		div __DF0ws, __float_stack_002ws, __constVal360
+1	128	72	#line 128 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC1\Testebloco2.nxc"
+1	129	72		add dl, __float_stack_001ws, __DF0ws
+1	128	76	#line 128 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC1\Testebloco2.nxc"
+1	128	76	#line 128 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC1\Testebloco2.nxc"
+1	129	76	#line 129 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC1\Testebloco2.nxc"
+1	130	76		getout prev_deg_a, __constVal0, 14
+1	129	80	#line 129 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC1\Testebloco2.nxc"
+1	129	80	#line 129 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC1\Testebloco2.nxc"
+1	130	80	#line 130 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC1\Testebloco2.nxc"
+1	131	80		getout prev_deg_c, __constVal2, 14
+1	130	84	#line 130 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC1\Testebloco2.nxc"
+1	130	84	#line 130 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC1\Testebloco2.nxc"
+1	132	84	#line 132 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC1\Testebloco2.nxc"
+1	133	84		subret __ws_return
+2	133	0	#line 133 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC1\Testebloco2.nxc"
+2	133	0	#line 133 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC1\Testebloco2.nxc"
+2	133	0	#line 133 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC1\Testebloco2.nxc"
+2	133	0	#line 133 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC1\Testebloco2.nxc"
+2	134	0		mul __float_stack_001wd_rodas, __constVal2, vd
+2	133	4	#line 133 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC1\Testebloco2.nxc"
+2	133	4	#line 133 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC1\Testebloco2.nxc"
+2	133	4	#line 133 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC1\Testebloco2.nxc"
+2	133	4	#line 133 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC1\Testebloco2.nxc"
+2	133	4	#line 133 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC1\Testebloco2.nxc"
+2	134	4		mul __DF0wd_rodas, wd, __constValf0P105
+2	133	8	#line 133 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC1\Testebloco2.nxc"
+2	134	8		add __float_stack_001wd_rodas, __float_stack_001wd_rodas, __DF0wd_rodas
+2	133	12	#line 133 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC1\Testebloco2.nxc"
+2	133	12	#line 133 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC1\Testebloco2.nxc"
+2	134	12	#line 134 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC1\Testebloco2.nxc"
+2	135	12		div wdr, __float_stack_001wd_rodas, __constValf0P0574
+2	134	16	#line 134 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC1\Testebloco2.nxc"
+2	134	16	#line 134 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC1\Testebloco2.nxc"
+2	134	16	#line 134 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC1\Testebloco2.nxc"
+2	134	16	#line 134 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC1\Testebloco2.nxc"
+2	134	16	#line 134 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC1\Testebloco2.nxc"
+2	134	16	#line 134 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC1\Testebloco2.nxc"
+2	135	16		mul __float_stack_001wd_rodas, __constVal2, vd
+2	134	20	#line 134 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC1\Testebloco2.nxc"
+2	134	20	#line 134 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC1\Testebloco2.nxc"
+2	134	20	#line 134 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC1\Testebloco2.nxc"
+2	134	20	#line 134 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC1\Testebloco2.nxc"
+2	134	20	#line 134 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC1\Testebloco2.nxc"
+2	135	20		mul __DF0wd_rodas, wd, __constValf0P105
+2	134	24	#line 134 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC1\Testebloco2.nxc"
+2	135	24		sub __float_stack_001wd_rodas, __float_stack_001wd_rodas, __DF0wd_rodas
+2	134	28	#line 134 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC1\Testebloco2.nxc"
+2	134	28	#line 134 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC1\Testebloco2.nxc"
+2	135	28	#line 135 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC1\Testebloco2.nxc"
+2	136	28		div wdl, __float_stack_001wd_rodas, __constValf0P0574
+2	135	32	#line 135 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC1\Testebloco2.nxc"
+2	135	32	#line 135 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC1\Testebloco2.nxc"
+2	137	32	#line 137 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC1\Testebloco2.nxc"
+2	138	32		subret __wd_rodas_return
+3	142	0	#line 142 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC1\Testebloco2.nxc"
+3	143	0		subcall wd_rodas, __wd_rodas_return
+3	142	2	#line 142 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC1\Testebloco2.nxc"
+3	144	2	#line 144 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC1\Testebloco2.nxc"
+3	145	2		subcall ws, __ws_return
+3	144	4	#line 144 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC1\Testebloco2.nxc"
+3	144	4	#line 144 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC1\Testebloco2.nxc"
+3	144	4	#line 144 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC1\Testebloco2.nxc"
+3	145	4	#line 145 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC1\Testebloco2.nxc"
+3	145	4	#line 145 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC1\Testebloco2.nxc"
+3	146	4		sub __control_motor_7qG2_ewr_7qG2_000, wdr, wr
+3	145	8	#line 145 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC1\Testebloco2.nxc"
+3	145	8	#line 145 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC1\Testebloco2.nxc"
+3	145	8	#line 145 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC1\Testebloco2.nxc"
+3	150	8	#line 150 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC1\Testebloco2.nxc"
+3	150	8	#line 150 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC1\Testebloco2.nxc"
+3	151	8		sub __control_motor_7qG2_ewl_7qG2_000, wdl, wl
+3	150	12	#line 150 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC1\Testebloco2.nxc"
+3	151	12	#line 151 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC1\Testebloco2.nxc"
+3	151	12	#line 151 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC1\Testebloco2.nxc"
+3	151	12	#line 151 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC1\Testebloco2.nxc"
+3	153	12	#line 153 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC1\Testebloco2.nxc"
+3	153	12	#line 153 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC1\Testebloco2.nxc"
+3	153	12	#line 153 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC1\Testebloco2.nxc"
+3	153	12	#line 153 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC1\Testebloco2.nxc"
+3	153	12	#line 153 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC1\Testebloco2.nxc"
+3	153	12	#line 153 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC1\Testebloco2.nxc"
+3	153	12	#line 153 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC1\Testebloco2.nxc"
+3	154	12		mul __float_stack_001control_motor, __constVal10, __control_motor_7qG2_ewr_7qG2_000
+3	153	16	#line 153 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC1\Testebloco2.nxc"
+3	153	16	#line 153 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC1\Testebloco2.nxc"
+3	153	16	#line 153 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC1\Testebloco2.nxc"
+3	154	16		add __float_stack_001control_motor, __float_stack_001control_motor, acum_err
+3	153	20	#line 153 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC1\Testebloco2.nxc"
+3	153	20	#line 153 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC1\Testebloco2.nxc"
+3	153	20	#line 153 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC1\Testebloco2.nxc"
+3	153	20	#line 153 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC1\Testebloco2.nxc"
+3	153	20	#line 153 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC1\Testebloco2.nxc"
+3	154	20		mul __float_stack_002control_motor, __constVal1, __constValf0P2
+3	153	24	#line 153 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC1\Testebloco2.nxc"
+3	154	24	#line 154 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC1\Testebloco2.nxc"
+3	154	24	#line 154 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC1\Testebloco2.nxc"
+3	155	24		mul __DF0control_motor, __float_stack_002control_motor, __control_motor_7qG2_ewr_7qG2_000
+3	154	28	#line 154 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC1\Testebloco2.nxc"
+3	155	28		add __control_motor_7qG2_cr_7qG2_000, __float_stack_001control_motor, __DF0control_motor
+3	154	32	#line 154 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC1\Testebloco2.nxc"
+3	154	32	#line 154 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC1\Testebloco2.nxc"
+3	154	32	#line 154 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC1\Testebloco2.nxc"
+3	154	32	#line 154 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC1\Testebloco2.nxc"
+3	154	32	#line 154 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC1\Testebloco2.nxc"
+3	155	32		mul __float_stack_001control_motor, __constVal10, __control_motor_7qG2_ewl_7qG2_000
+3	154	36	#line 154 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC1\Testebloco2.nxc"
+3	154	36	#line 154 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC1\Testebloco2.nxc"
+3	154	36	#line 154 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC1\Testebloco2.nxc"
+3	155	36		add __float_stack_001control_motor, __float_stack_001control_motor, acum_erl
+3	154	40	#line 154 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC1\Testebloco2.nxc"
+3	154	40	#line 154 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC1\Testebloco2.nxc"
+3	154	40	#line 154 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC1\Testebloco2.nxc"
+3	154	40	#line 154 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC1\Testebloco2.nxc"
+3	154	40	#line 154 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC1\Testebloco2.nxc"
+3	155	40		mul __float_stack_002control_motor, __constVal1, __constValf0P2
+3	154	44	#line 154 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC1\Testebloco2.nxc"
+3	156	44	#line 156 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC1\Testebloco2.nxc"
+3	156	44	#line 156 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC1\Testebloco2.nxc"
+3	157	44		mul __DF0control_motor, __float_stack_002control_motor, __control_motor_7qG2_ewl_7qG2_000
+3	156	48	#line 156 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC1\Testebloco2.nxc"
+3	157	48		add __control_motor_7qG2_cl_7qG2_000, __float_stack_001control_motor, __DF0control_motor
+3	156	52	#line 156 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC1\Testebloco2.nxc"
+3	156	52	#line 156 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC1\Testebloco2.nxc"
+3	157	52		mov __float_stack_001control_motor, acum_err
+3	156	54	#line 156 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC1\Testebloco2.nxc"
+3	156	54	#line 156 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC1\Testebloco2.nxc"
+3	156	54	#line 156 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC1\Testebloco2.nxc"
+3	156	54	#line 156 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC1\Testebloco2.nxc"
+3	156	54	#line 156 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC1\Testebloco2.nxc"
+3	157	54		mul __float_stack_002control_motor, __constVal1, __constValf0P2
+3	156	58	#line 156 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC1\Testebloco2.nxc"
+3	157	58	#line 157 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC1\Testebloco2.nxc"
+3	157	58	#line 157 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC1\Testebloco2.nxc"
+3	158	58		mul __DF0control_motor, __float_stack_002control_motor, __control_motor_7qG2_ewr_7qG2_000
+3	157	62	#line 157 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC1\Testebloco2.nxc"
+3	158	62		add acum_err, __float_stack_001control_motor, __DF0control_motor
+3	157	66	#line 157 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC1\Testebloco2.nxc"
+3	157	66	#line 157 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC1\Testebloco2.nxc"
+3	157	66	#line 157 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC1\Testebloco2.nxc"
+3	158	66		mov __float_stack_001control_motor, acum_erl
+3	157	68	#line 157 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC1\Testebloco2.nxc"
+3	157	68	#line 157 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC1\Testebloco2.nxc"
+3	157	68	#line 157 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC1\Testebloco2.nxc"
+3	157	68	#line 157 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC1\Testebloco2.nxc"
+3	157	68	#line 157 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC1\Testebloco2.nxc"
+3	158	68		mul __float_stack_002control_motor, __constVal1, __constValf0P2
+3	157	72	#line 157 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC1\Testebloco2.nxc"
+3	160	72	#line 160 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC1\Testebloco2.nxc"
+3	160	72	#line 160 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC1\Testebloco2.nxc"
+3	161	72		mul __DF0control_motor, __float_stack_002control_motor, __control_motor_7qG2_ewl_7qG2_000
+3	160	76	#line 160 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC1\Testebloco2.nxc"
+3	161	76		add acum_erl, __float_stack_001control_motor, __DF0control_motor
+3	160	80	#line 160 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC1\Testebloco2.nxc"
+3	160	80	#line 160 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC1\Testebloco2.nxc"
+3	161	80	#line 161 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC1\Testebloco2.nxc"
+3	162	80		mov __control_motor_7qG2_abs_cr_7qG2_000, __constVal0
+3	161	82	#line 161 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC1\Testebloco2.nxc"
+3	162	82	#line 162 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC1\Testebloco2.nxc"
+3	163	82		mov __control_motor_7qG2_abs_cl_7qG2_000, __constVal0
+3	162	84	#line 162 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC1\Testebloco2.nxc"
+3	162	84	#line 162 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC1\Testebloco2.nxc"
+3	163	84		mov __float_stack_001control_motor, __control_motor_7qG2_cr_7qG2_000
+3	162	86	#line 162 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC1\Testebloco2.nxc"
+3	162	86	#line 162 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC1\Testebloco2.nxc"
+3	163	86		mov __DF0control_motor, __constVal0
+3	162	88	#line 162 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC1\Testebloco2.nxc"
+3	163	88		cmp 0, __zfcontrol_motor, __float_stack_001control_motor, __DF0control_motor
+3	162	92	#line 162 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC1\Testebloco2.nxc"
+3	163	92		mov __D0control_motor, __zfcontrol_motor
+3	163	94	#line 163 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC1\Testebloco2.nxc"
+3	164	94		brtst 4, __NXC_Label_654, __zfcontrol_motor
+3	163	97	#line 163 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC1\Testebloco2.nxc"
+3	163	97	#line 163 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC1\Testebloco2.nxc"
+3	164	97	#line 164 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC1\Testebloco2.nxc"
+3	164	97	#line 164 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC1\Testebloco2.nxc"
+3	165	97		sub __control_motor_7qG2_abs_cr_7qG2_000, __constVal0, __control_motor_7qG2_cr_7qG2_000
+3	164	101	#line 164 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC1\Testebloco2.nxc"
+3	164	101	#line 164 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC1\Testebloco2.nxc"
+3	165	101	#line 165 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC1\Testebloco2.nxc"
+3	166	101		jmp __NXC_Label_657
+3	166	103	#line 166 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC1\Testebloco2.nxc"
+3	167	103		mov __control_motor_7qG2_abs_cr_7qG2_000, __control_motor_7qG2_cr_7qG2_000
+3	166	105	#line 166 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC1\Testebloco2.nxc"
+3	166	105	#line 166 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC1\Testebloco2.nxc"
+3	167	105	#line 167 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC1\Testebloco2.nxc"
+3	167	105	#line 167 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC1\Testebloco2.nxc"
+3	168	105		mov __float_stack_001control_motor, __control_motor_7qG2_cl_7qG2_000
+3	167	107	#line 167 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC1\Testebloco2.nxc"
+3	167	107	#line 167 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC1\Testebloco2.nxc"
+3	168	107		mov __DF0control_motor, __constVal0
+3	167	109	#line 167 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC1\Testebloco2.nxc"
+3	168	109		cmp 0, __zfcontrol_motor, __float_stack_001control_motor, __DF0control_motor
+3	167	113	#line 167 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC1\Testebloco2.nxc"
+3	168	113		mov __D0control_motor, __zfcontrol_motor
+3	168	115	#line 168 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC1\Testebloco2.nxc"
+3	169	115		brtst 4, __NXC_Label_662, __zfcontrol_motor
+3	168	118	#line 168 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC1\Testebloco2.nxc"
+3	168	118	#line 168 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC1\Testebloco2.nxc"
+3	169	118	#line 169 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC1\Testebloco2.nxc"
+3	169	118	#line 169 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC1\Testebloco2.nxc"
+3	170	118		sub __control_motor_7qG2_abs_cl_7qG2_000, __constVal0, __control_motor_7qG2_cl_7qG2_000
+3	169	122	#line 169 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC1\Testebloco2.nxc"
+3	169	122	#line 169 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC1\Testebloco2.nxc"
+3	170	122	#line 170 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC1\Testebloco2.nxc"
+3	171	122		jmp __NXC_Label_665
+3	171	124	#line 171 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC1\Testebloco2.nxc"
+3	172	124		mov __control_motor_7qG2_abs_cl_7qG2_000, __control_motor_7qG2_cl_7qG2_000
+3	171	126	#line 171 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC1\Testebloco2.nxc"
+3	171	126	#line 171 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC1\Testebloco2.nxc"
+3	172	126	#line 172 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC1\Testebloco2.nxc"
+3	172	126	#line 172 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC1\Testebloco2.nxc"
+3	173	126		mov __float_stack_001control_motor, __control_motor_7qG2_abs_cr_7qG2_000
+3	172	128	#line 172 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC1\Testebloco2.nxc"
+3	172	128	#line 172 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC1\Testebloco2.nxc"
+3	173	128		mov __DF0control_motor, __constVal100
+3	172	130	#line 172 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC1\Testebloco2.nxc"
+3	173	130		cmp 1, __zfcontrol_motor, __float_stack_001control_motor, __DF0control_motor
+3	172	134	#line 172 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC1\Testebloco2.nxc"
+3	173	134		mov __D0control_motor, __zfcontrol_motor
+3	172	136	#line 172 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC1\Testebloco2.nxc"
+3	173	136		brtst 5, __NXC_Label_668, __zfcontrol_motor
+3	172	139	#line 172 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC1\Testebloco2.nxc"
+3	173	139		mov __signed_stack_001control_motor, __D0control_motor
+3	172	141	#line 172 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC1\Testebloco2.nxc"
+3	173	141		mov __float_stack_002control_motor, __control_motor_7qG2_abs_cl_7qG2_000
+3	172	143	#line 172 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC1\Testebloco2.nxc"
+3	172	143	#line 172 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC1\Testebloco2.nxc"
+3	173	143		mov __DF0control_motor, __constVal100
+3	172	145	#line 172 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC1\Testebloco2.nxc"
+3	173	145		cmp 1, __zfcontrol_motor, __float_stack_002control_motor, __DF0control_motor
+3	172	149	#line 172 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC1\Testebloco2.nxc"
+3	172	149	#line 172 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC1\Testebloco2.nxc"
+3	173	149		or __D0control_motor, __signed_stack_001control_motor, __zfcontrol_motor
+3	173	153	#line 173 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC1\Testebloco2.nxc"
+3	174	153		tst 5, __zfcontrol_motor, __D0control_motor
+3	173	156	#line 173 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC1\Testebloco2.nxc"
+3	174	156		brtst 4, __NXC_Label_671, __zfcontrol_motor
+3	173	159	#line 173 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC1\Testebloco2.nxc"
+3	174	159		mov __float_stack_001control_motor, __control_motor_7qG2_abs_cr_7qG2_000
+3	173	161	#line 173 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC1\Testebloco2.nxc"
+3	173	161	#line 173 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC1\Testebloco2.nxc"
+3	174	161		mov __DF0control_motor, __control_motor_7qG2_abs_cl_7qG2_000
+3	173	163	#line 173 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC1\Testebloco2.nxc"
+3	174	163		cmp 1, __zfcontrol_motor, __float_stack_001control_motor, __DF0control_motor
+3	173	167	#line 173 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC1\Testebloco2.nxc"
+3	174	167		mov __D0control_motor, __zfcontrol_motor
+3	174	169	#line 174 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC1\Testebloco2.nxc"
+3	175	169		brtst 4, __NXC_Label_674, __zfcontrol_motor
+3	174	172	#line 174 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC1\Testebloco2.nxc"
+3	174	172	#line 174 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC1\Testebloco2.nxc"
+3	175	172	#line 175 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC1\Testebloco2.nxc"
+3	175	172	#line 175 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC1\Testebloco2.nxc"
+3	176	172		div __control_motor_7qG2_p_7qG2_002, __control_motor_7qG2_cr_7qG2_000, __control_motor_7qG2_cl_7qG2_000
+3	175	176	#line 175 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC1\Testebloco2.nxc"
+3	175	176	#line 175 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC1\Testebloco2.nxc"
+3	176	176		mov __float_stack_001control_motor, __control_motor_7qG2_cr_7qG2_000
+3	175	178	#line 175 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC1\Testebloco2.nxc"
+3	175	178	#line 175 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC1\Testebloco2.nxc"
+3	176	178		mov __DF0control_motor, __constVal0
+3	175	180	#line 175 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC1\Testebloco2.nxc"
+3	176	180		cmp 0, __zfcontrol_motor, __float_stack_001control_motor, __DF0control_motor
+3	175	184	#line 175 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC1\Testebloco2.nxc"
+3	176	184		mov __D0control_motor, __zfcontrol_motor
+3	176	186	#line 176 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC1\Testebloco2.nxc"
+3	177	186		brtst 4, __NXC_Label_679, __zfcontrol_motor
+3	177	189	#line 177 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC1\Testebloco2.nxc"
+3	177	189	#line 177 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC1\Testebloco2.nxc"
+3	178	189		mov __control_motor_7qG2_cr_7qG2_000, __constValNeg100
+3	177	191	#line 177 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC1\Testebloco2.nxc"
+3	178	191	#line 178 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC1\Testebloco2.nxc"
+3	179	191		jmp __NXC_Label_682
+3	179	193	#line 179 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC1\Testebloco2.nxc"
+3	179	193	#line 179 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC1\Testebloco2.nxc"
+3	180	193		mov __control_motor_7qG2_cr_7qG2_000, __constVal100
+3	179	195	#line 179 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC1\Testebloco2.nxc"
+3	180	195	#line 180 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC1\Testebloco2.nxc"
+3	180	195	#line 180 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC1\Testebloco2.nxc"
+3	180	195	#line 180 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC1\Testebloco2.nxc"
+3	181	195	#line 181 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC1\Testebloco2.nxc"
+3	181	195	#line 181 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC1\Testebloco2.nxc"
+3	182	195		div __control_motor_7qG2_cl_7qG2_000, __control_motor_7qG2_cr_7qG2_000, __control_motor_7qG2_p_7qG2_002
+3	181	199	#line 181 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC1\Testebloco2.nxc"
+3	181	199	#line 181 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC1\Testebloco2.nxc"
+3	182	199	#line 182 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC1\Testebloco2.nxc"
+3	183	199		jmp __NXC_Label_687
+3	182	201	#line 182 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC1\Testebloco2.nxc"
+3	182	201	#line 182 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC1\Testebloco2.nxc"
+3	183	201	#line 183 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC1\Testebloco2.nxc"
+3	183	201	#line 183 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC1\Testebloco2.nxc"
+3	184	201		div __control_motor_7qG2_p_7qG2_002, __control_motor_7qG2_cl_7qG2_000, __control_motor_7qG2_cr_7qG2_000
+3	183	205	#line 183 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC1\Testebloco2.nxc"
+3	183	205	#line 183 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC1\Testebloco2.nxc"
+3	184	205		mov __float_stack_001control_motor, __control_motor_7qG2_cl_7qG2_000
+3	183	207	#line 183 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC1\Testebloco2.nxc"
+3	183	207	#line 183 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC1\Testebloco2.nxc"
+3	184	207		mov __DF0control_motor, __constVal0
+3	183	209	#line 183 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC1\Testebloco2.nxc"
+3	184	209		cmp 0, __zfcontrol_motor, __float_stack_001control_motor, __DF0control_motor
+3	183	213	#line 183 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC1\Testebloco2.nxc"
+3	184	213		mov __D0control_motor, __zfcontrol_motor
+3	184	215	#line 184 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC1\Testebloco2.nxc"
+3	185	215		brtst 4, __NXC_Label_692, __zfcontrol_motor
+3	185	218	#line 185 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC1\Testebloco2.nxc"
+3	185	218	#line 185 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC1\Testebloco2.nxc"
+3	186	218		mov __control_motor_7qG2_cl_7qG2_000, __constValNeg100
+3	185	220	#line 185 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC1\Testebloco2.nxc"
+3	186	220	#line 186 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC1\Testebloco2.nxc"
+3	187	220		jmp __NXC_Label_695
+3	187	222	#line 187 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC1\Testebloco2.nxc"
+3	187	222	#line 187 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC1\Testebloco2.nxc"
+3	188	222		mov __control_motor_7qG2_cl_7qG2_000, __constVal100
+3	187	224	#line 187 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC1\Testebloco2.nxc"
+3	188	224	#line 188 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC1\Testebloco2.nxc"
+3	188	224	#line 188 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC1\Testebloco2.nxc"
+3	188	224	#line 188 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC1\Testebloco2.nxc"
+3	189	224	#line 189 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC1\Testebloco2.nxc"
+3	189	224	#line 189 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC1\Testebloco2.nxc"
+3	190	224		div __control_motor_7qG2_cr_7qG2_000, __control_motor_7qG2_cl_7qG2_000, __control_motor_7qG2_p_7qG2_002
+3	189	228	#line 189 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC1\Testebloco2.nxc"
+3	189	228	#line 189 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC1\Testebloco2.nxc"
+3	192	228	#line 192 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC1\Testebloco2.nxc"
+3	192	228	#line 192 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC1\Testebloco2.nxc"
+3	192	228	#line 192 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC1\Testebloco2.nxc"
+3	193	228		mov __DF0control_motor, __control_motor_7qG2_cr_7qG2_000
+3	193	230	#line 193 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC1\Testebloco2.nxc"
+3	194	230	#pragma macro 7
+3	194	230		setout __constVal0, 2, __DF0control_motor, 1, __constVal3, 8, __constVal0, 6, __constVal32, 7, __constVal0, 5, __constVal0, 10, __constVal96, 11, __constVal32, 12, __constVal32, 0, __constVal63
+3	7196	253	#line 7196 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC1\Testebloco2.nxc"
+3	193	253	#line 193 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC1\Testebloco2.nxc"
+3	193	253	#line 193 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC1\Testebloco2.nxc"
+3	194	253		mov __DF0control_motor, __control_motor_7qG2_cl_7qG2_000
+3	195	255	#line 195 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC1\Testebloco2.nxc"
+3	196	255	#pragma macro 7
+3	196	255		setout __constVal2, 2, __DF0control_motor, 1, __constVal3, 8, __constVal0, 6, __constVal32, 7, __constVal0, 5, __constVal0, 10, __constVal96, 11, __constVal32, 12, __constVal32, 0, __constVal63
+3	7203	278	#line 7203 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC1\Testebloco2.nxc"
+3	195	278	#line 195 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC1\Testebloco2.nxc"
+3	195	278	#line 195 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC1\Testebloco2.nxc"
+3	196	278		mov __DF0control_motor, __control_motor_7qG2_ewr_7qG2_000
+3	195	280	#line 195 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC1\Testebloco2.nxc"
+3	196	280		numtostr __strretvalcontrol_motor, __DF0control_motor
+3	195	283	#line 195 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC1\Testebloco2.nxc"
+3	196	283		strcat __strbufcontrol_motor, __strretvalcontrol_motor
+3	195	287	#line 195 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC1\Testebloco2.nxc"
+3	196	287		mov __ArrHelper__control_motor_244_0, __strbufcontrol_motor
+3	195	289	#line 195 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC1\Testebloco2.nxc"
+3	196	289		strcat __strbufcontrol_motor, __constStr0009
+3	195	293	#line 195 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC1\Testebloco2.nxc"
+3	196	293		mov __ArrHelper__control_motor_244_1, __strbufcontrol_motor
+3	195	295	#line 195 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC1\Testebloco2.nxc"
+3	196	295		mov __DF0control_motor, __control_motor_7qG2_ewl_7qG2_000
+3	195	297	#line 195 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC1\Testebloco2.nxc"
+3	196	297		numtostr __strretvalcontrol_motor, __DF0control_motor
+3	195	300	#line 195 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC1\Testebloco2.nxc"
+3	196	300		strcat __strbufcontrol_motor, __strretvalcontrol_motor
+3	195	304	#line 195 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC1\Testebloco2.nxc"
+3	196	304		mov __ArrHelper__control_motor_244_2, __strbufcontrol_motor
+3	196	306	#line 196 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC1\Testebloco2.nxc"
+3	197	306		strcat __strretvalcontrol_motor, __ArrHelper__control_motor_244_0, __ArrHelper__control_motor_244_1, __ArrHelper__control_motor_244_2
+3	196	312	#line 196 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC1\Testebloco2.nxc"
+3	197	312		strcat __strbufcontrol_motor, __strretvalcontrol_motor
+3	196	316	#line 196 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC1\Testebloco2.nxc"
+3	197	316		mov __control_motor_7qG2_write_7qG2_000, __strbufcontrol_motor
+3	197	318	#line 197 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC1\Testebloco2.nxc"
+3	198	318	#pragma macro 9
+3	198	318		acquire __FWriteMutex
+3	198	319		mov __FWriteArgs.FileHandle, fileHandle
+3	198	321		strtoarr __FWriteFlattenBuf, __control_motor_7qG2_write_7qG2_000
+3	198	324		arrbuild __FWriteArgs.Buffer, __FWriteFlattenBuf, __FWriteLn
+3	198	329		arrsize __FWriteArgs.Length, __FWriteArgs.Buffer
+3	198	332		syscall 4, __FWriteArgs
+3	198	335		mov __D0control_motor, __FWriteArgs.Result
+3	198	337		release __FWriteMutex
+3	7244	338	#line 7244 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC1\Testebloco2.nxc"
+3	197	338	#line 197 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC1\Testebloco2.nxc"
+3	197	338	#line 197 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC1\Testebloco2.nxc"
+3	200	338	#line 200 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC1\Testebloco2.nxc"
+3	201	338		subret __control_motor_return
+4	203	0	#line 203 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC1\Testebloco2.nxc"
+4	204	0		mov __float_stack_001control_pos, xr
+4	203	2	#line 203 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC1\Testebloco2.nxc"
+4	203	2	#line 203 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC1\Testebloco2.nxc"
+4	203	2	#line 203 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC1\Testebloco2.nxc"
+4	203	2	#line 203 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC1\Testebloco2.nxc"
+4	203	2	#line 203 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC1\Testebloco2.nxc"
+4	204	2		add __float_stack_002control_pos, dr, dl
+4	203	6	#line 203 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC1\Testebloco2.nxc"
+4	203	6	#line 203 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC1\Testebloco2.nxc"
+4	204	6		mov __cos_7qG2_x_7qG2_000_inline_control_pos, tetar
+4	203	8	#line 203 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC1\Testebloco2.nxc"
+4	17165	8	#line 17165 "NXCDefs.h"
+4	17166	8		cos __DF0control_pos, __cos_7qG2_x_7qG2_000_inline_control_pos
+4	17165	11	#line 17165 "NXCDefs.h"
+4	203	11	#line 203 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC1\Testebloco2.nxc"
+4	203	11	#line 203 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC1\Testebloco2.nxc"
+4	204	11		mul __float_stack_002control_pos, __float_stack_002control_pos, __DF0control_pos
+4	203	15	#line 203 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC1\Testebloco2.nxc"
+4	204	15	#line 204 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC1\Testebloco2.nxc"
+4	204	15	#line 204 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC1\Testebloco2.nxc"
+4	205	15		div __DF0control_pos, __float_stack_002control_pos, __constVal2
+4	204	19	#line 204 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC1\Testebloco2.nxc"
+4	205	19		add xr, __float_stack_001control_pos, __DF0control_pos
+4	204	23	#line 204 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC1\Testebloco2.nxc"
+4	204	23	#line 204 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC1\Testebloco2.nxc"
+4	204	23	#line 204 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC1\Testebloco2.nxc"
+4	205	23		mov __float_stack_001control_pos, yr
+4	204	25	#line 204 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC1\Testebloco2.nxc"
+4	204	25	#line 204 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC1\Testebloco2.nxc"
+4	204	25	#line 204 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC1\Testebloco2.nxc"
+4	204	25	#line 204 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC1\Testebloco2.nxc"
+4	204	25	#line 204 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC1\Testebloco2.nxc"
+4	205	25		add __float_stack_002control_pos, dr, dl
+4	204	29	#line 204 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC1\Testebloco2.nxc"
+4	204	29	#line 204 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC1\Testebloco2.nxc"
+4	205	29		mov __sin_7qG2_x_7qG2_000_inline_control_pos, tetar
+4	204	31	#line 204 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC1\Testebloco2.nxc"
+4	17176	31	#line 17176 "NXCDefs.h"
+4	17177	31		sin __DF0control_pos, __sin_7qG2_x_7qG2_000_inline_control_pos
+4	17176	34	#line 17176 "NXCDefs.h"
+4	204	34	#line 204 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC1\Testebloco2.nxc"
+4	204	34	#line 204 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC1\Testebloco2.nxc"
+4	205	34		mul __float_stack_002control_pos, __float_stack_002control_pos, __DF0control_pos
+4	204	38	#line 204 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC1\Testebloco2.nxc"
+4	205	38	#line 205 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC1\Testebloco2.nxc"
+4	205	38	#line 205 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC1\Testebloco2.nxc"
+4	206	38		div __DF0control_pos, __float_stack_002control_pos, __constVal2
+4	205	42	#line 205 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC1\Testebloco2.nxc"
+4	206	42		add yr, __float_stack_001control_pos, __DF0control_pos
+4	205	46	#line 205 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC1\Testebloco2.nxc"
+4	205	46	#line 205 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC1\Testebloco2.nxc"
+4	205	46	#line 205 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC1\Testebloco2.nxc"
+4	206	46		mov __float_stack_001control_pos, tetar
+4	205	48	#line 205 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC1\Testebloco2.nxc"
+4	205	48	#line 205 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC1\Testebloco2.nxc"
+4	205	48	#line 205 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC1\Testebloco2.nxc"
+4	205	48	#line 205 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC1\Testebloco2.nxc"
+4	205	48	#line 205 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC1\Testebloco2.nxc"
+4	206	48		sub __float_stack_002control_pos, dr, dl
+4	205	52	#line 205 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC1\Testebloco2.nxc"
+4	210	52	#line 210 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC1\Testebloco2.nxc"
+4	210	52	#line 210 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC1\Testebloco2.nxc"
+4	211	52		div __DF0control_pos, __float_stack_002control_pos, __constValf0P105
+4	210	56	#line 210 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC1\Testebloco2.nxc"
+4	211	56		add tetar, __float_stack_001control_pos, __DF0control_pos
+4	210	60	#line 210 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC1\Testebloco2.nxc"
+4	210	60	#line 210 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC1\Testebloco2.nxc"
+4	210	60	#line 210 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC1\Testebloco2.nxc"
+4	210	60	#line 210 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC1\Testebloco2.nxc"
+4	210	60	#line 210 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC1\Testebloco2.nxc"
+4	210	60	#line 210 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC1\Testebloco2.nxc"
+4	211	60		mul __float_stack_001control_pos, wdi, t
+4	210	64	#line 210 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC1\Testebloco2.nxc"
+4	211	64	#line 211 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC1\Testebloco2.nxc"
+4	211	64	#line 211 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC1\Testebloco2.nxc"
+4	212	64		mul __control_pos_7qG2_aux_7qG2_000, __float_stack_001control_pos, __constValf0P2
+4	211	68	#line 211 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC1\Testebloco2.nxc"
+4	211	68	#line 211 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC1\Testebloco2.nxc"
+4	212	68		mov __float_stack_001control_pos, xc
+4	211	70	#line 211 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC1\Testebloco2.nxc"
+4	211	70	#line 211 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC1\Testebloco2.nxc"
+4	212	70		mov __float_stack_002control_pos, __constValf0P2
+4	211	72	#line 211 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC1\Testebloco2.nxc"
+4	211	72	#line 211 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC1\Testebloco2.nxc"
+4	212	72		mov __cos_7qG2_x_7qG2_000_inline_control_pos, __control_pos_7qG2_aux_7qG2_000
+4	211	74	#line 211 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC1\Testebloco2.nxc"
+4	17165	74	#line 17165 "NXCDefs.h"
+4	17166	74		cos __DF0control_pos, __cos_7qG2_x_7qG2_000_inline_control_pos
+4	17165	77	#line 17165 "NXCDefs.h"
+4	212	77	#line 212 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC1\Testebloco2.nxc"
+4	212	77	#line 212 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC1\Testebloco2.nxc"
+4	213	77		mul __DF0control_pos, __float_stack_002control_pos, __DF0control_pos
+4	212	81	#line 212 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC1\Testebloco2.nxc"
+4	213	81		add __control_pos_7qG2_xd_7qG2_000, __float_stack_001control_pos, __DF0control_pos
+4	212	85	#line 212 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC1\Testebloco2.nxc"
+4	212	85	#line 212 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC1\Testebloco2.nxc"
+4	213	85		mov __float_stack_001control_pos, yc
+4	212	87	#line 212 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC1\Testebloco2.nxc"
+4	212	87	#line 212 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC1\Testebloco2.nxc"
+4	213	87		mov __float_stack_002control_pos, __constValf0P2
+4	212	89	#line 212 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC1\Testebloco2.nxc"
+4	212	89	#line 212 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC1\Testebloco2.nxc"
+4	213	89		mov __sin_7qG2_x_7qG2_000_inline_control_pos, __control_pos_7qG2_aux_7qG2_000
+4	212	91	#line 212 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC1\Testebloco2.nxc"
+4	17176	91	#line 17176 "NXCDefs.h"
+4	17177	91		sin __DF0control_pos, __sin_7qG2_x_7qG2_000_inline_control_pos
+4	17176	94	#line 17176 "NXCDefs.h"
+4	213	94	#line 213 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC1\Testebloco2.nxc"
+4	213	94	#line 213 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC1\Testebloco2.nxc"
+4	214	94		mul __DF0control_pos, __float_stack_002control_pos, __DF0control_pos
+4	213	98	#line 213 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC1\Testebloco2.nxc"
+4	214	98		add __control_pos_7qG2_yd_7qG2_000, __float_stack_001control_pos, __DF0control_pos
+4	213	102	#line 213 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC1\Testebloco2.nxc"
+4	213	102	#line 213 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC1\Testebloco2.nxc"
+4	213	102	#line 213 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC1\Testebloco2.nxc"
+4	214	102	#line 214 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC1\Testebloco2.nxc"
+4	214	102	#line 214 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC1\Testebloco2.nxc"
+4	215	102		sub __control_pos_7qG2_errx_7qG2_000, __control_pos_7qG2_xd_7qG2_000, xr
+4	214	106	#line 214 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC1\Testebloco2.nxc"
+4	214	106	#line 214 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC1\Testebloco2.nxc"
+4	214	106	#line 214 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC1\Testebloco2.nxc"
+4	216	106	#line 216 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC1\Testebloco2.nxc"
+4	216	106	#line 216 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC1\Testebloco2.nxc"
+4	217	106		sub __control_pos_7qG2_erry_7qG2_000, __control_pos_7qG2_yd_7qG2_000, yr
+4	216	110	#line 216 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC1\Testebloco2.nxc"
+4	216	110	#line 216 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC1\Testebloco2.nxc"
+4	217	110		mov __atan2_7qG2_y_7qG2_000_inline_control_pos, __control_pos_7qG2_erry_7qG2_000
+4	216	112	#line 216 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC1\Testebloco2.nxc"
+4	216	112	#line 216 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC1\Testebloco2.nxc"
+4	217	112		mov __atan2_7qG2_x_7qG2_000_inline_control_pos, __control_pos_7qG2_errx_7qG2_000
+4	216	114	#line 216 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC1\Testebloco2.nxc"
+4	17242	114	#line 17242 "NXCDefs.h"
+4	17243	114		atan2 tetad, __atan2_7qG2_y_7qG2_000_inline_control_pos, __atan2_7qG2_x_7qG2_000_inline_control_pos
+4	17242	118	#line 17242 "NXCDefs.h"
+4	218	118	#line 218 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC1\Testebloco2.nxc"
+4	218	118	#line 218 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC1\Testebloco2.nxc"
+4	218	118	#line 218 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC1\Testebloco2.nxc"
+4	220	118	#line 220 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC1\Testebloco2.nxc"
+4	220	118	#line 220 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC1\Testebloco2.nxc"
+4	220	118	#line 220 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC1\Testebloco2.nxc"
+4	220	118	#line 220 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC1\Testebloco2.nxc"
+4	221	118	#line 221 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC1\Testebloco2.nxc"
+4	221	118	#line 221 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC1\Testebloco2.nxc"
+4	222	118		sub errt, tetad, tetar
+4	221	122	#line 221 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC1\Testebloco2.nxc"
+4	221	122	#line 221 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC1\Testebloco2.nxc"
+4	221	122	#line 221 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC1\Testebloco2.nxc"
+4	222	122		mov __sin_7qG2_x_7qG2_000_inline_control_pos, errt
+4	221	124	#line 221 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC1\Testebloco2.nxc"
+4	17176	124	#line 17176 "NXCDefs.h"
+4	17177	124		sin __atan2_7qG2_y_7qG2_000_inline_control_pos, __sin_7qG2_x_7qG2_000_inline_control_pos
+4	17176	127	#line 17176 "NXCDefs.h"
+4	221	127	#line 221 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC1\Testebloco2.nxc"
+4	221	127	#line 221 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC1\Testebloco2.nxc"
+4	221	127	#line 221 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC1\Testebloco2.nxc"
+4	222	127		mov __cos_7qG2_x_7qG2_000_inline_control_pos, errt
+4	221	129	#line 221 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC1\Testebloco2.nxc"
+4	17165	129	#line 17165 "NXCDefs.h"
+4	17166	129		cos __atan2_7qG2_x_7qG2_000_inline_control_pos, __cos_7qG2_x_7qG2_000_inline_control_pos
+4	17165	132	#line 17165 "NXCDefs.h"
+4	221	132	#line 221 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC1\Testebloco2.nxc"
+4	221	132	#line 221 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC1\Testebloco2.nxc"
+4	17242	132	#line 17242 "NXCDefs.h"
+4	17243	132		atan2 errt, __atan2_7qG2_y_7qG2_000_inline_control_pos, __atan2_7qG2_x_7qG2_000_inline_control_pos
+4	17242	136	#line 17242 "NXCDefs.h"
+4	226	136	#line 226 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC1\Testebloco2.nxc"
+4	226	136	#line 226 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC1\Testebloco2.nxc"
+4	226	136	#line 226 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC1\Testebloco2.nxc"
+4	226	136	#line 226 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC1\Testebloco2.nxc"
+4	226	136	#line 226 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC1\Testebloco2.nxc"
+4	234	136	#line 234 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC1\Testebloco2.nxc"
+4	234	136	#line 234 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC1\Testebloco2.nxc"
+4	235	136		mul wd, __constValf0P01, errt
+4	234	140	#line 234 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC1\Testebloco2.nxc"
+4	234	140	#line 234 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC1\Testebloco2.nxc"
+4	234	140	#line 234 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC1\Testebloco2.nxc"
+4	235	140		mov __float_stack_001control_pos, acum_errt
+4	234	142	#line 234 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC1\Testebloco2.nxc"
+4	234	142	#line 234 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC1\Testebloco2.nxc"
+4	234	142	#line 234 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC1\Testebloco2.nxc"
+4	234	142	#line 234 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC1\Testebloco2.nxc"
+4	234	142	#line 234 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC1\Testebloco2.nxc"
+4	235	142		mul __float_stack_002control_pos, __constValf0P5, __constValf0P2
+4	234	146	#line 234 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC1\Testebloco2.nxc"
+4	237	146	#line 237 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC1\Testebloco2.nxc"
+4	237	146	#line 237 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC1\Testebloco2.nxc"
+4	238	146		mul __DF0control_pos, __float_stack_002control_pos, errt
+4	237	150	#line 237 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC1\Testebloco2.nxc"
+4	238	150		add acum_errt, __float_stack_001control_pos, __DF0control_pos
+4	237	154	#line 237 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC1\Testebloco2.nxc"
+4	237	154	#line 237 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC1\Testebloco2.nxc"
+4	238	154	#line 238 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC1\Testebloco2.nxc"
+4	239	154		mov __DF0control_pos, __control_pos_7qG2_errx_7qG2_000
+4	238	156	#line 238 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC1\Testebloco2.nxc"
+4	239	156		numtostr __strretvalcontrol_pos, __DF0control_pos
+4	238	159	#line 238 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC1\Testebloco2.nxc"
+4	239	159		strcat __strbufcontrol_pos, __strretvalcontrol_pos
+4	238	163	#line 238 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC1\Testebloco2.nxc"
+4	239	163		mov __ArrHelper__control_pos_244_0, __strbufcontrol_pos
+4	238	165	#line 238 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC1\Testebloco2.nxc"
+4	239	165		strcat __strbufcontrol_pos, __constStr0009
+4	238	169	#line 238 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC1\Testebloco2.nxc"
+4	239	169		mov __ArrHelper__control_pos_244_1, __strbufcontrol_pos
+4	238	171	#line 238 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC1\Testebloco2.nxc"
+4	239	171		mov __DF0control_pos, __control_pos_7qG2_erry_7qG2_000
+4	238	173	#line 238 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC1\Testebloco2.nxc"
+4	239	173		numtostr __strretvalcontrol_pos, __DF0control_pos
+4	238	176	#line 238 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC1\Testebloco2.nxc"
+4	239	176		strcat __strbufcontrol_pos, __strretvalcontrol_pos
+4	238	180	#line 238 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC1\Testebloco2.nxc"
+4	239	180		mov __ArrHelper__control_pos_244_2, __strbufcontrol_pos
+4	238	182	#line 238 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC1\Testebloco2.nxc"
+4	239	182		strcat __strbufcontrol_pos, __constStr0009
+4	238	186	#line 238 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC1\Testebloco2.nxc"
+4	239	186		mov __ArrHelper__control_pos_244_3, __strbufcontrol_pos
+4	238	188	#line 238 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC1\Testebloco2.nxc"
+4	239	188		mov __DF0control_pos, errt
+4	238	190	#line 238 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC1\Testebloco2.nxc"
+4	239	190		numtostr __strretvalcontrol_pos, __DF0control_pos
+4	238	193	#line 238 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC1\Testebloco2.nxc"
+4	239	193		strcat __strbufcontrol_pos, __strretvalcontrol_pos
+4	238	197	#line 238 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC1\Testebloco2.nxc"
+4	239	197		mov __ArrHelper__control_pos_244_4, __strbufcontrol_pos
+4	239	199	#line 239 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC1\Testebloco2.nxc"
+4	240	199		strcat __strretvalcontrol_pos, __ArrHelper__control_pos_244_0, __ArrHelper__control_pos_244_1, __ArrHelper__control_pos_244_2, __ArrHelper__control_pos_244_3, __ArrHelper__control_pos_244_4
+4	239	207	#line 239 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC1\Testebloco2.nxc"
+4	240	207		strcat __strbufcontrol_pos, __strretvalcontrol_pos
+4	239	211	#line 239 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC1\Testebloco2.nxc"
+4	240	211		mov __control_pos_7qG2_write2_7qG2_000, __strbufcontrol_pos
+4	239	213	#line 239 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC1\Testebloco2.nxc"
+4	240	213	#pragma macro 9
+4	240	213		acquire __FWriteMutex
+4	240	214		mov __FWriteArgs.FileHandle, fileHandle2
+4	240	216		strtoarr __FWriteFlattenBuf, __control_pos_7qG2_write2_7qG2_000
+4	240	219		arrbuild __FWriteArgs.Buffer, __FWriteFlattenBuf, __FWriteLn
+4	240	224		arrsize __FWriteArgs.Length, __FWriteArgs.Buffer
+4	240	227		syscall 4, __FWriteArgs
+4	240	230		release __FWriteMutex
+4	7671	231	#line 7671 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC1\Testebloco2.nxc"
+4	239	231	#line 239 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC1\Testebloco2.nxc"
+4	239	231	#line 239 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC1\Testebloco2.nxc"
+4	244	231	#line 244 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC1\Testebloco2.nxc"
+4	245	231		subret __control_pos_return
+5	271	0	#line 271 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC1\Testebloco2.nxc"
+5	272	0		subret ____initialize_global_data_return
+#CLUMPS
+Clump	Name	Offset	File
+0	main	0	C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC1\Testebloco2.nxc
+1	ws	107	C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC1\Testebloco2.nxc
+2	wd_rodas	193	C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC1\Testebloco2.nxc
+3	control_motor	227	C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC1\Testebloco2.nxc
+4	control_pos	567	C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC1\Testebloco2.nxc
+5	__initialize_global_data	800	C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC1\Testebloco2.nxc

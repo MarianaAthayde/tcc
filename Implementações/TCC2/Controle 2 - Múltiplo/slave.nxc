@@ -1,0 +1,232 @@
+#define L 0.112
+#define RP 0.0216
+//Parâmetro da formação
+#define R 0.3
+//Periodo em segundos
+#define T 24.0
+
+//MASTER
+#define BT_CONN 1
+#define INBOX 5
+#define OUTBOX 1
+
+#define motorR OUT_A
+#define motorL OUT_C
+
+//Auxiliar para gravar no arquivo txt
+string write;
+short bytesWritten;
+byte fileHandle;
+string write2;
+short bytesWritten2;
+byte fileHandle2;
+
+//Converter graus em radianos 1º = 0,0174533 rad
+float convrad = 0.0174533;
+
+int t_amostral = 35;
+int amostras = 2000;
+
+long tempo_inicial = 0.0;
+long tempo_k = 0.0;
+float dt = 0.0;
+
+long ma_k = 0.0;
+long ma_k_plus = 0.0;
+float ma = 0.0;
+long mc_k = 0.0;
+long mc_k_plus = 0.0;
+float mc = 0.0;
+
+float wrd = 0.0;
+float wr = 0.0;
+float wld = 0.0;
+float wl = 0.0;
+
+float kp = 350.0;
+float ki = 0;
+float kd = 0;
+
+float kp_pos = 1.0;
+float ki_pos = 0.0;
+float kd_pos = 0.0;
+
+float prev_err = 0.0;
+float acum_err = 0.0;
+//float acum_err = 0.0;
+//float prev_ewr = 0.0;
+//float acum_erl = 0.0;
+//float prev_ewl = 0.0;
+
+float xr = 0.0;
+float yr = 0.0;
+float tetar_k = PI;
+float tetar_k_plus = 0.0;
+float err = 0.0;
+float x1 = 0.0;
+
+float xc = 0.0;
+float yc = 0.0;
+
+float d_dr = 0.0;
+float dr = 0.0;
+
+float d_dl = 0.0;
+float dl = 0.0;
+
+
+long ma2_k = 0.0;
+long ma2_k_plus = 0.0;
+float ma2 = 0.0;
+long mc2_k = 0.0;
+long mc2_k_plus = 0.0;
+float mc2 = 0.0;
+
+float acum_errt = 0.0;
+
+float xd = 0.0;
+float yd = 0.0;
+
+float vi = 0.0;
+
+sub getWs(){
+
+    mc_k_plus = MotorRotationCount(motorL);
+    ma_k_plus = MotorRotationCount(motorR);
+
+    ma = ma_k_plus - ma_k;
+    mc = mc_k_plus - mc_k;
+    ma_k = ma_k_plus;
+    mc_k = mc_k_plus;
+
+    wr = (ma * convrad)/dt;
+    wl = (mc * convrad)/dt;
+}
+
+sub engineControl(float velLinear_Desejada, float w_controled){
+    //Atualizando os valores da velocidade angular real de cada roda
+    getWs();
+    float v = ((wr + wl) *RP/2);
+    float erro = velLinear_Desejada - v;
+    float pwm = erro*kp + acum_err + ki*erro*dt + kd*(erro - prev_err)/dt;;
+
+    acum_err = acum_err + ki*erro*dt;
+    prev_err = erro;
+
+    float w = ((wr - wl) *RP/L);
+    float err_w = w_controled - w;
+    float cw = err_w * (-50);
+
+    if(pwm>100){
+    pwm = 100;
+    }
+    if(pwm < -100){
+    pwm = -100;
+    }
+    if(cw>100){
+    cw = 100;
+    }
+    if(cw < -100){
+    cw = -100;
+    }
+    
+    if(pwm > 0){
+    OnFwdSync(OUT_AC,pwm,0);
+    }else{
+    OnRevSync(OUT_AC,-pwm,0);
+    }
+    
+    //OnFwdReg(OUT_AC,pwm,OUT_REGMODE_SYNC);
+    
+    TextOut(2,LCD_LINE5,StrCat("E.v.:", NumToStr(erro)));
+    TextOut(2,LCD_LINE6,StrCat("E.w.:", NumToStr(err_w)));
+    //Salvando erros em arquivo
+    short bytesWritten;
+    write = StrCat(NumToStr(erro),"|",NumToStr(pwm),"|",NumToStr(err_w),"|",NumToStr(cw));
+    WriteLnString(fileHandle,write, bytesWritten);
+}
+
+sub positionControl(){
+
+    //Obtendo distâncias percorridas por cada roda
+    mc2_k_plus = MotorRotationCount(motorL);
+    ma2_k_plus = MotorRotationCount(motorR);
+
+    ma2 = ma2_k_plus - ma2_k;
+    mc2 = mc2_k_plus - mc2_k;
+    ma2_k = ma2_k_plus;
+    mc2_k = mc2_k_plus;
+
+    float ddr = (ma2 * 2 * PI * RP)/360.0;
+    float ddl = (mc2 * 2 * PI * RP)/360.0;
+
+    //Obtendo posição e sentido real
+    xr = xr + ((ddr+ddl)* cos(tetar_k)/2.0);
+    yr = yr + ((ddr+ddl)* sin(tetar_k)/2.0);
+    tetar_k = tetar_k + (ddr - ddl)/L;
+
+    //Obtendo velocidade desejado
+    err = xr - x1;
+
+    //Controle P
+    float v = vi + err*0.5; //+ acum_err + ki_pos*err*dt + kd_pos * (err - err_past)/dt;
+    
+    float w = yr*10;
+    //acum_errt = acum_errt + ki_pos*errt*dt;
+    //acum_err = acum_err + ki_pos*dt*err;
+
+
+    TextOut(2,LCD_LINE4,StrCat("E.Dx.: ",NumToStr(err)));
+    //Salvando erros em arquivo
+    short bytesWritten2;
+    string write2 = StrCat(NumToStr(xr),"|",NumToStr(yr),"|",NumToStr(x1),"|", NumToStr(v));
+    WriteLnString(fileHandle2,write2, bytesWritten2);
+
+    engineControl(v,w);
+}
+
+sub BTCheck(int conn){
+if (!BluetoothStatus(conn)==NO_ERR){
+TextOut(5,LCD_LINE2,"Error!!");
+Wait(1000);
+Stop(true);
+}
+}
+
+task main(){
+
+    DeleteFile("Teste.txt");
+    CreateFile("Teste.txt",40920, fileHandle);
+    DeleteFile("Teste2.txt");
+    CreateFile("Teste2.txt",40480,fileHandle2);
+    
+    string in,out;
+
+    BTCheck(0); //checa a conexão com o master
+    //StartTask(Comunicacao);
+    long tempo_inicial = CurrentTick();
+    for(int t = 0; t < amostras; t++){
+        long dt_aux = CurrentTick() - tempo_k;
+        tempo_k = tempo_k + dt_aux;
+        dt = dt_aux/1000.0;
+        out = StrCat("ok|", NumToStr(xr));
+        TextOut(10,LCD_LINE1,"Slave Test");
+        TextOut(0,LCD_LINE2,"IN:");
+        TextOut(0,LCD_LINE3,"OUT:");
+        ReceiveRemoteString(INBOX, true, in);
+        SendResponseString(OUTBOX,out);
+        int index = Pos("|",in);
+
+        if(strcmp(Copy(in,0,index), "ok") == 0){
+        //vi = 0.25;
+        x1 = atof(Copy(in,index+1,StrLen(in)-index+1));
+        TextOut(6,LCD_LINE2,in);
+        TextOut(6,LCD_LINE3,out); }
+        Wait(100);
+        positionControl();
+        Wait(t_amostral);
+    }
+
+    CloseFile(fileHandle);
+    CloseFile(fileHandle2);
+}

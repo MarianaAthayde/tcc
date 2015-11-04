@@ -1,0 +1,248 @@
+#define L 0.112
+#define RP 0.0216
+//Parâmetro da formação
+#define R 0.3
+//Periodo em segundos
+#define T 24.0
+
+//MASTER
+#define BT_CONN 1
+#define INBOX 1
+#define OUTBOX 5
+
+#define motorR OUT_A
+#define motorL OUT_C
+
+//Auxiliar para gravar no arquivo txt
+string write;
+short bytesWritten;
+byte fileHandle;
+string write2;
+short bytesWritten2;
+byte fileHandle2;
+
+//Converter graus em radianos 1º = 0,0174533 rad
+float convrad = 0.0174533;
+
+int t_amostral = 35;
+int amostras = 2000;
+
+long tempo_inicial = 0.0;
+long tempo_k = 0.0;
+float dt = 0.0;
+
+long ma_k = 0.0;
+long ma_k_plus = 0.0;
+float ma = 0.0;
+long mc_k = 0.0;
+long mc_k_plus = 0.0;
+float mc = 0.0;
+
+float wrd = 0.0;
+float wr = 0.0;
+float wld = 0.0;
+float wl = 0.0;
+
+float kp = 18.0;
+float ki = 0.0006;
+float kd = 0.0008;
+
+float kp_pos = 1.0;
+float ki_pos = 0.0;
+float kd_pos = 0.0;
+
+float acum_err = 0.0;
+float prev_ewr = 0.0;
+float acum_erl = 0.0;
+float prev_ewl = 0.0;
+
+float xr = 0.8;
+float yr = 0.0;
+float tetar_k = PI;
+float tetar_k_plus = 0.0;
+float errt = 0.0;
+
+float xc = 0.0;
+float yc = 0.0;
+
+float d_dr = 0.0;
+float dr = 0.0;
+
+float d_dl = 0.0;
+float dl = 0.0;
+
+
+long ma2_k = 0.0;
+long ma2_k_plus = 0.0;
+float ma2 = 0.0;
+long mc2_k = 0.0;
+long mc2_k_plus = 0.0;
+float mc2 = 0.0;
+
+float acum_errt = 0.0;
+
+float xd = 0.0;
+float yd = 0.0;
+
+sub getWs(){
+
+    mc_k_plus = MotorRotationCount(motorL);
+    ma_k_plus = MotorRotationCount(motorR);
+
+    ma = ma_k_plus - ma_k;
+    mc = mc_k_plus - mc_k;
+    ma_k = ma_k_plus;
+    mc_k = mc_k_plus;
+
+    wr = (ma * convrad)/dt;
+    wl = (mc * convrad)/dt;
+}
+
+sub engineControl(float velLinear_Desejada, float w_controled){
+    //Atualizando os valores da velocidade angular real de cada roda
+    getWs();
+
+    //Calculando a velocidade angular desejada de cada motor
+    wrd = (2 * velLinear_Desejada + w_controled * L) / (2 * RP);
+    wld = (2 * velLinear_Desejada - w_controled * L) / (2 * RP);
+
+    //Calculando o erro
+    float ewr = wrd - wr;
+    float ewl = wld - wl;
+
+    //Ações de controle
+    //ganho proporcional  - ganho integral - ganho derivativo
+    //float cr = kp*ewr;
+    //float cl = kp*ewl;
+    //float cr = kp*ewr + acum_err + ki*dt*ewr + kd*(ewr - prev_ewr)/dt;
+    //float cl = kp*ewl + acum_erl + ki*dt*ewl + kd*(ewl - prev_ewl)/dt;
+    //float cr = kp*ewr + acum_err + ki*dt*ewr;
+    //float cl = kp*ewl + acum_erl + ki*dt*ewl;
+    float cr = kp*ewr + acum_err + ki*ewr*dt + kd*(ewr - prev_ewr)/dt;
+    float cl = kp*ewl + acum_erl + ki*ewl*dt + kd*(ewl - prev_ewr)/dt;
+    acum_err = acum_err + ki*ewr*dt;
+    acum_erl = acum_erl + ki*ewl*dt;
+
+    //Salvando erro atual - piD
+    prev_ewr = ewr;
+    prev_ewl = ewl;
+
+    //Atualizando o acumulador de erro
+    //acum_err = acum_err + ki*dt*ewr;
+    //acum_erl = acum_erl + ki*dt*ewl;
+
+    OnFwd(motorR,cr);
+    OnFwd(motorL,cl);
+    //Salvando erros em arquivo
+    short bytesWritten;
+    write = StrCat(NumToStr(ewr),"|",NumToStr(ewl),"|",NumToStr(dt));
+    WriteLnString(fileHandle,write, bytesWritten);
+}
+
+sub positionControl(){
+
+    //Obtendo distâncias percorridas por cada roda
+    mc2_k_plus = MotorRotationCount(motorL);
+    ma2_k_plus = MotorRotationCount(motorR);
+
+    ma2 = ma2_k_plus - ma2_k;
+    mc2 = mc2_k_plus - mc2_k;
+    ma2_k = ma2_k_plus;
+    mc2_k = mc2_k_plus;
+
+    float ddr = (ma2 * 2 * PI * RP)/360.0;
+    float ddl = (mc2 * 2 * PI * RP)/360.0;
+
+    //Obtendo posição e sentido real
+    xr = xr + ((ddr+ddl)* cos(tetar_k)/2.0);
+    yr = yr + ((ddr+ddl)* sin(tetar_k)/2.0);
+    tetar_k = tetar_k + (ddr - ddl)/L;
+
+    //Obtendo posição e teta desejado
+    long tempo_corrido = CurrentTick() - tempo_inicial;
+    float aux = (2*PI/T) * (tempo_corrido/1000.0);
+
+    //Obtendo posição e sentido desejados
+    xd = xc + R * cos(aux);
+    yd = yc + R * sin(aux);
+    float errx = xd - xr;
+    float erry = yd - yr;
+
+    float tetad = atan2(erry,errx);
+
+    float errt_past = errt;
+    //Diminuir de acordo com o erro
+    //velLinear_Desejada = 2 * sqrt((pow(errx,2)+pow(erry,2)));
+
+    errt = tetad - tetar_k;
+    errt = atan2(sin(errt),cos(errt));
+
+    //Controle P
+    //float w_controled = kp_pos*errt;
+
+    //Controle PI
+    //w_controled = kp_pos*errt + acum_errt + ki_pos*dt*errt;
+    //Controle PID
+    //float w_controled = kp_pos*errt + acum_errt + ki_pos*dt*errt + kd_pos * (errt - errt_past)/dt;
+    float w_controled = kp_pos*errt + acum_errt + ki_pos*errt*dt + kd_pos * (errt - errt_past)/dt;
+    //acum_errt = acum_errt + ki_pos*errt*dt;
+    acum_errt = acum_errt + ki_pos*dt*errt;
+
+    //Salvando erros em arquivo
+    short bytesWritten2;
+    string write2 = StrCat(NumToStr(xr),"|",NumToStr(yr),"|",NumToStr(xd),"|", NumToStr(yd),"|", NumToStr(w_controled));
+    WriteLnString(fileHandle2,write2, bytesWritten2);
+
+    float dist = sqrt((pow(errx,2)+(pow(erry,2))));
+    float v = (2*PI*R/T);
+    if(dist > 0.05){
+            v = v*1.4;
+    }
+    engineControl(v, w_controled);
+}
+
+sub BTCheck(int conn){
+if (!BluetoothStatus(conn)==NO_ERR){
+TextOut(5,LCD_LINE2,"Error");
+Wait(1000);
+Stop(true);
+}
+}
+
+task Comunicacao(){
+//string in;
+string out;
+while(true){
+out = StrCat(NumToStr(xd),"|",NumToStr(yd));
+TextOut(10,LCD_LINE1,"Master Test");
+//TextOut(0,LCD_LINE2,"IN:");
+TextOut(0,LCD_LINE4,"OUT:");
+//ReceiveRemoteString(INBOX, true, in);
+SendRemoteString(BT_CONN,OUTBOX,out);
+//TextOut(10,LCD_LINE3,in);
+TextOut(10,LCD_LINE5,out);
+Wait(100);
+}
+}
+
+task main(){
+
+    DeleteFile("Teste.txt");
+    //CreateFile("Teste.txt",40920, fileHandle);
+    DeleteFile("Teste2.txt");
+    CreateFile("Teste2.txt",90480,fileHandle2);
+
+    BTCheck(BT_CONN); //checa a conexão com o master
+    StartTask(Comunicacao);
+    long tempo_inicial = CurrentTick();
+    for(int t = 0; t < amostras; t++){
+        long dt_aux = CurrentTick() - tempo_k;
+        tempo_k = tempo_k + dt_aux;
+        dt = dt_aux/1000.0;
+        positionControl();
+        Wait(t_amostral);
+    }
+
+    CloseFile(fileHandle);
+    CloseFile(fileHandle2);
+}

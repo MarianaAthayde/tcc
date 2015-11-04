@@ -1,0 +1,153 @@
+//Tratamento de Comandos maiores que |100| com Proporcionalidade
+/********************************
+*  Parâmetros do robô (metros)  *
+*********************************
+* L  = Distância entre os eixos *
+* RP = Raio do pneu             *
+*********************************/
+#define L 0.105
+#define RP 0.0287
+//Parâmetro da formação
+#define R 0.20
+//Periodo em segundos
+#define T 10
+//******************************//
+//Converte rotações por milissegundos para rads
+#define TORADS 17.45
+//Parâmetros do Controlador
+#define kp 10
+#define ki 1
+#define kd 1
+
+/*******************************
+*            Variáveis         *
+********************************/
+//Tempo de Amostragem
+int t_amostral = 200;
+
+//Número de amostras
+int k = 200;
+
+//recebera o tempo e a variação do tempo por amostragem, respectivamente
+long prev_tick;
+long dt = 0;
+//Acumulador de erro de velocidade angular
+float acum_err = 0;
+float acum_erl = 0;
+
+//Auxiliar para gravar no arquivo txt
+string write;
+short bytesWritten;
+byte fileHandle;
+
+/*******************************
+*              Robô            *
+********************************/
+float Wd = (2 * PI) / T;
+float Vd = Wd * R;
+/*******************************
+*         Roda Direita         *
+********************************/
+//velocidade angular real e desejada do robo
+//float wr,wdr;
+//Contagem de rotações da roda no tempo t-1
+long prev_deg_a = 0;
+//Potência de atuação do motor direito
+int pwr;
+float ewr_D = 0;
+
+/*******************************
+*         Roda Esquerda        *
+********************************/
+//velocidade angular real e desejada do robo
+float wl,wdl;
+//Contagem de rotações da roda no tempo t-1
+long prev_deg_c = 0;
+//Potência de atuação do motor direito
+int pwl;
+float ewl_D = 0;
+
+sub ws(){
+   //Calculando as velocidades angulares da amostra w(k) de cada roda
+   dt = CurrentTick() - prev_tick;
+   prev_tick = CurrentTick();
+   //Graus por milissegundos
+   long deg_a = MotorRotationCount(OUT_A) - prev_deg_a;
+   long deg_c = MotorRotationCount(OUT_C) - prev_deg_c;
+   wr = deg_a * TORADS / dt;
+   wl = deg_c * TORADS / dt;
+   prev_deg_a = MotorRotationCount(OUT_A);
+   prev_deg_c = MotorRotationCount(OUT_C);
+}
+
+sub control_motor(){
+    //Ação de Controle
+    //Obtendo as velocidades angular de cada roda
+    ws();
+    //Erro de cada roda
+    float ewr = wdr - wr;
+    float ewl = wdl - wl;
+    //Ações de controle
+    //ganho proporcional  - ganho integral - ganho derivativo
+    float cr = kp*ewr + acum_err + ki*0.2*ewr + kd*(ewr - ewr_D)/dt;
+    float cl = kp*ewl + acum_erl + ki*0.2*ewl + kd*(ewl - ewl_D)/dt;
+    ewr_D = ewr;
+    ewl_D = ewl;
+    //ganho proporcional  - ganho integral
+    //float cr = kp*ewr + acum_err + ki*0.2*ewr;
+    //float cl = kp*ewl + acum_erl + ki*0.2*ewl;
+    acum_err = acum_err + ki*0.2*ewr;
+    acum_erl = acum_erl + ki*0.2*ewl;
+    //Colocando os motores  dentro dos padrões aplicáveis (-100,100)
+    float abs_cr = 0;
+    float abs_cl = 0;
+    if(cr < 0){
+          abs_cr = -cr;
+    }else{
+          abs_cr = cr;
+    }
+    if(cl < 0){
+          abs_cl = -cl;
+    }else{
+          abs_cl = cl;
+    }
+    if(abs_cr > 100 || abs_cl > 100){
+          if(abs_cr > abs_cl){
+                float p = cr/cl;
+                if(cr < 0){
+                     cr = -100;
+                }else{
+                      cr = 100;
+                }
+                cl = cr/p;
+          }else{
+               float p = cl/cr;
+                if(cl < 0){
+                     cl = -100;
+                }else{
+                      cl = 100;
+                }
+                cr = cl/p;
+          }
+    }
+    OnFwd(OUT_A,cr);
+    OnFwd(OUT_C,cl);
+    //Salvando erros em arquivo
+    write = StrCat(NumToStr(ewr),"|",NumToStr(ewl));
+    WriteLnString(fileHandle,write, bytesWritten);
+}
+
+task main(){
+    //Inicializando o sistema
+    wdr = (2*Vd + Wd*L)/(2*RP);
+    wdl = (2*Vd - Wd*L)/(2*RP);
+    DeleteFile("Err_B1_PID_15.txt");
+    CreateFile("Err_B1_PID_15.txt",2*2048, fileHandle);
+
+    prev_tick = CurrentTick();
+    for(int t = 0; t < k;t++){
+        control_motor();
+        Wait(t_amostral);
+    }
+    CloseFile(fileHandle);
+}
