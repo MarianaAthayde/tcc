@@ -1,0 +1,1018 @@
+#SYMBOLS
+Index	Identifier	Type	Flag	Data	Size	RefCount
+0	ma2	10	1	0	4	2
+1	mc2_k	6	1	4	4	2
+2	mc2_k_plus	6	1	8	4	3
+3	ma2_k_plus	6	1	12	4	3
+4	xc	10	1	16	4	1
+5	yc	10	1	20	4	1
+6	ma2_k	6	1	24	4	2
+7	mc2	10	1	28	4	2
+8	__constValf0P0432	10	0	32	4	2
+9	__engineControl_7qG2_ewr_7qG2_000	10	1	36	4	7
+10	__engineControl_7qG2_ewl_7qG2_000	10	1	40	4	6
+11	__constValf0P112	10	0	44	4	3
+12	acum_errt	10	1	48	4	3
+13	__engineControl_7qG2_velLinear_Desejada_7qG2_000	10	1	52	4	3
+14	__engineControl_7qG2_w_controled_7qG2_000	10	1	56	4	3
+15	errt	10	1	60	4	9
+16	ki	10	0	64	4	4
+17	kd	10	0	68	4	2
+18	kp_pos	10	0	72	4	1
+19	kp	10	0	76	4	2
+20	wr	10	1	80	4	2
+21	wld	10	1	84	4	2
+22	wl	10	1	88	4	2
+23	ki_pos	10	1	92	4	2
+24	xr	10	0	96	4	4
+25	yr	10	1	100	4	4
+26	tetar_k	10	0	104	4	5
+27	acum_erl	10	1	108	4	3
+28	kd_pos	10	1	112	4	1
+29	acum_err	10	1	116	4	3
+30	prev_ewr	10	1	120	4	3
+31	__positionControl_7qG2_w_controled_7qG2_000	10	1	124	4	3
+32	__positionControl_7qG2_dist_7qG2_000	10	1	128	4	2
+33	__sqrt_7qG2_x_7qG2_000_inline_positionControl	10	1	132	4	2
+34	__positionControl_7qG2_errt_past_7qG2_000	10	1	136	4	2
+35	__positionControl_7qG2_tetad_7qG2_000	10	1	140	4	2
+36	__atan2_7qG2_y_7qG2_000_inline_positionControl	10	1	144	4	4
+37	__atan2_7qG2_x_7qG2_000_inline_positionControl	10	1	148	4	4
+38	__pow_7qG2_base_7qG2_000_inline_positionControl	10	1	152	4	4
+39	__constValf1P4	10	0	156	4	1
+40	__constVal90480	6	0	160	4	1
+41	__main_7qG2_dt_aux_7qG2_002	6	1	164	4	3
+42	__constValf0P05	10	0	168	4	1
+43	__pow_7qG2_exponent_7qG2_000_inline_positionControl	10	1	172	4	4
+44	__positionControl_7qG2_v_7qG2_000	10	1	176	4	4
+45	__constValf0P078539825	10	0	180	4	1
+46	__positionControl_7qG2_erry_7qG2_000	10	1	184	4	3
+47	__constValf0P0216	10	0	188	4	2
+48	__positionControl_7qG2_ddl_7qG2_000	10	1	192	4	4
+49	__cos_7qG2_x_7qG2_000_inline_positionControl	10	1	196	4	6
+50	__constValf3P141593	10	0	200	4	2
+51	__engineControl_7qG2_cr_7qG2_000	10	1	204	4	2
+52	__engineControl_7qG2_cl_7qG2_000	10	1	208	4	2
+53	__positionControl_7qG2_ddr_7qG2_000	10	1	212	4	4
+54	__sin_7qG2_x_7qG2_000_inline_positionControl	10	1	216	4	6
+55	__constValf0P3	10	0	220	4	2
+56	__positionControl_7qG2_yd_7qG2_000	10	1	224	4	3
+57	__positionControl_7qG2_errx_7qG2_000	10	1	228	4	3
+58	__positionControl_7qG2_xd_7qG2_000	10	1	232	4	3
+59	__positionControl_7qG2_tempo_corrido_7qG2_000	6	1	236	4	2
+60	__positionControl_7qG2_aux_7qG2_000	10	1	240	4	3
+61	__constValf0P2617994167	10	0	244	4	1
+62	__signed_stack_001main	6	1	248	4	2
+63	__float_stack_001getWs	10	1	252	4	4
+64	__float_stack_002engineControl	10	1	256	4	16
+65	__unsigned_stack_001main	5	1	260	4	2
+66	__float_stack_002positionControl	10	1	264	4	22
+67	__float_stack_001positionControl	10	1	268	4	36
+68	__unsigned_stack_001positionControl	5	1	272	4	2
+69	__FWriteMutex	9	0	276	4	4
+70	__D0main	6	1	280	4	8
+71	__DF0engineControl	10	1	284	4	30
+72	__D0positionControl	6	1	288	4	2
+73	__float_stack_001engineControl	10	1	292	4	24
+74	__DF0positionControl	10	1	296	4	42
+75	__FOMutex	9	0	300	4	2
+76	ma_k_plus	6	1	304	4	3
+77	wrd	10	1	308	4	2
+78	dt	10	1	312	4	13
+79	ma_k	6	1	316	4	2
+80	ma	10	1	320	4	2
+81	mc_k	6	1	324	4	2
+82	mc	10	1	328	4	2
+83	mc_k_plus	6	1	332	4	3
+84	convrad	10	0	336	4	2
+85	tempo_inicial	6	1	340	4	1
+86	tempo_k	6	1	344	4	3
+87	__constVal1000	4	0	348	2	2
+88	__main_7qG2_t_7qG2_001	4	1	350	2	4
+89	amostras	4	0	352	2	1
+90	__constVal360	4	0	354	2	2
+91	t_amostral	4	0	356	2	1
+92	__positionControl_return	1	1	358	1	3
+93	____initialize_global_data_return	1	1	359	1	3
+94	__constVal32	2	0	360	1	6
+95	__constVal1	2	0	361	1	1
+96	__constVal2	2	0	362	1	11
+97	__constVal3	2	0	363	1	2
+98	__constVal0	2	1	364	1	9
+99	__engineControl_return	1	1	365	1	3
+100	__getWs_return	1	1	366	1	3
+101	__zfpositionControl	1	1	367	1	3
+102	__zfmain	1	1	368	1	3
+103	__constVal96	2	0	369	1	2
+104	fileHandle	1	1	370	1	2
+105	__constVal63	2	0	371	1	2
+106	fileHandle2	1	1	372	1	3
+107	__FCArgs	8	0	2	4	6
+108	__FCArgs.Result	3	1	376	2	6
+109	__FCArgs.FileHandle	1	1	378	1	6
+110	__FOArgs	8	0	4	12	5
+111	__FOArgs.Result	3	1	380	2	5
+112	__FOArgs.FileHandle	1	1	382	1	5
+113	__FOArgs.Filename	7	0	384	4	5
+114	__FOArgs.Filename.Filename_type	1	0	0	1	0
+115	__FOArgs.Length	5	1	388	4	5
+116	__FWriteArgs	8	0	4	12	11
+117	__FWriteArgs.Result	3	1	392	2	11
+118	__FWriteArgs.FileHandle	1	1	394	1	11
+119	__FWriteArgs.Buffer	7	0	396	4	11
+120	__FWriteArgs.Buffer.Buffer_type	1	0	0	1	0
+121	__FWriteArgs.Length	5	1	400	4	11
+122	__FDArgs	8	0	2	8	6
+123	__FDArgs.Result	3	1	404	2	6
+124	__FDArgs.Filename	7	0	406	4	6
+125	__FDArgs.Filename.Filename_type	1	0	0	1	0
+126	__positionControl_7qG2_write2_7qG2_000	7	0	408	4	2
+127	__positionControl_7qG2_write2_7qG2_000.__positionControl_7qG2_write2_7qG2_000_type	1	0	0	1	0
+128	__FWriteFlattenBuf	7	0	410	4	4
+129	__FWriteFlattenBuf.__FWriteFlattenBuf_type	1	0	0	1	0
+130	__constStr0010	7	0	412	4	1
+131	__constStr0010.__constStr0010_type	1	1	0	1	0
+132	__strbufpositionControl	7	0	414	4	20
+133	__strbufpositionControl.__strbufpositionControl_type	1	0	0	1	0
+134	__constStr0011	7	0	416	4	2
+135	__constStr0011.__constStr0011_type	1	1	0	1	0
+136	__strretvalpositionControl	7	0	418	4	12
+137	__strretvalpositionControl.__strretvalpositionControl_type	1	0	0	1	0
+138	write	7	0	420	4	2
+139	write.write_type	1	0	0	1	0
+140	__FWriteLn	7	0	422	4	2
+141	__FWriteLn.__FWriteLn_type	1	0	0	1	0
+142	__ArrHelper__positionControl_244_5	7	0	424	4	2
+143	__ArrHelper__positionControl_244_5.__ArrHelper__positionControl_244_5_type	1	0	0	1	0
+144	__ArrHelper__positionControl_244_6	7	0	426	4	2
+145	__ArrHelper__positionControl_244_6.__ArrHelper__positionControl_244_6_type	1	0	0	1	0
+146	__ArrHelper__positionControl_244_3	7	0	428	4	2
+147	__ArrHelper__positionControl_244_3.__ArrHelper__positionControl_244_3_type	1	0	0	1	0
+148	__ArrHelper__positionControl_244_4	7	0	430	4	2
+149	__ArrHelper__positionControl_244_4.__ArrHelper__positionControl_244_4_type	1	0	0	1	0
+150	__strbufengineControl	7	0	432	4	12
+151	__strbufengineControl.__strbufengineControl_type	1	0	0	1	0
+152	__constStr0009	7	0	434	4	6
+153	__constStr0009.__constStr0009_type	1	1	0	1	0
+154	__ArrHelper__positionControl_244_7	7	0	436	4	2
+155	__ArrHelper__positionControl_244_7.__ArrHelper__positionControl_244_7_type	1	0	0	1	0
+156	__ArrHelper__positionControl_244_8	7	0	438	4	2
+157	__ArrHelper__positionControl_244_8.__ArrHelper__positionControl_244_8_type	1	0	0	1	0
+158	__ArrHelper__positionControl_244_2	7	0	440	4	2
+159	__ArrHelper__positionControl_244_2.__ArrHelper__positionControl_244_2_type	1	0	0	1	0
+160	__ArrHelper__engineControl_244_1	7	0	442	4	2
+161	__ArrHelper__engineControl_244_1.__ArrHelper__engineControl_244_1_type	1	0	0	1	0
+162	__ArrHelper__engineControl_244_2	7	0	444	4	2
+163	__ArrHelper__engineControl_244_2.__ArrHelper__engineControl_244_2_type	1	0	0	1	0
+164	__strretvalengineControl	7	0	446	4	8
+165	__strretvalengineControl.__strretvalengineControl_type	1	0	0	1	0
+166	__ArrHelper__engineControl_244_0	7	0	448	4	2
+167	__ArrHelper__engineControl_244_0.__ArrHelper__engineControl_244_0_type	1	0	0	1	0
+168	__ArrHelper__positionControl_244_0	7	0	450	4	2
+169	__ArrHelper__positionControl_244_0.__ArrHelper__positionControl_244_0_type	1	0	0	1	0
+170	__ArrHelper__positionControl_244_1	7	0	452	4	2
+171	__ArrHelper__positionControl_244_1.__ArrHelper__positionControl_244_1_type	1	0	0	1	0
+172	__ArrHelper__engineControl_244_3	7	0	454	4	2
+173	__ArrHelper__engineControl_244_3.__ArrHelper__engineControl_244_3_type	1	0	0	1	0
+174	__ArrHelper__engineControl_244_4	7	0	456	4	2
+175	__ArrHelper__engineControl_244_4.__ArrHelper__engineControl_244_4_type	1	0	0	1	0
+#SOURCES
+Clump	Line	PC	Source
+0	197	0	#line 197 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC2\Bloco2\Motor2.nxc"
+0	198	0		subcall __initialize_global_data, ____initialize_global_data_return
+0	197	2	#line 197 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC2\Bloco2\Motor2.nxc"
+0	197	2	#line 197 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC2\Bloco2\Motor2.nxc"
+0	198	2	#pragma macro 5
+0	198	2		mov __FDArgs.Filename, __constStr0010
+0	198	4		syscall 8, __FDArgs
+0	198	7		mov __D0main, __FDArgs.Result
+0	7906	9	#line 7906 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC2\Bloco2\Motor2.nxc"
+0	197	9	#line 197 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC2\Bloco2\Motor2.nxc"
+0	197	9	#line 197 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC2\Bloco2\Motor2.nxc"
+0	199	9	#line 199 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC2\Bloco2\Motor2.nxc"
+0	200	9	#pragma macro 5
+0	200	9		mov __FDArgs.Filename, __constStr0011
+0	200	11		syscall 8, __FDArgs
+0	200	14		mov __D0main, __FDArgs.Result
+0	7910	16	#line 7910 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC2\Bloco2\Motor2.nxc"
+0	199	16	#line 199 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC2\Bloco2\Motor2.nxc"
+0	199	16	#line 199 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC2\Bloco2\Motor2.nxc"
+0	200	16	#line 200 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC2\Bloco2\Motor2.nxc"
+0	201	16	#pragma macro 7
+0	201	16		acquire __FOMutex
+0	201	17		mov __FOArgs.Filename, __constStr0011
+0	201	19		mov __FOArgs.Length, __constVal90480
+0	201	21		syscall 1, __FOArgs
+0	201	24		mov fileHandle2, __FOArgs.FileHandle
+0	201	26		mov __D0main, __FOArgs.Result
+0	201	28		release __FOMutex
+0	7914	29	#line 7914 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC2\Bloco2\Motor2.nxc"
+0	200	29	#line 200 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC2\Bloco2\Motor2.nxc"
+0	200	29	#line 200 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC2\Bloco2\Motor2.nxc"
+0	202	29	#line 202 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC2\Bloco2\Motor2.nxc"
+0	202	29	#line 202 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC2\Bloco2\Motor2.nxc"
+0	203	29	#line 203 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC2\Bloco2\Motor2.nxc"
+0	204	29		set __main_7qG2_t_7qG2_001, 0
+0	203	32	#line 203 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC2\Bloco2\Motor2.nxc"
+0	203	32	#line 203 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC2\Bloco2\Motor2.nxc"
+0	204	32		mov __signed_stack_001main, __main_7qG2_t_7qG2_001
+0	203	34	#line 203 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC2\Bloco2\Motor2.nxc"
+0	203	34	#line 203 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC2\Bloco2\Motor2.nxc"
+0	204	34		mov __D0main, amostras
+0	203	36	#line 203 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC2\Bloco2\Motor2.nxc"
+0	204	36		cmp 0, __zfmain, __signed_stack_001main, __D0main
+0	203	40	#line 203 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC2\Bloco2\Motor2.nxc"
+0	204	40		mov __D0main, __zfmain
+0	203	42	#line 203 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC2\Bloco2\Motor2.nxc"
+0	204	42		brtst 4, __NXC_Label_794, __zfmain
+0	203	45	#line 203 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC2\Bloco2\Motor2.nxc"
+0	204	45		jmp __NXC_Label_795
+0	203	47	#line 203 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC2\Bloco2\Motor2.nxc"
+0	204	47		add __main_7qG2_t_7qG2_001, __main_7qG2_t_7qG2_001, __constVal1
+0	204	51	#line 204 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC2\Bloco2\Motor2.nxc"
+0	205	51		jmp __NXC_Label_793
+0	204	53	#line 204 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC2\Bloco2\Motor2.nxc"
+0	205	53		gettick __unsigned_stack_001main
+0	204	55	#line 204 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC2\Bloco2\Motor2.nxc"
+0	205	55	#line 205 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC2\Bloco2\Motor2.nxc"
+0	205	55	#line 205 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC2\Bloco2\Motor2.nxc"
+0	206	55		sub __main_7qG2_dt_aux_7qG2_002, __unsigned_stack_001main, tempo_k
+0	205	59	#line 205 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC2\Bloco2\Motor2.nxc"
+0	205	59	#line 205 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC2\Bloco2\Motor2.nxc"
+0	205	59	#line 205 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC2\Bloco2\Motor2.nxc"
+0	206	59	#line 206 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC2\Bloco2\Motor2.nxc"
+0	206	59	#line 206 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC2\Bloco2\Motor2.nxc"
+0	207	59		add tempo_k, tempo_k, __main_7qG2_dt_aux_7qG2_002
+0	206	63	#line 206 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC2\Bloco2\Motor2.nxc"
+0	206	63	#line 206 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC2\Bloco2\Motor2.nxc"
+0	206	63	#line 206 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC2\Bloco2\Motor2.nxc"
+0	206	63	#line 206 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC2\Bloco2\Motor2.nxc"
+0	207	63	#line 207 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC2\Bloco2\Motor2.nxc"
+0	207	63	#line 207 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC2\Bloco2\Motor2.nxc"
+0	208	63		div dt, __main_7qG2_dt_aux_7qG2_002, __constVal1000
+0	207	67	#line 207 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC2\Bloco2\Motor2.nxc"
+0	207	67	#line 207 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC2\Bloco2\Motor2.nxc"
+0	208	67	#line 208 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC2\Bloco2\Motor2.nxc"
+0	209	67		subcall positionControl, __positionControl_return
+0	208	69	#line 208 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC2\Bloco2\Motor2.nxc"
+0	208	69	#line 208 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC2\Bloco2\Motor2.nxc"
+0	208	69	#line 208 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC2\Bloco2\Motor2.nxc"
+0	7921	69	#line 7921 "NXCDefs.h"
+0	7922	69		waitv t_amostral
+0	7921	71	#line 7921 "NXCDefs.h"
+0	209	71	#line 209 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC2\Bloco2\Motor2.nxc"
+0	211	71	#line 211 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC2\Bloco2\Motor2.nxc"
+0	212	71		jmp __NXC_Label_796
+0	211	73	#line 211 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC2\Bloco2\Motor2.nxc"
+0	211	73	#line 211 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC2\Bloco2\Motor2.nxc"
+0	212	73	#pragma macro 5
+0	212	73		mov __FCArgs.FileHandle, fileHandle
+0	212	75		syscall 5, __FCArgs
+0	212	78		mov __D0main, __FCArgs.Result
+0	8024	80	#line 8024 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC2\Bloco2\Motor2.nxc"
+0	211	80	#line 211 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC2\Bloco2\Motor2.nxc"
+0	211	80	#line 211 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC2\Bloco2\Motor2.nxc"
+0	212	80	#line 212 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC2\Bloco2\Motor2.nxc"
+0	213	80	#pragma macro 5
+0	213	80		mov __FCArgs.FileHandle, fileHandle2
+0	213	82		syscall 5, __FCArgs
+0	213	85		mov __D0main, __FCArgs.Result
+0	8028	87	#line 8028 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC2\Bloco2\Motor2.nxc"
+0	212	87	#line 212 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC2\Bloco2\Motor2.nxc"
+0	212	87	#line 212 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC2\Bloco2\Motor2.nxc"
+0	213	87		exit -1, -1
+1	81	0	#line 81 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC2\Bloco2\Motor2.nxc"
+1	82	0		getout mc_k_plus, __constVal2, 14
+1	81	4	#line 81 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC2\Bloco2\Motor2.nxc"
+1	81	4	#line 81 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC2\Bloco2\Motor2.nxc"
+1	83	4	#line 83 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC2\Bloco2\Motor2.nxc"
+1	84	4		getout ma_k_plus, __constVal0, 14
+1	83	8	#line 83 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC2\Bloco2\Motor2.nxc"
+1	83	8	#line 83 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC2\Bloco2\Motor2.nxc"
+1	83	8	#line 83 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC2\Bloco2\Motor2.nxc"
+1	83	8	#line 83 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC2\Bloco2\Motor2.nxc"
+1	84	8	#line 84 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC2\Bloco2\Motor2.nxc"
+1	84	8	#line 84 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC2\Bloco2\Motor2.nxc"
+1	85	8		sub ma, ma_k_plus, ma_k
+1	84	12	#line 84 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC2\Bloco2\Motor2.nxc"
+1	84	12	#line 84 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC2\Bloco2\Motor2.nxc"
+1	84	12	#line 84 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC2\Bloco2\Motor2.nxc"
+1	84	12	#line 84 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC2\Bloco2\Motor2.nxc"
+1	85	12	#line 85 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC2\Bloco2\Motor2.nxc"
+1	85	12	#line 85 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC2\Bloco2\Motor2.nxc"
+1	86	12		sub mc, mc_k_plus, mc_k
+1	85	16	#line 85 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC2\Bloco2\Motor2.nxc"
+1	85	16	#line 85 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC2\Bloco2\Motor2.nxc"
+1	86	16	#line 86 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC2\Bloco2\Motor2.nxc"
+1	87	16		mov ma_k, ma_k_plus
+1	86	18	#line 86 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC2\Bloco2\Motor2.nxc"
+1	86	18	#line 86 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC2\Bloco2\Motor2.nxc"
+1	88	18	#line 88 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC2\Bloco2\Motor2.nxc"
+1	89	18		mov mc_k, mc_k_plus
+1	88	20	#line 88 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC2\Bloco2\Motor2.nxc"
+1	88	20	#line 88 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC2\Bloco2\Motor2.nxc"
+1	88	20	#line 88 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC2\Bloco2\Motor2.nxc"
+1	88	20	#line 88 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC2\Bloco2\Motor2.nxc"
+1	88	20	#line 88 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC2\Bloco2\Motor2.nxc"
+1	88	20	#line 88 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC2\Bloco2\Motor2.nxc"
+1	89	20		mul __float_stack_001getWs, ma, convrad
+1	88	24	#line 88 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC2\Bloco2\Motor2.nxc"
+1	89	24	#line 89 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC2\Bloco2\Motor2.nxc"
+1	89	24	#line 89 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC2\Bloco2\Motor2.nxc"
+1	90	24		div wr, __float_stack_001getWs, dt
+1	89	28	#line 89 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC2\Bloco2\Motor2.nxc"
+1	89	28	#line 89 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC2\Bloco2\Motor2.nxc"
+1	89	28	#line 89 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC2\Bloco2\Motor2.nxc"
+1	89	28	#line 89 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC2\Bloco2\Motor2.nxc"
+1	89	28	#line 89 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC2\Bloco2\Motor2.nxc"
+1	89	28	#line 89 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC2\Bloco2\Motor2.nxc"
+1	90	28		mul __float_stack_001getWs, mc, convrad
+1	89	32	#line 89 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC2\Bloco2\Motor2.nxc"
+1	90	32	#line 90 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC2\Bloco2\Motor2.nxc"
+1	90	32	#line 90 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC2\Bloco2\Motor2.nxc"
+1	91	32		div wl, __float_stack_001getWs, dt
+1	90	36	#line 90 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC2\Bloco2\Motor2.nxc"
+1	90	36	#line 90 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC2\Bloco2\Motor2.nxc"
+1	92	36	#line 92 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC2\Bloco2\Motor2.nxc"
+1	93	36		subret __getWs_return
+2	97	0	#line 97 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC2\Bloco2\Motor2.nxc"
+2	98	0		subcall getWs, __getWs_return
+2	97	2	#line 97 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC2\Bloco2\Motor2.nxc"
+2	97	2	#line 97 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC2\Bloco2\Motor2.nxc"
+2	97	2	#line 97 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC2\Bloco2\Motor2.nxc"
+2	97	2	#line 97 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC2\Bloco2\Motor2.nxc"
+2	97	2	#line 97 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC2\Bloco2\Motor2.nxc"
+2	98	2		mul __float_stack_001engineControl, __constVal2, __engineControl_7qG2_velLinear_Desejada_7qG2_000
+2	97	6	#line 97 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC2\Bloco2\Motor2.nxc"
+2	97	6	#line 97 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC2\Bloco2\Motor2.nxc"
+2	97	6	#line 97 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC2\Bloco2\Motor2.nxc"
+2	97	6	#line 97 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC2\Bloco2\Motor2.nxc"
+2	97	6	#line 97 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC2\Bloco2\Motor2.nxc"
+2	98	6		mul __DF0engineControl, __engineControl_7qG2_w_controled_7qG2_000, __constValf0P112
+2	97	10	#line 97 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC2\Bloco2\Motor2.nxc"
+2	98	10		add __float_stack_001engineControl, __float_stack_001engineControl, __DF0engineControl
+2	97	14	#line 97 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC2\Bloco2\Motor2.nxc"
+2	97	14	#line 97 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC2\Bloco2\Motor2.nxc"
+2	98	14	#line 98 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC2\Bloco2\Motor2.nxc"
+2	99	14		div wrd, __float_stack_001engineControl, __constValf0P0432
+2	98	18	#line 98 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC2\Bloco2\Motor2.nxc"
+2	98	18	#line 98 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC2\Bloco2\Motor2.nxc"
+2	98	18	#line 98 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC2\Bloco2\Motor2.nxc"
+2	98	18	#line 98 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC2\Bloco2\Motor2.nxc"
+2	98	18	#line 98 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC2\Bloco2\Motor2.nxc"
+2	98	18	#line 98 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC2\Bloco2\Motor2.nxc"
+2	99	18		mul __float_stack_001engineControl, __constVal2, __engineControl_7qG2_velLinear_Desejada_7qG2_000
+2	98	22	#line 98 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC2\Bloco2\Motor2.nxc"
+2	98	22	#line 98 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC2\Bloco2\Motor2.nxc"
+2	98	22	#line 98 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC2\Bloco2\Motor2.nxc"
+2	98	22	#line 98 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC2\Bloco2\Motor2.nxc"
+2	98	22	#line 98 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC2\Bloco2\Motor2.nxc"
+2	99	22		mul __DF0engineControl, __engineControl_7qG2_w_controled_7qG2_000, __constValf0P112
+2	98	26	#line 98 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC2\Bloco2\Motor2.nxc"
+2	99	26		sub __float_stack_001engineControl, __float_stack_001engineControl, __DF0engineControl
+2	98	30	#line 98 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC2\Bloco2\Motor2.nxc"
+2	98	30	#line 98 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC2\Bloco2\Motor2.nxc"
+2	101	30	#line 101 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC2\Bloco2\Motor2.nxc"
+2	102	30		div wld, __float_stack_001engineControl, __constValf0P0432
+2	101	34	#line 101 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC2\Bloco2\Motor2.nxc"
+2	101	34	#line 101 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC2\Bloco2\Motor2.nxc"
+2	101	34	#line 101 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC2\Bloco2\Motor2.nxc"
+2	101	34	#line 101 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC2\Bloco2\Motor2.nxc"
+2	102	34	#line 102 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC2\Bloco2\Motor2.nxc"
+2	102	34	#line 102 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC2\Bloco2\Motor2.nxc"
+2	103	34		sub __engineControl_7qG2_ewr_7qG2_000, wrd, wr
+2	102	38	#line 102 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC2\Bloco2\Motor2.nxc"
+2	102	38	#line 102 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC2\Bloco2\Motor2.nxc"
+2	102	38	#line 102 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC2\Bloco2\Motor2.nxc"
+2	112	38	#line 112 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC2\Bloco2\Motor2.nxc"
+2	112	38	#line 112 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC2\Bloco2\Motor2.nxc"
+2	113	38		sub __engineControl_7qG2_ewl_7qG2_000, wld, wl
+2	112	42	#line 112 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC2\Bloco2\Motor2.nxc"
+2	112	42	#line 112 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC2\Bloco2\Motor2.nxc"
+2	112	42	#line 112 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC2\Bloco2\Motor2.nxc"
+2	112	42	#line 112 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC2\Bloco2\Motor2.nxc"
+2	112	42	#line 112 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC2\Bloco2\Motor2.nxc"
+2	113	42		mul __float_stack_001engineControl, kp, __engineControl_7qG2_ewr_7qG2_000
+2	112	46	#line 112 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC2\Bloco2\Motor2.nxc"
+2	112	46	#line 112 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC2\Bloco2\Motor2.nxc"
+2	112	46	#line 112 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC2\Bloco2\Motor2.nxc"
+2	113	46		add __float_stack_001engineControl, __float_stack_001engineControl, acum_err
+2	112	50	#line 112 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC2\Bloco2\Motor2.nxc"
+2	112	50	#line 112 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC2\Bloco2\Motor2.nxc"
+2	112	50	#line 112 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC2\Bloco2\Motor2.nxc"
+2	112	50	#line 112 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC2\Bloco2\Motor2.nxc"
+2	112	50	#line 112 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC2\Bloco2\Motor2.nxc"
+2	113	50		mul __float_stack_002engineControl, ki, __engineControl_7qG2_ewr_7qG2_000
+2	112	54	#line 112 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC2\Bloco2\Motor2.nxc"
+2	112	54	#line 112 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC2\Bloco2\Motor2.nxc"
+2	112	54	#line 112 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC2\Bloco2\Motor2.nxc"
+2	113	54		mul __DF0engineControl, __float_stack_002engineControl, dt
+2	112	58	#line 112 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC2\Bloco2\Motor2.nxc"
+2	113	58		add __float_stack_001engineControl, __float_stack_001engineControl, __DF0engineControl
+2	112	62	#line 112 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC2\Bloco2\Motor2.nxc"
+2	112	62	#line 112 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC2\Bloco2\Motor2.nxc"
+2	113	62		mov __float_stack_002engineControl, kd
+2	112	64	#line 112 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC2\Bloco2\Motor2.nxc"
+2	112	64	#line 112 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC2\Bloco2\Motor2.nxc"
+2	112	64	#line 112 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC2\Bloco2\Motor2.nxc"
+2	112	64	#line 112 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC2\Bloco2\Motor2.nxc"
+2	112	64	#line 112 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC2\Bloco2\Motor2.nxc"
+2	113	64		sub __DF0engineControl, __engineControl_7qG2_ewr_7qG2_000, prev_ewr
+2	112	68	#line 112 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC2\Bloco2\Motor2.nxc"
+2	113	68		mul __float_stack_002engineControl, __float_stack_002engineControl, __DF0engineControl
+2	112	72	#line 112 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC2\Bloco2\Motor2.nxc"
+2	113	72	#line 113 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC2\Bloco2\Motor2.nxc"
+2	113	72	#line 113 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC2\Bloco2\Motor2.nxc"
+2	114	72		div __DF0engineControl, __float_stack_002engineControl, dt
+2	113	76	#line 113 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC2\Bloco2\Motor2.nxc"
+2	114	76		add __engineControl_7qG2_cr_7qG2_000, __float_stack_001engineControl, __DF0engineControl
+2	113	80	#line 113 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC2\Bloco2\Motor2.nxc"
+2	113	80	#line 113 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC2\Bloco2\Motor2.nxc"
+2	113	80	#line 113 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC2\Bloco2\Motor2.nxc"
+2	113	80	#line 113 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC2\Bloco2\Motor2.nxc"
+2	113	80	#line 113 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC2\Bloco2\Motor2.nxc"
+2	114	80		mul __float_stack_001engineControl, kp, __engineControl_7qG2_ewl_7qG2_000
+2	113	84	#line 113 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC2\Bloco2\Motor2.nxc"
+2	113	84	#line 113 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC2\Bloco2\Motor2.nxc"
+2	113	84	#line 113 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC2\Bloco2\Motor2.nxc"
+2	114	84		add __float_stack_001engineControl, __float_stack_001engineControl, acum_erl
+2	113	88	#line 113 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC2\Bloco2\Motor2.nxc"
+2	113	88	#line 113 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC2\Bloco2\Motor2.nxc"
+2	113	88	#line 113 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC2\Bloco2\Motor2.nxc"
+2	113	88	#line 113 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC2\Bloco2\Motor2.nxc"
+2	113	88	#line 113 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC2\Bloco2\Motor2.nxc"
+2	114	88		mul __float_stack_002engineControl, ki, __engineControl_7qG2_ewl_7qG2_000
+2	113	92	#line 113 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC2\Bloco2\Motor2.nxc"
+2	113	92	#line 113 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC2\Bloco2\Motor2.nxc"
+2	113	92	#line 113 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC2\Bloco2\Motor2.nxc"
+2	114	92		mul __DF0engineControl, __float_stack_002engineControl, dt
+2	113	96	#line 113 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC2\Bloco2\Motor2.nxc"
+2	114	96		add __float_stack_001engineControl, __float_stack_001engineControl, __DF0engineControl
+2	113	100	#line 113 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC2\Bloco2\Motor2.nxc"
+2	113	100	#line 113 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC2\Bloco2\Motor2.nxc"
+2	114	100		mov __float_stack_002engineControl, kd
+2	113	102	#line 113 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC2\Bloco2\Motor2.nxc"
+2	113	102	#line 113 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC2\Bloco2\Motor2.nxc"
+2	113	102	#line 113 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC2\Bloco2\Motor2.nxc"
+2	113	102	#line 113 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC2\Bloco2\Motor2.nxc"
+2	113	102	#line 113 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC2\Bloco2\Motor2.nxc"
+2	114	102		sub __DF0engineControl, __engineControl_7qG2_ewl_7qG2_000, prev_ewr
+2	113	106	#line 113 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC2\Bloco2\Motor2.nxc"
+2	114	106		mul __float_stack_002engineControl, __float_stack_002engineControl, __DF0engineControl
+2	113	110	#line 113 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC2\Bloco2\Motor2.nxc"
+2	114	110	#line 114 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC2\Bloco2\Motor2.nxc"
+2	114	110	#line 114 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC2\Bloco2\Motor2.nxc"
+2	115	110		div __DF0engineControl, __float_stack_002engineControl, dt
+2	114	114	#line 114 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC2\Bloco2\Motor2.nxc"
+2	115	114		add __engineControl_7qG2_cl_7qG2_000, __float_stack_001engineControl, __DF0engineControl
+2	114	118	#line 114 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC2\Bloco2\Motor2.nxc"
+2	114	118	#line 114 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC2\Bloco2\Motor2.nxc"
+2	115	118		mov __float_stack_001engineControl, acum_err
+2	114	120	#line 114 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC2\Bloco2\Motor2.nxc"
+2	114	120	#line 114 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC2\Bloco2\Motor2.nxc"
+2	114	120	#line 114 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC2\Bloco2\Motor2.nxc"
+2	114	120	#line 114 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC2\Bloco2\Motor2.nxc"
+2	114	120	#line 114 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC2\Bloco2\Motor2.nxc"
+2	115	120		mul __float_stack_002engineControl, ki, __engineControl_7qG2_ewr_7qG2_000
+2	114	124	#line 114 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC2\Bloco2\Motor2.nxc"
+2	115	124	#line 115 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC2\Bloco2\Motor2.nxc"
+2	115	124	#line 115 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC2\Bloco2\Motor2.nxc"
+2	116	124		mul __DF0engineControl, __float_stack_002engineControl, dt
+2	115	128	#line 115 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC2\Bloco2\Motor2.nxc"
+2	116	128		add acum_err, __float_stack_001engineControl, __DF0engineControl
+2	115	132	#line 115 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC2\Bloco2\Motor2.nxc"
+2	115	132	#line 115 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC2\Bloco2\Motor2.nxc"
+2	115	132	#line 115 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC2\Bloco2\Motor2.nxc"
+2	116	132		mov __float_stack_001engineControl, acum_erl
+2	115	134	#line 115 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC2\Bloco2\Motor2.nxc"
+2	115	134	#line 115 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC2\Bloco2\Motor2.nxc"
+2	115	134	#line 115 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC2\Bloco2\Motor2.nxc"
+2	115	134	#line 115 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC2\Bloco2\Motor2.nxc"
+2	115	134	#line 115 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC2\Bloco2\Motor2.nxc"
+2	116	134		mul __float_stack_002engineControl, ki, __engineControl_7qG2_ewl_7qG2_000
+2	115	138	#line 115 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC2\Bloco2\Motor2.nxc"
+2	118	138	#line 118 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC2\Bloco2\Motor2.nxc"
+2	118	138	#line 118 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC2\Bloco2\Motor2.nxc"
+2	119	138		mul __DF0engineControl, __float_stack_002engineControl, dt
+2	118	142	#line 118 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC2\Bloco2\Motor2.nxc"
+2	119	142		add acum_erl, __float_stack_001engineControl, __DF0engineControl
+2	118	146	#line 118 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC2\Bloco2\Motor2.nxc"
+2	118	146	#line 118 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC2\Bloco2\Motor2.nxc"
+2	119	146	#line 119 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC2\Bloco2\Motor2.nxc"
+2	120	146		mov prev_ewr, __engineControl_7qG2_ewr_7qG2_000
+2	119	148	#line 119 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC2\Bloco2\Motor2.nxc"
+2	119	148	#line 119 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC2\Bloco2\Motor2.nxc"
+2	125	148	#line 125 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC2\Bloco2\Motor2.nxc"
+2	125	148	#line 125 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC2\Bloco2\Motor2.nxc"
+2	125	148	#line 125 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC2\Bloco2\Motor2.nxc"
+2	125	148	#line 125 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC2\Bloco2\Motor2.nxc"
+2	126	148		mov __DF0engineControl, __engineControl_7qG2_cr_7qG2_000
+2	126	150	#line 126 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC2\Bloco2\Motor2.nxc"
+2	127	150	#pragma macro 7
+2	127	150		setout __constVal0, 2, __DF0engineControl, 1, __constVal3, 8, __constVal0, 6, __constVal32, 7, __constVal0, 5, __constVal0, 10, __constVal96, 11, __constVal32, 12, __constVal32, 0, __constVal63
+2	7048	173	#line 7048 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC2\Bloco2\Motor2.nxc"
+2	126	173	#line 126 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC2\Bloco2\Motor2.nxc"
+2	126	173	#line 126 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC2\Bloco2\Motor2.nxc"
+2	127	173		mov __DF0engineControl, __engineControl_7qG2_cl_7qG2_000
+2	128	175	#line 128 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC2\Bloco2\Motor2.nxc"
+2	129	175	#pragma macro 7
+2	129	175		setout __constVal2, 2, __DF0engineControl, 1, __constVal3, 8, __constVal0, 6, __constVal32, 7, __constVal0, 5, __constVal0, 10, __constVal96, 11, __constVal32, 12, __constVal32, 0, __constVal63
+2	7055	198	#line 7055 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC2\Bloco2\Motor2.nxc"
+2	128	198	#line 128 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC2\Bloco2\Motor2.nxc"
+2	129	198	#line 129 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC2\Bloco2\Motor2.nxc"
+2	130	198		mov __DF0engineControl, __engineControl_7qG2_ewr_7qG2_000
+2	129	200	#line 129 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC2\Bloco2\Motor2.nxc"
+2	130	200		numtostr __strretvalengineControl, __DF0engineControl
+2	129	203	#line 129 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC2\Bloco2\Motor2.nxc"
+2	130	203		strcat __strbufengineControl, __strretvalengineControl
+2	129	207	#line 129 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC2\Bloco2\Motor2.nxc"
+2	130	207		mov __ArrHelper__engineControl_244_0, __strbufengineControl
+2	129	209	#line 129 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC2\Bloco2\Motor2.nxc"
+2	130	209		strcat __strbufengineControl, __constStr0009
+2	129	213	#line 129 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC2\Bloco2\Motor2.nxc"
+2	130	213		mov __ArrHelper__engineControl_244_1, __strbufengineControl
+2	129	215	#line 129 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC2\Bloco2\Motor2.nxc"
+2	130	215		mov __DF0engineControl, __engineControl_7qG2_ewl_7qG2_000
+2	129	217	#line 129 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC2\Bloco2\Motor2.nxc"
+2	130	217		numtostr __strretvalengineControl, __DF0engineControl
+2	129	220	#line 129 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC2\Bloco2\Motor2.nxc"
+2	130	220		strcat __strbufengineControl, __strretvalengineControl
+2	129	224	#line 129 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC2\Bloco2\Motor2.nxc"
+2	130	224		mov __ArrHelper__engineControl_244_2, __strbufengineControl
+2	129	226	#line 129 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC2\Bloco2\Motor2.nxc"
+2	130	226		strcat __strbufengineControl, __constStr0009
+2	129	230	#line 129 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC2\Bloco2\Motor2.nxc"
+2	130	230		mov __ArrHelper__engineControl_244_3, __strbufengineControl
+2	129	232	#line 129 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC2\Bloco2\Motor2.nxc"
+2	130	232		mov __DF0engineControl, dt
+2	129	234	#line 129 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC2\Bloco2\Motor2.nxc"
+2	130	234		numtostr __strretvalengineControl, __DF0engineControl
+2	129	237	#line 129 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC2\Bloco2\Motor2.nxc"
+2	130	237		strcat __strbufengineControl, __strretvalengineControl
+2	129	241	#line 129 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC2\Bloco2\Motor2.nxc"
+2	130	241		mov __ArrHelper__engineControl_244_4, __strbufengineControl
+2	130	243	#line 130 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC2\Bloco2\Motor2.nxc"
+2	131	243		strcat __strretvalengineControl, __ArrHelper__engineControl_244_0, __ArrHelper__engineControl_244_1, __ArrHelper__engineControl_244_2, __ArrHelper__engineControl_244_3, __ArrHelper__engineControl_244_4
+2	130	251	#line 130 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC2\Bloco2\Motor2.nxc"
+2	131	251		strcat __strbufengineControl, __strretvalengineControl
+2	130	255	#line 130 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC2\Bloco2\Motor2.nxc"
+2	131	255		mov write, __strbufengineControl
+2	130	257	#line 130 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC2\Bloco2\Motor2.nxc"
+2	130	257	#line 130 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC2\Bloco2\Motor2.nxc"
+2	131	257	#pragma macro 9
+2	131	257		acquire __FWriteMutex
+2	131	258		mov __FWriteArgs.FileHandle, fileHandle
+2	131	260		strtoarr __FWriteFlattenBuf, write
+2	131	263		arrbuild __FWriteArgs.Buffer, __FWriteFlattenBuf, __FWriteLn
+2	131	268		arrsize __FWriteArgs.Length, __FWriteArgs.Buffer
+2	131	271		syscall 4, __FWriteArgs
+2	131	274		release __FWriteMutex
+2	7107	275	#line 7107 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC2\Bloco2\Motor2.nxc"
+2	130	275	#line 130 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC2\Bloco2\Motor2.nxc"
+2	130	275	#line 130 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC2\Bloco2\Motor2.nxc"
+2	133	275	#line 133 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC2\Bloco2\Motor2.nxc"
+2	134	275		subret __engineControl_return
+3	137	0	#line 137 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC2\Bloco2\Motor2.nxc"
+3	138	0		getout mc2_k_plus, __constVal2, 14
+3	137	4	#line 137 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC2\Bloco2\Motor2.nxc"
+3	137	4	#line 137 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC2\Bloco2\Motor2.nxc"
+3	139	4	#line 139 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC2\Bloco2\Motor2.nxc"
+3	140	4		getout ma2_k_plus, __constVal0, 14
+3	139	8	#line 139 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC2\Bloco2\Motor2.nxc"
+3	139	8	#line 139 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC2\Bloco2\Motor2.nxc"
+3	139	8	#line 139 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC2\Bloco2\Motor2.nxc"
+3	139	8	#line 139 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC2\Bloco2\Motor2.nxc"
+3	140	8	#line 140 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC2\Bloco2\Motor2.nxc"
+3	140	8	#line 140 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC2\Bloco2\Motor2.nxc"
+3	141	8		sub ma2, ma2_k_plus, ma2_k
+3	140	12	#line 140 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC2\Bloco2\Motor2.nxc"
+3	140	12	#line 140 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC2\Bloco2\Motor2.nxc"
+3	140	12	#line 140 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC2\Bloco2\Motor2.nxc"
+3	140	12	#line 140 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC2\Bloco2\Motor2.nxc"
+3	141	12	#line 141 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC2\Bloco2\Motor2.nxc"
+3	141	12	#line 141 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC2\Bloco2\Motor2.nxc"
+3	142	12		sub mc2, mc2_k_plus, mc2_k
+3	141	16	#line 141 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC2\Bloco2\Motor2.nxc"
+3	141	16	#line 141 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC2\Bloco2\Motor2.nxc"
+3	142	16	#line 142 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC2\Bloco2\Motor2.nxc"
+3	143	16		mov ma2_k, ma2_k_plus
+3	142	18	#line 142 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC2\Bloco2\Motor2.nxc"
+3	142	18	#line 142 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC2\Bloco2\Motor2.nxc"
+3	144	18	#line 144 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC2\Bloco2\Motor2.nxc"
+3	145	18		mov mc2_k, mc2_k_plus
+3	144	20	#line 144 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC2\Bloco2\Motor2.nxc"
+3	144	20	#line 144 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC2\Bloco2\Motor2.nxc"
+3	144	20	#line 144 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC2\Bloco2\Motor2.nxc"
+3	144	20	#line 144 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC2\Bloco2\Motor2.nxc"
+3	144	20	#line 144 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC2\Bloco2\Motor2.nxc"
+3	144	20	#line 144 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC2\Bloco2\Motor2.nxc"
+3	145	20		mul __float_stack_001positionControl, ma2, __constVal2
+3	144	24	#line 144 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC2\Bloco2\Motor2.nxc"
+3	144	24	#line 144 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC2\Bloco2\Motor2.nxc"
+3	144	24	#line 144 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC2\Bloco2\Motor2.nxc"
+3	145	24		mul __float_stack_001positionControl, __float_stack_001positionControl, __constValf3P141593
+3	144	28	#line 144 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC2\Bloco2\Motor2.nxc"
+3	144	28	#line 144 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC2\Bloco2\Motor2.nxc"
+3	144	28	#line 144 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC2\Bloco2\Motor2.nxc"
+3	145	28		mul __float_stack_001positionControl, __float_stack_001positionControl, __constValf0P0216
+3	144	32	#line 144 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC2\Bloco2\Motor2.nxc"
+3	145	32	#line 145 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC2\Bloco2\Motor2.nxc"
+3	145	32	#line 145 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC2\Bloco2\Motor2.nxc"
+3	146	32		div __positionControl_7qG2_ddr_7qG2_000, __float_stack_001positionControl, __constVal360
+3	145	36	#line 145 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC2\Bloco2\Motor2.nxc"
+3	145	36	#line 145 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC2\Bloco2\Motor2.nxc"
+3	145	36	#line 145 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC2\Bloco2\Motor2.nxc"
+3	145	36	#line 145 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC2\Bloco2\Motor2.nxc"
+3	145	36	#line 145 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC2\Bloco2\Motor2.nxc"
+3	146	36		mul __float_stack_001positionControl, mc2, __constVal2
+3	145	40	#line 145 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC2\Bloco2\Motor2.nxc"
+3	145	40	#line 145 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC2\Bloco2\Motor2.nxc"
+3	145	40	#line 145 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC2\Bloco2\Motor2.nxc"
+3	146	40		mul __float_stack_001positionControl, __float_stack_001positionControl, __constValf3P141593
+3	145	44	#line 145 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC2\Bloco2\Motor2.nxc"
+3	145	44	#line 145 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC2\Bloco2\Motor2.nxc"
+3	145	44	#line 145 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC2\Bloco2\Motor2.nxc"
+3	146	44		mul __float_stack_001positionControl, __float_stack_001positionControl, __constValf0P0216
+3	145	48	#line 145 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC2\Bloco2\Motor2.nxc"
+3	148	48	#line 148 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC2\Bloco2\Motor2.nxc"
+3	148	48	#line 148 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC2\Bloco2\Motor2.nxc"
+3	149	48		div __positionControl_7qG2_ddl_7qG2_000, __float_stack_001positionControl, __constVal360
+3	148	52	#line 148 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC2\Bloco2\Motor2.nxc"
+3	148	52	#line 148 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC2\Bloco2\Motor2.nxc"
+3	149	52		mov __float_stack_001positionControl, xr
+3	148	54	#line 148 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC2\Bloco2\Motor2.nxc"
+3	148	54	#line 148 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC2\Bloco2\Motor2.nxc"
+3	148	54	#line 148 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC2\Bloco2\Motor2.nxc"
+3	148	54	#line 148 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC2\Bloco2\Motor2.nxc"
+3	148	54	#line 148 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC2\Bloco2\Motor2.nxc"
+3	149	54		add __float_stack_002positionControl, __positionControl_7qG2_ddr_7qG2_000, __positionControl_7qG2_ddl_7qG2_000
+3	148	58	#line 148 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC2\Bloco2\Motor2.nxc"
+3	148	58	#line 148 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC2\Bloco2\Motor2.nxc"
+3	149	58		mov __cos_7qG2_x_7qG2_000_inline_positionControl, tetar_k
+3	148	60	#line 148 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC2\Bloco2\Motor2.nxc"
+3	17165	60	#line 17165 "NXCDefs.h"
+3	17166	60		cos __DF0positionControl, __cos_7qG2_x_7qG2_000_inline_positionControl
+3	17165	63	#line 17165 "NXCDefs.h"
+3	148	63	#line 148 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC2\Bloco2\Motor2.nxc"
+3	148	63	#line 148 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC2\Bloco2\Motor2.nxc"
+3	149	63		mul __float_stack_002positionControl, __float_stack_002positionControl, __DF0positionControl
+3	148	67	#line 148 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC2\Bloco2\Motor2.nxc"
+3	148	67	#line 148 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC2\Bloco2\Motor2.nxc"
+3	148	67	#line 148 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC2\Bloco2\Motor2.nxc"
+3	149	67		div __DF0positionControl, __float_stack_002positionControl, __constVal2
+3	149	71	#line 149 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC2\Bloco2\Motor2.nxc"
+3	150	71		add xr, __float_stack_001positionControl, __DF0positionControl
+3	149	75	#line 149 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC2\Bloco2\Motor2.nxc"
+3	149	75	#line 149 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC2\Bloco2\Motor2.nxc"
+3	149	75	#line 149 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC2\Bloco2\Motor2.nxc"
+3	150	75		mov __float_stack_001positionControl, yr
+3	149	77	#line 149 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC2\Bloco2\Motor2.nxc"
+3	149	77	#line 149 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC2\Bloco2\Motor2.nxc"
+3	149	77	#line 149 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC2\Bloco2\Motor2.nxc"
+3	149	77	#line 149 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC2\Bloco2\Motor2.nxc"
+3	149	77	#line 149 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC2\Bloco2\Motor2.nxc"
+3	150	77		add __float_stack_002positionControl, __positionControl_7qG2_ddr_7qG2_000, __positionControl_7qG2_ddl_7qG2_000
+3	149	81	#line 149 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC2\Bloco2\Motor2.nxc"
+3	149	81	#line 149 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC2\Bloco2\Motor2.nxc"
+3	150	81		mov __sin_7qG2_x_7qG2_000_inline_positionControl, tetar_k
+3	149	83	#line 149 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC2\Bloco2\Motor2.nxc"
+3	17176	83	#line 17176 "NXCDefs.h"
+3	17177	83		sin __DF0positionControl, __sin_7qG2_x_7qG2_000_inline_positionControl
+3	17176	86	#line 17176 "NXCDefs.h"
+3	149	86	#line 149 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC2\Bloco2\Motor2.nxc"
+3	149	86	#line 149 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC2\Bloco2\Motor2.nxc"
+3	150	86		mul __float_stack_002positionControl, __float_stack_002positionControl, __DF0positionControl
+3	149	90	#line 149 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC2\Bloco2\Motor2.nxc"
+3	149	90	#line 149 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC2\Bloco2\Motor2.nxc"
+3	149	90	#line 149 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC2\Bloco2\Motor2.nxc"
+3	150	90		div __DF0positionControl, __float_stack_002positionControl, __constVal2
+3	150	94	#line 150 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC2\Bloco2\Motor2.nxc"
+3	151	94		add yr, __float_stack_001positionControl, __DF0positionControl
+3	150	98	#line 150 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC2\Bloco2\Motor2.nxc"
+3	150	98	#line 150 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC2\Bloco2\Motor2.nxc"
+3	150	98	#line 150 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC2\Bloco2\Motor2.nxc"
+3	151	98		mov __float_stack_001positionControl, tetar_k
+3	150	100	#line 150 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC2\Bloco2\Motor2.nxc"
+3	150	100	#line 150 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC2\Bloco2\Motor2.nxc"
+3	150	100	#line 150 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC2\Bloco2\Motor2.nxc"
+3	150	100	#line 150 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC2\Bloco2\Motor2.nxc"
+3	150	100	#line 150 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC2\Bloco2\Motor2.nxc"
+3	151	100		sub __float_stack_002positionControl, __positionControl_7qG2_ddr_7qG2_000, __positionControl_7qG2_ddl_7qG2_000
+3	150	104	#line 150 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC2\Bloco2\Motor2.nxc"
+3	153	104	#line 153 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC2\Bloco2\Motor2.nxc"
+3	153	104	#line 153 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC2\Bloco2\Motor2.nxc"
+3	154	104		div __DF0positionControl, __float_stack_002positionControl, __constValf0P112
+3	153	108	#line 153 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC2\Bloco2\Motor2.nxc"
+3	154	108		add tetar_k, __float_stack_001positionControl, __DF0positionControl
+3	153	112	#line 153 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC2\Bloco2\Motor2.nxc"
+3	153	112	#line 153 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC2\Bloco2\Motor2.nxc"
+3	153	112	#line 153 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC2\Bloco2\Motor2.nxc"
+3	154	112		gettick __unsigned_stack_001positionControl
+3	153	114	#line 153 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC2\Bloco2\Motor2.nxc"
+3	154	114	#line 154 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC2\Bloco2\Motor2.nxc"
+3	154	114	#line 154 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC2\Bloco2\Motor2.nxc"
+3	155	114		sub __positionControl_7qG2_tempo_corrido_7qG2_000, __unsigned_stack_001positionControl, tempo_inicial
+3	154	118	#line 154 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC2\Bloco2\Motor2.nxc"
+3	154	118	#line 154 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC2\Bloco2\Motor2.nxc"
+3	155	118		mov __float_stack_001positionControl, __constValf0P2617994167
+3	154	120	#line 154 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC2\Bloco2\Motor2.nxc"
+3	154	120	#line 154 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC2\Bloco2\Motor2.nxc"
+3	154	120	#line 154 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC2\Bloco2\Motor2.nxc"
+3	154	120	#line 154 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC2\Bloco2\Motor2.nxc"
+3	154	120	#line 154 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC2\Bloco2\Motor2.nxc"
+3	155	120		div __DF0positionControl, __positionControl_7qG2_tempo_corrido_7qG2_000, __constVal1000
+3	157	124	#line 157 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC2\Bloco2\Motor2.nxc"
+3	158	124		mul __positionControl_7qG2_aux_7qG2_000, __float_stack_001positionControl, __DF0positionControl
+3	157	128	#line 157 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC2\Bloco2\Motor2.nxc"
+3	157	128	#line 157 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC2\Bloco2\Motor2.nxc"
+3	158	128		mov __float_stack_001positionControl, xc
+3	157	130	#line 157 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC2\Bloco2\Motor2.nxc"
+3	157	130	#line 157 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC2\Bloco2\Motor2.nxc"
+3	158	130		mov __float_stack_002positionControl, __constValf0P3
+3	157	132	#line 157 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC2\Bloco2\Motor2.nxc"
+3	157	132	#line 157 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC2\Bloco2\Motor2.nxc"
+3	158	132		mov __cos_7qG2_x_7qG2_000_inline_positionControl, __positionControl_7qG2_aux_7qG2_000
+3	157	134	#line 157 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC2\Bloco2\Motor2.nxc"
+3	17165	134	#line 17165 "NXCDefs.h"
+3	17166	134		cos __DF0positionControl, __cos_7qG2_x_7qG2_000_inline_positionControl
+3	17165	137	#line 17165 "NXCDefs.h"
+3	158	137	#line 158 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC2\Bloco2\Motor2.nxc"
+3	158	137	#line 158 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC2\Bloco2\Motor2.nxc"
+3	159	137		mul __DF0positionControl, __float_stack_002positionControl, __DF0positionControl
+3	158	141	#line 158 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC2\Bloco2\Motor2.nxc"
+3	159	141		add __positionControl_7qG2_xd_7qG2_000, __float_stack_001positionControl, __DF0positionControl
+3	158	145	#line 158 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC2\Bloco2\Motor2.nxc"
+3	158	145	#line 158 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC2\Bloco2\Motor2.nxc"
+3	159	145		mov __float_stack_001positionControl, yc
+3	158	147	#line 158 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC2\Bloco2\Motor2.nxc"
+3	158	147	#line 158 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC2\Bloco2\Motor2.nxc"
+3	159	147		mov __float_stack_002positionControl, __constValf0P3
+3	158	149	#line 158 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC2\Bloco2\Motor2.nxc"
+3	158	149	#line 158 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC2\Bloco2\Motor2.nxc"
+3	159	149		mov __sin_7qG2_x_7qG2_000_inline_positionControl, __positionControl_7qG2_aux_7qG2_000
+3	158	151	#line 158 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC2\Bloco2\Motor2.nxc"
+3	17176	151	#line 17176 "NXCDefs.h"
+3	17177	151		sin __DF0positionControl, __sin_7qG2_x_7qG2_000_inline_positionControl
+3	17176	154	#line 17176 "NXCDefs.h"
+3	159	154	#line 159 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC2\Bloco2\Motor2.nxc"
+3	159	154	#line 159 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC2\Bloco2\Motor2.nxc"
+3	160	154		mul __DF0positionControl, __float_stack_002positionControl, __DF0positionControl
+3	159	158	#line 159 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC2\Bloco2\Motor2.nxc"
+3	160	158		add __positionControl_7qG2_yd_7qG2_000, __float_stack_001positionControl, __DF0positionControl
+3	159	162	#line 159 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC2\Bloco2\Motor2.nxc"
+3	159	162	#line 159 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC2\Bloco2\Motor2.nxc"
+3	159	162	#line 159 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC2\Bloco2\Motor2.nxc"
+3	160	162	#line 160 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC2\Bloco2\Motor2.nxc"
+3	160	162	#line 160 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC2\Bloco2\Motor2.nxc"
+3	161	162		sub __positionControl_7qG2_errx_7qG2_000, __positionControl_7qG2_xd_7qG2_000, xr
+3	160	166	#line 160 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC2\Bloco2\Motor2.nxc"
+3	160	166	#line 160 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC2\Bloco2\Motor2.nxc"
+3	160	166	#line 160 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC2\Bloco2\Motor2.nxc"
+3	162	166	#line 162 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC2\Bloco2\Motor2.nxc"
+3	162	166	#line 162 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC2\Bloco2\Motor2.nxc"
+3	163	166		sub __positionControl_7qG2_erry_7qG2_000, __positionControl_7qG2_yd_7qG2_000, yr
+3	162	170	#line 162 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC2\Bloco2\Motor2.nxc"
+3	162	170	#line 162 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC2\Bloco2\Motor2.nxc"
+3	163	170		mov __atan2_7qG2_y_7qG2_000_inline_positionControl, __positionControl_7qG2_erry_7qG2_000
+3	162	172	#line 162 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC2\Bloco2\Motor2.nxc"
+3	162	172	#line 162 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC2\Bloco2\Motor2.nxc"
+3	163	172		mov __atan2_7qG2_x_7qG2_000_inline_positionControl, __positionControl_7qG2_errx_7qG2_000
+3	162	174	#line 162 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC2\Bloco2\Motor2.nxc"
+3	17242	174	#line 17242 "NXCDefs.h"
+3	17243	174		atan2 __positionControl_7qG2_tetad_7qG2_000, __atan2_7qG2_y_7qG2_000_inline_positionControl, __atan2_7qG2_x_7qG2_000_inline_positionControl
+3	17242	178	#line 17242 "NXCDefs.h"
+3	164	178	#line 164 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC2\Bloco2\Motor2.nxc"
+3	164	178	#line 164 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC2\Bloco2\Motor2.nxc"
+3	168	178	#line 168 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC2\Bloco2\Motor2.nxc"
+3	169	178		mov __positionControl_7qG2_errt_past_7qG2_000, errt
+3	168	180	#line 168 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC2\Bloco2\Motor2.nxc"
+3	168	180	#line 168 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC2\Bloco2\Motor2.nxc"
+3	168	180	#line 168 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC2\Bloco2\Motor2.nxc"
+3	169	180	#line 169 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC2\Bloco2\Motor2.nxc"
+3	169	180	#line 169 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC2\Bloco2\Motor2.nxc"
+3	170	180		sub errt, __positionControl_7qG2_tetad_7qG2_000, tetar_k
+3	169	184	#line 169 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC2\Bloco2\Motor2.nxc"
+3	169	184	#line 169 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC2\Bloco2\Motor2.nxc"
+3	169	184	#line 169 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC2\Bloco2\Motor2.nxc"
+3	170	184		mov __sin_7qG2_x_7qG2_000_inline_positionControl, errt
+3	169	186	#line 169 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC2\Bloco2\Motor2.nxc"
+3	17176	186	#line 17176 "NXCDefs.h"
+3	17177	186		sin __atan2_7qG2_y_7qG2_000_inline_positionControl, __sin_7qG2_x_7qG2_000_inline_positionControl
+3	17176	189	#line 17176 "NXCDefs.h"
+3	169	189	#line 169 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC2\Bloco2\Motor2.nxc"
+3	169	189	#line 169 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC2\Bloco2\Motor2.nxc"
+3	169	189	#line 169 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC2\Bloco2\Motor2.nxc"
+3	170	189		mov __cos_7qG2_x_7qG2_000_inline_positionControl, errt
+3	169	191	#line 169 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC2\Bloco2\Motor2.nxc"
+3	17165	191	#line 17165 "NXCDefs.h"
+3	17166	191		cos __atan2_7qG2_x_7qG2_000_inline_positionControl, __cos_7qG2_x_7qG2_000_inline_positionControl
+3	17165	194	#line 17165 "NXCDefs.h"
+3	169	194	#line 169 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC2\Bloco2\Motor2.nxc"
+3	169	194	#line 169 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC2\Bloco2\Motor2.nxc"
+3	17242	194	#line 17242 "NXCDefs.h"
+3	17243	194		atan2 errt, __atan2_7qG2_y_7qG2_000_inline_positionControl, __atan2_7qG2_x_7qG2_000_inline_positionControl
+3	17242	198	#line 17242 "NXCDefs.h"
+3	178	198	#line 178 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC2\Bloco2\Motor2.nxc"
+3	178	198	#line 178 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC2\Bloco2\Motor2.nxc"
+3	178	198	#line 178 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC2\Bloco2\Motor2.nxc"
+3	178	198	#line 178 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC2\Bloco2\Motor2.nxc"
+3	178	198	#line 178 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC2\Bloco2\Motor2.nxc"
+3	178	198	#line 178 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC2\Bloco2\Motor2.nxc"
+3	178	198	#line 178 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC2\Bloco2\Motor2.nxc"
+3	179	198		mul __float_stack_001positionControl, kp_pos, errt
+3	178	202	#line 178 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC2\Bloco2\Motor2.nxc"
+3	178	202	#line 178 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC2\Bloco2\Motor2.nxc"
+3	178	202	#line 178 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC2\Bloco2\Motor2.nxc"
+3	179	202		add __float_stack_001positionControl, __float_stack_001positionControl, acum_errt
+3	178	206	#line 178 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC2\Bloco2\Motor2.nxc"
+3	178	206	#line 178 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC2\Bloco2\Motor2.nxc"
+3	178	206	#line 178 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC2\Bloco2\Motor2.nxc"
+3	178	206	#line 178 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC2\Bloco2\Motor2.nxc"
+3	178	206	#line 178 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC2\Bloco2\Motor2.nxc"
+3	179	206		mul __float_stack_002positionControl, ki_pos, errt
+3	178	210	#line 178 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC2\Bloco2\Motor2.nxc"
+3	178	210	#line 178 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC2\Bloco2\Motor2.nxc"
+3	178	210	#line 178 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC2\Bloco2\Motor2.nxc"
+3	179	210		mul __DF0positionControl, __float_stack_002positionControl, dt
+3	178	214	#line 178 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC2\Bloco2\Motor2.nxc"
+3	179	214		add __float_stack_001positionControl, __float_stack_001positionControl, __DF0positionControl
+3	178	218	#line 178 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC2\Bloco2\Motor2.nxc"
+3	178	218	#line 178 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC2\Bloco2\Motor2.nxc"
+3	179	218		mov __float_stack_002positionControl, kd_pos
+3	178	220	#line 178 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC2\Bloco2\Motor2.nxc"
+3	178	220	#line 178 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC2\Bloco2\Motor2.nxc"
+3	178	220	#line 178 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC2\Bloco2\Motor2.nxc"
+3	178	220	#line 178 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC2\Bloco2\Motor2.nxc"
+3	178	220	#line 178 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC2\Bloco2\Motor2.nxc"
+3	179	220		sub __DF0positionControl, errt, __positionControl_7qG2_errt_past_7qG2_000
+3	178	224	#line 178 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC2\Bloco2\Motor2.nxc"
+3	179	224		mul __float_stack_002positionControl, __float_stack_002positionControl, __DF0positionControl
+3	178	228	#line 178 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC2\Bloco2\Motor2.nxc"
+3	180	228	#line 180 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC2\Bloco2\Motor2.nxc"
+3	180	228	#line 180 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC2\Bloco2\Motor2.nxc"
+3	181	228		div __DF0positionControl, __float_stack_002positionControl, dt
+3	180	232	#line 180 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC2\Bloco2\Motor2.nxc"
+3	181	232		add __positionControl_7qG2_w_controled_7qG2_000, __float_stack_001positionControl, __DF0positionControl
+3	180	236	#line 180 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC2\Bloco2\Motor2.nxc"
+3	180	236	#line 180 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC2\Bloco2\Motor2.nxc"
+3	181	236		mov __float_stack_001positionControl, acum_errt
+3	180	238	#line 180 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC2\Bloco2\Motor2.nxc"
+3	180	238	#line 180 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC2\Bloco2\Motor2.nxc"
+3	180	238	#line 180 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC2\Bloco2\Motor2.nxc"
+3	180	238	#line 180 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC2\Bloco2\Motor2.nxc"
+3	180	238	#line 180 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC2\Bloco2\Motor2.nxc"
+3	181	238		mul __float_stack_002positionControl, ki_pos, dt
+3	180	242	#line 180 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC2\Bloco2\Motor2.nxc"
+3	183	242	#line 183 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC2\Bloco2\Motor2.nxc"
+3	183	242	#line 183 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC2\Bloco2\Motor2.nxc"
+3	184	242		mul __DF0positionControl, __float_stack_002positionControl, errt
+3	183	246	#line 183 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC2\Bloco2\Motor2.nxc"
+3	184	246		add acum_errt, __float_stack_001positionControl, __DF0positionControl
+3	183	250	#line 183 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC2\Bloco2\Motor2.nxc"
+3	183	250	#line 183 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC2\Bloco2\Motor2.nxc"
+3	184	250	#line 184 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC2\Bloco2\Motor2.nxc"
+3	185	250		mov __DF0positionControl, xr
+3	184	252	#line 184 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC2\Bloco2\Motor2.nxc"
+3	185	252		numtostr __strretvalpositionControl, __DF0positionControl
+3	184	255	#line 184 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC2\Bloco2\Motor2.nxc"
+3	185	255		strcat __strbufpositionControl, __strretvalpositionControl
+3	184	259	#line 184 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC2\Bloco2\Motor2.nxc"
+3	185	259		mov __ArrHelper__positionControl_244_0, __strbufpositionControl
+3	184	261	#line 184 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC2\Bloco2\Motor2.nxc"
+3	185	261		strcat __strbufpositionControl, __constStr0009
+3	184	265	#line 184 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC2\Bloco2\Motor2.nxc"
+3	185	265		mov __ArrHelper__positionControl_244_1, __strbufpositionControl
+3	184	267	#line 184 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC2\Bloco2\Motor2.nxc"
+3	185	267		mov __DF0positionControl, yr
+3	184	269	#line 184 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC2\Bloco2\Motor2.nxc"
+3	185	269		numtostr __strretvalpositionControl, __DF0positionControl
+3	184	272	#line 184 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC2\Bloco2\Motor2.nxc"
+3	185	272		strcat __strbufpositionControl, __strretvalpositionControl
+3	184	276	#line 184 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC2\Bloco2\Motor2.nxc"
+3	185	276		mov __ArrHelper__positionControl_244_2, __strbufpositionControl
+3	184	278	#line 184 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC2\Bloco2\Motor2.nxc"
+3	185	278		strcat __strbufpositionControl, __constStr0009
+3	184	282	#line 184 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC2\Bloco2\Motor2.nxc"
+3	185	282		mov __ArrHelper__positionControl_244_3, __strbufpositionControl
+3	184	284	#line 184 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC2\Bloco2\Motor2.nxc"
+3	185	284		mov __DF0positionControl, __positionControl_7qG2_xd_7qG2_000
+3	184	286	#line 184 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC2\Bloco2\Motor2.nxc"
+3	185	286		numtostr __strretvalpositionControl, __DF0positionControl
+3	184	289	#line 184 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC2\Bloco2\Motor2.nxc"
+3	185	289		strcat __strbufpositionControl, __strretvalpositionControl
+3	184	293	#line 184 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC2\Bloco2\Motor2.nxc"
+3	185	293		mov __ArrHelper__positionControl_244_4, __strbufpositionControl
+3	184	295	#line 184 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC2\Bloco2\Motor2.nxc"
+3	185	295		strcat __strbufpositionControl, __constStr0009
+3	184	299	#line 184 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC2\Bloco2\Motor2.nxc"
+3	185	299		mov __ArrHelper__positionControl_244_5, __strbufpositionControl
+3	184	301	#line 184 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC2\Bloco2\Motor2.nxc"
+3	185	301		mov __DF0positionControl, __positionControl_7qG2_yd_7qG2_000
+3	184	303	#line 184 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC2\Bloco2\Motor2.nxc"
+3	185	303		numtostr __strretvalpositionControl, __DF0positionControl
+3	184	306	#line 184 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC2\Bloco2\Motor2.nxc"
+3	185	306		strcat __strbufpositionControl, __strretvalpositionControl
+3	184	310	#line 184 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC2\Bloco2\Motor2.nxc"
+3	185	310		mov __ArrHelper__positionControl_244_6, __strbufpositionControl
+3	184	312	#line 184 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC2\Bloco2\Motor2.nxc"
+3	185	312		strcat __strbufpositionControl, __constStr0009
+3	184	316	#line 184 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC2\Bloco2\Motor2.nxc"
+3	185	316		mov __ArrHelper__positionControl_244_7, __strbufpositionControl
+3	184	318	#line 184 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC2\Bloco2\Motor2.nxc"
+3	185	318		mov __DF0positionControl, __positionControl_7qG2_w_controled_7qG2_000
+3	184	320	#line 184 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC2\Bloco2\Motor2.nxc"
+3	185	320		numtostr __strretvalpositionControl, __DF0positionControl
+3	184	323	#line 184 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC2\Bloco2\Motor2.nxc"
+3	185	323		strcat __strbufpositionControl, __strretvalpositionControl
+3	184	327	#line 184 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC2\Bloco2\Motor2.nxc"
+3	185	327		mov __ArrHelper__positionControl_244_8, __strbufpositionControl
+3	185	329	#line 185 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC2\Bloco2\Motor2.nxc"
+3	186	329		strcat __strretvalpositionControl, __ArrHelper__positionControl_244_0, __ArrHelper__positionControl_244_1, __ArrHelper__positionControl_244_2, __ArrHelper__positionControl_244_3, __ArrHelper__positionControl_244_4, __ArrHelper__positionControl_244_5, __ArrHelper__positionControl_244_6, __ArrHelper__positionControl_244_7, __ArrHelper__positionControl_244_8
+3	185	341	#line 185 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC2\Bloco2\Motor2.nxc"
+3	186	341		strcat __strbufpositionControl, __strretvalpositionControl
+3	185	345	#line 185 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC2\Bloco2\Motor2.nxc"
+3	186	345		mov __positionControl_7qG2_write2_7qG2_000, __strbufpositionControl
+3	185	347	#line 185 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC2\Bloco2\Motor2.nxc"
+3	186	347	#pragma macro 9
+3	186	347		acquire __FWriteMutex
+3	186	348		mov __FWriteArgs.FileHandle, fileHandle2
+3	186	350		strtoarr __FWriteFlattenBuf, __positionControl_7qG2_write2_7qG2_000
+3	186	353		arrbuild __FWriteArgs.Buffer, __FWriteFlattenBuf, __FWriteLn
+3	186	358		arrsize __FWriteArgs.Length, __FWriteArgs.Buffer
+3	186	361		syscall 4, __FWriteArgs
+3	186	364		mov __D0positionControl, __FWriteArgs.Result
+3	186	366		release __FWriteMutex
+3	7768	367	#line 7768 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC2\Bloco2\Motor2.nxc"
+3	185	367	#line 185 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC2\Bloco2\Motor2.nxc"
+3	185	367	#line 185 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC2\Bloco2\Motor2.nxc"
+3	187	367	#line 187 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC2\Bloco2\Motor2.nxc"
+3	188	367		mov __pow_7qG2_base_7qG2_000_inline_positionControl, __positionControl_7qG2_errx_7qG2_000
+3	187	369	#line 187 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC2\Bloco2\Motor2.nxc"
+3	187	369	#line 187 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC2\Bloco2\Motor2.nxc"
+3	188	369		mov __pow_7qG2_exponent_7qG2_000_inline_positionControl, __constVal2
+3	187	371	#line 187 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC2\Bloco2\Motor2.nxc"
+3	17348	371	#line 17348 "NXCDefs.h"
+3	17349	371		pow __float_stack_001positionControl, __pow_7qG2_base_7qG2_000_inline_positionControl, __pow_7qG2_exponent_7qG2_000_inline_positionControl
+3	17348	375	#line 17348 "NXCDefs.h"
+3	187	375	#line 187 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC2\Bloco2\Motor2.nxc"
+3	187	375	#line 187 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC2\Bloco2\Motor2.nxc"
+3	187	375	#line 187 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC2\Bloco2\Motor2.nxc"
+3	188	375		mov __pow_7qG2_base_7qG2_000_inline_positionControl, __positionControl_7qG2_erry_7qG2_000
+3	187	377	#line 187 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC2\Bloco2\Motor2.nxc"
+3	187	377	#line 187 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC2\Bloco2\Motor2.nxc"
+3	188	377		mov __pow_7qG2_exponent_7qG2_000_inline_positionControl, __constVal2
+3	187	379	#line 187 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC2\Bloco2\Motor2.nxc"
+3	17348	379	#line 17348 "NXCDefs.h"
+3	17349	379		pow __DF0positionControl, __pow_7qG2_base_7qG2_000_inline_positionControl, __pow_7qG2_exponent_7qG2_000_inline_positionControl
+3	17348	383	#line 17348 "NXCDefs.h"
+3	187	383	#line 187 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC2\Bloco2\Motor2.nxc"
+3	187	383	#line 187 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC2\Bloco2\Motor2.nxc"
+3	188	383		add __sqrt_7qG2_x_7qG2_000_inline_positionControl, __float_stack_001positionControl, __DF0positionControl
+3	187	387	#line 187 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC2\Bloco2\Motor2.nxc"
+3	16821	387	#line 16821 "NXCDefs.h"
+3	16822	387		sqrt __positionControl_7qG2_dist_7qG2_000, __sqrt_7qG2_x_7qG2_000_inline_positionControl
+3	16821	390	#line 16821 "NXCDefs.h"
+3	188	390	#line 188 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC2\Bloco2\Motor2.nxc"
+3	188	390	#line 188 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC2\Bloco2\Motor2.nxc"
+3	189	390	#line 189 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC2\Bloco2\Motor2.nxc"
+3	190	390		mov __positionControl_7qG2_v_7qG2_000, __constValf0P078539825
+3	189	392	#line 189 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC2\Bloco2\Motor2.nxc"
+3	189	392	#line 189 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC2\Bloco2\Motor2.nxc"
+3	190	392		mov __float_stack_001positionControl, __positionControl_7qG2_dist_7qG2_000
+3	189	394	#line 189 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC2\Bloco2\Motor2.nxc"
+3	189	394	#line 189 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC2\Bloco2\Motor2.nxc"
+3	190	394		mov __DF0positionControl, __constValf0P05
+3	189	396	#line 189 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC2\Bloco2\Motor2.nxc"
+3	190	396		cmp 1, __zfpositionControl, __float_stack_001positionControl, __DF0positionControl
+3	189	400	#line 189 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC2\Bloco2\Motor2.nxc"
+3	190	400		mov __D0positionControl, __zfpositionControl
+3	190	402	#line 190 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC2\Bloco2\Motor2.nxc"
+3	191	402		brtst 4, __NXC_Label_784, __zfpositionControl
+3	190	405	#line 190 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC2\Bloco2\Motor2.nxc"
+3	190	405	#line 190 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC2\Bloco2\Motor2.nxc"
+3	191	405	#line 191 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC2\Bloco2\Motor2.nxc"
+3	191	405	#line 191 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC2\Bloco2\Motor2.nxc"
+3	192	405		mul __positionControl_7qG2_v_7qG2_000, __positionControl_7qG2_v_7qG2_000, __constValf1P4
+3	191	409	#line 191 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC2\Bloco2\Motor2.nxc"
+3	191	409	#line 191 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC2\Bloco2\Motor2.nxc"
+3	192	409	#line 192 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC2\Bloco2\Motor2.nxc"
+3	192	409	#line 192 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC2\Bloco2\Motor2.nxc"
+3	193	409		mov __engineControl_7qG2_velLinear_Desejada_7qG2_000, __positionControl_7qG2_v_7qG2_000
+3	192	411	#line 192 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC2\Bloco2\Motor2.nxc"
+3	192	411	#line 192 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC2\Bloco2\Motor2.nxc"
+3	193	411		mov __engineControl_7qG2_w_controled_7qG2_000, __positionControl_7qG2_w_controled_7qG2_000
+3	192	413	#line 192 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC2\Bloco2\Motor2.nxc"
+3	193	413	#line 193 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC2\Bloco2\Motor2.nxc"
+3	194	413		subcall engineControl, __engineControl_return
+3	193	415	#line 193 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC2\Bloco2\Motor2.nxc"
+3	195	415	#line 195 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC2\Bloco2\Motor2.nxc"
+3	196	415		subret __positionControl_return
+4	216	0	#line 216 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC2\Bloco2\Motor2.nxc"
+4	217	0		subret ____initialize_global_data_return
+#CLUMPS
+Clump	Name	Offset	File
+0	main	0	C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC2\Bloco2\Motor2.nxc
+1	getWs	90	C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC2\Bloco2\Motor2.nxc
+2	engineControl	128	C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC2\Bloco2\Motor2.nxc
+3	positionControl	405	C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC2\Bloco2\Motor2.nxc
+4	__initialize_global_data	822	C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC2\Bloco2\Motor2.nxc

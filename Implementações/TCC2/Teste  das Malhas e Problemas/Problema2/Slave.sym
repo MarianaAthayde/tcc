@@ -1,0 +1,1403 @@
+#SYMBOLS
+Index	Identifier	Type	Flag	Data	Size	RefCount
+0	erry	10	1	0	4	3
+1	errx	10	1	4	4	3
+2	incremento	10	0	8	4	4
+3	errt	10	1	12	4	10
+4	wdl	10	1	16	4	2
+5	wdr	10	1	20	4	2
+6	ewl	10	1	24	4	3
+7	ewr	10	1	28	4	5
+8	w_controle	10	1	32	4	2
+9	errt_past	10	1	36	4	2
+10	yr	10	1	40	4	4
+11	xr	10	0	44	4	4
+12	ki_pos	10	1	48	4	3
+13	kp_pos	10	0	52	4	1
+14	acum_errt	10	1	56	4	5
+15	kd_pos	10	1	60	4	1
+16	wl	10	1	64	4	2
+17	tempo_k	6	1	68	4	4
+18	convrad	10	0	72	4	2
+19	countR_k	10	1	76	4	2
+20	dt	10	1	80	4	8
+21	__float_stack_002malha2	10	1	84	4	20
+22	__float_stack_001malha2	10	1	88	4	42
+23	T	10	0	92	4	1
+24	R	10	0	96	4	3
+25	countR2_kplus	10	1	100	4	3
+26	countL2_k	10	1	104	4	2
+27	wr	10	1	108	4	2
+28	countL2_kplus	10	1	112	4	3
+29	countR_kplus	10	1	116	4	3
+30	countL_k	10	1	120	4	2
+31	countR2_k	10	1	124	4	2
+32	countL_kplus	10	1	128	4	3
+33	tetar_k	10	1	132	4	5
+34	__malha2_7qG2_v_7qG2_000	10	1	136	4	4
+35	__pow_7qG2_exponent_7qG2_000_inline_malha2	10	1	140	4	4
+36	__constValf1P1	10	0	144	4	1
+37	__constValf0P05	10	0	148	4	1
+38	__malha2_7qG2_dist_7qG2_000	10	1	152	4	2
+39	__atan2_7qG2_x_7qG2_000_inline_malha2	10	1	156	4	4
+40	__pow_7qG2_base_7qG2_000_inline_malha2	10	1	160	4	4
+41	__sqrt_7qG2_x_7qG2_000_inline_malha2	10	1	164	4	2
+42	__constValf6P283186	10	0	168	4	2
+43	__cos_7qG2_x_7qG2_000_inline_main	10	1	172	4	2
+44	__sin_7qG2_x_7qG2_000_inline_main	10	1	176	4	2
+45	__main_7qG2_yd_7qG2_002	10	1	180	4	2
+46	__main_7qG2_dt_aux_7qG2_002	6	1	184	4	3
+47	__constVal77824	6	0	188	4	1
+48	__main_7qG2_xd_7qG2_002	10	1	192	4	2
+49	__atof_7qG2_result_7qG2_000_inline_main	10	1	196	4	2
+50	__atan2_7qG2_y_7qG2_000_inline_malha2	10	1	200	4	4
+51	wt	10	1	204	4	3
+52	ddl	10	1	208	4	4
+53	__malha1_7qG2_vAng_7qG2_000	10	1	212	4	3
+54	__malha1_7qG2_vLinear_7qG2_000	10	1	216	4	3
+55	cr	10	1	220	4	9
+56	tetad	10	1	224	4	2
+57	ddr	10	1	228	4	4
+58	cl	10	1	232	4	9
+59	__constValf0P0216	10	0	236	4	2
+60	__constValf3P141593	10	0	240	4	3
+61	__sin_7qG2_x_7qG2_000_inline_malha2	10	1	244	4	4
+62	__cos_7qG2_x_7qG2_000_inline_malha2	10	1	248	4	4
+63	__constValf0P0432	10	0	252	4	2
+64	__constValf0P112	10	0	256	4	3
+65	__malha2_7qG2_yd_7qG2_000	10	1	260	4	2
+66	__malha2_7qG2_xd_7qG2_000	10	1	264	4	2
+67	__float_stack_001malha1	10	1	268	4	24
+68	__D0malha2	6	1	272	4	2
+69	__DF0malha1	10	1	276	4	30
+70	__DF0malha2	10	1	280	4	28
+71	__signed_stack_002BTCheck	6	1	284	4	2
+72	__signed_stack_001BTCheck	6	1	288	4	4
+73	__D0main	6	1	292	4	19
+74	__D0BTCheck	6	1	296	4	8
+75	__DF0main	10	1	300	4	8
+76	__TextOutMutex	9	0	304	4	10
+77	__D0malha1	6	1	308	4	9
+78	__float_stack_001getWs	10	1	312	4	8
+79	__unsigned_stack_001main	5	1	316	4	2
+80	__FOMutex	9	0	320	4	2
+81	__FWriteMutex	9	0	324	4	4
+82	__float_stack_003main	10	1	328	4	4
+83	__float_stack_002main	10	1	332	4	4
+84	__float_stack_001main	10	1	336	4	4
+85	__signed_stack_002main	6	1	340	4	8
+86	__CBTCSMutex	9	0	344	4	4
+87	__signed_stack_001main	6	1	348	4	17
+88	__Pos_Result	4	1	352	2	5
+89	__constVal360	4	0	354	2	2
+90	__main_7qG2_index_7qG2_002	4	1	356	2	4
+91	__constVal1000	4	0	358	2	1
+92	__Pos_i	4	1	360	2	5
+93	__Pos_l1	4	1	362	2	5
+94	__main_7qG2_t_7qG2_001	4	1	364	2	4
+95	__Pos_lDelta	4	1	366	2	6
+96	num_robos	4	0	368	2	6
+97	__BTCheck_7qG2_conn_7qG2_000	4	1	370	2	2
+98	num	4	0	372	2	2
+99	amostras	4	0	374	2	1
+100	__tmpswordatof_inline_main	4	1	376	2	1
+101	__Copy_7qG2_len_7qG2_000_inline_main	3	1	378	2	4
+102	__Copy_7qG2_idx_7qG2_000_inline_main	3	1	380	2	4
+103	__constValNeg100	2	0	382	1	4
+104	__constVal63	2	0	383	1	2
+105	__constVal3	2	0	384	1	2
+106	__malha1_return	1	1	385	1	3
+107	__constVal96	2	0	386	1	2
+108	__constVal0	2	1	387	1	14
+109	__malha2_return	1	1	388	1	3
+110	__BTCheck_return	1	1	389	1	3
+111	fileHandle	1	1	390	1	2
+112	__constVal32	2	0	391	1	6
+113	fileHandle2	1	1	392	1	3
+114	__constVal100	2	0	393	1	4
+115	__constVal1	2	0	394	1	8
+116	____initialize_global_data_return	1	1	395	1	3
+117	__constVal2	2	0	396	1	12
+118	__zfmalha1	1	1	397	1	24
+119	__zfmain	1	1	398	1	6
+120	____PosSubroutine_return	1	1	399	1	4
+121	__constVal5	2	0	400	1	1
+122	__zfBTCheck	1	1	401	1	3
+123	__getWs_return	1	1	402	1	3
+124	__zfmalha2	1	1	403	1	3
+125	__FWriteArgs	8	0	4	12	12
+126	__FWriteArgs.Result	3	1	404	2	12
+127	__FWriteArgs.FileHandle	1	1	406	1	12
+128	__FWriteArgs.Buffer	7	0	408	4	12
+129	__FWriteArgs.Buffer.Buffer_type	1	0	0	1	0
+130	__FWriteArgs.Length	5	1	412	4	12
+131	__MRArgs	8	0	4	8	5
+132	__MRArgs.Result	2	1	416	1	5
+133	__MRArgs.QueueID	1	1	417	1	5
+134	__MRArgs.Remove	1	1	418	1	5
+135	__MRArgs.Message	7	0	420	4	5
+136	__MRArgs.Message.Message_type	1	0	0	1	0
+137	__CBTCSArgs	8	0	2	4	6
+138	__CBTCSArgs.Result	2	1	424	1	6
+139	__CBTCSArgs.Connection	1	1	425	1	6
+140	__FDArgs	8	0	2	8	5
+141	__FDArgs.Result	3	1	428	2	5
+142	__FDArgs.Filename	7	0	430	4	5
+143	__FDArgs.Filename.Filename_type	1	0	0	1	0
+144	__TextOutArgs	8	0	4	16	30
+145	__TextOutArgs.Result	2	1	432	1	30
+146	__TextOutArgs.Location	8	0	2	4	30
+147	__TextOutArgs.Location.X	4	1	436	2	30
+148	__TextOutArgs.Location.Y	4	1	438	2	30
+149	__TextOutArgs.Text	7	0	440	4	30
+150	__TextOutArgs.Text.Text_type	1	0	0	1	0
+151	__TextOutArgs.Options	5	1	444	4	30
+152	__FOArgs	8	0	4	12	5
+153	__FOArgs.Result	3	1	448	2	5
+154	__FOArgs.FileHandle	1	1	450	1	5
+155	__FOArgs.Filename	7	0	452	4	5
+156	__FOArgs.Filename.Filename_type	1	0	0	1	0
+157	__FOArgs.Length	5	1	456	4	5
+158	__FCArgs	8	0	2	4	6
+159	__FCArgs.Result	3	1	460	2	6
+160	__FCArgs.FileHandle	1	1	462	1	6
+161	__Pos_7qG2_S_7qG2_000_inline_main	7	0	464	4	2
+162	__Pos_7qG2_S_7qG2_000_inline_main.__Pos_7qG2_S_7qG2_000_inline_main_type	1	0	0	1	0
+163	__Copy_7qG2_str_7qG2_000_inline_main	7	0	466	4	4
+164	__Copy_7qG2_str_7qG2_000_inline_main.__Copy_7qG2_str_7qG2_000_inline_main_type	1	0	0	1	0
+165	__Pos_7qG2_Substr_7qG2_000_inline_main	7	0	468	4	2
+166	__Pos_7qG2_Substr_7qG2_000_inline_main.__Pos_7qG2_Substr_7qG2_000_inline_main_type	1	0	0	1	0
+167	__atof_7qG2_str_7qG2_000_inline_main	7	0	470	4	2
+168	__atof_7qG2_str_7qG2_000_inline_main.__atof_7qG2_str_7qG2_000_inline_main_type	1	0	0	1	0
+169	__constStr0011	7	0	472	4	2
+170	__constStr0011.__constStr0011_type	1	1	0	1	0
+171	__constStr0012	7	0	474	4	1
+172	__constStr0012.__constStr0012_type	1	1	0	1	0
+173	__constStr0013	7	0	476	4	1
+174	__constStr0013.__constStr0013_type	1	1	0	1	0
+175	__constStr0010	7	0	478	4	1
+176	__constStr0010.__constStr0010_type	1	1	0	1	0
+177	__constStr0015	7	0	480	4	1
+178	__constStr0015.__constStr0015_type	1	1	0	1	0
+179	__constStr0014	7	0	482	4	1
+180	__constStr0014.__constStr0014_type	1	1	0	1	0
+181	__strbufBTCheck	7	0	484	4	2
+182	__strbufBTCheck.__strbufBTCheck_type	1	0	0	1	0
+183	__strbufmain	7	0	486	4	22
+184	__strbufmain.__strbufmain_type	1	0	0	1	0
+185	__strretvalmain	7	0	488	4	4
+186	__strretvalmain.__strretvalmain_type	1	0	0	1	0
+187	__ArrHelper__malha2_244_0	7	0	490	4	2
+188	__ArrHelper__malha2_244_0.__ArrHelper__malha2_244_0_type	1	0	0	1	0
+189	__ArrHelper__malha2_244_1	7	0	492	4	2
+190	__ArrHelper__malha2_244_1.__ArrHelper__malha2_244_1_type	1	0	0	1	0
+191	__ArrHelper__malha2_244_2	7	0	494	4	2
+192	__ArrHelper__malha2_244_2.__ArrHelper__malha2_244_2_type	1	0	0	1	0
+193	__strretvalmalha2	7	0	496	4	6
+194	__strretvalmalha2.__strretvalmalha2_type	1	0	0	1	0
+195	__strbufCopy_inline_main	7	0	498	4	4
+196	__strbufCopy_inline_main.__strbufCopy_inline_main_type	1	0	0	1	0
+197	write	7	0	500	4	2
+198	write.write_type	1	0	0	1	0
+199	__strbufmalha1	7	0	502	4	12
+200	__strbufmalha1.__strbufmalha1_type	1	0	0	1	0
+201	__strretvalmalha1	7	0	504	4	8
+202	__strretvalmalha1.__strretvalmalha1_type	1	0	0	1	0
+203	__strbufmalha2	7	0	506	4	8
+204	__strbufmalha2.__strbufmalha2_type	1	0	0	1	0
+205	__ArrHelper__malha1_244_4	7	0	508	4	2
+206	__ArrHelper__malha1_244_4.__ArrHelper__malha1_244_4_type	1	0	0	1	0
+207	__constStr0009	7	0	510	4	4
+208	__constStr0009.__constStr0009_type	1	1	0	1	0
+209	__Pos_tmpstr	7	0	512	4	2
+210	__Pos_tmpstr.__Pos_tmpstr_type	1	0	0	1	0
+211	__Pos_s2	7	0	514	4	3
+212	__Pos_s2.__Pos_s2_type	1	0	0	1	0
+213	__FWriteFlattenBuf	7	0	516	4	4
+214	__FWriteFlattenBuf.__FWriteFlattenBuf_type	1	0	0	1	0
+215	__malha2_7qG2_write2_7qG2_000	7	0	518	4	2
+216	__malha2_7qG2_write2_7qG2_000.__malha2_7qG2_write2_7qG2_000_type	1	0	0	1	0
+217	__FWriteLn	7	0	520	4	2
+218	__FWriteLn.__FWriteLn_type	1	0	0	1	0
+219	__ArrHelper__malha1_244_1	7	0	522	4	2
+220	__ArrHelper__malha1_244_1.__ArrHelper__malha1_244_1_type	1	0	0	1	0
+221	__ArrHelper__malha1_244_2	7	0	524	4	2
+222	__ArrHelper__malha1_244_2.__ArrHelper__malha1_244_2_type	1	0	0	1	0
+223	__ArrHelper__malha1_244_3	7	0	526	4	2
+224	__ArrHelper__malha1_244_3.__ArrHelper__malha1_244_3_type	1	0	0	1	0
+225	__Pos_s1	7	0	528	4	3
+226	__Pos_s1.__Pos_s1_type	1	0	0	1	0
+227	in	7	0	530	4	6
+228	in.in_type	1	0	0	1	0
+229	__ArrHelper__malha1_244_0	7	0	532	4	2
+230	__ArrHelper__malha1_244_0.__ArrHelper__malha1_244_0_type	1	0	0	1	0
+#SOURCES
+Clump	Line	PC	Source
+0	252	0	#line 252 "C:\Users\mariana\Desktop\Teste Malhas\Problema2\Slave.nxc"
+0	253	0		subcall __initialize_global_data, ____initialize_global_data_return
+0	252	2	#line 252 "C:\Users\mariana\Desktop\Teste Malhas\Problema2\Slave.nxc"
+0	252	2	#line 252 "C:\Users\mariana\Desktop\Teste Malhas\Problema2\Slave.nxc"
+0	253	2	#pragma macro 5
+0	253	2		mov __FDArgs.Filename, __constStr0011
+0	253	4		syscall 8, __FDArgs
+0	253	7		mov __D0main, __FDArgs.Result
+0	8435	9	#line 8435 "C:\Users\mariana\Desktop\Teste Malhas\Problema2\Slave.nxc"
+0	252	9	#line 252 "C:\Users\mariana\Desktop\Teste Malhas\Problema2\Slave.nxc"
+0	252	9	#line 252 "C:\Users\mariana\Desktop\Teste Malhas\Problema2\Slave.nxc"
+0	253	9	#line 253 "C:\Users\mariana\Desktop\Teste Malhas\Problema2\Slave.nxc"
+0	254	9	#pragma macro 7
+0	254	9		acquire __FOMutex
+0	254	10		mov __FOArgs.Filename, __constStr0011
+0	254	12		mov __FOArgs.Length, __constVal77824
+0	254	14		syscall 1, __FOArgs
+0	254	17		mov fileHandle2, __FOArgs.FileHandle
+0	254	19		mov __D0main, __FOArgs.Result
+0	254	21		release __FOMutex
+0	8439	22	#line 8439 "C:\Users\mariana\Desktop\Teste Malhas\Problema2\Slave.nxc"
+0	253	22	#line 253 "C:\Users\mariana\Desktop\Teste Malhas\Problema2\Slave.nxc"
+0	253	22	#line 253 "C:\Users\mariana\Desktop\Teste Malhas\Problema2\Slave.nxc"
+0	254	22	#line 254 "C:\Users\mariana\Desktop\Teste Malhas\Problema2\Slave.nxc"
+0	255	22	#pragma macro 5
+0	255	22		mov __FDArgs.Filename, __constStr0012
+0	255	24		syscall 8, __FDArgs
+0	8443	27	#line 8443 "C:\Users\mariana\Desktop\Teste Malhas\Problema2\Slave.nxc"
+0	254	27	#line 254 "C:\Users\mariana\Desktop\Teste Malhas\Problema2\Slave.nxc"
+0	254	27	#line 254 "C:\Users\mariana\Desktop\Teste Malhas\Problema2\Slave.nxc"
+0	259	27	#line 259 "C:\Users\mariana\Desktop\Teste Malhas\Problema2\Slave.nxc"
+0	260	27		set __BTCheck_7qG2_conn_7qG2_000, 0
+0	259	30	#line 259 "C:\Users\mariana\Desktop\Teste Malhas\Problema2\Slave.nxc"
+0	260	30	#line 260 "C:\Users\mariana\Desktop\Teste Malhas\Problema2\Slave.nxc"
+0	261	30		subcall BTCheck, __BTCheck_return
+0	260	32	#line 260 "C:\Users\mariana\Desktop\Teste Malhas\Problema2\Slave.nxc"
+0	261	32	#line 261 "C:\Users\mariana\Desktop\Teste Malhas\Problema2\Slave.nxc"
+0	262	32		gettick tempo_k
+0	261	34	#line 261 "C:\Users\mariana\Desktop\Teste Malhas\Problema2\Slave.nxc"
+0	261	34	#line 261 "C:\Users\mariana\Desktop\Teste Malhas\Problema2\Slave.nxc"
+0	261	34	#line 261 "C:\Users\mariana\Desktop\Teste Malhas\Problema2\Slave.nxc"
+0	263	34	#line 263 "C:\Users\mariana\Desktop\Teste Malhas\Problema2\Slave.nxc"
+0	263	34	#line 263 "C:\Users\mariana\Desktop\Teste Malhas\Problema2\Slave.nxc"
+0	263	34	#line 263 "C:\Users\mariana\Desktop\Teste Malhas\Problema2\Slave.nxc"
+0	264	34		set __main_7qG2_t_7qG2_001, 0
+0	263	37	#line 263 "C:\Users\mariana\Desktop\Teste Malhas\Problema2\Slave.nxc"
+0	263	37	#line 263 "C:\Users\mariana\Desktop\Teste Malhas\Problema2\Slave.nxc"
+0	264	37		mov __signed_stack_001main, __main_7qG2_t_7qG2_001
+0	263	39	#line 263 "C:\Users\mariana\Desktop\Teste Malhas\Problema2\Slave.nxc"
+0	263	39	#line 263 "C:\Users\mariana\Desktop\Teste Malhas\Problema2\Slave.nxc"
+0	264	39		mov __D0main, amostras
+0	263	41	#line 263 "C:\Users\mariana\Desktop\Teste Malhas\Problema2\Slave.nxc"
+0	264	41		cmp 0, __zfmain, __signed_stack_001main, __D0main
+0	263	45	#line 263 "C:\Users\mariana\Desktop\Teste Malhas\Problema2\Slave.nxc"
+0	264	45		mov __D0main, __zfmain
+0	263	47	#line 263 "C:\Users\mariana\Desktop\Teste Malhas\Problema2\Slave.nxc"
+0	264	47		brtst 4, __NXC_Label_811, __zfmain
+0	263	50	#line 263 "C:\Users\mariana\Desktop\Teste Malhas\Problema2\Slave.nxc"
+0	264	50		jmp __NXC_Label_812
+0	263	52	#line 263 "C:\Users\mariana\Desktop\Teste Malhas\Problema2\Slave.nxc"
+0	264	52		add __main_7qG2_t_7qG2_001, __main_7qG2_t_7qG2_001, __constVal1
+0	265	56	#line 265 "C:\Users\mariana\Desktop\Teste Malhas\Problema2\Slave.nxc"
+0	266	56		jmp __NXC_Label_810
+0	265	58	#line 265 "C:\Users\mariana\Desktop\Teste Malhas\Problema2\Slave.nxc"
+0	266	58	#pragma macro 5
+0	266	58		acquire __CBTCSMutex
+0	266	59		mov __CBTCSArgs.Connection, __constVal0
+0	266	61		syscall 28, __CBTCSArgs
+0	266	64		mov __D0main, __CBTCSArgs.Result
+0	266	66		release __CBTCSMutex
+0	8511	67	#line 8511 "C:\Users\mariana\Desktop\Teste Malhas\Problema2\Slave.nxc"
+0	265	67	#line 265 "C:\Users\mariana\Desktop\Teste Malhas\Problema2\Slave.nxc"
+0	266	67		not __signed_stack_001main, __D0main
+0	265	70	#line 265 "C:\Users\mariana\Desktop\Teste Malhas\Problema2\Slave.nxc"
+0	265	70	#line 265 "C:\Users\mariana\Desktop\Teste Malhas\Problema2\Slave.nxc"
+0	266	70		set __D0main, 0
+0	265	73	#line 265 "C:\Users\mariana\Desktop\Teste Malhas\Problema2\Slave.nxc"
+0	266	73		cmp 4, __zfmain, __signed_stack_001main, __D0main
+0	265	77	#line 265 "C:\Users\mariana\Desktop\Teste Malhas\Problema2\Slave.nxc"
+0	266	77		mov __D0main, __zfmain
+0	266	79	#line 266 "C:\Users\mariana\Desktop\Teste Malhas\Problema2\Slave.nxc"
+0	267	79		brtst 4, __NXC_Label_820, __zfmain
+0	267	82	#line 267 "C:\Users\mariana\Desktop\Teste Malhas\Problema2\Slave.nxc"
+0	268	82		set num_robos, 1
+0	267	85	#line 267 "C:\Users\mariana\Desktop\Teste Malhas\Problema2\Slave.nxc"
+0	267	85	#line 267 "C:\Users\mariana\Desktop\Teste Malhas\Problema2\Slave.nxc"
+0	268	85	#line 268 "C:\Users\mariana\Desktop\Teste Malhas\Problema2\Slave.nxc"
+0	269	85		jmp __NXC_Label_823
+0	269	87	#line 269 "C:\Users\mariana\Desktop\Teste Malhas\Problema2\Slave.nxc"
+0	270	87		set num_robos, 2
+0	269	90	#line 269 "C:\Users\mariana\Desktop\Teste Malhas\Problema2\Slave.nxc"
+0	269	90	#line 269 "C:\Users\mariana\Desktop\Teste Malhas\Problema2\Slave.nxc"
+0	272	90	#line 272 "C:\Users\mariana\Desktop\Teste Malhas\Problema2\Slave.nxc"
+0	272	90	#line 272 "C:\Users\mariana\Desktop\Teste Malhas\Problema2\Slave.nxc"
+0	273	90		gettick __unsigned_stack_001main
+0	272	92	#line 272 "C:\Users\mariana\Desktop\Teste Malhas\Problema2\Slave.nxc"
+0	273	92	#line 273 "C:\Users\mariana\Desktop\Teste Malhas\Problema2\Slave.nxc"
+0	273	92	#line 273 "C:\Users\mariana\Desktop\Teste Malhas\Problema2\Slave.nxc"
+0	274	92		sub __main_7qG2_dt_aux_7qG2_002, __unsigned_stack_001main, tempo_k
+0	273	96	#line 273 "C:\Users\mariana\Desktop\Teste Malhas\Problema2\Slave.nxc"
+0	273	96	#line 273 "C:\Users\mariana\Desktop\Teste Malhas\Problema2\Slave.nxc"
+0	273	96	#line 273 "C:\Users\mariana\Desktop\Teste Malhas\Problema2\Slave.nxc"
+0	274	96	#line 274 "C:\Users\mariana\Desktop\Teste Malhas\Problema2\Slave.nxc"
+0	274	96	#line 274 "C:\Users\mariana\Desktop\Teste Malhas\Problema2\Slave.nxc"
+0	275	96		add tempo_k, tempo_k, __main_7qG2_dt_aux_7qG2_002
+0	274	100	#line 274 "C:\Users\mariana\Desktop\Teste Malhas\Problema2\Slave.nxc"
+0	274	100	#line 274 "C:\Users\mariana\Desktop\Teste Malhas\Problema2\Slave.nxc"
+0	274	100	#line 274 "C:\Users\mariana\Desktop\Teste Malhas\Problema2\Slave.nxc"
+0	274	100	#line 274 "C:\Users\mariana\Desktop\Teste Malhas\Problema2\Slave.nxc"
+0	276	100	#line 276 "C:\Users\mariana\Desktop\Teste Malhas\Problema2\Slave.nxc"
+0	276	100	#line 276 "C:\Users\mariana\Desktop\Teste Malhas\Problema2\Slave.nxc"
+0	277	100		div dt, __main_7qG2_dt_aux_7qG2_002, __constVal1000
+0	276	104	#line 276 "C:\Users\mariana\Desktop\Teste Malhas\Problema2\Slave.nxc"
+0	276	104	#line 276 "C:\Users\mariana\Desktop\Teste Malhas\Problema2\Slave.nxc"
+0	276	104	#line 276 "C:\Users\mariana\Desktop\Teste Malhas\Problema2\Slave.nxc"
+0	277	104		set __signed_stack_001main, 10
+0	276	107	#line 276 "C:\Users\mariana\Desktop\Teste Malhas\Problema2\Slave.nxc"
+0	276	107	#line 276 "C:\Users\mariana\Desktop\Teste Malhas\Problema2\Slave.nxc"
+0	277	107		set __signed_stack_002main, 56
+0	276	110	#line 276 "C:\Users\mariana\Desktop\Teste Malhas\Problema2\Slave.nxc"
+0	276	110	#line 276 "C:\Users\mariana\Desktop\Teste Malhas\Problema2\Slave.nxc"
+0	277	110		strcat __strbufmain, __constStr0013
+0	277	114	#line 277 "C:\Users\mariana\Desktop\Teste Malhas\Problema2\Slave.nxc"
+0	278	114		acquire __TextOutMutex
+0	277	115	#line 277 "C:\Users\mariana\Desktop\Teste Malhas\Problema2\Slave.nxc"
+0	278	115		mov __TextOutArgs.Location.X, __signed_stack_001main
+0	277	117	#line 277 "C:\Users\mariana\Desktop\Teste Malhas\Problema2\Slave.nxc"
+0	278	117		mov __TextOutArgs.Location.Y, __signed_stack_002main
+0	277	119	#line 277 "C:\Users\mariana\Desktop\Teste Malhas\Problema2\Slave.nxc"
+0	278	119		set __TextOutArgs.Options, 0
+0	277	122	#line 277 "C:\Users\mariana\Desktop\Teste Malhas\Problema2\Slave.nxc"
+0	278	122		mov __TextOutArgs.Text, __strbufmain
+0	277	124	#line 277 "C:\Users\mariana\Desktop\Teste Malhas\Problema2\Slave.nxc"
+0	278	124		syscall 13, __TextOutArgs
+0	277	127	#line 277 "C:\Users\mariana\Desktop\Teste Malhas\Problema2\Slave.nxc"
+0	278	127		mov __D0main, __TextOutArgs.Result
+0	277	129	#line 277 "C:\Users\mariana\Desktop\Teste Malhas\Problema2\Slave.nxc"
+0	278	129		release __TextOutMutex
+0	277	130	#line 277 "C:\Users\mariana\Desktop\Teste Malhas\Problema2\Slave.nxc"
+0	277	130	#line 277 "C:\Users\mariana\Desktop\Teste Malhas\Problema2\Slave.nxc"
+0	278	130		set __signed_stack_001main, 0
+0	277	133	#line 277 "C:\Users\mariana\Desktop\Teste Malhas\Problema2\Slave.nxc"
+0	277	133	#line 277 "C:\Users\mariana\Desktop\Teste Malhas\Problema2\Slave.nxc"
+0	278	133		set __signed_stack_002main, 48
+0	277	136	#line 277 "C:\Users\mariana\Desktop\Teste Malhas\Problema2\Slave.nxc"
+0	277	136	#line 277 "C:\Users\mariana\Desktop\Teste Malhas\Problema2\Slave.nxc"
+0	278	136		strcat __strbufmain, __constStr0014
+0	278	140	#line 278 "C:\Users\mariana\Desktop\Teste Malhas\Problema2\Slave.nxc"
+0	279	140		acquire __TextOutMutex
+0	278	141	#line 278 "C:\Users\mariana\Desktop\Teste Malhas\Problema2\Slave.nxc"
+0	279	141		mov __TextOutArgs.Location.X, __signed_stack_001main
+0	278	143	#line 278 "C:\Users\mariana\Desktop\Teste Malhas\Problema2\Slave.nxc"
+0	279	143		mov __TextOutArgs.Location.Y, __signed_stack_002main
+0	278	145	#line 278 "C:\Users\mariana\Desktop\Teste Malhas\Problema2\Slave.nxc"
+0	279	145		set __TextOutArgs.Options, 0
+0	278	148	#line 278 "C:\Users\mariana\Desktop\Teste Malhas\Problema2\Slave.nxc"
+0	279	148		mov __TextOutArgs.Text, __strbufmain
+0	278	150	#line 278 "C:\Users\mariana\Desktop\Teste Malhas\Problema2\Slave.nxc"
+0	279	150		syscall 13, __TextOutArgs
+0	278	153	#line 278 "C:\Users\mariana\Desktop\Teste Malhas\Problema2\Slave.nxc"
+0	279	153		mov __D0main, __TextOutArgs.Result
+0	278	155	#line 278 "C:\Users\mariana\Desktop\Teste Malhas\Problema2\Slave.nxc"
+0	279	155		release __TextOutMutex
+0	278	156	#line 278 "C:\Users\mariana\Desktop\Teste Malhas\Problema2\Slave.nxc"
+0	278	156	#line 278 "C:\Users\mariana\Desktop\Teste Malhas\Problema2\Slave.nxc"
+0	279	156		set __signed_stack_001main, 0
+0	278	159	#line 278 "C:\Users\mariana\Desktop\Teste Malhas\Problema2\Slave.nxc"
+0	278	159	#line 278 "C:\Users\mariana\Desktop\Teste Malhas\Problema2\Slave.nxc"
+0	279	159		set __signed_stack_002main, 40
+0	278	162	#line 278 "C:\Users\mariana\Desktop\Teste Malhas\Problema2\Slave.nxc"
+0	278	162	#line 278 "C:\Users\mariana\Desktop\Teste Malhas\Problema2\Slave.nxc"
+0	279	162		strcat __strbufmain, __constStr0015
+0	279	166	#line 279 "C:\Users\mariana\Desktop\Teste Malhas\Problema2\Slave.nxc"
+0	280	166		acquire __TextOutMutex
+0	279	167	#line 279 "C:\Users\mariana\Desktop\Teste Malhas\Problema2\Slave.nxc"
+0	280	167		mov __TextOutArgs.Location.X, __signed_stack_001main
+0	279	169	#line 279 "C:\Users\mariana\Desktop\Teste Malhas\Problema2\Slave.nxc"
+0	280	169		mov __TextOutArgs.Location.Y, __signed_stack_002main
+0	279	171	#line 279 "C:\Users\mariana\Desktop\Teste Malhas\Problema2\Slave.nxc"
+0	280	171		set __TextOutArgs.Options, 0
+0	279	174	#line 279 "C:\Users\mariana\Desktop\Teste Malhas\Problema2\Slave.nxc"
+0	280	174		mov __TextOutArgs.Text, __strbufmain
+0	279	176	#line 279 "C:\Users\mariana\Desktop\Teste Malhas\Problema2\Slave.nxc"
+0	280	176		syscall 13, __TextOutArgs
+0	279	179	#line 279 "C:\Users\mariana\Desktop\Teste Malhas\Problema2\Slave.nxc"
+0	280	179		mov __D0main, __TextOutArgs.Result
+0	279	181	#line 279 "C:\Users\mariana\Desktop\Teste Malhas\Problema2\Slave.nxc"
+0	280	181		release __TextOutMutex
+0	279	182	#line 279 "C:\Users\mariana\Desktop\Teste Malhas\Problema2\Slave.nxc"
+0	279	182	#line 279 "C:\Users\mariana\Desktop\Teste Malhas\Problema2\Slave.nxc"
+0	280	182	#pragma macro 7
+0	280	182		mov __MRArgs.QueueID, __constVal5
+0	280	184		mov __MRArgs.Remove, __constVal1
+0	280	186		syscall 27, __MRArgs
+0	280	189		mov in, __MRArgs.Message
+0	280	191		mov __D0main, __MRArgs.Result
+0	8681	193	#line 8681 "C:\Users\mariana\Desktop\Teste Malhas\Problema2\Slave.nxc"
+0	279	193	#line 279 "C:\Users\mariana\Desktop\Teste Malhas\Problema2\Slave.nxc"
+0	279	193	#line 279 "C:\Users\mariana\Desktop\Teste Malhas\Problema2\Slave.nxc"
+0	281	193	#line 281 "C:\Users\mariana\Desktop\Teste Malhas\Problema2\Slave.nxc"
+0	282	193		strcat __strbufmain, __constStr0009
+0	281	197	#line 281 "C:\Users\mariana\Desktop\Teste Malhas\Problema2\Slave.nxc"
+0	282	197		mov __Pos_7qG2_Substr_7qG2_000_inline_main, __strbufmain
+0	281	199	#line 281 "C:\Users\mariana\Desktop\Teste Malhas\Problema2\Slave.nxc"
+0	282	199		strcat __strbufmain, in
+0	281	203	#line 281 "C:\Users\mariana\Desktop\Teste Malhas\Problema2\Slave.nxc"
+0	282	203		mov __Pos_7qG2_S_7qG2_000_inline_main, __strbufmain
+0	18483	205	#line 18483 "NXCDefs.h"
+0	18484	205	#pragma macro 6
+0	18484	205		mov __Pos_s1, __Pos_7qG2_Substr_7qG2_000_inline_main
+0	18484	207		mov __Pos_s2, __Pos_7qG2_S_7qG2_000_inline_main
+0	18484	209		subcall __PosSubroutine, ____PosSubroutine_return
+0	18484	211		mov __main_7qG2_index_7qG2_002, __Pos_Result
+0	8705	213	#line 8705 "NXCDefs.h"
+0	18483	213	#line 18483 "NXCDefs.h"
+0	282	213	#line 282 "C:\Users\mariana\Desktop\Teste Malhas\Problema2\Slave.nxc"
+0	282	213	#line 282 "C:\Users\mariana\Desktop\Teste Malhas\Problema2\Slave.nxc"
+0	282	213	#line 282 "C:\Users\mariana\Desktop\Teste Malhas\Problema2\Slave.nxc"
+0	283	213		strcat __strbufmain, in
+0	282	217	#line 282 "C:\Users\mariana\Desktop\Teste Malhas\Problema2\Slave.nxc"
+0	283	217		mov __Copy_7qG2_str_7qG2_000_inline_main, __strbufmain
+0	282	219	#line 282 "C:\Users\mariana\Desktop\Teste Malhas\Problema2\Slave.nxc"
+0	283	219		set __Copy_7qG2_idx_7qG2_000_inline_main, 0
+0	282	222	#line 282 "C:\Users\mariana\Desktop\Teste Malhas\Problema2\Slave.nxc"
+0	282	222	#line 282 "C:\Users\mariana\Desktop\Teste Malhas\Problema2\Slave.nxc"
+0	283	222		mov __Copy_7qG2_len_7qG2_000_inline_main, __main_7qG2_index_7qG2_002
+0	282	224	#line 282 "C:\Users\mariana\Desktop\Teste Malhas\Problema2\Slave.nxc"
+0	18533	224	#line 18533 "NXCDefs.h"
+0	18534	224		strsubset __strbufCopy_inline_main, __Copy_7qG2_str_7qG2_000_inline_main, __Copy_7qG2_idx_7qG2_000_inline_main, __Copy_7qG2_len_7qG2_000_inline_main
+0	18534	229	#line 18534 "NXCDefs.h"
+0	282	229	#line 282 "C:\Users\mariana\Desktop\Teste Malhas\Problema2\Slave.nxc"
+0	283	229		mov __strretvalmain, __strbufCopy_inline_main
+0	282	231	#line 282 "C:\Users\mariana\Desktop\Teste Malhas\Problema2\Slave.nxc"
+0	283	231		strcat __strbufmain, __strretvalmain
+0	283	235	#line 283 "C:\Users\mariana\Desktop\Teste Malhas\Problema2\Slave.nxc"
+0	284	235		strtonum num_robos, __signed_stack_001main, __strbufmain, 65535, 65535
+0	283	241	#line 283 "C:\Users\mariana\Desktop\Teste Malhas\Problema2\Slave.nxc"
+0	283	241	#line 283 "C:\Users\mariana\Desktop\Teste Malhas\Problema2\Slave.nxc"
+0	283	241	#line 283 "C:\Users\mariana\Desktop\Teste Malhas\Problema2\Slave.nxc"
+0	284	241		strcat __strbufmain, in
+0	283	245	#line 283 "C:\Users\mariana\Desktop\Teste Malhas\Problema2\Slave.nxc"
+0	284	245		mov __Copy_7qG2_str_7qG2_000_inline_main, __strbufmain
+0	283	247	#line 283 "C:\Users\mariana\Desktop\Teste Malhas\Problema2\Slave.nxc"
+0	283	247	#line 283 "C:\Users\mariana\Desktop\Teste Malhas\Problema2\Slave.nxc"
+0	283	247	#line 283 "C:\Users\mariana\Desktop\Teste Malhas\Problema2\Slave.nxc"
+0	283	247	#line 283 "C:\Users\mariana\Desktop\Teste Malhas\Problema2\Slave.nxc"
+0	284	247		add __Copy_7qG2_idx_7qG2_000_inline_main, __main_7qG2_index_7qG2_002, __constVal1
+0	283	251	#line 283 "C:\Users\mariana\Desktop\Teste Malhas\Problema2\Slave.nxc"
+0	283	251	#line 283 "C:\Users\mariana\Desktop\Teste Malhas\Problema2\Slave.nxc"
+0	284	251		strcat __strbufmain, in
+0	283	255	#line 283 "C:\Users\mariana\Desktop\Teste Malhas\Problema2\Slave.nxc"
+0	284	255		arrsize __D0main, __strbufmain
+0	284	258		sub __signed_stack_001main, __D0main, __constVal1
+0	283	262	#line 283 "C:\Users\mariana\Desktop\Teste Malhas\Problema2\Slave.nxc"
+0	283	262	#line 283 "C:\Users\mariana\Desktop\Teste Malhas\Problema2\Slave.nxc"
+0	283	262	#line 283 "C:\Users\mariana\Desktop\Teste Malhas\Problema2\Slave.nxc"
+0	284	262		sub __signed_stack_001main, __signed_stack_001main, __main_7qG2_index_7qG2_002
+0	283	266	#line 283 "C:\Users\mariana\Desktop\Teste Malhas\Problema2\Slave.nxc"
+0	283	266	#line 283 "C:\Users\mariana\Desktop\Teste Malhas\Problema2\Slave.nxc"
+0	283	266	#line 283 "C:\Users\mariana\Desktop\Teste Malhas\Problema2\Slave.nxc"
+0	284	266		add __Copy_7qG2_len_7qG2_000_inline_main, __signed_stack_001main, __constVal1
+0	283	270	#line 283 "C:\Users\mariana\Desktop\Teste Malhas\Problema2\Slave.nxc"
+0	18533	270	#line 18533 "NXCDefs.h"
+0	18534	270		strsubset __strbufCopy_inline_main, __Copy_7qG2_str_7qG2_000_inline_main, __Copy_7qG2_idx_7qG2_000_inline_main, __Copy_7qG2_len_7qG2_000_inline_main
+0	18534	275	#line 18534 "NXCDefs.h"
+0	283	275	#line 283 "C:\Users\mariana\Desktop\Teste Malhas\Problema2\Slave.nxc"
+0	284	275		mov __strretvalmain, __strbufCopy_inline_main
+0	283	277	#line 283 "C:\Users\mariana\Desktop\Teste Malhas\Problema2\Slave.nxc"
+0	284	277		strcat __strbufmain, __strretvalmain
+0	283	281	#line 283 "C:\Users\mariana\Desktop\Teste Malhas\Problema2\Slave.nxc"
+0	284	281		mov __atof_7qG2_str_7qG2_000_inline_main, __strbufmain
+0	18158	283	#line 18158 "NXCDefs.h"
+0	18159	283		strtonum __atof_7qG2_result_7qG2_000_inline_main, __tmpswordatof_inline_main, __atof_7qG2_str_7qG2_000_inline_main, 65535, 65535
+0	18159	289	#line 18159 "NXCDefs.h"
+0	18160	289	#line 18160 "NXCDefs.h"
+0	18161	289		mov wt, __atof_7qG2_result_7qG2_000_inline_main
+0	18160	291	#line 18160 "NXCDefs.h"
+0	18160	291	#line 18160 "NXCDefs.h"
+0	284	291	#line 284 "C:\Users\mariana\Desktop\Teste Malhas\Problema2\Slave.nxc"
+0	284	291	#line 284 "C:\Users\mariana\Desktop\Teste Malhas\Problema2\Slave.nxc"
+0	284	291	#line 284 "C:\Users\mariana\Desktop\Teste Malhas\Problema2\Slave.nxc"
+0	284	291	#line 284 "C:\Users\mariana\Desktop\Teste Malhas\Problema2\Slave.nxc"
+0	285	291		set __signed_stack_001main, 10
+0	284	294	#line 284 "C:\Users\mariana\Desktop\Teste Malhas\Problema2\Slave.nxc"
+0	284	294	#line 284 "C:\Users\mariana\Desktop\Teste Malhas\Problema2\Slave.nxc"
+0	285	294		set __signed_stack_002main, 48
+0	284	297	#line 284 "C:\Users\mariana\Desktop\Teste Malhas\Problema2\Slave.nxc"
+0	284	297	#line 284 "C:\Users\mariana\Desktop\Teste Malhas\Problema2\Slave.nxc"
+0	285	297		strcat __strbufmain, in
+0	286	301	#line 286 "C:\Users\mariana\Desktop\Teste Malhas\Problema2\Slave.nxc"
+0	287	301		acquire __TextOutMutex
+0	286	302	#line 286 "C:\Users\mariana\Desktop\Teste Malhas\Problema2\Slave.nxc"
+0	287	302		mov __TextOutArgs.Location.X, __signed_stack_001main
+0	286	304	#line 286 "C:\Users\mariana\Desktop\Teste Malhas\Problema2\Slave.nxc"
+0	287	304		mov __TextOutArgs.Location.Y, __signed_stack_002main
+0	286	306	#line 286 "C:\Users\mariana\Desktop\Teste Malhas\Problema2\Slave.nxc"
+0	287	306		set __TextOutArgs.Options, 0
+0	286	309	#line 286 "C:\Users\mariana\Desktop\Teste Malhas\Problema2\Slave.nxc"
+0	287	309		mov __TextOutArgs.Text, __strbufmain
+0	286	311	#line 286 "C:\Users\mariana\Desktop\Teste Malhas\Problema2\Slave.nxc"
+0	287	311		syscall 13, __TextOutArgs
+0	286	314	#line 286 "C:\Users\mariana\Desktop\Teste Malhas\Problema2\Slave.nxc"
+0	287	314		mov __D0main, __TextOutArgs.Result
+0	286	316	#line 286 "C:\Users\mariana\Desktop\Teste Malhas\Problema2\Slave.nxc"
+0	287	316		release __TextOutMutex
+0	286	317	#line 286 "C:\Users\mariana\Desktop\Teste Malhas\Problema2\Slave.nxc"
+0	286	317	#line 286 "C:\Users\mariana\Desktop\Teste Malhas\Problema2\Slave.nxc"
+0	287	317		mov __float_stack_001main, R
+0	286	319	#line 286 "C:\Users\mariana\Desktop\Teste Malhas\Problema2\Slave.nxc"
+0	286	319	#line 286 "C:\Users\mariana\Desktop\Teste Malhas\Problema2\Slave.nxc"
+0	287	319		mov __float_stack_002main, wt
+0	286	321	#line 286 "C:\Users\mariana\Desktop\Teste Malhas\Problema2\Slave.nxc"
+0	286	321	#line 286 "C:\Users\mariana\Desktop\Teste Malhas\Problema2\Slave.nxc"
+0	286	321	#line 286 "C:\Users\mariana\Desktop\Teste Malhas\Problema2\Slave.nxc"
+0	286	321	#line 286 "C:\Users\mariana\Desktop\Teste Malhas\Problema2\Slave.nxc"
+0	286	321	#line 286 "C:\Users\mariana\Desktop\Teste Malhas\Problema2\Slave.nxc"
+0	287	321		mul __float_stack_003main, num, __constValf6P283186
+0	286	325	#line 286 "C:\Users\mariana\Desktop\Teste Malhas\Problema2\Slave.nxc"
+0	286	325	#line 286 "C:\Users\mariana\Desktop\Teste Malhas\Problema2\Slave.nxc"
+0	286	325	#line 286 "C:\Users\mariana\Desktop\Teste Malhas\Problema2\Slave.nxc"
+0	287	325		div __DF0main, __float_stack_003main, num_robos
+0	286	329	#line 286 "C:\Users\mariana\Desktop\Teste Malhas\Problema2\Slave.nxc"
+0	287	329		add __cos_7qG2_x_7qG2_000_inline_main, __float_stack_002main, __DF0main
+0	286	333	#line 286 "C:\Users\mariana\Desktop\Teste Malhas\Problema2\Slave.nxc"
+0	17165	333	#line 17165 "NXCDefs.h"
+0	17166	333		cos __DF0main, __cos_7qG2_x_7qG2_000_inline_main
+0	17165	336	#line 17165 "NXCDefs.h"
+0	287	336	#line 287 "C:\Users\mariana\Desktop\Teste Malhas\Problema2\Slave.nxc"
+0	287	336	#line 287 "C:\Users\mariana\Desktop\Teste Malhas\Problema2\Slave.nxc"
+0	288	336		mul __main_7qG2_xd_7qG2_002, __float_stack_001main, __DF0main
+0	287	340	#line 287 "C:\Users\mariana\Desktop\Teste Malhas\Problema2\Slave.nxc"
+0	287	340	#line 287 "C:\Users\mariana\Desktop\Teste Malhas\Problema2\Slave.nxc"
+0	288	340		mov __float_stack_001main, R
+0	287	342	#line 287 "C:\Users\mariana\Desktop\Teste Malhas\Problema2\Slave.nxc"
+0	287	342	#line 287 "C:\Users\mariana\Desktop\Teste Malhas\Problema2\Slave.nxc"
+0	288	342		mov __float_stack_002main, wt
+0	287	344	#line 287 "C:\Users\mariana\Desktop\Teste Malhas\Problema2\Slave.nxc"
+0	287	344	#line 287 "C:\Users\mariana\Desktop\Teste Malhas\Problema2\Slave.nxc"
+0	287	344	#line 287 "C:\Users\mariana\Desktop\Teste Malhas\Problema2\Slave.nxc"
+0	287	344	#line 287 "C:\Users\mariana\Desktop\Teste Malhas\Problema2\Slave.nxc"
+0	287	344	#line 287 "C:\Users\mariana\Desktop\Teste Malhas\Problema2\Slave.nxc"
+0	288	344		mul __float_stack_003main, num, __constValf6P283186
+0	287	348	#line 287 "C:\Users\mariana\Desktop\Teste Malhas\Problema2\Slave.nxc"
+0	287	348	#line 287 "C:\Users\mariana\Desktop\Teste Malhas\Problema2\Slave.nxc"
+0	287	348	#line 287 "C:\Users\mariana\Desktop\Teste Malhas\Problema2\Slave.nxc"
+0	288	348		div __DF0main, __float_stack_003main, num_robos
+0	287	352	#line 287 "C:\Users\mariana\Desktop\Teste Malhas\Problema2\Slave.nxc"
+0	288	352		add __sin_7qG2_x_7qG2_000_inline_main, __float_stack_002main, __DF0main
+0	287	356	#line 287 "C:\Users\mariana\Desktop\Teste Malhas\Problema2\Slave.nxc"
+0	17176	356	#line 17176 "NXCDefs.h"
+0	17177	356		sin __DF0main, __sin_7qG2_x_7qG2_000_inline_main
+0	17176	359	#line 17176 "NXCDefs.h"
+0	288	359	#line 288 "C:\Users\mariana\Desktop\Teste Malhas\Problema2\Slave.nxc"
+0	288	359	#line 288 "C:\Users\mariana\Desktop\Teste Malhas\Problema2\Slave.nxc"
+0	289	359		mul __main_7qG2_yd_7qG2_002, __float_stack_001main, __DF0main
+0	288	363	#line 288 "C:\Users\mariana\Desktop\Teste Malhas\Problema2\Slave.nxc"
+0	288	363	#line 288 "C:\Users\mariana\Desktop\Teste Malhas\Problema2\Slave.nxc"
+0	289	363		mov __malha2_7qG2_xd_7qG2_000, __main_7qG2_xd_7qG2_002
+0	288	365	#line 288 "C:\Users\mariana\Desktop\Teste Malhas\Problema2\Slave.nxc"
+0	288	365	#line 288 "C:\Users\mariana\Desktop\Teste Malhas\Problema2\Slave.nxc"
+0	289	365		mov __malha2_7qG2_yd_7qG2_000, __main_7qG2_yd_7qG2_002
+0	288	367	#line 288 "C:\Users\mariana\Desktop\Teste Malhas\Problema2\Slave.nxc"
+0	289	367	#line 289 "C:\Users\mariana\Desktop\Teste Malhas\Problema2\Slave.nxc"
+0	290	367		subcall malha2, __malha2_return
+0	289	369	#line 289 "C:\Users\mariana\Desktop\Teste Malhas\Problema2\Slave.nxc"
+0	289	369	#line 289 "C:\Users\mariana\Desktop\Teste Malhas\Problema2\Slave.nxc"
+0	289	369	#line 289 "C:\Users\mariana\Desktop\Teste Malhas\Problema2\Slave.nxc"
+0	7921	369	#line 7921 "NXCDefs.h"
+0	7922	369		wait 200
+0	7921	371	#line 7921 "NXCDefs.h"
+0	291	371	#line 291 "C:\Users\mariana\Desktop\Teste Malhas\Problema2\Slave.nxc"
+0	293	371	#line 293 "C:\Users\mariana\Desktop\Teste Malhas\Problema2\Slave.nxc"
+0	294	371		jmp __NXC_Label_813
+0	293	373	#line 293 "C:\Users\mariana\Desktop\Teste Malhas\Problema2\Slave.nxc"
+0	293	373	#line 293 "C:\Users\mariana\Desktop\Teste Malhas\Problema2\Slave.nxc"
+0	294	373	#pragma macro 5
+0	294	373		mov __FCArgs.FileHandle, fileHandle
+0	294	375		syscall 5, __FCArgs
+0	294	378		mov __D0main, __FCArgs.Result
+0	8990	380	#line 8990 "C:\Users\mariana\Desktop\Teste Malhas\Problema2\Slave.nxc"
+0	293	380	#line 293 "C:\Users\mariana\Desktop\Teste Malhas\Problema2\Slave.nxc"
+0	293	380	#line 293 "C:\Users\mariana\Desktop\Teste Malhas\Problema2\Slave.nxc"
+0	294	380	#line 294 "C:\Users\mariana\Desktop\Teste Malhas\Problema2\Slave.nxc"
+0	295	380	#pragma macro 5
+0	295	380		mov __FCArgs.FileHandle, fileHandle2
+0	295	382		syscall 5, __FCArgs
+0	295	385		mov __D0main, __FCArgs.Result
+0	8994	387	#line 8994 "C:\Users\mariana\Desktop\Teste Malhas\Problema2\Slave.nxc"
+0	294	387	#line 294 "C:\Users\mariana\Desktop\Teste Malhas\Problema2\Slave.nxc"
+0	294	387	#line 294 "C:\Users\mariana\Desktop\Teste Malhas\Problema2\Slave.nxc"
+0	295	387		exit -1, -1
+1	13669	0		arrsize __Pos_l1, __Pos_s1
+1	13670	3		sub __Pos_l1, __Pos_l1, __constVal1
+1	13671	7		arrsize __Pos_lDelta, __Pos_s2
+1	13672	10		sub __Pos_lDelta, __Pos_lDelta, __Pos_l1
+1	13673	14		set __Pos_i, 0
+1	13675	17		sub __Pos_lDelta, __Pos_lDelta, __constVal1
+1	13676	21		brtst 0, __Pos_RepeatEnd, __Pos_lDelta
+1	13677	24		strsubset __Pos_tmpstr, __Pos_s2, __Pos_i, __Pos_l1
+1	13678	29		cmp 4, __Pos_Result, __Pos_s1, __Pos_tmpstr
+1	13679	33		brtst 4, __Pos_RepeatAgain, __Pos_Result
+1	13680	36		mov __Pos_Result, __Pos_i
+1	13681	38		subret ____PosSubroutine_return
+1	13683	40		add __Pos_i, __Pos_i, __constVal1
+1	13684	44		jmp __Pos_Repeat
+1	13686	46		set __Pos_Result, -1
+1	13687	49		subret ____PosSubroutine_return
+2	96	0	#line 96 "C:\Users\mariana\Desktop\Teste Malhas\Problema2\Slave.nxc"
+2	97	0		getout countR_kplus, __constVal0, 14
+2	96	4	#line 96 "C:\Users\mariana\Desktop\Teste Malhas\Problema2\Slave.nxc"
+2	96	4	#line 96 "C:\Users\mariana\Desktop\Teste Malhas\Problema2\Slave.nxc"
+2	99	4	#line 99 "C:\Users\mariana\Desktop\Teste Malhas\Problema2\Slave.nxc"
+2	100	4		getout countL_kplus, __constVal2, 14
+2	99	8	#line 99 "C:\Users\mariana\Desktop\Teste Malhas\Problema2\Slave.nxc"
+2	99	8	#line 99 "C:\Users\mariana\Desktop\Teste Malhas\Problema2\Slave.nxc"
+2	99	8	#line 99 "C:\Users\mariana\Desktop\Teste Malhas\Problema2\Slave.nxc"
+2	99	8	#line 99 "C:\Users\mariana\Desktop\Teste Malhas\Problema2\Slave.nxc"
+2	99	8	#line 99 "C:\Users\mariana\Desktop\Teste Malhas\Problema2\Slave.nxc"
+2	99	8	#line 99 "C:\Users\mariana\Desktop\Teste Malhas\Problema2\Slave.nxc"
+2	100	8		sub __float_stack_001getWs, countR_kplus, countR_k
+2	99	12	#line 99 "C:\Users\mariana\Desktop\Teste Malhas\Problema2\Slave.nxc"
+2	99	12	#line 99 "C:\Users\mariana\Desktop\Teste Malhas\Problema2\Slave.nxc"
+2	99	12	#line 99 "C:\Users\mariana\Desktop\Teste Malhas\Problema2\Slave.nxc"
+2	100	12		mul __float_stack_001getWs, __float_stack_001getWs, convrad
+2	99	16	#line 99 "C:\Users\mariana\Desktop\Teste Malhas\Problema2\Slave.nxc"
+2	100	16	#line 100 "C:\Users\mariana\Desktop\Teste Malhas\Problema2\Slave.nxc"
+2	100	16	#line 100 "C:\Users\mariana\Desktop\Teste Malhas\Problema2\Slave.nxc"
+2	101	16		div wr, __float_stack_001getWs, dt
+2	100	20	#line 100 "C:\Users\mariana\Desktop\Teste Malhas\Problema2\Slave.nxc"
+2	100	20	#line 100 "C:\Users\mariana\Desktop\Teste Malhas\Problema2\Slave.nxc"
+2	100	20	#line 100 "C:\Users\mariana\Desktop\Teste Malhas\Problema2\Slave.nxc"
+2	100	20	#line 100 "C:\Users\mariana\Desktop\Teste Malhas\Problema2\Slave.nxc"
+2	100	20	#line 100 "C:\Users\mariana\Desktop\Teste Malhas\Problema2\Slave.nxc"
+2	100	20	#line 100 "C:\Users\mariana\Desktop\Teste Malhas\Problema2\Slave.nxc"
+2	101	20		sub __float_stack_001getWs, countL_kplus, countL_k
+2	100	24	#line 100 "C:\Users\mariana\Desktop\Teste Malhas\Problema2\Slave.nxc"
+2	100	24	#line 100 "C:\Users\mariana\Desktop\Teste Malhas\Problema2\Slave.nxc"
+2	100	24	#line 100 "C:\Users\mariana\Desktop\Teste Malhas\Problema2\Slave.nxc"
+2	101	24		mul __float_stack_001getWs, __float_stack_001getWs, convrad
+2	100	28	#line 100 "C:\Users\mariana\Desktop\Teste Malhas\Problema2\Slave.nxc"
+2	101	28	#line 101 "C:\Users\mariana\Desktop\Teste Malhas\Problema2\Slave.nxc"
+2	101	28	#line 101 "C:\Users\mariana\Desktop\Teste Malhas\Problema2\Slave.nxc"
+2	102	28		div wl, __float_stack_001getWs, dt
+2	101	32	#line 101 "C:\Users\mariana\Desktop\Teste Malhas\Problema2\Slave.nxc"
+2	101	32	#line 101 "C:\Users\mariana\Desktop\Teste Malhas\Problema2\Slave.nxc"
+2	102	32	#line 102 "C:\Users\mariana\Desktop\Teste Malhas\Problema2\Slave.nxc"
+2	103	32		mov countR_k, countR_kplus
+2	102	34	#line 102 "C:\Users\mariana\Desktop\Teste Malhas\Problema2\Slave.nxc"
+2	102	34	#line 102 "C:\Users\mariana\Desktop\Teste Malhas\Problema2\Slave.nxc"
+2	104	34	#line 104 "C:\Users\mariana\Desktop\Teste Malhas\Problema2\Slave.nxc"
+2	105	34		mov countL_k, countL_kplus
+2	104	36	#line 104 "C:\Users\mariana\Desktop\Teste Malhas\Problema2\Slave.nxc"
+2	104	36	#line 104 "C:\Users\mariana\Desktop\Teste Malhas\Problema2\Slave.nxc"
+2	106	36	#line 106 "C:\Users\mariana\Desktop\Teste Malhas\Problema2\Slave.nxc"
+2	107	36		subret __getWs_return
+3	109	0	#line 109 "C:\Users\mariana\Desktop\Teste Malhas\Problema2\Slave.nxc"
+3	109	0	#line 109 "C:\Users\mariana\Desktop\Teste Malhas\Problema2\Slave.nxc"
+3	109	0	#line 109 "C:\Users\mariana\Desktop\Teste Malhas\Problema2\Slave.nxc"
+3	109	0	#line 109 "C:\Users\mariana\Desktop\Teste Malhas\Problema2\Slave.nxc"
+3	110	0		mul __float_stack_001malha1, __constVal2, __malha1_7qG2_vLinear_7qG2_000
+3	109	4	#line 109 "C:\Users\mariana\Desktop\Teste Malhas\Problema2\Slave.nxc"
+3	109	4	#line 109 "C:\Users\mariana\Desktop\Teste Malhas\Problema2\Slave.nxc"
+3	109	4	#line 109 "C:\Users\mariana\Desktop\Teste Malhas\Problema2\Slave.nxc"
+3	109	4	#line 109 "C:\Users\mariana\Desktop\Teste Malhas\Problema2\Slave.nxc"
+3	109	4	#line 109 "C:\Users\mariana\Desktop\Teste Malhas\Problema2\Slave.nxc"
+3	110	4		mul __DF0malha1, __malha1_7qG2_vAng_7qG2_000, __constValf0P112
+3	109	8	#line 109 "C:\Users\mariana\Desktop\Teste Malhas\Problema2\Slave.nxc"
+3	110	8		add __float_stack_001malha1, __float_stack_001malha1, __DF0malha1
+3	109	12	#line 109 "C:\Users\mariana\Desktop\Teste Malhas\Problema2\Slave.nxc"
+3	109	12	#line 109 "C:\Users\mariana\Desktop\Teste Malhas\Problema2\Slave.nxc"
+3	110	12	#line 110 "C:\Users\mariana\Desktop\Teste Malhas\Problema2\Slave.nxc"
+3	111	12		div wdr, __float_stack_001malha1, __constValf0P0432
+3	110	16	#line 110 "C:\Users\mariana\Desktop\Teste Malhas\Problema2\Slave.nxc"
+3	110	16	#line 110 "C:\Users\mariana\Desktop\Teste Malhas\Problema2\Slave.nxc"
+3	110	16	#line 110 "C:\Users\mariana\Desktop\Teste Malhas\Problema2\Slave.nxc"
+3	110	16	#line 110 "C:\Users\mariana\Desktop\Teste Malhas\Problema2\Slave.nxc"
+3	110	16	#line 110 "C:\Users\mariana\Desktop\Teste Malhas\Problema2\Slave.nxc"
+3	110	16	#line 110 "C:\Users\mariana\Desktop\Teste Malhas\Problema2\Slave.nxc"
+3	111	16		mul __float_stack_001malha1, __constVal2, __malha1_7qG2_vLinear_7qG2_000
+3	110	20	#line 110 "C:\Users\mariana\Desktop\Teste Malhas\Problema2\Slave.nxc"
+3	110	20	#line 110 "C:\Users\mariana\Desktop\Teste Malhas\Problema2\Slave.nxc"
+3	110	20	#line 110 "C:\Users\mariana\Desktop\Teste Malhas\Problema2\Slave.nxc"
+3	110	20	#line 110 "C:\Users\mariana\Desktop\Teste Malhas\Problema2\Slave.nxc"
+3	110	20	#line 110 "C:\Users\mariana\Desktop\Teste Malhas\Problema2\Slave.nxc"
+3	111	20		mul __DF0malha1, __malha1_7qG2_vAng_7qG2_000, __constValf0P112
+3	110	24	#line 110 "C:\Users\mariana\Desktop\Teste Malhas\Problema2\Slave.nxc"
+3	111	24		sub __float_stack_001malha1, __float_stack_001malha1, __DF0malha1
+3	110	28	#line 110 "C:\Users\mariana\Desktop\Teste Malhas\Problema2\Slave.nxc"
+3	110	28	#line 110 "C:\Users\mariana\Desktop\Teste Malhas\Problema2\Slave.nxc"
+3	113	28	#line 113 "C:\Users\mariana\Desktop\Teste Malhas\Problema2\Slave.nxc"
+3	114	28		div wdl, __float_stack_001malha1, __constValf0P0432
+3	113	32	#line 113 "C:\Users\mariana\Desktop\Teste Malhas\Problema2\Slave.nxc"
+3	113	32	#line 113 "C:\Users\mariana\Desktop\Teste Malhas\Problema2\Slave.nxc"
+3	116	32	#line 116 "C:\Users\mariana\Desktop\Teste Malhas\Problema2\Slave.nxc"
+3	117	32		subcall getWs, __getWs_return
+3	116	34	#line 116 "C:\Users\mariana\Desktop\Teste Malhas\Problema2\Slave.nxc"
+3	116	34	#line 116 "C:\Users\mariana\Desktop\Teste Malhas\Problema2\Slave.nxc"
+3	116	34	#line 116 "C:\Users\mariana\Desktop\Teste Malhas\Problema2\Slave.nxc"
+3	117	34	#line 117 "C:\Users\mariana\Desktop\Teste Malhas\Problema2\Slave.nxc"
+3	117	34	#line 117 "C:\Users\mariana\Desktop\Teste Malhas\Problema2\Slave.nxc"
+3	118	34		sub ewr, wdr, wr
+3	117	38	#line 117 "C:\Users\mariana\Desktop\Teste Malhas\Problema2\Slave.nxc"
+3	117	38	#line 117 "C:\Users\mariana\Desktop\Teste Malhas\Problema2\Slave.nxc"
+3	117	38	#line 117 "C:\Users\mariana\Desktop\Teste Malhas\Problema2\Slave.nxc"
+3	117	38	#line 117 "C:\Users\mariana\Desktop\Teste Malhas\Problema2\Slave.nxc"
+3	139	38	#line 139 "C:\Users\mariana\Desktop\Teste Malhas\Problema2\Slave.nxc"
+3	139	38	#line 139 "C:\Users\mariana\Desktop\Teste Malhas\Problema2\Slave.nxc"
+3	140	38		sub ewl, wdl, wl
+3	139	42	#line 139 "C:\Users\mariana\Desktop\Teste Malhas\Problema2\Slave.nxc"
+3	139	42	#line 139 "C:\Users\mariana\Desktop\Teste Malhas\Problema2\Slave.nxc"
+3	139	42	#line 139 "C:\Users\mariana\Desktop\Teste Malhas\Problema2\Slave.nxc"
+3	140	42		mov __float_stack_001malha1, ewr
+3	139	44	#line 139 "C:\Users\mariana\Desktop\Teste Malhas\Problema2\Slave.nxc"
+3	139	44	#line 139 "C:\Users\mariana\Desktop\Teste Malhas\Problema2\Slave.nxc"
+3	140	44		mov __DF0malha1, __constVal0
+3	139	46	#line 139 "C:\Users\mariana\Desktop\Teste Malhas\Problema2\Slave.nxc"
+3	140	46		cmp 1, __zfmalha1, __float_stack_001malha1, __DF0malha1
+3	139	50	#line 139 "C:\Users\mariana\Desktop\Teste Malhas\Problema2\Slave.nxc"
+3	140	50		mov __D0malha1, __zfmalha1
+3	140	52	#line 140 "C:\Users\mariana\Desktop\Teste Malhas\Problema2\Slave.nxc"
+3	141	52		brtst 4, __NXC_Label_638, __zfmalha1
+3	140	55	#line 140 "C:\Users\mariana\Desktop\Teste Malhas\Problema2\Slave.nxc"
+3	140	55	#line 140 "C:\Users\mariana\Desktop\Teste Malhas\Problema2\Slave.nxc"
+3	141	55	#line 141 "C:\Users\mariana\Desktop\Teste Malhas\Problema2\Slave.nxc"
+3	141	55	#line 141 "C:\Users\mariana\Desktop\Teste Malhas\Problema2\Slave.nxc"
+3	142	55		add cr, cr, incremento
+3	141	59	#line 141 "C:\Users\mariana\Desktop\Teste Malhas\Problema2\Slave.nxc"
+3	141	59	#line 141 "C:\Users\mariana\Desktop\Teste Malhas\Problema2\Slave.nxc"
+3	142	59	#line 142 "C:\Users\mariana\Desktop\Teste Malhas\Problema2\Slave.nxc"
+3	143	59		jmp __NXC_Label_641
+3	142	61	#line 142 "C:\Users\mariana\Desktop\Teste Malhas\Problema2\Slave.nxc"
+3	143	61		mov __float_stack_001malha1, ewr
+3	142	63	#line 142 "C:\Users\mariana\Desktop\Teste Malhas\Problema2\Slave.nxc"
+3	142	63	#line 142 "C:\Users\mariana\Desktop\Teste Malhas\Problema2\Slave.nxc"
+3	143	63		mov __DF0malha1, __constVal0
+3	142	65	#line 142 "C:\Users\mariana\Desktop\Teste Malhas\Problema2\Slave.nxc"
+3	143	65		cmp 0, __zfmalha1, __float_stack_001malha1, __DF0malha1
+3	142	69	#line 142 "C:\Users\mariana\Desktop\Teste Malhas\Problema2\Slave.nxc"
+3	143	69		mov __D0malha1, __zfmalha1
+3	143	71	#line 143 "C:\Users\mariana\Desktop\Teste Malhas\Problema2\Slave.nxc"
+3	144	71		brtst 4, __NXC_Label_644, __zfmalha1
+3	143	74	#line 143 "C:\Users\mariana\Desktop\Teste Malhas\Problema2\Slave.nxc"
+3	143	74	#line 143 "C:\Users\mariana\Desktop\Teste Malhas\Problema2\Slave.nxc"
+3	144	74	#line 144 "C:\Users\mariana\Desktop\Teste Malhas\Problema2\Slave.nxc"
+3	144	74	#line 144 "C:\Users\mariana\Desktop\Teste Malhas\Problema2\Slave.nxc"
+3	145	74		sub cr, cr, incremento
+3	144	78	#line 144 "C:\Users\mariana\Desktop\Teste Malhas\Problema2\Slave.nxc"
+3	144	78	#line 144 "C:\Users\mariana\Desktop\Teste Malhas\Problema2\Slave.nxc"
+3	146	78	#line 146 "C:\Users\mariana\Desktop\Teste Malhas\Problema2\Slave.nxc"
+3	146	78	#line 146 "C:\Users\mariana\Desktop\Teste Malhas\Problema2\Slave.nxc"
+3	146	78	#line 146 "C:\Users\mariana\Desktop\Teste Malhas\Problema2\Slave.nxc"
+3	147	78		mov __float_stack_001malha1, ewl
+3	146	80	#line 146 "C:\Users\mariana\Desktop\Teste Malhas\Problema2\Slave.nxc"
+3	146	80	#line 146 "C:\Users\mariana\Desktop\Teste Malhas\Problema2\Slave.nxc"
+3	147	80		mov __DF0malha1, __constVal0
+3	146	82	#line 146 "C:\Users\mariana\Desktop\Teste Malhas\Problema2\Slave.nxc"
+3	147	82		cmp 1, __zfmalha1, __float_stack_001malha1, __DF0malha1
+3	146	86	#line 146 "C:\Users\mariana\Desktop\Teste Malhas\Problema2\Slave.nxc"
+3	147	86		mov __D0malha1, __zfmalha1
+3	147	88	#line 147 "C:\Users\mariana\Desktop\Teste Malhas\Problema2\Slave.nxc"
+3	148	88		brtst 4, __NXC_Label_649, __zfmalha1
+3	147	91	#line 147 "C:\Users\mariana\Desktop\Teste Malhas\Problema2\Slave.nxc"
+3	147	91	#line 147 "C:\Users\mariana\Desktop\Teste Malhas\Problema2\Slave.nxc"
+3	148	91	#line 148 "C:\Users\mariana\Desktop\Teste Malhas\Problema2\Slave.nxc"
+3	148	91	#line 148 "C:\Users\mariana\Desktop\Teste Malhas\Problema2\Slave.nxc"
+3	149	91		add cl, cl, incremento
+3	148	95	#line 148 "C:\Users\mariana\Desktop\Teste Malhas\Problema2\Slave.nxc"
+3	148	95	#line 148 "C:\Users\mariana\Desktop\Teste Malhas\Problema2\Slave.nxc"
+3	149	95	#line 149 "C:\Users\mariana\Desktop\Teste Malhas\Problema2\Slave.nxc"
+3	150	95		jmp __NXC_Label_652
+3	149	97	#line 149 "C:\Users\mariana\Desktop\Teste Malhas\Problema2\Slave.nxc"
+3	150	97		mov __float_stack_001malha1, ewr
+3	149	99	#line 149 "C:\Users\mariana\Desktop\Teste Malhas\Problema2\Slave.nxc"
+3	149	99	#line 149 "C:\Users\mariana\Desktop\Teste Malhas\Problema2\Slave.nxc"
+3	150	99		mov __DF0malha1, __constVal0
+3	149	101	#line 149 "C:\Users\mariana\Desktop\Teste Malhas\Problema2\Slave.nxc"
+3	150	101		cmp 0, __zfmalha1, __float_stack_001malha1, __DF0malha1
+3	149	105	#line 149 "C:\Users\mariana\Desktop\Teste Malhas\Problema2\Slave.nxc"
+3	150	105		mov __D0malha1, __zfmalha1
+3	150	107	#line 150 "C:\Users\mariana\Desktop\Teste Malhas\Problema2\Slave.nxc"
+3	151	107		brtst 4, __NXC_Label_655, __zfmalha1
+3	150	110	#line 150 "C:\Users\mariana\Desktop\Teste Malhas\Problema2\Slave.nxc"
+3	150	110	#line 150 "C:\Users\mariana\Desktop\Teste Malhas\Problema2\Slave.nxc"
+3	151	110	#line 151 "C:\Users\mariana\Desktop\Teste Malhas\Problema2\Slave.nxc"
+3	151	110	#line 151 "C:\Users\mariana\Desktop\Teste Malhas\Problema2\Slave.nxc"
+3	152	110		sub cl, cl, incremento
+3	151	114	#line 151 "C:\Users\mariana\Desktop\Teste Malhas\Problema2\Slave.nxc"
+3	151	114	#line 151 "C:\Users\mariana\Desktop\Teste Malhas\Problema2\Slave.nxc"
+3	155	114	#line 155 "C:\Users\mariana\Desktop\Teste Malhas\Problema2\Slave.nxc"
+3	155	114	#line 155 "C:\Users\mariana\Desktop\Teste Malhas\Problema2\Slave.nxc"
+3	155	114	#line 155 "C:\Users\mariana\Desktop\Teste Malhas\Problema2\Slave.nxc"
+3	156	114		mov __float_stack_001malha1, cr
+3	155	116	#line 155 "C:\Users\mariana\Desktop\Teste Malhas\Problema2\Slave.nxc"
+3	155	116	#line 155 "C:\Users\mariana\Desktop\Teste Malhas\Problema2\Slave.nxc"
+3	156	116		mov __DF0malha1, __constVal100
+3	155	118	#line 155 "C:\Users\mariana\Desktop\Teste Malhas\Problema2\Slave.nxc"
+3	156	118		cmp 1, __zfmalha1, __float_stack_001malha1, __DF0malha1
+3	155	122	#line 155 "C:\Users\mariana\Desktop\Teste Malhas\Problema2\Slave.nxc"
+3	156	122		mov __D0malha1, __zfmalha1
+3	156	124	#line 156 "C:\Users\mariana\Desktop\Teste Malhas\Problema2\Slave.nxc"
+3	157	124		brtst 4, __NXC_Label_660, __zfmalha1
+3	157	127	#line 157 "C:\Users\mariana\Desktop\Teste Malhas\Problema2\Slave.nxc"
+3	157	127	#line 157 "C:\Users\mariana\Desktop\Teste Malhas\Problema2\Slave.nxc"
+3	158	127		mov cr, __constVal100
+3	157	129	#line 157 "C:\Users\mariana\Desktop\Teste Malhas\Problema2\Slave.nxc"
+3	158	129	#line 158 "C:\Users\mariana\Desktop\Teste Malhas\Problema2\Slave.nxc"
+3	158	129	#line 158 "C:\Users\mariana\Desktop\Teste Malhas\Problema2\Slave.nxc"
+3	159	129		mov __float_stack_001malha1, cr
+3	158	131	#line 158 "C:\Users\mariana\Desktop\Teste Malhas\Problema2\Slave.nxc"
+3	158	131	#line 158 "C:\Users\mariana\Desktop\Teste Malhas\Problema2\Slave.nxc"
+3	159	131		mov __DF0malha1, __constValNeg100
+3	158	133	#line 158 "C:\Users\mariana\Desktop\Teste Malhas\Problema2\Slave.nxc"
+3	159	133		cmp 0, __zfmalha1, __float_stack_001malha1, __DF0malha1
+3	158	137	#line 158 "C:\Users\mariana\Desktop\Teste Malhas\Problema2\Slave.nxc"
+3	159	137		mov __D0malha1, __zfmalha1
+3	159	139	#line 159 "C:\Users\mariana\Desktop\Teste Malhas\Problema2\Slave.nxc"
+3	160	139		brtst 4, __NXC_Label_665, __zfmalha1
+3	160	142	#line 160 "C:\Users\mariana\Desktop\Teste Malhas\Problema2\Slave.nxc"
+3	160	142	#line 160 "C:\Users\mariana\Desktop\Teste Malhas\Problema2\Slave.nxc"
+3	161	142		mov cr, __constValNeg100
+3	160	144	#line 160 "C:\Users\mariana\Desktop\Teste Malhas\Problema2\Slave.nxc"
+3	161	144	#line 161 "C:\Users\mariana\Desktop\Teste Malhas\Problema2\Slave.nxc"
+3	161	144	#line 161 "C:\Users\mariana\Desktop\Teste Malhas\Problema2\Slave.nxc"
+3	162	144		mov __float_stack_001malha1, cl
+3	161	146	#line 161 "C:\Users\mariana\Desktop\Teste Malhas\Problema2\Slave.nxc"
+3	161	146	#line 161 "C:\Users\mariana\Desktop\Teste Malhas\Problema2\Slave.nxc"
+3	162	146		mov __DF0malha1, __constVal100
+3	161	148	#line 161 "C:\Users\mariana\Desktop\Teste Malhas\Problema2\Slave.nxc"
+3	162	148		cmp 1, __zfmalha1, __float_stack_001malha1, __DF0malha1
+3	161	152	#line 161 "C:\Users\mariana\Desktop\Teste Malhas\Problema2\Slave.nxc"
+3	162	152		mov __D0malha1, __zfmalha1
+3	162	154	#line 162 "C:\Users\mariana\Desktop\Teste Malhas\Problema2\Slave.nxc"
+3	163	154		brtst 4, __NXC_Label_670, __zfmalha1
+3	163	157	#line 163 "C:\Users\mariana\Desktop\Teste Malhas\Problema2\Slave.nxc"
+3	163	157	#line 163 "C:\Users\mariana\Desktop\Teste Malhas\Problema2\Slave.nxc"
+3	164	157		mov cl, __constVal100
+3	163	159	#line 163 "C:\Users\mariana\Desktop\Teste Malhas\Problema2\Slave.nxc"
+3	164	159	#line 164 "C:\Users\mariana\Desktop\Teste Malhas\Problema2\Slave.nxc"
+3	164	159	#line 164 "C:\Users\mariana\Desktop\Teste Malhas\Problema2\Slave.nxc"
+3	165	159		mov __float_stack_001malha1, cl
+3	164	161	#line 164 "C:\Users\mariana\Desktop\Teste Malhas\Problema2\Slave.nxc"
+3	164	161	#line 164 "C:\Users\mariana\Desktop\Teste Malhas\Problema2\Slave.nxc"
+3	165	161		mov __DF0malha1, __constValNeg100
+3	164	163	#line 164 "C:\Users\mariana\Desktop\Teste Malhas\Problema2\Slave.nxc"
+3	165	163		cmp 0, __zfmalha1, __float_stack_001malha1, __DF0malha1
+3	164	167	#line 164 "C:\Users\mariana\Desktop\Teste Malhas\Problema2\Slave.nxc"
+3	165	167		mov __D0malha1, __zfmalha1
+3	165	169	#line 165 "C:\Users\mariana\Desktop\Teste Malhas\Problema2\Slave.nxc"
+3	166	169		brtst 4, __NXC_Label_675, __zfmalha1
+3	166	172	#line 166 "C:\Users\mariana\Desktop\Teste Malhas\Problema2\Slave.nxc"
+3	166	172	#line 166 "C:\Users\mariana\Desktop\Teste Malhas\Problema2\Slave.nxc"
+3	167	172		mov cl, __constValNeg100
+3	166	174	#line 166 "C:\Users\mariana\Desktop\Teste Malhas\Problema2\Slave.nxc"
+3	168	174	#line 168 "C:\Users\mariana\Desktop\Teste Malhas\Problema2\Slave.nxc"
+3	168	174	#line 168 "C:\Users\mariana\Desktop\Teste Malhas\Problema2\Slave.nxc"
+3	169	174		mov __DF0malha1, cr
+3	169	176	#line 169 "C:\Users\mariana\Desktop\Teste Malhas\Problema2\Slave.nxc"
+3	170	176	#pragma macro 7
+3	170	176		setout __constVal0, 2, __DF0malha1, 1, __constVal3, 8, __constVal0, 6, __constVal32, 7, __constVal0, 5, __constVal0, 10, __constVal96, 11, __constVal32, 12, __constVal32, 0, __constVal63
+3	7620	199	#line 7620 "C:\Users\mariana\Desktop\Teste Malhas\Problema2\Slave.nxc"
+3	169	199	#line 169 "C:\Users\mariana\Desktop\Teste Malhas\Problema2\Slave.nxc"
+3	169	199	#line 169 "C:\Users\mariana\Desktop\Teste Malhas\Problema2\Slave.nxc"
+3	170	199		mov __DF0malha1, cl
+3	181	201	#line 181 "C:\Users\mariana\Desktop\Teste Malhas\Problema2\Slave.nxc"
+3	182	201	#pragma macro 7
+3	182	201		setout __constVal2, 2, __DF0malha1, 1, __constVal3, 8, __constVal0, 6, __constVal32, 7, __constVal0, 5, __constVal0, 10, __constVal96, 11, __constVal32, 12, __constVal32, 0, __constVal63
+3	7627	224	#line 7627 "C:\Users\mariana\Desktop\Teste Malhas\Problema2\Slave.nxc"
+3	181	224	#line 181 "C:\Users\mariana\Desktop\Teste Malhas\Problema2\Slave.nxc"
+3	181	224	#line 181 "C:\Users\mariana\Desktop\Teste Malhas\Problema2\Slave.nxc"
+3	182	224		mov __DF0malha1, ewr
+3	181	226	#line 181 "C:\Users\mariana\Desktop\Teste Malhas\Problema2\Slave.nxc"
+3	182	226		numtostr __strretvalmalha1, __DF0malha1
+3	181	229	#line 181 "C:\Users\mariana\Desktop\Teste Malhas\Problema2\Slave.nxc"
+3	182	229		strcat __strbufmalha1, __strretvalmalha1
+3	181	233	#line 181 "C:\Users\mariana\Desktop\Teste Malhas\Problema2\Slave.nxc"
+3	182	233		mov __ArrHelper__malha1_244_0, __strbufmalha1
+3	181	235	#line 181 "C:\Users\mariana\Desktop\Teste Malhas\Problema2\Slave.nxc"
+3	182	235		strcat __strbufmalha1, __constStr0009
+3	181	239	#line 181 "C:\Users\mariana\Desktop\Teste Malhas\Problema2\Slave.nxc"
+3	182	239		mov __ArrHelper__malha1_244_1, __strbufmalha1
+3	181	241	#line 181 "C:\Users\mariana\Desktop\Teste Malhas\Problema2\Slave.nxc"
+3	182	241		mov __DF0malha1, ewl
+3	181	243	#line 181 "C:\Users\mariana\Desktop\Teste Malhas\Problema2\Slave.nxc"
+3	182	243		numtostr __strretvalmalha1, __DF0malha1
+3	181	246	#line 181 "C:\Users\mariana\Desktop\Teste Malhas\Problema2\Slave.nxc"
+3	182	246		strcat __strbufmalha1, __strretvalmalha1
+3	181	250	#line 181 "C:\Users\mariana\Desktop\Teste Malhas\Problema2\Slave.nxc"
+3	182	250		mov __ArrHelper__malha1_244_2, __strbufmalha1
+3	181	252	#line 181 "C:\Users\mariana\Desktop\Teste Malhas\Problema2\Slave.nxc"
+3	182	252		strcat __strbufmalha1, __constStr0009
+3	181	256	#line 181 "C:\Users\mariana\Desktop\Teste Malhas\Problema2\Slave.nxc"
+3	182	256		mov __ArrHelper__malha1_244_3, __strbufmalha1
+3	181	258	#line 181 "C:\Users\mariana\Desktop\Teste Malhas\Problema2\Slave.nxc"
+3	182	258		mov __DF0malha1, dt
+3	181	260	#line 181 "C:\Users\mariana\Desktop\Teste Malhas\Problema2\Slave.nxc"
+3	182	260		numtostr __strretvalmalha1, __DF0malha1
+3	181	263	#line 181 "C:\Users\mariana\Desktop\Teste Malhas\Problema2\Slave.nxc"
+3	182	263		strcat __strbufmalha1, __strretvalmalha1
+3	181	267	#line 181 "C:\Users\mariana\Desktop\Teste Malhas\Problema2\Slave.nxc"
+3	182	267		mov __ArrHelper__malha1_244_4, __strbufmalha1
+3	182	269	#line 182 "C:\Users\mariana\Desktop\Teste Malhas\Problema2\Slave.nxc"
+3	183	269		strcat __strretvalmalha1, __ArrHelper__malha1_244_0, __ArrHelper__malha1_244_1, __ArrHelper__malha1_244_2, __ArrHelper__malha1_244_3, __ArrHelper__malha1_244_4
+3	182	277	#line 182 "C:\Users\mariana\Desktop\Teste Malhas\Problema2\Slave.nxc"
+3	183	277		strcat __strbufmalha1, __strretvalmalha1
+3	182	281	#line 182 "C:\Users\mariana\Desktop\Teste Malhas\Problema2\Slave.nxc"
+3	183	281		mov write, __strbufmalha1
+3	182	283	#line 182 "C:\Users\mariana\Desktop\Teste Malhas\Problema2\Slave.nxc"
+3	182	283	#line 182 "C:\Users\mariana\Desktop\Teste Malhas\Problema2\Slave.nxc"
+3	183	283	#pragma macro 9
+3	183	283		acquire __FWriteMutex
+3	183	284		mov __FWriteArgs.FileHandle, fileHandle
+3	183	286		strtoarr __FWriteFlattenBuf, write
+3	183	289		arrbuild __FWriteArgs.Buffer, __FWriteFlattenBuf, __FWriteLn
+3	183	294		arrsize __FWriteArgs.Length, __FWriteArgs.Buffer
+3	183	297		syscall 4, __FWriteArgs
+3	183	300		mov __D0malha1, __FWriteArgs.Result
+3	183	302		release __FWriteMutex
+3	7675	303	#line 7675 "C:\Users\mariana\Desktop\Teste Malhas\Problema2\Slave.nxc"
+3	182	303	#line 182 "C:\Users\mariana\Desktop\Teste Malhas\Problema2\Slave.nxc"
+3	182	303	#line 182 "C:\Users\mariana\Desktop\Teste Malhas\Problema2\Slave.nxc"
+3	185	303	#line 185 "C:\Users\mariana\Desktop\Teste Malhas\Problema2\Slave.nxc"
+3	186	303		subret __malha1_return
+4	188	0	#line 188 "C:\Users\mariana\Desktop\Teste Malhas\Problema2\Slave.nxc"
+4	189	0		getout countR2_kplus, __constVal0, 14
+4	188	4	#line 188 "C:\Users\mariana\Desktop\Teste Malhas\Problema2\Slave.nxc"
+4	188	4	#line 188 "C:\Users\mariana\Desktop\Teste Malhas\Problema2\Slave.nxc"
+4	190	4	#line 190 "C:\Users\mariana\Desktop\Teste Malhas\Problema2\Slave.nxc"
+4	191	4		getout countL2_kplus, __constVal2, 14
+4	190	8	#line 190 "C:\Users\mariana\Desktop\Teste Malhas\Problema2\Slave.nxc"
+4	190	8	#line 190 "C:\Users\mariana\Desktop\Teste Malhas\Problema2\Slave.nxc"
+4	190	8	#line 190 "C:\Users\mariana\Desktop\Teste Malhas\Problema2\Slave.nxc"
+4	190	8	#line 190 "C:\Users\mariana\Desktop\Teste Malhas\Problema2\Slave.nxc"
+4	190	8	#line 190 "C:\Users\mariana\Desktop\Teste Malhas\Problema2\Slave.nxc"
+4	190	8	#line 190 "C:\Users\mariana\Desktop\Teste Malhas\Problema2\Slave.nxc"
+4	191	8		sub __float_stack_001malha2, countR2_kplus, countR2_k
+4	190	12	#line 190 "C:\Users\mariana\Desktop\Teste Malhas\Problema2\Slave.nxc"
+4	190	12	#line 190 "C:\Users\mariana\Desktop\Teste Malhas\Problema2\Slave.nxc"
+4	190	12	#line 190 "C:\Users\mariana\Desktop\Teste Malhas\Problema2\Slave.nxc"
+4	191	12		mul __float_stack_001malha2, __float_stack_001malha2, __constVal2
+4	190	16	#line 190 "C:\Users\mariana\Desktop\Teste Malhas\Problema2\Slave.nxc"
+4	190	16	#line 190 "C:\Users\mariana\Desktop\Teste Malhas\Problema2\Slave.nxc"
+4	190	16	#line 190 "C:\Users\mariana\Desktop\Teste Malhas\Problema2\Slave.nxc"
+4	191	16		mul __float_stack_001malha2, __float_stack_001malha2, __constValf3P141593
+4	190	20	#line 190 "C:\Users\mariana\Desktop\Teste Malhas\Problema2\Slave.nxc"
+4	190	20	#line 190 "C:\Users\mariana\Desktop\Teste Malhas\Problema2\Slave.nxc"
+4	190	20	#line 190 "C:\Users\mariana\Desktop\Teste Malhas\Problema2\Slave.nxc"
+4	191	20		mul __float_stack_001malha2, __float_stack_001malha2, __constValf0P0216
+4	190	24	#line 190 "C:\Users\mariana\Desktop\Teste Malhas\Problema2\Slave.nxc"
+4	191	24	#line 191 "C:\Users\mariana\Desktop\Teste Malhas\Problema2\Slave.nxc"
+4	191	24	#line 191 "C:\Users\mariana\Desktop\Teste Malhas\Problema2\Slave.nxc"
+4	192	24		div ddr, __float_stack_001malha2, __constVal360
+4	191	28	#line 191 "C:\Users\mariana\Desktop\Teste Malhas\Problema2\Slave.nxc"
+4	191	28	#line 191 "C:\Users\mariana\Desktop\Teste Malhas\Problema2\Slave.nxc"
+4	191	28	#line 191 "C:\Users\mariana\Desktop\Teste Malhas\Problema2\Slave.nxc"
+4	191	28	#line 191 "C:\Users\mariana\Desktop\Teste Malhas\Problema2\Slave.nxc"
+4	191	28	#line 191 "C:\Users\mariana\Desktop\Teste Malhas\Problema2\Slave.nxc"
+4	191	28	#line 191 "C:\Users\mariana\Desktop\Teste Malhas\Problema2\Slave.nxc"
+4	192	28		sub __float_stack_001malha2, countL2_kplus, countL2_k
+4	191	32	#line 191 "C:\Users\mariana\Desktop\Teste Malhas\Problema2\Slave.nxc"
+4	191	32	#line 191 "C:\Users\mariana\Desktop\Teste Malhas\Problema2\Slave.nxc"
+4	191	32	#line 191 "C:\Users\mariana\Desktop\Teste Malhas\Problema2\Slave.nxc"
+4	192	32		mul __float_stack_001malha2, __float_stack_001malha2, __constVal2
+4	191	36	#line 191 "C:\Users\mariana\Desktop\Teste Malhas\Problema2\Slave.nxc"
+4	191	36	#line 191 "C:\Users\mariana\Desktop\Teste Malhas\Problema2\Slave.nxc"
+4	191	36	#line 191 "C:\Users\mariana\Desktop\Teste Malhas\Problema2\Slave.nxc"
+4	192	36		mul __float_stack_001malha2, __float_stack_001malha2, __constValf3P141593
+4	191	40	#line 191 "C:\Users\mariana\Desktop\Teste Malhas\Problema2\Slave.nxc"
+4	191	40	#line 191 "C:\Users\mariana\Desktop\Teste Malhas\Problema2\Slave.nxc"
+4	191	40	#line 191 "C:\Users\mariana\Desktop\Teste Malhas\Problema2\Slave.nxc"
+4	192	40		mul __float_stack_001malha2, __float_stack_001malha2, __constValf0P0216
+4	191	44	#line 191 "C:\Users\mariana\Desktop\Teste Malhas\Problema2\Slave.nxc"
+4	192	44	#line 192 "C:\Users\mariana\Desktop\Teste Malhas\Problema2\Slave.nxc"
+4	192	44	#line 192 "C:\Users\mariana\Desktop\Teste Malhas\Problema2\Slave.nxc"
+4	193	44		div ddl, __float_stack_001malha2, __constVal360
+4	192	48	#line 192 "C:\Users\mariana\Desktop\Teste Malhas\Problema2\Slave.nxc"
+4	192	48	#line 192 "C:\Users\mariana\Desktop\Teste Malhas\Problema2\Slave.nxc"
+4	193	48	#line 193 "C:\Users\mariana\Desktop\Teste Malhas\Problema2\Slave.nxc"
+4	194	48		mov countR2_k, countR2_kplus
+4	193	50	#line 193 "C:\Users\mariana\Desktop\Teste Malhas\Problema2\Slave.nxc"
+4	193	50	#line 193 "C:\Users\mariana\Desktop\Teste Malhas\Problema2\Slave.nxc"
+4	196	50	#line 196 "C:\Users\mariana\Desktop\Teste Malhas\Problema2\Slave.nxc"
+4	197	50		mov countL2_k, countL2_kplus
+4	196	52	#line 196 "C:\Users\mariana\Desktop\Teste Malhas\Problema2\Slave.nxc"
+4	196	52	#line 196 "C:\Users\mariana\Desktop\Teste Malhas\Problema2\Slave.nxc"
+4	196	52	#line 196 "C:\Users\mariana\Desktop\Teste Malhas\Problema2\Slave.nxc"
+4	197	52		mov __float_stack_001malha2, xr
+4	196	54	#line 196 "C:\Users\mariana\Desktop\Teste Malhas\Problema2\Slave.nxc"
+4	196	54	#line 196 "C:\Users\mariana\Desktop\Teste Malhas\Problema2\Slave.nxc"
+4	196	54	#line 196 "C:\Users\mariana\Desktop\Teste Malhas\Problema2\Slave.nxc"
+4	196	54	#line 196 "C:\Users\mariana\Desktop\Teste Malhas\Problema2\Slave.nxc"
+4	196	54	#line 196 "C:\Users\mariana\Desktop\Teste Malhas\Problema2\Slave.nxc"
+4	197	54		add __float_stack_002malha2, ddr, ddl
+4	196	58	#line 196 "C:\Users\mariana\Desktop\Teste Malhas\Problema2\Slave.nxc"
+4	196	58	#line 196 "C:\Users\mariana\Desktop\Teste Malhas\Problema2\Slave.nxc"
+4	197	58		mov __cos_7qG2_x_7qG2_000_inline_malha2, tetar_k
+4	196	60	#line 196 "C:\Users\mariana\Desktop\Teste Malhas\Problema2\Slave.nxc"
+4	17165	60	#line 17165 "NXCDefs.h"
+4	17166	60		cos __DF0malha2, __cos_7qG2_x_7qG2_000_inline_malha2
+4	17165	63	#line 17165 "NXCDefs.h"
+4	196	63	#line 196 "C:\Users\mariana\Desktop\Teste Malhas\Problema2\Slave.nxc"
+4	196	63	#line 196 "C:\Users\mariana\Desktop\Teste Malhas\Problema2\Slave.nxc"
+4	197	63		mul __float_stack_002malha2, __float_stack_002malha2, __DF0malha2
+4	196	67	#line 196 "C:\Users\mariana\Desktop\Teste Malhas\Problema2\Slave.nxc"
+4	196	67	#line 196 "C:\Users\mariana\Desktop\Teste Malhas\Problema2\Slave.nxc"
+4	196	67	#line 196 "C:\Users\mariana\Desktop\Teste Malhas\Problema2\Slave.nxc"
+4	197	67		div __DF0malha2, __float_stack_002malha2, __constVal2
+4	197	71	#line 197 "C:\Users\mariana\Desktop\Teste Malhas\Problema2\Slave.nxc"
+4	198	71		add xr, __float_stack_001malha2, __DF0malha2
+4	197	75	#line 197 "C:\Users\mariana\Desktop\Teste Malhas\Problema2\Slave.nxc"
+4	197	75	#line 197 "C:\Users\mariana\Desktop\Teste Malhas\Problema2\Slave.nxc"
+4	197	75	#line 197 "C:\Users\mariana\Desktop\Teste Malhas\Problema2\Slave.nxc"
+4	198	75		mov __float_stack_001malha2, yr
+4	197	77	#line 197 "C:\Users\mariana\Desktop\Teste Malhas\Problema2\Slave.nxc"
+4	197	77	#line 197 "C:\Users\mariana\Desktop\Teste Malhas\Problema2\Slave.nxc"
+4	197	77	#line 197 "C:\Users\mariana\Desktop\Teste Malhas\Problema2\Slave.nxc"
+4	197	77	#line 197 "C:\Users\mariana\Desktop\Teste Malhas\Problema2\Slave.nxc"
+4	197	77	#line 197 "C:\Users\mariana\Desktop\Teste Malhas\Problema2\Slave.nxc"
+4	198	77		add __float_stack_002malha2, ddr, ddl
+4	197	81	#line 197 "C:\Users\mariana\Desktop\Teste Malhas\Problema2\Slave.nxc"
+4	197	81	#line 197 "C:\Users\mariana\Desktop\Teste Malhas\Problema2\Slave.nxc"
+4	198	81		mov __sin_7qG2_x_7qG2_000_inline_malha2, tetar_k
+4	197	83	#line 197 "C:\Users\mariana\Desktop\Teste Malhas\Problema2\Slave.nxc"
+4	17176	83	#line 17176 "NXCDefs.h"
+4	17177	83		sin __DF0malha2, __sin_7qG2_x_7qG2_000_inline_malha2
+4	17176	86	#line 17176 "NXCDefs.h"
+4	197	86	#line 197 "C:\Users\mariana\Desktop\Teste Malhas\Problema2\Slave.nxc"
+4	197	86	#line 197 "C:\Users\mariana\Desktop\Teste Malhas\Problema2\Slave.nxc"
+4	198	86		mul __float_stack_002malha2, __float_stack_002malha2, __DF0malha2
+4	197	90	#line 197 "C:\Users\mariana\Desktop\Teste Malhas\Problema2\Slave.nxc"
+4	197	90	#line 197 "C:\Users\mariana\Desktop\Teste Malhas\Problema2\Slave.nxc"
+4	197	90	#line 197 "C:\Users\mariana\Desktop\Teste Malhas\Problema2\Slave.nxc"
+4	198	90		div __DF0malha2, __float_stack_002malha2, __constVal2
+4	198	94	#line 198 "C:\Users\mariana\Desktop\Teste Malhas\Problema2\Slave.nxc"
+4	199	94		add yr, __float_stack_001malha2, __DF0malha2
+4	198	98	#line 198 "C:\Users\mariana\Desktop\Teste Malhas\Problema2\Slave.nxc"
+4	198	98	#line 198 "C:\Users\mariana\Desktop\Teste Malhas\Problema2\Slave.nxc"
+4	198	98	#line 198 "C:\Users\mariana\Desktop\Teste Malhas\Problema2\Slave.nxc"
+4	199	98		mov __float_stack_001malha2, tetar_k
+4	198	100	#line 198 "C:\Users\mariana\Desktop\Teste Malhas\Problema2\Slave.nxc"
+4	198	100	#line 198 "C:\Users\mariana\Desktop\Teste Malhas\Problema2\Slave.nxc"
+4	198	100	#line 198 "C:\Users\mariana\Desktop\Teste Malhas\Problema2\Slave.nxc"
+4	198	100	#line 198 "C:\Users\mariana\Desktop\Teste Malhas\Problema2\Slave.nxc"
+4	198	100	#line 198 "C:\Users\mariana\Desktop\Teste Malhas\Problema2\Slave.nxc"
+4	199	100		sub __float_stack_002malha2, ddr, ddl
+4	198	104	#line 198 "C:\Users\mariana\Desktop\Teste Malhas\Problema2\Slave.nxc"
+4	200	104	#line 200 "C:\Users\mariana\Desktop\Teste Malhas\Problema2\Slave.nxc"
+4	200	104	#line 200 "C:\Users\mariana\Desktop\Teste Malhas\Problema2\Slave.nxc"
+4	201	104		div __DF0malha2, __float_stack_002malha2, __constValf0P112
+4	200	108	#line 200 "C:\Users\mariana\Desktop\Teste Malhas\Problema2\Slave.nxc"
+4	201	108		add tetar_k, __float_stack_001malha2, __DF0malha2
+4	200	112	#line 200 "C:\Users\mariana\Desktop\Teste Malhas\Problema2\Slave.nxc"
+4	200	112	#line 200 "C:\Users\mariana\Desktop\Teste Malhas\Problema2\Slave.nxc"
+4	200	112	#line 200 "C:\Users\mariana\Desktop\Teste Malhas\Problema2\Slave.nxc"
+4	200	112	#line 200 "C:\Users\mariana\Desktop\Teste Malhas\Problema2\Slave.nxc"
+4	201	112	#line 201 "C:\Users\mariana\Desktop\Teste Malhas\Problema2\Slave.nxc"
+4	201	112	#line 201 "C:\Users\mariana\Desktop\Teste Malhas\Problema2\Slave.nxc"
+4	202	112		sub errx, __malha2_7qG2_xd_7qG2_000, xr
+4	201	116	#line 201 "C:\Users\mariana\Desktop\Teste Malhas\Problema2\Slave.nxc"
+4	201	116	#line 201 "C:\Users\mariana\Desktop\Teste Malhas\Problema2\Slave.nxc"
+4	201	116	#line 201 "C:\Users\mariana\Desktop\Teste Malhas\Problema2\Slave.nxc"
+4	201	116	#line 201 "C:\Users\mariana\Desktop\Teste Malhas\Problema2\Slave.nxc"
+4	203	116	#line 203 "C:\Users\mariana\Desktop\Teste Malhas\Problema2\Slave.nxc"
+4	203	116	#line 203 "C:\Users\mariana\Desktop\Teste Malhas\Problema2\Slave.nxc"
+4	204	116		sub erry, __malha2_7qG2_yd_7qG2_000, yr
+4	203	120	#line 203 "C:\Users\mariana\Desktop\Teste Malhas\Problema2\Slave.nxc"
+4	203	120	#line 203 "C:\Users\mariana\Desktop\Teste Malhas\Problema2\Slave.nxc"
+4	203	120	#line 203 "C:\Users\mariana\Desktop\Teste Malhas\Problema2\Slave.nxc"
+4	204	120		mov __atan2_7qG2_y_7qG2_000_inline_malha2, erry
+4	203	122	#line 203 "C:\Users\mariana\Desktop\Teste Malhas\Problema2\Slave.nxc"
+4	203	122	#line 203 "C:\Users\mariana\Desktop\Teste Malhas\Problema2\Slave.nxc"
+4	204	122		mov __atan2_7qG2_x_7qG2_000_inline_malha2, errx
+4	203	124	#line 203 "C:\Users\mariana\Desktop\Teste Malhas\Problema2\Slave.nxc"
+4	17242	124	#line 17242 "NXCDefs.h"
+4	17243	124		atan2 tetad, __atan2_7qG2_y_7qG2_000_inline_malha2, __atan2_7qG2_x_7qG2_000_inline_malha2
+4	17242	128	#line 17242 "NXCDefs.h"
+4	205	128	#line 205 "C:\Users\mariana\Desktop\Teste Malhas\Problema2\Slave.nxc"
+4	205	128	#line 205 "C:\Users\mariana\Desktop\Teste Malhas\Problema2\Slave.nxc"
+4	205	128	#line 205 "C:\Users\mariana\Desktop\Teste Malhas\Problema2\Slave.nxc"
+4	209	128	#line 209 "C:\Users\mariana\Desktop\Teste Malhas\Problema2\Slave.nxc"
+4	210	128		mov errt_past, errt
+4	209	130	#line 209 "C:\Users\mariana\Desktop\Teste Malhas\Problema2\Slave.nxc"
+4	209	130	#line 209 "C:\Users\mariana\Desktop\Teste Malhas\Problema2\Slave.nxc"
+4	209	130	#line 209 "C:\Users\mariana\Desktop\Teste Malhas\Problema2\Slave.nxc"
+4	209	130	#line 209 "C:\Users\mariana\Desktop\Teste Malhas\Problema2\Slave.nxc"
+4	210	130	#line 210 "C:\Users\mariana\Desktop\Teste Malhas\Problema2\Slave.nxc"
+4	210	130	#line 210 "C:\Users\mariana\Desktop\Teste Malhas\Problema2\Slave.nxc"
+4	211	130		sub errt, tetad, tetar_k
+4	210	134	#line 210 "C:\Users\mariana\Desktop\Teste Malhas\Problema2\Slave.nxc"
+4	210	134	#line 210 "C:\Users\mariana\Desktop\Teste Malhas\Problema2\Slave.nxc"
+4	210	134	#line 210 "C:\Users\mariana\Desktop\Teste Malhas\Problema2\Slave.nxc"
+4	211	134		mov __sin_7qG2_x_7qG2_000_inline_malha2, errt
+4	210	136	#line 210 "C:\Users\mariana\Desktop\Teste Malhas\Problema2\Slave.nxc"
+4	17176	136	#line 17176 "NXCDefs.h"
+4	17177	136		sin __atan2_7qG2_y_7qG2_000_inline_malha2, __sin_7qG2_x_7qG2_000_inline_malha2
+4	17176	139	#line 17176 "NXCDefs.h"
+4	210	139	#line 210 "C:\Users\mariana\Desktop\Teste Malhas\Problema2\Slave.nxc"
+4	210	139	#line 210 "C:\Users\mariana\Desktop\Teste Malhas\Problema2\Slave.nxc"
+4	210	139	#line 210 "C:\Users\mariana\Desktop\Teste Malhas\Problema2\Slave.nxc"
+4	211	139		mov __cos_7qG2_x_7qG2_000_inline_malha2, errt
+4	210	141	#line 210 "C:\Users\mariana\Desktop\Teste Malhas\Problema2\Slave.nxc"
+4	17165	141	#line 17165 "NXCDefs.h"
+4	17166	141		cos __atan2_7qG2_x_7qG2_000_inline_malha2, __cos_7qG2_x_7qG2_000_inline_malha2
+4	17165	144	#line 17165 "NXCDefs.h"
+4	210	144	#line 210 "C:\Users\mariana\Desktop\Teste Malhas\Problema2\Slave.nxc"
+4	210	144	#line 210 "C:\Users\mariana\Desktop\Teste Malhas\Problema2\Slave.nxc"
+4	17242	144	#line 17242 "NXCDefs.h"
+4	17243	144		atan2 errt, __atan2_7qG2_y_7qG2_000_inline_malha2, __atan2_7qG2_x_7qG2_000_inline_malha2
+4	17242	148	#line 17242 "NXCDefs.h"
+4	219	148	#line 219 "C:\Users\mariana\Desktop\Teste Malhas\Problema2\Slave.nxc"
+4	219	148	#line 219 "C:\Users\mariana\Desktop\Teste Malhas\Problema2\Slave.nxc"
+4	219	148	#line 219 "C:\Users\mariana\Desktop\Teste Malhas\Problema2\Slave.nxc"
+4	219	148	#line 219 "C:\Users\mariana\Desktop\Teste Malhas\Problema2\Slave.nxc"
+4	219	148	#line 219 "C:\Users\mariana\Desktop\Teste Malhas\Problema2\Slave.nxc"
+4	219	148	#line 219 "C:\Users\mariana\Desktop\Teste Malhas\Problema2\Slave.nxc"
+4	219	148	#line 219 "C:\Users\mariana\Desktop\Teste Malhas\Problema2\Slave.nxc"
+4	220	148		mul __float_stack_001malha2, kp_pos, errt
+4	219	152	#line 219 "C:\Users\mariana\Desktop\Teste Malhas\Problema2\Slave.nxc"
+4	219	152	#line 219 "C:\Users\mariana\Desktop\Teste Malhas\Problema2\Slave.nxc"
+4	219	152	#line 219 "C:\Users\mariana\Desktop\Teste Malhas\Problema2\Slave.nxc"
+4	220	152		add __float_stack_001malha2, __float_stack_001malha2, acum_errt
+4	219	156	#line 219 "C:\Users\mariana\Desktop\Teste Malhas\Problema2\Slave.nxc"
+4	219	156	#line 219 "C:\Users\mariana\Desktop\Teste Malhas\Problema2\Slave.nxc"
+4	219	156	#line 219 "C:\Users\mariana\Desktop\Teste Malhas\Problema2\Slave.nxc"
+4	219	156	#line 219 "C:\Users\mariana\Desktop\Teste Malhas\Problema2\Slave.nxc"
+4	219	156	#line 219 "C:\Users\mariana\Desktop\Teste Malhas\Problema2\Slave.nxc"
+4	220	156		mul __float_stack_002malha2, ki_pos, errt
+4	219	160	#line 219 "C:\Users\mariana\Desktop\Teste Malhas\Problema2\Slave.nxc"
+4	219	160	#line 219 "C:\Users\mariana\Desktop\Teste Malhas\Problema2\Slave.nxc"
+4	219	160	#line 219 "C:\Users\mariana\Desktop\Teste Malhas\Problema2\Slave.nxc"
+4	220	160		mul __DF0malha2, __float_stack_002malha2, dt
+4	219	164	#line 219 "C:\Users\mariana\Desktop\Teste Malhas\Problema2\Slave.nxc"
+4	220	164		add __float_stack_001malha2, __float_stack_001malha2, __DF0malha2
+4	219	168	#line 219 "C:\Users\mariana\Desktop\Teste Malhas\Problema2\Slave.nxc"
+4	219	168	#line 219 "C:\Users\mariana\Desktop\Teste Malhas\Problema2\Slave.nxc"
+4	220	168		mov __float_stack_002malha2, kd_pos
+4	219	170	#line 219 "C:\Users\mariana\Desktop\Teste Malhas\Problema2\Slave.nxc"
+4	219	170	#line 219 "C:\Users\mariana\Desktop\Teste Malhas\Problema2\Slave.nxc"
+4	219	170	#line 219 "C:\Users\mariana\Desktop\Teste Malhas\Problema2\Slave.nxc"
+4	219	170	#line 219 "C:\Users\mariana\Desktop\Teste Malhas\Problema2\Slave.nxc"
+4	219	170	#line 219 "C:\Users\mariana\Desktop\Teste Malhas\Problema2\Slave.nxc"
+4	220	170		sub __DF0malha2, errt, errt_past
+4	219	174	#line 219 "C:\Users\mariana\Desktop\Teste Malhas\Problema2\Slave.nxc"
+4	220	174		mul __float_stack_002malha2, __float_stack_002malha2, __DF0malha2
+4	219	178	#line 219 "C:\Users\mariana\Desktop\Teste Malhas\Problema2\Slave.nxc"
+4	220	178	#line 220 "C:\Users\mariana\Desktop\Teste Malhas\Problema2\Slave.nxc"
+4	220	178	#line 220 "C:\Users\mariana\Desktop\Teste Malhas\Problema2\Slave.nxc"
+4	221	178		div __DF0malha2, __float_stack_002malha2, dt
+4	220	182	#line 220 "C:\Users\mariana\Desktop\Teste Malhas\Problema2\Slave.nxc"
+4	221	182		add w_controle, __float_stack_001malha2, __DF0malha2
+4	220	186	#line 220 "C:\Users\mariana\Desktop\Teste Malhas\Problema2\Slave.nxc"
+4	220	186	#line 220 "C:\Users\mariana\Desktop\Teste Malhas\Problema2\Slave.nxc"
+4	220	186	#line 220 "C:\Users\mariana\Desktop\Teste Malhas\Problema2\Slave.nxc"
+4	221	186		mov __float_stack_001malha2, acum_errt
+4	220	188	#line 220 "C:\Users\mariana\Desktop\Teste Malhas\Problema2\Slave.nxc"
+4	220	188	#line 220 "C:\Users\mariana\Desktop\Teste Malhas\Problema2\Slave.nxc"
+4	220	188	#line 220 "C:\Users\mariana\Desktop\Teste Malhas\Problema2\Slave.nxc"
+4	220	188	#line 220 "C:\Users\mariana\Desktop\Teste Malhas\Problema2\Slave.nxc"
+4	220	188	#line 220 "C:\Users\mariana\Desktop\Teste Malhas\Problema2\Slave.nxc"
+4	221	188		mul __float_stack_002malha2, ki_pos, errt
+4	220	192	#line 220 "C:\Users\mariana\Desktop\Teste Malhas\Problema2\Slave.nxc"
+4	221	192	#line 221 "C:\Users\mariana\Desktop\Teste Malhas\Problema2\Slave.nxc"
+4	221	192	#line 221 "C:\Users\mariana\Desktop\Teste Malhas\Problema2\Slave.nxc"
+4	222	192		mul __DF0malha2, __float_stack_002malha2, dt
+4	221	196	#line 221 "C:\Users\mariana\Desktop\Teste Malhas\Problema2\Slave.nxc"
+4	222	196		add acum_errt, __float_stack_001malha2, __DF0malha2
+4	221	200	#line 221 "C:\Users\mariana\Desktop\Teste Malhas\Problema2\Slave.nxc"
+4	221	200	#line 221 "C:\Users\mariana\Desktop\Teste Malhas\Problema2\Slave.nxc"
+4	221	200	#line 221 "C:\Users\mariana\Desktop\Teste Malhas\Problema2\Slave.nxc"
+4	222	200		mov __float_stack_001malha2, acum_errt
+4	221	202	#line 221 "C:\Users\mariana\Desktop\Teste Malhas\Problema2\Slave.nxc"
+4	221	202	#line 221 "C:\Users\mariana\Desktop\Teste Malhas\Problema2\Slave.nxc"
+4	221	202	#line 221 "C:\Users\mariana\Desktop\Teste Malhas\Problema2\Slave.nxc"
+4	221	202	#line 221 "C:\Users\mariana\Desktop\Teste Malhas\Problema2\Slave.nxc"
+4	221	202	#line 221 "C:\Users\mariana\Desktop\Teste Malhas\Problema2\Slave.nxc"
+4	222	202		mul __float_stack_002malha2, ki_pos, dt
+4	221	206	#line 221 "C:\Users\mariana\Desktop\Teste Malhas\Problema2\Slave.nxc"
+4	224	206	#line 224 "C:\Users\mariana\Desktop\Teste Malhas\Problema2\Slave.nxc"
+4	224	206	#line 224 "C:\Users\mariana\Desktop\Teste Malhas\Problema2\Slave.nxc"
+4	225	206		mul __DF0malha2, __float_stack_002malha2, errt
+4	224	210	#line 224 "C:\Users\mariana\Desktop\Teste Malhas\Problema2\Slave.nxc"
+4	225	210		add acum_errt, __float_stack_001malha2, __DF0malha2
+4	224	214	#line 224 "C:\Users\mariana\Desktop\Teste Malhas\Problema2\Slave.nxc"
+4	224	214	#line 224 "C:\Users\mariana\Desktop\Teste Malhas\Problema2\Slave.nxc"
+4	225	214	#line 225 "C:\Users\mariana\Desktop\Teste Malhas\Problema2\Slave.nxc"
+4	226	214		mov __DF0malha2, xr
+4	225	216	#line 225 "C:\Users\mariana\Desktop\Teste Malhas\Problema2\Slave.nxc"
+4	226	216		numtostr __strretvalmalha2, __DF0malha2
+4	225	219	#line 225 "C:\Users\mariana\Desktop\Teste Malhas\Problema2\Slave.nxc"
+4	226	219		strcat __strbufmalha2, __strretvalmalha2
+4	225	223	#line 225 "C:\Users\mariana\Desktop\Teste Malhas\Problema2\Slave.nxc"
+4	226	223		mov __ArrHelper__malha2_244_0, __strbufmalha2
+4	225	225	#line 225 "C:\Users\mariana\Desktop\Teste Malhas\Problema2\Slave.nxc"
+4	226	225		strcat __strbufmalha2, __constStr0009
+4	225	229	#line 225 "C:\Users\mariana\Desktop\Teste Malhas\Problema2\Slave.nxc"
+4	226	229		mov __ArrHelper__malha2_244_1, __strbufmalha2
+4	225	231	#line 225 "C:\Users\mariana\Desktop\Teste Malhas\Problema2\Slave.nxc"
+4	226	231		mov __DF0malha2, yr
+4	225	233	#line 225 "C:\Users\mariana\Desktop\Teste Malhas\Problema2\Slave.nxc"
+4	226	233		numtostr __strretvalmalha2, __DF0malha2
+4	225	236	#line 225 "C:\Users\mariana\Desktop\Teste Malhas\Problema2\Slave.nxc"
+4	226	236		strcat __strbufmalha2, __strretvalmalha2
+4	225	240	#line 225 "C:\Users\mariana\Desktop\Teste Malhas\Problema2\Slave.nxc"
+4	226	240		mov __ArrHelper__malha2_244_2, __strbufmalha2
+4	226	242	#line 226 "C:\Users\mariana\Desktop\Teste Malhas\Problema2\Slave.nxc"
+4	227	242		strcat __strretvalmalha2, __ArrHelper__malha2_244_0, __ArrHelper__malha2_244_1, __ArrHelper__malha2_244_2
+4	226	248	#line 226 "C:\Users\mariana\Desktop\Teste Malhas\Problema2\Slave.nxc"
+4	227	248		strcat __strbufmalha2, __strretvalmalha2
+4	226	252	#line 226 "C:\Users\mariana\Desktop\Teste Malhas\Problema2\Slave.nxc"
+4	227	252		mov __malha2_7qG2_write2_7qG2_000, __strbufmalha2
+4	226	254	#line 226 "C:\Users\mariana\Desktop\Teste Malhas\Problema2\Slave.nxc"
+4	227	254	#pragma macro 9
+4	227	254		acquire __FWriteMutex
+4	227	255		mov __FWriteArgs.FileHandle, fileHandle2
+4	227	257		strtoarr __FWriteFlattenBuf, __malha2_7qG2_write2_7qG2_000
+4	227	260		arrbuild __FWriteArgs.Buffer, __FWriteFlattenBuf, __FWriteLn
+4	227	265		arrsize __FWriteArgs.Length, __FWriteArgs.Buffer
+4	227	268		syscall 4, __FWriteArgs
+4	227	271		mov __D0malha2, __FWriteArgs.Result
+4	227	273		release __FWriteMutex
+4	8192	274	#line 8192 "C:\Users\mariana\Desktop\Teste Malhas\Problema2\Slave.nxc"
+4	226	274	#line 226 "C:\Users\mariana\Desktop\Teste Malhas\Problema2\Slave.nxc"
+4	226	274	#line 226 "C:\Users\mariana\Desktop\Teste Malhas\Problema2\Slave.nxc"
+4	228	274	#line 228 "C:\Users\mariana\Desktop\Teste Malhas\Problema2\Slave.nxc"
+4	229	274		mov __pow_7qG2_base_7qG2_000_inline_malha2, errx
+4	228	276	#line 228 "C:\Users\mariana\Desktop\Teste Malhas\Problema2\Slave.nxc"
+4	228	276	#line 228 "C:\Users\mariana\Desktop\Teste Malhas\Problema2\Slave.nxc"
+4	229	276		mov __pow_7qG2_exponent_7qG2_000_inline_malha2, __constVal2
+4	228	278	#line 228 "C:\Users\mariana\Desktop\Teste Malhas\Problema2\Slave.nxc"
+4	17348	278	#line 17348 "NXCDefs.h"
+4	17349	278		pow __float_stack_001malha2, __pow_7qG2_base_7qG2_000_inline_malha2, __pow_7qG2_exponent_7qG2_000_inline_malha2
+4	17348	282	#line 17348 "NXCDefs.h"
+4	228	282	#line 228 "C:\Users\mariana\Desktop\Teste Malhas\Problema2\Slave.nxc"
+4	228	282	#line 228 "C:\Users\mariana\Desktop\Teste Malhas\Problema2\Slave.nxc"
+4	228	282	#line 228 "C:\Users\mariana\Desktop\Teste Malhas\Problema2\Slave.nxc"
+4	229	282		mov __pow_7qG2_base_7qG2_000_inline_malha2, erry
+4	228	284	#line 228 "C:\Users\mariana\Desktop\Teste Malhas\Problema2\Slave.nxc"
+4	228	284	#line 228 "C:\Users\mariana\Desktop\Teste Malhas\Problema2\Slave.nxc"
+4	229	284		mov __pow_7qG2_exponent_7qG2_000_inline_malha2, __constVal2
+4	228	286	#line 228 "C:\Users\mariana\Desktop\Teste Malhas\Problema2\Slave.nxc"
+4	17348	286	#line 17348 "NXCDefs.h"
+4	17349	286		pow __DF0malha2, __pow_7qG2_base_7qG2_000_inline_malha2, __pow_7qG2_exponent_7qG2_000_inline_malha2
+4	17348	290	#line 17348 "NXCDefs.h"
+4	228	290	#line 228 "C:\Users\mariana\Desktop\Teste Malhas\Problema2\Slave.nxc"
+4	228	290	#line 228 "C:\Users\mariana\Desktop\Teste Malhas\Problema2\Slave.nxc"
+4	229	290		add __sqrt_7qG2_x_7qG2_000_inline_malha2, __float_stack_001malha2, __DF0malha2
+4	228	294	#line 228 "C:\Users\mariana\Desktop\Teste Malhas\Problema2\Slave.nxc"
+4	16821	294	#line 16821 "NXCDefs.h"
+4	16822	294		sqrt __malha2_7qG2_dist_7qG2_000, __sqrt_7qG2_x_7qG2_000_inline_malha2
+4	16821	297	#line 16821 "NXCDefs.h"
+4	229	297	#line 229 "C:\Users\mariana\Desktop\Teste Malhas\Problema2\Slave.nxc"
+4	229	297	#line 229 "C:\Users\mariana\Desktop\Teste Malhas\Problema2\Slave.nxc"
+4	229	297	#line 229 "C:\Users\mariana\Desktop\Teste Malhas\Problema2\Slave.nxc"
+4	229	297	#line 229 "C:\Users\mariana\Desktop\Teste Malhas\Problema2\Slave.nxc"
+4	229	297	#line 229 "C:\Users\mariana\Desktop\Teste Malhas\Problema2\Slave.nxc"
+4	229	297	#line 229 "C:\Users\mariana\Desktop\Teste Malhas\Problema2\Slave.nxc"
+4	230	297		mul __float_stack_001malha2, __constVal2, __constValf3P141593
+4	229	301	#line 229 "C:\Users\mariana\Desktop\Teste Malhas\Problema2\Slave.nxc"
+4	229	301	#line 229 "C:\Users\mariana\Desktop\Teste Malhas\Problema2\Slave.nxc"
+4	229	301	#line 229 "C:\Users\mariana\Desktop\Teste Malhas\Problema2\Slave.nxc"
+4	230	301		mul __float_stack_001malha2, __float_stack_001malha2, R
+4	229	305	#line 229 "C:\Users\mariana\Desktop\Teste Malhas\Problema2\Slave.nxc"
+4	229	305	#line 229 "C:\Users\mariana\Desktop\Teste Malhas\Problema2\Slave.nxc"
+4	229	305	#line 229 "C:\Users\mariana\Desktop\Teste Malhas\Problema2\Slave.nxc"
+4	230	305		div __float_stack_001malha2, __float_stack_001malha2, T
+4	229	309	#line 229 "C:\Users\mariana\Desktop\Teste Malhas\Problema2\Slave.nxc"
+4	230	309	#line 230 "C:\Users\mariana\Desktop\Teste Malhas\Problema2\Slave.nxc"
+4	230	309	#line 230 "C:\Users\mariana\Desktop\Teste Malhas\Problema2\Slave.nxc"
+4	231	309		div __malha2_7qG2_v_7qG2_000, __float_stack_001malha2, num_robos
+4	230	313	#line 230 "C:\Users\mariana\Desktop\Teste Malhas\Problema2\Slave.nxc"
+4	230	313	#line 230 "C:\Users\mariana\Desktop\Teste Malhas\Problema2\Slave.nxc"
+4	231	313		mov __float_stack_001malha2, __malha2_7qG2_dist_7qG2_000
+4	230	315	#line 230 "C:\Users\mariana\Desktop\Teste Malhas\Problema2\Slave.nxc"
+4	230	315	#line 230 "C:\Users\mariana\Desktop\Teste Malhas\Problema2\Slave.nxc"
+4	231	315		mov __DF0malha2, __constValf0P05
+4	230	317	#line 230 "C:\Users\mariana\Desktop\Teste Malhas\Problema2\Slave.nxc"
+4	231	317		cmp 1, __zfmalha2, __float_stack_001malha2, __DF0malha2
+4	230	321	#line 230 "C:\Users\mariana\Desktop\Teste Malhas\Problema2\Slave.nxc"
+4	231	321		mov __D0malha2, __zfmalha2
+4	231	323	#line 231 "C:\Users\mariana\Desktop\Teste Malhas\Problema2\Slave.nxc"
+4	232	323		brtst 4, __NXC_Label_786, __zfmalha2
+4	231	326	#line 231 "C:\Users\mariana\Desktop\Teste Malhas\Problema2\Slave.nxc"
+4	231	326	#line 231 "C:\Users\mariana\Desktop\Teste Malhas\Problema2\Slave.nxc"
+4	232	326	#line 232 "C:\Users\mariana\Desktop\Teste Malhas\Problema2\Slave.nxc"
+4	232	326	#line 232 "C:\Users\mariana\Desktop\Teste Malhas\Problema2\Slave.nxc"
+4	233	326		mul __malha2_7qG2_v_7qG2_000, __malha2_7qG2_v_7qG2_000, __constValf1P1
+4	232	330	#line 232 "C:\Users\mariana\Desktop\Teste Malhas\Problema2\Slave.nxc"
+4	232	330	#line 232 "C:\Users\mariana\Desktop\Teste Malhas\Problema2\Slave.nxc"
+4	238	330	#line 238 "C:\Users\mariana\Desktop\Teste Malhas\Problema2\Slave.nxc"
+4	238	330	#line 238 "C:\Users\mariana\Desktop\Teste Malhas\Problema2\Slave.nxc"
+4	239	330		mov __malha1_7qG2_vLinear_7qG2_000, __malha2_7qG2_v_7qG2_000
+4	238	332	#line 238 "C:\Users\mariana\Desktop\Teste Malhas\Problema2\Slave.nxc"
+4	238	332	#line 238 "C:\Users\mariana\Desktop\Teste Malhas\Problema2\Slave.nxc"
+4	239	332		mov __malha1_7qG2_vAng_7qG2_000, w_controle
+4	238	334	#line 238 "C:\Users\mariana\Desktop\Teste Malhas\Problema2\Slave.nxc"
+4	239	334	#line 239 "C:\Users\mariana\Desktop\Teste Malhas\Problema2\Slave.nxc"
+4	240	334		subcall malha1, __malha1_return
+4	239	336	#line 239 "C:\Users\mariana\Desktop\Teste Malhas\Problema2\Slave.nxc"
+4	242	336	#line 242 "C:\Users\mariana\Desktop\Teste Malhas\Problema2\Slave.nxc"
+4	243	336		subret __malha2_return
+5	243	0	#line 243 "C:\Users\mariana\Desktop\Teste Malhas\Problema2\Slave.nxc"
+5	244	0	#pragma macro 5
+5	244	0		acquire __CBTCSMutex
+5	244	1		mov __CBTCSArgs.Connection, __BTCheck_7qG2_conn_7qG2_000
+5	244	3		syscall 28, __CBTCSArgs
+5	244	6		mov __D0BTCheck, __CBTCSArgs.Result
+5	244	8		release __CBTCSMutex
+5	8356	9	#line 8356 "C:\Users\mariana\Desktop\Teste Malhas\Problema2\Slave.nxc"
+5	243	9	#line 243 "C:\Users\mariana\Desktop\Teste Malhas\Problema2\Slave.nxc"
+5	244	9		not __signed_stack_001BTCheck, __D0BTCheck
+5	243	12	#line 243 "C:\Users\mariana\Desktop\Teste Malhas\Problema2\Slave.nxc"
+5	243	12	#line 243 "C:\Users\mariana\Desktop\Teste Malhas\Problema2\Slave.nxc"
+5	244	12		set __D0BTCheck, 0
+5	243	15	#line 243 "C:\Users\mariana\Desktop\Teste Malhas\Problema2\Slave.nxc"
+5	244	15		cmp 4, __zfBTCheck, __signed_stack_001BTCheck, __D0BTCheck
+5	243	19	#line 243 "C:\Users\mariana\Desktop\Teste Malhas\Problema2\Slave.nxc"
+5	244	19		mov __D0BTCheck, __zfBTCheck
+5	244	21	#line 244 "C:\Users\mariana\Desktop\Teste Malhas\Problema2\Slave.nxc"
+5	245	21		brtst 4, __NXC_Label_795, __zfBTCheck
+5	244	24	#line 244 "C:\Users\mariana\Desktop\Teste Malhas\Problema2\Slave.nxc"
+5	245	24		set __signed_stack_001BTCheck, 5
+5	244	27	#line 244 "C:\Users\mariana\Desktop\Teste Malhas\Problema2\Slave.nxc"
+5	244	27	#line 244 "C:\Users\mariana\Desktop\Teste Malhas\Problema2\Slave.nxc"
+5	245	27		set __signed_stack_002BTCheck, 48
+5	244	30	#line 244 "C:\Users\mariana\Desktop\Teste Malhas\Problema2\Slave.nxc"
+5	244	30	#line 244 "C:\Users\mariana\Desktop\Teste Malhas\Problema2\Slave.nxc"
+5	245	30		strcat __strbufBTCheck, __constStr0010
+5	245	34	#line 245 "C:\Users\mariana\Desktop\Teste Malhas\Problema2\Slave.nxc"
+5	246	34		acquire __TextOutMutex
+5	245	35	#line 245 "C:\Users\mariana\Desktop\Teste Malhas\Problema2\Slave.nxc"
+5	246	35		mov __TextOutArgs.Location.X, __signed_stack_001BTCheck
+5	245	37	#line 245 "C:\Users\mariana\Desktop\Teste Malhas\Problema2\Slave.nxc"
+5	246	37		mov __TextOutArgs.Location.Y, __signed_stack_002BTCheck
+5	245	39	#line 245 "C:\Users\mariana\Desktop\Teste Malhas\Problema2\Slave.nxc"
+5	246	39		set __TextOutArgs.Options, 0
+5	245	42	#line 245 "C:\Users\mariana\Desktop\Teste Malhas\Problema2\Slave.nxc"
+5	246	42		mov __TextOutArgs.Text, __strbufBTCheck
+5	245	44	#line 245 "C:\Users\mariana\Desktop\Teste Malhas\Problema2\Slave.nxc"
+5	246	44		syscall 13, __TextOutArgs
+5	245	47	#line 245 "C:\Users\mariana\Desktop\Teste Malhas\Problema2\Slave.nxc"
+5	246	47		mov __D0BTCheck, __TextOutArgs.Result
+5	245	49	#line 245 "C:\Users\mariana\Desktop\Teste Malhas\Problema2\Slave.nxc"
+5	246	49		release __TextOutMutex
+5	245	50	#line 245 "C:\Users\mariana\Desktop\Teste Malhas\Problema2\Slave.nxc"
+5	245	50	#line 245 "C:\Users\mariana\Desktop\Teste Malhas\Problema2\Slave.nxc"
+5	245	50	#line 245 "C:\Users\mariana\Desktop\Teste Malhas\Problema2\Slave.nxc"
+5	7921	50	#line 7921 "NXCDefs.h"
+5	7922	50		wait 1000
+5	7921	52	#line 7921 "NXCDefs.h"
+5	246	52	#line 246 "C:\Users\mariana\Desktop\Teste Malhas\Problema2\Slave.nxc"
+5	246	52	#line 246 "C:\Users\mariana\Desktop\Teste Malhas\Problema2\Slave.nxc"
+5	247	52		set __D0BTCheck, 1
+5	247	55	#line 247 "C:\Users\mariana\Desktop\Teste Malhas\Problema2\Slave.nxc"
+5	248	55		stop __D0BTCheck
+5	247	57	#line 247 "C:\Users\mariana\Desktop\Teste Malhas\Problema2\Slave.nxc"
+5	250	57	#line 250 "C:\Users\mariana\Desktop\Teste Malhas\Problema2\Slave.nxc"
+5	250	57	#line 250 "C:\Users\mariana\Desktop\Teste Malhas\Problema2\Slave.nxc"
+5	251	57		subret __BTCheck_return
+6	300	0	#line 300 "C:\Users\mariana\Desktop\Teste Malhas\Problema2\Slave.nxc"
+6	301	0		subret ____initialize_global_data_return
+#CLUMPS
+Clump	Name	Offset	File
+0	main	0	C:\Users\mariana\Desktop\Teste Malhas\Problema2\Slave.nxc
+1	__PosSubroutine	390	NXTDefs.h
+2	getWs	441	C:\Users\mariana\Desktop\Teste Malhas\Problema2\Slave.nxc
+3	malha1	479	C:\Users\mariana\Desktop\Teste Malhas\Problema2\Slave.nxc
+4	malha2	784	C:\Users\mariana\Desktop\Teste Malhas\Problema2\Slave.nxc
+5	BTCheck	1122	C:\Users\mariana\Desktop\Teste Malhas\Problema2\Slave.nxc
+6	__initialize_global_data	1181	C:\Users\mariana\Desktop\Teste Malhas\Problema2\Slave.nxc

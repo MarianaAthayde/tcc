@@ -2,8 +2,15 @@ This is BibTeX, Version 0.99d (TeX Live 2014/W32TeX)
 Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
 The top-level auxiliary file: main.aux
 A level-1 auxiliary file: ./01-elementos-pre-textuais/capa.aux
+A level-1 auxiliary file: ./01-elementos-pre-textuais/folha-rosto.aux
+A level-1 auxiliary file: ./01-elementos-pre-textuais/folha-aprovacao.aux
+A level-1 auxiliary file: ./01-elementos-pre-textuais/dedicatoria.aux
+A level-1 auxiliary file: ./01-elementos-pre-textuais/agradecimentos.aux
+A level-1 auxiliary file: ./01-elementos-pre-textuais/epigrafe.aux
+A level-1 auxiliary file: ./01-elementos-pre-textuais/resumo-pt.aux
+A level-1 auxiliary file: ./01-elementos-pre-textuais/resumo-en.aux
 A level-1 auxiliary file: ./01-elementos-pre-textuais/lista-figuras.aux
-A level-1 auxiliary file: ./01-elementos-pre-textuais/lista-quadros.aux
+A level-1 auxiliary file: ./01-elementos-pre-textuais/lista-tabelas.aux
 A level-1 auxiliary file: ./01-elementos-pre-textuais/lista-siglas.aux
 A level-1 auxiliary file: ./01-elementos-pre-textuais/lista-simbolos.aux
 A level-1 auxiliary file: ./01-elementos-pre-textuais/sumario.aux
@@ -12,6 +19,8 @@ A level-1 auxiliary file: ./02-elementos-textuais/trab-relacionados.aux
 A level-1 auxiliary file: ./02-elementos-textuais/fund-teorica.aux
 A level-1 auxiliary file: ./02-elementos-textuais/metodologia.aux
 A level-1 auxiliary file: ./02-elementos-textuais/desenhoemodelo.aux
+A level-1 auxiliary file: ./02-elementos-textuais/testes.aux
+A level-1 auxiliary file: ./02-elementos-textuais/simulacoes.aux
 A level-1 auxiliary file: ./02-elementos-textuais/resultados.aux
 A level-1 auxiliary file: ./02-elementos-textuais/conclusao.aux
 A level-1 auxiliary file: ./03-elementos-pos-textuais/referencias.aux
@@ -38,7 +47,7 @@ Reallocated glb_str_end (elt_size=4) to 20 items from 10.
 +---------------------------------------------------------+
 You've used 19 entries,
             6711 wiz_defined-function locations,
-            1314 strings with 12861 characters,
+            1323 strings with 13234 characters,
 and the built_in function-call counts, 17070 in all, are:
 = -- 1537
 > -- 527

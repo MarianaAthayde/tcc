@@ -3,15 +3,14 @@
 %
 \chapter{Metodologia}
 \label{chap:Metod}
-Para a realização deste trabalho, primeiramente fez-se um estudo das estratégias de controle de formação de robôs móveis, das possibilidades %viabilidade 
-de implementação dessas estratégias na plataforma a ser utilizada (no caso, o \emph{Lego Mindstorms\textregistered}) e da viabilidade de modelar e implementar o sistema como um sistema distribuído descentralizado. No qual não possui um mestre definido, apenas uma sociedade de robôs que conforme precisam executar uma tarefa, vão recrutando e formando uma frota. 
+Para a realização deste trabalho, primeiramente fez-se um estudo das estratégias de controle de formação de robôs móveis, das possibilidades de implementação dessas estratégias na plataforma a ser utilizada (no caso, o \emph{Lego Mindstorms\textregistered}) e da viabilidade de modelar e implementar o sistema como um sistema distribuído descentralizado. No qual não possui um mestre definido, apenas uma sociedade de robôs que conforme precisam executar uma tarefa, vão recrutando e formando uma frota. 
 
-Após realizados os estudos, concluiu-se que, apesar de viável como pode ser visto no capítulo \ref{chap:trabalhosRelacionados}, a implementação de um sistema distribuído descentralizado seria muito complexo para ser abordado no período proposto para a realização deste trabalho, que tem como objetivo principal o estudo de estratégias de controle de formação de múltiplos robôs móveis. Para tanto, foi adotada uma estrutura de rede centralizada denominada 'Mestre/Escravo', utilizando a comunicação via \emph{Bluetooth}, a qual a própria plataforma e linguagem (\emph{NXT}) dão suporte. 
+Após realizados os estudos, concluiu-se que, apesar de viável como pode ser visto no capítulo \ref{chap:trabalhosRelacionados}, a implementação de um sistema distribuído descentralizado seria muito complexo para ser abordado no período proposto para a realização deste trabalho, que tem como objetivo principal o estudo de estratégias de controle de formação de múltiplos robôs móveis. Para tanto, foi adotada uma estrutura de rede centralizada denominada 'Mestre/Escravo', utilizando a comunicação via \emph{Bluetooth}, a qual a própria plataforma e linguagem (\emph{NXC}) dão suporte. 
 
 %Além disso, será feito um controle em cascata, onde a saída de um módulo de controle  utilizado para modularizar o problema e assim, tornar mais simples a implementação e o entendimento do mesmo. %Ponto?
 %Além de facilitar na validação do sistema, que foi implementado da malha mais interna à malha mais externa, sendo testado e validado módulo à módulo de controle, bem como suas integrações.  %Para facilitar a implementação, a modelagem foi implementada em módulos de controle, com o intuito de simplificar o entendimento e a validação do sistema. A implementação foi feita da malha mais interna à malha mais externa, sendo testado e validado módulo à modulo de controle, bem como suas integrações.
 
-Existem diversas maneiras de se implementar um sistema como este, tanto do ponto de vista do sistema distribuído e sua rede de comunicação, quanto do ponto de vista de controle e realimentação das malhas. Foram escolhidas duas estratégias diferentes de formação de múltiplos robôs móveis e fez-se então, duas abordagens distintas. Uma delas que atende apenas à um dos problemas e uma outra abordagem mais genérica que pode ser adaptada para a resolução de ambos os problemas. 
+Existem diversas maneiras de se implementar um sistema como este, tanto do ponto de vista do sistema distribuído e sua rede de comunicação, quanto do ponto de vista de controle e realimentação das malhas. Foram escolhidas dois tipos de formações diferentes e uma estratégia que pode ser adaptada para ambos os problemas. %Foram escolhidas duas estratégias diferentes de formação de múltiplos robôs móveis %e fez-se então, duas abordagens distintas. Uma delas que atende apenas à um dos problemas e uma outra abordagem mais genérica que pode ser adaptada para a resolução de ambos os problemas. 
 
 Para estabelecer o modelo matemático do problema, foi considerado o modelo de robô mostrado na \autoref{fig:robo}, que consistem em um modelo não holonômico, onde tem-se duas rodas unidirecionais e uma roda orientável. Para definição do modelo matemático levou-se em consideração que os \emph{encoders} seriam utilizados para odometria e então, foram definidas as restrições da modelagem matemática do problema que, desconsidera problemas como: saturação do atuador, derrapagem das rodas, os erros de medição dos \emph{encoders} bem como, as limitações da plataforma. %Tendo em vista um levantamento das dificuldades que surgiram somente na implementação do sistema no mundo real, foi-se adaptando as soluções para o problema e o problema, de forma a viabilizar a correção de erros de sensoriamento que se acumulam a cada iteração.
 
@@ -99,8 +98,7 @@ Em que:
 
 \section{Problema 1: \emph{In line}}
 \label{sec:P1}
-%Reescrever
-O primeiro problema consiste em: dado uma frota de \emph{N} robôs, esses robôs devem se alinhar horizontalmente e seguir em linha reta, andando paralelamente, utilizando a estrutura já citada na seção \ref{sec:controleFormacao}, denominada \emph{"In Line"}. Primeiro, este problema será modelado considerando uma modelagem mais simples que será melhor descrita a seguir. 
+O primeiro problema consiste em: dado uma frota de \emph{N} robôs, esses robôs devem se alinhar horizontalmente e seguir em linha reta, andando paralelamente, utilizando a estrutura já citada na seção \ref{sec:controleFormacao}, denominada \emph{"In Line"}. Primeiro, este problema será modelado considerando a estrutura de comunicação da rede e permitindo apenas velocidades lineares em que o robô pode se deslocar em linha reta e podendo imprimir velocidades negativas e positivas. 
 
 Considerando-se \emph{N} robôs separados por uma distância $\Delta$$y$ no eixo $y$, cada um em um ponto distinto no eixo $x$, como mostrado na \autoref{fig:p1} (a), a tropa deve se alinhar paralelamente e seguir andando paralelamente com uma velocidade $v_{d}$ constante.
 
@@ -111,7 +109,54 @@ Considerando-se \emph{N} robôs separados por uma distância $\Delta$$y$ no eixo
 	\label{fig:p1}
 \end{figure}
 
-Supondo uma tropa de três robôs, orientados todos no mesmo sentido do eixo x, as velocidades de cada robô devem variar de acordo com o erro de posicionamento do mesmo no eixo x, conforme a distância entre os robôs. Conforme mostrado nas  equações \ref{eq:vel1P1}, \ref{eq:vel2P1} e \ref{eq:vel3P1}. Essas equações fazem com que o robô mais adiantado da frota, imprima uma velocidade menor que os outros robôs, tendendo a se aproximar dos mesmos, em contrapartida os robôs que estão "atrasados" imprimem uma velocidade maior, até que o erro entre eles seja zero e os mesmos caminhem com velocidade constante. 
+Para alinhar os robôs pode-se usar diversas equações para se definir o erro de posicionamento do robô. Embora não seja a intensão deste trabalho implementar uma rede distribuída, uma forma interessante de se fazer isto é levar em consideração uma rede distribuída, onde um robô não possui a localização de todos os outros robôs e não precisa de uma dependência com um determinado mestre. Desta forma, podemos definir os erros entre os robôs vizinhos, conforme a estrutura da rede. Como explicado mais a diante.
+
+Existem diversos tipos de estruturas de rede como mostrado na \autoref{fig:redes}, em que cada círculo indica um robô e as setas indicam a comunicação que ocorre entre eles. Ou seja, na \autoref{fig:redeserial1} o robô 1 troca mensagens somente com o robô 2, que por sua vez, troca mensagens com o robô 1 e 3 e assim sucessivamente. Na \autoref{fig:redenxt} a rede é como a implementada neste trabalho, em que o mestre se comunica com todos os escravos e os escravos não trocam mensagem entre sí. Já na \autoref{fig:rededistr} a rede é descentralizada, o robô 1 troca mensagens com o robô 2 e 3. O robô 3 por sua vez, troca mensagens com o robô 4 e 5. E na \autoref{fig:redeisolada} possuem duas redes, em que uma rede não troca mensagem com a outra.
+
+\begin{figure}
+	\centering
+	\begin{subfigure}{.5\textwidth}
+		\centering
+		\includegraphics[width=.9\linewidth]{./04-figuras/RedeSerial}
+		\caption{Rede "Serial"}
+		\label{fig:redeserial1}
+	\end{subfigure}%
+	\begin{subfigure}{.5\textwidth}
+		\centering
+		\includegraphics[width=.9\linewidth]{./04-figuras/RedeNXC}
+		\caption{Rede Mestre/Escravo}
+		\label{fig:redenxt}
+	\end{subfigure}
+	\begin{subfigure}{.45\textwidth}
+		\centering
+		\includegraphics[width=.9\linewidth]{./04-figuras/RedeDistribuida}
+		\caption{Rede Descentralizada}
+		\label{fig:rededistr}
+	\end{subfigure}
+	\begin{subfigure}{.45\textwidth}
+		\centering
+		\includegraphics[width=.9\linewidth]{./04-figuras/RedeIsolada}
+		\caption{Redes Isoladas}
+		\label{fig:redeisolada}
+	\end{subfigure}
+	\caption{Estruturas de Rede}
+	\label{fig:redes}
+\end{figure}
+
+Sendo assim, uma forma de se alinhar a tropa, seria definir a velocidade de cada robô de acordo com o erro entre a posição do robô e a posição dos robôs vizinhos, aqueles com que aquele robô troca mensagens. Como demonstrado na \autoref{eq:velP1}:
+\begin{equation}
+v_{Robo_j} = v_{d} + k \times \sum\limits_{i = 1}^{n} erro_{x_{i},j}
+\label{eq:velP1}
+\end{equation}
+Em que:
+\begin{itemize}
+	\item $j$ é o número do robô;
+	\item $n$ é o número de vizinhos com que aquele robô troca mensagens;
+	\item $x_{i}$ é a posição do vizinho $i$ daquele robô;
+	\item $erro_{x_{i},j}$ é a diferença entre a posição no eixo $x$ entre o robô e seu vizinho $i$.
+\end{itemize}
+
+Supondo uma tropa de três robôs utilizando a rede centralizada utilizada neste trabalho, onde o robô 2 é o mestre e todos os robôs estão orientados no mesmo sentido do eixo x, as velocidades de cada robô devem variar de acordo com o erro de posicionamento do mesmo no eixo x, conforme a distância entre os robôs. Como mostrado nas  equações \ref{eq:vel1P1}, \ref{eq:vel2P1} e \ref{eq:vel3P1}. Essas equações fazem com que o robô mais adiantado da frota, imprima uma velocidade menor que os outros robôs, tendendo a se aproximar dos mesmos, em contrapartida os robôs que estão "atrasados" imprimem uma velocidade maior, até que o erro entre eles seja zero e os mesmos caminhem com velocidade constante. 
 
 \begin{equation}
 v_{Robo1} = v_{d} + k \times erro_{2,1}
@@ -139,13 +184,31 @@ erro_{i,j} = x_{i} - x_{j}
 \label{eq:errp1}
 \end{equation}
 
-É importante notar que ao abordar o problemas desta maneira elimina-se o problema de colisão entre os robôs, que estão inicialmente separados no eixo y e alinhados no mesmo sentido, e assim seguem, visto que os mesmos não imprimem velocidade angular. Desta forma, tornando o problema bem didático para ser abordado inicialmente. Posteriormente, será mostrado o problema sendo abordado de outra forma.
+É importante notar que ao abordar o problemas desta maneira elimina-se a possibilidade de colisão entre os robôs, que estão inicialmente separados no eixo y e alinhados no mesmo sentido, e assim seguem, visto que os mesmos não imprimem velocidade angular. Desta forma, tornando o problema bem didático para ser abordado inicialmente. %Posteriormente, será mostrado como o  problema pode ser abordado desconsiderando a restrição de estarem separados inicialmente. %sendo abordado de outra forma.
+
+Outra forma de abordar esse problema, é pensar que existe uma reta perpendicular ao eixo $x$ (supondo que deseja-se deslocar a frota no mesmo sentido que o eixo $x$), tal que essa reta é dada pela \autoref{eq:xdp1} em que o valor de $x$ desejado ($x_{d}$) é a media das posições entre os robôs mais distantes entre sí (considerando-se o posicionamento com relação ao eixo das abscissas). E todos os robôs devem alcançar a posição $(x_{d},y)$, em que o valor de $y$ seja diferente para cada robô da frota. Sendo assim, todos os robôs seriam alinhados e a partir dai seguiriam em linha reta, cumprindo o objetivo.
+
+\begin{equation}
+x_{d} = \dfrac{(max(x_{frota}) + min(x_{frota}))}{2};
+\label{eq:xdp1}
+\end{equation}
+Onde:
+\begin{itemize}
+	\item $x_{frota}$ é um vetor com todas as coordenadas do eixo $x$ dos robôs da frota; 
+\end{itemize}
 
 \section{Problema 2: Rodeando um alvo}
 
 %O segundo problema consistem em dado um alvo de posiçao $(x,y)$ no plano, a frota deve se locomover até o alvo e o circular, mantendo uma distância $R$ do alvo, com determinada velocidade angular que deve variar de acordo com o tamanho da frota.  
 
-O segundo problema consiste em guiar uma frota de robôs a localizar e circundar, a uma distância \emph{R}, um alvo localizado em uma determinada posição (\emph{x,y}) do plano. E tem como objetivo secundário, ajustar a formação da tropa de robôs que deve se reajustar de acordo com o tamanho da frota, para que continue cobrindo com eficiência a fronteira. Ou seja, caso um ou mais robôs saiam da rede, a frota ira se reajustar para que cada robô tenha a mesma distância entre si e assim, não fique uma grande parte da fronteira sem cobertura, como demostrado na \autoref{fig:sistema}. Que representa uma frota de quatro robôs andando ao redor do alvo, quando então, um dos robôs falha. E o sistema se reajusta para adaptar-se à rede de apenas três robôs.
+O segundo problema consiste em guiar uma frota de robôs a localizar e circundar, a uma distância \emph{R}, um alvo localizado em uma determinada posição (\emph{x,y}) do plano, como mostrado na \autoref{fig:esq2}. E tem como objetivo secundário, ajustar a formação da tropa de robôs que deve se reajustar de acordo com o tamanho da frota, para que continue cobrindo com eficiência a fronteira. Ou seja, caso um ou mais robôs saiam da rede, a frota ira se reajustar para que cada robô tenha a mesma distância entre si e assim, não fique uma grande parte da fronteira sem cobertura, como demostrado na \autoref{fig:sistema}. Que representa uma frota de quatro robôs andando ao redor do alvo, quando então, um dos robôs falha. E o sistema se reajusta para adaptar-se à rede de apenas três robôs.
+
+\begin{figure}[!htb]
+	\centering
+	\includegraphics[width=1.0\textwidth]{./04-figuras/esqSistema}
+	\caption{Esquema do Sistema do Ponto de Vista de Apenas Um Agente}
+	\label{fig:esq2}
+\end{figure}
 
 \begin{figure}[!htb]
 	\centering
@@ -153,3 +216,47 @@ O segundo problema consiste em guiar uma frota de robôs a localizar e circundar
 	\caption{Modelagem do Sistema}
 	\label{fig:sistema}
 \end{figure}
+
+Para calcular a posição desejada de cada robô ao redor do alvo, usa-se as \autoref{eq:posDesejada_p2} que como pode ser visto leva em consideração a posição do alvo ($x_{a},y_{a}$), o raio ($R$) que é a distância com que se deseja rodear o alvo, a velocidade angular ($\omega$) com que se deseja percorrer o perímetro, aí está embutido o período ($T$) e além disso, leva em consideração o tamanho da frota e a numeração de cada robô na mesma. O segundo termo adicionado a $\omega t$ significa exatamente a distância que cada robô terá entre sí, que é de $\dfrac{2pi}{n}$.
+
+\begin{subequations}
+\begin{equation}
+x_{d} = x_{a} + R cos(\omega t + \dfrac{(j-1)2pi}{n})
+\label{eq:xd_p2}
+\end{equation}
+\begin{equation}
+y_{d} = y_{a} + R sin(\omega t + \dfrac{(j-1)2pi}{n})
+\label{eq:yd_p2}
+\end{equation}
+\begin{equation}
+j = {1,...,n}
+\end{equation}
+\label{eq:posDesejada_p2}
+\end{subequations}
+Sendo:
+\begin{itemize}
+	\item ($x_{a},y_{a}$) a posição do alvo;
+	\item $R$ o raio em torno do alvo;
+	\item $\omega$ a velocidade angular em que deseja-se percorrer o círculo;
+	\item $t$ o tempo percorrido;
+	\item $n$ o número de robôs da frota;
+	\item $j$ a numeração do robô na frota. 
+\end{itemize}
+
+À medida que o sistema se estabiliza, o robô tende entra em movimento circular uniforme ao redor do alvo, conforme a \autoref{fig:sistEst}. Ou seja, a velocidade linear ($v$) tende a se igualar a velocidade angular ($\omega$) vezes o raio ($R$) de distância do alvo. 
+
+\begin{figure}[!htb]
+	\centering
+	\includegraphics[width=1.0\textwidth]{./04-figuras/sistEstavel2}
+	\caption{Representação do sistema estável}
+	\label{fig:sistEst}
+\end{figure}
+
+
+%\begin{equation}
+%\omega = \dfrac{2\pi}{T}
+%label{eq:velocangular}
+%\end{equation}
+
+
+

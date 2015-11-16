@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.15 (TeX Live 2014/W32TeX) (preloaded format=pdflatex 2015.3.18)  11 NOV 2015 21:51
+This is pdfTeX, Version 3.14159265-2.6-1.40.15 (TeX Live 2014/W32TeX) (preloaded format=pdflatex 2015.3.18)  16 NOV 2015 02:39
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -977,9 +977,6 @@ Package: icomma 2002/03/10 v2.0 (WaS)
 (c:/texlive/2014/texmf-dist/tex/latex/psnfss/palatino.sty
 Package: palatino 2005/04/12 PSNFSS-v9.2a (SPQR) 
 )
-(c:/texlive/2014/texmf-dist/tex/latex/subfig/subfig.sty
-Package: subfig 2005/06/28 ver: 1.3 subfig package
-
 
 Class memoir Warning: You are using the caption package with the memoir class. 
 To prepare we will now reset all captioning macros and configurations to kernel
@@ -1004,17 +1001,10 @@ Package caption3 Info: TeX engine: e-TeX on input line 57.
 Package caption Info: float package is loaded.
 Package caption Info: hyperref package is loaded.
 )
-\c@KVtest=\count189
-\sf@farskip=\skip222
-\sf@captopadj=\dimen181
-\sf@capskip=\skip223
-\sf@nearskip=\skip224
-\c@subfigure=\count190
-\c@subfigure@save=\count191
-\c@subtable=\count192
-\c@subtable@save=\count193
-\sf@top=\skip225
-\sf@bottom=\skip226
+(c:/texlive/2014/texmf-dist/tex/latex/caption/subcaption.sty
+Package: subcaption 2013/02/03 v1.1-62 Sub-captions (AR)
+\c@subfigure=\count189
+\c@subtable=\count190
 )
 (c:/texlive/2014/texmf-dist/tex/latex/xcolor/xcolor.sty
 Package: xcolor 2007/01/21 v2.11 LaTeX color extensions (UK)
@@ -1027,9 +1017,9 @@ Package xcolor Info: Driver file: pdftex.def on input line 225.
 (c:/texlive/2014/texmf-dist/tex/latex/colortbl/colortbl.sty
 Package: colortbl 2012/02/13 v1.0a Color table columns (DPC)
 \everycr=\toks36
-\minrowclearance=\skip227
+\minrowclearance=\skip222
 )
-\rownum=\count194
+\rownum=\count191
 Package xcolor Info: Model `cmy' substituted by `cmy0' on input line 1337.
 Package xcolor Info: Model `hsb' substituted by `rgb' on input line 1341.
 Package xcolor Info: Model `RGB' extended on input line 1353.
@@ -1048,8 +1038,8 @@ Package: gensymb 2003/07/02 v1.0 (WaS)
 (c:/texlive/2014/texmf-dist/tex/latex/pgf/utilities/pgfrcs.sty
 (c:/texlive/2014/texmf-dist/tex/generic/pgf/utilities/pgfutil-common.tex
 \pgfutil@everybye=\toks37
-\pgfutil@tempdima=\dimen182
-\pgfutil@tempdimb=\dimen183
+\pgfutil@tempdima=\dimen181
+\pgfutil@tempdimb=\dimen182
 
 (c:/texlive/2014/texmf-dist/tex/generic/pgf/utilities/pgfutil-common-lists.tex)
 ) (c:/texlive/2014/texmf-dist/tex/generic/pgf/utilities/pgfutil-latex.def
@@ -1075,20 +1065,20 @@ Package: pgfsys 2013/11/30 v3.0.0 (rcs-revision 1.47)
 (c:/texlive/2014/texmf-dist/tex/generic/pgf/utilities/pgfkeysfiltered.code.tex
 \pgfkeys@tmptoks=\toks40
 ))
-\pgf@x=\dimen184
-\pgf@y=\dimen185
-\pgf@xa=\dimen186
-\pgf@ya=\dimen187
-\pgf@xb=\dimen188
-\pgf@yb=\dimen189
-\pgf@xc=\dimen190
-\pgf@yc=\dimen191
+\pgf@x=\dimen183
+\pgf@y=\dimen184
+\pgf@xa=\dimen185
+\pgf@ya=\dimen186
+\pgf@xb=\dimen187
+\pgf@yb=\dimen188
+\pgf@xc=\dimen189
+\pgf@yc=\dimen190
 \w@pgf@writea=\write4
 \r@pgf@reada=\read2
-\c@pgf@counta=\count195
-\c@pgf@countb=\count196
-\c@pgf@countc=\count197
-\c@pgf@countd=\count198
+\c@pgf@counta=\count192
+\c@pgf@countb=\count193
+\c@pgf@countc=\count194
+\c@pgf@countd=\count195
 \t@pgf@toka=\toks41
 \t@pgf@tokb=\toks42
 \t@pgf@tokc=\toks43
@@ -1105,8 +1095,8 @@ File: pgfsys-common-pdf.def 2013/10/10  (rcs-revision 1.13)
 )))
 (c:/texlive/2014/texmf-dist/tex/generic/pgf/systemlayer/pgfsyssoftpath.code.tex
 File: pgfsyssoftpath.code.tex 2013/09/09  (rcs-revision 1.9)
-\pgfsyssoftpath@smallbuffer@items=\count199
-\pgfsyssoftpath@bigbuffer@items=\count200
+\pgfsyssoftpath@smallbuffer@items=\count196
+\pgfsyssoftpath@bigbuffer@items=\count197
 )
 (c:/texlive/2014/texmf-dist/tex/generic/pgf/systemlayer/pgfsysprotocol.code.tex
 File: pgfsysprotocol.code.tex 2006/10/16  (rcs-revision 1.4)
@@ -1117,8 +1107,8 @@ Package: pgfcore 2010/04/11 v3.0.0 (rcs-revision 1.7)
 (c:/texlive/2014/texmf-dist/tex/generic/pgf/math/pgfmathcalc.code.tex
 (c:/texlive/2014/texmf-dist/tex/generic/pgf/math/pgfmathutil.code.tex)
 (c:/texlive/2014/texmf-dist/tex/generic/pgf/math/pgfmathparser.code.tex
-\pgfmath@dimen=\dimen192
-\pgfmath@count=\count201
+\pgfmath@dimen=\dimen191
+\pgfmath@count=\count198
 \pgfmath@box=\box43
 \pgfmath@toks=\toks44
 \pgfmath@stack@operand=\toks45
@@ -1142,55 +1132,55 @@ x)
 (c:/texlive/2014/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.integerarithm
 etics.code.tex)))
 (c:/texlive/2014/texmf-dist/tex/generic/pgf/math/pgfmathfloat.code.tex
-\c@pgfmathroundto@lastzeros=\count202
+\c@pgfmathroundto@lastzeros=\count199
 ))
 (c:/texlive/2014/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepoints.code.tex
 File: pgfcorepoints.code.tex 2013/10/07  (rcs-revision 1.27)
-\pgf@picminx=\dimen193
-\pgf@picmaxx=\dimen194
-\pgf@picminy=\dimen195
-\pgf@picmaxy=\dimen196
-\pgf@pathminx=\dimen197
-\pgf@pathmaxx=\dimen198
-\pgf@pathminy=\dimen199
-\pgf@pathmaxy=\dimen200
-\pgf@xx=\dimen201
-\pgf@xy=\dimen202
-\pgf@yx=\dimen203
-\pgf@yy=\dimen204
-\pgf@zx=\dimen205
-\pgf@zy=\dimen206
+\pgf@picminx=\dimen192
+\pgf@picmaxx=\dimen193
+\pgf@picminy=\dimen194
+\pgf@picmaxy=\dimen195
+\pgf@pathminx=\dimen196
+\pgf@pathmaxx=\dimen197
+\pgf@pathminy=\dimen198
+\pgf@pathmaxy=\dimen199
+\pgf@xx=\dimen200
+\pgf@xy=\dimen201
+\pgf@yx=\dimen202
+\pgf@yy=\dimen203
+\pgf@zx=\dimen204
+\pgf@zy=\dimen205
 )
 (c:/texlive/2014/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepathconstruct.cod
 e.tex
 File: pgfcorepathconstruct.code.tex 2013/10/07  (rcs-revision 1.29)
-\pgf@path@lastx=\dimen207
-\pgf@path@lasty=\dimen208
+\pgf@path@lastx=\dimen206
+\pgf@path@lasty=\dimen207
 )
 (c:/texlive/2014/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepathusage.code.te
 x
 File: pgfcorepathusage.code.tex 2013/12/13  (rcs-revision 1.23)
-\pgf@shorten@end@additional=\dimen209
-\pgf@shorten@start@additional=\dimen210
+\pgf@shorten@end@additional=\dimen208
+\pgf@shorten@start@additional=\dimen209
 )
 (c:/texlive/2014/texmf-dist/tex/generic/pgf/basiclayer/pgfcorescopes.code.tex
 File: pgfcorescopes.code.tex 2013/10/09  (rcs-revision 1.44)
 \pgfpic=\box44
 \pgf@hbox=\box45
 \pgf@layerbox@main=\box46
-\pgf@picture@serial@count=\count203
+\pgf@picture@serial@count=\count200
 )
 (c:/texlive/2014/texmf-dist/tex/generic/pgf/basiclayer/pgfcoregraphicstate.code
 .tex
 File: pgfcoregraphicstate.code.tex 2013/09/19  (rcs-revision 1.11)
-\pgflinewidth=\dimen211
+\pgflinewidth=\dimen210
 )
 (c:/texlive/2014/texmf-dist/tex/generic/pgf/basiclayer/pgfcoretransformations.c
 ode.tex
 File: pgfcoretransformations.code.tex 2013/10/10  (rcs-revision 1.17)
-\pgf@pt@x=\dimen212
-\pgf@pt@y=\dimen213
-\pgf@pt@temp=\dimen214
+\pgf@pt@x=\dimen211
+\pgf@pt@y=\dimen212
+\pgf@pt@temp=\dimen213
 )
 (c:/texlive/2014/texmf-dist/tex/generic/pgf/basiclayer/pgfcorequick.code.tex
 File: pgfcorequick.code.tex 2008/10/09  (rcs-revision 1.3)
@@ -1204,12 +1194,12 @@ File: pgfcorepathprocessing.code.tex 2013/09/09  (rcs-revision 1.9)
 )
 (c:/texlive/2014/texmf-dist/tex/generic/pgf/basiclayer/pgfcorearrows.code.tex
 File: pgfcorearrows.code.tex 2013/11/07  (rcs-revision 1.40)
-\pgfarrowsep=\dimen215
+\pgfarrowsep=\dimen214
 )
 (c:/texlive/2014/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreshade.code.tex
 File: pgfcoreshade.code.tex 2013/07/15  (rcs-revision 1.15)
-\pgf@max=\dimen216
-\pgf@sys@shading@range@num=\count204
+\pgf@max=\dimen215
+\pgf@sys@shading@range@num=\count201
 )
 (c:/texlive/2014/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreimage.code.tex
 File: pgfcoreimage.code.tex 2013/07/15  (rcs-revision 1.18)
@@ -1238,8 +1228,8 @@ File: pgfmoduleplot.code.tex 2013/07/31  (rcs-revision 1.12)
 (c:/texlive/2014/texmf-dist/tex/latex/pgf/compatibility/pgfcomp-version-0-65.st
 y
 Package: pgfcomp-version-0-65 2007/07/03 v3.0.0 (rcs-revision 1.7)
-\pgf@nodesepstart=\dimen217
-\pgf@nodesepend=\dimen218
+\pgf@nodesepstart=\dimen216
+\pgf@nodesepend=\dimen217
 )
 (c:/texlive/2014/texmf-dist/tex/latex/pgf/compatibility/pgfcomp-version-1-18.st
 y
@@ -1253,8 +1243,8 @@ Package: pgfcomp-version-1-18 2007/07/23 v3.0.0 (rcs-revision 1.1)
 Package: pgffor 2013/12/13 v3.0.0 (rcs-revision 1.25)
 
 (c:/texlive/2014/texmf-dist/tex/generic/pgf/math/pgfmath.code.tex)
-\pgffor@iter=\dimen219
-\pgffor@skip=\dimen220
+\pgffor@iter=\dimen218
+\pgffor@skip=\dimen219
 \pgffor@stack=\toks47
 \pgffor@toks=\toks48
 ))
@@ -1264,31 +1254,31 @@ Package: tikz 2013/12/13 v3.0.0 (rcs-revision 1.142)
 (c:/texlive/2014/texmf-dist/tex/generic/pgf/libraries/pgflibraryplothandlers.co
 de.tex
 File: pgflibraryplothandlers.code.tex 2013/08/31 v3.0.0 (rcs-revision 1.20)
-\pgf@plot@mark@count=\count205
-\pgfplotmarksize=\dimen221
+\pgf@plot@mark@count=\count202
+\pgfplotmarksize=\dimen220
 )
-\tikz@lastx=\dimen222
-\tikz@lasty=\dimen223
-\tikz@lastxsaved=\dimen224
-\tikz@lastysaved=\dimen225
-\tikzleveldistance=\dimen226
-\tikzsiblingdistance=\dimen227
+\tikz@lastx=\dimen221
+\tikz@lasty=\dimen222
+\tikz@lastxsaved=\dimen223
+\tikz@lastysaved=\dimen224
+\tikzleveldistance=\dimen225
+\tikzsiblingdistance=\dimen226
 \tikz@figbox=\box49
 \tikz@figbox@bg=\box50
 \tikz@tempbox=\box51
 \tikz@tempbox@bg=\box52
-\tikztreelevel=\count206
-\tikznumberofchildren=\count207
-\tikznumberofcurrentchild=\count208
-\tikz@fig@count=\count209
+\tikztreelevel=\count203
+\tikznumberofchildren=\count204
+\tikznumberofcurrentchild=\count205
+\tikz@fig@count=\count206
 
 (c:/texlive/2014/texmf-dist/tex/generic/pgf/modules/pgfmodulematrix.code.tex
 File: pgfmodulematrix.code.tex 2013/09/17  (rcs-revision 1.8)
-\pgfmatrixcurrentrow=\count210
-\pgfmatrixcurrentcolumn=\count211
-\pgf@matrix@numberofcolumns=\count212
+\pgfmatrixcurrentrow=\count207
+\pgfmatrixcurrentcolumn=\count208
+\pgf@matrix@numberofcolumns=\count209
 )
-\tikz@expandcount=\count213
+\tikz@expandcount=\count210
 
 (c:/texlive/2014/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzli
 brarytopaths.code.tex
@@ -1298,16 +1288,23 @@ File: tikzlibrarytopaths.code.tex 2008/06/17 v3.0.0 (rcs-revision 1.2)
 \openout2 = `./01-elementos-pre-textuais/preambulo.aux'.
 
 (./01-elementos-pre-textuais/preambulo.tex)
-Package hyperref Info: Option `colorlinks' set `true' on input line 64.
-Package hyperref Info: Option `breaklinks' set `true' on input line 64.
+Package hyperref Info: Option `colorlinks' set `true' on input line 67.
+Package hyperref Info: Option `breaklinks' set `true' on input line 67.
 \main@idxfile=\write5
 \openout5 = `main.idx'.
 
 
 Writing index file main.idx 
 (./main.aux (./01-elementos-pre-textuais/capa.aux)
+(./01-elementos-pre-textuais/folha-rosto.aux)
+(./01-elementos-pre-textuais/folha-aprovacao.aux)
+(./01-elementos-pre-textuais/dedicatoria.aux)
+(./01-elementos-pre-textuais/agradecimentos.aux)
+(./01-elementos-pre-textuais/epigrafe.aux)
+(./01-elementos-pre-textuais/resumo-pt.aux)
+(./01-elementos-pre-textuais/resumo-en.aux)
 (./01-elementos-pre-textuais/lista-figuras.aux)
-(./01-elementos-pre-textuais/lista-quadros.aux)
+(./01-elementos-pre-textuais/lista-tabelas.aux)
 (./01-elementos-pre-textuais/lista-siglas.aux)
 (./01-elementos-pre-textuais/lista-simbolos.aux)
 (./01-elementos-pre-textuais/sumario.aux)
@@ -1316,31 +1313,39 @@ Writing index file main.idx
 (./02-elementos-textuais/fund-teorica.aux)
 (./02-elementos-textuais/metodologia.aux)
 (./02-elementos-textuais/desenhoemodelo.aux)
+(./02-elementos-textuais/testes.aux
+
+LaTeX Warning: Label `fig:m2piderr' multiply defined.
+
+
+LaTeX Warning: Label `sub@fig:m2piderr' multiply defined.
+
+) (./02-elementos-textuais/simulacoes.aux)
 (./02-elementos-textuais/resultados.aux) (./02-elementos-textuais/conclusao.aux
 ) (./03-elementos-pos-textuais/referencias.aux))
 \openout1 = `main.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 75.
-LaTeX Font Info:    ... okay on input line 75.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 75.
-LaTeX Font Info:    ... okay on input line 75.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 75.
-LaTeX Font Info:    ... okay on input line 75.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 75.
-LaTeX Font Info:    ... okay on input line 75.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 75.
-LaTeX Font Info:    ... okay on input line 75.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 75.
-LaTeX Font Info:    ... okay on input line 75.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 75.
-LaTeX Font Info:    ... okay on input line 75.
-LaTeX Font Info:    Try loading font information for T1+ppl on input line 75.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 78.
+LaTeX Font Info:    ... okay on input line 78.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 78.
+LaTeX Font Info:    ... okay on input line 78.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 78.
+LaTeX Font Info:    ... okay on input line 78.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 78.
+LaTeX Font Info:    ... okay on input line 78.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 78.
+LaTeX Font Info:    ... okay on input line 78.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 78.
+LaTeX Font Info:    ... okay on input line 78.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 78.
+LaTeX Font Info:    ... okay on input line 78.
+LaTeX Font Info:    Try loading font information for T1+ppl on input line 78.
 
 (c:/texlive/2014/texmf-dist/tex/latex/psnfss/t1ppl.fd
 File: t1ppl.fd 2001/06/04 font definitions for T1/ppl.
 )
 \AtBeginShipoutBox=\box53
-Package hyperref Info: Link coloring ON on input line 75.
+Package hyperref Info: Link coloring ON on input line 78.
 
 (c:/texlive/2014/texmf-dist/tex/latex/hyperref/nameref.sty
 Package: nameref 2012/10/27 v2.43 Cross-referencing by name of section
@@ -1348,29 +1353,28 @@ Package: nameref 2012/10/27 v2.43 Cross-referencing by name of section
 (c:/texlive/2014/texmf-dist/tex/generic/oberdiek/gettitlestring.sty
 Package: gettitlestring 2010/12/03 v1.4 Cleanup title references (HO)
 )
-\c@section@level=\count214
+\c@section@level=\count211
 )
 Redoing nameref's sectioning
 Redoing nameref's label
-LaTeX Info: Redefining \nameref on input line 75.
-LaTeX Info: Redefining \ref on input line 75.
-LaTeX Info: Redefining \pageref on input line 75.
-LaTeX Info: Redefining \nameref on input line 75.
+LaTeX Info: Redefining \nameref on input line 78.
+LaTeX Info: Redefining \ref on input line 78.
+LaTeX Info: Redefining \pageref on input line 78.
+LaTeX Info: Redefining \nameref on input line 78.
 \myptabbox=\box54
-\myptabboxwidth=\skip228
+\myptabboxwidth=\skip223
 (c:/texlive/2014/texmf-dist/tex/context/base/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count215
-\scratchdimen=\dimen228
+\scratchcounter=\count212
+\scratchdimen=\dimen227
 \scratchbox=\box55
-\nofMPsegments=\count216
-\nofMParguments=\count217
+\nofMPsegments=\count213
+\nofMParguments=\count214
 \everyMPshowfont=\toks49
-\MPscratchCnt=\count218
-Normal \dimen register pool exhausted, switching to extended pool.
-\MPscratchDim=\dimen256
-\MPnumerator=\count219
-\makeMPintoPDFobject=\count220
+\MPscratchCnt=\count215
+\MPscratchDim=\dimen228
+\MPnumerator=\count216
+\makeMPintoPDFobject=\count217
 \everyMPtoPDFconversion=\toks50
 ) (c:/texlive/2014/texmf-dist/tex/latex/oberdiek/epstopdf-base.sty
 Package: epstopdf-base 2010/02/09 v2.5 Base part for package epstopdf
@@ -1387,7 +1391,7 @@ G,.JBIG2,.JB2,.eps]
 File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
 e
 ))
-LaTeX Info: Redefining \microtypecontext on input line 75.
+LaTeX Info: Redefining \microtypecontext on input line 78.
 Package microtype Info: Generating PDF output.
 Package microtype Info: Character protrusion enabled (level 2).
 Package microtype Info: Using default protrusion set `alltext'.
@@ -1402,17 +1406,16 @@ Package microtype Info: No adjustment of character kerning.
 File: mt-ppl.cfg 2005/11/16 v1.6 microtype config. file: Palatino (RS)
 )
 Package caption Info: Begin \AtBeginDocument code.
-Package caption Info: subfig package v1.3 is loaded.
 Package caption Info: End \AtBeginDocument code.
-LaTeX Info: Redefining \celsius on input line 75.
-Package gensymb Info: Faking symbols for \degree and \celsius on input line 75.
+LaTeX Info: Redefining \celsius on input line 78.
+Package gensymb Info: Faking symbols for \degree and \celsius on input line 78.
 
 
 
 Package gensymb Warning: Not defining \perthousand.
 
-LaTeX Info: Redefining \ohm on input line 75.
-Package gensymb Info: Using \Omega for \ohm on input line 75.
+LaTeX Info: Redefining \ohm on input line 78.
+Package gensymb Info: Using \Omega for \ohm on input line 78.
 
 Package gensymb Warning: Not defining \micro.
 
@@ -1462,32 +1465,105 @@ LaTeX Font Info:    Font shape `T1/ppl/bx/sc' in size <14.4> not available
 
 {c:/texlive/2014/texmf-var/fonts/map/pdftex/updmap/pdftex.map} <./04-figuras/ce
 fet-logo.pdf>])
-\openout2 = `./01-elementos-pre-textuais/lista-figuras.aux'.
+\openout2 = `./01-elementos-pre-textuais/folha-rosto.aux'.
 
 
-(./01-elementos-pre-textuais/lista-figuras.tex (./main.lof)pdfTeX warning (ext4
-): destination with the same identifier (name{page.i}) has been already used, d
-uplicate ignored
+(./01-elementos-pre-textuais/folha-rosto.tex
+Underfull \hbox (badness 10000) in paragraph at lines 43--43
+[]|\T1/ppl/m/n/10.95 (+20) Proposta de Tra-ba-lho de Con-clu-são de Curso
+ []
+
+pdfTeX warning (ext4): destination with the same identifier (name{page.i}) has 
+been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.7 \cleardoublepage
-                     [1
+l.55 \end{folhaderosto}
+                        [1
+
 
 
 
 
 ])
-\openout2 = `./01-elementos-pre-textuais/lista-quadros.aux'.
+\openout2 = `./01-elementos-pre-textuais/folha-aprovacao.aux'.
 
- (./01-elementos-pre-textuais/lista-quadros.tex
-(./main.loq) [2
+ (./01-elementos-pre-textuais/folha-aprovacao.tex
+Underfull \hbox (badness 10000) in paragraph at lines 7--10
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 17--20
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 17--20
+
+ []
+
+) [2
+
+
+
+]
+\openout2 = `./01-elementos-pre-textuais/dedicatoria.aux'.
+
+ (./01-elementos-pre-textuais/dedicatoria.tex) [3
+
+
+]
+\openout2 = `./01-elementos-pre-textuais/agradecimentos.aux'.
+
+
+(./01-elementos-pre-textuais/agradecimentos.tex [4
+
+
+
+])
+\openout2 = `./01-elementos-pre-textuais/epigrafe.aux'.
+
+
+(./01-elementos-pre-textuais/epigrafe.tex) [5
+
+
+
+]
+\openout2 = `./01-elementos-pre-textuais/resumo-pt.aux'.
+
+
+(./01-elementos-pre-textuais/resumo-pt.tex [6
+
+
+])
+\openout2 = `./01-elementos-pre-textuais/resumo-en.aux'.
+
+
+(./01-elementos-pre-textuais/resumo-en.tex [7
+
+
+
+])
+\openout2 = `./01-elementos-pre-textuais/lista-figuras.aux'.
+
+
+(./01-elementos-pre-textuais/lista-figuras.tex (./main.lof) [8
+
+
+
+])
+\openout2 = `./01-elementos-pre-textuais/lista-tabelas.aux'.
+
+
+(./01-elementos-pre-textuais/lista-tabelas.tex (./main.lot) [9
 
 
 
 ])
 \openout2 = `./01-elementos-pre-textuais/lista-siglas.aux'.
 
- (./01-elementos-pre-textuais/lista-siglas.tex [3
+
+(./01-elementos-pre-textuais/lista-siglas.tex [10
 
 
 
@@ -1496,20 +1572,20 @@ l.7 \cleardoublepage
 \openout2 = `./01-elementos-pre-textuais/lista-simbolos.aux'.
 
 
-(./01-elementos-pre-textuais/lista-simbolos.tex [4
+(./01-elementos-pre-textuais/lista-simbolos.tex [11
 
 
 
 
-] [5])
+] [12])
 \openout2 = `./01-elementos-pre-textuais/sumario.aux'.
 
 
-(./01-elementos-pre-textuais/sumario.tex (./main.toc) [6
+(./01-elementos-pre-textuais/sumario.tex (./main.toc [13
 
 
 
-])
+]) [14])
 \openout2 = `./02-elementos-textuais/introducao.aux'.
 
 
@@ -1545,7 +1621,7 @@ LaTeX Font Info:    Font shape `OMS/ppl/m/n' in size <12> not available
 
 
 ]
-<./04-figuras/Estruturasfísica.jpg, id=224, 883.80188pt x 204.01219pt>
+<./04-figuras/Estruturasfísica.jpg, id=315, 883.80188pt x 204.01219pt>
 File: ./04-figuras/Estruturasfísica.jpg Graphic file (type jpg)
 
 <use ./04-figuras/Estruturasfísica.jpg>
@@ -1563,14 +1639,14 @@ o Mindstorms[]\T1/ppl/m/n/12 (-20) .
 \openout2 = `./02-elementos-textuais/metodologia.aux'.
 
  (./02-elementos-textuais/metodologia.tex
-<./04-figuras/robo.pdf, id=248, 845.07718pt x 597.55246pt>
+<./04-figuras/robo.pdf, id=340, 845.07718pt x 597.55246pt>
 File: ./04-figuras/robo.pdf Graphic file (type pdf)
 
 <use ./04-figuras/robo.pdf>
-Package pdftex.def Info: ./04-figuras/robo.pdf used on input line 20.
+Package pdftex.def Info: ./04-figuras/robo.pdf used on input line 19.
 (pdftex.def)             Requested size: 284.52756pt x 201.18655pt.
 
-Overfull \hbox (20.15848pt too wide) in paragraph at lines 27--28
+Overfull \hbox (20.15848pt too wide) in paragraph at lines 26--27
 []\T1/ppl/m/n/12 (-20) Concomitantemente, fo-ram re-a-li-za-das si-mu-la-ções, 
 atra-vés da fer-ra-menta \T1/ppl/m/it/12 (-20) MATLAB[]\T1/ppl/m/n/12 (-20) ,
  []
@@ -1580,148 +1656,427 @@ atra-vés da fer-ra-menta \T1/ppl/m/it/12 (-20) MATLAB[]\T1/ppl/m/n/12 (-20) ,
 
 
 ] [11 <./04-figuras/robo.pdf>] [12]
-<./04-figuras/p1.jpg, id=281, 1524.44531pt x 486.31688pt>
+<./04-figuras/p1.jpg, id=373, 1524.44531pt x 486.31688pt>
 File: ./04-figuras/p1.jpg Graphic file (type jpg)
 
 <use ./04-figuras/p1.jpg>
-Package pdftex.def Info: ./04-figuras/p1.jpg used on input line 109.
+Package pdftex.def Info: ./04-figuras/p1.jpg used on input line 107.
 (pdftex.def)             Requested size: 455.24408pt x 145.22833pt.
  [13 <./04-figuras/p1.jpg>]
-<./04-figuras/sistema.pdf, id=295, 845.07718pt x 597.55246pt>
+<./04-figuras/RedeSerial.png, id=383, 655.44875pt x 494.84875pt>
+File: ./04-figuras/RedeSerial.png Graphic file (type png)
+
+<use ./04-figuras/RedeSerial.png>
+Package pdftex.def Info: ./04-figuras/RedeSerial.png used on input line 120.
+(pdftex.def)             Requested size: 204.74861pt x 154.57945pt.
+
+<./04-figuras/RedeNXC.png, id=385, 721.69624pt x 514.92375pt>
+File: ./04-figuras/RedeNXC.png Graphic file (type png)
+
+<use ./04-figuras/RedeNXC.png>
+Package pdftex.def Info: ./04-figuras/RedeNXC.png used on input line 126.
+(pdftex.def)             Requested size: 204.74861pt x 146.08693pt.
+
+<./04-figuras/RedeDistribuida.png, id=386, 705.63625pt x 575.14874pt>
+File: ./04-figuras/RedeDistribuida.png Graphic file (type png)
+
+<use ./04-figuras/RedeDistribuida.png>
+Package pdftex.def Info: ./04-figuras/RedeDistribuida.png used on input line 13
+2.
+(pdftex.def)             Requested size: 184.27249pt x 150.19334pt.
+
+<./04-figuras/RedeIsolada.png, id=387, 705.63625pt x 575.14874pt>
+File: ./04-figuras/RedeIsolada.png Graphic file (type png)
+
+<use ./04-figuras/RedeIsolada.png>
+Package pdftex.def Info: ./04-figuras/RedeIsolada.png used on input line 138.
+(pdftex.def)             Requested size: 184.27249pt x 150.19334pt.
+ [14 <./04-figuras/RedeSerial.png> <./04-figuras/RedeNXC.png> <./04-figuras/Red
+eDistribuida.png> <./04-figuras/RedeIsolada.png>] [15] <./04-figuras/esqSistema
+.pdf, id=415, 845.07718pt x 597.55246pt>
+File: ./04-figuras/esqSistema.pdf Graphic file (type pdf)
+
+<use ./04-figuras/esqSistema.pdf>
+Package pdftex.def Info: ./04-figuras/esqSistema.pdf used on input line 208.
+(pdftex.def)             Requested size: 455.0pt x 321.73438pt.
+
+<./04-figuras/sistema.pdf, id=416, 845.07718pt x 597.55246pt>
 File: ./04-figuras/sistema.pdf Graphic file (type pdf)
 
 <use ./04-figuras/sistema.pdf>
-Package pdftex.def Info: ./04-figuras/sistema.pdf used on input line 152.
+Package pdftex.def Info: ./04-figuras/sistema.pdf used on input line 215.
 (pdftex.def)             Requested size: 455.0pt x 321.73438pt.
-) [14] [15 <./04-figuras/sistema.pdf>]
+ [16]
+<./04-figuras/sistEstavel2.pdf, id=430, 845.07718pt x 597.55246pt>
+File: ./04-figuras/sistEstavel2.pdf Graphic file (type pdf)
+
+<use ./04-figuras/sistEstavel2.pdf>
+Package pdftex.def Info: ./04-figuras/sistEstavel2.pdf used on input line 250.
+(pdftex.def)             Requested size: 455.0pt x 321.73438pt.
+) [17 <./04-figuras/esqSistema.pdf>]
+[18 <./04-figuras/sistema.pdf> <./04-figuras/sistEstavel2.pdf
+
+pdfTeX warning: pdflatex.exe (file ./04-figuras/sistEstavel2.pdf): PDF inclusio
+n: multiple pdfs with page group included in a single page
+>]
 \openout2 = `./02-elementos-textuais/desenhoemodelo.aux'.
 
-
-(./02-elementos-textuais/desenhoemodelo.tex
-<./04-figuras/malha1.pdf, id=320, 845.07718pt x 597.55246pt>
+ (./02-elementos-textuais/desenhoemodelo.tex
+<./04-figuras/malha1.pdf, id=501, 845.07718pt x 597.55246pt>
 File: ./04-figuras/malha1.pdf Graphic file (type pdf)
 
 <use ./04-figuras/malha1.pdf>
-Package pdftex.def Info: ./04-figuras/malha1.pdf used on input line 24.
+Package pdftex.def Info: ./04-figuras/malha1.pdf used on input line 25.
 (pdftex.def)             Requested size: 455.0pt x 321.73438pt.
-LaTeX Font Info:    Font shape `T1/ppl/bx/n' in size <10> not available
-(Font)              Font shape `T1/ppl/b/n' tried instead on input line 29.
-
-
-LaTeX Warning: Reference `fig:sistEst' on page 16 undefined on input line 29.
-
-[16
+ [19
 
 
 
-] [17 <./04-figuras/malha1.pdf>]
-
-LaTeX Warning: Reference `fig:esq2' on page 18 undefined on input line 70.
-
-[18] <./04-figuras/malha2.pdf, id=359, 845.07718pt x 597.55246pt>
+] [20 <./04-figuras/malha1.pdf>] [21]
+<./04-figuras/malha2.pdf, id=543, 845.07718pt x 597.55246pt>
 File: ./04-figuras/malha2.pdf Graphic file (type pdf)
 
 <use ./04-figuras/malha2.pdf>
-Package pdftex.def Info: ./04-figuras/malha2.pdf used on input line 102.
+Package pdftex.def Info: ./04-figuras/malha2.pdf used on input line 105.
 (pdftex.def)             Requested size: 455.0pt x 321.73438pt.
-) [19 <./04-figuras/malha2.pdf>]
-\openout2 = `./02-elementos-textuais/resultados.aux'.
+ [22 <./04-figuras/malha2.pdf>]) [23]
+\openout2 = `./02-elementos-textuais/testes.aux'.
 
 
-(./02-elementos-textuais/resultados.tex
-
-LaTeX Warning: Reference `eq:velocangular' on page 20 undefined on input line 5
-.
+(./02-elementos-textuais/testes.tex [24
 
 
-Overfull \hbox (11.90608pt too wide) in paragraph at lines 12--13
-[]\T1/ppl/m/n/12 (-20) A par-tir des-tas de-fi-ni-ções fo-ram uti-li-za-dos os 
-\T1/ppl/m/it/12 (-20) en-co-ders \T1/ppl/m/n/12 (-20) do pró-prio \T1/ppl/m/it/
-12 (-20) Lego Mindstorms[]
+
+]
+<./Testes/Malha1/Incremental/Malha1_Inc1.png, id=589, 1203.7472pt x 589.4522pt>
+File: ./Testes/Malha1/Incremental/Malha1_Inc1.png Graphic file (type png)
+<use ./Testes/Malha1/Incremental/Malha1_Inc1.png>
+Package pdftex.def Info: ./Testes/Malha1/Incremental/Malha1_Inc1.png used on in
+put line 35.
+(pdftex.def)             Requested size: 204.74861pt x 100.2595pt.
+
+<./Testes/Malha1/Incremental/Malha1_Inc6.png, id=590, 1203.7472pt x 589.4522pt>
+File: ./Testes/Malha1/Incremental/Malha1_Inc6.png Graphic file (type png)
+<use ./Testes/Malha1/Incremental/Malha1_Inc6.png>
+Package pdftex.def Info: ./Testes/Malha1/Incremental/Malha1_Inc6.png used on in
+put line 41.
+(pdftex.def)             Requested size: 204.74861pt x 100.2595pt.
+
+<./Testes/Malha1/Incremental/Malha1_Inc3.png, id=591, 1203.7472pt x 589.4522pt>
+File: ./Testes/Malha1/Incremental/Malha1_Inc3.png Graphic file (type png)
+<use ./Testes/Malha1/Incremental/Malha1_Inc3.png>
+Package pdftex.def Info: ./Testes/Malha1/Incremental/Malha1_Inc3.png used on in
+put line 47.
+(pdftex.def)             Requested size: 409.49722pt x 200.51903pt.
+
+<./Testes/Malha1/PID/m1_kp10.png, id=594, 1203.7472pt x 589.4522pt>
+File: ./Testes/Malha1/PID/m1_kp10.png Graphic file (type png)
+
+<use ./Testes/Malha1/PID/m1_kp10.png>
+Package pdftex.def Info: ./Testes/Malha1/PID/m1_kp10.png used on input line 80.
+
+(pdftex.def)             Requested size: 204.74861pt x 100.2595pt.
+
+<./Testes/Malha1/PID/m1_kp10ki15kd06.png, id=595, 1203.7472pt x 589.4522pt>
+File: ./Testes/Malha1/PID/m1_kp10ki15kd06.png Graphic file (type png)
+
+<use ./Testes/Malha1/PID/m1_kp10ki15kd06.png>
+Package pdftex.def Info: ./Testes/Malha1/PID/m1_kp10ki15kd06.png used on input 
+line 86.
+(pdftex.def)             Requested size: 204.74861pt x 100.2595pt.
+
+<./Testes/Malha1/PID/m1_kp10ki15.png, id=596, 1203.7472pt x 589.4522pt>
+File: ./Testes/Malha1/PID/m1_kp10ki15.png Graphic file (type png)
+
+<use ./Testes/Malha1/PID/m1_kp10ki15.png>
+Package pdftex.def Info: ./Testes/Malha1/PID/m1_kp10ki15.png used on input line
+ 92.
+(pdftex.def)             Requested size: 204.74861pt x 100.2595pt.
+
+<./Testes/Malha1/PID/m1_kp10ki17.png, id=597, 1203.7472pt x 589.4522pt>
+File: ./Testes/Malha1/PID/m1_kp10ki17.png Graphic file (type png)
+
+<use ./Testes/Malha1/PID/m1_kp10ki17.png>
+Package pdftex.def Info: ./Testes/Malha1/PID/m1_kp10ki17.png used on input line
+ 98.
+(pdftex.def)             Requested size: 204.74861pt x 100.2595pt.
+
+<./Testes/Malha1/PID/m1_kp10ki15kd02.png, id=598, 1203.7472pt x 589.4522pt>
+File: ./Testes/Malha1/PID/m1_kp10ki15kd02.png Graphic file (type png)
+
+<use ./Testes/Malha1/PID/m1_kp10ki15kd02.png>
+Package pdftex.def Info: ./Testes/Malha1/PID/m1_kp10ki15kd02.png used on input 
+line 104.
+(pdftex.def)             Requested size: 409.49722pt x 200.51903pt.
+ [25]
+Overfull \hbox (4.78264pt too wide) detected at line 121
+\OML/cmm/m/it/12 f\OT1/cmr/m/n/12 (\OML/cmm/m/it/12 ![]\OT1/cmr/m/n/12 ) = \OMS
+/cmsy/m/n/12 ^^@\OT1/cmr/m/n/12 0\OML/cmm/m/it/12 :\OT1/cmr/m/n/12 00091\OML/cm
+m/m/it/12 ![] \OT1/cmr/m/n/12 + 0\OML/cmm/m/it/12 :\OT1/cmr/m/n/12 0223\OML/cmm
+/m/it/12 ![] \OMS/cmsy/m/n/12 ^^@ \OT1/cmr/m/n/12 0\OML/cmm/m/it/12 :\OT1/cmr/m
+/n/12 01537\OML/cmm/m/it/12 ![] \OT1/cmr/m/n/12 + 6\OML/cmm/m/it/12 :\OT1/cmr/m
+/n/12 1864\OML/cmm/m/it/12 ![] \OMS/cmsy/m/n/12 ^^@ \OT1/cmr/m/n/12 0\OML/cmm/m
+/it/12 :\OT1/cmr/m/n/12 0546
  []
 
-<./04-figuras/Ewd_b1c.jpg, id=392, 1606.0pt x 559.08875pt>
-File: ./04-figuras/Ewd_b1c.jpg Graphic file (type jpg)
+[26 <./Testes/Malha1/Incremental/Malha1_Inc1.png (PNG copy)> <./Testes/Malha1/I
+ncremental/Malha1_Inc6.png (PNG copy)> <./Testes/Malha1/Incremental/Malha1_Inc3
+.png (PNG copy)>]
+<./Testes/Malha1/Polinomial/Polinomial.png, id=609, 1203.7472pt x 589.4522pt>
+File: ./Testes/Malha1/Polinomial/Polinomial.png Graphic file (type png)
 
-<use ./04-figuras/Ewd_b1c.jpg>
-Package pdftex.def Info: ./04-figuras/Ewd_b1c.jpg used on input line 20.
-(pdftex.def)             Requested size: 455.0pt x 158.395pt.
+<use ./Testes/Malha1/Polinomial/Polinomial.png>
+Package pdftex.def Info: ./Testes/Malha1/Polinomial/Polinomial.png used on inpu
+t line 127.
+(pdftex.def)             Requested size: 409.49722pt x 200.51903pt.
+ [27 <./Testes/Malha1/PID/m1_kp10.png (PNG copy)> <./Testes/Malha1/PID/m1_kp10k
+i15kd06.png (PNG copy)> <./Testes/Malha1/PID/m1_kp10ki15.png (PNG copy)> <./Tes
+tes/Malha1/PID/m1_kp10ki17.png (PNG copy)> <./Testes/Malha1/PID/m1_kp10ki15kd02
+.png (PNG copy)>]
 
-<./04-figuras/trajetoria_b1_15c.jpg, id=394, 1606.0pt x 562.1pt>
-File: ./04-figuras/trajetoria_b1_15c.jpg Graphic file (type jpg)
-
-<use ./04-figuras/trajetoria_b1_15c.jpg>
-Package pdftex.def Info: ./04-figuras/trajetoria_b1_15c.jpg used on input line 
-29.
-(pdftex.def)             Requested size: 455.0pt x 159.24812pt.
- [20
+LaTeX Warning: Reference `' on page 28 undefined on input line 144.
 
 
+LaTeX Warning: Reference `t:CompMalha2' on page 28 undefined on input line 144.
 
-]
-<./04-figuras/Ewd_b1_pi_15.jpg, id=401, 1606.0pt x 566.115pt>
-File: ./04-figuras/Ewd_b1_pi_15.jpg Graphic file (type jpg)
 
-<use ./04-figuras/Ewd_b1_pi_15.jpg>
-Package pdftex.def Info: ./04-figuras/Ewd_b1_pi_15.jpg used on input line 38.
-(pdftex.def)             Requested size: 455.0pt x 160.3856pt.
 
-<./04-figuras/trajetoria_b1_15_pi.jpg, id=402, 1606.0pt x 570.13pt>
-File: ./04-figuras/trajetoria_b1_15_pi.jpg Graphic file (type jpg)
+LaTeX Warning: Reference `' on page 28 undefined on input line 144.
 
-<use ./04-figuras/trajetoria_b1_15_pi.jpg>
-Package pdftex.def Info: ./04-figuras/trajetoria_b1_15_pi.jpg used on input lin
-e 45.
-(pdftex.def)             Requested size: 455.0pt x 161.5231pt.
- [21 <./04-figuras/Ewd_b1c.jpg> <./04-figuras/trajetoria_b1_15c.jpg> <./04-figu
-ras/Ewd_b1_pi_15.jpg>]
-<./04-figuras/ew_comparativo1.jpg, id=411, 1606.0pt x 761.84625pt>
-File: ./04-figuras/ew_comparativo1.jpg Graphic file (type jpg)
+[28 <./Testes/Malha1/Polinomial/Polinomial.png (PNG copy)>]
+<./Testes/Malha2/P2.0/Incremental-3/m2PosInc.png, id=621, 1203.7472pt x 589.452
+2pt>
+File: ./Testes/Malha2/P2.0/Incremental-3/m2PosInc.png Graphic file (type png)
+ <use ./Testes/Malha2/P2.0/Incremental-3/m2PosInc.png>
+Package pdftex.def Info: ./Testes/Malha2/P2.0/Incremental-3/m2PosInc.png used o
+n input line 165.
+(pdftex.def)             Requested size: 409.49722pt x 200.51903pt.
 
-<use ./04-figuras/ew_comparativo1.jpg>
-Package pdftex.def Info: ./04-figuras/ew_comparativo1.jpg used on input line 54
-.
-(pdftex.def)             Requested size: 455.0pt x 215.83807pt.
+<./Testes/Malha2/P2.0/Incremental-3/ErroM2Inc.png, id=622, 1203.7472pt x 589.45
+22pt>
+File: ./Testes/Malha2/P2.0/Incremental-3/ErroM2Inc.png Graphic file (type png)
+ <use ./Testes/Malha2/P2.0/Incremental-3/ErroM2Inc.png>
+Package pdftex.def Info: ./Testes/Malha2/P2.0/Incremental-3/ErroM2Inc.png used 
+on input line 171.
+(pdftex.def)             Requested size: 409.49722pt x 200.51903pt.
 
-<./04-figuras/traj_comparativo1.jpg, id=412, 1606.0pt x 578.16pt>
-File: ./04-figuras/traj_comparativo1.jpg Graphic file (type jpg)
+<./Testes/Malha2/P1.0/PID/PIDPos.png, id=623, 1203.7472pt x 589.4522pt>
+File: ./Testes/Malha2/P1.0/PID/PIDPos.png Graphic file (type png)
 
-<use ./04-figuras/traj_comparativo1.jpg>
-Package pdftex.def Info: ./04-figuras/traj_comparativo1.jpg used on input line 
-61.
-(pdftex.def)             Requested size: 455.0pt x 163.79807pt.
+<use ./Testes/Malha2/P1.0/PID/PIDPos.png>
+Package pdftex.def Info: ./Testes/Malha2/P1.0/PID/PIDPos.png used on input line
+ 183.
+(pdftex.def)             Requested size: 409.49722pt x 200.51903pt.
 
-<./04-figuras/pi_inst.jpg, id=417, 1606.0pt x 582.175pt>
-File: ./04-figuras/pi_inst.jpg Graphic file (type jpg)
+<./Testes/Malha2/P1.0/PID/ErroThetaPID.png, id=624, 1203.7472pt x 589.4522pt>
+File: ./Testes/Malha2/P1.0/PID/ErroThetaPID.png Graphic file (type png)
 
-<use ./04-figuras/pi_inst.jpg>
-Package pdftex.def Info: ./04-figuras/pi_inst.jpg used on input line 69.
-(pdftex.def)             Requested size: 455.0pt x 164.93555pt.
+<use ./Testes/Malha2/P1.0/PID/ErroThetaPID.png>
+Package pdftex.def Info: ./Testes/Malha2/P1.0/PID/ErroThetaPID.png used on inpu
+t line 189.
+(pdftex.def)             Requested size: 409.49722pt x 200.51903pt.
 
-<./04-figuras/comparativoPI.jpg, id=418, 1606.0pt x 761.84625pt>
-File: ./04-figuras/comparativoPI.jpg Graphic file (type jpg)
+<./Testes/Malha2/P2.0/Polinomial/m2PosPol.png, id=625, 1203.7472pt x 589.4522pt
+>
+File: ./Testes/Malha2/P2.0/Polinomial/m2PosPol.png Graphic file (type png)
+ <use ./Testes/Malha2/P2.0/Polinomial/m2PosPol.png>
+Package pdftex.def Info: ./Testes/Malha2/P2.0/Polinomial/m2PosPol.png used on i
+nput line 201.
+(pdftex.def)             Requested size: 409.49722pt x 200.51903pt.
 
-<use ./04-figuras/comparativoPI.jpg>
-Package pdftex.def Info: ./04-figuras/comparativoPI.jpg used on input line 75.
-(pdftex.def)             Requested size: 455.0pt x 215.83807pt.
+<./Testes/Malha2/P2.0/Polinomial/m2ErroTheta.png, id=626, 1203.7472pt x 589.452
+2pt>
+File: ./Testes/Malha2/P2.0/Polinomial/m2ErroTheta.png Graphic file (type png)
+ <use ./Testes/Malha2/P2.0/Polinomial/m2ErroTheta.png>
+Package pdftex.def Info: ./Testes/Malha2/P2.0/Polinomial/m2ErroTheta.png used o
+n input line 207.
+(pdftex.def)             Requested size: 409.49722pt x 200.51903pt.
 
-<./04-figuras/trajetória_pid_30.jpg, id=419, 1606.0pt x 590.205pt>
-File: ./04-figuras/trajetória_pid_30.jpg Graphic file (type jpg)
+<./Testes/Malha2/P1.0I0.3/IntegralOsc.png, id=627, 1203.7472pt x 589.4522pt>
+File: ./Testes/Malha2/P1.0I0.3/IntegralOsc.png Graphic file (type png)
 
-<use ./04-figuras/trajetória_pid_30.jpg>
-Package pdftex.def Info: ./04-figuras/trajetória_pid_30.jpg used on input line 
-82.
-(pdftex.def)             Requested size: 455.0pt x 167.21053pt.
-) [22 <./04-figuras/trajetoria_b1_15_pi.jpg> <./04-figuras/ew_comparativo1.jpg>
-] [23 <./04-figuras/traj_comparativo1.jpg> <./04-figuras/pi_inst.jpg> <./04-fig
-uras/comparativoPI.jpg>] [24 <./04-figuras/trajetória_pid_30.jpg>]
+<use ./Testes/Malha2/P1.0I0.3/IntegralOsc.png>
+Package pdftex.def Info: ./Testes/Malha2/P1.0I0.3/IntegralOsc.png used on input
+ line 219.
+(pdftex.def)             Requested size: 409.49722pt x 200.51903pt.
+
+<./Testes/Malha2/P1.0I0.3/ErroThetaIOsc.png, id=628, 1203.7472pt x 589.4522pt>
+File: ./Testes/Malha2/P1.0I0.3/ErroThetaIOsc.png Graphic file (type png)
+
+<use ./Testes/Malha2/P1.0I0.3/ErroThetaIOsc.png>
+Package pdftex.def Info: ./Testes/Malha2/P1.0I0.3/ErroThetaIOsc.png used on inp
+ut line 225.
+(pdftex.def)             Requested size: 409.49722pt x 200.51903pt.
+) [29] [30 <./Testes/Malha2/P2.0/Incremental-3/m2PosInc.png (PNG copy)> <./Test
+es/Malha2/P2.0/Incremental-3/ErroM2Inc.png (PNG copy)>] [31 <./Testes/Malha2/P1
+.0/PID/PIDPos.png (PNG copy)> <./Testes/Malha2/P1.0/PID/ErroThetaPID.png (PNG c
+opy)>] [32 <./Testes/Malha2/P2.0/Polinomial/m2PosPol.png (PNG copy)> <./Testes/
+Malha2/P2.0/Polinomial/m2ErroTheta.png (PNG copy)>] [33 <./Testes/Malha2/P1.0I0
+.3/IntegralOsc.png (PNG copy)> <./Testes/Malha2/P1.0I0.3/ErroThetaIOsc.png (PNG
+ copy)>]
+\openout2 = `./02-elementos-textuais/simulacoes.aux'.
+
+
+(./02-elementos-textuais/simulacoes.tex
+<./04-figuras/Simulacoes/Problema1-Abordagem1/P1_A1_Centr_Inicio.png, id=657, 1
+203.7472pt x 589.4522pt>
+File: ./04-figuras/Simulacoes/Problema1-Abordagem1/P1_A1_Centr_Inicio.png Graph
+ic file (type png)
+
+<use ./04-figuras/Simulacoes/Problema1-Abordagem1/P1_A1_Centr_Inicio.png>
+Package pdftex.def Info: ./04-figuras/Simulacoes/Problema1-Abordagem1/P1_A1_Cen
+tr_Inicio.png used on input line 19.
+(pdftex.def)             Requested size: 204.74861pt x 100.2595pt.
+
+<./04-figuras/Simulacoes/Problema1-Abordagem1/P1_A1_Centr_Fim.png, id=658, 1203
+.7472pt x 589.4522pt>
+File: ./04-figuras/Simulacoes/Problema1-Abordagem1/P1_A1_Centr_Fim.png Graphic 
+file (type png)
+
+<use ./04-figuras/Simulacoes/Problema1-Abordagem1/P1_A1_Centr_Fim.png>
+Package pdftex.def Info: ./04-figuras/Simulacoes/Problema1-Abordagem1/P1_A1_Cen
+tr_Fim.png used on input line 25.
+(pdftex.def)             Requested size: 204.74861pt x 100.2595pt.
+
+<./04-figuras/Simulacoes/Problema1-Abordagem1/P1_A1_Desc_Inicio.png, id=659, 12
+03.7472pt x 589.4522pt>
+File: ./04-figuras/Simulacoes/Problema1-Abordagem1/P1_A1_Desc_Inicio.png Graphi
+c file (type png)
+
+<use ./04-figuras/Simulacoes/Problema1-Abordagem1/P1_A1_Desc_Inicio.png>
+Package pdftex.def Info: ./04-figuras/Simulacoes/Problema1-Abordagem1/P1_A1_Des
+c_Inicio.png used on input line 37.
+(pdftex.def)             Requested size: 204.74861pt x 100.2595pt.
+
+<./04-figuras/Simulacoes/Problema1-Abordagem1/P1_A1_Desc_Fim.png, id=660, 1203.
+7472pt x 589.4522pt>
+File: ./04-figuras/Simulacoes/Problema1-Abordagem1/P1_A1_Desc_Fim.png Graphic f
+ile (type png)
+
+<use ./04-figuras/Simulacoes/Problema1-Abordagem1/P1_A1_Desc_Fim.png>
+Package pdftex.def Info: ./04-figuras/Simulacoes/Problema1-Abordagem1/P1_A1_Des
+c_Fim.png used on input line 43.
+(pdftex.def)             Requested size: 204.74861pt x 100.2595pt.
+ [34
+
+
+
+ <./04-figuras/Simulacoes/Problema1-Abordagem1/P1_A1_Centr_Inicio.png (PNG copy
+)> <./04-figuras/Simulacoes/Problema1-Abordagem1/P1_A1_Centr_Fim.png (PNG copy)
+>]
+<./04-figuras/Simulacoes/Problema1-Abordagem1/P1A2Inicio.png, id=670, 1203.7472
+pt x 589.4522pt>
+File: ./04-figuras/Simulacoes/Problema1-Abordagem1/P1A2Inicio.png Graphic file 
+(type png)
+
+<use ./04-figuras/Simulacoes/Problema1-Abordagem1/P1A2Inicio.png>
+Package pdftex.def Info: ./04-figuras/Simulacoes/Problema1-Abordagem1/P1A2Inici
+o.png used on input line 61.
+(pdftex.def)             Requested size: 409.49722pt x 200.51903pt.
+
+<./04-figuras/Simulacoes/Problema1-Abordagem1/P1A2Fim.png, id=671, 1203.7472pt 
+x 589.4522pt>
+File: ./04-figuras/Simulacoes/Problema1-Abordagem1/P1A2Fim.png Graphic file (ty
+pe png)
+ <use ./04-figuras/Simulacoes/Problema1-Abordagem1/P1A2Fim.png>
+Package pdftex.def Info: ./04-figuras/Simulacoes/Problema1-Abordagem1/P1A2Fim.p
+ng used on input line 67.
+(pdftex.def)             Requested size: 409.49722pt x 200.51903pt.
+
+
+LaTeX Warning: Reference `fig:sP2C' on page 35 undefined on input line 79.
+
+[35 <./04-figuras/Simulacoes/Problema1-Abordagem1/P1_A1_Desc_Inicio.png (PNG co
+py)> <./04-figuras/Simulacoes/Problema1-Abordagem1/P1_A1_Desc_Fim.png (PNG copy
+)>]
+<./04-figuras/Simulacoes/Problema2/Falha/P2FalhaInicio.png, id=678, 1203.7472pt
+ x 589.4522pt>
+File: ./04-figuras/Simulacoes/Problema2/Falha/P2FalhaInicio.png Graphic file (t
+ype png)
+ <use ./04-figuras/Simulacoes/Problema2/Falha/P2FalhaInicio.png>
+Package pdftex.def Info: ./04-figuras/Simulacoes/Problema2/Falha/P2FalhaInicio.
+png used on input line 85.
+(pdftex.def)             Requested size: 409.49722pt x 200.51903pt.
+
+<./04-figuras/Simulacoes/Problema2/Falha/P2FalhaFim.png, id=679, 1203.7472pt x 
+589.4522pt>
+File: ./04-figuras/Simulacoes/Problema2/Falha/P2FalhaFim.png Graphic file (type
+ png)
+ <use ./04-figuras/Simulacoes/Problema2/Falha/P2FalhaFim.png>
+Package pdftex.def Info: ./04-figuras/Simulacoes/Problema2/Falha/P2FalhaFim.png
+ used on input line 91.
+(pdftex.def)             Requested size: 409.49722pt x 200.51903pt.
+
+<./04-figuras/Simulacoes/Problema2/Colisao/P2_C1.png, id=680, 1203.7472pt x 589
+.4522pt>
+File: ./04-figuras/Simulacoes/Problema2/Colisao/P2_C1.png Graphic file (type pn
+g)
+ <use ./04-figuras/Simulacoes/Problema2/Colisao/P2_C1.png>
+Package pdftex.def Info: ./04-figuras/Simulacoes/Problema2/Colisao/P2_C1.png us
+ed on input line 101.
+(pdftex.def)             Requested size: 409.49722pt x 200.51903pt.
+) [36 <./04-figuras/Simulacoes/Problema1-Abordagem1/P1A2Inicio.png (PNG copy)> 
+<./04-figuras/Simulacoes/Problema1-Abordagem1/P1A2Fim.png (PNG copy)>] [37 <./0
+4-figuras/Simulacoes/Problema2/Falha/P2FalhaInicio.png (PNG copy)> <./04-figura
+s/Simulacoes/Problema2/Falha/P2FalhaFim.png (PNG copy)>] [38 <./04-figuras/Simu
+lacoes/Problema2/Colisao/P2_C1.png (PNG copy)>]
+\openout2 = `./02-elementos-textuais/resultados.aux'.
+
+ (./02-elementos-textuais/resultados.tex
+<./Testes/Problema1/Incremental/P1Antes.png, id=695, 1203.7472pt x 589.4522pt>
+File: ./Testes/Problema1/Incremental/P1Antes.png Graphic file (type png)
+
+<use ./Testes/Problema1/Incremental/P1Antes.png>
+Package pdftex.def Info: ./Testes/Problema1/Incremental/P1Antes.png used on inp
+ut line 10.
+(pdftex.def)             Requested size: 409.49722pt x 200.51903pt.
+
+<./Testes/Problema1/Incremental/P1Depois.png, id=696, 1203.7472pt x 589.4522pt>
+File: ./Testes/Problema1/Incremental/P1Depois.png Graphic file (type png)
+<use ./Testes/Problema1/Incremental/P1Depois.png>
+Package pdftex.def Info: ./Testes/Problema1/Incremental/P1Depois.png used on in
+put line 16.
+(pdftex.def)             Requested size: 409.49722pt x 200.51903pt.
+
+<./Testes/Problema1/Incremental/ErroDistancia.png, id=697, 1203.7472pt x 589.45
+22pt>
+File: ./Testes/Problema1/Incremental/ErroDistancia.png Graphic file (type png)
+ <use ./Testes/Problema1/Incremental/ErroDistancia.png>
+Package pdftex.def Info: ./Testes/Problema1/Incremental/ErroDistancia.png used 
+on input line 26.
+(pdftex.def)             Requested size: 409.49722pt x 200.51903pt.
+ [39
+
+
+
+ <./Testes/Problema1/Incremental/P1Antes.png (PNG copy)> <./Testes/Problema1/In
+cremental/P1Depois.png (PNG copy)>]
+<./Testes/Problema2/Incremental/2Rb.png, id=704, 1203.7472pt x 589.4522pt>
+File: ./Testes/Problema2/Incremental/2Rb.png Graphic file (type png)
+
+<use ./Testes/Problema2/Incremental/2Rb.png>
+Package pdftex.def Info: ./Testes/Problema2/Incremental/2Rb.png used on input l
+ine 41.
+(pdftex.def)             Requested size: 409.49722pt x 200.51903pt.
+
+<./Testes/Problema2/Incremental/1Rb.png, id=705, 1203.7472pt x 589.4522pt>
+File: ./Testes/Problema2/Incremental/1Rb.png Graphic file (type png)
+
+<use ./Testes/Problema2/Incremental/1Rb.png>
+Package pdftex.def Info: ./Testes/Problema2/Incremental/1Rb.png used on input l
+ine 47.
+(pdftex.def)             Requested size: 409.49722pt x 200.51903pt.
+) [40 <./Testes/Problema1/Incremental/ErroDistancia.png (PNG copy)>] [41 <./Tes
+tes/Problema2/Incremental/2Rb.png (PNG copy)> <./Testes/Problema2/Incremental/1
+Rb.png (PNG copy)>]
 \openout2 = `./02-elementos-textuais/conclusao.aux'.
 
- (./02-elementos-textuais/conclusao.tex) [25
+
+(./02-elementos-textuais/conclusao.tex [42
 
 
 
-]
+]) [43]
 \openout2 = `./03-elementos-pos-textuais/referencias.aux'.
 
 
@@ -1731,25 +2086,32 @@ uras/comparativoPI.jpg>] [24 <./04-figuras/trajetória_pid_30.jpg>]
 
 
 bibitemlist
-[26
+[44
 
 
 
-])) [27]
+])) [45]
 \tf@lof=\write7
 \openout7 = `main.lof'.
 
-\tf@loq=\write8
-\openout8 = `main.loq'.
+\tf@lot=\write8
+\openout8 = `main.lot'.
 
 \tf@toc=\write9
 \openout9 = `main.toc'.
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 115.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 115.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 120.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 120.
  (./main.aux (./01-elementos-pre-textuais/capa.aux)
+(./01-elementos-pre-textuais/folha-rosto.aux)
+(./01-elementos-pre-textuais/folha-aprovacao.aux)
+(./01-elementos-pre-textuais/dedicatoria.aux)
+(./01-elementos-pre-textuais/agradecimentos.aux)
+(./01-elementos-pre-textuais/epigrafe.aux)
+(./01-elementos-pre-textuais/resumo-pt.aux)
+(./01-elementos-pre-textuais/resumo-en.aux)
 (./01-elementos-pre-textuais/lista-figuras.aux)
-(./01-elementos-pre-textuais/lista-quadros.aux)
+(./01-elementos-pre-textuais/lista-tabelas.aux)
 (./01-elementos-pre-textuais/lista-siglas.aux)
 (./01-elementos-pre-textuais/lista-simbolos.aux)
 (./01-elementos-pre-textuais/sumario.aux)
@@ -1758,42 +2120,44 @@ Package atveryend Info: Empty hook `AfterLastShipout' on input line 115.
 (./02-elementos-textuais/fund-teorica.aux)
 (./02-elementos-textuais/metodologia.aux)
 (./02-elementos-textuais/desenhoemodelo.aux)
+(./02-elementos-textuais/testes.aux) (./02-elementos-textuais/simulacoes.aux)
 (./02-elementos-textuais/resultados.aux) (./02-elementos-textuais/conclusao.aux
 ) (./03-elementos-pos-textuais/referencias.aux))
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 115.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 115.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 120.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 120.
 Package rerunfilecheck Info: File `main.brf' has not changed.
-(rerunfilecheck)             Checksum: 4D55B1C8E8A14F17EACBA9777163C0A8;928.
+(rerunfilecheck)             Checksum: F1DAF2892B08260BB2CBCA959E46C592;930.
 
 
 LaTeX Warning: There were undefined references.
 
 
-LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
+LaTeX Warning: There were multiply-defined labels.
 
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 115.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 120.
  ) 
 Here is how much of TeX's memory you used:
- 26571 strings out of 493109
- 459504 string characters out of 6138587
- 628295 words of memory out of 5000000
- 29099 multiletter control sequences out of 15000+600000
- 51807 words of font info for 228 fonts, out of 8000000 for 9000
+ 26923 strings out of 493109
+ 470577 string characters out of 6138587
+ 654720 words of memory out of 5000000
+ 29261 multiletter control sequences out of 15000+600000
+ 51769 words of font info for 244 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 60i,13n,54p,1182b,600s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 60i,17n,54p,1968b,602s stack positions out of 5000i,500n,10000p,200000b,80000s
 {c:/texlive/2014/texmf-dist/fonts/enc/dvips/base/8r.enc}<c:/texlive/2014/texm
 f-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb><c:/texlive/2014/texmf-dist/fo
 nts/type1/public/amsfonts/cm/cmmi12.pfb><c:/texlive/2014/texmf-dist/fonts/type1
-/public/amsfonts/cm/cmmi8.pfb><c:/texlive/2014/texmf-dist/fonts/type1/public/am
-sfonts/cm/cmr12.pfb><c:/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/
-cmr8.pfb><c:/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb>
-<c:/texlive/2014/texmf-dist/fonts/type1/urw/palatino/uplb8a.pfb><c:/texlive/201
-4/texmf-dist/fonts/type1/urw/palatino/uplr8a.pfb><c:/texlive/2014/texmf-dist/fo
-nts/type1/urw/palatino/uplri8a.pfb>
-Output written on main.pdf (34 pages, 1940208 bytes).
+/public/amsfonts/cm/cmmi6.pfb><c:/texlive/2014/texmf-dist/fonts/type1/public/am
+sfonts/cm/cmmi8.pfb><c:/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/
+cmr12.pfb><c:/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb><
+c:/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb><c:/texliv
+e/2014/texmf-dist/fonts/type1/urw/palatino/uplb8a.pfb><c:/texlive/2014/texmf-di
+st/fonts/type1/urw/palatino/uplr8a.pfb><c:/texlive/2014/texmf-dist/fonts/type1/
+urw/palatino/uplri8a.pfb>
+Output written on main.pdf (60 pages, 2565001 bytes).
 PDF statistics:
- 630 PDF objects out of 1000 (max. 8388607)
- 550 compressed objects within 6 object streams
- 127 named destinations out of 1000 (max. 500000)
- 38757 words of extra memory for PDF output out of 42996 (max. 10000000)
+ 980 PDF objects out of 1000 (max. 8388607)
+ 827 compressed objects within 9 object streams
+ 195 named destinations out of 1000 (max. 500000)
+ 38505 words of extra memory for PDF output out of 42996 (max. 10000000)
 

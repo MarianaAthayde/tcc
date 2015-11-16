@@ -1,0 +1,281 @@
+//Testes Malha Interna
+#define L 0.112
+#define RP 0.0216
+#define motorR OUT_A
+#define motorL OUT_C
+float R = 0.3;
+float T = 24;
+
+//Auxiliar para gravar no arquivo txt
+string write;
+short bytesWritten;
+byte fileHandle;
+string write2;
+short bytesWritten2;
+byte fileHandle2;
+
+//Converter graus em radianos 1º = 0,0174533 rad
+float convrad = 0.0174533;
+
+int t_amostral = 25;
+int amostras = 3000;
+
+long tempo_k = 0.0;
+float dt = 0.0;
+
+float countR_k = 0;
+float countL_k = 0;
+float countR_kplus = 0;
+float countL_kplus = 0;
+
+float countR2_k = 0;
+float countL2_k = 0;
+float countR2_kplus = 0;
+float countL2_kplus = 0;
+
+float wr = 0.0;
+float wl = 0.0;
+float wdr = 0.0;
+float wdl = 0.0;
+float ewr = 0.0;
+float ewl = 0.0;
+
+float errx = 0.0;
+float erry = 0.0;
+float errt = 0.0;
+
+//Variáveis do Controlador
+float acum_err = 0.0;
+float acum_erl = 0.0;
+float prev_ewr = 0.0;
+float prev_ewl = 0.0;
+//Ganhos
+float kp = 10;
+float ki = 15;
+float kd = 0;
+float incremento = 3;
+
+//Ganhos
+float kp_pos = 2.0;
+float ki_pos = 0;
+float kd_pos = 0;
+float incremento_pos = 1;
+
+float acum_errt = 0;
+float errt_past = 0;
+float w_controle = 0;
+
+//Posicionamento Inicial do Robô
+float xr = 0.8;
+float yr = 0.0;
+float tetar_k = PI;
+float tetad = PI;
+
+float cr = 0;
+float cl = 0;
+
+float ddr = 0;
+float ddl = 0;
+
+float P[] = {-0.00091, 0.0223, -0.1537, 6.1864, -0.0546};
+
+sub getWs(){
+    countR_kplus = MotorRotationCount(motorR);
+    countL_kplus = MotorRotationCount(motorL);
+
+    //Velocidade = delta_Rotação*constConvGrau2Rad/delta_tempo em segundos
+    wr = (countR_kplus - countR_k)*convrad/dt;  //wr em rad/s
+    wl = (countL_kplus - countL_k)*convrad/dt;  //wl em rad/s
+    countR_k = countR_kplus;
+    countL_k = countL_kplus;
+
+}
+
+sub malha1(float vLinear,float vAng){
+
+    //Definindo as velocidades desejadas de Cada Roda
+    wdr = (2*vLinear + vAng*L)/(2*RP);
+    wdl = (2*vLinear - vAng*L)/(2*RP);
+
+    //Obtendo as velocidades reais de cada roda
+    getWs();
+
+    //Obtendo os erros de velocidade
+    ewr = wdr - wr;
+    ewl = wdl - wl;
+
+     //Ações de controle
+     //Controle Proporcional
+    /*cr = kp*ewr;
+    cl = kp*ewl;*/
+    //Controle Proporcional Integrador
+    /*cr = kp*ewr + acum_err + ki*dt*ewr;
+    cl = kp*ewl + acum_erl + ki*dt*ewl;*/
+    //Controlador Proporcional Integrador Derivativo
+    /*cr = kp*ewr + acum_err + ki*dt*ewr + kd*(ewr - prev_ewr)/dt;
+    cl = kp*ewl + acum_erl + ki*dt*ewl + kd*(ewl - prev_ewl)/dt;
+    //Controlador Intedral e Derivativo
+    //Salvando erro atual
+    prev_ewr = ewr;
+    prev_ewl = ewl;
+
+    //Atualizando o acumulador de erro
+    acum_err = acum_err + ki*dt*ewr;
+    acum_erl = acum_erl + ki*dt*ewl;   */
+
+    //Incremental
+    /*if(ewr > 0){
+           cr = cr + incremento;
+    }else{
+          if(ewr < 0 ){
+                 cr = cr - incremento;
+          }
+    }
+    if(ewl > 0){
+           cl = cl + incremento;
+    }else{
+          if(ewr < 0 ){
+                 cl = cl - incremento;
+          }
+    }*/
+
+     /*
+    if(cr > 100){
+          cr = 100;
+    }
+    if(cr < -100){
+          cr = -100;
+    }
+    if(cl > 100){
+          cl = 100;
+    }
+    if(cl < -100){
+          cl = -100;
+    }
+
+    OnFwd(OUT_A,cr);
+    OnFwd(OUT_C,cl);    */
+
+
+           //Variáveis de Ajuste Polinômial
+          /*cr = P[0]*pow(wdr,4) + P[1]*pow(wdr,3) + P[2]*pow(wdr,2) + P[3]*wdr + P[4];  // Ajuste polinomial
+          cl = P[0]*pow(wdl,4) + P[1]*pow(wdl,3) + P[2]*pow(wdl,2) + P[3]*wdl + P[4];  // Pwr_{r,l} X w_{r,l}
+           // Comandos para os motores (Polinomial)
+          OnFwdReg(motorR, cr, OUT_REGMODE_SPEED);
+          OnFwdReg(motorL, cl, OUT_REGMODE_SPEED);   */
+
+
+    //Salvando erros em arquivo
+    write = StrCat(NumToStr(ewr),"|",NumToStr(ewl),"|",NumToStr(dt));
+    WriteLnString(fileHandle,write, bytesWritten);
+}
+
+sub malha2(float xd, float yd){
+    //Obtendo distâncias percorridas por cada roda
+    countR2_kplus = MotorRotationCount(motorR);
+    countL2_kplus = MotorRotationCount(motorL);
+
+    ddr = ((countR2_kplus - countR2_k) * 2 * PI * RP)/360.0;
+    ddl = ((countL2_kplus - countL2_k) * 2 * PI * RP)/360.0;
+    countR2_k = countR2_kplus;
+    countL2_k = countL2_kplus;
+    
+    //Obtendo posição e sentido real
+    xr = xr + ((ddr+ddl)* cos(tetar_k)/2.0);
+    yr = yr + ((ddr+ddl)* sin(tetar_k)/2.0);
+    tetar_k = tetar_k + (ddr - ddl)/L;
+
+    errx = xd - xr;
+    erry = yd - yr;
+
+    tetad = atan2(erry,errx);
+
+    errt_past = errt;
+    //Diminuir de acordo com o erro
+    //velLinear_Desejada = 2 * sqrt((pow(errx,2)+pow(erry,2)));
+
+    errt = tetad - tetar_k;
+    errt = atan2(sin(errt),cos(errt));
+
+    //Controle P
+    //float w_controled = kp_pos*errt;
+
+    //Controle PI
+    //w_controled = kp_pos*errt + acum_errt + ki_pos*dt*errt;
+    //Controle PID
+    //float w_controled = kp_pos*errt + acum_errt + ki_pos*dt*errt + kd_pos * (errt - errt_past)/dt;
+    w_controle = kp_pos*errt + acum_errt + ki_pos*errt*dt + kd_pos * (errt - errt_past)/dt;
+    //acum_errt = acum_errt + ki_pos*errt*dt;
+    acum_errt = acum_errt + ki_pos*dt*errt;
+
+    //Salvando erros em arquivo
+    short bytesWritten2;
+    string write2 = StrCat(NumToStr(xr),"|",NumToStr(yr),"|",NumToStr(xd),"|", NumToStr(yd),"|", NumToStr(errt));
+    WriteLnString(fileHandle2,write2, bytesWritten2);
+
+    float dist = sqrt((pow(errx,2)+(pow(erry,2))));
+    float v = (2*PI*R/T);
+    if(dist > 0.05){
+            v = v*1.1;
+    }
+    //v = v + dist*0.2;
+    /*if(dist < 0.05){
+            v = 0;
+            w_controle = 0;
+    } */
+    malha1(v, w_controle);
+}
+
+task main(){
+
+    DeleteFile("Tst_Malha1.txt");
+    CreateFile("Tst_Malha1.txt",8*2048, fileHandle);
+    DeleteFile("Tst_Malha2.txt");
+    CreateFile("Tst_Malha2.txt",30*2048, fileHandle2);
+    //write = StrCat("kp: ",NumToStr(kp),"|ki: ",NumToStr(ki),"|kd: ",NumToStr(kd));
+    //WriteLnString(fileHandle,write, bytesWritten);
+
+
+    tempo_k = CurrentTick();
+    float tempo_inicial = tempo_k;
+    for(int t = 0; t < amostras; t++){
+        //Calculando dt em segundos
+        long dt_aux = CurrentTick() - tempo_k;
+        tempo_k = tempo_k + dt_aux;
+        dt = dt_aux/1000.0;
+      /* if(t < amostras/5){
+        malha2(0.3,0);
+        }else{
+              if(t < 2*amostras/5){
+                   malha2(0.0,0.3);
+              }else{
+                    if(t < 3*amostras/5){
+                    malha2(-0.3,0);
+                    }else{
+                          if(t < 4*amostras/5){
+                          malha2(0.0,-0.3);
+                          }else{
+                                if(t < 5*amostras/5){
+                                malha2(0.0,0);
+                                }
+                          }
+                    }
+              }
+        } */
+
+        float tempo_corrido = (CurrentTick() - tempo_inicial)/1000.0;
+        if(t == 1200){PlayTone(400,500);}
+        if(t > 1200){
+         R = 0.40;
+         T = 30;
+        }
+        float xd = 0.0 + R*cos(2*PI*tempo_corrido/T);
+        float yd = 0.0 + R*sin(2*PI*tempo_corrido/T);
+        malha2(xd,yd);
+
+        Wait(t_amostral);
+    }
+
+    CloseFile(fileHandle);
+
+}
