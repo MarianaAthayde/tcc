@@ -33,12 +33,12 @@ Além disso tem a classificação quanto a estrutura da rede lógica, centraliza
 
 \section{Controle Proporcional Integral Derivativo e a Técnica de Controle em Cascata}
 \label{sec:pid}
-O controlador Proporcional Integral Derivativo, ou simplesmente, \emph{PID} consiste em uma técnica com ações proporcionais, integrais e derivativas. A ação proporcional (\emph{P}), consiste em minimizar o erro, enquanto a ação integral (\emph{I}) tende a zerar este erro e a ação derivativa (\emph{D}) tende à reduzir o tempo de resposta. A equação que o modela está indicada pela \autoref{eq:pid}. Ou seja, a ação proporcional consiste em multiplicar o erro pelo ganho, minimizando o erro, a ação integral consiste em multiplicar pelo ganho a soma dos erros durante a execução do sistema e por fim, a ação derivativa que consiste em multiplicar o ganho pela derivada do erro, tentando assim, antecipar a resposta do sistema. 
-
+O controlador Proporcional Integral Derivativo, ou simplesmente, \emph{PID} consiste em uma técnica com ações proporcionais, integrais e derivativas. A ação proporcional (\emph{P}), consiste em minimizar o erro, enquanto a ação integral (\emph{I}) tende a zerar este erro e a ação derivativa (\emph{D}) tende à reduzir o tempo de resposta. A equação que o modela é dada por
 \begin{equation}
 c(t) = k_{p}e(t) + k_{i}\int_0^t e(t) dt + k_{d}\dfrac{de(t)}{dt}
 \label{eq:pid}
 \end{equation}
+Ou seja, a ação proporcional consiste em multiplicar o erro pelo ganho, minimizando o erro, a ação integral consiste em multiplicar pelo ganho a soma dos erros durante a execução do sistema e por fim, a ação derivativa que consiste em multiplicar o ganho pela derivada do erro, tentando assim, antecipar a resposta do sistema. 
 
 Uma técnica de controle importante que também foi utilizada neste trabalho, foi a técnica conhecida como controle em cascata, esta técnica consiste em passar como referência para o controlador interno, a saída do controlador mais externo, que possui uma referência independente, e a saída do sistema como um todo, é a saída do controlador mais interno. Como será visto mais a frente, é o caso deste trabalho.
 

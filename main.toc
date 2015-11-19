@@ -3,7 +3,7 @@
 \contentsline {chapter}{\chapternumberline {1}Introdu\IeC {\c c}\IeC {\~a}o}{1}{chapter.1}
 \contentsline {section}{\numberline {1.1}Relev\IeC {\^a}ncia do tema}{1}{section.1.1}
 \contentsline {section}{\numberline {1.2}Objetivos}{2}{section.1.2}
-\contentsline {section}{\numberline {1.3}Defini\IeC {\c c}\IeC {\~a}o do Problema}{2}{section.1.3}
+\contentsline {section}{\numberline {1.3}Defini\IeC {\c c}\IeC {\~a}o do Problema}{3}{section.1.3}
 \contentsline {section}{\numberline {1.4}Infraestrutura Necess\IeC {\'a}ria}{3}{section.1.4}
 \contentsline {chapter}{\chapternumberline {2}Trabalhos Relacionados}{4}{chapter.2}
 \contentsline {chapter}{\chapternumberline {3}Fundamenta\IeC {\c c}\IeC {\~a}o Te\IeC {\'o}rica}{6}{chapter.3}
@@ -19,22 +19,22 @@
 \contentsline {subsection}{\numberline {3.4.6}BRICX Command center}{9}{subsection.3.4.6}
 \contentsline {chapter}{\chapternumberline {4}Metodologia}{10}{chapter.4}
 \contentsline {section}{\numberline {4.1}Modelo Matem\IeC {\'a}tico}{11}{section.4.1}
-\contentsline {section}{\numberline {4.2}Problema 1: \emph {In line}}{13}{section.4.2}
-\contentsline {section}{\numberline {4.3}Problema 2: Rodeando um alvo}{16}{section.4.3}
-\contentsline {chapter}{\chapternumberline {5}Abordagem e Modelagem do Problema: Malhas de Controle}{19}{chapter.5}
-\contentsline {section}{\numberline {5.1}Malha de Controle 1: Velocidade Angular das Rodas}{19}{section.5.1}
-\contentsline {section}{\numberline {5.2}Malha de Controle 2: Posicionamento}{21}{section.5.2}
-\contentsline {section}{\numberline {5.3}Malha de Controle 3: Controle de forma\IeC {\c c}\IeC {\~a}o}{22}{section.5.3}
-\contentsline {chapter}{\chapternumberline {6}Testando as Malhas de Controle}{24}{chapter.6}
-\contentsline {section}{\numberline {6.1}Malha 1: Controlador Incremental}{25}{section.6.1}
-\contentsline {section}{\numberline {6.2}Malha 1: Controladores P, PI e PID}{25}{section.6.2}
-\contentsline {section}{\numberline {6.3}Malha 1: Fun\IeC {\c c}\IeC {\~a}o de Ajuste Polinomial e Controlador Embutido}{26}{section.6.3}
-\contentsline {section}{\numberline {6.4}Malha 2: Controle de Posicionamento}{28}{section.6.4}
-\contentsline {chapter}{\chapternumberline {7}Simula\IeC {\c c}\IeC {\~o}es}{34}{chapter.7}
-\contentsline {section}{\numberline {7.1}Simula\IeC {\c c}\IeC {\~o}es do Primeiro Problema}{34}{section.7.1}
-\contentsline {section}{\numberline {7.2}Simula\IeC {\c c}\IeC {\~o}es do Segundo Problema}{35}{section.7.2}
-\contentsline {chapter}{\chapternumberline {8}Resultados }{39}{chapter.8}
-\contentsline {chapter}{\chapternumberline {9}Conclus\IeC {\~a}o}{42}{chapter.9}
-\contentsline {section}{\numberline {9.1}Trabalhos Futuros}{43}{section.9.1}
-\contentsline {chapter}{Refer\^encias}{44}{section*.41}
+\contentsline {section}{\numberline {4.2}Problema 1: Varredura de \IeC {\'a}rea em paralelo}{13}{section.4.2}
+\contentsline {section}{\numberline {4.3}Problema 2: Circulando um alvo}{16}{section.4.3}
+\contentsline {chapter}{\chapternumberline {5}Abordagem e Modelagem do Problema: Malhas de Controle}{20}{chapter.5}
+\contentsline {section}{\numberline {5.1}Malha de Controle 1: Velocidade Angular das Rodas}{20}{section.5.1}
+\contentsline {section}{\numberline {5.2}Malha de Controle 2: Posicionamento}{22}{section.5.2}
+\contentsline {section}{\numberline {5.3}Malha de Controle 3: Controle de forma\IeC {\c c}\IeC {\~a}o}{23}{section.5.3}
+\contentsline {chapter}{\chapternumberline {6}Testando as Malhas de Controle}{25}{chapter.6}
+\contentsline {section}{\numberline {6.1}Malha 1: Controlador Incremental}{26}{section.6.1}
+\contentsline {section}{\numberline {6.2}Malha 1: Controladores P, PI e PID}{26}{section.6.2}
+\contentsline {section}{\numberline {6.3}Malha 1: Fun\IeC {\c c}\IeC {\~a}o de Ajuste Polinomial e Controlador Embutido}{27}{section.6.3}
+\contentsline {section}{\numberline {6.4}Malha 2: Controle de Posicionamento}{29}{section.6.4}
+\contentsline {chapter}{\chapternumberline {7}Simula\IeC {\c c}\IeC {\~o}es}{35}{chapter.7}
+\contentsline {section}{\numberline {7.1}Simula\IeC {\c c}\IeC {\~o}es do Primeiro Problema}{35}{section.7.1}
+\contentsline {section}{\numberline {7.2}Simula\IeC {\c c}\IeC {\~o}es do Segundo Problema}{36}{section.7.2}
+\contentsline {chapter}{\chapternumberline {8}Resultados }{40}{chapter.8}
+\contentsline {chapter}{\chapternumberline {9}Conclus\IeC {\~a}o}{43}{chapter.9}
+\contentsline {section}{\numberline {9.1}Trabalhos Futuros}{44}{section.9.1}
+\contentsline {chapter}{Refer\^encias}{45}{section*.40}
 \vspace {\cftbeforepartskip }

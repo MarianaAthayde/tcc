@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.15 (TeX Live 2014/W32TeX) (preloaded format=pdflatex 2015.3.18)  16 NOV 2015 02:39
+This is pdfTeX, Version 3.14159265-2.6-1.40.15 (TeX Live 2014/W32TeX) (preloaded format=pdflatex 2015.3.18)  18 NOV 2015 23:20
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1302,7 +1302,6 @@ Writing index file main.idx
 (./01-elementos-pre-textuais/agradecimentos.aux)
 (./01-elementos-pre-textuais/epigrafe.aux)
 (./01-elementos-pre-textuais/resumo-pt.aux)
-(./01-elementos-pre-textuais/resumo-en.aux)
 (./01-elementos-pre-textuais/lista-figuras.aux)
 (./01-elementos-pre-textuais/lista-tabelas.aux)
 (./01-elementos-pre-textuais/lista-siglas.aux)
@@ -1536,18 +1535,10 @@ Underfull \hbox (badness 10000) in paragraph at lines 17--20
 
 
 ])
-\openout2 = `./01-elementos-pre-textuais/resumo-en.aux'.
-
-
-(./01-elementos-pre-textuais/resumo-en.tex [7
-
-
-
-])
 \openout2 = `./01-elementos-pre-textuais/lista-figuras.aux'.
 
 
-(./01-elementos-pre-textuais/lista-figuras.tex (./main.lof) [8
+(./01-elementos-pre-textuais/lista-figuras.tex (./main.lof) [7
 
 
 
@@ -1555,7 +1546,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 17--20
 \openout2 = `./01-elementos-pre-textuais/lista-tabelas.aux'.
 
 
-(./01-elementos-pre-textuais/lista-tabelas.tex (./main.lot) [9
+(./01-elementos-pre-textuais/lista-tabelas.tex (./main.lot) [8
 
 
 
@@ -1563,7 +1554,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 17--20
 \openout2 = `./01-elementos-pre-textuais/lista-siglas.aux'.
 
 
-(./01-elementos-pre-textuais/lista-siglas.tex [10
+(./01-elementos-pre-textuais/lista-siglas.tex [9
 
 
 
@@ -1572,20 +1563,20 @@ Underfull \hbox (badness 10000) in paragraph at lines 17--20
 \openout2 = `./01-elementos-pre-textuais/lista-simbolos.aux'.
 
 
-(./01-elementos-pre-textuais/lista-simbolos.tex [11
+(./01-elementos-pre-textuais/lista-simbolos.tex [10
 
 
 
 
-] [12])
+] [11])
 \openout2 = `./01-elementos-pre-textuais/sumario.aux'.
 
 
-(./01-elementos-pre-textuais/sumario.tex (./main.toc [13
+(./01-elementos-pre-textuais/sumario.tex (./main.toc [12
 
 
 
-]) [14])
+]) [13])
 \openout2 = `./02-elementos-textuais/introducao.aux'.
 
 
@@ -1595,15 +1586,15 @@ Underfull \hbox (badness 10000) in paragraph at lines 17--20
 
 
 ] [2]
-LaTeX Font Info:    Try loading font information for OMS+ppl on input line 41.
+LaTeX Font Info:    Try loading font information for OMS+ppl on input line 42.
 
 (c:/texlive/2014/texmf-dist/tex/latex/psnfss/omsppl.fd
 File: omsppl.fd 
 )
 LaTeX Font Info:    Font shape `OMS/ppl/m/it' in size <12> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 41.
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 42.
 LaTeX Font Info:    Font shape `OMS/ppl/m/n' in size <12> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 41.
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 42.
 ) [3]
 \openout2 = `./02-elementos-textuais/trab-relacionados.aux'.
 
@@ -1621,7 +1612,7 @@ LaTeX Font Info:    Font shape `OMS/ppl/m/n' in size <12> not available
 
 
 ]
-<./04-figuras/Estruturasfísica.jpg, id=315, 883.80188pt x 204.01219pt>
+<./04-figuras/Estruturasfísica.jpg, id=309, 883.80188pt x 204.01219pt>
 File: ./04-figuras/Estruturasfísica.jpg Graphic file (type jpg)
 
 <use ./04-figuras/Estruturasfísica.jpg>
@@ -1639,137 +1630,145 @@ o Mindstorms[]\T1/ppl/m/n/12 (-20) .
 \openout2 = `./02-elementos-textuais/metodologia.aux'.
 
  (./02-elementos-textuais/metodologia.tex
-<./04-figuras/robo.pdf, id=340, 845.07718pt x 597.55246pt>
+<./04-figuras/robo.pdf, id=333, 845.07718pt x 597.55246pt>
 File: ./04-figuras/robo.pdf Graphic file (type pdf)
 
 <use ./04-figuras/robo.pdf>
 Package pdftex.def Info: ./04-figuras/robo.pdf used on input line 19.
 (pdftex.def)             Requested size: 284.52756pt x 201.18655pt.
-
-Overfull \hbox (20.15848pt too wide) in paragraph at lines 26--27
-[]\T1/ppl/m/n/12 (-20) Concomitantemente, fo-ram re-a-li-za-das si-mu-la-ções, 
-atra-vés da fer-ra-menta \T1/ppl/m/it/12 (-20) MATLAB[]\T1/ppl/m/n/12 (-20) ,
- []
-
-[10
+ [10
 
 
 
-] [11 <./04-figuras/robo.pdf>] [12]
-<./04-figuras/p1.jpg, id=373, 1524.44531pt x 486.31688pt>
+] [11 <./04-figuras/robo.pdf>]pdfTeX warning (ext4): destination with the same 
+identifier (name{equation.4.1.2}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.59 	\begin{equation}
+                      pdfTeX warning (ext4): destination with the same identifi
+er (name{equation.4.1.3}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.63 	\begin{equation}
+                       [12]
+<./04-figuras/p1.jpg, id=371, 1524.44531pt x 486.31688pt>
 File: ./04-figuras/p1.jpg Graphic file (type jpg)
 
 <use ./04-figuras/p1.jpg>
-Package pdftex.def Info: ./04-figuras/p1.jpg used on input line 107.
+Package pdftex.def Info: ./04-figuras/p1.jpg used on input line 109.
 (pdftex.def)             Requested size: 455.24408pt x 145.22833pt.
- [13 <./04-figuras/p1.jpg>]
-<./04-figuras/RedeSerial.png, id=383, 655.44875pt x 494.84875pt>
+
+<./04-figuras/RedeSerial.png, id=377, 655.44875pt x 494.84875pt>
 File: ./04-figuras/RedeSerial.png Graphic file (type png)
 
 <use ./04-figuras/RedeSerial.png>
-Package pdftex.def Info: ./04-figuras/RedeSerial.png used on input line 120.
+Package pdftex.def Info: ./04-figuras/RedeSerial.png used on input line 121.
 (pdftex.def)             Requested size: 204.74861pt x 154.57945pt.
 
-<./04-figuras/RedeNXC.png, id=385, 721.69624pt x 514.92375pt>
+<./04-figuras/RedeNXC.png, id=379, 721.69624pt x 514.92375pt>
 File: ./04-figuras/RedeNXC.png Graphic file (type png)
 
 <use ./04-figuras/RedeNXC.png>
-Package pdftex.def Info: ./04-figuras/RedeNXC.png used on input line 126.
+Package pdftex.def Info: ./04-figuras/RedeNXC.png used on input line 127.
 (pdftex.def)             Requested size: 204.74861pt x 146.08693pt.
 
-<./04-figuras/RedeDistribuida.png, id=386, 705.63625pt x 575.14874pt>
+<./04-figuras/RedeDistribuida.png, id=380, 705.63625pt x 575.14874pt>
 File: ./04-figuras/RedeDistribuida.png Graphic file (type png)
 
 <use ./04-figuras/RedeDistribuida.png>
 Package pdftex.def Info: ./04-figuras/RedeDistribuida.png used on input line 13
-2.
+3.
 (pdftex.def)             Requested size: 184.27249pt x 150.19334pt.
 
-<./04-figuras/RedeIsolada.png, id=387, 705.63625pt x 575.14874pt>
+<./04-figuras/RedeIsolada.png, id=381, 705.63625pt x 575.14874pt>
 File: ./04-figuras/RedeIsolada.png Graphic file (type png)
 
 <use ./04-figuras/RedeIsolada.png>
-Package pdftex.def Info: ./04-figuras/RedeIsolada.png used on input line 138.
+Package pdftex.def Info: ./04-figuras/RedeIsolada.png used on input line 139.
 (pdftex.def)             Requested size: 184.27249pt x 150.19334pt.
- [14 <./04-figuras/RedeSerial.png> <./04-figuras/RedeNXC.png> <./04-figuras/Red
-eDistribuida.png> <./04-figuras/RedeIsolada.png>] [15] <./04-figuras/esqSistema
-.pdf, id=415, 845.07718pt x 597.55246pt>
+ [13]
+
+LaTeX Warning: Command \^ invalid in math mode on input line 147.
+
+Missing character: There is no ô in font cmr12!
+
+LaTeX Warning: Command \^ invalid in math mode on input line 147.
+
+Missing character: There is no ô in font cmr12!
+[14 <./04-figuras/p1.jpg>] [15 <./04-figuras/RedeSerial.png> <./04-figuras/Rede
+NXC.png> <./04-figuras/RedeDistribuida.png> <./04-figuras/RedeIsolada.png>]
+<./04-figuras/esqSistema.pdf, id=406, 845.07718pt x 597.55246pt>
 File: ./04-figuras/esqSistema.pdf Graphic file (type pdf)
 
 <use ./04-figuras/esqSistema.pdf>
 Package pdftex.def Info: ./04-figuras/esqSistema.pdf used on input line 208.
 (pdftex.def)             Requested size: 455.0pt x 321.73438pt.
 
-<./04-figuras/sistema.pdf, id=416, 845.07718pt x 597.55246pt>
+<./04-figuras/sistema.pdf, id=407, 845.07718pt x 597.55246pt>
 File: ./04-figuras/sistema.pdf Graphic file (type pdf)
 
 <use ./04-figuras/sistema.pdf>
 Package pdftex.def Info: ./04-figuras/sistema.pdf used on input line 215.
 (pdftex.def)             Requested size: 455.0pt x 321.73438pt.
- [16]
-<./04-figuras/sistEstavel2.pdf, id=430, 845.07718pt x 597.55246pt>
+ [16] [17 <./04-figuras/esqSistema.pdf>]
+<./04-figuras/sistEstavel2.pdf, id=453, 845.07718pt x 597.55246pt>
 File: ./04-figuras/sistEstavel2.pdf Graphic file (type pdf)
 
 <use ./04-figuras/sistEstavel2.pdf>
-Package pdftex.def Info: ./04-figuras/sistEstavel2.pdf used on input line 250.
+Package pdftex.def Info: ./04-figuras/sistEstavel2.pdf used on input line 251.
 (pdftex.def)             Requested size: 455.0pt x 321.73438pt.
-) [17 <./04-figuras/esqSistema.pdf>]
-[18 <./04-figuras/sistema.pdf> <./04-figuras/sistEstavel2.pdf
-
-pdfTeX warning: pdflatex.exe (file ./04-figuras/sistEstavel2.pdf): PDF inclusio
-n: multiple pdfs with page group included in a single page
->]
+) [18 <./04-figuras/sistema.pdf>] [19 <./04-figuras/sistEstavel2.pdf>]
 \openout2 = `./02-elementos-textuais/desenhoemodelo.aux'.
 
  (./02-elementos-textuais/desenhoemodelo.tex
-<./04-figuras/malha1.pdf, id=501, 845.07718pt x 597.55246pt>
+<./04-figuras/malha1.pdf, id=499, 845.07718pt x 597.55246pt>
 File: ./04-figuras/malha1.pdf Graphic file (type pdf)
 
 <use ./04-figuras/malha1.pdf>
 Package pdftex.def Info: ./04-figuras/malha1.pdf used on input line 25.
 (pdftex.def)             Requested size: 455.0pt x 321.73438pt.
- [19
+ [20
 
 
 
-] [20 <./04-figuras/malha1.pdf>] [21]
-<./04-figuras/malha2.pdf, id=543, 845.07718pt x 597.55246pt>
+] [21 <./04-figuras/malha1.pdf>] [22]
+<./04-figuras/malha2.pdf, id=541, 845.07718pt x 597.55246pt>
 File: ./04-figuras/malha2.pdf Graphic file (type pdf)
 
 <use ./04-figuras/malha2.pdf>
 Package pdftex.def Info: ./04-figuras/malha2.pdf used on input line 105.
 (pdftex.def)             Requested size: 455.0pt x 321.73438pt.
- [22 <./04-figuras/malha2.pdf>]) [23]
+ [23 <./04-figuras/malha2.pdf>]) [24]
 \openout2 = `./02-elementos-textuais/testes.aux'.
 
 
-(./02-elementos-textuais/testes.tex [24
+(./02-elementos-textuais/testes.tex [25
 
 
 
 ]
-<./Testes/Malha1/Incremental/Malha1_Inc1.png, id=589, 1203.7472pt x 589.4522pt>
+<./Testes/Malha1/Incremental/Malha1_Inc1.png, id=587, 1203.7472pt x 589.4522pt>
 File: ./Testes/Malha1/Incremental/Malha1_Inc1.png Graphic file (type png)
 <use ./Testes/Malha1/Incremental/Malha1_Inc1.png>
 Package pdftex.def Info: ./Testes/Malha1/Incremental/Malha1_Inc1.png used on in
 put line 35.
 (pdftex.def)             Requested size: 204.74861pt x 100.2595pt.
 
-<./Testes/Malha1/Incremental/Malha1_Inc6.png, id=590, 1203.7472pt x 589.4522pt>
+<./Testes/Malha1/Incremental/Malha1_Inc6.png, id=588, 1203.7472pt x 589.4522pt>
 File: ./Testes/Malha1/Incremental/Malha1_Inc6.png Graphic file (type png)
 <use ./Testes/Malha1/Incremental/Malha1_Inc6.png>
 Package pdftex.def Info: ./Testes/Malha1/Incremental/Malha1_Inc6.png used on in
 put line 41.
 (pdftex.def)             Requested size: 204.74861pt x 100.2595pt.
 
-<./Testes/Malha1/Incremental/Malha1_Inc3.png, id=591, 1203.7472pt x 589.4522pt>
+<./Testes/Malha1/Incremental/Malha1_Inc3.png, id=589, 1203.7472pt x 589.4522pt>
 File: ./Testes/Malha1/Incremental/Malha1_Inc3.png Graphic file (type png)
 <use ./Testes/Malha1/Incremental/Malha1_Inc3.png>
 Package pdftex.def Info: ./Testes/Malha1/Incremental/Malha1_Inc3.png used on in
 put line 47.
 (pdftex.def)             Requested size: 409.49722pt x 200.51903pt.
 
-<./Testes/Malha1/PID/m1_kp10.png, id=594, 1203.7472pt x 589.4522pt>
+<./Testes/Malha1/PID/m1_kp10.png, id=592, 1203.7472pt x 589.4522pt>
 File: ./Testes/Malha1/PID/m1_kp10.png Graphic file (type png)
 
 <use ./Testes/Malha1/PID/m1_kp10.png>
@@ -1777,7 +1776,7 @@ Package pdftex.def Info: ./Testes/Malha1/PID/m1_kp10.png used on input line 80.
 
 (pdftex.def)             Requested size: 204.74861pt x 100.2595pt.
 
-<./Testes/Malha1/PID/m1_kp10ki15kd06.png, id=595, 1203.7472pt x 589.4522pt>
+<./Testes/Malha1/PID/m1_kp10ki15kd06.png, id=593, 1203.7472pt x 589.4522pt>
 File: ./Testes/Malha1/PID/m1_kp10ki15kd06.png Graphic file (type png)
 
 <use ./Testes/Malha1/PID/m1_kp10ki15kd06.png>
@@ -1785,7 +1784,7 @@ Package pdftex.def Info: ./Testes/Malha1/PID/m1_kp10ki15kd06.png used on input
 line 86.
 (pdftex.def)             Requested size: 204.74861pt x 100.2595pt.
 
-<./Testes/Malha1/PID/m1_kp10ki15.png, id=596, 1203.7472pt x 589.4522pt>
+<./Testes/Malha1/PID/m1_kp10ki15.png, id=594, 1203.7472pt x 589.4522pt>
 File: ./Testes/Malha1/PID/m1_kp10ki15.png Graphic file (type png)
 
 <use ./Testes/Malha1/PID/m1_kp10ki15.png>
@@ -1793,7 +1792,7 @@ Package pdftex.def Info: ./Testes/Malha1/PID/m1_kp10ki15.png used on input line
  92.
 (pdftex.def)             Requested size: 204.74861pt x 100.2595pt.
 
-<./Testes/Malha1/PID/m1_kp10ki17.png, id=597, 1203.7472pt x 589.4522pt>
+<./Testes/Malha1/PID/m1_kp10ki17.png, id=595, 1203.7472pt x 589.4522pt>
 File: ./Testes/Malha1/PID/m1_kp10ki17.png Graphic file (type png)
 
 <use ./Testes/Malha1/PID/m1_kp10ki17.png>
@@ -1801,14 +1800,14 @@ Package pdftex.def Info: ./Testes/Malha1/PID/m1_kp10ki17.png used on input line
  98.
 (pdftex.def)             Requested size: 204.74861pt x 100.2595pt.
 
-<./Testes/Malha1/PID/m1_kp10ki15kd02.png, id=598, 1203.7472pt x 589.4522pt>
+<./Testes/Malha1/PID/m1_kp10ki15kd02.png, id=596, 1203.7472pt x 589.4522pt>
 File: ./Testes/Malha1/PID/m1_kp10ki15kd02.png Graphic file (type png)
 
 <use ./Testes/Malha1/PID/m1_kp10ki15kd02.png>
 Package pdftex.def Info: ./Testes/Malha1/PID/m1_kp10ki15kd02.png used on input 
 line 104.
 (pdftex.def)             Requested size: 409.49722pt x 200.51903pt.
- [25]
+ [26]
 Overfull \hbox (4.78264pt too wide) detected at line 121
 \OML/cmm/m/it/12 f\OT1/cmr/m/n/12 (\OML/cmm/m/it/12 ![]\OT1/cmr/m/n/12 ) = \OMS
 /cmsy/m/n/12 ^^@\OT1/cmr/m/n/12 0\OML/cmm/m/it/12 :\OT1/cmr/m/n/12 00091\OML/cm
@@ -1819,32 +1818,32 @@ m/m/it/12 ![] \OT1/cmr/m/n/12 + 0\OML/cmm/m/it/12 :\OT1/cmr/m/n/12 0223\OML/cmm
 /it/12 :\OT1/cmr/m/n/12 0546
  []
 
-[26 <./Testes/Malha1/Incremental/Malha1_Inc1.png (PNG copy)> <./Testes/Malha1/I
+[27 <./Testes/Malha1/Incremental/Malha1_Inc1.png (PNG copy)> <./Testes/Malha1/I
 ncremental/Malha1_Inc6.png (PNG copy)> <./Testes/Malha1/Incremental/Malha1_Inc3
 .png (PNG copy)>]
-<./Testes/Malha1/Polinomial/Polinomial.png, id=609, 1203.7472pt x 589.4522pt>
+<./Testes/Malha1/Polinomial/Polinomial.png, id=607, 1203.7472pt x 589.4522pt>
 File: ./Testes/Malha1/Polinomial/Polinomial.png Graphic file (type png)
 
 <use ./Testes/Malha1/Polinomial/Polinomial.png>
 Package pdftex.def Info: ./Testes/Malha1/Polinomial/Polinomial.png used on inpu
 t line 127.
 (pdftex.def)             Requested size: 409.49722pt x 200.51903pt.
- [27 <./Testes/Malha1/PID/m1_kp10.png (PNG copy)> <./Testes/Malha1/PID/m1_kp10k
+ [28 <./Testes/Malha1/PID/m1_kp10.png (PNG copy)> <./Testes/Malha1/PID/m1_kp10k
 i15kd06.png (PNG copy)> <./Testes/Malha1/PID/m1_kp10ki15.png (PNG copy)> <./Tes
 tes/Malha1/PID/m1_kp10ki17.png (PNG copy)> <./Testes/Malha1/PID/m1_kp10ki15kd02
 .png (PNG copy)>]
 
-LaTeX Warning: Reference `' on page 28 undefined on input line 144.
+LaTeX Warning: Reference `' on page 29 undefined on input line 144.
 
 
-LaTeX Warning: Reference `t:CompMalha2' on page 28 undefined on input line 144.
+LaTeX Warning: Reference `t:CompMalha2' on page 29 undefined on input line 144.
 
 
 
-LaTeX Warning: Reference `' on page 28 undefined on input line 144.
+LaTeX Warning: Reference `' on page 29 undefined on input line 144.
 
-[28 <./Testes/Malha1/Polinomial/Polinomial.png (PNG copy)>]
-<./Testes/Malha2/P2.0/Incremental-3/m2PosInc.png, id=621, 1203.7472pt x 589.452
+[29 <./Testes/Malha1/Polinomial/Polinomial.png (PNG copy)>]
+<./Testes/Malha2/P2.0/Incremental-3/m2PosInc.png, id=619, 1203.7472pt x 589.452
 2pt>
 File: ./Testes/Malha2/P2.0/Incremental-3/m2PosInc.png Graphic file (type png)
  <use ./Testes/Malha2/P2.0/Incremental-3/m2PosInc.png>
@@ -1852,7 +1851,7 @@ Package pdftex.def Info: ./Testes/Malha2/P2.0/Incremental-3/m2PosInc.png used o
 n input line 165.
 (pdftex.def)             Requested size: 409.49722pt x 200.51903pt.
 
-<./Testes/Malha2/P2.0/Incremental-3/ErroM2Inc.png, id=622, 1203.7472pt x 589.45
+<./Testes/Malha2/P2.0/Incremental-3/ErroM2Inc.png, id=620, 1203.7472pt x 589.45
 22pt>
 File: ./Testes/Malha2/P2.0/Incremental-3/ErroM2Inc.png Graphic file (type png)
  <use ./Testes/Malha2/P2.0/Incremental-3/ErroM2Inc.png>
@@ -1860,7 +1859,7 @@ Package pdftex.def Info: ./Testes/Malha2/P2.0/Incremental-3/ErroM2Inc.png used
 on input line 171.
 (pdftex.def)             Requested size: 409.49722pt x 200.51903pt.
 
-<./Testes/Malha2/P1.0/PID/PIDPos.png, id=623, 1203.7472pt x 589.4522pt>
+<./Testes/Malha2/P1.0/PID/PIDPos.png, id=621, 1203.7472pt x 589.4522pt>
 File: ./Testes/Malha2/P1.0/PID/PIDPos.png Graphic file (type png)
 
 <use ./Testes/Malha2/P1.0/PID/PIDPos.png>
@@ -1868,7 +1867,7 @@ Package pdftex.def Info: ./Testes/Malha2/P1.0/PID/PIDPos.png used on input line
  183.
 (pdftex.def)             Requested size: 409.49722pt x 200.51903pt.
 
-<./Testes/Malha2/P1.0/PID/ErroThetaPID.png, id=624, 1203.7472pt x 589.4522pt>
+<./Testes/Malha2/P1.0/PID/ErroThetaPID.png, id=622, 1203.7472pt x 589.4522pt>
 File: ./Testes/Malha2/P1.0/PID/ErroThetaPID.png Graphic file (type png)
 
 <use ./Testes/Malha2/P1.0/PID/ErroThetaPID.png>
@@ -1876,7 +1875,7 @@ Package pdftex.def Info: ./Testes/Malha2/P1.0/PID/ErroThetaPID.png used on inpu
 t line 189.
 (pdftex.def)             Requested size: 409.49722pt x 200.51903pt.
 
-<./Testes/Malha2/P2.0/Polinomial/m2PosPol.png, id=625, 1203.7472pt x 589.4522pt
+<./Testes/Malha2/P2.0/Polinomial/m2PosPol.png, id=623, 1203.7472pt x 589.4522pt
 >
 File: ./Testes/Malha2/P2.0/Polinomial/m2PosPol.png Graphic file (type png)
  <use ./Testes/Malha2/P2.0/Polinomial/m2PosPol.png>
@@ -1884,7 +1883,7 @@ Package pdftex.def Info: ./Testes/Malha2/P2.0/Polinomial/m2PosPol.png used on i
 nput line 201.
 (pdftex.def)             Requested size: 409.49722pt x 200.51903pt.
 
-<./Testes/Malha2/P2.0/Polinomial/m2ErroTheta.png, id=626, 1203.7472pt x 589.452
+<./Testes/Malha2/P2.0/Polinomial/m2ErroTheta.png, id=624, 1203.7472pt x 589.452
 2pt>
 File: ./Testes/Malha2/P2.0/Polinomial/m2ErroTheta.png Graphic file (type png)
  <use ./Testes/Malha2/P2.0/Polinomial/m2ErroTheta.png>
@@ -1892,7 +1891,7 @@ Package pdftex.def Info: ./Testes/Malha2/P2.0/Polinomial/m2ErroTheta.png used o
 n input line 207.
 (pdftex.def)             Requested size: 409.49722pt x 200.51903pt.
 
-<./Testes/Malha2/P1.0I0.3/IntegralOsc.png, id=627, 1203.7472pt x 589.4522pt>
+<./Testes/Malha2/P1.0I0.3/IntegralOsc.png, id=625, 1203.7472pt x 589.4522pt>
 File: ./Testes/Malha2/P1.0I0.3/IntegralOsc.png Graphic file (type png)
 
 <use ./Testes/Malha2/P1.0I0.3/IntegralOsc.png>
@@ -1900,25 +1899,25 @@ Package pdftex.def Info: ./Testes/Malha2/P1.0I0.3/IntegralOsc.png used on input
  line 219.
 (pdftex.def)             Requested size: 409.49722pt x 200.51903pt.
 
-<./Testes/Malha2/P1.0I0.3/ErroThetaIOsc.png, id=628, 1203.7472pt x 589.4522pt>
+<./Testes/Malha2/P1.0I0.3/ErroThetaIOsc.png, id=626, 1203.7472pt x 589.4522pt>
 File: ./Testes/Malha2/P1.0I0.3/ErroThetaIOsc.png Graphic file (type png)
 
 <use ./Testes/Malha2/P1.0I0.3/ErroThetaIOsc.png>
 Package pdftex.def Info: ./Testes/Malha2/P1.0I0.3/ErroThetaIOsc.png used on inp
 ut line 225.
 (pdftex.def)             Requested size: 409.49722pt x 200.51903pt.
-) [29] [30 <./Testes/Malha2/P2.0/Incremental-3/m2PosInc.png (PNG copy)> <./Test
-es/Malha2/P2.0/Incremental-3/ErroM2Inc.png (PNG copy)>] [31 <./Testes/Malha2/P1
+) [30] [31 <./Testes/Malha2/P2.0/Incremental-3/m2PosInc.png (PNG copy)> <./Test
+es/Malha2/P2.0/Incremental-3/ErroM2Inc.png (PNG copy)>] [32 <./Testes/Malha2/P1
 .0/PID/PIDPos.png (PNG copy)> <./Testes/Malha2/P1.0/PID/ErroThetaPID.png (PNG c
-opy)>] [32 <./Testes/Malha2/P2.0/Polinomial/m2PosPol.png (PNG copy)> <./Testes/
-Malha2/P2.0/Polinomial/m2ErroTheta.png (PNG copy)>] [33 <./Testes/Malha2/P1.0I0
+opy)>] [33 <./Testes/Malha2/P2.0/Polinomial/m2PosPol.png (PNG copy)> <./Testes/
+Malha2/P2.0/Polinomial/m2ErroTheta.png (PNG copy)>] [34 <./Testes/Malha2/P1.0I0
 .3/IntegralOsc.png (PNG copy)> <./Testes/Malha2/P1.0I0.3/ErroThetaIOsc.png (PNG
  copy)>]
 \openout2 = `./02-elementos-textuais/simulacoes.aux'.
 
 
 (./02-elementos-textuais/simulacoes.tex
-<./04-figuras/Simulacoes/Problema1-Abordagem1/P1_A1_Centr_Inicio.png, id=657, 1
+<./04-figuras/Simulacoes/Problema1-Abordagem1/P1_A1_Centr_Inicio.png, id=655, 1
 203.7472pt x 589.4522pt>
 File: ./04-figuras/Simulacoes/Problema1-Abordagem1/P1_A1_Centr_Inicio.png Graph
 ic file (type png)
@@ -1928,7 +1927,7 @@ Package pdftex.def Info: ./04-figuras/Simulacoes/Problema1-Abordagem1/P1_A1_Cen
 tr_Inicio.png used on input line 19.
 (pdftex.def)             Requested size: 204.74861pt x 100.2595pt.
 
-<./04-figuras/Simulacoes/Problema1-Abordagem1/P1_A1_Centr_Fim.png, id=658, 1203
+<./04-figuras/Simulacoes/Problema1-Abordagem1/P1_A1_Centr_Fim.png, id=656, 1203
 .7472pt x 589.4522pt>
 File: ./04-figuras/Simulacoes/Problema1-Abordagem1/P1_A1_Centr_Fim.png Graphic 
 file (type png)
@@ -1938,7 +1937,7 @@ Package pdftex.def Info: ./04-figuras/Simulacoes/Problema1-Abordagem1/P1_A1_Cen
 tr_Fim.png used on input line 25.
 (pdftex.def)             Requested size: 204.74861pt x 100.2595pt.
 
-<./04-figuras/Simulacoes/Problema1-Abordagem1/P1_A1_Desc_Inicio.png, id=659, 12
+<./04-figuras/Simulacoes/Problema1-Abordagem1/P1_A1_Desc_Inicio.png, id=657, 12
 03.7472pt x 589.4522pt>
 File: ./04-figuras/Simulacoes/Problema1-Abordagem1/P1_A1_Desc_Inicio.png Graphi
 c file (type png)
@@ -1948,7 +1947,7 @@ Package pdftex.def Info: ./04-figuras/Simulacoes/Problema1-Abordagem1/P1_A1_Des
 c_Inicio.png used on input line 37.
 (pdftex.def)             Requested size: 204.74861pt x 100.2595pt.
 
-<./04-figuras/Simulacoes/Problema1-Abordagem1/P1_A1_Desc_Fim.png, id=660, 1203.
+<./04-figuras/Simulacoes/Problema1-Abordagem1/P1_A1_Desc_Fim.png, id=658, 1203.
 7472pt x 589.4522pt>
 File: ./04-figuras/Simulacoes/Problema1-Abordagem1/P1_A1_Desc_Fim.png Graphic f
 ile (type png)
@@ -1957,14 +1956,14 @@ ile (type png)
 Package pdftex.def Info: ./04-figuras/Simulacoes/Problema1-Abordagem1/P1_A1_Des
 c_Fim.png used on input line 43.
 (pdftex.def)             Requested size: 204.74861pt x 100.2595pt.
- [34
+ [35
 
 
 
  <./04-figuras/Simulacoes/Problema1-Abordagem1/P1_A1_Centr_Inicio.png (PNG copy
 )> <./04-figuras/Simulacoes/Problema1-Abordagem1/P1_A1_Centr_Fim.png (PNG copy)
 >]
-<./04-figuras/Simulacoes/Problema1-Abordagem1/P1A2Inicio.png, id=670, 1203.7472
+<./04-figuras/Simulacoes/Problema1-Abordagem1/P1A2Inicio.png, id=667, 1203.7472
 pt x 589.4522pt>
 File: ./04-figuras/Simulacoes/Problema1-Abordagem1/P1A2Inicio.png Graphic file 
 (type png)
@@ -1974,7 +1973,7 @@ Package pdftex.def Info: ./04-figuras/Simulacoes/Problema1-Abordagem1/P1A2Inici
 o.png used on input line 61.
 (pdftex.def)             Requested size: 409.49722pt x 200.51903pt.
 
-<./04-figuras/Simulacoes/Problema1-Abordagem1/P1A2Fim.png, id=671, 1203.7472pt 
+<./04-figuras/Simulacoes/Problema1-Abordagem1/P1A2Fim.png, id=668, 1203.7472pt 
 x 589.4522pt>
 File: ./04-figuras/Simulacoes/Problema1-Abordagem1/P1A2Fim.png Graphic file (ty
 pe png)
@@ -1984,12 +1983,12 @@ ng used on input line 67.
 (pdftex.def)             Requested size: 409.49722pt x 200.51903pt.
 
 
-LaTeX Warning: Reference `fig:sP2C' on page 35 undefined on input line 79.
+LaTeX Warning: Reference `fig:sP2C' on page 36 undefined on input line 79.
 
-[35 <./04-figuras/Simulacoes/Problema1-Abordagem1/P1_A1_Desc_Inicio.png (PNG co
+[36 <./04-figuras/Simulacoes/Problema1-Abordagem1/P1_A1_Desc_Inicio.png (PNG co
 py)> <./04-figuras/Simulacoes/Problema1-Abordagem1/P1_A1_Desc_Fim.png (PNG copy
 )>]
-<./04-figuras/Simulacoes/Problema2/Falha/P2FalhaInicio.png, id=678, 1203.7472pt
+<./04-figuras/Simulacoes/Problema2/Falha/P2FalhaInicio.png, id=676, 1203.7472pt
  x 589.4522pt>
 File: ./04-figuras/Simulacoes/Problema2/Falha/P2FalhaInicio.png Graphic file (t
 ype png)
@@ -1998,7 +1997,7 @@ Package pdftex.def Info: ./04-figuras/Simulacoes/Problema2/Falha/P2FalhaInicio.
 png used on input line 85.
 (pdftex.def)             Requested size: 409.49722pt x 200.51903pt.
 
-<./04-figuras/Simulacoes/Problema2/Falha/P2FalhaFim.png, id=679, 1203.7472pt x 
+<./04-figuras/Simulacoes/Problema2/Falha/P2FalhaFim.png, id=677, 1203.7472pt x 
 589.4522pt>
 File: ./04-figuras/Simulacoes/Problema2/Falha/P2FalhaFim.png Graphic file (type
  png)
@@ -2007,7 +2006,7 @@ Package pdftex.def Info: ./04-figuras/Simulacoes/Problema2/Falha/P2FalhaFim.png
  used on input line 91.
 (pdftex.def)             Requested size: 409.49722pt x 200.51903pt.
 
-<./04-figuras/Simulacoes/Problema2/Colisao/P2_C1.png, id=680, 1203.7472pt x 589
+<./04-figuras/Simulacoes/Problema2/Colisao/P2_C1.png, id=678, 1203.7472pt x 589
 .4522pt>
 File: ./04-figuras/Simulacoes/Problema2/Colisao/P2_C1.png Graphic file (type pn
 g)
@@ -2015,15 +2014,15 @@ g)
 Package pdftex.def Info: ./04-figuras/Simulacoes/Problema2/Colisao/P2_C1.png us
 ed on input line 101.
 (pdftex.def)             Requested size: 409.49722pt x 200.51903pt.
-) [36 <./04-figuras/Simulacoes/Problema1-Abordagem1/P1A2Inicio.png (PNG copy)> 
-<./04-figuras/Simulacoes/Problema1-Abordagem1/P1A2Fim.png (PNG copy)>] [37 <./0
+) [37 <./04-figuras/Simulacoes/Problema1-Abordagem1/P1A2Inicio.png (PNG copy)> 
+<./04-figuras/Simulacoes/Problema1-Abordagem1/P1A2Fim.png (PNG copy)>] [38 <./0
 4-figuras/Simulacoes/Problema2/Falha/P2FalhaInicio.png (PNG copy)> <./04-figura
-s/Simulacoes/Problema2/Falha/P2FalhaFim.png (PNG copy)>] [38 <./04-figuras/Simu
+s/Simulacoes/Problema2/Falha/P2FalhaFim.png (PNG copy)>] [39 <./04-figuras/Simu
 lacoes/Problema2/Colisao/P2_C1.png (PNG copy)>]
 \openout2 = `./02-elementos-textuais/resultados.aux'.
 
  (./02-elementos-textuais/resultados.tex
-<./Testes/Problema1/Incremental/P1Antes.png, id=695, 1203.7472pt x 589.4522pt>
+<./Testes/Problema1/Incremental/P1Antes.png, id=693, 1203.7472pt x 589.4522pt>
 File: ./Testes/Problema1/Incremental/P1Antes.png Graphic file (type png)
 
 <use ./Testes/Problema1/Incremental/P1Antes.png>
@@ -2031,27 +2030,27 @@ Package pdftex.def Info: ./Testes/Problema1/Incremental/P1Antes.png used on inp
 ut line 10.
 (pdftex.def)             Requested size: 409.49722pt x 200.51903pt.
 
-<./Testes/Problema1/Incremental/P1Depois.png, id=696, 1203.7472pt x 589.4522pt>
+<./Testes/Problema1/Incremental/P1Depois.png, id=694, 1203.7472pt x 589.4522pt>
 File: ./Testes/Problema1/Incremental/P1Depois.png Graphic file (type png)
 <use ./Testes/Problema1/Incremental/P1Depois.png>
 Package pdftex.def Info: ./Testes/Problema1/Incremental/P1Depois.png used on in
 put line 16.
 (pdftex.def)             Requested size: 409.49722pt x 200.51903pt.
 
-<./Testes/Problema1/Incremental/ErroDistancia.png, id=697, 1203.7472pt x 589.45
+<./Testes/Problema1/Incremental/ErroDistancia.png, id=695, 1203.7472pt x 589.45
 22pt>
 File: ./Testes/Problema1/Incremental/ErroDistancia.png Graphic file (type png)
  <use ./Testes/Problema1/Incremental/ErroDistancia.png>
 Package pdftex.def Info: ./Testes/Problema1/Incremental/ErroDistancia.png used 
 on input line 26.
 (pdftex.def)             Requested size: 409.49722pt x 200.51903pt.
- [39
+ [40
 
 
 
  <./Testes/Problema1/Incremental/P1Antes.png (PNG copy)> <./Testes/Problema1/In
 cremental/P1Depois.png (PNG copy)>]
-<./Testes/Problema2/Incremental/2Rb.png, id=704, 1203.7472pt x 589.4522pt>
+<./Testes/Problema2/Incremental/2Rb.png, id=702, 1203.7472pt x 589.4522pt>
 File: ./Testes/Problema2/Incremental/2Rb.png Graphic file (type png)
 
 <use ./Testes/Problema2/Incremental/2Rb.png>
@@ -2059,24 +2058,24 @@ Package pdftex.def Info: ./Testes/Problema2/Incremental/2Rb.png used on input l
 ine 41.
 (pdftex.def)             Requested size: 409.49722pt x 200.51903pt.
 
-<./Testes/Problema2/Incremental/1Rb.png, id=705, 1203.7472pt x 589.4522pt>
+<./Testes/Problema2/Incremental/1Rb.png, id=703, 1203.7472pt x 589.4522pt>
 File: ./Testes/Problema2/Incremental/1Rb.png Graphic file (type png)
 
 <use ./Testes/Problema2/Incremental/1Rb.png>
 Package pdftex.def Info: ./Testes/Problema2/Incremental/1Rb.png used on input l
 ine 47.
 (pdftex.def)             Requested size: 409.49722pt x 200.51903pt.
-) [40 <./Testes/Problema1/Incremental/ErroDistancia.png (PNG copy)>] [41 <./Tes
+) [41 <./Testes/Problema1/Incremental/ErroDistancia.png (PNG copy)>] [42 <./Tes
 tes/Problema2/Incremental/2Rb.png (PNG copy)> <./Testes/Problema2/Incremental/1
 Rb.png (PNG copy)>]
 \openout2 = `./02-elementos-textuais/conclusao.aux'.
 
 
-(./02-elementos-textuais/conclusao.tex [42
+(./02-elementos-textuais/conclusao.tex [43
 
 
 
-]) [43]
+]) [44]
 \openout2 = `./03-elementos-pos-textuais/referencias.aux'.
 
 
@@ -2086,11 +2085,11 @@ Rb.png (PNG copy)>]
 
 
 bibitemlist
-[44
+[45
 
 
 
-])) [45]
+])) [46]
 \tf@lof=\write7
 \openout7 = `main.lof'.
 
@@ -2109,7 +2108,6 @@ Package atveryend Info: Empty hook `AfterLastShipout' on input line 120.
 (./01-elementos-pre-textuais/agradecimentos.aux)
 (./01-elementos-pre-textuais/epigrafe.aux)
 (./01-elementos-pre-textuais/resumo-pt.aux)
-(./01-elementos-pre-textuais/resumo-en.aux)
 (./01-elementos-pre-textuais/lista-figuras.aux)
 (./01-elementos-pre-textuais/lista-tabelas.aux)
 (./01-elementos-pre-textuais/lista-siglas.aux)
@@ -2126,7 +2124,7 @@ Package atveryend Info: Empty hook `AfterLastShipout' on input line 120.
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 120.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 120.
 Package rerunfilecheck Info: File `main.brf' has not changed.
-(rerunfilecheck)             Checksum: F1DAF2892B08260BB2CBCA959E46C592;930.
+(rerunfilecheck)             Checksum: 3B7925E87C73C2C349BBD26CB60A3C9D;930.
 
 
 LaTeX Warning: There were undefined references.
@@ -2137,13 +2135,13 @@ LaTeX Warning: There were multiply-defined labels.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 120.
  ) 
 Here is how much of TeX's memory you used:
- 26923 strings out of 493109
- 470577 string characters out of 6138587
- 654720 words of memory out of 5000000
- 29261 multiletter control sequences out of 15000+600000
- 51769 words of font info for 244 fonts, out of 8000000 for 9000
+ 26906 strings out of 493109
+ 470068 string characters out of 6138587
+ 653980 words of memory out of 5000000
+ 29255 multiletter control sequences out of 15000+600000
+ 50216 words of font info for 242 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 60i,17n,54p,1968b,602s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 60i,17n,54p,2065b,602s stack positions out of 5000i,500n,10000p,200000b,80000s
 {c:/texlive/2014/texmf-dist/fonts/enc/dvips/base/8r.enc}<c:/texlive/2014/texm
 f-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb><c:/texlive/2014/texmf-dist/fo
 nts/type1/public/amsfonts/cm/cmmi12.pfb><c:/texlive/2014/texmf-dist/fonts/type1
@@ -2154,10 +2152,10 @@ c:/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb><c:/texliv
 e/2014/texmf-dist/fonts/type1/urw/palatino/uplb8a.pfb><c:/texlive/2014/texmf-di
 st/fonts/type1/urw/palatino/uplr8a.pfb><c:/texlive/2014/texmf-dist/fonts/type1/
 urw/palatino/uplri8a.pfb>
-Output written on main.pdf (60 pages, 2565001 bytes).
+Output written on main.pdf (60 pages, 2569914 bytes).
 PDF statistics:
- 980 PDF objects out of 1000 (max. 8388607)
- 827 compressed objects within 9 object streams
- 195 named destinations out of 1000 (max. 500000)
- 38505 words of extra memory for PDF output out of 42996 (max. 10000000)
+ 974 PDF objects out of 1000 (max. 8388607)
+ 821 compressed objects within 9 object streams
+ 192 named destinations out of 1000 (max. 500000)
+ 37985 words of extra memory for PDF output out of 42996 (max. 10000000)
 

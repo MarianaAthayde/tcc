@@ -1,25 +1,25 @@
 \select@language {brazil}
-\contentsline {figure}{\numberline {1}{\ignorespaces Controle de Forma\IeC {\c c}\IeC {\~a}o: classifica\IeC {\c c}\IeC {\~a}o quanto \IeC {\`a} estrutura f\IeC {\'\i }sica\relax }}{7}{figure.caption.12}
-\contentsline {figure}{\numberline {2}{\ignorespaces Modelo do Rob\IeC {\^o}\relax }}{11}{figure.caption.13}
-\contentsline {figure}{\numberline {3}{\ignorespaces Problema 1: Fig.(a): Sistema no instante i. Fig.(b): Sistema no instante i+k.\relax }}{13}{figure.caption.14}
-\contentsline {figure}{\numberline {4}{\ignorespaces Estruturas de Rede\relax }}{14}{figure.caption.15}
-\contentsline {figure}{\numberline {5}{\ignorespaces Esquema do Sistema do Ponto de Vista de Apenas Um Agente\relax }}{17}{figure.caption.16}
-\contentsline {figure}{\numberline {6}{\ignorespaces Modelagem do Sistema\relax }}{18}{figure.caption.17}
-\contentsline {figure}{\numberline {7}{\ignorespaces Representa\IeC {\c c}\IeC {\~a}o do sistema est\IeC {\'a}vel\relax }}{18}{figure.caption.18}
-\contentsline {figure}{\numberline {8}{\ignorespaces Primeira malha de Controle do Sistema - Controle da velocidade angular\relax }}{20}{figure.caption.19}
-\contentsline {figure}{\numberline {9}{\ignorespaces Segunda malha de Controle do Sistema - Controle de Posicionamento\relax }}{22}{figure.caption.20}
-\contentsline {figure}{\numberline {10}{\ignorespaces Experimentos com Controlador Incremental\relax }}{26}{figure.caption.22}
-\contentsline {figure}{\numberline {11}{\ignorespaces Experimentos com Controlador P/PI e PID\relax }}{27}{figure.caption.24}
-\contentsline {figure}{\numberline {12}{\ignorespaces Experimentos com a Fun\IeC {\c c}\IeC {\~a}o Polinomial e o Controlador PID Embutido\relax }}{28}{figure.caption.25}
-\contentsline {figure}{\numberline {13}{\ignorespaces Experimentos com a Malha Intermedi\IeC {\'a}ria com Controlador Proporcional(kp=2.0) e Malha Interna: Controlador Incremental\relax }}{30}{figure.caption.27}
-\contentsline {figure}{\numberline {14}{\ignorespaces Experimentos com a Malha Intermedi\IeC {\'a}ria com Controlador Proporcional e Malha Interna: Controlador PID\relax }}{31}{figure.caption.28}
-\contentsline {figure}{\numberline {15}{\ignorespaces Experimentos com a Malha Intermedi\IeC {\'a}ria com Controlador Proporcional e Malha Interna: Controlador Polinomial\relax }}{32}{figure.caption.29}
-\contentsline {figure}{\numberline {16}{\ignorespaces Experimentos com a Malha Intermedi\IeC {\'a}ria com Controlador Proporcional e Malha Interna: Controlador Polinomial\relax }}{33}{figure.caption.30}
-\contentsline {figure}{\numberline {17}{\ignorespaces Problema 1 - Primeira Abordagem com Rede Centralizada\relax }}{34}{figure.caption.31}
-\contentsline {figure}{\numberline {18}{\ignorespaces Problema 1 - Primeira Abordagem com Rede Descentralizada\relax }}{35}{figure.caption.32}
-\contentsline {figure}{\numberline {19}{\ignorespaces Problema 1 - Segunda Abordagem\relax }}{36}{figure.caption.33}
-\contentsline {figure}{\numberline {20}{\ignorespaces Segundo Problema sem Medidas para Evitamento de Colis\IeC {\~a}o\relax }}{37}{figure.caption.34}
-\contentsline {figure}{\numberline {21}{\ignorespaces Problema 2: Rob\IeC {\^o}s convergindo um de cada vez, de acordo com a ordem de prioridade\relax }}{38}{figure.caption.35}
-\contentsline {figure}{\numberline {22}{\ignorespaces Problema 1 com 2 Rob\IeC {\^o}s\relax }}{39}{figure.caption.36}
-\contentsline {figure}{\numberline {23}{\ignorespaces Problema 1: Erro de Posi\IeC {\c c}\IeC {\~a}o\relax }}{40}{figure.caption.37}
-\contentsline {figure}{\numberline {24}{\ignorespaces Segundo Problema com Falha de um dos Rob\IeC {\^o}s\relax }}{41}{figure.caption.38}
+\contentsline {figure}{\numberline {1}{\ignorespaces Controle de Forma\IeC {\c c}\IeC {\~a}o: classifica\IeC {\c c}\IeC {\~a}o quanto \IeC {\`a} estrutura f\IeC {\'\i }sica\relax }}{7}{figure.caption.11}
+\contentsline {figure}{\numberline {2}{\ignorespaces Rob\IeC {\^o} diferencial de duas rodas\relax }}{11}{figure.caption.12}
+\contentsline {figure}{\numberline {3}{\ignorespaces Problema 1: Fig.(a): Sistema no instante $t_{i}$. Fig.(b): Sistema no instante $t_{2}$, em que $t_{2}$$>$$t_{1}$.\relax }}{14}{figure.caption.13}
+\contentsline {figure}{\numberline {4}{\ignorespaces Estruturas de Rede\relax }}{15}{figure.caption.14}
+\contentsline {figure}{\numberline {5}{\ignorespaces Esquema do sistema do ponto de vista de apenas um agente\relax }}{17}{figure.caption.15}
+\contentsline {figure}{\numberline {6}{\ignorespaces Reconfigura\IeC {\c c}\IeC {\~a}o do sistema mediante falha de um agente\relax }}{18}{figure.caption.16}
+\contentsline {figure}{\numberline {7}{\ignorespaces Representa\IeC {\c c}\IeC {\~a}o do sistema estabilizado com um \IeC {\'u}nico agente\relax }}{19}{figure.caption.17}
+\contentsline {figure}{\numberline {8}{\ignorespaces Primeira malha de Controle do Sistema - Controle da velocidade angular\relax }}{21}{figure.caption.18}
+\contentsline {figure}{\numberline {9}{\ignorespaces Segunda malha de Controle do Sistema - Controle de Posicionamento\relax }}{23}{figure.caption.19}
+\contentsline {figure}{\numberline {10}{\ignorespaces Experimentos com Controlador Incremental\relax }}{27}{figure.caption.21}
+\contentsline {figure}{\numberline {11}{\ignorespaces Experimentos com Controlador P/PI e PID\relax }}{28}{figure.caption.23}
+\contentsline {figure}{\numberline {12}{\ignorespaces Experimentos com a Fun\IeC {\c c}\IeC {\~a}o Polinomial e o Controlador PID Embutido\relax }}{29}{figure.caption.24}
+\contentsline {figure}{\numberline {13}{\ignorespaces Experimentos com a Malha Intermedi\IeC {\'a}ria com Controlador Proporcional(kp=2.0) e Malha Interna: Controlador Incremental\relax }}{31}{figure.caption.26}
+\contentsline {figure}{\numberline {14}{\ignorespaces Experimentos com a Malha Intermedi\IeC {\'a}ria com Controlador Proporcional e Malha Interna: Controlador PID\relax }}{32}{figure.caption.27}
+\contentsline {figure}{\numberline {15}{\ignorespaces Experimentos com a Malha Intermedi\IeC {\'a}ria com Controlador Proporcional e Malha Interna: Controlador Polinomial\relax }}{33}{figure.caption.28}
+\contentsline {figure}{\numberline {16}{\ignorespaces Experimentos com a Malha Intermedi\IeC {\'a}ria com Controlador Proporcional e Malha Interna: Controlador Polinomial\relax }}{34}{figure.caption.29}
+\contentsline {figure}{\numberline {17}{\ignorespaces Problema 1 - Primeira Abordagem com Rede Centralizada\relax }}{35}{figure.caption.30}
+\contentsline {figure}{\numberline {18}{\ignorespaces Problema 1 - Primeira Abordagem com Rede Descentralizada\relax }}{36}{figure.caption.31}
+\contentsline {figure}{\numberline {19}{\ignorespaces Problema 1 - Segunda Abordagem\relax }}{37}{figure.caption.32}
+\contentsline {figure}{\numberline {20}{\ignorespaces Segundo Problema sem Medidas para Evitamento de Colis\IeC {\~a}o\relax }}{38}{figure.caption.33}
+\contentsline {figure}{\numberline {21}{\ignorespaces Problema 2: Rob\IeC {\^o}s convergindo um de cada vez, de acordo com a ordem de prioridade\relax }}{39}{figure.caption.34}
+\contentsline {figure}{\numberline {22}{\ignorespaces Problema 1 com 2 Rob\IeC {\^o}s\relax }}{40}{figure.caption.35}
+\contentsline {figure}{\numberline {23}{\ignorespaces Problema 1: Erro de Posi\IeC {\c c}\IeC {\~a}o\relax }}{41}{figure.caption.36}
+\contentsline {figure}{\numberline {24}{\ignorespaces Segundo Problema com Falha de um dos Rob\IeC {\^o}s\relax }}{42}{figure.caption.37}
