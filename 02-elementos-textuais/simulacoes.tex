@@ -10,7 +10,7 @@ Essas implementações desconsideram não só o robô como um elemento não-pont
 
 Primeiramente, foi realizado a simulação da primeira estratégia de abordagem do primeiro problema, em que tem-se uma frota de \emph{N} robôs separados entre si no eixo $y$ e com uma posição randômica no eixo $x$, todos dispostos na mesma direção e sentido. A primeira estratégia elimina os problemas de colisão, visto que os robôs começam separados, no mesmo sentido e como são impossibilitados a imprimir uma velocidade angular pela estratégia adotada, seguem em linha reta com velocidade linear negativa ou positiva. Além disso, ela leva em consideração a rede de comunicação, utilizando-se a \autoref{eq:velP1}. 
 
-Serão feitas simulações com duas redes, a primeira será uma rede centralizada com 4 robôs, tal qual é possível implementar com a plataforma \emph{Lego Mindstorms\textregistered}. A segunda, será uma rede descentralizada com cinco robôs, tal como a rede ilustrada na \autoref{fig:rededistr}. Como mostrado nas figuras \ref{fig:sP1Cent} e \ref{fig:sP1Desc}, essa é uma estratégia viável quando considerando o robô como um elemento pontual.
+Serão feitas simulações com duas redes, a primeira será uma rede centralizada com 4 robôs, tal qual é possível implementar com a plataforma \emph{Lego Mindstorms\textregistered}. A segunda, será uma rede descentralizada com cinco robôs, tal como a rede ilustrada na \autoref{fig:rededistr}. Como mostrado nas Figuras \ref{fig:sP1Cent} e \ref{fig:sP1Desc}, essa é uma estratégia viável quando considerando o robô como um elemento pontual.
 
 \begin{figure}[!htb]
 	\centering
@@ -48,7 +48,7 @@ Serão feitas simulações com duas redes, a primeira será uma rede centralizad
 	\label{fig:sP1Desc}
 \end{figure}
 
-Já a segunda estratégia consiste em encontrar uma reta paralela ao eixo y onde, sua localização no eixo x é a média da posição dos robôs mais distantes entre sí do sistema. Ela foi implementada de modo a permitir que o robô a adquirira uma velocidade angular. Sendo assim ele pode se deslocar em qualquer direção. Essa abordagem faz uso da malha de controle intermediário modelada no \autoref{chap:abordagememdelo} e possui problemas de colisão, já que os robôs podem se deslocar em qualquer direção.
+Já a segunda estratégia consiste em encontrar uma reta paralela ao eixo y onde, sua localização no eixo x é a média da posição dos robôs mais distantes entre sí do sistema. Ela foi implementada de modo a permitir que o robô adquirira uma velocidade angular. Sendo assim ele pode se deslocar em qualquer direção. Essa abordagem faz uso da malha de controle intermediário modelada no \autoref{chap:abordagememdelo} e apresenta problemas de colisão, já que os robôs podem se deslocar em qualquer direção.
 
 Não foi implementado neste trabalho um tratamento de colisão, foram adotadas algumas medidas para diminuir as colisões no sistema. A primeira medida foi estabelecer uma prioridade na rede que vai do mestre ao último escravo, aquele que possui menor prioridade para ao estar em menos de 20 centímetros de distância de outro robô. A segunda medida foi fazer com que os robôs convirjam um a um para o ponto desejado. Notou-se com essas medidas uma redução no número de colisões ocorridas no sistema. 
 
@@ -76,7 +76,7 @@ Como pode ser visto na \autoref{fig:sP1A2}, essa abordagem também é viável en
 \label{sec:SimulacaoP2}
 Como já dito anteriormente neste trabalho, o segundo problema consiste em guiar uma frota de robôs a um determinado alvo e circulá-lo a uma distância \emph{R} e um período \emph{T}. Dito isto, fez-se algumas simulações para validar o modelo matemático e compará-lo ao modelo real. Esta simulação desconsidera um problema enfrentado no mundo real que é a falta de sincronismo entre os relógios dos motores, visto que o tempo corrido em simulação é igual para todos os robôs da frota. 
 
-A primeira simulação realizada desconsidera problemas de colisão e inicia os robôs com posições randômicas, após mil amostras retira-se dois robôs e verifica que os robôs se reorganizam, mantendo a mesma distância entre si. Já nas simulações seguintes tomamos as medidas citadas na \autoref{sec:SimulacaoP1} para evitar que ocorra colisão entre os robôs. Como pode ser visto nas figuras \ref{fig:sP2F}, \ref{fig:sP2C}, as estratégias modeladas são viáveis dentro de um ambiente de simulação pouco realístico. 
+A primeira simulação realizada desconsidera problemas de colisão e inicia os robôs com posições randômicas. Após mil intervalos de amostragem retiram-se dois robôs e verifica-se que o sistema se reorganiza, mantendo os robôs a mesma distância angular entre si. Já nas simulações seguintes foram tomadas as medidas citadas na \autoref{sec:SimulacaoP1} para evitar que ocorra colisão entre os robôs. Como pode ser visto nas figuras \ref{fig:sP2F}, \ref{fig:P2C}, as estratégias modeladas são viáveis dentro de um ambiente de simulação computacional.%pouco realístico. 
 
 \begin{figure}[!htb]
 	\centering

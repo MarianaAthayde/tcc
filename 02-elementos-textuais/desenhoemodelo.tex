@@ -11,14 +11,14 @@
 %Como citado no \autoref{chap:Metod}, serão utilizadas duas abordagens diferentes, uma para resolver apenas o primeiro problema e a outra uma abordagem mais genérica que permite adaptação para resolução de ambos os problemas. A primeira abordagem, utilizará uma malha de controle de velocidade e uma malha de controle que será responsável pela comunicação entre os robôs e definirá a velocidade de cada robô, baseado na posição dos outros integrantes da frota.
 
 %Já a segunda abordagem
-Como já dito no \autoref{chap:Metod}, foi escolhida uma estratégia que atende á resolução de ambos os problemas. A qual, consiste em três malhas de controle: A primeira e mais interna será responsável pelo controle da velocidade angular de cada roda, para se chegar à posição (\emph{x,y}) desejada. A segunda, malha intermediária, será responsável para que cada robô chegue à um determinado ponto (\emph{x,y}) no espaço, portanto, será responsável por corrigir o posicionamento do robô. Ambas as malhas estarão presentes em cada um dos robôs da frota. A terceira malha, e portanto, a mais externa é responsável pela coordenação da frota, fornecendo a cada robô as informações necessárias para que o mesmo saiba o ponto (\emph{x,y}), onde deve ficar para consolidar e manter a formação.
+Como já dito no \autoref{chap:Metod}, foi escolhida uma estratégia que atende à resolução de ambos os problemas\ a qual, consiste em três malhas de controle: a primeira e mais interna será responsável pelo controle da velocidade angular de cada roda, para se chegar à posição (\emph{x,y}) desejada; a segunda, malha intermediária, será responsável para que cada robô chegue à um determinado ponto (\emph{x,y}) no espaço, portanto, será responsável por corrigir o posicionamento do robô (A primeira e a segunda malhas serão implementadas em cada um dos robôs da frota); a terceira malha e, portanto, a mais externa, é responsável pela coordenação da frota, fornecendo a cada robô as informações necessárias para que o mesmo saiba o ponto (\emph{x,y}) que deve rastrear para consolidar e manter a formação.
 
-Faz se então neste capítulo um detalhamento das malhas de controle utilizadas e das modificações realizadas para que a estratégia atenda à ambos os problemas. Bem como, uma descrição de como funcionam as malhas responsáveis pela comunicação e pelo controle de formação para a resolução de cada um dos problemas e faz-se um levantamento dos possíveis problemas que podem surgir na implementação do sistema.   
+Faz-se então neste capítulo um detalhamento das malhas de controle utilizadas e das modificações realizadas para que a estratégia atenda a ambos os problemas, bem como uma descrição de como funcionam as malhas responsáveis pela comunicação e pelo controle de formação para a resolução de cada um dos problemas. Faz-se também um levantamento dos possíveis problemas que podem surgir na implementação do sistema.   
 %Faz-se então neste capítulo, primeiramente, a modelagem do problema, para que então, possa-se simular e implementar o problema. Para estabelecer o modelo matemático do problema, será considerado o modelo de robô mostrado na \autoref{fig:robo}.
 
 \section{Malha de Controle 1: Velocidade Angular das Rodas}
 \label{sec:malha1 } 
-Como já dito anteriormente neste trabalho, este sistema de controle consiste em um controle de três malhas, e agora será abordado sobre a primeira malha. Ela controla os motores para atingir a velocidade angular desejada de cada roda ($\omega_{dr},\omega_{dl}$). Ou seja, a malha de controle vai receber a velocidade linear e angular que se deseja imprimir no robô e retornar a "potência" que deve ser aplicada a cada um dos motores para se atingir as velocidades desejadas. Como demonstrado pela /autoref{fig:malha1}.
+Como já dito anteriormente neste trabalho, este sistema de controle consiste em um controle de três malhas, e agora será abordada a primeira malha. Ela controla os motores para atingir a velocidade angular desejada de cada roda ($\omega_{dr},\omega_{dl}$). Ou seja, a malha de controle vai receber a velocidade linear e angular que se deseja imprimir no robô e retornar a "potência" que deve ser aplicada a cada um dos motores para se atingir as velocidades desejadas, como pode ser observado na \autoref{fig:malha1}.
 
 \begin{figure}[!htb]
 	\centering
@@ -29,7 +29,8 @@ Como já dito anteriormente neste trabalho, este sistema de controle consiste em
 
 É importante ressaltar que como o robô não é um elemento pontual\footnote{Veja a \autoref{fig:sistEst} para visualizá-lo como um elemento não pontual, que depende da variação de velocidade de cada roda para definir a velocidade e o sentido do robô.}, como considerado na \autoref{sec:modMatematico} ao descrever as equações do modelo, temos que descrever a velocidade angular (\emph{$\omega$}) e linear (\emph{$v$}) do robô em função de cada roda, para sabermos a potência a ser aplicada em cada uma delas para que o robô obtenha a velocidade e o sentido desejados.
 
-A partir daí o módulo calcula velocidade angular desejada de cada roda, como demonstrado nas equações abaixo:
+A partir daí o %módulo 
+microcomputador embarcado calcula a velocidade angular desejada de cada roda, como indicado nas equações abaixo que, por sua vez, são oriundas das equações (\ref{eq:vConv}) e (\ref{eq:wConv}):
 \begin{subequations}
 \begin{equation}
 \omega_{dr} = \dfrac{2v + \omega_{d}L}{2r_{p}}	
@@ -46,11 +47,11 @@ onde:
 	\item $v_d$ é a velocidade linear desejada do robô ($m/s$);
 	\item $\omega_{dr}$ é a velocidade angular desejada da roda direita ($rad/s$);
 	\item $\omega_{dl}$ é a velocidade angular desejada da roda esquerda ($rad/s$);
-	\item $r_{p}$ o raio do pneu ($m$);
-	\item $L$ o tamanho do eixo do robô ($m$).	
+	\item $r_{p}$ o raio da roda ($m$);
+	\item $L$ o tamanho do eixo das rodas do robô ($m$).	
 \end{itemize}
 
-Com a velocidade angular de cada roda  do robô, calculada através dos dados fornecidos pelos \emph{encoders}, é calculado o erro das velocidades, como mostrado nas equações abaixo, e o controlador os retorna as ações de controle que serão passadas como potência para cada uma das rodas.
+Com a velocidade angular de cada roda  do robô, estimada a partir dos dados fornecidos pelos \emph{encoders}, é calculado o erro das velocidades dado por:%, como mostrado nas equações abaixo, 
 \begin{equation}
 e_{wr} = \omega_{dr} - \omega_{rr}
 \label{eq:errVelAngDireita}
@@ -59,18 +60,19 @@ e_{wr} = \omega_{dr} - \omega_{rr}
 e_{wl} = \omega_{dl} - \omega_{rl}
 \label{eq:errVelAngEsquerda}
 \end{equation} 
-
 onde:
 \begin{itemize}
 	\item $e_{wr}$ e $e_{wl}$ são os erros da velocidade angular da roda direita e esquerda, respectivamente;
-	\item $\omega_{rr}$ é a velocidade angular real da roda direita e esquerda, respectivamente.
-\end{itemize}	
+	\item $\omega_{rr}$ e $\omega_{rl}$ é a velocidade angular real da roda direita e esquerda, respectivamente.
+\end{itemize}
+E o controlador os retorna as ações de controle que serão passadas como potência para cada uma das rodas.	
 
 \section{Malha de Controle 2: Posicionamento}
 \label{sec:malha2 } 
-Para que a malha de controle 3, que consiste no controle de formação da tropa funcione, primeiramente é necessário implementar o controle de posicionamento de cada robô. Ou seja, para que o robô cumpra a missão, é necessário que a malha de controle de formação passe para cada robô os parâmetros necessários para o ajuste da estrutura, tais como, posicionamento, velocidade e número de robôs da frota. Esse por sua vez, deve conseguir se posicionar na posição correta, recebida pela malha de controle 3,o que só será possível se a malha de controle 1 conseguir controlar adequadamente os motores para que eles imprimam a velocidade correta em cada roda.
+Para que a malha de controle 3, que consiste no controle de formação do sistema multiagente funcione, primeiramente é necessário implementar o controle de posicionamento de cada robô. Ou seja, para que o robô cumpra a missão, é necessário que a malha de controle de formação passe para cada robô os parâmetros necessários para o ajuste da estrutura, tais como, posicionamento, velocidade e número de robôs da frota. Cada robô por sua vez, deve conseguir se posicionar corretamente de acordo com a posição recebida pela malha de controle 3, o que só será possível se a malha de controle 1 conseguir controlar adequadamente os motores para que eles imprimam a velocidade correta em cada roda.
 
-Como pode ser visto na \autoref{fig:esq2}, o problema a ser resolvido pela segunda malha de controle, consiste em, dado um sistema de coordenadas cartesianas, onde têm-se um robô móvel de posição (\emph{$x_{r},y_{r}$}), cujo sentido (\emph{$\theta$}) é indicado pela sua variação dado o eixo \emph{x} do sistema, onde pretende-se fazer com que o robô chegue ao ponto desejado (\emph{$x_{d},y_{d}$}, recebido da malha de controle 3). Para tanto, a malha 2 funciona da seguinte maneira: Recebe da malha 3 os parâmetros necessários para o cálculo da posição desejada do robô (\emph{$x_{d},y_{d}$}), a partir daí é achado o erro de posição do robô (\emph{$e_{x},e_{y}$}), fazendo-se a diferença entre a posição desejada e a posição real do robô (\emph{$x_{r},y_{r}$}), que é obtida através dos \emph{encoders} do LEGO\textregistered, que se mostrou suficientemente precisos.
+Como pode ser visto na \autoref{fig:esq2}, o problema a ser resolvido pela segunda malha de controle consiste em, dado um sistema de coordenadas cartesianas, onde têm-se um robô móvel de posição (\emph{$x_{r},y_{r}$}), cuja orientação (\emph{$\theta$}) é indicada em relação ao eixo \emph{x} do sistema, %onde pretende-se 
+fazer com que o robô chegue ao ponto desejado (\emph{$x_{d},y_{d}$}), recebido da malha de controle 3. Para tanto, a malha 2 funciona da seguinte maneira: Recebe da malha 3 os parâmetros necessários para o cálculo da posição desejada do robô (\emph{$x_{d},y_{d}$}), e a partir daí é determinado o erro de posição do robô (\emph{$e_{x},e_{y}$}), fazendo-se a diferença entre a posição desejada e a posição real do robô (\emph{$x_{r},y_{r}$}), que é obtida através dos \emph{encoders} do LEGO\textregistered, que se mostrou suficientemente precisos.
 
 \begin{equation}
 e_{r} = r_{d} - r_{r}
@@ -85,20 +87,19 @@ e_{y} = y_{d} - y_{r}
 \label{eq:erry}
 \end{equation}
 
-Através do erro de posicionamento do robô, encontra-se o sentido desejado (\emph{$\theta_{d}$}), como mostrado na \autoref{eq:thetad}. Então, o erro de sentido do robô é obtido, através da \autoref{eq:errtheta} abaixo. 
-
+Através do erro de posicionamento do robô, encontra-se o ângulo de orientação desejado, dado por: %(\emph{$\theta_{d}$}), como mostrado na \autoref{eq:thetad}. 
 \begin{equation}
 \theta_{d} = \arctan(\dfrac{e_{y}}{e_{x}})
 \label{eq:thetad}
 \end{equation}
+Então, o erro do ângulo de orientação do robô é obtido, através da %\autoref{eq:errtheta} abaixo.
+equação indicada abaixo: 
 \begin{equation}
 e_{\theta} = \theta_{d} - \theta_{r}
 \label{eq:errtheta}
 \end{equation}
 
-O erro de sentido (\emph{$e_{\theta}$}) é passado para o controlador que retorna a velocidade linear e angular da ação de controle, que será passada para a malha mais interna. %Posteriormente, será feita uma comparação entre os controladores \emph{PI} e \emph{PID} e será definido o controlador a ser utilizado nesta malha.
-
-
+O erro do ângulo de orientação (\emph{$e_{\theta}$}) é passado para o controlador que retorna a velocidade linear e angular da ação de controle, que será passada para a malha mais interna (malha 1). %Posteriormente, será feita uma comparação entre os controladores \emph{PI} e \emph{PID} e será definido o controlador a ser utilizado nesta malha.
 
 \begin{figure}[!htb]
 	\centering
@@ -109,13 +110,13 @@ O erro de sentido (\emph{$e_{\theta}$}) é passado para o controlador que retorn
 
 \section{Malha de Controle 3: Controle de formação}
 \label{sec:malha3 }
-A malha de controle de formação tem como função estabelecer a comunicação entre os robôs, enviando os dados necessários para que se estabeleça a formação da frota. Além disso, ela utiliza as informações recebidas para estabelecer a posição em que o robô deve assumir naquele instante. Existem duas formas de se fazer esse controle, uma delas consiste em centralizar este controle de formação no mestre e enviar para o restante da frota apenas a posição desejada já calculada, já a outra, consiste na troca de informações entre a tropa sem sobrecarregar o mestre.
+A malha de controle de formação tem como função estabelecer a comunicação entre os robôs, enviando os dados necessários para que se estabeleça a formação da frota. Além disso, ela utiliza as informações recebidas para estabelecer a posição em que o robô deve assumir naquele instante. Existem duas formas de se fazer esse controle, uma delas consiste em centralizar este controle de formação no mestre e enviar para o restante da frota apenas a posição desejada já calculada; já a outra consiste na troca de informações entre os agentes do sistema sem sobrecarregar o mestre.
 
-No caso do primeiro problema, é necessário que cada robô saiba a posição no eixo das abscissas de todos os outros robôs e a partir daí calcule a posição desejada do robô. Ou seja, um determinado robô recebe a posição dos outros robôs da tropa e aplica na \autoref{eq:velP1} obtendo então a posição desejada do robô naquele instante, que é passada para a malha de controle intermediária, que por sua vez calcula o erro de posicionamento e envia para a malha de controle de velocidade interna as velocidades que devem ser assumidas pelo robô para que o mesmo possa alcançar a posição desejada e cumprir com os objetivos. É importante ressaltar que dependendo da rede implementada, como é o caso deste trabalho em que a rede é centralizada e os robôs escravos não se comunicam entre si, essas informações devem ser passadas entre a frota através do mestre.
+No caso do primeiro problema (varredura de área em paralelo), é necessário que cada robô saiba a posição no eixo das abscissas de todos os outros robôs e a partir daí calcule a posição desejada. Ou seja, um determinado robô recebe a posição dos outros robôs da frota e utiliza a \autoref{eq:velP1} para obter a posição desejada do robô naquele instante, que é passada para a malha de controle intermediária, que por sua vez calcula o erro de posicionamento e envia para a malha de controle de velocidade interna as velocidades que devem ser assumidas pelo robô para que o mesmo possa alcançar a posição desejada e cumprir os objetivos estabelecidos. É importante ressaltar que, a depender da rede implementada, como é o caso deste trabalho em que a rede é centralizada e os robôs escravos não se comunicam entre si, essas informações devem ser passadas de um robô para o outro sempre através do mestre. %entre a frota através do mestre.
 
-Já no caso do segundo problema, as informações que cada robô deve possuir para assumir a formação da frota são: número de robôs da frota, numeração que aquele robô representa na frota e posição do alvo. A partir daí é possível utilizar as \autoref{eq:posDesejada_p2} para se obter a posição desejada para que aquele robô contribua positivamente para a formação da estrutura da frota. Como pode ser visto a definição da posição desejada leva em consideração o tempo, o que é um problema na aplicação prática, visto que não há uma sincronia entre os relógios dos robôs. Dessa forma, para contorna este problema, será levado em consideração o relógio do mestre, sendo necessário que essa variável também seja repassada ao restante da frota. 
+Já no caso do segundo problema (circulação de um robô), as informações que cada robô deve possuir para assumir a formação da frota são: número de robôs da frota, numeração que aquele robô representa na frota e posição do alvo. A partir daí é possível utilizar as \autoref{eq:posDesejada_p2} para se obter a posição desejada para que aquele robô contribua positivamente para a formação da estrutura da frota. Como pode ser visto na \autoref{eq:posDesejada_p2}, a definição da posição desejada leva em consideração o tempo, o que é um problema na aplicação prática, visto que não há uma sincronia entre os relógios dos robôs. Dessa forma, para contornar este problema, será levado em consideração o relógio do mestre, sendo necessário que essa variável também seja repassada ao restante da frota. 
 
-É importante notar que esta malha de controle não é uma malha fechada, ou seja, ela não possui realimentação. Esta malha apenas controla as informações e para quais robôs as mesmas devem ser enviadas, além de calcular a posição desejada utilizando-se das equações já mostradas anteriormente. 
+%É importante notar que esta malha de controle não é uma malha fechada, ou seja, ela não possui realimentação. Esta malha apenas controla as informações e para quais robôs as mesmas devem ser enviadas, além de calcular a posição desejada utilizando-se das equações já mostradas anteriormente. 
 
 
 
