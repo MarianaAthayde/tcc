@@ -2,7 +2,8 @@
 \label{chap:testesMalhas}
 Para alcançar o objetivo final deste trabalho, fez-se uma modularização do problema que foi validada e integrada, módulo a módulo. Primeiramente será testada a malha 1 de controle de velocidade angular das rodas. Ou seja, após dado um comando de velocidade angular para roda quanto tempo a malha levará para estabilizar o sistema, isto é, para que o erro convirja para zero. 
 
-O primeiro teste a ser realizado será na malha de controle mais interna com cinco controladores diferentes: P, PI, PID, Incremental e o quinto, através de uma função polinomial que converte a velocidade angular desejada na potência a ser aplicada. Para utilizar essa função polinomial é necessário recorrer a um método da linguagem \emph{NXC} de ativação dos motores que já implementa um controlador de malha fechada. Essa função foi obtida por meio de um mapeamento das potências aplicadas e as velocidades adquiridas pelo motor. Em seguida foi realizada uma aproximação de 4º grau. %Esse mapeamento, assim como, a função aproximada foi realizada pelo Professor Tales Argolo Jesus e será utilizada neste trabalho.
+O primeiro teste a ser realizado será na malha de controle mais interna com cinco controladores diferentes: P, PI, PID, Incremental e o quinto, através de uma função polinomial que converte a velocidade angular desejada na potência a ser aplicada. Para utilizar essa função polinomial é necessário recorrer a um método da linguagem \emph{NXC} de ativação dos motores que já implementa um controlador de malha fechada. Essa função foi obtida por meio de um mapeamento da resposta do sistema às potências aplicadas. Em seguida foi realizada uma aproximação de 4º grau com os dados obtidos.
+%Essa função foi obtida por meio de um mapeamento das potências aplicadas e as velocidades adquiridas pelo motor. Em seguida foi realizada uma aproximação de 4º grau. %Esse mapeamento, assim como, a função aproximada foi realizada pelo Professor Tales Argolo Jesus e será utilizada neste trabalho.
 
 Para que a malha de controle interno cumpra seu objetivo é necessário que o erro entre a velocidade desejada e a velocidade real em cada roda tenda a zero. Ou seja, desejando-se que o robô tenha uma velocidade linear de $0.1 m/s$ e uma velocidade angular de $0.6 rad/s$, faz-se uma conversão desses valores utilizando da \autoref{eq:convVelAngRodas}, encontrando os valores desejados para cada uma das rodas. Feito isso, calcula-se o erro entre a velocidade desejada e a real de cada roda e passa esse erro como entrada para o controlador que deve aplicar uma potência nos motores pretendendo atingir a velocidade desejada.
 
@@ -57,7 +58,7 @@ duas vezes menor. Já, comparado ao de incremento igual a seis, ele apresenta um
 \section{Malha 1: Controladores P, PI e PID}
 \label{m1ContPID}
 
-Foram realizados testes com controladores do tipo P, PI e PID, os ganhos foram ajustados de forma empírica e a \autoref{t:cpid}, assim como as figuras \ref{fig:contP} e \ref{fig:contPID} mostram alguns dos resultados  obtidos. Pode-se observar que o melhor ganho obtido a partir dos testes realizados foi o do controlador PID com ganho proporcional igual a $10$, ganho integrativo igual a $15$ e ganho derivativo igual a $0,2$, visto que ele apresentou o menor tempo de resposta com uma oscilação razoável. 
+Foram realizados testes com controladores do tipo P, PI e PID, os ganhos foram ajustados de forma empírica e a \autoref{t:cpid}, assim como as figuras \ref{fig:contP} e \ref{fig:contPID} mostram alguns dos resultados  obtidos. Pode-se observar que o melhor ganho obtido a partir dos testes realizados foi o do controlador PID com ganho proporcional igual a $10$, ganho integrativo igual a $15$ e ganho derivativo igual a $0,2$, visto que ele apresentou o menor tempo de resposta com uma oscilação razoável e inferior aos outros ganhos. 
 
 \begin{table}[!htb]
 	\centering
@@ -65,10 +66,10 @@ Foram realizados testes com controladores do tipo P, PI e PID, os ganhos foram a
 		\hline
 		\textbf{\begin{tabular}[c]{@{}c@{}}Características/\\ Ganhos do controlador\end{tabular}} & \textbf{\begin{tabular}[c]{@{}c@{}}Valor de \\Estabilização\\ ($rad/s$)\end{tabular}} & \textbf{\begin{tabular}[c]{@{}c@{}}Oscilação\\ ($rad/s$)\end{tabular}} & \textbf{\begin{tabular}[c]{@{}c@{}}Tempo de \\ Assentamento ($s$)\end{tabular}} & \textbf{Controle} \\ \hline
 		\textbf{P: 10}                                                                            & $3$ $rad/s$                                                               & $1.3 rad/s$                                                            & $0.5s$                                                                    & Suave             \\ \hline
-		\textbf{P:10 - I:15}                                                                      & $0$ $rad/s$                                                               & $0.65 rad/s$                                                           & $2s$                                                                      & Suave             \\ \hline
-		\textbf{P:10 - I:17}                                                                      & $0$ rad/s                                                               & $0.6 rad/s$                                                            & $1.9s$                                                                    & Suave             \\ \hline
-		\textbf{P:10 - I:15 - D:0.2}                                                              & $0$ $rad/s$                                                               & $1.3 rad/s$                                                            & $1.5s$                                                                    & Suave             \\ \hline
-		\textbf{P:10 - I:15 - D:0.6}                                                              & $0$ $rad/s$                                                               & $0.65 rad/s$                                                           & $2s$                                                                      & Agressivo         \\ \hline
+		\textbf{P:10 - I:15}                                                                      & $0$ $rad/s$                                                               & $0.65 rad/s$                                                           & $3.25s$                                                                      & Suave             \\ \hline
+		\textbf{P:10 - I:17}                                                                      & $0$ rad/s                                                               & $0.65 rad/s$                                                            & $2.9s$                                                                    & Suave             \\ \hline
+		\textbf{P:10 - I:15 - D:0.2}                                                              & $0$ $rad/s$                                                               & $0.6 rad/s$                                                            & $2.9s$                                                                    & Suave             \\ \hline
+		\textbf{P:10 - I:15 - D:0.6}                                                              & $0$ $rad/s$                                                               & $1.3 rad/s$                                                           & $2s$                                                                      & Agressivo         \\ \hline
 	\end{tabular}
 	\caption{Experimentos com Controlador P/PI/PID}
 	\label{t:cpid}
@@ -127,7 +128,7 @@ f(\omega_{desejada}) = -0.00091\omega_{desejada}^{4} + 0.0223\omega_{desejada}^{
 \label{eq:pol}
 \end{equation} 
  
- Como pode ser visto na \autoref{fig:pol}, a função mapeia muito bem as saídas do motor, o sistema converge para um valor de erro nulo com um tempo de aproximadamente 2 segundos, com uma oscilação de $\pm0.6 rad/s$, bem próximo aos resultados obtidos com o controlador PI ajustado na \autoref{m1ContPID}. %manualmente.
+ Como pode ser visto na \autoref{fig:pol}, a função mapeia muito bem as saídas do motor, o sistema converge para um valor de erro nulo com um tempo de aproximadamente 0,75 segundos, com uma oscilação de $\pm0.6 rad/s$, chegando a ser quase quatro vezes mais rápida que os resultados obtidos com o controlador PID ajustado na \autoref{m1ContPID}.  %bem próximo aos resultados obtidos com o controlador PI ajustado na \autoref{m1ContPID}. %manualmente. sendo, uma das mais rápidas, com menor oscilação e controle suave.
  
  \begin{figure}[!htb]
  	\centering
@@ -149,7 +150,7 @@ f(\omega_{desejada}) = -0.00091\omega_{desejada}^{4} + 0.0223\omega_{desejada}^{
  do ponto de vista de tempo de resposta, %todas atendem com o pré-requisito
  todos os controladores da malha mais interna testados atendem ao pré-requisito, no entanto, ao observar o sistema na vida real é possível notar que o controlador PID é muito agressivo e por vezes produz um tranco no motor, o que não é desejado, visto que qualquer comando brusco pode ocasionar em derrapagem das rodas, o que poderia levar o robô a se perder por acumulo de erro odométrico e mapear uma trajetória diferente da trajetória apresentada no mundo real.
  
- Os dois que apresentaram melhores resultados foram o controlador da malha externa proporcional com ganho de aproximadamente igual a $2$ combinados com os controladores Incremental e Polinomial, o que se confirma pelas figuras \ref{fig:m2inc}, \ref{fig:m2pid}, \ref{fig:m2pol} e pela \autoref{t:CompMalha2}. Como mostrado na \autoref{fig:m2pol2}, os testes com controlador PI na malha intermediária não apresentaram um bom resultado, apresentando oscilações indesejadas que demoraram para se estabilizar ao mudar a ação de controle drasticamente, além de apresentar um controle mais agressivo.
+ Os dois que apresentaram melhores resultados foram o controlador da malha externa proporcional com ganho de aproximadamente igual a $2$ combinados com os controladores Incremental e Polinomial, o que se confirma pelas figuras \ref{fig:m2inc}, \ref{fig:m2pid}, \ref{fig:m2pol} e pela \autoref{t:compMalha2}. Como mostrado na \autoref{fig:m2pol2}, os testes com controlador PI na malha intermediária não apresentaram um bom resultado, apresentando oscilações indesejadas que demoraram para se estabilizar ao mudar a ação de controle drasticamente, além de apresentar um controle mais agressivo.
  
  \begin{table}[!htb]
  	\centering
@@ -177,10 +178,10 @@ f(\omega_{desejada}) = -0.00091\omega_{desejada}^{4} + 0.0223\omega_{desejada}^{
  	\begin{subfigure}{1.0\textwidth}
  		\centering
  		\includegraphics[width=.9\linewidth]{./Testes/Malha2/P2.0/Incremental-3/ErroM2Inc}
- 		\caption{Erro da Malha Intermediária: P=1.0 - Malha Interna: Incremental k = 3}
+ 		\caption{Erro da Malha Intermediária: P=2.0 - Malha Interna: Incremental k = 3}
  		\label{fig:m2incerr}
  	\end{subfigure}
- 	\caption{Experimentos com a Malha Intermediária com Controlador Proporcional(kp=2.0) e Malha Interna: Controlador Incremental}
+ 	\caption{Experimentos com a Malha Intermediária com Controlador Proporcional(kp=2.0) e Malha Interna: Controlador Incremental (k = 3)}
  	\label{fig:m2inc}
  \end{figure}
  

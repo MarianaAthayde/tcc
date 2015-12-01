@@ -171,11 +171,11 @@ sub malha1(float vLinear,float vAng){
 
 
            //Variáveis de Ajuste Polinômial
-          /*cr = P[0]*pow(wdr,4) + P[1]*pow(wdr,3) + P[2]*pow(wdr,2) + P[3]*wdr + P[4];  // Ajuste polinomial
+          cr = P[0]*pow(wdr,4) + P[1]*pow(wdr,3) + P[2]*pow(wdr,2) + P[3]*wdr + P[4];  // Ajuste polinomial
           cl = P[0]*pow(wdl,4) + P[1]*pow(wdl,3) + P[2]*pow(wdl,2) + P[3]*wdl + P[4];  // Pwr_{r,l} X w_{r,l}
            // Comandos para os motores (Polinomial)
           OnFwdReg(motorR, cr, OUT_REGMODE_SPEED);
-          OnFwdReg(motorL, cl, OUT_REGMODE_SPEED);      */
+          OnFwdReg(motorL, cl, OUT_REGMODE_SPEED);
 
 
     //Salvando erros em arquivo

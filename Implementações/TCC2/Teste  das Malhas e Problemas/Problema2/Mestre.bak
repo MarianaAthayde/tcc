@@ -8,7 +8,7 @@
 #define motorR OUT_A
 #define motorL OUT_C
 float R = 0.3;
-float T = 24;
+float T = 12;
 
 //Auxiliar para gravar no arquivo txt
 string write;
@@ -137,7 +137,7 @@ sub malha1(float vLinear,float vAng){
     acum_erl = acum_erl + ki*dt*ewl;   */
 
     //Incremental
-    if(ewr > 0){
+    /*if(ewr > 0){
            cr = cr + incremento;
     }else{
           if(ewr < 0 ){
@@ -167,15 +167,15 @@ sub malha1(float vLinear,float vAng){
     }
 
     OnFwd(OUT_A,cr);
-    OnFwd(OUT_C,cl);
+    OnFwd(OUT_C,cl);*/
 
 
            //Variáveis de Ajuste Polinômial
-          /*cr = P[0]*pow(wdr,4) + P[1]*pow(wdr,3) + P[2]*pow(wdr,2) + P[3]*wdr + P[4];  // Ajuste polinomial
+          cr = P[0]*pow(wdr,4) + P[1]*pow(wdr,3) + P[2]*pow(wdr,2) + P[3]*wdr + P[4];  // Ajuste polinomial
           cl = P[0]*pow(wdl,4) + P[1]*pow(wdl,3) + P[2]*pow(wdl,2) + P[3]*wdl + P[4];  // Pwr_{r,l} X w_{r,l}
            // Comandos para os motores (Polinomial)
           OnFwdReg(motorR, cr, OUT_REGMODE_SPEED);
-          OnFwdReg(motorL, cl, OUT_REGMODE_SPEED);   */
+          OnFwdReg(motorL, cl, OUT_REGMODE_SPEED);   
 
 
     //Salvando erros em arquivo
@@ -223,7 +223,7 @@ sub malha2(float xd, float yd){
 
     //Salvando erros em arquivo
     short bytesWritten2;
-    string write2 = StrCat(NumToStr(xr),"|",NumToStr(yr));
+    string write2 = StrCat(NumToStr(xr),"|",NumToStr(yr),"|",NumToStr(w_controle));
     WriteLnString(fileHandle2,write2, bytesWritten2);
 
     float dist = sqrt((pow(errx,2)+(pow(erry,2))));

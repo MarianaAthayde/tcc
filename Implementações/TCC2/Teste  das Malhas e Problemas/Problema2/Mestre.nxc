@@ -223,7 +223,7 @@ sub malha2(float xd, float yd){
 
     //Salvando erros em arquivo
     short bytesWritten2;
-    string write2 = StrCat(NumToStr(xr),"|",NumToStr(yr));
+    string write2 = StrCat(NumToStr(w_controle));
     WriteLnString(fileHandle2,write2, bytesWritten2);
 
     float dist = sqrt((pow(errx,2)+(pow(erry,2))));

@@ -129,7 +129,7 @@ for i = 1:amostras
         
         plot(xr(1:i,j),yr(1:i,j),'r');
         hold on;
-        plot(xd(1:i-1,j),yd(1:i-1,j),'b');
+        plot(xd(2:i-1,j),yd(2:i-1,j),'b');
         t = title('Problema 1 - Segunda Abordagem: vd = 0.5m/s','FontSize',24,'FontWeight','bold');
         xl = xlabel('X (metros)','FontSize',22,'FontWeight','demi');
         yl = ylabel('Y (metros)','FontSize',22,'FontWeight','demi');

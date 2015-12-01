@@ -10,7 +10,7 @@ raio = 0.3; %Raio em torno do alvo - metros
 periodo = 24; %Período desejado
 wd = 2*pi/periodo; 
 vd = wd*raio;
-amostras = 2000;
+amostras = 200;
 t_amostral = 25/1000.0;
 k = 8;
 kv = 1.5;
@@ -21,7 +21,7 @@ y_alvo = 0.0;
 %Nota: [Mestre Slave1 Slave2]
 for i = 1:num_robos;
     xr(1,i) = randi(2)*(-1)^(randi(2)); 
-    yr(1,i) = randi(2)*(-1)^(randi(2)); ;
+    yr(1,i) = randi(2)*(-1)^(randi(2)); 
     thetar(1,i) = pi;
     wr(1,i) = 0;
     vr(1,i) = vd;
@@ -57,30 +57,32 @@ for j = 0:qnt_robos(i-1)-1
     errt = atan2(sin(errt),cos(errt));
     wr(i,j+1) = k*errt;   
     dist = sqrt(errx^2+erry^2);
+    %vr(i,j+1) = vd; 
     vr(i,j+1) = vd + kv*dist; 
 end;
 
-if i == 1000
+if i == 120
     num_robos = 3;
 end
 qnt_robos(i) = num_robos;
 
 end;
 
-figure;
+f = figure;
 plot(x_alvo,y_alvo,'bo');
+axis([-2 2 -2 2]);
 t = title('Problema 1 - Segunda Abordagem: 5','FontSize',24,'FontWeight','bold');
 xl = xlabel('X (metros)','FontSize',22,'FontWeight','demi');
 yl = ylabel('Y (metros)','FontSize',22,'FontWeight','demi');
 hold on;
-axis equal
-%pause(5);
-
-for i = 1:amostras
+%axis equal
+pause(2);
+aviobj = avifile('Sim_P2_Falha.avi', 'fps', 10);
+for i = 1:5:amostras
         
     for j = 1:qnt_robos(i)
         
-        plot(xr(1:i,j),yr(1:i,j),'r');
+        plot(xr(1:i,j),yr(1:i,j),'r');axis([-2 2 -2 2]);
         hold on;
         plot(xd(1:i-1,j),yd(1:i-1,j),'b');
         t = title('Problema 2 - Número de Robôs: 5','FontSize',24,'FontWeight','bold');
@@ -92,12 +94,15 @@ for i = 1:amostras
         plot(xr(i,j),yr(i,j),'r*'); 
         %l = legend('Trajetória Robô','Trajetória Posições Desejadas','Robô','Ponto Desejado');
         %set(l,'FontSize',22,'FontWeight','demi');
-        
      
     end;
     if i == 3
         %   pause(10);
     end
     pause(0.0001);
+    
+        aviobj = addframe(aviobj, getframe(f));
     hold off;
 end;
+
+aviobj = close (aviobj);

@@ -13,13 +13,13 @@ compreender tal trabalho é importante, primeiramente, conhecer alguns conceitos
 %rever
 Os robôs utilizados neste trabalho são considerados modelos não holonômicos e para entender o que é um modelo matemático não holonômico é necessário entender o que é o grau de liberdade de um sistema. Como é visto na literatura \cite{TJRD13}, o grau de liberdade de um sistema é igual ao "número de coordenadas que podem variar independentemente em um pequeno deslocamento". Dito isto pode-se dizer que um sistema holonômico é um sistema onde o número de coordenadas utilizadas para descrever as configurações do sistema é igual ao grau de liberdade do sistema \cite{TJRD13}. Ou seja, o sistema pode se movimentar livre e independentemente em qualquer um dos seu eixos (os eixos referentes à configuração do sistema).
 
-Sendo assim, os sistemas não-holonômicos são sistemas em que pode-se chegar à qualquer outro ponto do espaço, entretanto, com restrições. Visto que as variáveis não podem se mover independentemente. Como exemplo de um sistema não-holonômico podemos citar um veículo, que pode alcançar qualquer ponto do espaço bidimensional, entretanto, para alcançar um ponto qualquer deslocado apenas em seu eixo x é necessário um movimento não só ao longo do seu eixo x mas, também do seu eixo y. Já que, um veículo não pode se mover lateralmente \cite{GJA11}.
+Sendo assim, os sistemas não-holonômicos são sistemas em que pode-se chegar à qualquer outro ponto do espaço, entretanto, com restrições, visto que as variáveis não podem se mover independentemente. Como exemplo de um sistema não-holonômico podemos citar um veículo, que pode alcançar qualquer ponto do espaço bidimensional, entretanto, para alcançar um ponto qualquer deslocado apenas em seu eixo x é necessário um movimento não só ao longo do seu eixo x mas, também do seu eixo y, já que um veículo não pode se mover lateralmente \cite{GJA11}.
 
 \section{Controle de Formação}
 \label{sec:controleFormacao}
-Com o crescente avanço da robótica, começou-se o interesse por sistemas robóticos cooperativos, onde muitos robôs agem em conjunto para alcançar o mesmo objetivo. Para que um sistema multiagente possa executar uma tarefa em conjunto é preciso que cada robô esteja na posição correta, para tal, é necessário o controle de formação. O controle de formação é essencial para sistemas robóticos multiagentes pois permite que cada robô esteja em seu devido lugar no momento certo. Existem diversos tipos de estruturas de formação, tanto no que diz respeito a formação física da rede, como do ponto de vista lógico da rede. Como é visto na literatura \cite{leal2009reconfigurable}, pode-se classificar uma rede de multiagentes de diversas formas: Homogênea ou não, no que diz respeito aos tipos de unidades, centralizada ou não, no que diz respeito à estrutura da rede como indivíduo, até mesmo se a rede é formada por indivíduos independentes ou se é o mesmo robô, quanto à estrutura organizacional e dentre outros. 
+Com o crescente avanço da robótica, começou-se o interesse por sistemas robóticos cooperativos, onde muitos robôs agem em conjunto para alcançar o mesmo objetivo. Para que um sistema multiagente possa executar uma tarefa em conjunto é preciso que cada robô esteja na posição correta, para tal, é necessário o controle de formação. O controle de formação é essencial para sistemas robóticos multiagente pois permite que cada robô esteja em seu devido lugar no momento certo. Existem diversos tipos de estruturas de formação, tanto no que diz respeito à formação física da rede, como do ponto de vista lógico da rede. Como é visto na literatura \cite{leal2009reconfigurable}, pode-se classificar uma rede multiagente de diversas formas: homogênea ou não, no que diz respeito aos tipos de unidades; centralizada ou não, no que diz respeito à estrutura da rede como indivíduo (até mesmo se a rede é formada por indivíduos independentes ou se é o mesmo robô); quanto à estrutura organizacional, dentre outros. 
 
-Do ponto de vista físico podemos citar alguns tipos de estruturas de formação, como referenciado em \citeonline{balch1998behavior}, tais como, estrutura em\emph{line}, \emph{column}, \emph{diamond} e \emph{wedge}. A primeira delas consiste em uma formação em linha horizontal (\emph{line})como, o próprio nome revela. A segunda, em uma linha vertical (\emph{column}), a terceira \emph{diamond}, que consiste em uma rede em formato de um losango e a quarta, \emph{wedge} em formato de \emph{'V'}, o que se parece com a estrutura de um \emph{flock}. 
+Do ponto de vista físico podemos citar alguns tipos de estruturas de formação, como referenciado por \citeonline{balch1998behavior}, tais como, estrutura em \emph{line}, \emph{column}, \emph{diamond} e \emph{wedge}. A primeira delas consiste em uma formação em linha horizontal (\emph{line}) como, o próprio nome revela. A segunda, em uma linha vertical (\emph{column}), a terceira \emph{diamond}, que consiste em uma rede em formato de um losango e a quarta, \emph{wedge} em formato de \emph{'V'}, o que se parece com a estrutura de um \emph{flock}, uma revoada de pássaros. 
 
 \begin{figure}[!htb]
 	\centering
@@ -29,47 +29,72 @@ Do ponto de vista físico podemos citar alguns tipos de estruturas de formação
 	\label{fig:est_fis}
 \end{figure}
 
-Além disso tem a classificação quanto a estrutura da rede lógica, centralizada, descentralizada e híbrida e quanto a seu grupo de arquitetura, no caso deste trabalho, a classificação seria móvel.\cite{leal2009reconfigurable}. Outras classificações interessantes que serão abordadas posteriormente são, as técnicas de referência para controle de formação.
+Além disso tem-se a classificação quanto à estrutura da rede lógica, centralizada, descentralizada e híbrida e quanto a seu grupo de arquitetura. No caso do presente trabalho, a classificação seria móvel.\cite{leal2009reconfigurable}. Outras classificações interessantes que serão abordadas posteriormente são as técnicas de referência para controle de formação.
 
 \section{Controle Proporcional Integral Derivativo e a Técnica de Controle em Cascata}
 \label{sec:pid}
-O controlador Proporcional Integral Derivativo, ou simplesmente, \emph{PID} consiste em uma técnica com ações proporcionais, integrais e derivativas. A ação proporcional (\emph{P}), consiste em minimizar o erro, enquanto a ação integral (\emph{I}) tende a zerar este erro e a ação derivativa (\emph{D}) tende à reduzir o tempo de resposta. A equação que o modela é dada por
+%O controlador Proporcional Integral Derivativo, ou simplesmente, \emph{PID} consiste em uma técnica com ações proporcionais, integrais e derivativas. A ação proporcional (\emph{P}), consiste em reduzir o erro, enquanto a ação integral (\emph{I}) tende a zerar este erro e a ação derivativa (\emph{D}) tende à reduzir o tempo de resposta. A equação que o modela é dada por
+O controlador Proporcional Integral Derivativo, ou simplesmente, \emph{PID} consiste em uma técnica com ações proporcionais, integrais e derivativas. Segundo \citeonline{ok1970} e \citeonline{franklin1998digital}, a ação proporcional (\emph{P}), é dada por
+\begin{equation}
+p(t) = k_{p}e(t)
+\end{equation}
+em que $p(t)$ é a saída do controlador, $k_{p}$ é a constante de ganho responsável por ampliar a entrada $e(t)$, que é também o erro atuante no sistema naquele instante. A ação proporcional reduz o erro na saída do sistema, entretanto, ainda tem-se um pequeno erro estacionário. A ação integral
+\begin{equation}
+i(t) = k_{i}\int_0^t e(t) dt
+\end{equation}
+varia proporcionalmente a taxa de erros acumulados no sistema, podendo eliminar o erro em estado estacionário. Por se tratar de uma ação proporcional ao acumulo de erros do sistema, pode também, causar saturação do atuador. Já a ação derivativa
+\begin{equation}
+d(t) =  k_{d}\dfrac{de(t)}{dt}
+\end{equation}  
+tem sua saída proporcional a taxa de variação do erro atuante, tendo um caráter antecipatório, por outro lado, amplifica o sinal de ruído. O controlador proporcional integral derivativo tem sua equação dada por:
 \begin{equation}
 c(t) = k_{p}e(t) + k_{i}\int_0^t e(t) dt + k_{d}\dfrac{de(t)}{dt}
 \label{eq:pid}
 \end{equation}
-Ou seja, a ação proporcional consiste em multiplicar o erro pelo ganho, minimizando o erro, a ação integral consiste em multiplicar pelo ganho a soma dos erros durante a execução do sistema e por fim, a ação derivativa que consiste em multiplicar o ganho pela derivada do erro, tentando assim, antecipar a resposta do sistema. 
+reunindo as três ações: proporcional, integral e derivativa, assim como suas vantagens.
+%Ou seja, a ação proporcional consiste em multiplicar o erro pelo ganho, minimizando o erro, a ação integral consiste em multiplicar pelo ganho a soma dos erros durante a execução do sistema e por fim, a ação derivativa que consiste em multiplicar o ganho pela derivada do erro, tentando assim, antecipar a resposta do sistema. 
 
-Uma técnica de controle importante que também foi utilizada neste trabalho, foi a técnica conhecida como controle em cascata, esta técnica consiste em passar como referência para o controlador interno, a saída do controlador mais externo, que possui uma referência independente, e a saída do sistema como um todo, é a saída do controlador mais interno. Como será visto mais a frente, é o caso deste trabalho.
+Uma técnica de controle importante que também foi utilizada neste trabalho é a técnica conhecida como controle em cascata, esta técnica consiste em passar como referência para o controlador interno, a saída do controlador mais externo, que possui uma referência independente.%, e a saída do sistema como um todo, é a resposta do sistema ao controlador mais interno. 
+ Como será visto mais a frente, é o caso deste trabalho.
 
 \section{Plataformas}
 \label{sec:plataformas}
-Para o desenvolvimento deste trabalho foram consideradas diversas plataformas de desenvolvimento e gerenciamento de robôs móveis que são compatíveis com \emph{Lego Mindstorms\textregistered}. Abaixo serão citados algumas dessas plataformas com suas características.
+Para o desenvolvimento deste trabalho foram consideradas diversas plataformas de desenvolvimento e gerenciamento de robôs móveis que são compatíveis com \emph{Lego Mindstorms\textregistered}. %Abaixo serão citados algumas dessas plataformas com suas características.
+Uma delas é o \emph{ROS}(\emph{Robotic Operating System}) é um sistema operacional robótico \emph{opensource} que dispões de ferramentas e bibliotecas desenvolvidas para criar aplicações robóticas. %citar o site 
+Esse \emph{software} permite a comunicação entre o computador e o \emph{Lego}, permite formar uma rede centralizada de até quatro robôs e, embora possua funções específicas para a área de robótica, esse sistema ainda não dispõe de muitos materiais de pesquisa, por isso, optou-se por não utilizá-lo.
 
-\subsection{ROS}
-\label{subsec:ROS}
-\emph{ROS}(\emph{Robotic Operating System}) é um sistema operacional robótico \emph{opensource} que dispões de ferramentas e bibliotecas desenvolvidas para criar aplicações robóticas.%citar o site 
-Ele permite a comunicação entre o computador e o \emph{lego}, permite a implementação de uma rede centralizada de até quatro robôs, embora, possua funções específicas para área de robótica esse sistema ainda não dispõe de muitos materiais para pesquisa, por isso, optou-se por não  utilizá-lo.
+O \emph{Simulink} possui um pacote compatível com o \emph{Lego Mindstorms\textregistered} que permite desenvolver e simular algoritmos para plataformas robóticas. Entretanto, só é permitida a comunicação via \emph{bluetooth} entre dois robôs. Portanto, o \emph{Simulink} não foi escolhido pois, visa-se implementar futuramente as estratégias de controle de formação em um sistema com quatro robôs
 
-\subsection{NXT-G}
-\label{subsec:nxtg}
-É uma plataforma gráfica que vem com o próprio kit \emph{Lego Mindstorms\textregistered}, até mesmo pela sua natureza gráfica, ela é muito simples. Entretanto, não permite a comunicação com o computador em tempo de execução. Devido a sua limitação e simplicidade, optou-se por não utilizá-lo.
+O \emph{LABVIEW} possui um módulo para programar e controlar robôs \emph{Lego Mindstorms\textregistered}. É uma ferramenta que permite a comunicação entre o robô e o computador e entre os robôs. Entretanto, é necessário possuir uma licença para utilizar desta ferramenta, por isso, a ferramenta foi descartada como ferramenta para se utilizar neste trabalho.
 
-\subsection{Simulink}
-\label{subsec:simulink}
-O \emph{Simulink} possui um pacote compatível com o \emph{Lego Mindstorms\textregistered} que permite desenvolver e simular algoritmos para plataformas robóticas. Entretanto, só é permitido a comunicação via \emph{bluetooth} entre dois robôs, portanto não atende às demandas requeridas por este trabalho.  
+O \emph{MATLAB$^{\textregistered}$} possui uma ferramenta \emph{opensource} desenvolvida para controlar robôs \emph{Lego Mindstorms\textregistered NXT}, conhecida como \emph{RWTH Aachen NXT Toolbox}. Permite a comunicação entre robô e o computador ou entre um conjunto de até 4 robôs, no modelo de comunicação mestre/escravo. 
 
-\subsection{LABView}
-\label{subsec:labview}
-O \emph{LABVIEW} possui um módulo para programar e controlar robôs \emph{Lego Mindstorms\textregistered}. É uma ferramenta que permite a comunicação entre o robô e o computador e entre os robôs. Entretanto, é necessário possuir uma licença para utilizar desta ferramenta, por isso, a ferramenta não será utilizada neste trabalho.
+Por fim, o ambiente de desenvolvimento integrado conhecido como \emph{BRICX Command Center} é utilizado para o desenvolvimento de aplicações para todas as versões do \emph{Lego Mindstorms\textregistered}, do \emph{RCX} ao \emph{EV3}, incluindo o modelo utilizado neste trabalho que é o \emph{NXT}. Suporta diversas linguagens como: \emph{Not eXactly C} (NXC), \emph{Next Byte Codes} (NBC) e permite o desenvolvimento em \emph{java}, por meio do \emph{firmware LeJos} \cite{sorceforge2001}. Dentre as opções, a linguagem NXC foi escolhida pela quantidade de materiais de pesquisa e simplicidade.
+%\subsection{ROS}
+%\label{subsec:ROS}
+%\emph{ROS}(\emph{Robotic Operating System}) é um sistema operacional robótico \emph{opensource} que dispões de ferramentas e bibliotecas desenvolvidas para criar aplicações robóticas.%citar o site 
+%Esse \emph{software} permite a comunicação entre o computador e o \emph{Lego}, permite formar uma rede centralizada de até quatro robôs e, embora possua funções específicas para a área de robótica, esse sistema ainda não dispõe de muitos materiais de pesquisa, por isso, optou-se por não utilizá-lo.
+%Ele permite a comunicação entre o computador e o \emph{Lego}, permite a implementação de uma rede centralizada de até quatro robôs, embora, possua funções específicas para área de robótica esse sistema ainda não dispõe de muitos materiais para pesquisa, por isso, optou-se por não  utilizá-lo.
+
+%\subsection{NXT-G}
+%\label{subsec:nxtg}
+%É uma plataforma gráfica que vem com o próprio kit \emph{Lego Mindstorms\textregistered}. Até mesmo pela sua natureza gráfica, ela é muito simples. Entretanto, não permite a comunicação com o computador em tempo de execução. Devido à sua limitação e simplicidade, optou-se por não utilizá-la.
+
+%\subsection{Simulink}
+%\label{subsec:simulink}
+%O \emph{Simulink} possui um pacote compatível com o \emph{Lego Mindstorms\textregistered} que permite desenvolver e simular algoritmos para plataformas robóticas. Entretanto, só é permitida a comunicação via \emph{bluetooth} entre dois robôs.%, portanto não atende às demandas requeridas por este trabalho.  
+
+%\subsection{LABView}
+%\label{subsec:labview}
+%O \emph{LABVIEW} possui um módulo para programar e controlar robôs \emph{Lego Mindstorms\textregistered}. É uma ferramenta que permite a comunicação entre o robô e o computador e entre os robôs. Entretanto, é necessário possuir uma licença para utilizar desta ferramenta, por isso, a ferramenta não será utilizada neste trabalho.
 
 %\subsection{RobotC}
 
-\subsection{RWTH Aachen MINDSTORMS NXT Toolbox}
-\label{subsec:rwth}
-O \emph{MATLAB\textregistered} possui uma ferramenta \emph{opensource} desenvolvida para controlar robôs \emph{Lego Mindstorms\textregistered NXT}, conhecida como: \emph{RWTH Aachen NXT Toolbox}. Permite a comunicação entre robô e o computador ou entre um conjunto de até 4 robôs, no modelo de comunicação mestre/escravo. 
+%\subsection{RWTH Aachen MINDSTORMS NXT Toolbox}
+%\label{subsec:rwth}
+%O \emph{MATLAB$^{\textregistered}$} possui uma ferramenta \emph{opensource} desenvolvida para controlar robôs \emph{Lego Mindstorms\textregistered NXT}, conhecida como \emph{RWTH Aachen NXT Toolbox}. Permite a comunicação entre robô e o computador ou entre um conjunto de até 4 robôs, no modelo de comunicação mestre/escravo. 
 
-\subsection{BRICX Command center}
-\label{subsec:Bricx}
-O ambiente de desenvolvimento integrado conhecido como \emph{BRICX Command Center} é utilizado para o desenvolvimento de aplicações para todas as versões do \emph{Lego Mindstorms\textregistered}, do \emph{RCX} ao \emph{EV3}, incluindo o modelo utilizado neste trabalho que é o \emph{NXT}. Suporta diversas linguagens como: \emph{Not eXactly C} (NXC), \emph{Next Byte Codes} (NBC) e permite o desenvolvimento em \emph{java}, usando o \emph{firmware LeJos}. %citar o site
+%\subsection{BRICX Command center}
+%\label{subsec:Bricx}
+%O ambiente de desenvolvimento integrado conhecido como \emph{BRICX Command Center} é utilizado para o desenvolvimento de aplicações para todas as versões do \emph{Lego Mindstorms\textregistered}, do \emph{RCX} ao \emph{EV3}, incluindo o modelo utilizado neste trabalho que é o \emph{NXT}. Suporta diversas linguagens como: \emph{Not eXactly C} (NXC), \emph{Next Byte Codes} (NBC) e permite o desenvolvimento em \emph{java}, por meio do \emph{firmware LeJos}. %citar o site
 

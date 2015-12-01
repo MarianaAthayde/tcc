@@ -59,24 +59,6 @@ for j = 0:num_robos-1
     vr(i,j+1) = vd + kv*dist; 
 end;
 
-% % % % %Nota: [Mestre Slave1 Slave2]
-% % % % %for j = 0:num_robos-1
-% % % %     xd(i) = x_alvo + raio*cos(i*t_amostral*wd);
-% % % %     yd(i) = y_alvo + raio*sin(i*t_amostral*wd);
-% % % % %Calculando Xr e Yr e Thetar dos Robos no instante i    
-% % % %     xr(i) = xr(i-1) + t_amostral*vr(i-1)*cos(thetar(i-1));
-% % % %     yr(i) = yr(i-1) + t_amostral*vr(i-1)*sin(thetar(i-1));
-% % % %     thetar(i) = thetar(i-1) + t_amostral*wr(i-1);
-% % % % %Calculando Theta desejado apartir dos erros dos Robos no instante i
-% % % %     errx = xd(i) - xr(i);
-% % % %     erry = yd(i) - yr(i);
-% % % %     thetad = atan2(erry,errx);
-% % % %     errt = thetad - thetar;
-% % % %     errt = atan2(sin(errt),cos(errt));
-% % % %     wr = k*errt;   
-% % % %     dist = sqrt(errx^2+erry^2);
-% % % %     vr(i) = vd + kv*dist; 
-% % % % %end;
 
 end;
 
@@ -88,23 +70,7 @@ yl = ylabel('Y (metros)','FontSize',22,'FontWeight','demi');
 hold on;
 axis equal
 pause(5);
-% for i = 1:10:amostras
-%        plot(xr(1:i,1),yr(1:i,1),'r');
-%        hold on;
-%        plot(xr(i,1),yr(i,1),'r*');
-%        axis equal
-%        plot(xd(1:i,1),yd(1:i,1),'b');
-%        plot(xd(i,1),yd(i,1),'b*');
-%        
-%        t = title('Problema 2 - Número de Robos: ','FontSize',24,'FontWeight','bold');
-%        xl = xlabel('X (metros)','FontSize',22,'FontWeight','demi');
-%        yl = ylabel('Y (metros)','FontSize',22,'FontWeight','demi');
-%        %set(gca,'FontSize',22,'FontWeight','demi');l = legend('Alvo','Trajetória Robô','Trajetória Posições Desejadas','Robô','Ponto Desejado');
-%        %set(l,'FontSize',22,'FontWeight','demi');
-%        
-%        pause(0.0001);
-%        hold off
-% end;
+
 
 for i = 1:amostras
         

@@ -45,6 +45,11 @@
   intera{\c{c}}{\~a}o no espa{\c{c}}o a{\'e}reo controlado}. [S.l.]: Sitraer,
   2008.}
 
+\bibitem[Franklin et al. 1998]{franklin1998digital}
+\abntrefinfo{Franklin et al.}{FRANKLIN et al.}{1998}
+{FRANKLIN, G.~F.; POWELL, J.~D.; WORKMAN, M.~L. \textbf{Digital control of
+  dynamic systems}. [S.l.]: Addison-wesley Menlo Park, 1998. v.~3.}
+
 \bibitem[Girard et al. 2004]{GARHAS04}
 \abntrefinfo{Girard et al.}{GIRARD et al.}{2004}
 {GIRARD, A.~R.; HOWELL, A.~S.; HEDRICK, J.~K. Border patrol and surveillance
@@ -73,11 +78,17 @@ Tese (Doutorado) --- Universidade Federal de Minas Gerais, 2013.}
   Systems, 2009. IROS 2009. IEEE/RSJ International Conference on}. [S.l.],
   2009. p. 1929--1934.}
 
-\bibitem[Martinez et al. 2009]{leal2009reconfigurable}
-\abntrefinfo{Martinez et al.}{MARTINEZ et al.}{2009}
-{MARTINEZ, D. L. et al. Reconfigurable multi robot society based on lego
-  mindstorms.
+\bibitem[Martinez 2009]{leal2009reconfigurable}
+\abntrefinfo{Martinez}{MARTINEZ}{2009}
+{MARTINEZ, D. L. Reconfigurable multi robot society based on lego mindstorms.
 Helsinki University of Technology, 2009.}
+
+\bibitem[Ogata 1970]{ok1970}
+\abntrefinfo{Ogata}{OGATA}{1970}
+{OGATA, K. \textbf{Modern control engineering}. Englewood Cliffs (N.J.):
+  Prentice-Hall, 1970.
+ISBN 0-13-590232-0. Dispon{\'\i}vel em:
+  \url{http://opac.inria.fr/record=b1080640}.}
 
 \bibitem[Ramchurn et al. 2004]{RSDH2004}
 \abntrefinfo{Ramchurn et al.}{RAMCHURN et al.}{2004}
@@ -95,8 +106,8 @@ Dispon{\'\i}vel em: \url{http://dx.doi.org/10.1017/S0269888904000116}.}
 \bibitem[SOURCEFORGE 2001]{sorceforge2001}
 \abntrefinfo{SOURCEFORGE}{SOURCEFORGE}{2001}
 {SOURCEFORGE. \textbf{Bricx Command Center}. 2001.
-Dispon{\'\i}vel em: \url{http://bricxcc.sourceforge.net/}. Acesso em: 30 de
-  março de 2009.}
+Dispon{\'\i}vel em: \url{http://bricxcc.sourceforge.net/}. Acesso em: 20 de
+  maio de 2015.}
 
 \bibitem[Taylor et al. 2013]{TJRD13}
 \abntrefinfo{Taylor et al.}{TAYLOR et al.}{2013}

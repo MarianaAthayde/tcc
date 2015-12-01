@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.15 (TeX Live 2014/W32TeX) (preloaded format=pdflatex 2015.3.18)  19 NOV 2015 02:28
+This is pdfTeX, Version 3.14159265-2.6-1.40.15 (TeX Live 2014/W32TeX) (preloaded format=pdflatex 2015.3.18)  30 NOV 2015 22:04
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1592,11 +1592,20 @@ LaTeX Font Info:    Font shape `OMS/ppl/m/it' in size <12> not available
 (Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 42.
 LaTeX Font Info:    Font shape `OMS/ppl/m/n' in size <12> not available
 (Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 42.
+
+
+LaTeX Warning: Command \textregistered invalid in math mode on input line 42.
+
+
+LaTeX Warning: Command \textcircled invalid in math mode on input line 42.
+
+
+LaTeX Warning: Command \textcircled invalid in math mode on input line 42.
+
 ) [3]
 \openout2 = `./02-elementos-textuais/trab-relacionados.aux'.
 
-
-(./02-elementos-textuais/trab-relacionados.tex [4
+ (./02-elementos-textuais/trab-relacionados.tex [4
 
 
 
@@ -1609,7 +1618,7 @@ LaTeX Font Info:    Font shape `OMS/ppl/m/n' in size <12> not available
 
 
 ]
-<./04-figuras/Estruturasfísica.jpg, id=312, 883.80188pt x 204.01219pt>
+<./04-figuras/Estruturasfísica.jpg, id=301, 883.80188pt x 204.01219pt>
 File: ./04-figuras/Estruturasfísica.jpg Graphic file (type jpg)
 
 <use ./04-figuras/Estruturasfísica.jpg>
@@ -1617,59 +1626,78 @@ Package pdftex.def Info: ./04-figuras/Estruturasfísica.jpg used on input line 2
 6.
 (pdftex.def)             Requested size: 284.52756pt x 65.67746pt.
  [7 <./04-figuras/Estruturasfísica.jpg>]
-Overfull \hbox (16.75214pt too wide) in paragraph at lines 64--65
+Overfull \hbox (16.75214pt too wide) in paragraph at lines 68--69
 []\T1/ppl/m/n/12 (-20) O \T1/ppl/m/it/12 (-20) LAB-VIEW \T1/ppl/m/n/12 (-20) po
 s-sui um mó-dulo para pro-gra-mar e con-tro-lar robôs \T1/ppl/m/it/12 (-20) Leg
 o Mindstorms[]\T1/ppl/m/n/12 (-20) .
  []
 
+
+LaTeX Warning: Command \textregistered invalid in math mode on input line 70.
+
+
+LaTeX Warning: Command \textcircled invalid in math mode on input line 70.
+
+
+LaTeX Warning: Command \textcircled invalid in math mode on input line 70.
+
 [8]) [9]
 \openout2 = `./02-elementos-textuais/metodologia.aux'.
 
  (./02-elementos-textuais/metodologia.tex
-<./04-figuras/robo.pdf, id=335, 845.07718pt x 597.55246pt>
+<./04-figuras/robo.pdf, id=336, 845.07718pt x 597.55246pt>
 File: ./04-figuras/robo.pdf Graphic file (type pdf)
 
 <use ./04-figuras/robo.pdf>
 Package pdftex.def Info: ./04-figuras/robo.pdf used on input line 19.
 (pdftex.def)             Requested size: 284.52756pt x 201.18655pt.
- [10
+
+
+LaTeX Warning: Command \textregistered invalid in math mode on input line 26.
+
+
+LaTeX Warning: Command \textcircled invalid in math mode on input line 26.
+
+
+LaTeX Warning: Command \textcircled invalid in math mode on input line 26.
+
+[10
 
 
 
-] [11 <./04-figuras/robo.pdf>]pdfTeX warning (ext4): destination with the same 
-identifier (name{equation.4.1.2}) has been already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.59 	\begin{equation}
-                      pdfTeX warning (ext4): destination with the same identifi
-er (name{equation.4.1.3}) has been already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.63 	\begin{equation}
-                       [12]
-<./04-figuras/p1.jpg, id=373, 1524.44531pt x 486.31688pt>
+]
+
+LaTeX Warning: Command \textregistered invalid in math mode on input line 51.
+
+
+LaTeX Warning: Command \textcircled invalid in math mode on input line 51.
+
+
+LaTeX Warning: Command \textcircled invalid in math mode on input line 51.
+
+[11 <./04-figuras/robo.pdf>] [12]
+<./04-figuras/p1.jpg, id=376, 1524.44531pt x 486.31688pt>
 File: ./04-figuras/p1.jpg Graphic file (type jpg)
 
 <use ./04-figuras/p1.jpg>
 Package pdftex.def Info: ./04-figuras/p1.jpg used on input line 109.
 (pdftex.def)             Requested size: 455.24408pt x 145.22833pt.
 
-<./04-figuras/RedeSerial.png, id=379, 655.44875pt x 494.84875pt>
+<./04-figuras/RedeSerial.png, id=382, 655.44875pt x 494.84875pt>
 File: ./04-figuras/RedeSerial.png Graphic file (type png)
 
 <use ./04-figuras/RedeSerial.png>
 Package pdftex.def Info: ./04-figuras/RedeSerial.png used on input line 121.
 (pdftex.def)             Requested size: 204.74861pt x 154.57945pt.
 
-<./04-figuras/RedeNXC.png, id=381, 721.69624pt x 514.92375pt>
+<./04-figuras/RedeNXC.png, id=384, 721.69624pt x 514.92375pt>
 File: ./04-figuras/RedeNXC.png Graphic file (type png)
 
 <use ./04-figuras/RedeNXC.png>
 Package pdftex.def Info: ./04-figuras/RedeNXC.png used on input line 127.
 (pdftex.def)             Requested size: 204.74861pt x 146.08693pt.
 
-<./04-figuras/RedeDistribuida.png, id=382, 705.63625pt x 575.14874pt>
+<./04-figuras/RedeDistribuida.png, id=385, 705.63625pt x 575.14874pt>
 File: ./04-figuras/RedeDistribuida.png Graphic file (type png)
 
 <use ./04-figuras/RedeDistribuida.png>
@@ -1677,7 +1705,7 @@ Package pdftex.def Info: ./04-figuras/RedeDistribuida.png used on input line 13
 3.
 (pdftex.def)             Requested size: 184.27249pt x 150.19334pt.
 
-<./04-figuras/RedeIsolada.png, id=383, 705.63625pt x 575.14874pt>
+<./04-figuras/RedeIsolada.png, id=386, 705.63625pt x 575.14874pt>
 File: ./04-figuras/RedeIsolada.png Graphic file (type png)
 
 <use ./04-figuras/RedeIsolada.png>
@@ -1692,23 +1720,23 @@ Missing character: There is no ô in font cmr12!
 LaTeX Warning: Command \^ invalid in math mode on input line 147.
 
 Missing character: There is no ô in font cmr12!
-[14 <./04-figuras/p1.jpg>] [15 <./04-figuras/RedeSerial.png> <./04-figuras/Rede
-NXC.png> <./04-figuras/RedeDistribuida.png> <./04-figuras/RedeIsolada.png>]
-<./04-figuras/esqSistema.pdf, id=408, 845.07718pt x 597.55246pt>
+[14 <./04-figuras/p1.jpg> <./04-figuras/RedeSerial.png> <./04-figuras/RedeNXC.p
+ng> <./04-figuras/RedeDistribuida.png> <./04-figuras/RedeIsolada.png>] [15]
+<./04-figuras/esqSistema.pdf, id=411, 845.07718pt x 597.55246pt>
 File: ./04-figuras/esqSistema.pdf Graphic file (type pdf)
 
 <use ./04-figuras/esqSistema.pdf>
 Package pdftex.def Info: ./04-figuras/esqSistema.pdf used on input line 208.
 (pdftex.def)             Requested size: 455.0pt x 321.73438pt.
 
-<./04-figuras/sistema.pdf, id=409, 845.07718pt x 597.55246pt>
+<./04-figuras/sistema.pdf, id=412, 845.07718pt x 597.55246pt>
 File: ./04-figuras/sistema.pdf Graphic file (type pdf)
 
 <use ./04-figuras/sistema.pdf>
 Package pdftex.def Info: ./04-figuras/sistema.pdf used on input line 215.
 (pdftex.def)             Requested size: 455.0pt x 321.73438pt.
  [16] [17 <./04-figuras/esqSistema.pdf>]
-<./04-figuras/sistEstavel2.pdf, id=455, 845.07718pt x 597.55246pt>
+<./04-figuras/sistEstavel2.pdf, id=458, 845.07718pt x 597.55246pt>
 File: ./04-figuras/sistEstavel2.pdf Graphic file (type pdf)
 
 <use ./04-figuras/sistEstavel2.pdf>
@@ -1718,7 +1746,7 @@ Package pdftex.def Info: ./04-figuras/sistEstavel2.pdf used on input line 251.
 \openout2 = `./02-elementos-textuais/desenhoemodelo.aux'.
 
  (./02-elementos-textuais/desenhoemodelo.tex
-<./04-figuras/malha1.pdf, id=502, 845.07718pt x 597.55246pt>
+<./04-figuras/malha1.pdf, id=505, 845.07718pt x 597.55246pt>
 File: ./04-figuras/malha1.pdf Graphic file (type pdf)
 
 <use ./04-figuras/malha1.pdf>
@@ -1729,7 +1757,7 @@ Package pdftex.def Info: ./04-figuras/malha1.pdf used on input line 25.
 
 
 ] [21 <./04-figuras/malha1.pdf>] [22]
-<./04-figuras/malha2.pdf, id=545, 845.07718pt x 597.55246pt>
+<./04-figuras/malha2.pdf, id=548, 845.07718pt x 597.55246pt>
 File: ./04-figuras/malha2.pdf Graphic file (type pdf)
 
 <use ./04-figuras/malha2.pdf>
@@ -1744,69 +1772,69 @@ Package pdftex.def Info: ./04-figuras/malha2.pdf used on input line 106.
 
 
 ]
-<./Testes/Malha1/Incremental/Malha1_Inc1.png, id=591, 1203.7472pt x 589.4522pt>
+<./Testes/Malha1/Incremental/Malha1_Inc1.png, id=594, 1203.7472pt x 589.4522pt>
 File: ./Testes/Malha1/Incremental/Malha1_Inc1.png Graphic file (type png)
 <use ./Testes/Malha1/Incremental/Malha1_Inc1.png>
 Package pdftex.def Info: ./Testes/Malha1/Incremental/Malha1_Inc1.png used on in
-put line 37.
+put line 38.
 (pdftex.def)             Requested size: 409.49722pt x 200.51903pt.
 
-<./Testes/Malha1/Incremental/Malha1_Inc6.png, id=592, 1203.7472pt x 589.4522pt>
+<./Testes/Malha1/Incremental/Malha1_Inc6.png, id=595, 1203.7472pt x 589.4522pt>
 File: ./Testes/Malha1/Incremental/Malha1_Inc6.png Graphic file (type png)
 <use ./Testes/Malha1/Incremental/Malha1_Inc6.png>
 Package pdftex.def Info: ./Testes/Malha1/Incremental/Malha1_Inc6.png used on in
-put line 43.
+put line 44.
 (pdftex.def)             Requested size: 409.49722pt x 200.51903pt.
 
-<./Testes/Malha1/Incremental/Malha1_Inc3.png, id=593, 1203.7472pt x 589.4522pt>
+<./Testes/Malha1/Incremental/Malha1_Inc3.png, id=596, 1203.7472pt x 589.4522pt>
 File: ./Testes/Malha1/Incremental/Malha1_Inc3.png Graphic file (type png)
 <use ./Testes/Malha1/Incremental/Malha1_Inc3.png>
 Package pdftex.def Info: ./Testes/Malha1/Incremental/Malha1_Inc3.png used on in
-put line 49.
+put line 50.
 (pdftex.def)             Requested size: 409.49722pt x 200.51903pt.
 
-Overfull \hbox (5.8115pt too wide) in paragraph at lines 64--73
+Overfull \hbox (5.8115pt too wide) in paragraph at lines 65--74
  [][] 
  []
 
-<./Testes/Malha1/PID/m1_kp10.png, id=597, 1203.7472pt x 589.4522pt>
+<./Testes/Malha1/PID/m1_kp10.png, id=600, 1203.7472pt x 589.4522pt>
 File: ./Testes/Malha1/PID/m1_kp10.png Graphic file (type png)
 
 <use ./Testes/Malha1/PID/m1_kp10.png>
-Package pdftex.def Info: ./Testes/Malha1/PID/m1_kp10.png used on input line 82.
+Package pdftex.def Info: ./Testes/Malha1/PID/m1_kp10.png used on input line 83.
 
 (pdftex.def)             Requested size: 409.49722pt x 200.51903pt.
 
-<./Testes/Malha1/PID/m1_kp10ki15.png, id=598, 1203.7472pt x 589.4522pt>
+<./Testes/Malha1/PID/m1_kp10ki15.png, id=601, 1203.7472pt x 589.4522pt>
 File: ./Testes/Malha1/PID/m1_kp10ki15.png Graphic file (type png)
 
 <use ./Testes/Malha1/PID/m1_kp10ki15.png>
 Package pdftex.def Info: ./Testes/Malha1/PID/m1_kp10ki15.png used on input line
- 88.
+ 89.
 (pdftex.def)             Requested size: 409.49722pt x 200.51903pt.
 
-<./Testes/Malha1/PID/m1_kp10ki15kd06.png, id=599, 1203.7472pt x 589.4522pt>
+<./Testes/Malha1/PID/m1_kp10ki15kd06.png, id=602, 1203.7472pt x 589.4522pt>
 File: ./Testes/Malha1/PID/m1_kp10ki15kd06.png Graphic file (type png)
 
 <use ./Testes/Malha1/PID/m1_kp10ki15kd06.png>
 Package pdftex.def Info: ./Testes/Malha1/PID/m1_kp10ki15kd06.png used on input 
-line 99.
+line 100.
 (pdftex.def)             Requested size: 409.49722pt x 200.51903pt.
 
-<./Testes/Malha1/PID/m1_kp10ki17.png, id=600, 1203.7472pt x 589.4522pt>
+<./Testes/Malha1/PID/m1_kp10ki17.png, id=603, 1203.7472pt x 589.4522pt>
 File: ./Testes/Malha1/PID/m1_kp10ki17.png Graphic file (type png)
 
 <use ./Testes/Malha1/PID/m1_kp10ki17.png>
 Package pdftex.def Info: ./Testes/Malha1/PID/m1_kp10ki17.png used on input line
- 105.
+ 106.
 (pdftex.def)             Requested size: 409.49722pt x 200.51903pt.
 
-<./Testes/Malha1/PID/m1_kp10ki15kd02.png, id=601, 1203.7472pt x 589.4522pt>
+<./Testes/Malha1/PID/m1_kp10ki15kd02.png, id=604, 1203.7472pt x 589.4522pt>
 File: ./Testes/Malha1/PID/m1_kp10ki15kd02.png Graphic file (type png)
 
 <use ./Testes/Malha1/PID/m1_kp10ki15kd02.png>
 Package pdftex.def Info: ./Testes/Malha1/PID/m1_kp10ki15kd02.png used on input 
-line 111.
+line 112.
 (pdftex.def)             Requested size: 409.49722pt x 200.51903pt.
  [26]
 
@@ -1830,7 +1858,7 @@ Overfull \vbox (6.85704pt too high) has occurred while \output is active []
 [29 <./Testes/Malha1/PID/m1_kp10ki15kd06.png (PNG copy)> <./Testes/Malha1/PID/m
 1_kp10ki17.png (PNG copy)> <./Testes/Malha1/PID/m1_kp10ki15kd02.png (PNG copy)>
 ]
-Overfull \hbox (4.78264pt too wide) detected at line 128
+Overfull \hbox (4.78264pt too wide) detected at line 129
 \OML/cmm/m/it/12 f\OT1/cmr/m/n/12 (\OML/cmm/m/it/12 ![]\OT1/cmr/m/n/12 ) = \OMS
 /cmsy/m/n/12 ^^@\OT1/cmr/m/n/12 0\OML/cmm/m/it/12 :\OT1/cmr/m/n/12 00091\OML/cm
 m/m/it/12 ![] \OT1/cmr/m/n/12 + 0\OML/cmm/m/it/12 :\OT1/cmr/m/n/12 0223\OML/cmm
@@ -1840,81 +1868,76 @@ m/m/it/12 ![] \OT1/cmr/m/n/12 + 0\OML/cmm/m/it/12 :\OT1/cmr/m/n/12 0223\OML/cmm
 /it/12 :\OT1/cmr/m/n/12 0546
  []
 
-<./Testes/Malha1/Polinomial/Polinomial.png, id=621, 1203.7472pt x 589.4522pt>
+<./Testes/Malha1/Polinomial/Polinomial.png, id=624, 1203.7472pt x 589.4522pt>
 File: ./Testes/Malha1/Polinomial/Polinomial.png Graphic file (type png)
 
 <use ./Testes/Malha1/Polinomial/Polinomial.png>
 Package pdftex.def Info: ./Testes/Malha1/Polinomial/Polinomial.png used on inpu
-t line 134.
+t line 135.
 (pdftex.def)             Requested size: 409.49722pt x 200.51903pt.
  [30 <./Testes/Malha1/Polinomial/Polinomial.png (PNG copy)>]
-
-LaTeX Warning: Reference `t:CompMalha2' on page 31 undefined on input line 152.
-
-
-
-<./Testes/Malha2/P2.0/Incremental-3/m2PosInc.png, id=632, 1203.7472pt x 589.452
+<./Testes/Malha2/P2.0/Incremental-3/m2PosInc.png, id=636, 1203.7472pt x 589.452
 2pt>
 File: ./Testes/Malha2/P2.0/Incremental-3/m2PosInc.png Graphic file (type png)
  <use ./Testes/Malha2/P2.0/Incremental-3/m2PosInc.png>
 Package pdftex.def Info: ./Testes/Malha2/P2.0/Incremental-3/m2PosInc.png used o
-n input line 173.
+n input line 174.
 (pdftex.def)             Requested size: 409.49722pt x 200.51903pt.
 
-<./Testes/Malha2/P2.0/Incremental-3/ErroM2Inc.png, id=633, 1203.7472pt x 589.45
+<./Testes/Malha2/P2.0/Incremental-3/ErroM2Inc.png, id=637, 1203.7472pt x 589.45
 22pt>
 File: ./Testes/Malha2/P2.0/Incremental-3/ErroM2Inc.png Graphic file (type png)
  <use ./Testes/Malha2/P2.0/Incremental-3/ErroM2Inc.png>
 Package pdftex.def Info: ./Testes/Malha2/P2.0/Incremental-3/ErroM2Inc.png used 
-on input line 179.
+on input line 180.
 (pdftex.def)             Requested size: 409.49722pt x 200.51903pt.
 
-<./Testes/Malha2/P1.0/PID/PIDPos.png, id=634, 1203.7472pt x 589.4522pt>
+<./Testes/Malha2/P1.0/PID/PIDPos.png, id=638, 1203.7472pt x 589.4522pt>
 File: ./Testes/Malha2/P1.0/PID/PIDPos.png Graphic file (type png)
 
 <use ./Testes/Malha2/P1.0/PID/PIDPos.png>
 Package pdftex.def Info: ./Testes/Malha2/P1.0/PID/PIDPos.png used on input line
- 191.
+ 192.
 (pdftex.def)             Requested size: 409.49722pt x 200.51903pt.
 
-<./Testes/Malha2/P1.0/PID/ErroThetaPID.png, id=635, 1203.7472pt x 589.4522pt>
+<./Testes/Malha2/P1.0/PID/ErroThetaPID.png, id=639, 1203.7472pt x 589.4522pt>
 File: ./Testes/Malha2/P1.0/PID/ErroThetaPID.png Graphic file (type png)
 
 <use ./Testes/Malha2/P1.0/PID/ErroThetaPID.png>
 Package pdftex.def Info: ./Testes/Malha2/P1.0/PID/ErroThetaPID.png used on inpu
-t line 197.
+t line 198.
 (pdftex.def)             Requested size: 409.49722pt x 200.51903pt.
 
-<./Testes/Malha2/P2.0/Polinomial/m2PosPol.png, id=636, 1203.7472pt x 589.4522pt
+<./Testes/Malha2/P2.0/Polinomial/m2PosPol.png, id=640, 1203.7472pt x 589.4522pt
 >
 File: ./Testes/Malha2/P2.0/Polinomial/m2PosPol.png Graphic file (type png)
  <use ./Testes/Malha2/P2.0/Polinomial/m2PosPol.png>
 Package pdftex.def Info: ./Testes/Malha2/P2.0/Polinomial/m2PosPol.png used on i
-nput line 209.
+nput line 210.
 (pdftex.def)             Requested size: 409.49722pt x 200.51903pt.
 
-<./Testes/Malha2/P2.0/Polinomial/m2ErroTheta.png, id=637, 1203.7472pt x 589.452
+<./Testes/Malha2/P2.0/Polinomial/m2ErroTheta.png, id=641, 1203.7472pt x 589.452
 2pt>
 File: ./Testes/Malha2/P2.0/Polinomial/m2ErroTheta.png Graphic file (type png)
  <use ./Testes/Malha2/P2.0/Polinomial/m2ErroTheta.png>
 Package pdftex.def Info: ./Testes/Malha2/P2.0/Polinomial/m2ErroTheta.png used o
-n input line 215.
+n input line 216.
 (pdftex.def)             Requested size: 409.49722pt x 200.51903pt.
 
-<./Testes/Malha2/P1.0I0.3/IntegralOsc.png, id=638, 1203.7472pt x 589.4522pt>
+<./Testes/Malha2/P1.0I0.3/IntegralOsc.png, id=642, 1203.7472pt x 589.4522pt>
 File: ./Testes/Malha2/P1.0I0.3/IntegralOsc.png Graphic file (type png)
 
 <use ./Testes/Malha2/P1.0I0.3/IntegralOsc.png>
 Package pdftex.def Info: ./Testes/Malha2/P1.0I0.3/IntegralOsc.png used on input
- line 227.
+ line 228.
 (pdftex.def)             Requested size: 409.49722pt x 200.51903pt.
 
-<./Testes/Malha2/P1.0I0.3/ErroThetaIOsc.png, id=639, 1203.7472pt x 589.4522pt>
+<./Testes/Malha2/P1.0I0.3/ErroThetaIOsc.png, id=643, 1203.7472pt x 589.4522pt>
 File: ./Testes/Malha2/P1.0I0.3/ErroThetaIOsc.png Graphic file (type png)
 
 <use ./Testes/Malha2/P1.0I0.3/ErroThetaIOsc.png>
 Package pdftex.def Info: ./Testes/Malha2/P1.0I0.3/ErroThetaIOsc.png used on inp
-ut line 233.
+ut line 234.
 (pdftex.def)             Requested size: 409.49722pt x 200.51903pt.
 ) [31] [32 <./Testes/Malha2/P2.0/Incremental-3/m2PosInc.png (PNG copy)> <./Test
 es/Malha2/P2.0/Incremental-3/ErroM2Inc.png (PNG copy)>] [33 <./Testes/Malha2/P1
@@ -1927,7 +1950,7 @@ Malha2/P2.0/Polinomial/m2ErroTheta.png (PNG copy)>] [35 <./Testes/Malha2/P1.0I0
 
 
 (./02-elementos-textuais/simulacoes.tex
-<./04-figuras/Simulacoes/Problema1-Abordagem1/P1_A1_Centr_Inicio.png, id=669, 1
+<./04-figuras/Simulacoes/Problema1-Abordagem1/P1_A1_Centr_Inicio.png, id=672, 1
 203.7472pt x 589.4522pt>
 File: ./04-figuras/Simulacoes/Problema1-Abordagem1/P1_A1_Centr_Inicio.png Graph
 ic file (type png)
@@ -1937,7 +1960,7 @@ Package pdftex.def Info: ./04-figuras/Simulacoes/Problema1-Abordagem1/P1_A1_Cen
 tr_Inicio.png used on input line 19.
 (pdftex.def)             Requested size: 204.74861pt x 100.2595pt.
 
-<./04-figuras/Simulacoes/Problema1-Abordagem1/P1_A1_Centr_Fim.png, id=670, 1203
+<./04-figuras/Simulacoes/Problema1-Abordagem1/P1_A1_Centr_Fim.png, id=673, 1203
 .7472pt x 589.4522pt>
 File: ./04-figuras/Simulacoes/Problema1-Abordagem1/P1_A1_Centr_Fim.png Graphic 
 file (type png)
@@ -1947,7 +1970,7 @@ Package pdftex.def Info: ./04-figuras/Simulacoes/Problema1-Abordagem1/P1_A1_Cen
 tr_Fim.png used on input line 25.
 (pdftex.def)             Requested size: 204.74861pt x 100.2595pt.
 
-<./04-figuras/Simulacoes/Problema1-Abordagem1/P1_A1_Desc_Inicio.png, id=671, 12
+<./04-figuras/Simulacoes/Problema1-Abordagem1/P1_A1_Desc_Inicio.png, id=674, 12
 03.7472pt x 589.4522pt>
 File: ./04-figuras/Simulacoes/Problema1-Abordagem1/P1_A1_Desc_Inicio.png Graphi
 c file (type png)
@@ -1957,7 +1980,7 @@ Package pdftex.def Info: ./04-figuras/Simulacoes/Problema1-Abordagem1/P1_A1_Des
 c_Inicio.png used on input line 37.
 (pdftex.def)             Requested size: 204.74861pt x 100.2595pt.
 
-<./04-figuras/Simulacoes/Problema1-Abordagem1/P1_A1_Desc_Fim.png, id=672, 1203.
+<./04-figuras/Simulacoes/Problema1-Abordagem1/P1_A1_Desc_Fim.png, id=675, 1203.
 7472pt x 589.4522pt>
 File: ./04-figuras/Simulacoes/Problema1-Abordagem1/P1_A1_Desc_Fim.png Graphic f
 ile (type png)
@@ -1973,7 +1996,7 @@ c_Fim.png used on input line 43.
  <./04-figuras/Simulacoes/Problema1-Abordagem1/P1_A1_Centr_Inicio.png (PNG copy
 )> <./04-figuras/Simulacoes/Problema1-Abordagem1/P1_A1_Centr_Fim.png (PNG copy)
 >]
-<./04-figuras/Simulacoes/Problema1-Abordagem1/P1A2Inicio.png, id=681, 1203.7472
+<./04-figuras/Simulacoes/Problema1-Abordagem1/P1A2Inicio.png, id=684, 1203.7472
 pt x 589.4522pt>
 File: ./04-figuras/Simulacoes/Problema1-Abordagem1/P1A2Inicio.png Graphic file 
 (type png)
@@ -1983,7 +2006,7 @@ Package pdftex.def Info: ./04-figuras/Simulacoes/Problema1-Abordagem1/P1A2Inici
 o.png used on input line 61.
 (pdftex.def)             Requested size: 409.49722pt x 200.51903pt.
 
-<./04-figuras/Simulacoes/Problema1-Abordagem1/P1A2Fim.png, id=682, 1203.7472pt 
+<./04-figuras/Simulacoes/Problema1-Abordagem1/P1A2Fim.png, id=685, 1203.7472pt 
 x 589.4522pt>
 File: ./04-figuras/Simulacoes/Problema1-Abordagem1/P1A2Fim.png Graphic file (ty
 pe png)
@@ -1995,7 +2018,7 @@ ng used on input line 67.
 [37 <./04-figuras/Simulacoes/Problema1-Abordagem1/P1_A1_Desc_Inicio.png (PNG co
 py)> <./04-figuras/Simulacoes/Problema1-Abordagem1/P1_A1_Desc_Fim.png (PNG copy
 )>]
-<./04-figuras/Simulacoes/Problema2/Falha/P2FalhaInicio.png, id=690, 1203.7472pt
+<./04-figuras/Simulacoes/Problema2/Falha/P2FalhaInicio.png, id=694, 1203.7472pt
  x 589.4522pt>
 File: ./04-figuras/Simulacoes/Problema2/Falha/P2FalhaInicio.png Graphic file (t
 ype png)
@@ -2004,7 +2027,7 @@ Package pdftex.def Info: ./04-figuras/Simulacoes/Problema2/Falha/P2FalhaInicio.
 png used on input line 85.
 (pdftex.def)             Requested size: 409.49722pt x 200.51903pt.
 
-<./04-figuras/Simulacoes/Problema2/Falha/P2FalhaFim.png, id=691, 1203.7472pt x 
+<./04-figuras/Simulacoes/Problema2/Falha/P2FalhaFim.png, id=695, 1203.7472pt x 
 589.4522pt>
 File: ./04-figuras/Simulacoes/Problema2/Falha/P2FalhaFim.png Graphic file (type
  png)
@@ -2013,7 +2036,7 @@ Package pdftex.def Info: ./04-figuras/Simulacoes/Problema2/Falha/P2FalhaFim.png
  used on input line 91.
 (pdftex.def)             Requested size: 409.49722pt x 200.51903pt.
 
-<./04-figuras/Simulacoes/Problema2/Colisao/P2_C1.png, id=692, 1203.7472pt x 589
+<./04-figuras/Simulacoes/Problema2/Colisao/P2_C1.png, id=696, 1203.7472pt x 589
 .4522pt>
 File: ./04-figuras/Simulacoes/Problema2/Colisao/P2_C1.png Graphic file (type pn
 g)
@@ -2029,74 +2052,92 @@ lacoes/Problema2/Colisao/P2_C1.png (PNG copy)>]
 \openout2 = `./02-elementos-textuais/resultados.aux'.
 
  (./02-elementos-textuais/resultados.tex
-<./Testes/Problema1/Incremental/P1Antes.png, id=710, 1203.7472pt x 589.4522pt>
-File: ./Testes/Problema1/Incremental/P1Antes.png Graphic file (type png)
+<./Testes/Problema1/Polinomial/P1Antes.png, id=715, 1203.7472pt x 589.4522pt>
+File: ./Testes/Problema1/Polinomial/P1Antes.png Graphic file (type png)
 
-<use ./Testes/Problema1/Incremental/P1Antes.png>
-Package pdftex.def Info: ./Testes/Problema1/Incremental/P1Antes.png used on inp
-ut line 12.
+<use ./Testes/Problema1/Polinomial/P1Antes.png>
+Package pdftex.def Info: ./Testes/Problema1/Polinomial/P1Antes.png used on inpu
+t line 12.
 (pdftex.def)             Requested size: 409.49722pt x 200.51903pt.
 
-<./Testes/Problema1/Incremental/P1Depois.png, id=711, 1203.7472pt x 589.4522pt>
+<./Testes/Problema1/Polinomial/P1Depois.png, id=716, 1203.7472pt x 589.4522pt>
+File: ./Testes/Problema1/Polinomial/P1Depois.png Graphic file (type png)
+
+<use ./Testes/Problema1/Polinomial/P1Depois.png>
+Package pdftex.def Info: ./Testes/Problema1/Polinomial/P1Depois.png used on inp
+ut line 18.
+(pdftex.def)             Requested size: 409.49722pt x 200.51903pt.
+
+<./Testes/Problema1/Incremental/P1Depois.png, id=717, 1203.7472pt x 589.4522pt>
 File: ./Testes/Problema1/Incremental/P1Depois.png Graphic file (type png)
 <use ./Testes/Problema1/Incremental/P1Depois.png>
 Package pdftex.def Info: ./Testes/Problema1/Incremental/P1Depois.png used on in
-put line 18.
+put line 28.
 (pdftex.def)             Requested size: 409.49722pt x 200.51903pt.
 
-<./Testes/Problema1/Incremental/ErroDistancia.png, id=712, 1203.7472pt x 589.45
+<./Testes/Problema1/Incremental/ErroDistancia.png, id=718, 1203.7472pt x 589.45
 22pt>
 File: ./Testes/Problema1/Incremental/ErroDistancia.png Graphic file (type png)
  <use ./Testes/Problema1/Incremental/ErroDistancia.png>
 Package pdftex.def Info: ./Testes/Problema1/Incremental/ErroDistancia.png used 
-on input line 28.
+on input line 35.
 (pdftex.def)             Requested size: 409.49722pt x 200.51903pt.
 
-<./Testes/Problema2/Incremental/2Rb.png, id=715, 1203.7472pt x 589.4522pt>
+<./Testes/Problema2/Incremental/2Rb.png, id=722, 1203.7472pt x 589.4522pt>
 File: ./Testes/Problema2/Incremental/2Rb.png Graphic file (type png)
 
 <use ./Testes/Problema2/Incremental/2Rb.png>
 Package pdftex.def Info: ./Testes/Problema2/Incremental/2Rb.png used on input l
-ine 44.
+ine 51.
 (pdftex.def)             Requested size: 409.49722pt x 200.51903pt.
 
-<./Testes/Problema2/Incremental/1Rb.png, id=716, 1203.7472pt x 589.4522pt>
+<./Testes/Problema2/Incremental/1Rb.png, id=723, 1203.7472pt x 589.4522pt>
 File: ./Testes/Problema2/Incremental/1Rb.png Graphic file (type png)
 
 <use ./Testes/Problema2/Incremental/1Rb.png>
 Package pdftex.def Info: ./Testes/Problema2/Incremental/1Rb.png used on input l
-ine 50.
+ine 57.
 (pdftex.def)             Requested size: 409.49722pt x 200.51903pt.
+
+<./Testes/Problema2/Incremental/velAng.png, id=724, 1204.5pt x 571.38469pt>
+File: ./Testes/Problema2/Incremental/velAng.png Graphic file (type png)
+
+<use ./Testes/Problema2/Incremental/velAng.png>
+Package pdftex.def Info: ./Testes/Problema2/Incremental/velAng.png used on inpu
+t line 63.
+(pdftex.def)             Requested size: 409.49722pt x 194.25949pt.
 ) [41
 
 
 
-] [42 <./Testes/Problema1/Incremental/P1Antes.png (PNG copy)> <./Testes/Problem
-a1/Incremental/P1Depois.png (PNG copy)> <./Testes/Problema1/Incremental/ErroDis
-tancia.png (PNG copy)>]
-[43 <./Testes/Problema2/Incremental/2Rb.png (PNG copy)> <./Testes/Problema2/Inc
-remental/1Rb.png (PNG copy)>]
+] [42 <./Testes/Problema1/Polinomial/P1Antes.png (PNG copy)> <./Testes/Problema
+1/Polinomial/P1Depois.png (PNG copy)> <./Testes/Problema1/Incremental/P1Depois.
+png (PNG copy)>] [43 <./Testes/Problema1/Incremental/ErroDistancia.png (PNG cop
+y)>] [44 <./Testes/Problema2/Incremental/2Rb.png (PNG copy)> <./Testes/Problema
+2/Incremental/1Rb.png (PNG copy)> <./Testes/Problema2/Incremental/velAng.png (P
+NG copy)>]
 \openout2 = `./02-elementos-textuais/conclusao.aux'.
 
- (./02-elementos-textuais/conclusao.tex [44
+
+(./02-elementos-textuais/conclusao.tex [45
 
 
 
-])
-[45]
+]) [46]
 \openout2 = `./03-elementos-pos-textuais/referencias.aux'.
 
- (./03-elementos-pos-textuais/referencias.tex (./main.bbl (./main.brf)
+
+(./03-elementos-pos-textuais/referencias.tex (./main.bbl (./main.brf)
 \tf@brf=\write6
 \openout6 = `main.brf'.
 
 
 bibitemlist
-[46
+[47
 
 
 
-])) [47]
+])) [48]
 \tf@lof=\write7
 \openout7 = `main.lof'.
 
@@ -2131,10 +2172,7 @@ Package atveryend Info: Empty hook `AfterLastShipout' on input line 120.
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 120.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 120.
 Package rerunfilecheck Info: File `main.brf' has not changed.
-(rerunfilecheck)             Checksum: 3B7925E87C73C2C349BBD26CB60A3C9D;930.
-
-
-LaTeX Warning: There were undefined references.
+(rerunfilecheck)             Checksum: F2766C8952602D3643C80F6D187E4329;1077.
 
 
 LaTeX Warning: There were multiply-defined labels.
@@ -2142,13 +2180,13 @@ LaTeX Warning: There were multiply-defined labels.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 120.
  ) 
 Here is how much of TeX's memory you used:
- 26901 strings out of 493109
- 470059 string characters out of 6138587
- 655766 words of memory out of 5000000
- 29255 multiletter control sequences out of 15000+600000
- 49820 words of font info for 237 fonts, out of 8000000 for 9000
+ 26912 strings out of 493109
+ 470667 string characters out of 6138587
+ 656063 words of memory out of 5000000
+ 29273 multiletter control sequences out of 15000+600000
+ 48602 words of font info for 229 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 60i,17n,54p,2065b,602s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 60i,17n,54p,2065b,600s stack positions out of 5000i,500n,10000p,200000b,80000s
 {c:/texlive/2014/texmf-dist/fonts/enc/dvips/base/8r.enc}<c:/texlive/2014/texm
 f-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb><c:/texlive/2014/texmf-dist/fo
 nts/type1/public/amsfonts/cm/cmmi12.pfb><c:/texlive/2014/texmf-dist/fonts/type1
@@ -2159,10 +2197,10 @@ c:/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb><c:/texliv
 e/2014/texmf-dist/fonts/type1/urw/palatino/uplb8a.pfb><c:/texlive/2014/texmf-di
 st/fonts/type1/urw/palatino/uplr8a.pfb><c:/texlive/2014/texmf-dist/fonts/type1/
 urw/palatino/uplri8a.pfb>
-Output written on main.pdf (61 pages, 2571344 bytes).
+Output written on main.pdf (62 pages, 2615002 bytes).
 PDF statistics:
  993 PDF objects out of 1000 (max. 8388607)
- 839 compressed objects within 9 object streams
- 194 named destinations out of 1000 (max. 500000)
- 37985 words of extra memory for PDF output out of 42996 (max. 10000000)
+ 836 compressed objects within 9 object streams
+ 198 named destinations out of 1000 (max. 500000)
+ 35899 words of extra memory for PDF output out of 42996 (max. 10000000)
 

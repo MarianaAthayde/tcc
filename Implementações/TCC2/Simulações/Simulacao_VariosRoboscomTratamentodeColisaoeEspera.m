@@ -4,16 +4,19 @@ clc
 
 %Simulação
 %Variáveis do Sistema
-num_robos = 10; %número de robos do sistema
+num_robos = 5; %número de robos do sistema
 raio = 0.3; %Raio em torno do alvo - metros
 periodo = 24; %Período desejado
-dist_min = 0.2; %Distancia mínima de colisão
+dist_min = 0.25; %Distancia mínima de colisão
 wd = 2*pi/periodo; 
 vd = wd*raio;
 t_amostral = 25/1000.0;
-amostras = 3000;
-kp = 1;
-kv = 0.5;
+amostras = 900;
+% kp = 1;
+% kv = 0.5;
+kp = 8;
+kv = 5;
+
 %Posição do Alvo
 x_alvo = 0.0;
 y_alvo = 0.0;
@@ -29,10 +32,10 @@ end;
 
 qnt_robos(1) = num_robos;
 
-dist = zeros(qnt_robos(1),qnt_robos(1));
+d_d = zeros(amostras,num_robos);
+d_c = zeros(amostras,num_robos);
 
-plot(x_alvo,y_alvo,'r*');
-hold on;
+dist = zeros(qnt_robos(1),qnt_robos(1));
 for i = 2:amostras
 %Nota: [Mestre Slave1 Slave2]
 qnt_robos(i) = num_robos;
@@ -51,13 +54,14 @@ for j = 0:num_robos-1
     errt = atan2(sin(errt),cos(errt));
     edist = sqrt(errxd^2+erryd^2);
     wr(i,j+1) = kp*errt;   
-    vr(i,j+1) = vd + kv*edist;
+    vr(i,j+1) = vd + kv*(edist^2);
     if j > 0 
 %             sprintf('Entrei j: %d', j+1)
             aux = sqrt( (xd(i,j) - xr(i,j))^2 + (yd(i,j) - yr(i,j))^2 );
-        if aux > 0.1
+        if aux > 0.03
             wr(i,j+1) = 0.0;  
             vr(i,j+1) = 0.0;
+            d_d(i,j+1) = 1;
 %             sprintf('i: %d, j: %d, vr: %f', i,j+1,vr(i,j+1))
         end
     end
@@ -88,6 +92,7 @@ for j = 0:num_robos-1
      if flag == 1
          vr(i,k) = 0.0;
          wr(i,k) = 0.0;
+         d_c(i,k) = 1;
         % sprintf('Cheguei');
 %      else
 %          vr(i,k) = vr(1,k);        
@@ -101,13 +106,15 @@ for j = 0:num_robos-1
      %   num_robos = 2;
     %end
 end;
-figure;
+F = figure;
 t = title('Problema 2 com Medidas para Evitar Colisão','FontSize',24,'FontWeight','bold');
         xl = xlabel('X (metros)','FontSize',22,'FontWeight','demi');
         yl = ylabel('Y (metros)','FontSize',22,'FontWeight','demi');
-       
-
-for i = 1:10:amostras
+        pause(2);
+plot(x_alvo,y_alvo,'r*');
+hold on;       
+aviobj = avifile('simulacao_p2_m1.avi', 'fps', 10);
+for i = 1:15:amostras
     for j = 1:qnt_robos(i)
        a = plot(xr(1:i,j),yr(1:i,j),'b');        
        t = title('Problema 2 com Medidas para Evitar Colisão','FontSize',24,'FontWeight','bold');
@@ -121,6 +128,7 @@ for i = 1:10:amostras
        b = plot(xd(1:i,j),yd(1:i,j),'r');
        plot(xd(i,j),yd(i,j),'r*');
     end;   
+    aviobj = addframe(aviobj, getframe(F));
 %         if i == amostras/5
             clear a;
             clear b;
@@ -128,3 +136,4 @@ for i = 1:10:amostras
        pause(0.0001);
        hold off
 end;
+aviobj = close (aviobj);
