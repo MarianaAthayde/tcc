@@ -1,4 +1,4 @@
-//Mestre P2 - Escravo
+//Mestre P1 - Escravo
 #define BT_CONN 0
 #define INBOX 5
 #define OUTBOX 1

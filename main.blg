@@ -23,6 +23,7 @@ A level-1 auxiliary file: ./02-elementos-textuais/simulacoes.aux
 A level-1 auxiliary file: ./02-elementos-textuais/resultados.aux
 A level-1 auxiliary file: ./02-elementos-textuais/conclusao.aux
 A level-1 auxiliary file: ./03-elementos-pos-textuais/referencias.aux
+A level-1 auxiliary file: ./03-elementos-pos-textuais/apendices.aux
 The style file: abntex2-alf.bst
 Reallocated singl_function (elt_size=4) to 100 items from 50.
 Reallocated singl_function (elt_size=4) to 100 items from 50.
@@ -46,7 +47,7 @@ Reallocated glb_str_end (elt_size=4) to 20 items from 10.
 +---------------------------------------------------------+
 You've used 22 entries,
             6711 wiz_defined-function locations,
-            1340 strings with 13653 characters,
+            1341 strings with 13694 characters,
 and the built_in function-call counts, 19661 in all, are:
 = -- 1781
 > -- 583

@@ -1,7 +1,7 @@
 \chapter{Simulações}
 \label{chap:Simulacoes}
 
-As simulações realizadas neste trabalho, consideram o robô como um elemento pontual, conforme descrito nas equações \ref{eq:posiçãox}, \ref{eq:posiçãoy} e \ref{eq:posiçãotheta} e foram realizadas com intuito de se observar a viabilidade de implementação da estratégia de controle. 
+As simulações\footnote{Os códigos-fonte das simulações realizadas podem ser acessador em: https://github.com/MarianaAthayde/tcc/tree/master/Implementações/Implementações - Consolidadas/Simulações} realizadas neste trabalho, consideram o robô como um elemento pontual, conforme descrito nas equações \ref{eq:posiçãox}, \ref{eq:posiçãoy} e \ref{eq:posiçãotheta} e foram realizadas com intuito de se observar a viabilidade de implementação da estratégia de controle. 
 
 Essas implementações desconsideram não só o robô como um elemento não-pontual, mas também, desconsideram problemas como: saturação do motor, derrapagem das rodas, falhas de comunicação e imprecisão de leitura dos \emph{encoders}. 
 
@@ -10,7 +10,7 @@ Essas implementações desconsideram não só o robô como um elemento não-pont
 
 Primeiramente, foi realizado a simulação da primeira estratégia de abordagem do primeiro problema, em que tem-se uma frota de \emph{N} robôs separados entre si no eixo $y$ e com uma posição randômica no eixo $x$, todos dispostos na mesma direção e sentido. A primeira estratégia elimina os problemas de colisão, visto que os robôs começam separados, no mesmo sentido e como são impossibilitados a imprimir uma velocidade angular pela estratégia adotada, seguem em linha reta com velocidade linear negativa ou positiva. Além disso, ela leva em consideração a rede de comunicação, utilizando-se a \autoref{eq:velP1}. 
 
-Serão feitas simulações com duas redes, a primeira será uma rede centralizada com 4 robôs, tal qual é possível implementar com a plataforma \emph{Lego Mindstorms\textregistered}. A segunda, será uma rede descentralizada com cinco robôs, tal como a rede ilustrada na \autoref{fig:rededistr}. Como mostrado nas Figuras \ref{fig:sP1Cent} e \ref{fig:sP1Desc}, essa é uma estratégia viável quando considerando o robô como um elemento pontual.
+Serão feitas simulações com duas redes, a primeira será uma rede centralizada com 4 robôs, tal qual é possível implementar com a plataforma \emph{Lego Mindstorms\textregistered}. A segunda, será uma rede descentralizada com cinco robôs, tal como a rede ilustrada na \autoref{fig:rededistr}. Como mostrado nas Figuras \ref{fig:sP1Cent}, \ref{fig:sP1Desc} e \ref{fig:sP1DxT}, essa é uma estratégia viável quando considerando o robô como um elemento pontual.
 
 \begin{figure}[!htb]
 	\centering
@@ -48,9 +48,42 @@ Serão feitas simulações com duas redes, a primeira será uma rede centralizad
 	\label{fig:sP1Desc}
 \end{figure}
 
+\begin{figure}[!htb]
+	\centering
+	\begin{subfigure}{.5\textwidth}
+		\centering
+		\includegraphics[width=.9\linewidth]{./04-figuras/Simulacoes/Sim_RedeCentralizada_dxt}
+		\caption{Sistema com Rede Centralizada - $d\times t$}
+		\label{fig:P1_C_DxT}
+	\end{subfigure}%
+	\begin{subfigure}{.5\textwidth}
+		\centering
+		\includegraphics[width=.9\linewidth]{./04-figuras/Simulacoes/Sim_RedeDescentralizada_dxt}
+		\caption{Sistema com Rede Descentralizada - $d\times t$}
+		\label{fig:P1_D_DxT}
+	\end{subfigure}
+	\caption{Problema 1 - Gráfico de distância $\times$ tempo}
+	\label{fig:sP1DxT}
+\end{figure}
+
 Já a segunda estratégia consiste em encontrar uma reta paralela ao eixo y onde, sua localização no eixo x é a média da posição dos robôs mais distantes entre sí do sistema. Ela foi implementada de modo a permitir que o robô adquirira uma velocidade angular. Sendo assim ele pode se deslocar em qualquer direção. Essa abordagem faz uso da malha de controle intermediário modelada no \autoref{chap:abordagememdelo} e apresenta problemas de colisão, já que os robôs podem se deslocar em qualquer direção.
 
-Não foi implementado neste trabalho um tratamento de colisão, foram adotadas algumas medidas para diminuir as colisões no sistema. A primeira medida foi estabelecer uma prioridade na rede que vai do mestre ao último escravo, aquele que possui menor prioridade para ao estar em menos de 20 centímetros de distância de outro robô. A segunda medida foi fazer com que os robôs convirjam um a um para o ponto desejado. Notou-se com essas medidas uma redução\footnote{Foram realizados 1000 experimentos com 300 amostras cada um, primeiro sem nenhuma medida para evitamento de colisão, depois apenas parando o robô com menor prioridade e por fim, uma combinação entre a segunda técnica e a técnica de convergir os robôs um a um para o ponto desejado. Percebeu-se com isso uma redução de 80\% com aplicação da primeira técnica e de 87\% com a aplicação de ambas as técnicas.} no número de colisões ocorridas no sistema..
+Não foi implementado neste trabalho um tratamento de colisão, foram adotadas algumas medidas para diminuir as colisões no sistema. A primeira medida foi estabelecer uma prioridade na rede que vai do mestre ao último escravo, aquele que possui menor prioridade para ao estar em menos de 20 centímetros de distância de outro robô. A segunda medida foi fazer com que os robôs convirjam um a um para o ponto desejado. Notou-se com essas medidas uma redução\footnote{Foram realizados 1000 experimentos com 300 amostras cada um, primeiro sem nenhuma medida para evitamento de colisão, depois apenas parando o robô com menor prioridade e por fim, uma combinação entre a segunda técnica e a técnica de convergir os robôs um a um para o ponto desejado. Percebeu-se com isso uma redução de 80\% com aplicação da primeira técnica e de 87\% com a aplicação de ambas as técnicas.} no número de colisões ocorridas no sistema, como mostrado no \autoref{qua:medidas}.
+\begin{quadro}[!htb]
+	\centering
+	\begin{tabular}{|p{2cm}|p{2cm}|p{5cm}|p{5cm}|}
+		\hline
+		\textbf{Medidas} & \textbf{Redução de colisão} & \textbf{Vantagens} & \textbf{Desvantagens}  \\
+		\hline
+		Sem técnica & 0\% & Não aumenta o tempo de convergência & Não evita colisões\\
+		\hline
+		Primeira técnica & 80\% & Reduz as colisões sem aumentar tanto o tempo de convergência & Não garante que as colisões nunca ocorram\\
+		\hline
+		Ambas técnicas & 87\% & Reduz as colisões & Não garante que as colisões nunca ocorram e não garante a convergência do sistema\\
+		\hline
+	\end{tabular}
+	\caption{Comparativo entre as medidas adotas para redução de colisão.\label{qua:medidas}}
+\end{quadro}
 
 Como pode ser visto na \autoref{fig:sP1A2}, essa abordagem também é viável entretanto, apesar de apresentar a vantagem de conceder mais autonomia aos robôs, deixando-os movimentar em qualquer direção, ela acarreta ao sistema problemas de colisão que quando não contornados podem prejudicar o sistema.
 
@@ -102,3 +135,4 @@ A primeira simulação realizada desconsidera problemas de colisão e inicia os 
 	\caption{Problema 2: Robôs convergindo um de cada vez, de acordo com a ordem de prioridade}
 	\label{fig:P2C}
 \end{figure}
+

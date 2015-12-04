@@ -1,4 +1,3 @@
-%
 % Modelo de trabalho acadêmico (Teses, Dissertações, TCC)
 % Documento principal
 %
@@ -33,9 +32,10 @@
 \usepackage{palatino}                               % Usa a fonte Palatino
 %\usepackage{times}                                 % Usa a fonte Times
 %\usepackage{lmodern}                               % Usa a fonte Latin Modern
-%\usepackage{color, colortbl}                       % Comandos de cores
-%\usepackage{listings}                              % Importação de códigos fonte
-%\usepackage[bottom]{footmisc}                      % Mantém as notas de rodapé sempre na mesma posição
+
+\usepackage{color, colortbl}                       % Comandos de cores
+\usepackage{listings}                              % Importação de códigos fonte
+\usepackage[bottom]{footmisc}                      % Mantém as notas de rodapé sempre na mesma posição
 %\usepackage{subfig}                                % Posicionamento de figuras
 \usepackage{caption}
 \usepackage{subcaption}
@@ -50,6 +50,30 @@
 
 % Inclui o preâmbulo do documento
 \include{./01-elementos-pre-textuais/preambulo}
+
+%\usepackage{listings}
+%\usepackage{color}
+
+\definecolor{dkgreen}{rgb}{0,0.6,0}
+\definecolor{gray}{rgb}{0.5,0.5,0.5}
+\definecolor{mauve}{rgb}{0.58,0,0.82}
+
+\lstset{frame=tb,
+	language=Java,
+	aboveskip=3mm,
+	belowskip=3mm,
+	showstringspaces=false,
+	columns=flexible,
+	basicstyle={\small\ttfamily},
+	numbers=none,
+	numberstyle=\tiny\color{gray},
+	keywordstyle=\color{blue},
+	commentstyle=\color{dkgreen},
+	stringstyle=\color{mauve},
+	breaklines=true,
+	breakatwhitespace=true,
+	tabsize=3
+}
 
 % Define as cores dos links e informações do PDF
 \makeatletter
@@ -114,7 +138,7 @@
     % Elementos pós textuais
     \postextual
     \include{./03-elementos-pos-textuais/referencias}       % Referências
-    %\include{./03-elementos-pos-textuais/apendices}         % Apêndices
+    \include{./03-elementos-pos-textuais/apendices}         % Apêndices
     %\include{./03-elementos-pos-textuais/anexos}            % Anexos
     %\printindex                                             % Índice remissivo
 

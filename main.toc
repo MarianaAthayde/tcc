@@ -27,9 +27,15 @@
 \contentsline {section}{\numberline {6.4}Malha 2: Controle de Posicionamento}{30}{section.6.4}
 \contentsline {chapter}{\chapternumberline {7}Simula\IeC {\c c}\IeC {\~o}es}{36}{chapter.7}
 \contentsline {section}{\numberline {7.1}Simula\IeC {\c c}\IeC {\~o}es do Primeiro Problema}{36}{section.7.1}
-\contentsline {section}{\numberline {7.2}Simula\IeC {\c c}\IeC {\~o}es do Segundo Problema}{37}{section.7.2}
-\contentsline {chapter}{\chapternumberline {8}Resultados }{41}{chapter.8}
-\contentsline {chapter}{\chapternumberline {9}Conclus\IeC {\~a}o}{45}{chapter.9}
-\contentsline {section}{\numberline {9.1}Trabalhos Futuros}{46}{section.9.1}
-\contentsline {chapter}{Refer\^encias}{47}{section*.42}
+\contentsline {section}{\numberline {7.2}Simula\IeC {\c c}\IeC {\~o}es do Segundo Problema}{39}{section.7.2}
+\contentsline {chapter}{\chapternumberline {8}Resultados }{42}{chapter.8}
+\contentsline {chapter}{\chapternumberline {9}Conclus\IeC {\~a}o}{46}{chapter.9}
+\contentsline {section}{\numberline {9.1}Trabalhos Futuros}{48}{section.9.1}
+\contentsline {chapter}{Refer\^encias}{49}{section*.45}
 \vspace {\cftbeforepartskip }
+\renewcommand *{\cftappendixname }{AP\^ENDICE \space }
+\contentsline {part}{Ap\^endices}{51}{section*.46}
+\contentsline {appendix}{\chapternumberline {A}C\IeC {\'o}digo do problema 1: Mestre}{52}{appendix.A}
+\contentsline {appendix}{\chapternumberline {B}C\IeC {\'o}digo do problema 1: Escravo}{59}{appendix.B}
+\contentsline {appendix}{\chapternumberline {C}C\IeC {\'o}digo do problema 2: Mestre}{66}{appendix.C}
+\contentsline {appendix}{\chapternumberline {D}C\IeC {\'o}digo do problema 2: Escravo}{74}{appendix.D}

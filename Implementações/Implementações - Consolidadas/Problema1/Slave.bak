@@ -1,7 +1,7 @@
-//Mestre P1 - Mestre
-#define BT_CONN 1
-#define INBOX 1
-#define OUTBOX 5
+//Mestre P2 - Escravo
+#define BT_CONN 0
+#define INBOX 5
+#define OUTBOX 1
 
 #define L 0.112
 #define RP 0.0216
@@ -70,7 +70,7 @@ float errt_past = 0;
 float w_controle = 0;
 
 //Posicionamento Inicial do Robô
-float xr = 0.0;
+float xr = 0.8;
 float yr = 0.0;
 float tetar_k = PI;
 float tetad = PI;
@@ -235,7 +235,6 @@ sub malha2(/*float xd, float yd*/){
     /*malha1(v, w_controle); */
 }
 
-
 sub BTCheck(int conn){
 if (!BluetoothStatus(conn)==NO_ERR){
 TextOut(5,LCD_LINE2,"Error");
@@ -265,7 +264,7 @@ task main(){
         TextOut(0,LCD_LINE2,"IN:");
         TextOut(0,LCD_LINE3,"OUT:");
         ReceiveRemoteString(INBOX, true, in);
-        SendRemoteString(BT_CONN,OUTBOX,out);
+        SendResponseString(OUTBOX,out);
         TextOut(10,LCD_LINE3,out);
 
         int index = Pos("|",in);
@@ -284,11 +283,12 @@ task main(){
         //positionControl();
         Wait(t_amostral);
         /*********/
-        
+
         /*float xd = (xr+x1)/2;
         float yd = 0.0;
         malha2(xd,yd);*/
         float v = vd + 0.2*(xr - x1);
+        TextOut(0,LCD_LINE4,NumToStr(v));
         malha1(v,0);
 
         Wait(t_amostral);

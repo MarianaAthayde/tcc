@@ -68,7 +68,7 @@ onde:
 E o controlador os retorna as ações de controle que serão passadas como potência para cada uma das rodas.	
 
 \section{Malha de Controle 2: Posicionamento}
-\label{sec:malha2 } 
+\label{sec:malha2} 
 Para que a malha de controle 3, que consiste no controle de formação do sistema multiagente funcione, primeiramente é necessário implementar o controle de posicionamento de cada robô. Ou seja, para que o robô cumpra a missão, é necessário que a malha de controle de formação passe para cada robô os parâmetros necessários para o ajuste da estrutura, tais como, posicionamento, velocidade e número de robôs da frota. Cada robô por sua vez, deve conseguir se posicionar corretamente de acordo com a posição recebida pela malha de controle 3, o que só será possível se a malha de controle 1 conseguir controlar adequadamente os motores para que eles imprimam a velocidade correta em cada roda.
 
 Como pode ser visto na \autoref{fig:esq2}, o problema a ser resolvido pela segunda malha de controle consiste em, dado um sistema de coordenadas cartesianas, onde têm-se um robô móvel de posição (\emph{$x_{r},y_{r}$}), cuja orientação (\emph{$\theta$}) é indicada em relação ao eixo \emph{x} do sistema, %onde pretende-se 
