@@ -1,7 +1,7 @@
 \backcite {HCWSNX02,CMHL08}{{1}{1}{chapter.1}}
 \backcite {HCWSNX02,CMHL08}{{1}{1}{chapter.1}}
-\backcite {CMAJJBC08}{{1}{1}{chapter.1}}
 \backcite {RSDH2004}{{1}{1}{chapter.1}}
+\backcite {CMAJJBC08}{{1}{1}{chapter.1}}
 \backcite {SHA08}{{1}{1}{chapter.1}}
 \backcite {GARHAS04,JTA13,MANJ09}{{2}{1.1}{section.1.1}}
 \backcite {GARHAS04,JTA13,MANJ09}{{2}{1.1}{section.1.1}}
@@ -20,3 +20,4 @@
 \backcite {ok1970}{{7}{3.3}{section.3.3}}
 \backcite {franklin1998digital}{{7}{3.3}{section.3.3}}
 \backcite {sorceforge2001}{{9}{3.4}{section.3.4}}
+\backcite {vieira2005}{{11}{4.1}{section.4.1}}

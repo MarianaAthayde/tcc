@@ -116,4 +116,11 @@ Dispon{\'\i}vel em: \url{http://bricxcc.sourceforge.net/}. Acesso em: 20 de
 ISBN 9788429143126. Dispon{\'\i}vel em:
   \url{http://books.google.com.br/books?id=6QJjngEACAAJ}.}
 
+\bibitem[Vieira 2005]{vieira2005}
+\abntrefinfo{Vieira}{VIEIRA}{2005}
+{VIEIRA, F.~C.
+\textbf{Controle din{\^a}mico de rob{\^o}s m{\'o}veis com acionamento
+  diferencial}.
+Tese (Doutorado) --- Universidade Federal do Rio Grande do Norte, 2005.}
+
 \end{thebibliography}

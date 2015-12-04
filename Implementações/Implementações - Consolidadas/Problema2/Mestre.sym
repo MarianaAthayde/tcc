@@ -1,0 +1,1349 @@
+#SYMBOLS
+Index	Identifier	Type	Flag	Data	Size	RefCount
+0	errt	10	1	0	4	10
+1	erry	10	1	4	4	3
+2	ki_pos	10	1	8	4	3
+3	kp_pos	10	0	12	4	1
+4	ewr	10	1	16	4	2
+5	wdl	10	1	20	4	6
+6	errx	10	1	24	4	3
+7	ewl	10	1	28	4	2
+8	yr	10	1	32	4	3
+9	xr	10	0	36	4	3
+10	tetad	10	0	40	4	2
+11	tetar_k	10	0	44	4	5
+12	acum_errt	10	1	48	4	5
+13	kd_pos	10	1	52	4	1
+14	w_controle	10	1	56	4	3
+15	errt_past	10	1	60	4	2
+16	wdr	10	1	64	4	6
+17	dt	10	1	68	4	8
+18	tempo_k	6	1	72	4	5
+19	countL_k	10	1	76	4	2
+20	countR_k	10	1	80	4	2
+21	R	10	0	84	4	3
+22	__float_stack_002malha2	10	1	88	4	20
+23	convrad	10	0	92	4	2
+24	T	10	0	96	4	2
+25	countL2_kplus	10	1	100	4	3
+26	countR2_kplus	10	1	104	4	3
+27	wl	10	1	108	4	2
+28	wr	10	1	112	4	2
+29	countL_kplus	10	1	116	4	3
+30	countR_kplus	10	1	120	4	3
+31	countL2_k	10	1	124	4	2
+32	countR2_k	10	1	128	4	2
+33	__pow_7qG2_exponent_7qG2_000_inline_malha2	10	1	132	4	4
+34	__pow_7qG2_base_7qG2_000_inline_malha2	10	1	136	4	4
+35	__constValf0P05	10	0	140	4	1
+36	__malha2_7qG2_v_7qG2_000	10	1	144	4	4
+37	__atan2_7qG2_x_7qG2_000_inline_malha2	10	1	148	4	4
+38	__atan2_7qG2_y_7qG2_000_inline_malha2	10	1	152	4	4
+39	__sqrt_7qG2_x_7qG2_000_inline_malha2	10	1	156	4	2
+40	__malha2_7qG2_dist_7qG2_000	10	1	160	4	2
+41	__constValf6P283186	10	0	164	4	2
+42	__cos_7qG2_x_7qG2_000_inline_main	10	1	168	4	2
+43	__sin_7qG2_x_7qG2_000_inline_main	10	1	172	4	2
+44	__main_7qG2_yd_7qG2_002	10	1	176	4	2
+45	__constVal77824	6	0	180	4	1
+46	__constValf1P1	10	0	184	4	1
+47	__main_7qG2_xd_7qG2_002	10	1	188	4	2
+48	__main_7qG2_dt_aux_7qG2_002	6	1	192	4	3
+49	__sin_7qG2_x_7qG2_000_inline_malha2	10	1	196	4	4
+50	__malha1_7qG2_vLinear_7qG2_000	10	1	200	4	3
+51	wt	10	1	204	4	4
+52	__constValf0P112	10	0	208	4	3
+53	__malha1_7qG2_vAng_7qG2_000	10	1	212	4	3
+54	cl	10	1	216	4	2
+55	cr	10	1	220	4	2
+56	ddl	10	1	224	4	4
+57	ddr	10	1	228	4	4
+58	__constValf3P141593	10	0	232	4	4
+59	__malha2_7qG2_yd_7qG2_000	10	1	236	4	2
+60	__cos_7qG2_x_7qG2_000_inline_malha2	10	1	240	4	4
+61	__constValf0P0216	10	0	244	4	2
+62	__pow_7qG2_base_7qG2_000_inline_malha1	10	1	248	4	12
+63	__constValf0P0432	10	0	252	4	2
+64	__malha2_7qG2_xd_7qG2_000	10	1	256	4	2
+65	__pow_7qG2_exponent_7qG2_000_inline_malha1	10	1	260	4	12
+66	__float_stack_001malha2	10	1	264	4	42
+67	__DF0malha1	10	1	268	4	38
+68	__DF0main	10	1	272	4	12
+69	__D0main	6	1	276	4	18
+70	__D0malha2	6	1	280	4	2
+71	__signed_stack_002BTCheck	6	1	284	4	2
+72	__signed_stack_001BTCheck	6	1	288	4	4
+73	__DF0malha2	10	1	292	4	26
+74	__FWriteMutex	9	0	296	4	4
+75	__FOMutex	9	0	300	4	2
+76	__TextOutMutex	9	0	304	4	8
+77	__CBTCSMutex	9	0	308	4	4
+78	__D0BTCheck	6	1	312	4	8
+79	__ArrHelper__malha1_79_0	10	1	316	4	20
+80	__SRSTmpLongVal	6	1	320	4	2
+81	__float_stack_002main	10	1	324	4	6
+82	__float_stack_001malha1	10	1	328	4	32
+83	__float_stack_001main	10	1	332	4	8
+84	__signed_stack_001malha1	6	1	336	4	4
+85	__float_stack_003main	10	1	340	4	4
+86	__float_stack_002malha1	10	1	344	4	24
+87	__unsigned_stack_001main	5	1	348	4	2
+88	__signed_stack_002main	6	1	352	4	6
+89	__signed_stack_001main	6	1	356	4	10
+90	__float_stack_001getWs	10	1	360	4	8
+91	__constVal1000	4	0	364	2	2
+92	num	4	1	366	2	2
+93	num_robos	4	0	368	2	7
+94	__constVal360	4	0	370	2	2
+95	__BTCheck_7qG2_conn_7qG2_000	4	1	372	2	2
+96	__main_7qG2_t_7qG2_001	4	1	374	2	4
+97	amostras	4	0	376	2	1
+98	__getWs_return	1	1	378	1	3
+99	__constVal7	2	0	379	1	2
+100	__constVal32	2	0	380	1	6
+101	__zfmalha2	1	1	381	1	3
+102	__constVal1	2	0	382	1	9
+103	fileHandle2	1	1	383	1	2
+104	__constVal2	2	0	384	1	18
+105	fileHandle	1	1	385	1	2
+106	__constVal96	2	0	386	1	2
+107	__malha1_return	1	1	387	1	3
+108	__WFRRTmpByte	1	1	388	1	2
+109	__constVal63	2	0	389	1	2
+110	__constVal4	2	0	390	1	6
+111	__zfmain	1	1	391	1	6
+112	__constVal5	2	0	392	1	1
+113	__malha2_return	1	1	393	1	3
+114	____initialize_global_data_return	1	1	394	1	3
+115	__constVal3	2	0	395	1	5
+116	__constVal0	2	1	396	1	7
+117	__zfBTCheck	1	1	397	1	3
+118	__BTCheck_return	1	1	398	1	3
+119	__FOArgs	8	0	4	12	5
+120	__FOArgs.Result	3	1	400	2	5
+121	__FOArgs.FileHandle	1	1	402	1	5
+122	__FOArgs.Filename	7	0	404	4	5
+123	__FOArgs.Filename.Filename_type	1	0	0	1	0
+124	__FOArgs.Length	5	1	408	4	5
+125	__FCArgs	8	0	2	4	3
+126	__FCArgs.Result	3	1	412	2	3
+127	__FCArgs.FileHandle	1	1	414	1	3
+128	__CBTWArgs	8	0	3	8	4
+129	__CBTWArgs.Result	2	1	416	1	4
+130	__CBTWArgs.Connection	1	1	417	1	4
+131	__CBTWArgs.Buffer	7	0	418	4	4
+132	__CBTWArgs.Buffer.Buffer_type	1	0	0	1	0
+133	__CBTCSArgs	8	0	2	4	6
+134	__CBTCSArgs.Result	2	1	420	1	6
+135	__CBTCSArgs.Connection	1	1	421	1	6
+136	__FWriteArgs	8	0	4	12	11
+137	__FWriteArgs.Result	3	1	424	2	11
+138	__FWriteArgs.FileHandle	1	1	426	1	11
+139	__FWriteArgs.Buffer	7	0	428	4	11
+140	__FWriteArgs.Buffer.Buffer_type	1	0	0	1	0
+141	__FWriteArgs.Length	5	1	432	4	11
+142	__FDArgs	8	0	2	8	5
+143	__FDArgs.Result	3	1	436	2	5
+144	__FDArgs.Filename	7	0	438	4	5
+145	__FDArgs.Filename.Filename_type	1	0	0	1	0
+146	__CHSWArgs	8	0	2	8	3
+147	__CHSWArgs.Status	2	1	440	1	3
+148	__CHSWArgs.Buffer	7	0	442	4	3
+149	__CHSWArgs.Buffer.Buffer_type	1	0	0	1	0
+150	__TextOutArgs	8	0	4	16	24
+151	__TextOutArgs.Result	2	1	444	1	24
+152	__TextOutArgs.Location	8	0	2	4	24
+153	__TextOutArgs.Location.X	4	1	448	2	24
+154	__TextOutArgs.Location.Y	4	1	450	2	24
+155	__TextOutArgs.Text	7	0	452	4	24
+156	__TextOutArgs.Text.Text_type	1	0	0	1	0
+157	__TextOutArgs.Options	5	1	456	4	24
+158	__malha2_7qG2_write2_7qG2_000	7	0	460	4	2
+159	__malha2_7qG2_write2_7qG2_000.__malha2_7qG2_write2_7qG2_000_type	1	0	0	1	0
+160	__constStr0013	7	0	462	4	1
+161	__constStr0013.__constStr0013_type	1	1	0	1	0
+162	__constStr0014	7	0	464	4	1
+163	__constStr0014.__constStr0014_type	1	1	0	1	0
+164	__constStr0012	7	0	466	4	1
+165	__constStr0012.__constStr0012_type	1	1	0	1	0
+166	__constStr0010	7	0	468	4	1
+167	__constStr0010.__constStr0010_type	1	1	0	1	0
+168	__constStr0011	7	0	470	4	2
+169	__constStr0011.__constStr0011_type	1	1	0	1	0
+170	__ArrHelper__main_244_1	7	0	472	4	2
+171	__ArrHelper__main_244_1.__ArrHelper__main_244_1_type	1	0	0	1	0
+172	__ArrHelper__main_244_2	7	0	474	4	2
+173	__ArrHelper__main_244_2.__ArrHelper__main_244_2_type	1	0	0	1	0
+174	__strbufBTCheck	7	0	476	4	2
+175	__strbufBTCheck.__strbufBTCheck_type	1	0	0	1	0
+176	__ArrHelper__malha1_244_4	7	0	478	4	2
+177	__ArrHelper__malha1_244_4.__ArrHelper__malha1_244_4_type	1	0	0	1	0
+178	__ArrHelper__malha2_244_0	7	0	480	4	2
+179	__ArrHelper__malha2_244_0.__ArrHelper__malha2_244_0_type	1	0	0	1	0
+180	__ArrHelper__main_244_0	7	0	482	4	2
+181	__ArrHelper__main_244_0.__ArrHelper__main_244_0_type	1	0	0	1	0
+182	__strretvalmalha1	7	0	484	4	8
+183	__strretvalmalha1.__strretvalmalha1_type	1	0	0	1	0
+184	__strbufmalha2	7	0	486	4	4
+185	__strbufmalha2.__strbufmalha2_type	1	0	0	1	0
+186	__strretvalmalha2	7	0	488	4	4
+187	__strretvalmalha2.__strretvalmalha2_type	1	0	0	1	0
+188	__strbufmain	7	0	490	4	14
+189	__strbufmain.__strbufmain_type	1	0	0	1	0
+190	__strretvalmain	7	0	492	4	6
+191	__strretvalmain.__strretvalmain_type	1	0	0	1	0
+192	__strbufmalha1	7	0	494	4	12
+193	__strbufmalha1.__strbufmalha1_type	1	0	0	1	0
+194	__ArrHelper__malha1_244_3	7	0	496	4	2
+195	__ArrHelper__malha1_244_3.__ArrHelper__malha1_244_3_type	1	0	0	1	0
+196	__SRSTmpBuf	7	0	498	4	6
+197	__SRSTmpBuf.__SRSTmpBuf_type	1	0	0	1	0
+198	__SRSSendBuf	7	0	500	4	3
+199	__SRSSendBuf.__SRSSendBuf_type	1	0	0	1	0
+200	__constStr0009	7	0	502	4	3
+201	__constStr0009.__constStr0009_type	1	1	0	1	0
+202	__FWriteFlattenBuf	7	0	504	4	4
+203	__FWriteFlattenBuf.__FWriteFlattenBuf_type	1	0	0	1	0
+204	__FWriteLn	7	0	506	4	2
+205	__FWriteLn.__FWriteLn_type	1	0	0	1	0
+206	write	7	0	508	4	2
+207	write.write_type	1	0	0	1	0
+208	__ArrHelper__malha1_244_0	7	0	510	4	2
+209	__ArrHelper__malha1_244_0.__ArrHelper__malha1_244_0_type	1	0	0	1	0
+210	__ArrHelper__malha1_244_1	7	0	512	4	2
+211	__ArrHelper__malha1_244_1.__ArrHelper__malha1_244_1_type	1	0	0	1	0
+212	__ArrHelper__malha1_244_2	7	0	514	4	2
+213	__ArrHelper__malha1_244_2.__ArrHelper__malha1_244_2_type	1	0	0	1	0
+214	__DCMessageWritePacket	7	0	516	4	1
+215	__DCMessageWritePacket.__DCMessageWritePacket_type	1	0	0	1	0
+216	out	7	0	518	4	4
+217	out.out_type	1	0	0	1	0
+218	P	7	0	520	4	10
+219	P.P_type	10	0	0	4	0
+#SOURCES
+Clump	Line	PC	Source
+0	252	0	#line 252 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC2\Teste  das Malhas e Problemas\Problema2\Mestre.nxc"
+0	253	0		subcall __initialize_global_data, ____initialize_global_data_return
+0	252	2	#line 252 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC2\Teste  das Malhas e Problemas\Problema2\Mestre.nxc"
+0	252	2	#line 252 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC2\Teste  das Malhas e Problemas\Problema2\Mestre.nxc"
+0	253	2	#pragma macro 5
+0	253	2		mov __FDArgs.Filename, __constStr0011
+0	253	4		syscall 8, __FDArgs
+0	253	7		mov __D0main, __FDArgs.Result
+0	8355	9	#line 8355 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC2\Teste  das Malhas e Problemas\Problema2\Mestre.nxc"
+0	252	9	#line 252 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC2\Teste  das Malhas e Problemas\Problema2\Mestre.nxc"
+0	252	9	#line 252 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC2\Teste  das Malhas e Problemas\Problema2\Mestre.nxc"
+0	253	9	#line 253 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC2\Teste  das Malhas e Problemas\Problema2\Mestre.nxc"
+0	254	9	#pragma macro 7
+0	254	9		acquire __FOMutex
+0	254	10		mov __FOArgs.Filename, __constStr0011
+0	254	12		mov __FOArgs.Length, __constVal77824
+0	254	14		syscall 1, __FOArgs
+0	254	17		mov fileHandle2, __FOArgs.FileHandle
+0	254	19		mov __D0main, __FOArgs.Result
+0	254	21		release __FOMutex
+0	8359	22	#line 8359 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC2\Teste  das Malhas e Problemas\Problema2\Mestre.nxc"
+0	253	22	#line 253 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC2\Teste  das Malhas e Problemas\Problema2\Mestre.nxc"
+0	253	22	#line 253 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC2\Teste  das Malhas e Problemas\Problema2\Mestre.nxc"
+0	254	22	#line 254 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC2\Teste  das Malhas e Problemas\Problema2\Mestre.nxc"
+0	255	22	#pragma macro 5
+0	255	22		mov __FDArgs.Filename, __constStr0012
+0	255	24		syscall 8, __FDArgs
+0	8363	27	#line 8363 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC2\Teste  das Malhas e Problemas\Problema2\Mestre.nxc"
+0	254	27	#line 254 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC2\Teste  das Malhas e Problemas\Problema2\Mestre.nxc"
+0	254	27	#line 254 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC2\Teste  das Malhas e Problemas\Problema2\Mestre.nxc"
+0	259	27	#line 259 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC2\Teste  das Malhas e Problemas\Problema2\Mestre.nxc"
+0	260	27		set __BTCheck_7qG2_conn_7qG2_000, 1
+0	259	30	#line 259 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC2\Teste  das Malhas e Problemas\Problema2\Mestre.nxc"
+0	260	30	#line 260 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC2\Teste  das Malhas e Problemas\Problema2\Mestre.nxc"
+0	261	30		subcall BTCheck, __BTCheck_return
+0	260	32	#line 260 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC2\Teste  das Malhas e Problemas\Problema2\Mestre.nxc"
+0	261	32	#line 261 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC2\Teste  das Malhas e Problemas\Problema2\Mestre.nxc"
+0	262	32		gettick tempo_k
+0	261	34	#line 261 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC2\Teste  das Malhas e Problemas\Problema2\Mestre.nxc"
+0	261	34	#line 261 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC2\Teste  das Malhas e Problemas\Problema2\Mestre.nxc"
+0	261	34	#line 261 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC2\Teste  das Malhas e Problemas\Problema2\Mestre.nxc"
+0	263	34	#line 263 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC2\Teste  das Malhas e Problemas\Problema2\Mestre.nxc"
+0	263	34	#line 263 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC2\Teste  das Malhas e Problemas\Problema2\Mestre.nxc"
+0	263	34	#line 263 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC2\Teste  das Malhas e Problemas\Problema2\Mestre.nxc"
+0	264	34		set __main_7qG2_t_7qG2_001, 0
+0	263	37	#line 263 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC2\Teste  das Malhas e Problemas\Problema2\Mestre.nxc"
+0	263	37	#line 263 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC2\Teste  das Malhas e Problemas\Problema2\Mestre.nxc"
+0	264	37		mov __signed_stack_001main, __main_7qG2_t_7qG2_001
+0	263	39	#line 263 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC2\Teste  das Malhas e Problemas\Problema2\Mestre.nxc"
+0	263	39	#line 263 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC2\Teste  das Malhas e Problemas\Problema2\Mestre.nxc"
+0	264	39		mov __D0main, amostras
+0	263	41	#line 263 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC2\Teste  das Malhas e Problemas\Problema2\Mestre.nxc"
+0	264	41		cmp 0, __zfmain, __signed_stack_001main, __D0main
+0	263	45	#line 263 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC2\Teste  das Malhas e Problemas\Problema2\Mestre.nxc"
+0	264	45		mov __D0main, __zfmain
+0	263	47	#line 263 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC2\Teste  das Malhas e Problemas\Problema2\Mestre.nxc"
+0	264	47		brtst 4, __NXC_Label_819, __zfmain
+0	263	50	#line 263 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC2\Teste  das Malhas e Problemas\Problema2\Mestre.nxc"
+0	264	50		jmp __NXC_Label_820
+0	263	52	#line 263 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC2\Teste  das Malhas e Problemas\Problema2\Mestre.nxc"
+0	264	52		add __main_7qG2_t_7qG2_001, __main_7qG2_t_7qG2_001, __constVal1
+0	265	56	#line 265 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC2\Teste  das Malhas e Problemas\Problema2\Mestre.nxc"
+0	266	56		jmp __NXC_Label_818
+0	265	58	#line 265 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC2\Teste  das Malhas e Problemas\Problema2\Mestre.nxc"
+0	266	58	#pragma macro 5
+0	266	58		acquire __CBTCSMutex
+0	266	59		mov __CBTCSArgs.Connection, __constVal1
+0	266	61		syscall 28, __CBTCSArgs
+0	266	64		mov __D0main, __CBTCSArgs.Result
+0	266	66		release __CBTCSMutex
+0	8431	67	#line 8431 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC2\Teste  das Malhas e Problemas\Problema2\Mestre.nxc"
+0	265	67	#line 265 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC2\Teste  das Malhas e Problemas\Problema2\Mestre.nxc"
+0	266	67		not __signed_stack_001main, __D0main
+0	265	70	#line 265 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC2\Teste  das Malhas e Problemas\Problema2\Mestre.nxc"
+0	265	70	#line 265 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC2\Teste  das Malhas e Problemas\Problema2\Mestre.nxc"
+0	266	70		set __D0main, 0
+0	265	73	#line 265 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC2\Teste  das Malhas e Problemas\Problema2\Mestre.nxc"
+0	266	73		cmp 4, __zfmain, __signed_stack_001main, __D0main
+0	265	77	#line 265 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC2\Teste  das Malhas e Problemas\Problema2\Mestre.nxc"
+0	266	77		mov __D0main, __zfmain
+0	266	79	#line 266 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC2\Teste  das Malhas e Problemas\Problema2\Mestre.nxc"
+0	267	79		brtst 4, __NXC_Label_828, __zfmain
+0	267	82	#line 267 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC2\Teste  das Malhas e Problemas\Problema2\Mestre.nxc"
+0	268	82		set num_robos, 1
+0	267	85	#line 267 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC2\Teste  das Malhas e Problemas\Problema2\Mestre.nxc"
+0	267	85	#line 267 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC2\Teste  das Malhas e Problemas\Problema2\Mestre.nxc"
+0	268	85	#line 268 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC2\Teste  das Malhas e Problemas\Problema2\Mestre.nxc"
+0	269	85		jmp __NXC_Label_831
+0	269	87	#line 269 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC2\Teste  das Malhas e Problemas\Problema2\Mestre.nxc"
+0	270	87		set num_robos, 2
+0	269	90	#line 269 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC2\Teste  das Malhas e Problemas\Problema2\Mestre.nxc"
+0	269	90	#line 269 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC2\Teste  das Malhas e Problemas\Problema2\Mestre.nxc"
+0	272	90	#line 272 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC2\Teste  das Malhas e Problemas\Problema2\Mestre.nxc"
+0	272	90	#line 272 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC2\Teste  das Malhas e Problemas\Problema2\Mestre.nxc"
+0	273	90		gettick __unsigned_stack_001main
+0	272	92	#line 272 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC2\Teste  das Malhas e Problemas\Problema2\Mestre.nxc"
+0	273	92	#line 273 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC2\Teste  das Malhas e Problemas\Problema2\Mestre.nxc"
+0	273	92	#line 273 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC2\Teste  das Malhas e Problemas\Problema2\Mestre.nxc"
+0	274	92		sub __main_7qG2_dt_aux_7qG2_002, __unsigned_stack_001main, tempo_k
+0	273	96	#line 273 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC2\Teste  das Malhas e Problemas\Problema2\Mestre.nxc"
+0	273	96	#line 273 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC2\Teste  das Malhas e Problemas\Problema2\Mestre.nxc"
+0	273	96	#line 273 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC2\Teste  das Malhas e Problemas\Problema2\Mestre.nxc"
+0	274	96	#line 274 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC2\Teste  das Malhas e Problemas\Problema2\Mestre.nxc"
+0	274	96	#line 274 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC2\Teste  das Malhas e Problemas\Problema2\Mestre.nxc"
+0	275	96		add tempo_k, tempo_k, __main_7qG2_dt_aux_7qG2_002
+0	274	100	#line 274 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC2\Teste  das Malhas e Problemas\Problema2\Mestre.nxc"
+0	274	100	#line 274 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC2\Teste  das Malhas e Problemas\Problema2\Mestre.nxc"
+0	274	100	#line 274 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC2\Teste  das Malhas e Problemas\Problema2\Mestre.nxc"
+0	274	100	#line 274 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC2\Teste  das Malhas e Problemas\Problema2\Mestre.nxc"
+0	278	100	#line 278 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC2\Teste  das Malhas e Problemas\Problema2\Mestre.nxc"
+0	278	100	#line 278 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC2\Teste  das Malhas e Problemas\Problema2\Mestre.nxc"
+0	279	100		div dt, __main_7qG2_dt_aux_7qG2_002, __constVal1000
+0	278	104	#line 278 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC2\Teste  das Malhas e Problemas\Problema2\Mestre.nxc"
+0	278	104	#line 278 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC2\Teste  das Malhas e Problemas\Problema2\Mestre.nxc"
+0	278	104	#line 278 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC2\Teste  das Malhas e Problemas\Problema2\Mestre.nxc"
+0	278	104	#line 278 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC2\Teste  das Malhas e Problemas\Problema2\Mestre.nxc"
+0	278	104	#line 278 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC2\Teste  das Malhas e Problemas\Problema2\Mestre.nxc"
+0	278	104	#line 278 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC2\Teste  das Malhas e Problemas\Problema2\Mestre.nxc"
+0	279	104		div __float_stack_001main, tempo_k, __constVal1000
+0	278	108	#line 278 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC2\Teste  das Malhas e Problemas\Problema2\Mestre.nxc"
+0	278	108	#line 278 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC2\Teste  das Malhas e Problemas\Problema2\Mestre.nxc"
+0	278	108	#line 278 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC2\Teste  das Malhas e Problemas\Problema2\Mestre.nxc"
+0	278	108	#line 278 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC2\Teste  das Malhas e Problemas\Problema2\Mestre.nxc"
+0	278	108	#line 278 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC2\Teste  das Malhas e Problemas\Problema2\Mestre.nxc"
+0	279	108		mul __float_stack_002main, __constVal2, __constValf3P141593
+0	278	112	#line 278 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC2\Teste  das Malhas e Problemas\Problema2\Mestre.nxc"
+0	278	112	#line 278 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC2\Teste  das Malhas e Problemas\Problema2\Mestre.nxc"
+0	278	112	#line 278 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC2\Teste  das Malhas e Problemas\Problema2\Mestre.nxc"
+0	279	112		div __DF0main, __float_stack_002main, T
+0	278	116	#line 278 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC2\Teste  das Malhas e Problemas\Problema2\Mestre.nxc"
+0	279	116		mul __float_stack_001main, __float_stack_001main, __DF0main
+0	278	120	#line 278 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC2\Teste  das Malhas e Problemas\Problema2\Mestre.nxc"
+0	282	120	#line 282 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC2\Teste  das Malhas e Problemas\Problema2\Mestre.nxc"
+0	282	120	#line 282 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC2\Teste  das Malhas e Problemas\Problema2\Mestre.nxc"
+0	283	120		div wt, __float_stack_001main, num_robos
+0	282	124	#line 282 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC2\Teste  das Malhas e Problemas\Problema2\Mestre.nxc"
+0	282	124	#line 282 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC2\Teste  das Malhas e Problemas\Problema2\Mestre.nxc"
+0	282	124	#line 282 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC2\Teste  das Malhas e Problemas\Problema2\Mestre.nxc"
+0	283	124		mov __D0main, num_robos
+0	282	126	#line 282 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC2\Teste  das Malhas e Problemas\Problema2\Mestre.nxc"
+0	283	126		numtostr __strretvalmain, __D0main
+0	282	129	#line 282 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC2\Teste  das Malhas e Problemas\Problema2\Mestre.nxc"
+0	283	129		strcat __strbufmain, __strretvalmain
+0	282	133	#line 282 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC2\Teste  das Malhas e Problemas\Problema2\Mestre.nxc"
+0	283	133		mov __ArrHelper__main_244_0, __strbufmain
+0	282	135	#line 282 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC2\Teste  das Malhas e Problemas\Problema2\Mestre.nxc"
+0	283	135		strcat __strbufmain, __constStr0009
+0	282	139	#line 282 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC2\Teste  das Malhas e Problemas\Problema2\Mestre.nxc"
+0	283	139		mov __ArrHelper__main_244_1, __strbufmain
+0	282	141	#line 282 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC2\Teste  das Malhas e Problemas\Problema2\Mestre.nxc"
+0	283	141		mov __DF0main, wt
+0	282	143	#line 282 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC2\Teste  das Malhas e Problemas\Problema2\Mestre.nxc"
+0	283	143		numtostr __strretvalmain, __DF0main
+0	282	146	#line 282 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC2\Teste  das Malhas e Problemas\Problema2\Mestre.nxc"
+0	283	146		strcat __strbufmain, __strretvalmain
+0	282	150	#line 282 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC2\Teste  das Malhas e Problemas\Problema2\Mestre.nxc"
+0	283	150		mov __ArrHelper__main_244_2, __strbufmain
+0	283	152	#line 283 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC2\Teste  das Malhas e Problemas\Problema2\Mestre.nxc"
+0	284	152		strcat __strretvalmain, __ArrHelper__main_244_0, __ArrHelper__main_244_1, __ArrHelper__main_244_2
+0	283	158	#line 283 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC2\Teste  das Malhas e Problemas\Problema2\Mestre.nxc"
+0	284	158		strcat __strbufmain, __strretvalmain
+0	283	162	#line 283 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC2\Teste  das Malhas e Problemas\Problema2\Mestre.nxc"
+0	284	162		mov out, __strbufmain
+0	283	164	#line 283 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC2\Teste  das Malhas e Problemas\Problema2\Mestre.nxc"
+0	283	164	#line 283 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC2\Teste  das Malhas e Problemas\Problema2\Mestre.nxc"
+0	284	164		set __signed_stack_001main, 10
+0	283	167	#line 283 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC2\Teste  das Malhas e Problemas\Problema2\Mestre.nxc"
+0	283	167	#line 283 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC2\Teste  das Malhas e Problemas\Problema2\Mestre.nxc"
+0	284	167		set __signed_stack_002main, 56
+0	283	170	#line 283 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC2\Teste  das Malhas e Problemas\Problema2\Mestre.nxc"
+0	283	170	#line 283 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC2\Teste  das Malhas e Problemas\Problema2\Mestre.nxc"
+0	284	170		strcat __strbufmain, __constStr0013
+0	285	174	#line 285 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC2\Teste  das Malhas e Problemas\Problema2\Mestre.nxc"
+0	286	174		acquire __TextOutMutex
+0	285	175	#line 285 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC2\Teste  das Malhas e Problemas\Problema2\Mestre.nxc"
+0	286	175		mov __TextOutArgs.Location.X, __signed_stack_001main
+0	285	177	#line 285 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC2\Teste  das Malhas e Problemas\Problema2\Mestre.nxc"
+0	286	177		mov __TextOutArgs.Location.Y, __signed_stack_002main
+0	285	179	#line 285 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC2\Teste  das Malhas e Problemas\Problema2\Mestre.nxc"
+0	286	179		set __TextOutArgs.Options, 0
+0	285	182	#line 285 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC2\Teste  das Malhas e Problemas\Problema2\Mestre.nxc"
+0	286	182		mov __TextOutArgs.Text, __strbufmain
+0	285	184	#line 285 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC2\Teste  das Malhas e Problemas\Problema2\Mestre.nxc"
+0	286	184		syscall 13, __TextOutArgs
+0	285	187	#line 285 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC2\Teste  das Malhas e Problemas\Problema2\Mestre.nxc"
+0	286	187		mov __D0main, __TextOutArgs.Result
+0	285	189	#line 285 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC2\Teste  das Malhas e Problemas\Problema2\Mestre.nxc"
+0	286	189		release __TextOutMutex
+0	285	190	#line 285 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC2\Teste  das Malhas e Problemas\Problema2\Mestre.nxc"
+0	285	190	#line 285 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC2\Teste  das Malhas e Problemas\Problema2\Mestre.nxc"
+0	286	190		set __signed_stack_001main, 0
+0	285	193	#line 285 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC2\Teste  das Malhas e Problemas\Problema2\Mestre.nxc"
+0	285	193	#line 285 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC2\Teste  das Malhas e Problemas\Problema2\Mestre.nxc"
+0	286	193		set __signed_stack_002main, 40
+0	285	196	#line 285 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC2\Teste  das Malhas e Problemas\Problema2\Mestre.nxc"
+0	285	196	#line 285 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC2\Teste  das Malhas e Problemas\Problema2\Mestre.nxc"
+0	286	196		strcat __strbufmain, __constStr0014
+0	287	200	#line 287 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC2\Teste  das Malhas e Problemas\Problema2\Mestre.nxc"
+0	288	200		acquire __TextOutMutex
+0	287	201	#line 287 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC2\Teste  das Malhas e Problemas\Problema2\Mestre.nxc"
+0	288	201		mov __TextOutArgs.Location.X, __signed_stack_001main
+0	287	203	#line 287 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC2\Teste  das Malhas e Problemas\Problema2\Mestre.nxc"
+0	288	203		mov __TextOutArgs.Location.Y, __signed_stack_002main
+0	287	205	#line 287 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC2\Teste  das Malhas e Problemas\Problema2\Mestre.nxc"
+0	288	205		set __TextOutArgs.Options, 0
+0	287	208	#line 287 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC2\Teste  das Malhas e Problemas\Problema2\Mestre.nxc"
+0	288	208		mov __TextOutArgs.Text, __strbufmain
+0	287	210	#line 287 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC2\Teste  das Malhas e Problemas\Problema2\Mestre.nxc"
+0	288	210		syscall 13, __TextOutArgs
+0	287	213	#line 287 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC2\Teste  das Malhas e Problemas\Problema2\Mestre.nxc"
+0	288	213		mov __D0main, __TextOutArgs.Result
+0	287	215	#line 287 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC2\Teste  das Malhas e Problemas\Problema2\Mestre.nxc"
+0	288	215		release __TextOutMutex
+0	287	216	#line 287 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC2\Teste  das Malhas e Problemas\Problema2\Mestre.nxc"
+0	287	216	#line 287 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC2\Teste  das Malhas e Problemas\Problema2\Mestre.nxc"
+0	288	216	#pragma macro 24
+0	288	216		mov __SRSTmpBuf, __DCMessageWritePacket
+0	288	218		replace __SRSTmpBuf, __SRSTmpBuf, __constVal2, __constVal5
+0	288	223		arrsize __SRSTmpLongVal, out
+0	288	226		replace __SRSTmpBuf, __SRSTmpBuf, __constVal3, __SRSTmpLongVal
+0	288	231		arrbuild __SRSSendBuf, __SRSTmpBuf, out
+0	288	236		brcmp 0, __ConnWrite_Else0, __constVal1, __constVal4
+0	288	240		sub __WFRRTmpByte, __constVal1, __constVal4
+0	288	244		arrbuild __CHSWArgs.Buffer, __WFRRTmpByte, __SRSSendBuf
+0	288	249		syscall 37, __CHSWArgs
+0	288	252		mov __D0main, __CHSWArgs.Status
+0	288	254		jmp __ConnWrite_EndIf0
+0	288	256		mov __CBTWArgs.Connection, __constVal1
+0	288	258		mov __CBTWArgs.Buffer, __SRSSendBuf
+0	288	260		syscall 29, __CBTWArgs
+0	288	263		mov __D0main, __CBTWArgs.Result
+0	8644	265	#line 8644 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC2\Teste  das Malhas e Problemas\Problema2\Mestre.nxc"
+0	287	265	#line 287 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC2\Teste  das Malhas e Problemas\Problema2\Mestre.nxc"
+0	287	265	#line 287 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC2\Teste  das Malhas e Problemas\Problema2\Mestre.nxc"
+0	288	265	#line 288 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC2\Teste  das Malhas e Problemas\Problema2\Mestre.nxc"
+0	289	265		set __signed_stack_001main, 10
+0	288	268	#line 288 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC2\Teste  das Malhas e Problemas\Problema2\Mestre.nxc"
+0	288	268	#line 288 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC2\Teste  das Malhas e Problemas\Problema2\Mestre.nxc"
+0	289	268		set __signed_stack_002main, 40
+0	288	271	#line 288 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC2\Teste  das Malhas e Problemas\Problema2\Mestre.nxc"
+0	288	271	#line 288 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC2\Teste  das Malhas e Problemas\Problema2\Mestre.nxc"
+0	289	271		strcat __strbufmain, out
+0	290	275	#line 290 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC2\Teste  das Malhas e Problemas\Problema2\Mestre.nxc"
+0	291	275		acquire __TextOutMutex
+0	290	276	#line 290 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC2\Teste  das Malhas e Problemas\Problema2\Mestre.nxc"
+0	291	276		mov __TextOutArgs.Location.X, __signed_stack_001main
+0	290	278	#line 290 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC2\Teste  das Malhas e Problemas\Problema2\Mestre.nxc"
+0	291	278		mov __TextOutArgs.Location.Y, __signed_stack_002main
+0	290	280	#line 290 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC2\Teste  das Malhas e Problemas\Problema2\Mestre.nxc"
+0	291	280		set __TextOutArgs.Options, 0
+0	290	283	#line 290 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC2\Teste  das Malhas e Problemas\Problema2\Mestre.nxc"
+0	291	283		mov __TextOutArgs.Text, __strbufmain
+0	290	285	#line 290 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC2\Teste  das Malhas e Problemas\Problema2\Mestre.nxc"
+0	291	285		syscall 13, __TextOutArgs
+0	290	288	#line 290 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC2\Teste  das Malhas e Problemas\Problema2\Mestre.nxc"
+0	291	288		mov __D0main, __TextOutArgs.Result
+0	290	290	#line 290 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC2\Teste  das Malhas e Problemas\Problema2\Mestre.nxc"
+0	291	290		release __TextOutMutex
+0	290	291	#line 290 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC2\Teste  das Malhas e Problemas\Problema2\Mestre.nxc"
+0	290	291	#line 290 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC2\Teste  das Malhas e Problemas\Problema2\Mestre.nxc"
+0	291	291		mov __float_stack_001main, R
+0	290	293	#line 290 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC2\Teste  das Malhas e Problemas\Problema2\Mestre.nxc"
+0	290	293	#line 290 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC2\Teste  das Malhas e Problemas\Problema2\Mestre.nxc"
+0	291	293		mov __float_stack_002main, wt
+0	290	295	#line 290 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC2\Teste  das Malhas e Problemas\Problema2\Mestre.nxc"
+0	290	295	#line 290 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC2\Teste  das Malhas e Problemas\Problema2\Mestre.nxc"
+0	290	295	#line 290 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC2\Teste  das Malhas e Problemas\Problema2\Mestre.nxc"
+0	290	295	#line 290 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC2\Teste  das Malhas e Problemas\Problema2\Mestre.nxc"
+0	290	295	#line 290 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC2\Teste  das Malhas e Problemas\Problema2\Mestre.nxc"
+0	291	295		mul __float_stack_003main, num, __constValf6P283186
+0	290	299	#line 290 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC2\Teste  das Malhas e Problemas\Problema2\Mestre.nxc"
+0	290	299	#line 290 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC2\Teste  das Malhas e Problemas\Problema2\Mestre.nxc"
+0	290	299	#line 290 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC2\Teste  das Malhas e Problemas\Problema2\Mestre.nxc"
+0	291	299		div __DF0main, __float_stack_003main, num_robos
+0	290	303	#line 290 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC2\Teste  das Malhas e Problemas\Problema2\Mestre.nxc"
+0	291	303		add __cos_7qG2_x_7qG2_000_inline_main, __float_stack_002main, __DF0main
+0	290	307	#line 290 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC2\Teste  das Malhas e Problemas\Problema2\Mestre.nxc"
+0	17165	307	#line 17165 "NXCDefs.h"
+0	17166	307		cos __DF0main, __cos_7qG2_x_7qG2_000_inline_main
+0	17165	310	#line 17165 "NXCDefs.h"
+0	291	310	#line 291 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC2\Teste  das Malhas e Problemas\Problema2\Mestre.nxc"
+0	291	310	#line 291 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC2\Teste  das Malhas e Problemas\Problema2\Mestre.nxc"
+0	292	310		mul __main_7qG2_xd_7qG2_002, __float_stack_001main, __DF0main
+0	291	314	#line 291 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC2\Teste  das Malhas e Problemas\Problema2\Mestre.nxc"
+0	291	314	#line 291 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC2\Teste  das Malhas e Problemas\Problema2\Mestre.nxc"
+0	292	314		mov __float_stack_001main, R
+0	291	316	#line 291 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC2\Teste  das Malhas e Problemas\Problema2\Mestre.nxc"
+0	291	316	#line 291 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC2\Teste  das Malhas e Problemas\Problema2\Mestre.nxc"
+0	292	316		mov __float_stack_002main, wt
+0	291	318	#line 291 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC2\Teste  das Malhas e Problemas\Problema2\Mestre.nxc"
+0	291	318	#line 291 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC2\Teste  das Malhas e Problemas\Problema2\Mestre.nxc"
+0	291	318	#line 291 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC2\Teste  das Malhas e Problemas\Problema2\Mestre.nxc"
+0	291	318	#line 291 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC2\Teste  das Malhas e Problemas\Problema2\Mestre.nxc"
+0	291	318	#line 291 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC2\Teste  das Malhas e Problemas\Problema2\Mestre.nxc"
+0	292	318		mul __float_stack_003main, num, __constValf6P283186
+0	291	322	#line 291 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC2\Teste  das Malhas e Problemas\Problema2\Mestre.nxc"
+0	291	322	#line 291 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC2\Teste  das Malhas e Problemas\Problema2\Mestre.nxc"
+0	291	322	#line 291 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC2\Teste  das Malhas e Problemas\Problema2\Mestre.nxc"
+0	292	322		div __DF0main, __float_stack_003main, num_robos
+0	291	326	#line 291 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC2\Teste  das Malhas e Problemas\Problema2\Mestre.nxc"
+0	292	326		add __sin_7qG2_x_7qG2_000_inline_main, __float_stack_002main, __DF0main
+0	291	330	#line 291 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC2\Teste  das Malhas e Problemas\Problema2\Mestre.nxc"
+0	17176	330	#line 17176 "NXCDefs.h"
+0	17177	330		sin __DF0main, __sin_7qG2_x_7qG2_000_inline_main
+0	17176	333	#line 17176 "NXCDefs.h"
+0	292	333	#line 292 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC2\Teste  das Malhas e Problemas\Problema2\Mestre.nxc"
+0	292	333	#line 292 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC2\Teste  das Malhas e Problemas\Problema2\Mestre.nxc"
+0	293	333		mul __main_7qG2_yd_7qG2_002, __float_stack_001main, __DF0main
+0	292	337	#line 292 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC2\Teste  das Malhas e Problemas\Problema2\Mestre.nxc"
+0	292	337	#line 292 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC2\Teste  das Malhas e Problemas\Problema2\Mestre.nxc"
+0	293	337		mov __malha2_7qG2_xd_7qG2_000, __main_7qG2_xd_7qG2_002
+0	292	339	#line 292 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC2\Teste  das Malhas e Problemas\Problema2\Mestre.nxc"
+0	292	339	#line 292 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC2\Teste  das Malhas e Problemas\Problema2\Mestre.nxc"
+0	293	339		mov __malha2_7qG2_yd_7qG2_000, __main_7qG2_yd_7qG2_002
+0	292	341	#line 292 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC2\Teste  das Malhas e Problemas\Problema2\Mestre.nxc"
+0	293	341	#line 293 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC2\Teste  das Malhas e Problemas\Problema2\Mestre.nxc"
+0	294	341		subcall malha2, __malha2_return
+0	293	343	#line 293 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC2\Teste  das Malhas e Problemas\Problema2\Mestre.nxc"
+0	293	343	#line 293 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC2\Teste  das Malhas e Problemas\Problema2\Mestre.nxc"
+0	293	343	#line 293 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC2\Teste  das Malhas e Problemas\Problema2\Mestre.nxc"
+0	7921	343	#line 7921 "NXCDefs.h"
+0	7922	343		wait 200
+0	7921	345	#line 7921 "NXCDefs.h"
+0	295	345	#line 295 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC2\Teste  das Malhas e Problemas\Problema2\Mestre.nxc"
+0	297	345	#line 297 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC2\Teste  das Malhas e Problemas\Problema2\Mestre.nxc"
+0	298	345		jmp __NXC_Label_821
+0	297	347	#line 297 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC2\Teste  das Malhas e Problemas\Problema2\Mestre.nxc"
+0	297	347	#line 297 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC2\Teste  das Malhas e Problemas\Problema2\Mestre.nxc"
+0	298	347	#pragma macro 5
+0	298	347		mov __FCArgs.FileHandle, fileHandle
+0	298	349		syscall 5, __FCArgs
+0	298	352		mov __D0main, __FCArgs.Result
+0	8810	354	#line 8810 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC2\Teste  das Malhas e Problemas\Problema2\Mestre.nxc"
+0	297	354	#line 297 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC2\Teste  das Malhas e Problemas\Problema2\Mestre.nxc"
+0	297	354	#line 297 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC2\Teste  das Malhas e Problemas\Problema2\Mestre.nxc"
+0	298	354		exit -1, -1
+1	96	0	#line 96 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC2\Teste  das Malhas e Problemas\Problema2\Mestre.nxc"
+1	97	0		getout countR_kplus, __constVal0, 14
+1	96	4	#line 96 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC2\Teste  das Malhas e Problemas\Problema2\Mestre.nxc"
+1	96	4	#line 96 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC2\Teste  das Malhas e Problemas\Problema2\Mestre.nxc"
+1	99	4	#line 99 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC2\Teste  das Malhas e Problemas\Problema2\Mestre.nxc"
+1	100	4		getout countL_kplus, __constVal2, 14
+1	99	8	#line 99 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC2\Teste  das Malhas e Problemas\Problema2\Mestre.nxc"
+1	99	8	#line 99 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC2\Teste  das Malhas e Problemas\Problema2\Mestre.nxc"
+1	99	8	#line 99 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC2\Teste  das Malhas e Problemas\Problema2\Mestre.nxc"
+1	99	8	#line 99 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC2\Teste  das Malhas e Problemas\Problema2\Mestre.nxc"
+1	99	8	#line 99 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC2\Teste  das Malhas e Problemas\Problema2\Mestre.nxc"
+1	99	8	#line 99 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC2\Teste  das Malhas e Problemas\Problema2\Mestre.nxc"
+1	100	8		sub __float_stack_001getWs, countR_kplus, countR_k
+1	99	12	#line 99 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC2\Teste  das Malhas e Problemas\Problema2\Mestre.nxc"
+1	99	12	#line 99 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC2\Teste  das Malhas e Problemas\Problema2\Mestre.nxc"
+1	99	12	#line 99 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC2\Teste  das Malhas e Problemas\Problema2\Mestre.nxc"
+1	100	12		mul __float_stack_001getWs, __float_stack_001getWs, convrad
+1	99	16	#line 99 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC2\Teste  das Malhas e Problemas\Problema2\Mestre.nxc"
+1	100	16	#line 100 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC2\Teste  das Malhas e Problemas\Problema2\Mestre.nxc"
+1	100	16	#line 100 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC2\Teste  das Malhas e Problemas\Problema2\Mestre.nxc"
+1	101	16		div wr, __float_stack_001getWs, dt
+1	100	20	#line 100 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC2\Teste  das Malhas e Problemas\Problema2\Mestre.nxc"
+1	100	20	#line 100 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC2\Teste  das Malhas e Problemas\Problema2\Mestre.nxc"
+1	100	20	#line 100 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC2\Teste  das Malhas e Problemas\Problema2\Mestre.nxc"
+1	100	20	#line 100 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC2\Teste  das Malhas e Problemas\Problema2\Mestre.nxc"
+1	100	20	#line 100 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC2\Teste  das Malhas e Problemas\Problema2\Mestre.nxc"
+1	100	20	#line 100 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC2\Teste  das Malhas e Problemas\Problema2\Mestre.nxc"
+1	101	20		sub __float_stack_001getWs, countL_kplus, countL_k
+1	100	24	#line 100 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC2\Teste  das Malhas e Problemas\Problema2\Mestre.nxc"
+1	100	24	#line 100 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC2\Teste  das Malhas e Problemas\Problema2\Mestre.nxc"
+1	100	24	#line 100 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC2\Teste  das Malhas e Problemas\Problema2\Mestre.nxc"
+1	101	24		mul __float_stack_001getWs, __float_stack_001getWs, convrad
+1	100	28	#line 100 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC2\Teste  das Malhas e Problemas\Problema2\Mestre.nxc"
+1	101	28	#line 101 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC2\Teste  das Malhas e Problemas\Problema2\Mestre.nxc"
+1	101	28	#line 101 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC2\Teste  das Malhas e Problemas\Problema2\Mestre.nxc"
+1	102	28		div wl, __float_stack_001getWs, dt
+1	101	32	#line 101 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC2\Teste  das Malhas e Problemas\Problema2\Mestre.nxc"
+1	101	32	#line 101 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC2\Teste  das Malhas e Problemas\Problema2\Mestre.nxc"
+1	102	32	#line 102 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC2\Teste  das Malhas e Problemas\Problema2\Mestre.nxc"
+1	103	32		mov countR_k, countR_kplus
+1	102	34	#line 102 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC2\Teste  das Malhas e Problemas\Problema2\Mestre.nxc"
+1	102	34	#line 102 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC2\Teste  das Malhas e Problemas\Problema2\Mestre.nxc"
+1	104	34	#line 104 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC2\Teste  das Malhas e Problemas\Problema2\Mestre.nxc"
+1	105	34		mov countL_k, countL_kplus
+1	104	36	#line 104 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC2\Teste  das Malhas e Problemas\Problema2\Mestre.nxc"
+1	104	36	#line 104 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC2\Teste  das Malhas e Problemas\Problema2\Mestre.nxc"
+1	106	36	#line 106 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC2\Teste  das Malhas e Problemas\Problema2\Mestre.nxc"
+1	107	36		subret __getWs_return
+2	109	0	#line 109 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC2\Teste  das Malhas e Problemas\Problema2\Mestre.nxc"
+2	109	0	#line 109 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC2\Teste  das Malhas e Problemas\Problema2\Mestre.nxc"
+2	109	0	#line 109 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC2\Teste  das Malhas e Problemas\Problema2\Mestre.nxc"
+2	109	0	#line 109 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC2\Teste  das Malhas e Problemas\Problema2\Mestre.nxc"
+2	110	0		mul __float_stack_001malha1, __constVal2, __malha1_7qG2_vLinear_7qG2_000
+2	109	4	#line 109 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC2\Teste  das Malhas e Problemas\Problema2\Mestre.nxc"
+2	109	4	#line 109 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC2\Teste  das Malhas e Problemas\Problema2\Mestre.nxc"
+2	109	4	#line 109 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC2\Teste  das Malhas e Problemas\Problema2\Mestre.nxc"
+2	109	4	#line 109 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC2\Teste  das Malhas e Problemas\Problema2\Mestre.nxc"
+2	109	4	#line 109 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC2\Teste  das Malhas e Problemas\Problema2\Mestre.nxc"
+2	110	4		mul __DF0malha1, __malha1_7qG2_vAng_7qG2_000, __constValf0P112
+2	109	8	#line 109 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC2\Teste  das Malhas e Problemas\Problema2\Mestre.nxc"
+2	110	8		add __float_stack_001malha1, __float_stack_001malha1, __DF0malha1
+2	109	12	#line 109 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC2\Teste  das Malhas e Problemas\Problema2\Mestre.nxc"
+2	109	12	#line 109 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC2\Teste  das Malhas e Problemas\Problema2\Mestre.nxc"
+2	110	12	#line 110 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC2\Teste  das Malhas e Problemas\Problema2\Mestre.nxc"
+2	111	12		div wdr, __float_stack_001malha1, __constValf0P0432
+2	110	16	#line 110 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC2\Teste  das Malhas e Problemas\Problema2\Mestre.nxc"
+2	110	16	#line 110 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC2\Teste  das Malhas e Problemas\Problema2\Mestre.nxc"
+2	110	16	#line 110 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC2\Teste  das Malhas e Problemas\Problema2\Mestre.nxc"
+2	110	16	#line 110 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC2\Teste  das Malhas e Problemas\Problema2\Mestre.nxc"
+2	110	16	#line 110 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC2\Teste  das Malhas e Problemas\Problema2\Mestre.nxc"
+2	110	16	#line 110 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC2\Teste  das Malhas e Problemas\Problema2\Mestre.nxc"
+2	111	16		mul __float_stack_001malha1, __constVal2, __malha1_7qG2_vLinear_7qG2_000
+2	110	20	#line 110 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC2\Teste  das Malhas e Problemas\Problema2\Mestre.nxc"
+2	110	20	#line 110 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC2\Teste  das Malhas e Problemas\Problema2\Mestre.nxc"
+2	110	20	#line 110 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC2\Teste  das Malhas e Problemas\Problema2\Mestre.nxc"
+2	110	20	#line 110 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC2\Teste  das Malhas e Problemas\Problema2\Mestre.nxc"
+2	110	20	#line 110 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC2\Teste  das Malhas e Problemas\Problema2\Mestre.nxc"
+2	111	20		mul __DF0malha1, __malha1_7qG2_vAng_7qG2_000, __constValf0P112
+2	110	24	#line 110 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC2\Teste  das Malhas e Problemas\Problema2\Mestre.nxc"
+2	111	24		sub __float_stack_001malha1, __float_stack_001malha1, __DF0malha1
+2	110	28	#line 110 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC2\Teste  das Malhas e Problemas\Problema2\Mestre.nxc"
+2	110	28	#line 110 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC2\Teste  das Malhas e Problemas\Problema2\Mestre.nxc"
+2	113	28	#line 113 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC2\Teste  das Malhas e Problemas\Problema2\Mestre.nxc"
+2	114	28		div wdl, __float_stack_001malha1, __constValf0P0432
+2	113	32	#line 113 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC2\Teste  das Malhas e Problemas\Problema2\Mestre.nxc"
+2	113	32	#line 113 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC2\Teste  das Malhas e Problemas\Problema2\Mestre.nxc"
+2	116	32	#line 116 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC2\Teste  das Malhas e Problemas\Problema2\Mestre.nxc"
+2	117	32		subcall getWs, __getWs_return
+2	116	34	#line 116 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC2\Teste  das Malhas e Problemas\Problema2\Mestre.nxc"
+2	116	34	#line 116 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC2\Teste  das Malhas e Problemas\Problema2\Mestre.nxc"
+2	116	34	#line 116 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC2\Teste  das Malhas e Problemas\Problema2\Mestre.nxc"
+2	117	34	#line 117 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC2\Teste  das Malhas e Problemas\Problema2\Mestre.nxc"
+2	117	34	#line 117 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC2\Teste  das Malhas e Problemas\Problema2\Mestre.nxc"
+2	118	34		sub ewr, wdr, wr
+2	117	38	#line 117 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC2\Teste  das Malhas e Problemas\Problema2\Mestre.nxc"
+2	117	38	#line 117 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC2\Teste  das Malhas e Problemas\Problema2\Mestre.nxc"
+2	117	38	#line 117 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC2\Teste  das Malhas e Problemas\Problema2\Mestre.nxc"
+2	117	38	#line 117 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC2\Teste  das Malhas e Problemas\Problema2\Mestre.nxc"
+2	173	38	#line 173 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC2\Teste  das Malhas e Problemas\Problema2\Mestre.nxc"
+2	173	38	#line 173 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC2\Teste  das Malhas e Problemas\Problema2\Mestre.nxc"
+2	174	38		sub ewl, wdl, wl
+2	173	42	#line 173 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC2\Teste  das Malhas e Problemas\Problema2\Mestre.nxc"
+2	173	42	#line 173 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC2\Teste  das Malhas e Problemas\Problema2\Mestre.nxc"
+2	173	42	#line 173 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC2\Teste  das Malhas e Problemas\Problema2\Mestre.nxc"
+2	174	42		set __signed_stack_001malha1, 0
+2	173	45	#line 173 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC2\Teste  das Malhas e Problemas\Problema2\Mestre.nxc"
+2	173	45	#line 173 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC2\Teste  das Malhas e Problemas\Problema2\Mestre.nxc"
+2	174	45		index __ArrHelper__malha1_79_0, P, __signed_stack_001malha1
+2	173	49	#line 173 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC2\Teste  das Malhas e Problemas\Problema2\Mestre.nxc"
+2	174	49		mov __float_stack_001malha1, __ArrHelper__malha1_79_0
+2	173	51	#line 173 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC2\Teste  das Malhas e Problemas\Problema2\Mestre.nxc"
+2	173	51	#line 173 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC2\Teste  das Malhas e Problemas\Problema2\Mestre.nxc"
+2	174	51		mov __pow_7qG2_base_7qG2_000_inline_malha1, wdr
+2	173	53	#line 173 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC2\Teste  das Malhas e Problemas\Problema2\Mestre.nxc"
+2	173	53	#line 173 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC2\Teste  das Malhas e Problemas\Problema2\Mestre.nxc"
+2	174	53		mov __pow_7qG2_exponent_7qG2_000_inline_malha1, __constVal4
+2	173	55	#line 173 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC2\Teste  das Malhas e Problemas\Problema2\Mestre.nxc"
+2	17348	55	#line 17348 "NXCDefs.h"
+2	17349	55		pow __DF0malha1, __pow_7qG2_base_7qG2_000_inline_malha1, __pow_7qG2_exponent_7qG2_000_inline_malha1
+2	17348	59	#line 17348 "NXCDefs.h"
+2	173	59	#line 173 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC2\Teste  das Malhas e Problemas\Problema2\Mestre.nxc"
+2	173	59	#line 173 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC2\Teste  das Malhas e Problemas\Problema2\Mestre.nxc"
+2	174	59		mul __float_stack_001malha1, __float_stack_001malha1, __DF0malha1
+2	173	63	#line 173 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC2\Teste  das Malhas e Problemas\Problema2\Mestre.nxc"
+2	173	63	#line 173 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC2\Teste  das Malhas e Problemas\Problema2\Mestre.nxc"
+2	174	63		mov __float_stack_002malha1, __constVal1
+2	173	65	#line 173 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC2\Teste  das Malhas e Problemas\Problema2\Mestre.nxc"
+2	173	65	#line 173 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC2\Teste  das Malhas e Problemas\Problema2\Mestre.nxc"
+2	174	65		index __ArrHelper__malha1_79_0, P, __float_stack_002malha1
+2	173	69	#line 173 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC2\Teste  das Malhas e Problemas\Problema2\Mestre.nxc"
+2	174	69		mov __float_stack_002malha1, __ArrHelper__malha1_79_0
+2	173	71	#line 173 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC2\Teste  das Malhas e Problemas\Problema2\Mestre.nxc"
+2	173	71	#line 173 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC2\Teste  das Malhas e Problemas\Problema2\Mestre.nxc"
+2	174	71		mov __pow_7qG2_base_7qG2_000_inline_malha1, wdr
+2	173	73	#line 173 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC2\Teste  das Malhas e Problemas\Problema2\Mestre.nxc"
+2	173	73	#line 173 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC2\Teste  das Malhas e Problemas\Problema2\Mestre.nxc"
+2	174	73		mov __pow_7qG2_exponent_7qG2_000_inline_malha1, __constVal3
+2	173	75	#line 173 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC2\Teste  das Malhas e Problemas\Problema2\Mestre.nxc"
+2	17348	75	#line 17348 "NXCDefs.h"
+2	17349	75		pow __DF0malha1, __pow_7qG2_base_7qG2_000_inline_malha1, __pow_7qG2_exponent_7qG2_000_inline_malha1
+2	17348	79	#line 17348 "NXCDefs.h"
+2	173	79	#line 173 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC2\Teste  das Malhas e Problemas\Problema2\Mestre.nxc"
+2	173	79	#line 173 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC2\Teste  das Malhas e Problemas\Problema2\Mestre.nxc"
+2	174	79		mul __DF0malha1, __float_stack_002malha1, __DF0malha1
+2	173	83	#line 173 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC2\Teste  das Malhas e Problemas\Problema2\Mestre.nxc"
+2	174	83		add __float_stack_001malha1, __float_stack_001malha1, __DF0malha1
+2	173	87	#line 173 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC2\Teste  das Malhas e Problemas\Problema2\Mestre.nxc"
+2	173	87	#line 173 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC2\Teste  das Malhas e Problemas\Problema2\Mestre.nxc"
+2	174	87		mov __float_stack_002malha1, __constVal2
+2	173	89	#line 173 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC2\Teste  das Malhas e Problemas\Problema2\Mestre.nxc"
+2	173	89	#line 173 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC2\Teste  das Malhas e Problemas\Problema2\Mestre.nxc"
+2	174	89		index __ArrHelper__malha1_79_0, P, __float_stack_002malha1
+2	173	93	#line 173 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC2\Teste  das Malhas e Problemas\Problema2\Mestre.nxc"
+2	174	93		mov __float_stack_002malha1, __ArrHelper__malha1_79_0
+2	173	95	#line 173 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC2\Teste  das Malhas e Problemas\Problema2\Mestre.nxc"
+2	173	95	#line 173 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC2\Teste  das Malhas e Problemas\Problema2\Mestre.nxc"
+2	174	95		mov __pow_7qG2_base_7qG2_000_inline_malha1, wdr
+2	173	97	#line 173 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC2\Teste  das Malhas e Problemas\Problema2\Mestre.nxc"
+2	173	97	#line 173 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC2\Teste  das Malhas e Problemas\Problema2\Mestre.nxc"
+2	174	97		mov __pow_7qG2_exponent_7qG2_000_inline_malha1, __constVal2
+2	173	99	#line 173 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC2\Teste  das Malhas e Problemas\Problema2\Mestre.nxc"
+2	17348	99	#line 17348 "NXCDefs.h"
+2	17349	99		pow __DF0malha1, __pow_7qG2_base_7qG2_000_inline_malha1, __pow_7qG2_exponent_7qG2_000_inline_malha1
+2	17348	103	#line 17348 "NXCDefs.h"
+2	173	103	#line 173 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC2\Teste  das Malhas e Problemas\Problema2\Mestre.nxc"
+2	173	103	#line 173 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC2\Teste  das Malhas e Problemas\Problema2\Mestre.nxc"
+2	174	103		mul __DF0malha1, __float_stack_002malha1, __DF0malha1
+2	173	107	#line 173 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC2\Teste  das Malhas e Problemas\Problema2\Mestre.nxc"
+2	174	107		add __float_stack_001malha1, __float_stack_001malha1, __DF0malha1
+2	173	111	#line 173 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC2\Teste  das Malhas e Problemas\Problema2\Mestre.nxc"
+2	173	111	#line 173 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC2\Teste  das Malhas e Problemas\Problema2\Mestre.nxc"
+2	174	111		mov __float_stack_002malha1, __constVal3
+2	173	113	#line 173 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC2\Teste  das Malhas e Problemas\Problema2\Mestre.nxc"
+2	173	113	#line 173 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC2\Teste  das Malhas e Problemas\Problema2\Mestre.nxc"
+2	174	113		index __ArrHelper__malha1_79_0, P, __float_stack_002malha1
+2	173	117	#line 173 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC2\Teste  das Malhas e Problemas\Problema2\Mestre.nxc"
+2	173	117	#line 173 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC2\Teste  das Malhas e Problemas\Problema2\Mestre.nxc"
+2	173	117	#line 173 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC2\Teste  das Malhas e Problemas\Problema2\Mestre.nxc"
+2	173	117	#line 173 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC2\Teste  das Malhas e Problemas\Problema2\Mestre.nxc"
+2	174	117		mul __DF0malha1, __ArrHelper__malha1_79_0, wdr
+2	173	121	#line 173 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC2\Teste  das Malhas e Problemas\Problema2\Mestre.nxc"
+2	174	121		add __float_stack_001malha1, __float_stack_001malha1, __DF0malha1
+2	173	125	#line 173 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC2\Teste  das Malhas e Problemas\Problema2\Mestre.nxc"
+2	173	125	#line 173 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC2\Teste  das Malhas e Problemas\Problema2\Mestre.nxc"
+2	174	125		mov __float_stack_002malha1, __constVal4
+2	173	127	#line 173 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC2\Teste  das Malhas e Problemas\Problema2\Mestre.nxc"
+2	173	127	#line 173 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC2\Teste  das Malhas e Problemas\Problema2\Mestre.nxc"
+2	174	127		index __ArrHelper__malha1_79_0, P, __float_stack_002malha1
+2	173	131	#line 173 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC2\Teste  das Malhas e Problemas\Problema2\Mestre.nxc"
+2	174	131	#line 174 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC2\Teste  das Malhas e Problemas\Problema2\Mestre.nxc"
+2	175	131		add cr, __float_stack_001malha1, __ArrHelper__malha1_79_0
+2	174	135	#line 174 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC2\Teste  das Malhas e Problemas\Problema2\Mestre.nxc"
+2	174	135	#line 174 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC2\Teste  das Malhas e Problemas\Problema2\Mestre.nxc"
+2	174	135	#line 174 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC2\Teste  das Malhas e Problemas\Problema2\Mestre.nxc"
+2	175	135		set __signed_stack_001malha1, 0
+2	174	138	#line 174 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC2\Teste  das Malhas e Problemas\Problema2\Mestre.nxc"
+2	174	138	#line 174 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC2\Teste  das Malhas e Problemas\Problema2\Mestre.nxc"
+2	175	138		index __ArrHelper__malha1_79_0, P, __signed_stack_001malha1
+2	174	142	#line 174 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC2\Teste  das Malhas e Problemas\Problema2\Mestre.nxc"
+2	175	142		mov __float_stack_001malha1, __ArrHelper__malha1_79_0
+2	174	144	#line 174 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC2\Teste  das Malhas e Problemas\Problema2\Mestre.nxc"
+2	174	144	#line 174 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC2\Teste  das Malhas e Problemas\Problema2\Mestre.nxc"
+2	175	144		mov __pow_7qG2_base_7qG2_000_inline_malha1, wdl
+2	174	146	#line 174 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC2\Teste  das Malhas e Problemas\Problema2\Mestre.nxc"
+2	174	146	#line 174 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC2\Teste  das Malhas e Problemas\Problema2\Mestre.nxc"
+2	175	146		mov __pow_7qG2_exponent_7qG2_000_inline_malha1, __constVal4
+2	174	148	#line 174 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC2\Teste  das Malhas e Problemas\Problema2\Mestre.nxc"
+2	17348	148	#line 17348 "NXCDefs.h"
+2	17349	148		pow __DF0malha1, __pow_7qG2_base_7qG2_000_inline_malha1, __pow_7qG2_exponent_7qG2_000_inline_malha1
+2	17348	152	#line 17348 "NXCDefs.h"
+2	174	152	#line 174 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC2\Teste  das Malhas e Problemas\Problema2\Mestre.nxc"
+2	174	152	#line 174 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC2\Teste  das Malhas e Problemas\Problema2\Mestre.nxc"
+2	175	152		mul __float_stack_001malha1, __float_stack_001malha1, __DF0malha1
+2	174	156	#line 174 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC2\Teste  das Malhas e Problemas\Problema2\Mestre.nxc"
+2	174	156	#line 174 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC2\Teste  das Malhas e Problemas\Problema2\Mestre.nxc"
+2	175	156		mov __float_stack_002malha1, __constVal1
+2	174	158	#line 174 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC2\Teste  das Malhas e Problemas\Problema2\Mestre.nxc"
+2	174	158	#line 174 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC2\Teste  das Malhas e Problemas\Problema2\Mestre.nxc"
+2	175	158		index __ArrHelper__malha1_79_0, P, __float_stack_002malha1
+2	174	162	#line 174 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC2\Teste  das Malhas e Problemas\Problema2\Mestre.nxc"
+2	175	162		mov __float_stack_002malha1, __ArrHelper__malha1_79_0
+2	174	164	#line 174 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC2\Teste  das Malhas e Problemas\Problema2\Mestre.nxc"
+2	174	164	#line 174 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC2\Teste  das Malhas e Problemas\Problema2\Mestre.nxc"
+2	175	164		mov __pow_7qG2_base_7qG2_000_inline_malha1, wdl
+2	174	166	#line 174 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC2\Teste  das Malhas e Problemas\Problema2\Mestre.nxc"
+2	174	166	#line 174 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC2\Teste  das Malhas e Problemas\Problema2\Mestre.nxc"
+2	175	166		mov __pow_7qG2_exponent_7qG2_000_inline_malha1, __constVal3
+2	174	168	#line 174 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC2\Teste  das Malhas e Problemas\Problema2\Mestre.nxc"
+2	17348	168	#line 17348 "NXCDefs.h"
+2	17349	168		pow __DF0malha1, __pow_7qG2_base_7qG2_000_inline_malha1, __pow_7qG2_exponent_7qG2_000_inline_malha1
+2	17348	172	#line 17348 "NXCDefs.h"
+2	174	172	#line 174 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC2\Teste  das Malhas e Problemas\Problema2\Mestre.nxc"
+2	174	172	#line 174 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC2\Teste  das Malhas e Problemas\Problema2\Mestre.nxc"
+2	175	172		mul __DF0malha1, __float_stack_002malha1, __DF0malha1
+2	174	176	#line 174 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC2\Teste  das Malhas e Problemas\Problema2\Mestre.nxc"
+2	175	176		add __float_stack_001malha1, __float_stack_001malha1, __DF0malha1
+2	174	180	#line 174 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC2\Teste  das Malhas e Problemas\Problema2\Mestre.nxc"
+2	174	180	#line 174 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC2\Teste  das Malhas e Problemas\Problema2\Mestre.nxc"
+2	175	180		mov __float_stack_002malha1, __constVal2
+2	174	182	#line 174 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC2\Teste  das Malhas e Problemas\Problema2\Mestre.nxc"
+2	174	182	#line 174 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC2\Teste  das Malhas e Problemas\Problema2\Mestre.nxc"
+2	175	182		index __ArrHelper__malha1_79_0, P, __float_stack_002malha1
+2	174	186	#line 174 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC2\Teste  das Malhas e Problemas\Problema2\Mestre.nxc"
+2	175	186		mov __float_stack_002malha1, __ArrHelper__malha1_79_0
+2	174	188	#line 174 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC2\Teste  das Malhas e Problemas\Problema2\Mestre.nxc"
+2	174	188	#line 174 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC2\Teste  das Malhas e Problemas\Problema2\Mestre.nxc"
+2	175	188		mov __pow_7qG2_base_7qG2_000_inline_malha1, wdl
+2	174	190	#line 174 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC2\Teste  das Malhas e Problemas\Problema2\Mestre.nxc"
+2	174	190	#line 174 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC2\Teste  das Malhas e Problemas\Problema2\Mestre.nxc"
+2	175	190		mov __pow_7qG2_exponent_7qG2_000_inline_malha1, __constVal2
+2	174	192	#line 174 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC2\Teste  das Malhas e Problemas\Problema2\Mestre.nxc"
+2	17348	192	#line 17348 "NXCDefs.h"
+2	17349	192		pow __DF0malha1, __pow_7qG2_base_7qG2_000_inline_malha1, __pow_7qG2_exponent_7qG2_000_inline_malha1
+2	17348	196	#line 17348 "NXCDefs.h"
+2	174	196	#line 174 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC2\Teste  das Malhas e Problemas\Problema2\Mestre.nxc"
+2	174	196	#line 174 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC2\Teste  das Malhas e Problemas\Problema2\Mestre.nxc"
+2	175	196		mul __DF0malha1, __float_stack_002malha1, __DF0malha1
+2	174	200	#line 174 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC2\Teste  das Malhas e Problemas\Problema2\Mestre.nxc"
+2	175	200		add __float_stack_001malha1, __float_stack_001malha1, __DF0malha1
+2	174	204	#line 174 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC2\Teste  das Malhas e Problemas\Problema2\Mestre.nxc"
+2	174	204	#line 174 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC2\Teste  das Malhas e Problemas\Problema2\Mestre.nxc"
+2	175	204		mov __float_stack_002malha1, __constVal3
+2	174	206	#line 174 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC2\Teste  das Malhas e Problemas\Problema2\Mestre.nxc"
+2	174	206	#line 174 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC2\Teste  das Malhas e Problemas\Problema2\Mestre.nxc"
+2	175	206		index __ArrHelper__malha1_79_0, P, __float_stack_002malha1
+2	174	210	#line 174 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC2\Teste  das Malhas e Problemas\Problema2\Mestre.nxc"
+2	174	210	#line 174 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC2\Teste  das Malhas e Problemas\Problema2\Mestre.nxc"
+2	174	210	#line 174 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC2\Teste  das Malhas e Problemas\Problema2\Mestre.nxc"
+2	174	210	#line 174 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC2\Teste  das Malhas e Problemas\Problema2\Mestre.nxc"
+2	175	210		mul __DF0malha1, __ArrHelper__malha1_79_0, wdl
+2	174	214	#line 174 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC2\Teste  das Malhas e Problemas\Problema2\Mestre.nxc"
+2	175	214		add __float_stack_001malha1, __float_stack_001malha1, __DF0malha1
+2	174	218	#line 174 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC2\Teste  das Malhas e Problemas\Problema2\Mestre.nxc"
+2	174	218	#line 174 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC2\Teste  das Malhas e Problemas\Problema2\Mestre.nxc"
+2	175	218		mov __float_stack_002malha1, __constVal4
+2	174	220	#line 174 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC2\Teste  das Malhas e Problemas\Problema2\Mestre.nxc"
+2	174	220	#line 174 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC2\Teste  das Malhas e Problemas\Problema2\Mestre.nxc"
+2	175	220		index __ArrHelper__malha1_79_0, P, __float_stack_002malha1
+2	174	224	#line 174 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC2\Teste  das Malhas e Problemas\Problema2\Mestre.nxc"
+2	176	224	#line 176 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC2\Teste  das Malhas e Problemas\Problema2\Mestre.nxc"
+2	177	224		add cl, __float_stack_001malha1, __ArrHelper__malha1_79_0
+2	176	228	#line 176 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC2\Teste  das Malhas e Problemas\Problema2\Mestre.nxc"
+2	176	228	#line 176 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC2\Teste  das Malhas e Problemas\Problema2\Mestre.nxc"
+2	176	228	#line 176 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC2\Teste  das Malhas e Problemas\Problema2\Mestre.nxc"
+2	177	228		mov __float_stack_001malha1, cr
+2	176	230	#line 176 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC2\Teste  das Malhas e Problemas\Problema2\Mestre.nxc"
+2	176	230	#line 176 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC2\Teste  das Malhas e Problemas\Problema2\Mestre.nxc"
+2	177	230		mov __DF0malha1, __constVal1
+2	177	232	#line 177 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC2\Teste  das Malhas e Problemas\Problema2\Mestre.nxc"
+2	178	232	#pragma macro 7
+2	178	232		setout __constVal0, 2, __float_stack_001malha1, 1, __constVal7, 8, __DF0malha1, 6, __constVal32, 7, __constVal0, 5, __constVal0, 10, __constVal96, 11, __constVal32, 12, __constVal32, 0, __constVal63
+2	7548	255	#line 7548 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC2\Teste  das Malhas e Problemas\Problema2\Mestre.nxc"
+2	177	255	#line 177 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC2\Teste  das Malhas e Problemas\Problema2\Mestre.nxc"
+2	177	255	#line 177 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC2\Teste  das Malhas e Problemas\Problema2\Mestre.nxc"
+2	178	255		mov __float_stack_001malha1, cl
+2	177	257	#line 177 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC2\Teste  das Malhas e Problemas\Problema2\Mestre.nxc"
+2	177	257	#line 177 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC2\Teste  das Malhas e Problemas\Problema2\Mestre.nxc"
+2	178	257		mov __DF0malha1, __constVal1
+2	181	259	#line 181 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC2\Teste  das Malhas e Problemas\Problema2\Mestre.nxc"
+2	182	259	#pragma macro 7
+2	182	259		setout __constVal2, 2, __float_stack_001malha1, 1, __constVal7, 8, __DF0malha1, 6, __constVal32, 7, __constVal0, 5, __constVal0, 10, __constVal96, 11, __constVal32, 12, __constVal32, 0, __constVal63
+2	7561	282	#line 7561 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC2\Teste  das Malhas e Problemas\Problema2\Mestre.nxc"
+2	181	282	#line 181 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC2\Teste  das Malhas e Problemas\Problema2\Mestre.nxc"
+2	181	282	#line 181 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC2\Teste  das Malhas e Problemas\Problema2\Mestre.nxc"
+2	182	282		mov __DF0malha1, ewr
+2	181	284	#line 181 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC2\Teste  das Malhas e Problemas\Problema2\Mestre.nxc"
+2	182	284		numtostr __strretvalmalha1, __DF0malha1
+2	181	287	#line 181 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC2\Teste  das Malhas e Problemas\Problema2\Mestre.nxc"
+2	182	287		strcat __strbufmalha1, __strretvalmalha1
+2	181	291	#line 181 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC2\Teste  das Malhas e Problemas\Problema2\Mestre.nxc"
+2	182	291		mov __ArrHelper__malha1_244_0, __strbufmalha1
+2	181	293	#line 181 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC2\Teste  das Malhas e Problemas\Problema2\Mestre.nxc"
+2	182	293		strcat __strbufmalha1, __constStr0009
+2	181	297	#line 181 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC2\Teste  das Malhas e Problemas\Problema2\Mestre.nxc"
+2	182	297		mov __ArrHelper__malha1_244_1, __strbufmalha1
+2	181	299	#line 181 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC2\Teste  das Malhas e Problemas\Problema2\Mestre.nxc"
+2	182	299		mov __DF0malha1, ewl
+2	181	301	#line 181 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC2\Teste  das Malhas e Problemas\Problema2\Mestre.nxc"
+2	182	301		numtostr __strretvalmalha1, __DF0malha1
+2	181	304	#line 181 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC2\Teste  das Malhas e Problemas\Problema2\Mestre.nxc"
+2	182	304		strcat __strbufmalha1, __strretvalmalha1
+2	181	308	#line 181 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC2\Teste  das Malhas e Problemas\Problema2\Mestre.nxc"
+2	182	308		mov __ArrHelper__malha1_244_2, __strbufmalha1
+2	181	310	#line 181 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC2\Teste  das Malhas e Problemas\Problema2\Mestre.nxc"
+2	182	310		strcat __strbufmalha1, __constStr0009
+2	181	314	#line 181 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC2\Teste  das Malhas e Problemas\Problema2\Mestre.nxc"
+2	182	314		mov __ArrHelper__malha1_244_3, __strbufmalha1
+2	181	316	#line 181 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC2\Teste  das Malhas e Problemas\Problema2\Mestre.nxc"
+2	182	316		mov __DF0malha1, dt
+2	181	318	#line 181 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC2\Teste  das Malhas e Problemas\Problema2\Mestre.nxc"
+2	182	318		numtostr __strretvalmalha1, __DF0malha1
+2	181	321	#line 181 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC2\Teste  das Malhas e Problemas\Problema2\Mestre.nxc"
+2	182	321		strcat __strbufmalha1, __strretvalmalha1
+2	181	325	#line 181 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC2\Teste  das Malhas e Problemas\Problema2\Mestre.nxc"
+2	182	325		mov __ArrHelper__malha1_244_4, __strbufmalha1
+2	182	327	#line 182 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC2\Teste  das Malhas e Problemas\Problema2\Mestre.nxc"
+2	183	327		strcat __strretvalmalha1, __ArrHelper__malha1_244_0, __ArrHelper__malha1_244_1, __ArrHelper__malha1_244_2, __ArrHelper__malha1_244_3, __ArrHelper__malha1_244_4
+2	182	335	#line 182 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC2\Teste  das Malhas e Problemas\Problema2\Mestre.nxc"
+2	183	335		strcat __strbufmalha1, __strretvalmalha1
+2	182	339	#line 182 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC2\Teste  das Malhas e Problemas\Problema2\Mestre.nxc"
+2	183	339		mov write, __strbufmalha1
+2	182	341	#line 182 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC2\Teste  das Malhas e Problemas\Problema2\Mestre.nxc"
+2	182	341	#line 182 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC2\Teste  das Malhas e Problemas\Problema2\Mestre.nxc"
+2	183	341	#pragma macro 9
+2	183	341		acquire __FWriteMutex
+2	183	342		mov __FWriteArgs.FileHandle, fileHandle
+2	183	344		strtoarr __FWriteFlattenBuf, write
+2	183	347		arrbuild __FWriteArgs.Buffer, __FWriteFlattenBuf, __FWriteLn
+2	183	352		arrsize __FWriteArgs.Length, __FWriteArgs.Buffer
+2	183	355		syscall 4, __FWriteArgs
+2	183	358		release __FWriteMutex
+2	7609	359	#line 7609 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC2\Teste  das Malhas e Problemas\Problema2\Mestre.nxc"
+2	182	359	#line 182 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC2\Teste  das Malhas e Problemas\Problema2\Mestre.nxc"
+2	182	359	#line 182 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC2\Teste  das Malhas e Problemas\Problema2\Mestre.nxc"
+2	185	359	#line 185 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC2\Teste  das Malhas e Problemas\Problema2\Mestre.nxc"
+2	186	359		subret __malha1_return
+3	188	0	#line 188 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC2\Teste  das Malhas e Problemas\Problema2\Mestre.nxc"
+3	189	0		getout countR2_kplus, __constVal0, 14
+3	188	4	#line 188 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC2\Teste  das Malhas e Problemas\Problema2\Mestre.nxc"
+3	188	4	#line 188 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC2\Teste  das Malhas e Problemas\Problema2\Mestre.nxc"
+3	190	4	#line 190 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC2\Teste  das Malhas e Problemas\Problema2\Mestre.nxc"
+3	191	4		getout countL2_kplus, __constVal2, 14
+3	190	8	#line 190 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC2\Teste  das Malhas e Problemas\Problema2\Mestre.nxc"
+3	190	8	#line 190 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC2\Teste  das Malhas e Problemas\Problema2\Mestre.nxc"
+3	190	8	#line 190 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC2\Teste  das Malhas e Problemas\Problema2\Mestre.nxc"
+3	190	8	#line 190 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC2\Teste  das Malhas e Problemas\Problema2\Mestre.nxc"
+3	190	8	#line 190 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC2\Teste  das Malhas e Problemas\Problema2\Mestre.nxc"
+3	190	8	#line 190 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC2\Teste  das Malhas e Problemas\Problema2\Mestre.nxc"
+3	191	8		sub __float_stack_001malha2, countR2_kplus, countR2_k
+3	190	12	#line 190 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC2\Teste  das Malhas e Problemas\Problema2\Mestre.nxc"
+3	190	12	#line 190 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC2\Teste  das Malhas e Problemas\Problema2\Mestre.nxc"
+3	190	12	#line 190 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC2\Teste  das Malhas e Problemas\Problema2\Mestre.nxc"
+3	191	12		mul __float_stack_001malha2, __float_stack_001malha2, __constVal2
+3	190	16	#line 190 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC2\Teste  das Malhas e Problemas\Problema2\Mestre.nxc"
+3	190	16	#line 190 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC2\Teste  das Malhas e Problemas\Problema2\Mestre.nxc"
+3	190	16	#line 190 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC2\Teste  das Malhas e Problemas\Problema2\Mestre.nxc"
+3	191	16		mul __float_stack_001malha2, __float_stack_001malha2, __constValf3P141593
+3	190	20	#line 190 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC2\Teste  das Malhas e Problemas\Problema2\Mestre.nxc"
+3	190	20	#line 190 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC2\Teste  das Malhas e Problemas\Problema2\Mestre.nxc"
+3	190	20	#line 190 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC2\Teste  das Malhas e Problemas\Problema2\Mestre.nxc"
+3	191	20		mul __float_stack_001malha2, __float_stack_001malha2, __constValf0P0216
+3	190	24	#line 190 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC2\Teste  das Malhas e Problemas\Problema2\Mestre.nxc"
+3	191	24	#line 191 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC2\Teste  das Malhas e Problemas\Problema2\Mestre.nxc"
+3	191	24	#line 191 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC2\Teste  das Malhas e Problemas\Problema2\Mestre.nxc"
+3	192	24		div ddr, __float_stack_001malha2, __constVal360
+3	191	28	#line 191 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC2\Teste  das Malhas e Problemas\Problema2\Mestre.nxc"
+3	191	28	#line 191 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC2\Teste  das Malhas e Problemas\Problema2\Mestre.nxc"
+3	191	28	#line 191 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC2\Teste  das Malhas e Problemas\Problema2\Mestre.nxc"
+3	191	28	#line 191 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC2\Teste  das Malhas e Problemas\Problema2\Mestre.nxc"
+3	191	28	#line 191 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC2\Teste  das Malhas e Problemas\Problema2\Mestre.nxc"
+3	191	28	#line 191 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC2\Teste  das Malhas e Problemas\Problema2\Mestre.nxc"
+3	192	28		sub __float_stack_001malha2, countL2_kplus, countL2_k
+3	191	32	#line 191 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC2\Teste  das Malhas e Problemas\Problema2\Mestre.nxc"
+3	191	32	#line 191 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC2\Teste  das Malhas e Problemas\Problema2\Mestre.nxc"
+3	191	32	#line 191 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC2\Teste  das Malhas e Problemas\Problema2\Mestre.nxc"
+3	192	32		mul __float_stack_001malha2, __float_stack_001malha2, __constVal2
+3	191	36	#line 191 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC2\Teste  das Malhas e Problemas\Problema2\Mestre.nxc"
+3	191	36	#line 191 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC2\Teste  das Malhas e Problemas\Problema2\Mestre.nxc"
+3	191	36	#line 191 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC2\Teste  das Malhas e Problemas\Problema2\Mestre.nxc"
+3	192	36		mul __float_stack_001malha2, __float_stack_001malha2, __constValf3P141593
+3	191	40	#line 191 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC2\Teste  das Malhas e Problemas\Problema2\Mestre.nxc"
+3	191	40	#line 191 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC2\Teste  das Malhas e Problemas\Problema2\Mestre.nxc"
+3	191	40	#line 191 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC2\Teste  das Malhas e Problemas\Problema2\Mestre.nxc"
+3	192	40		mul __float_stack_001malha2, __float_stack_001malha2, __constValf0P0216
+3	191	44	#line 191 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC2\Teste  das Malhas e Problemas\Problema2\Mestre.nxc"
+3	192	44	#line 192 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC2\Teste  das Malhas e Problemas\Problema2\Mestre.nxc"
+3	192	44	#line 192 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC2\Teste  das Malhas e Problemas\Problema2\Mestre.nxc"
+3	193	44		div ddl, __float_stack_001malha2, __constVal360
+3	192	48	#line 192 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC2\Teste  das Malhas e Problemas\Problema2\Mestre.nxc"
+3	192	48	#line 192 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC2\Teste  das Malhas e Problemas\Problema2\Mestre.nxc"
+3	193	48	#line 193 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC2\Teste  das Malhas e Problemas\Problema2\Mestre.nxc"
+3	194	48		mov countR2_k, countR2_kplus
+3	193	50	#line 193 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC2\Teste  das Malhas e Problemas\Problema2\Mestre.nxc"
+3	193	50	#line 193 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC2\Teste  das Malhas e Problemas\Problema2\Mestre.nxc"
+3	196	50	#line 196 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC2\Teste  das Malhas e Problemas\Problema2\Mestre.nxc"
+3	197	50		mov countL2_k, countL2_kplus
+3	196	52	#line 196 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC2\Teste  das Malhas e Problemas\Problema2\Mestre.nxc"
+3	196	52	#line 196 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC2\Teste  das Malhas e Problemas\Problema2\Mestre.nxc"
+3	196	52	#line 196 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC2\Teste  das Malhas e Problemas\Problema2\Mestre.nxc"
+3	197	52		mov __float_stack_001malha2, xr
+3	196	54	#line 196 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC2\Teste  das Malhas e Problemas\Problema2\Mestre.nxc"
+3	196	54	#line 196 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC2\Teste  das Malhas e Problemas\Problema2\Mestre.nxc"
+3	196	54	#line 196 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC2\Teste  das Malhas e Problemas\Problema2\Mestre.nxc"
+3	196	54	#line 196 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC2\Teste  das Malhas e Problemas\Problema2\Mestre.nxc"
+3	196	54	#line 196 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC2\Teste  das Malhas e Problemas\Problema2\Mestre.nxc"
+3	197	54		add __float_stack_002malha2, ddr, ddl
+3	196	58	#line 196 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC2\Teste  das Malhas e Problemas\Problema2\Mestre.nxc"
+3	196	58	#line 196 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC2\Teste  das Malhas e Problemas\Problema2\Mestre.nxc"
+3	197	58		mov __cos_7qG2_x_7qG2_000_inline_malha2, tetar_k
+3	196	60	#line 196 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC2\Teste  das Malhas e Problemas\Problema2\Mestre.nxc"
+3	17165	60	#line 17165 "NXCDefs.h"
+3	17166	60		cos __DF0malha2, __cos_7qG2_x_7qG2_000_inline_malha2
+3	17165	63	#line 17165 "NXCDefs.h"
+3	196	63	#line 196 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC2\Teste  das Malhas e Problemas\Problema2\Mestre.nxc"
+3	196	63	#line 196 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC2\Teste  das Malhas e Problemas\Problema2\Mestre.nxc"
+3	197	63		mul __float_stack_002malha2, __float_stack_002malha2, __DF0malha2
+3	196	67	#line 196 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC2\Teste  das Malhas e Problemas\Problema2\Mestre.nxc"
+3	196	67	#line 196 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC2\Teste  das Malhas e Problemas\Problema2\Mestre.nxc"
+3	196	67	#line 196 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC2\Teste  das Malhas e Problemas\Problema2\Mestre.nxc"
+3	197	67		div __DF0malha2, __float_stack_002malha2, __constVal2
+3	197	71	#line 197 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC2\Teste  das Malhas e Problemas\Problema2\Mestre.nxc"
+3	198	71		add xr, __float_stack_001malha2, __DF0malha2
+3	197	75	#line 197 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC2\Teste  das Malhas e Problemas\Problema2\Mestre.nxc"
+3	197	75	#line 197 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC2\Teste  das Malhas e Problemas\Problema2\Mestre.nxc"
+3	197	75	#line 197 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC2\Teste  das Malhas e Problemas\Problema2\Mestre.nxc"
+3	198	75		mov __float_stack_001malha2, yr
+3	197	77	#line 197 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC2\Teste  das Malhas e Problemas\Problema2\Mestre.nxc"
+3	197	77	#line 197 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC2\Teste  das Malhas e Problemas\Problema2\Mestre.nxc"
+3	197	77	#line 197 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC2\Teste  das Malhas e Problemas\Problema2\Mestre.nxc"
+3	197	77	#line 197 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC2\Teste  das Malhas e Problemas\Problema2\Mestre.nxc"
+3	197	77	#line 197 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC2\Teste  das Malhas e Problemas\Problema2\Mestre.nxc"
+3	198	77		add __float_stack_002malha2, ddr, ddl
+3	197	81	#line 197 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC2\Teste  das Malhas e Problemas\Problema2\Mestre.nxc"
+3	197	81	#line 197 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC2\Teste  das Malhas e Problemas\Problema2\Mestre.nxc"
+3	198	81		mov __sin_7qG2_x_7qG2_000_inline_malha2, tetar_k
+3	197	83	#line 197 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC2\Teste  das Malhas e Problemas\Problema2\Mestre.nxc"
+3	17176	83	#line 17176 "NXCDefs.h"
+3	17177	83		sin __DF0malha2, __sin_7qG2_x_7qG2_000_inline_malha2
+3	17176	86	#line 17176 "NXCDefs.h"
+3	197	86	#line 197 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC2\Teste  das Malhas e Problemas\Problema2\Mestre.nxc"
+3	197	86	#line 197 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC2\Teste  das Malhas e Problemas\Problema2\Mestre.nxc"
+3	198	86		mul __float_stack_002malha2, __float_stack_002malha2, __DF0malha2
+3	197	90	#line 197 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC2\Teste  das Malhas e Problemas\Problema2\Mestre.nxc"
+3	197	90	#line 197 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC2\Teste  das Malhas e Problemas\Problema2\Mestre.nxc"
+3	197	90	#line 197 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC2\Teste  das Malhas e Problemas\Problema2\Mestre.nxc"
+3	198	90		div __DF0malha2, __float_stack_002malha2, __constVal2
+3	198	94	#line 198 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC2\Teste  das Malhas e Problemas\Problema2\Mestre.nxc"
+3	199	94		add yr, __float_stack_001malha2, __DF0malha2
+3	198	98	#line 198 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC2\Teste  das Malhas e Problemas\Problema2\Mestre.nxc"
+3	198	98	#line 198 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC2\Teste  das Malhas e Problemas\Problema2\Mestre.nxc"
+3	198	98	#line 198 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC2\Teste  das Malhas e Problemas\Problema2\Mestre.nxc"
+3	199	98		mov __float_stack_001malha2, tetar_k
+3	198	100	#line 198 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC2\Teste  das Malhas e Problemas\Problema2\Mestre.nxc"
+3	198	100	#line 198 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC2\Teste  das Malhas e Problemas\Problema2\Mestre.nxc"
+3	198	100	#line 198 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC2\Teste  das Malhas e Problemas\Problema2\Mestre.nxc"
+3	198	100	#line 198 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC2\Teste  das Malhas e Problemas\Problema2\Mestre.nxc"
+3	198	100	#line 198 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC2\Teste  das Malhas e Problemas\Problema2\Mestre.nxc"
+3	199	100		sub __float_stack_002malha2, ddr, ddl
+3	198	104	#line 198 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC2\Teste  das Malhas e Problemas\Problema2\Mestre.nxc"
+3	200	104	#line 200 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC2\Teste  das Malhas e Problemas\Problema2\Mestre.nxc"
+3	200	104	#line 200 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC2\Teste  das Malhas e Problemas\Problema2\Mestre.nxc"
+3	201	104		div __DF0malha2, __float_stack_002malha2, __constValf0P112
+3	200	108	#line 200 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC2\Teste  das Malhas e Problemas\Problema2\Mestre.nxc"
+3	201	108		add tetar_k, __float_stack_001malha2, __DF0malha2
+3	200	112	#line 200 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC2\Teste  das Malhas e Problemas\Problema2\Mestre.nxc"
+3	200	112	#line 200 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC2\Teste  das Malhas e Problemas\Problema2\Mestre.nxc"
+3	200	112	#line 200 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC2\Teste  das Malhas e Problemas\Problema2\Mestre.nxc"
+3	200	112	#line 200 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC2\Teste  das Malhas e Problemas\Problema2\Mestre.nxc"
+3	201	112	#line 201 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC2\Teste  das Malhas e Problemas\Problema2\Mestre.nxc"
+3	201	112	#line 201 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC2\Teste  das Malhas e Problemas\Problema2\Mestre.nxc"
+3	202	112		sub errx, __malha2_7qG2_xd_7qG2_000, xr
+3	201	116	#line 201 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC2\Teste  das Malhas e Problemas\Problema2\Mestre.nxc"
+3	201	116	#line 201 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC2\Teste  das Malhas e Problemas\Problema2\Mestre.nxc"
+3	201	116	#line 201 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC2\Teste  das Malhas e Problemas\Problema2\Mestre.nxc"
+3	201	116	#line 201 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC2\Teste  das Malhas e Problemas\Problema2\Mestre.nxc"
+3	203	116	#line 203 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC2\Teste  das Malhas e Problemas\Problema2\Mestre.nxc"
+3	203	116	#line 203 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC2\Teste  das Malhas e Problemas\Problema2\Mestre.nxc"
+3	204	116		sub erry, __malha2_7qG2_yd_7qG2_000, yr
+3	203	120	#line 203 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC2\Teste  das Malhas e Problemas\Problema2\Mestre.nxc"
+3	203	120	#line 203 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC2\Teste  das Malhas e Problemas\Problema2\Mestre.nxc"
+3	203	120	#line 203 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC2\Teste  das Malhas e Problemas\Problema2\Mestre.nxc"
+3	204	120		mov __atan2_7qG2_y_7qG2_000_inline_malha2, erry
+3	203	122	#line 203 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC2\Teste  das Malhas e Problemas\Problema2\Mestre.nxc"
+3	203	122	#line 203 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC2\Teste  das Malhas e Problemas\Problema2\Mestre.nxc"
+3	204	122		mov __atan2_7qG2_x_7qG2_000_inline_malha2, errx
+3	203	124	#line 203 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC2\Teste  das Malhas e Problemas\Problema2\Mestre.nxc"
+3	17242	124	#line 17242 "NXCDefs.h"
+3	17243	124		atan2 tetad, __atan2_7qG2_y_7qG2_000_inline_malha2, __atan2_7qG2_x_7qG2_000_inline_malha2
+3	17242	128	#line 17242 "NXCDefs.h"
+3	205	128	#line 205 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC2\Teste  das Malhas e Problemas\Problema2\Mestre.nxc"
+3	205	128	#line 205 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC2\Teste  das Malhas e Problemas\Problema2\Mestre.nxc"
+3	205	128	#line 205 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC2\Teste  das Malhas e Problemas\Problema2\Mestre.nxc"
+3	209	128	#line 209 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC2\Teste  das Malhas e Problemas\Problema2\Mestre.nxc"
+3	210	128		mov errt_past, errt
+3	209	130	#line 209 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC2\Teste  das Malhas e Problemas\Problema2\Mestre.nxc"
+3	209	130	#line 209 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC2\Teste  das Malhas e Problemas\Problema2\Mestre.nxc"
+3	209	130	#line 209 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC2\Teste  das Malhas e Problemas\Problema2\Mestre.nxc"
+3	209	130	#line 209 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC2\Teste  das Malhas e Problemas\Problema2\Mestre.nxc"
+3	210	130	#line 210 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC2\Teste  das Malhas e Problemas\Problema2\Mestre.nxc"
+3	210	130	#line 210 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC2\Teste  das Malhas e Problemas\Problema2\Mestre.nxc"
+3	211	130		sub errt, tetad, tetar_k
+3	210	134	#line 210 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC2\Teste  das Malhas e Problemas\Problema2\Mestre.nxc"
+3	210	134	#line 210 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC2\Teste  das Malhas e Problemas\Problema2\Mestre.nxc"
+3	210	134	#line 210 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC2\Teste  das Malhas e Problemas\Problema2\Mestre.nxc"
+3	211	134		mov __sin_7qG2_x_7qG2_000_inline_malha2, errt
+3	210	136	#line 210 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC2\Teste  das Malhas e Problemas\Problema2\Mestre.nxc"
+3	17176	136	#line 17176 "NXCDefs.h"
+3	17177	136		sin __atan2_7qG2_y_7qG2_000_inline_malha2, __sin_7qG2_x_7qG2_000_inline_malha2
+3	17176	139	#line 17176 "NXCDefs.h"
+3	210	139	#line 210 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC2\Teste  das Malhas e Problemas\Problema2\Mestre.nxc"
+3	210	139	#line 210 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC2\Teste  das Malhas e Problemas\Problema2\Mestre.nxc"
+3	210	139	#line 210 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC2\Teste  das Malhas e Problemas\Problema2\Mestre.nxc"
+3	211	139		mov __cos_7qG2_x_7qG2_000_inline_malha2, errt
+3	210	141	#line 210 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC2\Teste  das Malhas e Problemas\Problema2\Mestre.nxc"
+3	17165	141	#line 17165 "NXCDefs.h"
+3	17166	141		cos __atan2_7qG2_x_7qG2_000_inline_malha2, __cos_7qG2_x_7qG2_000_inline_malha2
+3	17165	144	#line 17165 "NXCDefs.h"
+3	210	144	#line 210 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC2\Teste  das Malhas e Problemas\Problema2\Mestre.nxc"
+3	210	144	#line 210 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC2\Teste  das Malhas e Problemas\Problema2\Mestre.nxc"
+3	17242	144	#line 17242 "NXCDefs.h"
+3	17243	144		atan2 errt, __atan2_7qG2_y_7qG2_000_inline_malha2, __atan2_7qG2_x_7qG2_000_inline_malha2
+3	17242	148	#line 17242 "NXCDefs.h"
+3	219	148	#line 219 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC2\Teste  das Malhas e Problemas\Problema2\Mestre.nxc"
+3	219	148	#line 219 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC2\Teste  das Malhas e Problemas\Problema2\Mestre.nxc"
+3	219	148	#line 219 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC2\Teste  das Malhas e Problemas\Problema2\Mestre.nxc"
+3	219	148	#line 219 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC2\Teste  das Malhas e Problemas\Problema2\Mestre.nxc"
+3	219	148	#line 219 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC2\Teste  das Malhas e Problemas\Problema2\Mestre.nxc"
+3	219	148	#line 219 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC2\Teste  das Malhas e Problemas\Problema2\Mestre.nxc"
+3	219	148	#line 219 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC2\Teste  das Malhas e Problemas\Problema2\Mestre.nxc"
+3	220	148		mul __float_stack_001malha2, kp_pos, errt
+3	219	152	#line 219 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC2\Teste  das Malhas e Problemas\Problema2\Mestre.nxc"
+3	219	152	#line 219 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC2\Teste  das Malhas e Problemas\Problema2\Mestre.nxc"
+3	219	152	#line 219 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC2\Teste  das Malhas e Problemas\Problema2\Mestre.nxc"
+3	220	152		add __float_stack_001malha2, __float_stack_001malha2, acum_errt
+3	219	156	#line 219 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC2\Teste  das Malhas e Problemas\Problema2\Mestre.nxc"
+3	219	156	#line 219 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC2\Teste  das Malhas e Problemas\Problema2\Mestre.nxc"
+3	219	156	#line 219 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC2\Teste  das Malhas e Problemas\Problema2\Mestre.nxc"
+3	219	156	#line 219 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC2\Teste  das Malhas e Problemas\Problema2\Mestre.nxc"
+3	219	156	#line 219 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC2\Teste  das Malhas e Problemas\Problema2\Mestre.nxc"
+3	220	156		mul __float_stack_002malha2, ki_pos, errt
+3	219	160	#line 219 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC2\Teste  das Malhas e Problemas\Problema2\Mestre.nxc"
+3	219	160	#line 219 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC2\Teste  das Malhas e Problemas\Problema2\Mestre.nxc"
+3	219	160	#line 219 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC2\Teste  das Malhas e Problemas\Problema2\Mestre.nxc"
+3	220	160		mul __DF0malha2, __float_stack_002malha2, dt
+3	219	164	#line 219 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC2\Teste  das Malhas e Problemas\Problema2\Mestre.nxc"
+3	220	164		add __float_stack_001malha2, __float_stack_001malha2, __DF0malha2
+3	219	168	#line 219 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC2\Teste  das Malhas e Problemas\Problema2\Mestre.nxc"
+3	219	168	#line 219 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC2\Teste  das Malhas e Problemas\Problema2\Mestre.nxc"
+3	220	168		mov __float_stack_002malha2, kd_pos
+3	219	170	#line 219 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC2\Teste  das Malhas e Problemas\Problema2\Mestre.nxc"
+3	219	170	#line 219 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC2\Teste  das Malhas e Problemas\Problema2\Mestre.nxc"
+3	219	170	#line 219 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC2\Teste  das Malhas e Problemas\Problema2\Mestre.nxc"
+3	219	170	#line 219 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC2\Teste  das Malhas e Problemas\Problema2\Mestre.nxc"
+3	219	170	#line 219 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC2\Teste  das Malhas e Problemas\Problema2\Mestre.nxc"
+3	220	170		sub __DF0malha2, errt, errt_past
+3	219	174	#line 219 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC2\Teste  das Malhas e Problemas\Problema2\Mestre.nxc"
+3	220	174		mul __float_stack_002malha2, __float_stack_002malha2, __DF0malha2
+3	219	178	#line 219 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC2\Teste  das Malhas e Problemas\Problema2\Mestre.nxc"
+3	220	178	#line 220 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC2\Teste  das Malhas e Problemas\Problema2\Mestre.nxc"
+3	220	178	#line 220 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC2\Teste  das Malhas e Problemas\Problema2\Mestre.nxc"
+3	221	178		div __DF0malha2, __float_stack_002malha2, dt
+3	220	182	#line 220 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC2\Teste  das Malhas e Problemas\Problema2\Mestre.nxc"
+3	221	182		add w_controle, __float_stack_001malha2, __DF0malha2
+3	220	186	#line 220 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC2\Teste  das Malhas e Problemas\Problema2\Mestre.nxc"
+3	220	186	#line 220 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC2\Teste  das Malhas e Problemas\Problema2\Mestre.nxc"
+3	220	186	#line 220 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC2\Teste  das Malhas e Problemas\Problema2\Mestre.nxc"
+3	221	186		mov __float_stack_001malha2, acum_errt
+3	220	188	#line 220 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC2\Teste  das Malhas e Problemas\Problema2\Mestre.nxc"
+3	220	188	#line 220 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC2\Teste  das Malhas e Problemas\Problema2\Mestre.nxc"
+3	220	188	#line 220 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC2\Teste  das Malhas e Problemas\Problema2\Mestre.nxc"
+3	220	188	#line 220 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC2\Teste  das Malhas e Problemas\Problema2\Mestre.nxc"
+3	220	188	#line 220 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC2\Teste  das Malhas e Problemas\Problema2\Mestre.nxc"
+3	221	188		mul __float_stack_002malha2, ki_pos, errt
+3	220	192	#line 220 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC2\Teste  das Malhas e Problemas\Problema2\Mestre.nxc"
+3	221	192	#line 221 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC2\Teste  das Malhas e Problemas\Problema2\Mestre.nxc"
+3	221	192	#line 221 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC2\Teste  das Malhas e Problemas\Problema2\Mestre.nxc"
+3	222	192		mul __DF0malha2, __float_stack_002malha2, dt
+3	221	196	#line 221 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC2\Teste  das Malhas e Problemas\Problema2\Mestre.nxc"
+3	222	196		add acum_errt, __float_stack_001malha2, __DF0malha2
+3	221	200	#line 221 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC2\Teste  das Malhas e Problemas\Problema2\Mestre.nxc"
+3	221	200	#line 221 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC2\Teste  das Malhas e Problemas\Problema2\Mestre.nxc"
+3	221	200	#line 221 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC2\Teste  das Malhas e Problemas\Problema2\Mestre.nxc"
+3	222	200		mov __float_stack_001malha2, acum_errt
+3	221	202	#line 221 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC2\Teste  das Malhas e Problemas\Problema2\Mestre.nxc"
+3	221	202	#line 221 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC2\Teste  das Malhas e Problemas\Problema2\Mestre.nxc"
+3	221	202	#line 221 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC2\Teste  das Malhas e Problemas\Problema2\Mestre.nxc"
+3	221	202	#line 221 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC2\Teste  das Malhas e Problemas\Problema2\Mestre.nxc"
+3	221	202	#line 221 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC2\Teste  das Malhas e Problemas\Problema2\Mestre.nxc"
+3	222	202		mul __float_stack_002malha2, ki_pos, dt
+3	221	206	#line 221 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC2\Teste  das Malhas e Problemas\Problema2\Mestre.nxc"
+3	224	206	#line 224 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC2\Teste  das Malhas e Problemas\Problema2\Mestre.nxc"
+3	224	206	#line 224 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC2\Teste  das Malhas e Problemas\Problema2\Mestre.nxc"
+3	225	206		mul __DF0malha2, __float_stack_002malha2, errt
+3	224	210	#line 224 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC2\Teste  das Malhas e Problemas\Problema2\Mestre.nxc"
+3	225	210		add acum_errt, __float_stack_001malha2, __DF0malha2
+3	224	214	#line 224 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC2\Teste  das Malhas e Problemas\Problema2\Mestre.nxc"
+3	224	214	#line 224 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC2\Teste  das Malhas e Problemas\Problema2\Mestre.nxc"
+3	225	214	#line 225 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC2\Teste  das Malhas e Problemas\Problema2\Mestre.nxc"
+3	226	214		mov __DF0malha2, w_controle
+3	225	216	#line 225 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC2\Teste  das Malhas e Problemas\Problema2\Mestre.nxc"
+3	226	216		numtostr __strretvalmalha2, __DF0malha2
+3	225	219	#line 225 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC2\Teste  das Malhas e Problemas\Problema2\Mestre.nxc"
+3	226	219		strcat __strbufmalha2, __strretvalmalha2
+3	225	223	#line 225 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC2\Teste  das Malhas e Problemas\Problema2\Mestre.nxc"
+3	226	223		mov __ArrHelper__malha2_244_0, __strbufmalha2
+3	226	225	#line 226 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC2\Teste  das Malhas e Problemas\Problema2\Mestre.nxc"
+3	227	225		strcat __strretvalmalha2, __ArrHelper__malha2_244_0
+3	226	229	#line 226 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC2\Teste  das Malhas e Problemas\Problema2\Mestre.nxc"
+3	227	229		strcat __strbufmalha2, __strretvalmalha2
+3	226	233	#line 226 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC2\Teste  das Malhas e Problemas\Problema2\Mestre.nxc"
+3	227	233		mov __malha2_7qG2_write2_7qG2_000, __strbufmalha2
+3	226	235	#line 226 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC2\Teste  das Malhas e Problemas\Problema2\Mestre.nxc"
+3	227	235	#pragma macro 9
+3	227	235		acquire __FWriteMutex
+3	227	236		mov __FWriteArgs.FileHandle, fileHandle2
+3	227	238		strtoarr __FWriteFlattenBuf, __malha2_7qG2_write2_7qG2_000
+3	227	241		arrbuild __FWriteArgs.Buffer, __FWriteFlattenBuf, __FWriteLn
+3	227	246		arrsize __FWriteArgs.Length, __FWriteArgs.Buffer
+3	227	249		syscall 4, __FWriteArgs
+3	227	252		mov __D0malha2, __FWriteArgs.Result
+3	227	254		release __FWriteMutex
+3	8112	255	#line 8112 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC2\Teste  das Malhas e Problemas\Problema2\Mestre.nxc"
+3	226	255	#line 226 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC2\Teste  das Malhas e Problemas\Problema2\Mestre.nxc"
+3	226	255	#line 226 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC2\Teste  das Malhas e Problemas\Problema2\Mestre.nxc"
+3	228	255	#line 228 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC2\Teste  das Malhas e Problemas\Problema2\Mestre.nxc"
+3	229	255		mov __pow_7qG2_base_7qG2_000_inline_malha2, errx
+3	228	257	#line 228 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC2\Teste  das Malhas e Problemas\Problema2\Mestre.nxc"
+3	228	257	#line 228 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC2\Teste  das Malhas e Problemas\Problema2\Mestre.nxc"
+3	229	257		mov __pow_7qG2_exponent_7qG2_000_inline_malha2, __constVal2
+3	228	259	#line 228 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC2\Teste  das Malhas e Problemas\Problema2\Mestre.nxc"
+3	17348	259	#line 17348 "NXCDefs.h"
+3	17349	259		pow __float_stack_001malha2, __pow_7qG2_base_7qG2_000_inline_malha2, __pow_7qG2_exponent_7qG2_000_inline_malha2
+3	17348	263	#line 17348 "NXCDefs.h"
+3	228	263	#line 228 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC2\Teste  das Malhas e Problemas\Problema2\Mestre.nxc"
+3	228	263	#line 228 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC2\Teste  das Malhas e Problemas\Problema2\Mestre.nxc"
+3	228	263	#line 228 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC2\Teste  das Malhas e Problemas\Problema2\Mestre.nxc"
+3	229	263		mov __pow_7qG2_base_7qG2_000_inline_malha2, erry
+3	228	265	#line 228 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC2\Teste  das Malhas e Problemas\Problema2\Mestre.nxc"
+3	228	265	#line 228 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC2\Teste  das Malhas e Problemas\Problema2\Mestre.nxc"
+3	229	265		mov __pow_7qG2_exponent_7qG2_000_inline_malha2, __constVal2
+3	228	267	#line 228 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC2\Teste  das Malhas e Problemas\Problema2\Mestre.nxc"
+3	17348	267	#line 17348 "NXCDefs.h"
+3	17349	267		pow __DF0malha2, __pow_7qG2_base_7qG2_000_inline_malha2, __pow_7qG2_exponent_7qG2_000_inline_malha2
+3	17348	271	#line 17348 "NXCDefs.h"
+3	228	271	#line 228 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC2\Teste  das Malhas e Problemas\Problema2\Mestre.nxc"
+3	228	271	#line 228 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC2\Teste  das Malhas e Problemas\Problema2\Mestre.nxc"
+3	229	271		add __sqrt_7qG2_x_7qG2_000_inline_malha2, __float_stack_001malha2, __DF0malha2
+3	228	275	#line 228 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC2\Teste  das Malhas e Problemas\Problema2\Mestre.nxc"
+3	16821	275	#line 16821 "NXCDefs.h"
+3	16822	275		sqrt __malha2_7qG2_dist_7qG2_000, __sqrt_7qG2_x_7qG2_000_inline_malha2
+3	16821	278	#line 16821 "NXCDefs.h"
+3	229	278	#line 229 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC2\Teste  das Malhas e Problemas\Problema2\Mestre.nxc"
+3	229	278	#line 229 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC2\Teste  das Malhas e Problemas\Problema2\Mestre.nxc"
+3	229	278	#line 229 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC2\Teste  das Malhas e Problemas\Problema2\Mestre.nxc"
+3	229	278	#line 229 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC2\Teste  das Malhas e Problemas\Problema2\Mestre.nxc"
+3	229	278	#line 229 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC2\Teste  das Malhas e Problemas\Problema2\Mestre.nxc"
+3	229	278	#line 229 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC2\Teste  das Malhas e Problemas\Problema2\Mestre.nxc"
+3	230	278		mul __float_stack_001malha2, __constVal2, __constValf3P141593
+3	229	282	#line 229 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC2\Teste  das Malhas e Problemas\Problema2\Mestre.nxc"
+3	229	282	#line 229 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC2\Teste  das Malhas e Problemas\Problema2\Mestre.nxc"
+3	229	282	#line 229 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC2\Teste  das Malhas e Problemas\Problema2\Mestre.nxc"
+3	230	282		mul __float_stack_001malha2, __float_stack_001malha2, R
+3	229	286	#line 229 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC2\Teste  das Malhas e Problemas\Problema2\Mestre.nxc"
+3	229	286	#line 229 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC2\Teste  das Malhas e Problemas\Problema2\Mestre.nxc"
+3	229	286	#line 229 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC2\Teste  das Malhas e Problemas\Problema2\Mestre.nxc"
+3	230	286		div __float_stack_001malha2, __float_stack_001malha2, T
+3	229	290	#line 229 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC2\Teste  das Malhas e Problemas\Problema2\Mestre.nxc"
+3	230	290	#line 230 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC2\Teste  das Malhas e Problemas\Problema2\Mestre.nxc"
+3	230	290	#line 230 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC2\Teste  das Malhas e Problemas\Problema2\Mestre.nxc"
+3	231	290		div __malha2_7qG2_v_7qG2_000, __float_stack_001malha2, num_robos
+3	230	294	#line 230 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC2\Teste  das Malhas e Problemas\Problema2\Mestre.nxc"
+3	230	294	#line 230 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC2\Teste  das Malhas e Problemas\Problema2\Mestre.nxc"
+3	231	294		mov __float_stack_001malha2, __malha2_7qG2_dist_7qG2_000
+3	230	296	#line 230 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC2\Teste  das Malhas e Problemas\Problema2\Mestre.nxc"
+3	230	296	#line 230 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC2\Teste  das Malhas e Problemas\Problema2\Mestre.nxc"
+3	231	296		mov __DF0malha2, __constValf0P05
+3	230	298	#line 230 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC2\Teste  das Malhas e Problemas\Problema2\Mestre.nxc"
+3	231	298		cmp 1, __zfmalha2, __float_stack_001malha2, __DF0malha2
+3	230	302	#line 230 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC2\Teste  das Malhas e Problemas\Problema2\Mestre.nxc"
+3	231	302		mov __D0malha2, __zfmalha2
+3	231	304	#line 231 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC2\Teste  das Malhas e Problemas\Problema2\Mestre.nxc"
+3	232	304		brtst 4, __NXC_Label_794, __zfmalha2
+3	231	307	#line 231 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC2\Teste  das Malhas e Problemas\Problema2\Mestre.nxc"
+3	231	307	#line 231 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC2\Teste  das Malhas e Problemas\Problema2\Mestre.nxc"
+3	232	307	#line 232 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC2\Teste  das Malhas e Problemas\Problema2\Mestre.nxc"
+3	232	307	#line 232 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC2\Teste  das Malhas e Problemas\Problema2\Mestre.nxc"
+3	233	307		mul __malha2_7qG2_v_7qG2_000, __malha2_7qG2_v_7qG2_000, __constValf1P1
+3	232	311	#line 232 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC2\Teste  das Malhas e Problemas\Problema2\Mestre.nxc"
+3	232	311	#line 232 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC2\Teste  das Malhas e Problemas\Problema2\Mestre.nxc"
+3	238	311	#line 238 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC2\Teste  das Malhas e Problemas\Problema2\Mestre.nxc"
+3	238	311	#line 238 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC2\Teste  das Malhas e Problemas\Problema2\Mestre.nxc"
+3	239	311		mov __malha1_7qG2_vLinear_7qG2_000, __malha2_7qG2_v_7qG2_000
+3	238	313	#line 238 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC2\Teste  das Malhas e Problemas\Problema2\Mestre.nxc"
+3	238	313	#line 238 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC2\Teste  das Malhas e Problemas\Problema2\Mestre.nxc"
+3	239	313		mov __malha1_7qG2_vAng_7qG2_000, w_controle
+3	238	315	#line 238 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC2\Teste  das Malhas e Problemas\Problema2\Mestre.nxc"
+3	239	315	#line 239 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC2\Teste  das Malhas e Problemas\Problema2\Mestre.nxc"
+3	240	315		subcall malha1, __malha1_return
+3	239	317	#line 239 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC2\Teste  das Malhas e Problemas\Problema2\Mestre.nxc"
+3	242	317	#line 242 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC2\Teste  das Malhas e Problemas\Problema2\Mestre.nxc"
+3	243	317		subret __malha2_return
+4	243	0	#line 243 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC2\Teste  das Malhas e Problemas\Problema2\Mestre.nxc"
+4	244	0	#pragma macro 5
+4	244	0		acquire __CBTCSMutex
+4	244	1		mov __CBTCSArgs.Connection, __BTCheck_7qG2_conn_7qG2_000
+4	244	3		syscall 28, __CBTCSArgs
+4	244	6		mov __D0BTCheck, __CBTCSArgs.Result
+4	244	8		release __CBTCSMutex
+4	8276	9	#line 8276 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC2\Teste  das Malhas e Problemas\Problema2\Mestre.nxc"
+4	243	9	#line 243 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC2\Teste  das Malhas e Problemas\Problema2\Mestre.nxc"
+4	244	9		not __signed_stack_001BTCheck, __D0BTCheck
+4	243	12	#line 243 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC2\Teste  das Malhas e Problemas\Problema2\Mestre.nxc"
+4	243	12	#line 243 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC2\Teste  das Malhas e Problemas\Problema2\Mestre.nxc"
+4	244	12		set __D0BTCheck, 0
+4	243	15	#line 243 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC2\Teste  das Malhas e Problemas\Problema2\Mestre.nxc"
+4	244	15		cmp 4, __zfBTCheck, __signed_stack_001BTCheck, __D0BTCheck
+4	243	19	#line 243 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC2\Teste  das Malhas e Problemas\Problema2\Mestre.nxc"
+4	244	19		mov __D0BTCheck, __zfBTCheck
+4	244	21	#line 244 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC2\Teste  das Malhas e Problemas\Problema2\Mestre.nxc"
+4	245	21		brtst 4, __NXC_Label_803, __zfBTCheck
+4	244	24	#line 244 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC2\Teste  das Malhas e Problemas\Problema2\Mestre.nxc"
+4	245	24		set __signed_stack_001BTCheck, 5
+4	244	27	#line 244 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC2\Teste  das Malhas e Problemas\Problema2\Mestre.nxc"
+4	244	27	#line 244 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC2\Teste  das Malhas e Problemas\Problema2\Mestre.nxc"
+4	245	27		set __signed_stack_002BTCheck, 48
+4	244	30	#line 244 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC2\Teste  das Malhas e Problemas\Problema2\Mestre.nxc"
+4	244	30	#line 244 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC2\Teste  das Malhas e Problemas\Problema2\Mestre.nxc"
+4	245	30		strcat __strbufBTCheck, __constStr0010
+4	245	34	#line 245 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC2\Teste  das Malhas e Problemas\Problema2\Mestre.nxc"
+4	246	34		acquire __TextOutMutex
+4	245	35	#line 245 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC2\Teste  das Malhas e Problemas\Problema2\Mestre.nxc"
+4	246	35		mov __TextOutArgs.Location.X, __signed_stack_001BTCheck
+4	245	37	#line 245 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC2\Teste  das Malhas e Problemas\Problema2\Mestre.nxc"
+4	246	37		mov __TextOutArgs.Location.Y, __signed_stack_002BTCheck
+4	245	39	#line 245 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC2\Teste  das Malhas e Problemas\Problema2\Mestre.nxc"
+4	246	39		set __TextOutArgs.Options, 0
+4	245	42	#line 245 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC2\Teste  das Malhas e Problemas\Problema2\Mestre.nxc"
+4	246	42		mov __TextOutArgs.Text, __strbufBTCheck
+4	245	44	#line 245 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC2\Teste  das Malhas e Problemas\Problema2\Mestre.nxc"
+4	246	44		syscall 13, __TextOutArgs
+4	245	47	#line 245 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC2\Teste  das Malhas e Problemas\Problema2\Mestre.nxc"
+4	246	47		mov __D0BTCheck, __TextOutArgs.Result
+4	245	49	#line 245 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC2\Teste  das Malhas e Problemas\Problema2\Mestre.nxc"
+4	246	49		release __TextOutMutex
+4	245	50	#line 245 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC2\Teste  das Malhas e Problemas\Problema2\Mestre.nxc"
+4	245	50	#line 245 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC2\Teste  das Malhas e Problemas\Problema2\Mestre.nxc"
+4	245	50	#line 245 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC2\Teste  das Malhas e Problemas\Problema2\Mestre.nxc"
+4	7921	50	#line 7921 "NXCDefs.h"
+4	7922	50		wait 1000
+4	7921	52	#line 7921 "NXCDefs.h"
+4	246	52	#line 246 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC2\Teste  das Malhas e Problemas\Problema2\Mestre.nxc"
+4	246	52	#line 246 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC2\Teste  das Malhas e Problemas\Problema2\Mestre.nxc"
+4	247	52		set __D0BTCheck, 1
+4	247	55	#line 247 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC2\Teste  das Malhas e Problemas\Problema2\Mestre.nxc"
+4	248	55		stop __D0BTCheck
+4	247	57	#line 247 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC2\Teste  das Malhas e Problemas\Problema2\Mestre.nxc"
+4	250	57	#line 250 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC2\Teste  das Malhas e Problemas\Problema2\Mestre.nxc"
+4	250	57	#line 250 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC2\Teste  das Malhas e Problemas\Problema2\Mestre.nxc"
+4	251	57		subret __BTCheck_return
+5	302	0	#line 302 "C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC2\Teste  das Malhas e Problemas\Problema2\Mestre.nxc"
+5	303	0		subret ____initialize_global_data_return
+#CLUMPS
+Clump	Name	Offset	File
+0	main	0	C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC2\Teste  das Malhas e Problemas\Problema2\Mestre.nxc
+1	getWs	357	C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC2\Teste  das Malhas e Problemas\Problema2\Mestre.nxc
+2	malha1	395	C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC2\Teste  das Malhas e Problemas\Problema2\Mestre.nxc
+3	malha2	756	C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC2\Teste  das Malhas e Problemas\Problema2\Mestre.nxc
+4	BTCheck	1075	C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC2\Teste  das Malhas e Problemas\Problema2\Mestre.nxc
+5	__initialize_global_data	1134	C:\Users\mariana\Dropbox\TCC\TCC - Mariana Athayde\tcc\Implementações\TCC2\Teste  das Malhas e Problemas\Problema2\Mestre.nxc

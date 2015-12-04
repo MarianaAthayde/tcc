@@ -21,13 +21,13 @@ Para estabelecer o modelo matemático do problema, foi considerado o modelo de r
 	\label{fig:robo}
 \end{figure}
 
-Após feita a modelagem do problema, foram feitas as implementações e os testes, onde seria possível observar se a odometria feita seria suficiente para localizar cada robô do sistema multiagente com precisão e tornar a solução viável. Deve-se levar em consideração que para tanto, foram utilizados os \emph{encoders} óticos acoplados aos motores do \emph{kit Lego Mindstorms\textregistered} os quais possuem uma imprecisão que é da ordem de $\pm$ 1 grau por rotação. 
+Após modelar o problema, foram feitas as implementações e os testes, onde seria possível observar se a odometria feita seria suficiente para localizar cada robô do sistema multiagente com precisão e tornar a solução viável. Deve-se levar em consideração que para tanto, foram utilizados os \emph{encoders} óticos acoplados aos motores do \emph{kit Lego Mindstorms\textregistered} os quais possuem uma imprecisão que é da ordem de $\pm$ 1 grau por rotação. 
 
-Concomitantemente, foram realizadas simulações, com o auxílio do software \emph{MATLAB$^{\textregistered}$}, a fim de prever e validar a modelagem feita do problema, desconsiderando os problemas práticos como falha na comunicação e falta de sincronismo entre os robôs, erros dos \emph{encoders} e problemas como saturação do motor e derrapagem das rodas. Outro objetivo dessas simulações é possibilitar que se faça uma comparação entre o sistema real e o seu modelo idealizado.
+Concomitantemente, foram realizadas simulações, com o auxílio do software \emph{MATLAB$^{\textregistered}$} a fim de prever e validar a modelagem feita do problema, desconsiderando os problemas práticos como falha na comunicação e falta de sincronismo entre os robôs, erros dos \emph{encoders} e problemas como saturação do motor e derrapagem das rodas. Outro objetivo dessas simulações é possibilitar que se faça uma comparação entre o sistema real e o seu modelo idealizado.
 
 \section{Modelo Matemático}
 \label{sec:modMatematico}
-Para introduzir a dinâmica dos robôs móveis utilizados, inicialmente o robô será considerado como um uniciclo, um elemento pontual. O comportamento dinâmico de um robô móvel não-holonômico do tipo uniciclo, desconsiderando-se as forças e os torques causadores do movimento, pode ser descrito pelas equações abaixo:
+Para introduzir a dinâmica dos robôs móveis utilizados, inicialmente o robô será considerado como um uniciclo, um elemento pontual. O comportamento dinâmico de um robô móvel não-holonômico do tipo uniciclo, desconsiderando-se as forças e os torques causadores do movimento, é comumente descrito pelas equações abaixo, como na tese do \citeonline{vieira2005}:
 
 \begin{equation}
 	\dot{x} = v\cos(\theta) 
@@ -48,20 +48,33 @@ sendo:
 	\item $v$ e $\omega$ indicam a velocidade linear e angular do robô, respectivamente, que são as entradas desse sistema dinâmico.	
 \end{itemize}
 
-Derivadas dessas equações, surgem as equações (\ref{eq:posiçãoxreal}), (\ref{eq:posiçãoyreal}) e (\ref{eq:posiçãothetareal}) modeladas com base no robô real, que não é um elemento pontual no espaço e sim, um robô diferencial de duas rodas com uma restrição não holonômica. Elas serão utilizadas para gerar as trajetórias dos robôs no ambiente \emph{MATLAB$^{\textregistered}$} e verificar se elas são compatíveis com o caminho percorrido pelos robôs no mundo real. 
+A discretização das equações \ref{eq:posiçãox}, \ref{eq:posiçãoy} e \ref{eq:posiçãotheta}: 
+\begin{equation}
+x_{k+1} = x_{k} + Tv_{k}\cos(\theta_{k}) 
+\label{eq:posiçãoxdisc}
+\end{equation}
+\begin{equation}
+y_{k+1} = y_{k} + Tv_{k}\sin(\theta_{k})
+\label{eq:posiçãoydisc}
+\end{equation}
+\begin{equation}
+\theta_{k+1} = \theta_{k} + T\omega_{k}
+\label{eq:posiçãothetadisc}
+\end{equation}
+permitem obter as equações (\ref{eq:posiçãoxreal}), (\ref{eq:posiçãoyreal}) e (\ref{eq:posiçãothetareal}) modeladas com base no robô real, que não é um elemento pontual no espaço e sim, um robô diferencial de duas rodas com uma restrição não holonômica. Elas serão utilizadas para gerar as trajetórias dos robôs no ambiente \emph{MATLAB$^{\textregistered}$} e verificar se elas são compatíveis com o caminho percorrido pelos robôs no mundo real. 
 
-As equações que descrevem a posição do robô em função dos giros de cada roda são dadas por:
+As equações discretas que descrevem a posição do robô em função dos giros de cada roda são dadas por:
 \begin{subequations}
 	\begin{equation}
-	x_{k+1} = x_{k} + \dfrac{D_{r} + D_{l}}{2}\cos(\theta_{k}) 
+	x_{k+1} = x_{k} + \left (\dfrac{D_{r} + D_{l}}{2} \right) \cos(\theta_{k}) 
 	\label{eq:posiçãoxreal}
 	\end{equation}
 	\begin{equation}
-	y_{k+1} = y_{k} + \dfrac{D_{r} + D_{l}}{2}\sin(\theta_{k}) 
+	y_{k+1} = y_{k} + \left(\dfrac{D_{r} + D_{l}}{2}\right)\sin(\theta_{k}) 
 	\label{eq:posiçãoyreal}
 	\end{equation}
 	\begin{equation}
-	\theta_{k+1} = \theta_{k} + \dfrac{D_{r} - D_{l}}{L}
+	\theta_{k+1} = \theta_{k} + \left(\dfrac{D_{r} - D_{l}}{L}\right)
 	\label{eq:posiçãothetareal}
 	\end{equation}
 	\label{eq:posicaorealEnc}
@@ -74,11 +87,11 @@ sendo, $y_{k+1}$ e $y_{k}$ a coordenada $y$ do robô no instante $k$ e no instan
 %	\item $L$ o tamanho do eixo das rodas do robô;
 %\end{itemize}
 
-Em que a \autoref{eq:posiçãoxreal} indica que a posição atual do robô em $x$ é igual a posição do robô anterior em $x$ mais a média da distância percorrida por ambas as rodas multiplicado pelo cosseno do ângulo de orientação anterior do robô. Analogamente, a \autoref{eq:posiçãoyreal} descreve a posição em $y$ atual do robô como a posição em $y$ anterior do robô mais a média das distâncias percorridas pelas rodas multiplicada pelo seno do ângulo de orientação do robô no instante anterior. Já a \autoref{eq:posiçãothetareal} indica que o ângulo atual de orientação do robô é igual ao ângulo anterior mais a diferença entre a distância percorrida pelas rodas divido sobre a distância entre as rodas. 
+Em que a \autoref{eq:posiçãoxreal} indica que a posição atual do robô em $x$ é igual a posição do robô anterior em $x$ mais a distância percorrida pelo centro de massa do robô, que é dada pela média da distância percorrida por ambas as rodas, multiplicado-se essa distância pelo cosseno do ângulo de orientação anterior do robô. Analogamente, a \autoref{eq:posiçãoyreal} descreve a posição em $y$ atual do robô como a posição em $y$ anterior do robô mais a média das distâncias percorridas pelas rodas multiplicada pelo seno do ângulo de orientação do robô no instante anterior. Já a \autoref{eq:posiçãothetareal} indica que o ângulo atual de orientação do robô é igual ao ângulo anterior mais a diferença entre a distância percorrida pelas rodas divido sobre a distância entre as rodas. 
 
 Tendo em vista que a odometria será feita utilizando-se os \emph{encoders} da própria plataforma e o sistema será realimentado com essas medidas, é de extrema importância que a trajetória descrita no mundo real e a registrada pelo robô, utilizando-se os \emph{encoders}, sejam significativamente semelhantes. Caso contrário, a realimentação do sistema estará incorreta, comprometendo seriamente, e por que não dizer inviabilizando, o controle do sistema. 
 
-Dado que a velocidade linear e angular de um robô como o do modelo utilizado neste trabalho é dada pela velocidade angular de cada uma das suas rodas unidirecionais, tem-se nas equações (\ref{eq:vConv}) e (\ref{eq:wConv}) a função que descreve a velocidade linear e angular do robô a partir da velocidade angular de suas rodas. Em que a velocidade linear é dada por
+Dado que a velocidade linear e angular de um robô como o do modelo utilizado neste trabalho é dada pela velocidade angular de cada uma das suas rodas unidirecionais, tem-se nas equações (\ref{eq:vConv}) e (\ref{eq:wConv}) as funções que descrevem a velocidade linear e angular do robô a partir da velocidade angular de suas rodas. Em que a velocidade linear é dada por
 \begin{equation}
 	v = \dfrac{(\omega_{r} + \omega_{l}) rp}{2}
 	\label{eq:vConv}
@@ -111,7 +124,7 @@ Considerando-se \emph{N} robôs separados por uma distância $\Delta$$y$ no eixo
 	\label{fig:p1}
 \end{figure}
 
-Para alinhar os robôs pode-se usar diferente equações para se definir o erro de posicionamento do robô. Embora não seja a intenção deste trabalho implementar uma rede distribuída, uma forma interessante de se fazer isto é levar em consideração uma rede distribuída, onde um robô não possui a localização de todos os outros robôs e não precisa de uma dependência com um determinado mestre. Desta forma, podemos definir os erros entre os robôs vizinhos conforme a estrutura da rede, como será explicado mais a diante.
+Para alinhar os robôs pode-se usar diferente equações para se definir o erro de posicionamento do robô. Embora não seja a intenção deste trabalho implementar uma rede distribuída, uma forma interessante de se fazer isto é levar em consideração uma rede deste tipo, onde um robô não possui a localização de todos os outros robôs e não precisa de uma dependência com um determinado mestre. Desta forma, podemos definir os erros entre os robôs vizinhos conforme a estrutura da rede, como será explicado mais a diante.
 
 Existem diversos tipos de estruturas de rede como mostrado na \autoref{fig:redes}, em que cada círculo indica um robô e as setas indicam a comunicação que ocorre entre eles. Ou seja, na \autoref{fig:redeserial1} o robô 1 troca mensagens somente com o robô 2, que por sua vez, troca mensagens com o robô 1 e 3 e assim sucessivamente. Na \autoref{fig:redenxt} a rede é como a implementada neste trabalho, em que o mestre se comunica com todos os escravos e os escravos não trocam mensagem entre sí. Já na \autoref{fig:rededistr} a rede é descentralizada, o robô 1 troca mensagens com o robô 2 e 3. O robô 3 por sua vez, troca mensagens com o robô 4 e 5. E por fim, na \autoref{fig:redeisolada} há duas redes, sendo que uma não troca mensagem com a outra.
 \begin{figure}[!htb]
@@ -144,7 +157,7 @@ Existem diversos tipos de estruturas de rede como mostrado na \autoref{fig:redes
 	\label{fig:redes}
 \end{figure}
 
-Sendo assim, uma forma de se alinhar a tropa seria definir a velocidade de cada $robô_{j}$ de acordo com o erro entre a sua posição e a posição dos robôs vizinhos, aqueles com os quais o $robô_{j}$ troca mensagens.Assim, a velocidade do j-ésimo robô é dada por:
+Sendo assim, uma forma de se alinhar a frota seria definir a velocidade de cada robô$_{j}$ de acordo com o erro entre a sua posição e a posição dos robôs vizinhos, aqueles com os quais o robô$_{j}$ troca mensagens.Assim, a velocidade do j-ésimo robô é dada por:
 \begin{equation}
 	v_{j} = v_{d} + k_{j} \sum\limits_{i = 1}^{n_{j}} e_{i,j}
 	\label{eq:velP1}
@@ -183,7 +196,7 @@ erro_{i,j} = x_{i} - x_{j}
 \label{eq:errp1}
 \end{equation}
 
- Essas equações fazem com que o robô mais adiantado da frotas e desloque com uma velocidade menor que os outros robôs, tendendo a se aproximar dos mesmos; em contrapartida os robôs que estão "atrasados" se deslocam com uma velocidade maior, até que o erro entre eles seja zero e os mesmos caminhem com velocidade constante. 
+ Essas equações fazem com que o robô mais adiantado da frotas e desloque com uma velocidade menor que os outros robôs, tendendo a se aproximar dos mesmos; em contrapartida os robôs que estão "atrasados" \hspace{2pt} se deslocam com uma velocidade maior, até que o erro entre eles seja zero e os mesmos caminhem com velocidade constante. 
 
 É importante notar que ao abordar o problemas desta maneira elimina-se a possibilidade de colisão entre os robôs, que estão inicialmente separados no eixo y e alinhados no mesmo sentido, e assim seguem, visto que os mesmos não imprimem velocidade angular. Desta forma, tem-se um problema bem didático para ser abordado inicialmente. %Posteriormente, será mostrado como o  problema pode ser abordado desconsiderando a restrição de estarem separados inicialmente. %sendo abordado de outra forma.
 
@@ -196,12 +209,12 @@ onde:
 \begin{itemize}
 	\item $x_{frota}$ é um vetor com todas as coordenadas do eixo $x$ dos robôs da frota; 
 \end{itemize}
-Em que o valor de $x$ desejado ($x_{d}$) é a media das posições entre os robôs mais distantes entre si (considerando-se o posicionamento com relação ao eixo das abscissas). Todos os robôs devem alcançar a posição $(x_{d},y_{j})$, em que o valor de $y_{j}$ é a coordenada vertical do j-ésimo robô,sendo que $y_{p} \neq y_{q}$, se $p \neq q$. Sendo assim, todos os robôs seriam alinhados e a partir dai seguiriam em linha reta, cumprindo o objetivo.
+Em que o valor de $x$ desejado ($x_{d}$) é a media das posições entre os robôs mais distantes entre si (considerando-se o posicionamento com relação ao eixo das abscissas). Todos os robôs devem alcançar a posição $(x_{d},y_{j})$, em que o valor de $y_{j}$ é a coordenada vertical do j-ésimo robô, sendo que $y_{p} \neq y_{q}$, se $p \neq q$. Sendo assim, todos os robôs seriam alinhados e a partir dai seguiriam em linha reta, cumprindo o objetivo.
 
 \section{Problema 2: Circulando um alvo}
 
 %O segundo problema consistem em dado um alvo de posiçao $(x,y)$ no plano, a frota deve se locomover até o alvo e o circular, mantendo uma distância $R$ do alvo, com determinada velocidade angular que deve variar de acordo com o tamanho da frota.  
-O segundo problema consiste em guiar um time de robôs a localizar e circular, a uma distância \emph{R}, um alvo localizado em uma determinada posição (\emph{x,y}) do plano, como mostrado na \autoref{fig:esq2}. E tem como objetivo secundário ajustar a formação da tropa de robôs que deve se reajustar de acordo com o número de robôs \emph{N}, para que continue cobrindo com eficiência a fronteira. Ou seja, caso um ou mais robôs saiam da rede, a frota irá se reajustar para que cada robô tenha a mesma distância entre si e assim, não fique uma grande parte da fronteira sem cobertura, como demostrado na \autoref{fig:sistema}, que representa uma frota de quatro robôs andando ao redor do alvo, quando então, um dos robôs falha. O sistema, então, se reajusta para adaptar-se à rede de apenas três robôs.
+O segundo problema consiste em guiar um time de robôs a localizar e circular, a uma distância \emph{R}, um alvo localizado em uma determinada posição (\emph{x,y}) do plano, como mostrado na \autoref{fig:esq2}. E tem como objetivo secundário ajustar a formação da tropa de robôs que deve se reajustar de acordo com o número de robôs \emph{N}, para que continue cobrindo com eficiência a fronteira, ou seja, caso um ou mais robôs saiam da rede, a frota irá se reajustar para que cada robô tenha a mesma distância entre si e assim, não fique uma grande parte da fronteira sem cobertura, como demostrado na \autoref{fig:sistema}, que representa uma frota de quatro robôs andando ao redor do alvo, quando então, um dos robôs falha. O sistema, então, se reajusta para adaptar-se à rede de apenas três robôs.
 
 \begin{figure}[!htb]
 	\centering
@@ -244,7 +257,7 @@ sendo:
 	\item $j$ é a numeração do robô na frota. 
 \end{itemize}
 
-À medida que o sistema se estabiliza, a trajetória do robô tende a convergir para um movimento circular uniforme ao redor do alvo, conforme está ilustrado na \autoref{fig:sistEst}. Ou seja, a velocidade linear ($v$) tende a se igualar à velocidade angular ($\omega$) vezes o raio ($R$) de distância do alvo. 
+À medida que o sistema se estabiliza, a trajetória do robô tende a convergir para um movimento circular uniforme ao redor do alvo, conforme está ilustrado na \autoref{fig:sistEst}, ou seja, a velocidade linear ($v$) tende a se igualar à velocidade angular ($\omega$) vezes o raio ($R$) de distância do alvo. 
 
 \begin{figure}[!htb]
 	\centering

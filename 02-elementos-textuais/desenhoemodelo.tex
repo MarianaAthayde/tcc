@@ -18,7 +18,7 @@ Faz-se então neste capítulo um detalhamento das malhas de controle utilizadas 
 
 \section{Malha de Controle 1: Velocidade Angular das Rodas}
 \label{sec:malha1 } 
-Como já dito anteriormente neste trabalho, este sistema de controle consiste em um controle de três malhas, e agora será abordada a primeira malha. Ela controla os motores para atingir a velocidade angular desejada de cada roda ($\omega_{dr},\omega_{dl}$). Ou seja, a malha de controle vai receber a velocidade linear e angular que se deseja imprimir no robô e retornar a "potência" que deve ser aplicada a cada um dos motores para se atingir as velocidades desejadas, como pode ser observado na \autoref{fig:malha1}.
+Como já dito anteriormente, este sistema de controle consiste em um controle de três malhas, e agora será abordada a primeira malha. Ela controla os motores para atingir a velocidade angular desejada de cada roda ($\omega_{dr},\omega_{dl}$). Ou seja, a malha de controle vai receber a velocidade linear e angular que se deseja imprimir no robô e retornar a "potência" que deve ser aplicada a cada um dos motores para se atingir as velocidades desejadas, como pode ser observado na \autoref{fig:malha1}.
 
 \begin{figure}[!htb]
 	\centering
@@ -87,9 +87,9 @@ e_{y} = y_{d} - y_{r}
 \label{eq:erry}
 \end{equation}
 
-Através do erro de posicionamento do robô, encontra-se o ângulo de orientação desejado, dado por: %(\emph{$\theta_{d}$}), como mostrado na \autoref{eq:thetad}. 
+Através do erro de posicionamento do robô, encontra-se o ângulo de orientação desejado\footnote{Para fins de implementação é altamente recomendável o uso da função \emph{atan2} que mapeia o ângulo de orientação para o intervalo entre $-\pi$ e $\pi$, contemplando todos os quatro quadrantes do plano $xy$. Essa função é utilizada neste trabalho para calcular o ângulo de orientação desejado e limitar o erro do ângulo de orientação.}, dado por: %(\emph{$\theta_{d}$}), como mostrado na \autoref{eq:thetad}. 
 \begin{equation}
-\theta_{d} = \arctan(\dfrac{e_{y}}{e_{x}})
+\theta_{d} = \arctan\left(\dfrac{e_{y}}{e_{x}}\right)
 \label{eq:thetad}
 \end{equation}
 Então, o erro do ângulo de orientação do robô é obtido, através da %\autoref{eq:errtheta} abaixo.
@@ -112,7 +112,7 @@ O erro do ângulo de orientação (\emph{$e_{\theta}$}) é passado para o contro
 \label{sec:malha3 }
 A malha de controle de formação tem como função estabelecer a comunicação entre os robôs, enviando os dados necessários para que se estabeleça a formação da frota. Além disso, ela utiliza as informações recebidas para estabelecer a posição em que o robô deve assumir naquele instante. Existem duas formas de se fazer esse controle, uma delas consiste em centralizar este controle de formação no mestre e enviar para o restante da frota apenas a posição desejada já calculada; já a outra consiste na troca de informações entre os agentes do sistema sem sobrecarregar o mestre.
 
-No caso do primeiro problema (varredura de área em paralelo), é necessário que cada robô saiba a posição no eixo das abscissas de todos os outros robôs e a partir daí calcule a posição desejada. Ou seja, um determinado robô recebe a posição dos outros robôs da frota e utiliza a \autoref{eq:velP1} para obter a posição desejada do robô naquele instante, que é passada para a malha de controle intermediária, que por sua vez calcula o erro de posicionamento e envia para a malha de controle de velocidade interna as velocidades que devem ser assumidas pelo robô para que o mesmo possa alcançar a posição desejada e cumprir os objetivos estabelecidos. É importante ressaltar que, a depender da rede implementada, como é o caso deste trabalho em que a rede é centralizada e os robôs escravos não se comunicam entre si, essas informações devem ser passadas de um robô para o outro sempre através do mestre. %entre a frota através do mestre.
+No caso do primeiro problema (varredura de área em paralelo), é necessário que cada robô saiba a posição no eixo das abscissas de todos os outros robôs e a partir daí calcule a posição desejada, ou seja, um determinado robô recebe a posição dos outros robôs da frota e utiliza a \autoref{eq:xdp1} para obter a posição desejada do robô naquele instante, que é passada para a malha de controle intermediária, que por sua vez calcula o erro de posicionamento e envia para a malha de controle de velocidade interna as velocidades que devem ser assumidas pelo robô para que o mesmo possa alcançar a posição desejada e cumprir os objetivos estabelecidos. É importante ressaltar que, a depender da rede implementada, como é o caso deste trabalho em que a rede é centralizada e os robôs escravos não se comunicam entre si, essas informações devem ser passadas de um robô para o outro sempre através do mestre. %entre a frota através do mestre.
 
 Já no caso do segundo problema (circulação de um robô), as informações que cada robô deve possuir para assumir a formação da frota são: número de robôs da frota, numeração que aquele robô representa na frota e posição do alvo. A partir daí é possível utilizar as \autoref{eq:posDesejada_p2} para se obter a posição desejada para que aquele robô contribua positivamente para a formação da estrutura da frota. Como pode ser visto na \autoref{eq:posDesejada_p2}, a definição da posição desejada leva em consideração o tempo, o que é um problema na aplicação prática, visto que não há uma sincronia entre os relógios dos robôs. Dessa forma, para contornar este problema, será levado em consideração o relógio do mestre, sendo necessário que essa variável também seja repassada ao restante da frota. 
 
